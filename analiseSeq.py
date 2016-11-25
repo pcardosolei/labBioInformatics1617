@@ -1,6 +1,18 @@
+"""
+  Parte BioPython
+"""
+
 from Bio import Entrez
 from Bio import SeqIO
 from Bio.Blast import NCBIWWW
+from Bio import ExPASy
+from Bio import SwissProt
+
+
+"""
+  Imports genéricos
+"""
+import os
 
 class Feature:
   def __init__(self,ref):
@@ -75,6 +87,8 @@ def locateFeatures():
           aux.addFunction(qualifiers['function'])
         if 'translation' in qualifiers.keys():
           aux.addSeq(qualifiers['translation'][0])
+        if 'note' in qualifiers.keys():
+          aux.addNote(qualifiers['note'][0])
         tag = qualifiers['db_xref'][0]
         dic[tag] = aux
     else:
@@ -89,18 +103,64 @@ def getInfoFeature():
   pass
 
 """
+  UNIPROT Functions
+"""
+def getUniProt():
+  handle = ExPASy.get_sprot_raw("P37032")
+  record = SwissProt.read(handle)
+  for ref in record.references:
+    print(ref.title)
+
+
+"""
 
   BLAST Functions
 
 """
 
+def proteinSequencesToFasta(dic):
+  sum = 0
+  for tag in dic:
+    if hasattr(dic[tag], 'seq'):
+      ofile = open("fastas/"+tag+".fasta", "w")
+      ofile.write(">" + tag + "\n" +dic[tag].seq + "\n")
+      #do not forget to close it
+      ofile.close()
+    else:
+      pass
+
+
+
+"""
+  Criar pastas
+"""
+
+def createFolders(directory):
+  if not os.path.exists(directory):
+    os.makedirs(directory)
+
+"""
+  This is a test
+"""
+def blastProtein(seq):
+  result_handle = NCBIWWW.qblast("blastp","nt",seq)
+  result_handle = open("my_blast.xml")
+
+
+
 def readBlastProtein():
   result_handle = NCBIWWW.qblast("blastn", "nt", "8332116")
-  print(result_handle)
+  print(result_handle) #isto dá como resultado um cStringIO . tenho de por isto a ler com um IO qualquer
+
+
 
 def test():
+  createFolders("fastas")
+
   #readNCBI("history.a61043@alunos.uminho.pt","2873801","3124550")
-  #dic = locateFeatures()
-  readBlastProtein()
+  dic = locateFeatures()
+  proteinSequencesToFasta(dic)
+  #readBlastProtein()
+  #getUniProt()
 
 test()
