@@ -5,9 +5,9 @@ Trabalho prático bio informática
 
 Trabalho Realizado por :
 
-..*Paulo Cardoso 
-..*Daniela Pereira
-..*Ana Ramos
+* Paulo Cardoso 
+* Daniela Pereira
+* Ana Ramos
 
 IF YOU USE ANY OF YOUR FUNCTIONS AT LEAST GIVE SOME CREDIT! 
 
