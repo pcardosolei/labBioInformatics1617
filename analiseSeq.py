@@ -10,9 +10,11 @@ from Bio import SwissProt
 
 
 """
-  Imports genéricos
+  Imports genericos
 """
 import os
+import re
+import time
 
 class Feature:
   def __init__(self,ref):
@@ -33,18 +35,6 @@ class Feature:
   def addSeq(self,seq):
     self.seq = seq
 
-  #e preciso testar as seguintes funcoes
-  def getFunction(self):
-    return self.function
-
-  def getNote(self):
-    return self.note
-
-  def getLocusTag(self):
-    return self.locus_tag
-
-  def getSeq(self):
-    return self.seq
 
 """ ###########
 
@@ -53,13 +43,16 @@ class Feature:
 
 """
   Ler a sequencia do NCBI
+
+  parametros - utilizador , posicao inicial da sequencia , posicao final da sequencia
 """
 def readNCBI(user,startSeq,stopSeq):
   Entrez.email = user
   handle = Entrez.efetch(db="nucleotide",id="NC_002942.5",rettype="gbwithparts",retmode="text",seq_start=startSeq,seq_stop=stopSeq)
   return handle
 
-# escrever a sequencia para um ficherio
+# escrever a sequencia para um ficheiro
+
 def writeSequence(user,startSeq,stopSeq):
   handle = readNCBI(user,startSeq,stopSeq)
   record = SeqIO.read(handle,"genbank")
@@ -96,9 +89,8 @@ def locateFeatures():
   return dic
 
 """
-  Funcao para obter valores adicionais de cada um dos genes
+  Funcao para obter valores adicionais de cada um dos genes -- ja nao me lembro onde xD
 """
-
 def getInfoFeature():
   pass
 
@@ -113,13 +105,10 @@ def getUniProt():
 
 
 """
-
   BLAST Functions
-
 """
 
 def proteinSequencesToFasta(dic):
-  sum = 0
   for tag in dic:
     if hasattr(dic[tag], 'seq'):
       ofile = open("fastas/"+tag+".fasta", "w")
@@ -130,17 +119,61 @@ def proteinSequencesToFasta(dic):
       pass
 
 
+#http://biopython.org/DIST/docs/api/Bio.Blast.NCBIWWW-module.html
+# ESTUDAR ESTE LINK PARA VER OS PARAMETROS QUE INTERESSAM
+
+def fastaToBlastFile(fasta):
+  ofile = open(fasta,"r")
+  seq = ""
+  for line in ofile:
+    seq += line
+  result_handle = NCBIWWW.qblast("blastp", "nr",seq)
+  name = os.path.basename(fasta)
+  blastFile = open("blasts/"+os.path.splitext(name)[0]+".xml","w")
+  blastFile.write(result_handle.read())
+  blastFile.close()
+  result_handle.close()
+  ofile.close()
+
+
+
+
+def blastAllSeq(folder):
+  sum = 0
+  fastas = []
+  fastas += [each for each in os.listdir(folder) if each.endswith('.fasta')]
+
+  for fasta in fastas:
+    fastaToBlastFile(fasta)
+    sum += 1
+    time.sleep(300) #pausar a funcao por 5 minutos para nao estourar
+  print("Foram tratadas {} sequencias".format(sum))
 
 """
-  Criar pastas
+  SWISS PROT Function
 """
 
-def createFolders(directory):
-  if not os.path.exists(directory):
-    os.makedirs(directory)
+# not working não apanha a tag da legionella
+def getSwissProtInfo(tag):
+  handle = ExPASy.get_sprot_raw(tag)
+  html_results = handle.read()
+  ofile = open("teste.html","wb")
+  ofile.write(html_results)
+  ofile.close()
+
 
 """
-  This is a test
+  Create folders
+"""
+def createFolders(directories):
+  for directory in directories:
+    if not os.path.exists(directory):
+      os.makedirs(directory)
+
+
+
+"""
+  Testes que ainda necessitam de ser vistos
 """
 def blastProtein(seq):
   result_handle = NCBIWWW.qblast("blastp","nt",seq)
@@ -153,14 +186,22 @@ def readBlastProtein():
   print(result_handle) #isto dá como resultado um cStringIO . tenho de por isto a ler com um IO qualquer
 
 
-
-def test():
-  createFolders("fastas")
+"""
+  MAIN
+"""
+def main():
+  #folders = ["fastas","blasts"]
+  #createFolders(folders)
 
   #readNCBI("history.a61043@alunos.uminho.pt","2873801","3124550")
-  dic = locateFeatures()
-  proteinSequencesToFasta(dic)
+  #dic = locateFeatures()
+  #proteinSequencesToFasta(dic)
+
+  fastaToBlastFile("fastas/GeneID:19834107.fasta")
+  #blastAllSeq("fastas")
+  #getSwissProtInfo("UP000000609")
+
   #readBlastProtein()
   #getUniProt()
 
-test()
+main()
