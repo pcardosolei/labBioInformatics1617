@@ -35,6 +35,9 @@ class Feature:
   def addSeq(self,seq):
     self.seq = seq
 
+  def addProteinID(self,ident):
+    self.id = ident
+
 
 """ ###########
 
@@ -82,6 +85,8 @@ def locateFeatures():
           aux.addSeq(qualifiers['translation'][0])
         if 'note' in qualifiers.keys():
           aux.addNote(qualifiers['note'][0])
+        if 'protein_id' in qualifiers.keys():
+          aux.addProteinID(qualifiers['protein_id'][0])
         tag = qualifiers['db_xref'][0]
         dic[tag] = aux
     else:
@@ -92,6 +97,10 @@ def locateFeatures():
   Funcao para obter valores adicionais de cada um dos genes -- ja nao me lembro onde xD
 """
 def getInfoFeature():
+  pass
+
+
+def getProteinFeatures():
   pass
 
 """
@@ -170,7 +179,30 @@ def createFolders(directories):
     if not os.path.exists(directory):
       os.makedirs(directory)
 
+"""
+  Guardar informacao genes
+"""
 
+def saveGenes(dictionary):
+  ofile = open("genes.txt","w")
+  for gene in dictionary:
+    txt = stringInfo(dictionary[gene])
+    ofile.write(gene+"\n")
+    ofile.write(txt)
+  ofile.close()
+
+def stringInfo(feature):
+  text = ""
+  if hasattr(feature,"locus_tag"):
+    text += "Locus_tag: "+ feature.locus_tag + "\n"
+  if hasattr(feature,"function"):
+    text += "Function: "+ ''.join(feature.function) + "\n"
+  if hasattr(feature,"note"):
+    text += "Note: " + feature.note + "\n"
+  if hasattr(feature,"id"):
+    text += "Protein_id: " + feature.id + "\n"
+  text += " \n"
+  return text
 
 """
   Testes que ainda necessitam de ser vistos
@@ -194,10 +226,11 @@ def main():
   #createFolders(folders)
 
   #readNCBI("history.a61043@alunos.uminho.pt","2873801","3124550")
-  #dic = locateFeatures()
+  dic = locateFeatures()
   #proteinSequencesToFasta(dic)
 
-  fastaToBlastFile("fastas/GeneID:19834107.fasta")
+  saveGenes(dic)
+  #fastaToBlastFile("fastas/GeneID:19834107.fasta")
   #blastAllSeq("fastas")
   #getSwissProtInfo("UP000000609")
 
