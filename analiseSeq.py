@@ -38,7 +38,8 @@ class Feature:
   def addProteinID(self,ident):
     self.id = ident
 
-
+  def addProduct(self,prod):
+    self.product = prod
 """ ###########
 
   Aspetos gerais na analise da sequencia e features presentes na NCBI
@@ -87,6 +88,8 @@ def locateFeatures():
           aux.addNote(qualifiers['note'][0])
         if 'protein_id' in qualifiers.keys():
           aux.addProteinID(qualifiers['protein_id'][0])
+        if 'product' in qualifiers:
+          aux.addProduct(qualifiers['product'][0])
         tag = qualifiers['db_xref'][0]
         dic[tag] = aux
     else:
@@ -201,6 +204,8 @@ def stringInfo(feature):
     text += "Note: " + feature.note + "\n"
   if hasattr(feature,"id"):
     text += "Protein_id: " + feature.id + "\n"
+  if hasattr(feature,"product"):
+    text += "Product: " + feature.id + "\n"
   text += " \n"
   return text
 
