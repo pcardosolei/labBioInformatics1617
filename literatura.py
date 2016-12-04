@@ -1,6 +1,12 @@
 from Bio import Entrez
 from Bio import Medline
 
+import os
+import json
+
+"""
+  Esta funcao serve para encontrar os IDs do artigos que estão relacionados com a frase colocada
+"""
 def obterListaTermo(user,termo,num):
   Entrez.email = user
   handle = Entrez.egquery(term=termo, usehistory="y")
@@ -22,30 +28,49 @@ def obterListaTermo(user,termo,num):
   idList = record["IdList"] #todos os ids com o termo legionella
   return idList
 
-
-def recordIdList(user,termo,num):
-  idList = obterListaTermo(user,termo,num)
-  if idList == -1:
-    print("Não existem artigos")
-  else:
-    print(idList)
-
+"""
+  Funcao para obter informacao do artigo a partir do ids da funcao em cima
+"""
 def recordMedline(user,termo,num):
   idList = obterListaTermo(user,termo,num)
   if idList == -1:
     print("Não existem artigos")
+    return -1
   else:
     handle = Entrez.efetch(db="pubmed",id=idList,rettype="medline",retmode="text", usehistory="y")
     records = Medline.parse(handle)
     # transformar isto numa lista
     records = list(records)
     print(records)
-
-def test():
-  recordMedline("history.a61043@alunos.uminho.pt","Legionella gene",10)
-
-test()
+    return records
 
 """
-  VER a Literatura associada com o mesmo
+  Gravar Ficheiro Literatura
 """
+def saveLiteratura(termo,records):
+  ofile = open("literatura/"+termo+".txt","w")
+  ofile.write(termo+"\n\n")
+  for record in records:
+    ofile.write(json.dumps(record)+"\n\n")
+  ofile.close()
+
+"""
+  Criar pasta Literatura
+"""
+def createFolder(directory):
+    if not os.path.exists(directory):
+      os.makedirs(directory)
+
+"""
+  Zona de teste
+"""
+def main():
+  termo = "Legionella gene" #frase a usar nas pesquisas
+  createFolder("literatura")
+  records = recordMedline("history.a61043@alunos.uminho.pt",termo,10)
+  saveLiteratura(termo,records)
+
+########
+main()
+
+
