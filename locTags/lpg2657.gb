@@ -1,0 +1,131 @@
+LOCUS       YP_096662                751 aa            linear   CON 03-AUG-2016
+DEFINITION  ferrous iron transport protein B [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096662
+VERSION     YP_096662.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 751)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 751)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 751)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28715.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..751
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..751
+                     /calculated_mol_wt="82413"
+                     /function="Transport and binding"
+                     /product="ferrous iron transport protein B"
+     Region          6..736
+                     /db_xref="CDD:236563"
+                     /note="ferrous iron transport protein B; Reviewed;
+                     PRK09554"
+                     /region_name="feoB"
+     Region          6..167
+                     /db_xref="CDD:206667"
+                     /note="Ferrous iron transport protein B (FeoB) family;
+                     cd01879"
+                     /region_name="FeoB"
+     Site            8..15
+                     /db_xref="CDD:206667"
+                     /note="G1 box"
+                     /site_type="other"
+     Site            order(11,13..16,118..119,121,147..149)
+                     /db_xref="CDD:206667"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /site_type="other"
+     Site            34..38
+                     /db_xref="CDD:206667"
+                     /note="Switch I region"
+                     /site_type="other"
+     Site            35
+                     /db_xref="CDD:206667"
+                     /note="G2 box"
+                     /site_type="other"
+     Site            54..57
+                     /db_xref="CDD:206667"
+                     /note="G3 box"
+                     /site_type="other"
+     Site            order(57..61,66..79,83..84)
+                     /db_xref="CDD:206667"
+                     /note="Switch II region"
+                     /site_type="other"
+     Site            118..121
+                     /db_xref="CDD:206667"
+                     /note="G4 box"
+                     /site_type="other"
+     Site            147..149
+                     /db_xref="CDD:206667"
+                     /note="G5 box"
+                     /site_type="other"
+     Region          346..437
+                     /db_xref="CDD:284976"
+                     /note="Nucleoside recognition; pfam07670"
+                     /region_name="Gate"
+     Region          450..498
+                     /db_xref="CDD:284972"
+                     /note="Ferrous iron transport protein B C terminus;
+                     pfam07664"
+                     /region_name="FeoB_C"
+     Region          508..>600
+                     /db_xref="CDD:284976"
+                     /note="Nucleoside recognition; pfam07670"
+                     /region_name="Gate"
+     CDS             1..751
+                     /coded_by="complement(NC_002942.5:3004193..3006448)"
+                     /transl_table=11
+ORIGIN
+        1 mthallignp ncgkttlfna ltnanqrvgn wpgvtvekkt gefllgehli eitdlpgvys
+       61 lvanaegisq deqiaaqsvi dleydciinv idachlerhl yltsqlfelg kpvvvalnmm
+      121 diaehrgisi dteklesllg csvipiqahk nigipalqqs llhcsqkikp lklslsvaaq
+      181 qilndlenql iskgyknsfa yyfsrrlaeg dtligekaft eslliklqet eqnldvllad
+      241 aryqkiheiv tlvqkkhsda sehftakldk lvlhrflalp iffammylmf lfainiggaf
+      301 qdffdistet ifvqgsgwll qqlhaphwvi alvangvgkg inttitfipv iaamffflsl
+      361 letsgymara afvvdkamra mglpgksfvp mivgfgcnvp aimaartlds erdrlltvmm
+      421 spfmscsarl aiyavfvaaf fpsgghnvvf slyligilma vftgyilrkt tlkghaspli
+      481 lelpayhrps lrrllretsm rlrffvyrag kliipicvil gglnaitwgg gissgeantd
+      541 sllsimgqwi tplfapmgih qdnwpatvgl ltgmlakevv vgtlnslyaq vghvgeiaaa
+      601 hfdfwggika afgsipanls elgsalwnpv sasaadsels qsvygimsrr fdgavgayay
+      661 llfvllyipc vstmavirqe ankrfmwtsi vwsfvvayat svvfyqgakf ldhpqqsmvw
+      721 ilamslsllf vlavfrysqy gmgrqnaaan t
+//

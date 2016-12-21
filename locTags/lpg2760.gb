@@ -1,0 +1,95 @@
+LOCUS       YP_096758                242 aa            linear   CON 03-AUG-2016
+DEFINITION  DNA-binding response regulator [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096758
+VERSION     YP_096758.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 242)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 242)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 242)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28811.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..242
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..242
+                     /calculated_mol_wt="28178"
+                     /function="Signal transduction / other regulatory
+                     functions, Transcription factors / DNA binding proteins"
+                     /product="DNA-binding response regulator"
+     Region          7..229
+                     /db_xref="CDD:131209"
+                     /note="phosphate regulon transcriptional regulatory protein
+                     PhoB; TIGR02154"
+                     /region_name="PhoB"
+     Region          <69..112
+                     /db_xref="CDD:238088"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /region_name="REC"
+     Site            101..103
+                     /db_xref="CDD:238088"
+                     /note="dimerization interface [polypeptide binding]"
+                     /site_type="other"
+     Region          138..228
+                     /db_xref="CDD:294013"
+                     /note="DNA-binding effector domain of two-component system
+                     response regulators; cd00383"
+                     /region_name="trans_reg_C"
+     Site            order(158,177..178,196,199,207..208,220,225)
+                     /db_xref="CDD:294013"
+                     /note="DNA binding site [nucleotide binding]"
+                     /site_type="DNA binding"
+     CDS             1..242
+                     /coded_by="NC_002942.5:3110820..3111548"
+                     /transl_table=11
+ORIGIN
+        1 mmsqrhyllf idnepvseel kdyfekfnld iiqqkklfpi hvekglptai linwsilrae
+       61 pevieqfynm ypvplivinn kpdeessvam leagaddfmt kpiyprelha rigaisrrvm
+      121 raqqkldhgk evlmfanwrl ypasrqvfge nneelqlsag eydllltfvq qpqrvldref
+      181 llqitkntdl vpfdrridvq isrlrqkiei dkkkpalikt irnggymfta rvvtlkesda
+      241 tl
+//

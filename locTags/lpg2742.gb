@@ -1,0 +1,121 @@
+LOCUS       YP_096745                410 aa            linear   CON 03-AUG-2016
+DEFINITION  multifunctional tRNA nucleotidyl transferase/2'3'-cyclic
+            phosphodiesterase/2'nucleotidase/phosphatase [Legionella pneumophila
+            subsp. pneumophila str. Philadelphia 1].
+ACCESSION   YP_096745
+VERSION     YP_096745.2
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 410)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 410)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 410)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAU28798.
+            On Dec 4, 2007 this sequence version replaced gi:52842946.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..410
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..410
+                     /calculated_mol_wt="47045"
+                     /function="Translation"
+                     /product="multifunctional tRNA nucleotidyl
+                     transferase/2'3'-cyclic
+                     phosphodiesterase/2'nucleotidase/phosphatase"
+     Region          1..410
+                     /db_xref="CDD:182810"
+                     /note="multifunctional tRNA nucleotidyl
+                     transferase/2'3'-cyclic
+                     phosphodiesterase/2'nucleotidase/phosphatase; Reviewed;
+                     PRK10885"
+                     /region_name="cca"
+     Region          1..118
+                     /db_xref="CDD:143388"
+                     /note="Nucleotidyltransferase (NT) domain of ClassII
+                     CCA-adding enzymes; cd05398"
+                     /region_name="NT_ClassII-CCAase"
+     Site            order(7..8,11..12,21,23,57,62,90..93,96)
+                     /db_xref="CDD:143388"
+                     /site_type="active"
+     Site            order(7..8,11,21,23,90..92,96)
+                     /db_xref="CDD:143388"
+                     /note="NTP binding site [chemical binding]"
+                     /site_type="other"
+     Site            order(21,23,57)
+                     /db_xref="CDD:143388"
+                     /note="metal binding triad [ion binding]"
+                     /site_type="metal-binding"
+     Region          149..214
+                     /db_xref="CDD:289399"
+                     /note="Probable RNA and SrmB- binding site of polymerase A;
+                     pfam12627"
+                     /region_name="PolyA_pol_RNAbd"
+     Region          228..327
+                     /db_xref="CDD:280193"
+                     /note="HD domain; pfam01966"
+                     /region_name="HD"
+     Site            256
+                     /db_xref="CDD:238032"
+                     /note="Mg2+ binding site [ion binding]"
+                     /site_type="other"
+     CDS             1..410
+                     /coded_by="complement(NC_002942.5:3091938..3093170)"
+                     /note="catalyzes the addition and repair of the essential
+                     3'-terminal CCA sequence in tRNAs without using a nucleic
+                     acid template; phosphohydrolase activities include
+                     hydrolysis of pyrophosphate, 5'-nucleoside tri- and
+                     diphosphates, NADP, and 2'-AMP with the production of Pi,
+                     metal-dependent phosphodiesterase activity for 2',3'-cAMP,
+                     2',3'-cGMP, and 2',3'-cCMP, and hydrolysis 2',3'-cyclic
+                     substrates with the formation of 2'-nucleotides and
+                     3'-nucleotides; these phosphohydrolase activities are
+                     probably involved in the repair of the tRNA 3'-CCA terminus
+                     degraded by intracellular RNases"
+                     /transl_table=11
+ORIGIN
+        1 mkvylvggav rdrllgipvq eqdwvvvgat peellkrkyr qvgrdfpvfl hpetkeeyal
+       61 arterksapg yygficdfse svtleedlar rdltinamam deqgnlidpy qgqrdleekl
+      121 lrhvssafve dpvrvlrvar fasrfhhlgf rianetrllm ysmvkqgela hlipervwqe
+      181 wqksleeknp eqfilslrsc dalrvilpei nslfgvpnph qyhqeidtgi hslmtlrass
+      241 elseeplvrf aalvhdlgka stpiqawpkh hgheeegtkl iralcarlri pndyrdlavt
+      301 varahlnihr lcelrpntiv klleqvdafr rpqlfhkili acqadaescg ktvvyrqtql
+      361 wneilsecvk vtpqtfivqg yegkaikeam hqsrvacver imtswksnek
+//

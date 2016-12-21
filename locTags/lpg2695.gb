@@ -1,0 +1,88 @@
+LOCUS       YP_096700                353 aa            linear   CON 03-AUG-2016
+DEFINITION  heptosyl transferase glycosyltransferase 9 protein [Legionella
+            pneumophila subsp. pneumophila str. Philadelphia 1].
+ACCESSION   YP_096700
+VERSION     YP_096700.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 353)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 353)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 353)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28753.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..353
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..353
+                     /calculated_mol_wt="39440"
+                     /function="Cell envelope synthesis, Metabolism of Complex
+                     Carbohydrates"
+                     /product="heptosyl transferase glycosyltransferase 9
+                     protein"
+     Region          10..345
+                     /db_xref="CDD:223928"
+                     /note="ADP-heptose:LPS heptosyltransferase [Cell
+                     wall/membrane/envelope biogenesis]; COG0859"
+                     /region_name="RfaF"
+     Region          12..344
+                     /db_xref="CDD:99964"
+                     /note="Lipopolysaccharide heptosyltransferase is involved
+                     in the biosynthesis of lipooligosaccharide (LOS).
+                     Lipopolysaccharide (LPS) is a major component of the outer
+                     membrane of gram-negative bacteria. LPS heptosyltransferase
+                     transfers heptose molecules from...; cd03789"
+                     /region_name="GT1_LPS_heptosyltransferase"
+     Site            order(184..185,218,250..251,263,266..267,270)
+                     /db_xref="CDD:99964"
+                     /note="putative active site [active]"
+                     /site_type="active"
+     CDS             1..353
+                     /coded_by="complement(NC_002942.5:3047264..3048325)"
+                     /transl_table=11
+ORIGIN
+        1 malvlycrmi ksvcvirlsa lgdvlmlvpl irtlqnklpn aqltwiiskp afylvegmeg
+       61 vefividkpk tladywrfrk qmlprqfdvl lapqasfrtn wlipfikakr kvgydshran
+      121 dghrlfires ispglehtle gflkfaeplg vtekiihwdl pitkadyewa qnhlpeqerp
+      181 ilvvnpaask perswlaery ievlkqaqvk wdvkvvltgg pgdhdkslae eiakeipvvn
+      241 lvgktkpkql laviskakav lcpdtgpshm aaavgtpvva lhavtnpsis gpytfqhlvv
+      301 nrysqaiqtv lgvspeksvw gtqvhgyeam klitvddvme klteifsglm nnt
+//

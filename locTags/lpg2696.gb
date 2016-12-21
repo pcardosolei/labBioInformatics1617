@@ -1,0 +1,84 @@
+LOCUS       YP_096701                321 aa            linear   CON 03-AUG-2016
+DEFINITION  tRNA delta(2)-isopentenylpyrophosphate transferase [Legionella
+            pneumophila subsp. pneumophila str. Philadelphia 1].
+ACCESSION   YP_096701
+VERSION     YP_096701.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 321)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 321)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 321)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAU28754.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..321
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..321
+                     /EC_number="2.5.1.75"
+                     /calculated_mol_wt="36545"
+                     /function="DNA/RNA degradation / restriction, Translation"
+                     /product="tRNA delta(2)-isopentenylpyrophosphate
+                     transferase"
+     Region          9..317
+                     /db_xref="CDD:234626"
+                     /note="tRNA delta(2)-isopentenylpyrophosphate transferase;
+                     Reviewed; PRK00091"
+                     /region_name="miaA"
+     CDS             1..321
+                     /coded_by="complement(NC_002942.5:3048511..3049476)"
+                     /note="IPP transferase; isopentenyltransferase; involved in
+                     tRNA modification; in Escherichia coli this enzyme
+                     catalyzes the addition of a delta2-isopentenyl group from
+                     dimethylallyl diphosphate to the N6-nitrogen of adenosine
+                     adjacent to the anticodon of tRNA species that read codons
+                     starting with uracil; further tRNA modifications may occur;
+                     mutations in miaA result in defects in translation
+                     efficiency and fidelity"
+                     /transl_table=11
+ORIGIN
+        1 mmivgcycmn klvfclmgpt asgktglace llthfpfeii svdsamiyrd mnigtakpsi
+       61 helqraphyl idikdpvesy saaqfctdal slcaeiikrg nipllvggtm myfnalqkgl
+      121 atlpeadeav rkrleeeals qgwdflyqkl sqldpvtaar ihahdtqriq ralevyyltg
+      181 stlstyltgp herpdyyfvn lalfpeqrsw lheriaqrfd amlsegfiee vqqlqakwpi
+      241 qinlpsmrcv gyrqilqhla ghydyetmre kgiaatrqla krqltwlrhw egalfydsqn
+      301 vgfntdiiak ireildntvs n
+//

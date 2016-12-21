@@ -1,0 +1,99 @@
+LOCUS       YP_096636                494 aa            linear   CON 03-AUG-2016
+DEFINITION  aminopeptidase [Legionella pneumophila subsp. pneumophila str.
+            Philadelphia 1].
+ACCESSION   YP_096636
+VERSION     YP_096636.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 494)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 494)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 494)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28689.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..494
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..494
+                     /EC_number="3.4.11.1"
+                     /calculated_mol_wt="53491"
+                     /function="Protein fate / hydrolases / secretion"
+                     /product="aminopeptidase"
+     Region          19..488
+                     /db_xref="CDD:234863"
+                     /note="multifunctional aminopeptidase A; Provisional"
+                     /region_name="PRK00913"
+     Region          25..487
+                     /db_xref="CDD:238247"
+                     /note="Cytosol aminopeptidase family, N-terminal and
+                     catalytic domains. Family M17 contains zinc- and
+                     manganese-dependent exopeptidases (EC 3.4.11.1), including
+                     leucine aminopeptidase. They catalyze removal of amino
+                     acids from the N-terminus of a protein and...; cd00433"
+                     /region_name="Peptidase_M17"
+     Site            order(59..60,68,76,91,188,190..192,237,239,267,273,278,281,
+                     284..285,317,319..322,324,326..330,336,338,342,378..382,
+                     385,411..412,414,419,421..422,427,429,439..440,442,473)
+                     /db_xref="CDD:238247"
+                     /note="interface (dimer of trimers) [polypeptide binding]"
+                     /site_type="other"
+     Site            order(263,268,275,286,345,347,349,373)
+                     /db_xref="CDD:238247"
+                     /note="Substrate-binding/catalytic site"
+                     /site_type="other"
+     Site            order(263,268,286,345,347)
+                     /db_xref="CDD:238247"
+                     /note="Zn-binding sites [ion binding]"
+                     /site_type="other"
+     CDS             1..494
+                     /coded_by="NC_002942.5:2972463..2973947"
+                     /transl_table=11
+ORIGIN
+        1 msfssgagkn imnyglthtp slttseclvl gvfsdlalpd fanaidneqq glikklcqrv
+       61 pepgntvwqt dveghsllii qcgkkeefsa nslqkrvgei tealikqrfs satvclprlt
+      121 qesaewqieq mivqidnlry qlldfktkna kshklesvif hlpgateksl emakaivtgv
+      181 efcrdlanmp anictptylg eqaillskqf dqiscqvmgp eeikemgmga llavaqgsdq
+      241 pprlidvhyh gnknsapvil vgkgitfdsg glsikpanam demkydmsga asvlgvikac
+      301 allklpinli giiasaenli sgsavksgdi vttmsgqtve iintdaegrl vladaltyae
+      361 rynpdfvidi atltgaiiva lgniatgymt rdeqlaksie raanesqdkv wrmpldeayq
+      421 dalespladm inagfdrsag sitaacflsr ftekyrwahl diagtawisg kkrnatgrpv
+      481 plliqllrhv ansr
+//

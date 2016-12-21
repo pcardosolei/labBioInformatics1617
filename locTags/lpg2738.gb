@@ -1,0 +1,86 @@
+LOCUS       YP_096741                395 aa            linear   CON 03-AUG-2016
+DEFINITION  protoporphyrinogen oxidase [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096741
+VERSION     YP_096741.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 395)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 395)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 395)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28794.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..395
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..395
+                     /calculated_mol_wt="45561"
+                     /function="Metabolism of Cofactors and Vitamins"
+                     /product="protoporphyrinogen oxidase"
+     Region          24..385
+                     /db_xref="CDD:273126"
+                     /note="heme biosynthesis-associated TPR protein; TIGR00540"
+                     /region_name="TPR_hemY_coli"
+     Region          26..132
+                     /db_xref="CDD:284604"
+                     /note="HemY protein N-terminus; pfam07219"
+                     /region_name="HemY_N"
+     Region          325..355
+                     /db_xref="CDD:276809"
+                     /note="TPR repeat [structural motif]"
+                     /region_name="TPR repeat"
+     Region          359..387
+                     /db_xref="CDD:276809"
+                     /note="TPR repeat [structural motif]"
+                     /region_name="TPR repeat"
+     CDS             1..395
+                     /coded_by="NC_002942.5:3088490..3089677"
+                     /transl_table=11
+ORIGIN
+        1 mirvlfafii lllsvflgiq lnkdpgyvli ainnwtiett lwvsvfglff lffliyglvq
+       61 fcnkitrmpg mvnkwhsrrl aqkaqattrk glieysegyw qkaknhliqa lpntdtplln
+      121 yltaaraaqk mgdsklrdhy lreaqqsmpe akiaveltqa qlqlanhqwe qalatlkhlq
+      181 dlaprhpyvl kllmnlyeei kdwqqliall pdlkknhiis dqafeqlqkn tylqamidla
+      241 khnqsdgitk lyqtlpktlv ndtaitaeya rflirnqdyd qaeyhlkrcl rkeldnrlie
+      301 lysllpceen qllfaesllk knphsaalyl clgrmclsrh lwgkakhyle qsielnptpv
+      361 afielgklhe klndplssgs cykkglelit kdels
+//

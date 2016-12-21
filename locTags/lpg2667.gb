@@ -1,0 +1,91 @@
+LOCUS       YP_096672                292 aa            linear   CON 03-AUG-2016
+DEFINITION  RNA polymerase factor sigma-32 [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096672
+VERSION     YP_096672.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 292)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 292)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 292)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAU28725.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..292
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..292
+                     /calculated_mol_wt="33490"
+                     /function="Transcription factors / DNA binding proteins"
+                     /product="RNA polymerase factor sigma-32"
+     Region          9..291
+                     /db_xref="CDD:235838"
+                     /note="RNA polymerase factor sigma-32; Reviewed"
+                     /region_name="PRK06596"
+     Region          24..55
+                     /db_xref="CDD:278565"
+                     /note="Sigma-70 factor, region 1.2; pfam00140"
+                     /region_name="Sigma70_r1_2"
+     Region          62..132
+                     /db_xref="CDD:282410"
+                     /note="Sigma-70 region 2; pfam04542"
+                     /region_name="Sigma70_r2"
+     Region          237..287
+                     /db_xref="CDD:282412"
+                     /note="Sigma-70, region 4; pfam04545"
+                     /region_name="Sigma70_r4"
+     Site            order(242,252,260..261,271,273..274,276..278,280..281,283)
+                     /db_xref="CDD:100119"
+                     /note="DNA binding residues [nucleotide binding]"
+                     /site_type="DNA binding"
+     CDS             1..292
+                     /coded_by="complement(NC_002942.5:3014236..3015114)"
+                     /note="binds with the catalytic core of RNA polymerase to
+                     produce the holoenzyme; this sigma factor is responsible
+                     for the expression of heat shock promoters"
+                     /transl_table=11
+ORIGIN
+        1 mlmtggssms qqlqlaamnl pvgsldsyih rvnqipmltl eeeiayaerf hsegdieaar
+       61 qlvlahlryv vrvargylgy glplsdliqe gnvglmkavk rfdpkmgvrl vsfavhwika
+      121 eihefvlrnw rivkvattka qrklffnlrq mknrlgwfsn eevdavakdl gvsredvllm
+      181 eqrlnvmdss ydapdvddnd daykaperyl fnvnddpavl lenedtgdqg rekllfameq
+      241 ldersqdilq qrwlaeeklt lhdlaekygv saervrqlek namkkirqym eg
+//

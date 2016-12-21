@@ -47,7 +47,7 @@ class Feature:
 """ ###########
 
 """
-  Ler a sequencia do NCBI
+  Ler a sequencia do NCBI da legionella
 
   parametros - utilizador , posicao inicial da sequencia , posicao final da sequencia
 """
@@ -56,15 +56,27 @@ def readNCBI(user,startSeq,stopSeq):
   handle = Entrez.efetch(db="nucleotide",id="NC_002942.5",rettype="gbwithparts",retmode="text",seq_start=startSeq,seq_stop=stopSeq)
   return handle
 
-def readProteinTag(user):
-  pass
+"""
+ funcao para ir buscar mais informacoes de cada uma das locus tags
+"""
+def readProteinTag(user, genID):
+  Entrez.email = user
+  handle = Entrez.efetch(db="Genome",id=genID,rettype="gbwithparts",retmode="text")
+  return handle
 
 # escrever a sequencia para um ficheiro
-
 def writeSequence(user,startSeq,stopSeq):
   handle = readNCBI(user,startSeq,stopSeq)
   record = SeqIO.read(handle,"genbank")
-  SeqIO.write(records,"example.gb","genbank")
+  SeqIO.write(record,"teste.gb","genbank")
+
+"""
+  escrever a informacao da locus tag para cada um dos ficheiros
+"""
+def writeProteinTag(user,genID,tag):
+  handle = readProteinTag(user,genID)
+  record = SeqIO.read(handle,"genbank")
+  SeqIO.write(record,"locTags/"+tag+".gb","genbank")
 
 """
   Funcao trabalha com a sequencia.
@@ -72,7 +84,6 @@ def writeSequence(user,startSeq,stopSeq):
 
   Falta talvez adicionar o ID da proteina e mais cenas
 """
-
 def locateFeatures():
   records = SeqIO.read(open("example.gb"),"genbank")
   dic = {}
@@ -110,16 +121,23 @@ def locateFeatures():
 """
   Funcao para obter valores adicionais de cada um dos genes -- ja nao me lembro onde xD
 """
-def getInfoFeature(features):
+def getInfoFeature(feature,tag):
+  user  = "history.a61043@alunos.uminho.pt"
+  if hasattr(feature,"id"):
+    pass
+    #writeProteinTag(user,feature.id,tag)
+  else:
+    #ESTA PARTE DO CODIGO NAO ESTA A SAKAR PARTES CORRECTAS - SAKA GENES DIFERENTES
+    #COLOCAR UM PRINT E SABER QUAIS SAO E USAR A FUNCAO INDIVIDUAL PARA SAKAR OS GENES QUE FALTAM WriteInfoTag
+    genID = re.split(r':',feature.db_xref)
+    writeProteinTag(user,genID,tag)
 
-  pass
-
-
+"""
+  Iterador de cada uma das proteinas na legionella
+"""
 def getProteinFeatures(dic):
   for feature in dic:
-    print(feature)
-    getInfoFeature(feature)
-  pass
+    getInfoFeature(dic[feature],feature)
 
 """
   UNIPROT Functions
@@ -134,7 +152,6 @@ def getUniProt():
 """
   BLAST Functions
 """
-
 def proteinSequencesToFasta(dic):
   for tag in dic:
     if hasattr(dic[tag], 'seq'):
@@ -163,8 +180,9 @@ def fastaToBlastFile(fasta):
   ofile.close()
 
 
-
-
+"""
+  funcao para realizar os blasts as sequencias dos locustag
+"""
 def blastAllSeq(folder):
   sum = 0
   fastas = []
@@ -200,7 +218,6 @@ def createFolders(directories):
 """
   Guardar informacao genes
 """
-
 def saveGenes(dictionary):
   ofile = open("genes.txt","w")
   for gene in dictionary:
@@ -251,20 +268,26 @@ def listProteinTable(dicto):
       flag += 1
 
 """
-
+  Funcao para sakar as informacoes dos genes protein id
 """
+def DownLMissingGenID():
+  dic = {"lpg2746":"19834312","lpg2729":"YP_096732"}
+  user  = "history.a61043@alunos.uminho.pt"
+  for arg in lista:
+    writeInfoTag(user,arg,tag)
 
 """
   MAIN
 """
 def main():
-  #folders = ["fastas","blasts"]
-  #createFolders(folders)
+  folders = ["fastas","blasts","locTags"]
+  createFolders(folders)
 
-  #readNCBI("history.a61043@alunos.uminho.pt","2873801","3124550")
+  #writeSequence("history.a61043@alunos.uminho.pt","2873801","3124550")
+
   dic = locateFeatures()
   getProteinFeatures(dic)
-  saveGenes(dic)
+  #saveGenes(dic)
   #fastaToBlastFile("fastas/GeneID:19834107.fasta")
   #blastAllSeq("fastas")
   #getSwissProtInfo("19834166")

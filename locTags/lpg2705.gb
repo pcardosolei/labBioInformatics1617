@@ -1,0 +1,91 @@
+LOCUS       YP_096710                208 aa            linear   CON 03-AUG-2016
+DEFINITION  ubiquinol-cytochrome c reductase, iron-sulfur subunit [Legionella
+            pneumophila subsp. pneumophila str. Philadelphia 1].
+ACCESSION   YP_096710
+VERSION     YP_096710.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 208)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 208)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 208)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28763.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..208
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..208
+                     /EC_number="1.10.2.2"
+                     /calculated_mol_wt="23071"
+                     /function="Energy Metabolism"
+                     /product="ubiquinol-cytochrome c reductase, iron-sulfur
+                     subunit"
+     Region          21..54
+                     /db_xref="CDD:287384"
+                     /note="Ubiquitinol-cytochrome C reductase Fe-S subunit TAT
+                     signal; pfam10399"
+                     /region_name="UCR_Fe-S_N"
+     Region          24..204
+                     /db_xref="CDD:273610"
+                     /note="ubiquinol-cytochrome c reductase, iron-sulfur
+                     subunit; TIGR01416"
+                     /region_name="Rieske_proteo"
+     Region          63..204
+                     /db_xref="CDD:239552"
+                     /note="Iron-sulfur protein (ISP) component of the bc(1)
+                     complex family, Rieske domain; The Rieske domain is a
+                     [2Fe-2S] cluster binding domain involved in electron
+                     transfer. The bc(1) complex is a multisubunit enzyme found
+                     in many different organisms including...; cd03470"
+                     /region_name="Rieske_cytochrome_bc1"
+     Site            order(139,141..142,165,168,170)
+                     /db_xref="CDD:239552"
+                     /note="[2Fe-2S] cluster binding site [ion binding]"
+                     /site_type="other"
+     CDS             1..208
+                     /coded_by="complement(NC_002942.5:3058041..3058667)"
+                     /transl_table=11
+ORIGIN
+        1 msemtdlnqd vsnhnqdeql deerrrfllh ttcvlggvga acaltpfits wlpsskaqaa
+       61 gapvkvdvsr mepgeqaiie wrgkpvwiik rskdmlnqlq kedesqlrdp dslvdqqpey
+      121 aqnkfrsinp eflvligict hlgcspkykp slgelgpdwp ggffcpchgs mfdlsgrvfk
+      181 gvpapinlev ppyhfldeht ivigedak
+//

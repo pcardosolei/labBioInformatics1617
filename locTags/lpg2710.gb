@@ -1,0 +1,138 @@
+LOCUS       YP_096715                793 aa            linear   CON 03-AUG-2016
+DEFINITION  phenylalanyl-tRNA synthetase subunit beta [Legionella pneumophila
+            subsp. pneumophila str. Philadelphia 1].
+ACCESSION   YP_096715
+VERSION     YP_096715.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 793)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 793)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 793)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAU28768.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..793
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..793
+                     /EC_number="6.1.1.20"
+                     /calculated_mol_wt="88106"
+                     /function="Amino Acid Metabolism, Translation"
+                     /product="phenylalanyl-tRNA synthetase subunit beta"
+     Region          1..793
+                     /db_xref="CDD:234804"
+                     /note="phenylalanyl-tRNA synthetase subunit beta; Reviewed;
+                     PRK00629"
+                     /region_name="pheT"
+     Region          45..147
+                     /db_xref="CDD:239196"
+                     /note="tRNA-binding-domain-containing prokaryotic
+                     phenylalanly tRNA synthetase (PheRS) beta chain. PheRS
+                     aminoacylate phenylalanine transfer RNAs (tRNAphe). PheRSs
+                     belong structurally to class II aminoacyl tRNA synthetases
+                     (aaRSs) but, as they aminoacylate...; cd02796"
+                     /region_name="tRNA_bind_bactPheRS"
+     Site            order(61,74,95,108,115,118)
+                     /db_xref="CDD:239196"
+                     /note="putative tRNA-binding site [nucleotide binding]"
+                     /site_type="other"
+     Region          212..385
+                     /db_xref="CDD:281481"
+                     /note="B3/4 domain; pfam03483"
+                     /region_name="B3_4"
+     Region          408..472
+                     /db_xref="CDD:197942"
+                     /note="tRNA synthetase B5 domain; smart00874"
+                     /region_name="B5"
+     Region          499..686
+                     /db_xref="CDD:238392"
+                     /note="Phenylalanyl-tRNA synthetase (PheRS) beta chain core
+                     domain. PheRS belongs to class II aminoacyl-tRNA
+                     synthetases (aaRS) based upon its structure. While class II
+                     aaRSs generally aminoacylate the 3'-OH ribose of the
+                     appropriate tRNA, PheRS is an...; cd00769"
+                     /region_name="PheRS_beta_core"
+     Site            order(501,504,508,510,512..514,532..535,546,560,570,575,
+                     577,579,586,618)
+                     /db_xref="CDD:238392"
+                     /note="dimer interface [polypeptide binding]"
+                     /site_type="other"
+     Site            508..514
+                     /db_xref="CDD:238392"
+                     /note="motif 1"
+                     /site_type="other"
+     Site            552..555
+                     /db_xref="CDD:238392"
+                     /note="motif 3"
+                     /site_type="other"
+     Site            577..579
+                     /db_xref="CDD:238392"
+                     /note="motif 2"
+                     /site_type="other"
+     Region          698..792
+                     /db_xref="CDD:281183"
+                     /note="Ferredoxin-fold anticodon binding domain; pfam03147"
+                     /region_name="FDX-ACB"
+     CDS             1..793
+                     /coded_by="complement(NC_002942.5:3060657..3063038)"
+                     /note="catalyzes a two-step reaction, first charging a
+                     phenylalanine molecule by linking its carboxyl group to the
+                     alpha-phosphate of ATP, followed by transfer of the
+                     aminoacyl-adenylate to its tRNA; forms a tetramer of
+                     alpha(2)beta(2); binds two magnesium ions per tetramer;
+                     type 2 subfamily"
+                     /transl_table=11
+ORIGIN
+        1 mkvsklwlre wvnfslteqe laeqltmagl evdavnpvag qfthvivaev ldtkphpdad
+       61 kltlcevnin kdkplkivcg aanvrpglrv alamigahlp gglqikeskl rgelsqgmlc
+      121 satelglaeh segimelsde apigmdlrey lalddhvfdi dltpnradcf silgvareva
+      181 vlnklplieq pivtvppaid dglrvnlihs eacprycgri irnlnleakt plwmaerlrr
+      241 ggirtlhpvv dvmnyvmlel gqpmhafdla kingeinvry gvsgeqlell dgqevvlndn
+      301 vlviadkekp lamagimgga nsavqeqtqh vflesayfnp vtiagvarky glfsdssqrf
+      361 ergvdpclqs kalerateli lsisggeagp viesfdkkfl pgtvsflfdt tkvkkltgls
+      421 iplnemknll eglgvviike tnhffevtip shrvdlqqda dlveeiirly gydklqaqpm
+      481 qtsvqaglis akekiathvs swfsakgyhe tisysfvdpe lqealypqke fmellnpiss
+      541 elsqmragmw pgliasmiyn shrqqtavkf feigvvfdld ggqlkersci agllmgeqgn
+      601 lnwsesarlf dfydlkgdlq slfaslkldd vefiqsshha lhpgqsaqiv ingkhsgwig
+      661 vlhprlsdaf dldqdvvlfe lnleslinpt iplykpisky pqirrdlsfl vdrqisamqi
+      721 ervirntvke dwlksfdvfd vymgkgiped kksiavamtl qddtrtlvda einltisaii
+      781 kklenefsil lre
+//

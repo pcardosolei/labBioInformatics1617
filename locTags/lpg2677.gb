@@ -1,0 +1,96 @@
+LOCUS       YP_096682                575 aa            linear   CON 03-AUG-2016
+DEFINITION  5'-nucleotidase [Legionella pneumophila subsp. pneumophila str.
+            Philadelphia 1].
+ACCESSION   YP_096682
+VERSION     YP_096682.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 575)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 575)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 575)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28735.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..575
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..575
+                     /calculated_mol_wt="63015"
+                     /function="Metabolism of Cofactors and Vitamins"
+                     /product="5'-nucleotidase"
+     Region          15..552
+                     /db_xref="CDD:223808"
+                     /note="2',3'-cyclic-nucleotide 2'-phosphodiesterase/5'- or
+                     3'-nucleotidase, 5'-nucleotidase family [Nucleotide
+                     transport and metabolism, Defense mechanisms]; COG0737"
+                     /region_name="UshA"
+     Region          41..349
+                     /db_xref="CDD:277357"
+                     /note="Bacillus subtilis YhcR endonuclease and related
+                     proteins, N-terminal metallophosphatase domain; cd07412"
+                     /region_name="MPP_YhcR_N"
+     Site            order(48,50,92,139..140,256,296,298)
+                     /db_xref="CDD:277357"
+                     /note="putative active site [active]"
+                     /site_type="active"
+     Site            order(48,50,92,139,256,296,298)
+                     /db_xref="CDD:277357"
+                     /note="putative metal binding site [ion binding]"
+                     /site_type="other"
+     Region          382..523
+                     /db_xref="CDD:280945"
+                     /note="5'-nucleotidase, C-terminal domain; pfam02872"
+                     /region_name="5_nucleotid_C"
+     CDS             1..575
+                     /coded_by="NC_002942.5:3023919..3025646"
+                     /transl_table=11
+ORIGIN
+        1 mmfhrkslyh yfnlfillil gsslnwasvn qhstasptln ikilgindfh gqissgravk
+       61 nepvggaavl aaylkeaqlg medrsiitim gdlvgaspps sgllndepsi lfinglgnnq
+      121 ckpesrmdpl cnivatvgnh efdkgqkamf dliygtnnpp tdswislpny pgasypyvsa
+      181 nivdakseqp lfppyiikri hntpiafiga vlkdaadsmf panaegvkfl deadsinhyi
+      241 peikakgvnv iivliheggn qipyegdtqt tsaveghike ivyslgdeid vvmgghthqf
+      301 lnaflpnrng hkilvtqans ysaafaevtl qidtknhtvk nksakiitty anrwpgtnpd
+      361 tqaleivkla edkigpminn hvgtaeydll rkqnkdgess lgnliadayr tvmntdlgit
+      421 npngirddlk agevnwgniy silpfsnriv titltgndiy dlleqqwmgs yinmlqisgf
+      481 aytydshqpl ghkiieirhq nkpllrekmy tiatsdflas gngvfsvmkr gkiihigqsd
+      541 hdtviayiks lpqpfhasie arikesetgl ktgvg
+//

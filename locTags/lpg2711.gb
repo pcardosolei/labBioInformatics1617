@@ -1,0 +1,114 @@
+LOCUS       YP_096716                342 aa            linear   CON 03-AUG-2016
+DEFINITION  phenylalanyl-tRNA synthetase subunit alpha [Legionella pneumophila
+            subsp. pneumophila str. Philadelphia 1].
+ACCESSION   YP_096716
+VERSION     YP_096716.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 342)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 342)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 342)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AAU28769.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..342
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..342
+                     /EC_number="6.1.1.20"
+                     /calculated_mol_wt="38593"
+                     /function="Amino Acid Metabolism, Translation"
+                     /product="phenylalanyl-tRNA synthetase subunit alpha"
+     Region          5..342
+                     /db_xref="CDD:234780"
+                     /note="phenylalanyl-tRNA synthetase subunit alpha;
+                     Validated; PRK00488"
+                     /region_name="pheS"
+     Region          23..90
+                     /db_xref="CDD:280982"
+                     /note="Aminoacyl tRNA synthetase class II, N-terminal
+                     domain; pfam02912"
+                     /region_name="Phe_tRNA-synt_N"
+     Region          97..342
+                     /db_xref="CDD:279717"
+                     /note="tRNA synthetases class II core domain (F);
+                     pfam01409"
+                     /region_name="tRNA-synt_2d"
+     Site            order(112,115,118..119,126,131..132,134..136,153,158,
+                     162..167,182,189..191,195,197,199,201,208,225..227,
+                     229..230,250,257..259,261,292..293,332,334..336)
+                     /db_xref="CDD:238277"
+                     /note="dimer interface [polypeptide binding]"
+                     /site_type="other"
+     Site            130..136
+                     /db_xref="CDD:238277"
+                     /note="motif 1"
+                     /site_type="other"
+     Site            order(158..160,174,176,179,200,202,206..208,211,213,215,
+                     253,255..256,284..289,311..314,317,328)
+                     /db_xref="CDD:238277"
+                     /site_type="active"
+     Site            199..202
+                     /db_xref="CDD:238277"
+                     /note="motif 2"
+                     /site_type="other"
+     Site            312..317
+                     /db_xref="CDD:238277"
+                     /note="motif 3"
+                     /site_type="other"
+     CDS             1..342
+                     /coded_by="complement(NC_002942.5:3063296..3064324)"
+                     /note="catalyzes a two-step reaction, first charging a
+                     phenylalanine molecule by linking its carboxyl group to the
+                     alpha-phosphate of ATP, followed by transfer of the
+                     aminoacyl-adenylate to its tRNA; forms a heterotetramer of
+                     alpha(2)beta(2); binds two magnesium ions per tetramer;
+                     type 1 subfamily"
+                     /transl_table=11
+ORIGIN
+        1 mgrtmlvlin tiqeqaseai kqatdivale qirvdflgkk gkltellkgl anlsaeekpk
+       61 vgqlvnqakq gisalietkm ielkekqlla klaaeqidvt lpgrnhstgs lhpvtqvkhr
+      121 indyfsrlgf divegpeiet efynfealni pghhparamh dtfyfgdgrl lrthtspvqi
+      181 rtmeqrkppf rliapgrvyr cdsdvthtpm fhqvegllid kqatlaglkg llqdffayff
+      241 grelalrfrp syfpftepsa evdiectqcn gkgcrsckft gwlevlgcgm vhpnvliavn
+      301 idpneyhgwa fgmgmdrlam lyygiddlrm lfendltflr qf
+//

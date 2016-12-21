@@ -1,0 +1,109 @@
+LOCUS       YP_096647                835 aa            linear   CON 03-AUG-2016
+DEFINITION  sensory box/GGDEF family protein [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096647
+VERSION     YP_096647.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 835)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 835)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 835)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28700.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..835
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..835
+                     /calculated_mol_wt="95969"
+                     /function="Signal transduction / other regulatory
+                     functions"
+                     /product="sensory box/GGDEF family protein"
+     Region          26..>73
+                     /db_xref="CDD:214512"
+                     /note="PAS domain; smart00091"
+                     /region_name="PAS"
+     Region          157..275
+                     /db_xref="CDD:289928"
+                     /note="GAF domain; pfam13185"
+                     /region_name="GAF_2"
+     Region          410..566
+                     /db_xref="CDD:143635"
+                     /note="Diguanylate-cyclase (DGC) or GGDEF domain; cd01949"
+                     /region_name="GGDEF"
+     Site            order(447,490)
+                     /db_xref="CDD:143635"
+                     /note="metal binding site [ion binding]"
+                     /site_type="metal-binding"
+     Site            order(452,455..456,460,464,486,488..491)
+                     /db_xref="CDD:143635"
+                     /site_type="active"
+     Site            order(482,510)
+                     /db_xref="CDD:143635"
+                     /note="I-site"
+                     /site_type="other"
+     Region          587..825
+                     /db_xref="CDD:238923"
+                     /note="EAL domain. This domain is found in diverse
+                     bacterial signaling proteins. It is called EAL after its
+                     conserved residues and is also known as domain of unknown
+                     function 2 (DUF2). The EAL domain has been shown to
+                     stimulate degradation of a second...; cd01948"
+                     /region_name="EAL"
+     CDS             1..835
+                     /coded_by="NC_002942.5:2986905..2989412"
+                     /transl_table=11
+ORIGIN
+        1 msplkskikt ksfnkltktq ditntierlf tnsqdsiivf nqqgkiiain ekaaalfkks
+       61 pdklidkpiw klfklnsfai krqfiqakrc fllanegiaq qftwleskaq kpvlayhilf
+      121 nkteiedtsi iftkltdilk sktiewilws ltkisnhqei neiidqilql tsdvfaadyt
+      181 svsfinnqqi artisyykfg kkeenisfsl intpcakviq tkaicyfndv qkqfpndkll
+      241 kkmkintyla gpitntqdev igimtilckr kvefdtlnnt lfglflsrin seierlinlr
+      301 kleflasipq qnpnpiiril lngdvvftnd egkiilnywi klfkelpvel lkeaqkiqns
+      361 nqstriemei edkiylftlv widefkqini ygtditqlkn tqnamlnltr rdtltqianr
+      421 qyfeekliek iyehhlkeks lalllidldn fkivndtlgh ptgdkllmav tnrmtrclra
+      481 ndfiarlggd efivlldqcn tdtavkvaek iinvlgkpfq fdeyhmtita sigiaiypet
+      541 seiasdllky adiamylskk tgknkctvfs knlhykenqr neilkkdiel aalkrelyid
+      601 yqpqidlsdn tivgieallr wshptlglil ptefipiaeq tgcihtisqw fieqtlldys
+      661 qfqqlssnik lsinvslsql ndtrftkilc dsllqnnlsk skiildiser miaphfiqis
+      721 kklkqihhig inisldnfcc pqislpells lpldylkvdq rlligiegki klrkllsgii
+      781 nltkdlniki iqkgietaeq hevikslgcq yaqgyfyckp valndllpli kktih
+//

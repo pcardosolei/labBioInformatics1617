@@ -1,0 +1,99 @@
+LOCUS       YP_096639                454 aa            linear   CON 03-AUG-2016
+DEFINITION  leucine aminopeptidase [Legionella pneumophila subsp. pneumophila
+            str. Philadelphia 1].
+ACCESSION   YP_096639
+VERSION     YP_096639.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 454)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 454)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 454)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28692.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..454
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..454
+                     /EC_number="3.4.11.1"
+                     /calculated_mol_wt="49761"
+                     /function="Protein fate / hydrolases / secretion"
+                     /product="leucine aminopeptidase"
+     Region          45..449
+                     /db_xref="CDD:238247"
+                     /note="Cytosol aminopeptidase family, N-terminal and
+                     catalytic domains. Family M17 contains zinc- and
+                     manganese-dependent exopeptidases (EC 3.4.11.1), including
+                     leucine aminopeptidase. They catalyze removal of amino
+                     acids from the N-terminus of a protein and...; cd00433"
+                     /region_name="Peptidase_M17"
+     Site            order(56,64,78,149,151..153,197,199,226,232,237,240,
+                     243..244,276,278..281,283,285..289,295,297,301,337..341,
+                     344,370..371,373,378,380..381,386,388,398..399,401,435)
+                     /db_xref="CDD:238247"
+                     /note="interface (dimer of trimers) [polypeptide binding]"
+                     /site_type="other"
+     Region          <104..451
+                     /db_xref="CDD:223338"
+                     /note="Leucyl aminopeptidase [Amino acid transport and
+                     metabolism]; COG0260"
+                     /region_name="PepB"
+     Site            order(222,227,234,245,304,306,308,332)
+                     /db_xref="CDD:238247"
+                     /note="Substrate-binding/catalytic site"
+                     /site_type="other"
+     Site            order(222,227,245,304,306)
+                     /db_xref="CDD:238247"
+                     /note="Zn-binding sites [ion binding]"
+                     /site_type="other"
+     CDS             1..454
+                     /coded_by="complement(NC_002942.5:2974841..2976205)"
+                     /transl_table=11
+ORIGIN
+        1 mqaevfyksc gdrivpvhli sqsqwdegie nltpmerncf svrqfkgklg dycfilnadg
+       61 viekafigsg tgnqesalan aalllppgny qfqdklsres gvvwalaqyr fdeykkyelq
+      121 prvliveand mdyilslans lflvrdlint ptcdmgpesl ahvveelakt hkayfkqwig
+      181 eelikdnfpa ihavgrasal tprllslqwg nekhprvtli gkgvcfdsgg ldikpssgmr
+      241 lmkkdmggaa hviglaqwim vqrlpirlqv lipavenaig pnafrpgdvl tmrngltvei
+      301 entdaegrli ladalvkace ekpdliidfa tltgaarvav gteiaamfsn hdqlaqdiva
+      361 asnkvsdpvw rlplfspyee llnsniadms nsssssyaga itaglflqrf vtksipwvhf
+      421 dimawnavsk pgkpeggeam glravaeyll qtyg
+//

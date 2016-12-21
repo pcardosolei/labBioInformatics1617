@@ -1,0 +1,151 @@
+LOCUS       YP_096766                729 aa            linear   CON 03-AUG-2016
+DEFINITION  polynucleotide phosphorylase [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096766
+VERSION     YP_096766.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 729)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 729)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 729)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28819.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..729
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..729
+                     /EC_number="2.7.7.8"
+                     /calculated_mol_wt="79977"
+                     /function="Nucleotide Metabolism"
+                     /product="polynucleotide phosphorylase"
+     Region          1..690
+                     /db_xref="CDD:236995"
+                     /note="polynucleotide phosphorylase/polyadenylase;
+                     Provisional"
+                     /region_name="PRK11824"
+     Region          4..232
+                     /db_xref="CDD:206768"
+                     /note="Polyribonucleotide nucleotidyltransferase, repeat 1;
+                     cd11363"
+                     /region_name="RNase_PH_PNPase_1"
+     Site            order(5,7,16,18,21,31,33,35,38)
+                     /db_xref="CDD:206768"
+                     /note="RNase E interface [polypeptide binding]"
+                     /site_type="other"
+     Site            order(21..26,31,40,42,44,46,61,63,65..68,70..73,76..80,84,
+                     109,111,113,117..121)
+                     /db_xref="CDD:206768"
+                     /note="trimer interface [polypeptide binding]"
+                     /site_type="other"
+     Region          241..319
+                     /db_xref="CDD:281688"
+                     /note="Polyribonucleotide nucleotidyltransferase, RNA
+                     binding domain; pfam03726"
+                     /region_name="PNPase"
+     Region          322..543
+                     /db_xref="CDD:206769"
+                     /note="Polyribonucleotide nucleotidyltransferase, repeat 2;
+                     cd11364"
+                     /region_name="RNase_PH_PNPase_2"
+     Site            order(322..331,334,527,531,535,539..540)
+                     /db_xref="CDD:206769"
+                     /note="RNase E interface [polypeptide binding]"
+                     /site_type="other"
+     Site            order(327,329,333..337,345..346,350,352,354..356,360..362,
+                     378,380,383..386,388..390,393,395,425,427,429,431..433)
+                     /db_xref="CDD:206769"
+                     /note="trimer interface [polypeptide binding]"
+                     /site_type="other"
+     Site            order(379,381,398,402,436..438,485,491,493,505,507)
+                     /db_xref="CDD:206769"
+                     /site_type="active"
+     Region          552..612
+                     /db_xref="CDD:239086"
+                     /note="Polynucleotide phosphorylase (PNPase) K homology
+                     RNA-binding domain (KH). PNPase is a polyribonucleotide
+                     nucleotidyl transferase that degrades mRNA in prokaryotes
+                     and plant chloroplasts. The C-terminal region of PNPase
+                     contains domains homologous to...; cd02393"
+                     /region_name="PNPase_KH"
+     Site            order(562,564..566,568..572,575..576,579..580,585..588)
+                     /db_xref="CDD:239086"
+                     /note="putative nucleic acid binding region [nucleotide
+                     binding]"
+                     /site_type="other"
+     Site            569..572
+                     /db_xref="CDD:239086"
+                     /note="G-X-X-G motif"
+                     /site_type="other"
+     Region          621..688
+                     /db_xref="CDD:239918"
+                     /note="S1_PNPase: Polynucleotide phosphorylase (PNPase), ),
+                     S1-like RNA-binding domain. PNPase is a polyribonucleotide
+                     nucleotidyl transferase that degrades mRNA. It is a
+                     trimeric multidomain protein. The C-terminus contains the
+                     S1 domain which binds ssRNA; cd04472"
+                     /region_name="S1_PNPase"
+     Site            order(629,637,647,649)
+                     /db_xref="CDD:239918"
+                     /note="RNA binding site [nucleotide binding]"
+                     /site_type="other"
+     Site            668..669
+                     /db_xref="CDD:239918"
+                     /note="domain interface"
+                     /site_type="other"
+     CDS             1..729
+                     /coded_by="complement(NC_002942.5:3117904..3120093)"
+                     /transl_table=11
+ORIGIN
+        1 makitkeivf gnhkliletg evarqadgav masmngtqvl vtvvwkkdgg esndffpltv
+       61 nyqekfyaig kipggfnkre grpsdnetli srlidrpirp lfpdnffnev qiiatvlsln
+      121 pevspdiiam igasaalsis gvpfngpiga arvgykdgvy llnpsrkeqe eskldlviag
+      181 tkdailmves eaqelsedim rgamlyghem mknviksiee lardvgkskp ewkapeidtv
+      241 lkarindvar neveaaylik dkqqryqrld elreqtisal laendelnad vianmfgele
+      301 rsivrnrild gepridgrdh rtvrpisirt kflerthgsc lftrgetqai vvatlgnerd
+      361 aqildgisge srdrfmlhyn fppysvgetg qvgspkrrei ghgrlakral mavlpdanef
+      421 pyvlrivsei tesngsssma tvcgtslalm dagvplkapv agvamglike gdryavltdi
+      481 lgdedhlgdm dfkvagtekg italqmdiki sgitneimeq aleqalegrt hilgvmnnal
+      541 aehrtelsqh aprittmkva edkirtiigk ggatikglie stgvsididd sgvvqlfspd
+      601 kmaleeaqkq ikaliaeiev gqtyqgkvsk ivdfgafinl lpgkdgllhi sqicadrtqk
+      661 veevlqegqe ievfvagidk qgrvklewkd kpqaeakeve dapvsatflt meeqseeins
+      721 gnkiseeee
+//

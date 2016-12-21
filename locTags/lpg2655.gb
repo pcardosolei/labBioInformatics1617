@@ -1,0 +1,86 @@
+LOCUS       YP_096660                371 aa            linear   CON 03-AUG-2016
+DEFINITION  sensory box protein [Legionella pneumophila subsp. pneumophila str.
+            Philadelphia 1].
+ACCESSION   YP_096660
+VERSION     YP_096660.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 371)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 371)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 371)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28713.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..371
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..371
+                     /calculated_mol_wt="42713"
+                     /function="Signal transduction / other regulatory
+                     functions"
+                     /product="sensory box protein"
+     Region          210..363
+                     /db_xref="CDD:143635"
+                     /note="Diguanylate-cyclase (DGC) or GGDEF domain; cd01949"
+                     /region_name="GGDEF"
+     Site            order(247,290)
+                     /db_xref="CDD:143635"
+                     /note="metal binding site [ion binding]"
+                     /site_type="metal-binding"
+     Site            order(252,255..256,260,264,286,288..291)
+                     /db_xref="CDD:143635"
+                     /site_type="active"
+     Site            order(282,311)
+                     /db_xref="CDD:143635"
+                     /note="I-site"
+                     /site_type="other"
+     CDS             1..371
+                     /coded_by="NC_002942.5:3001753..3002868"
+                     /transl_table=11
+ORIGIN
+        1 msllkktreq dysilvttqd qqrkrhllnv isiellilgl lliitnlcll rawliitmli
+       61 vgifillgnl ilikknfnla lsghilnilv lsiiiggnli vgkttmsylg wfyvspivaf
+      121 atlgltglvv ygllaigamf lfifefyipi ysisqeyvff ldntnhlfif aliftvlyhf
+      181 lvqnlqyell lkeqnyllia dkekfhylsh hdsltnlpnr syfhahlqtl lentdtkkea
+      241 itlyfmdldk fkpindeygh efgdqllllt skrlqscfrk ndfiarlggd eftaiivhkp
+      301 hdqiaealtl rieqefeqpf vingqtihct isvgianypr naknaedllk wadkamydnk
+      361 rkkyqtlkqt s
+//

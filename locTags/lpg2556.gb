@@ -1,0 +1,103 @@
+LOCUS       YP_096563                462 aa            linear   CON 03-AUG-2016
+DEFINITION  protein kinase [Legionella pneumophila subsp. pneumophila str.
+            Philadelphia 1].
+ACCESSION   YP_096563
+VERSION     YP_096563.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 462)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 462)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 462)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28616.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..462
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..462
+                     /calculated_mol_wt="53154"
+                     /function="Viral functions / Phage / Transposases"
+                     /name="Ser/Thr kinase"
+                     /product="protein kinase"
+     Region          51..310
+                     /db_xref="CDD:214567"
+                     /note="Serine/Threonine protein kinases, catalytic domain;
+                     smart00220"
+                     /region_name="S_TKc"
+     Region          53..253
+                     /db_xref="CDD:270622"
+                     /note="Catalytic domain of Protein Kinases; cd00180"
+                     /region_name="PKc"
+     Site            order(53..57,61,85,87,124,136..139,143,148,187,189,
+                     191..192,194,207,210)
+                     /db_xref="CDD:270622"
+                     /site_type="active"
+     Site            order(53..57,61,85,87,124,136..139,143,187,189,191..192,
+                     194,207)
+                     /db_xref="CDD:270622"
+                     /note="ATP binding site [chemical binding]"
+                     /site_type="other"
+     Site            order(57,143,148,187,189,191,210)
+                     /db_xref="CDD:270622"
+                     /note="polypeptide substrate binding site [polypeptide
+                     binding]"
+                     /site_type="other"
+     Region          <183..339
+                     /db_xref="CDD:304357"
+                     /note="Protein Kinases, catalytic domain; cl21453"
+                     /region_name="PKc_like"
+     Site            206..212
+                     /db_xref="CDD:270622"
+                     /note="activation loop (A-loop)"
+                     /site_type="other"
+     CDS             1..462
+                     /coded_by="NC_002942.5:2890013..2891401"
+                     /transl_table=11
+ORIGIN
+        1 mfdrnikeii nelqekdllp dtgkiiggpr nqfdkkgeik qgylfsvmnk epigkggfas
+       61 vypvtlyrqg etgfakkstd hkkfvtkkfn lnklkikytn lnienlieke fefcrkaghl
+      121 sikppvynnn kcyltmkrmp gmdlnrifnk lmanphylte gqrikityal llalknqvid
+      181 kgiihrdikp enihvkvvdp vevnifdygl aknageddnl fpgseswaap emfiglkhds
+      241 kadifsmgrv iaflwgesat nylsnnplnk srnaaknlnl paqvkwvepf lkqmlaerqe
+      301 drieidsain qfkqlasina pklklpqssi knhsninnlc ffqnptkstn nsdltqlniq
+      361 rdikkdlqel lenlpgefsh yrsniifknt igrfttiqkm mnelnrimde nesqdipkel
+      421 ydfihqyqnk flhaseanii rkingfledi eyqnltnsgf el
+//

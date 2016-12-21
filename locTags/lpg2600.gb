@@ -1,0 +1,85 @@
+LOCUS       YP_096605                657 aa            linear   CON 03-AUG-2016
+DEFINITION  acyltransferase [Legionella pneumophila subsp. pneumophila str.
+            Philadelphia 1].
+ACCESSION   YP_096605
+VERSION     YP_096605.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 657)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 657)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 657)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28658.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..657
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..657
+                     /calculated_mol_wt="75986"
+                     /function="Toxin production / other pathogen functions,
+                     Metabolism of Complex Lipids"
+                     /product="acyltransferase"
+     Region          1..346
+                     /db_xref="CDD:224748"
+                     /note="Peptidoglycan/LPS O-acetylase OafA/YrhL, contains
+                     acyltransferase and SGNH-hydrolase domains [Cell
+                     wall/membrane/envelope biogenesis]; COG1835"
+                     /region_name="OafA"
+     Region          4..331
+                     /db_xref="CDD:280013"
+                     /note="Acyltransferase family; pfam01757"
+                     /region_name="Acyl_transf_3"
+     CDS             1..657
+                     /coded_by="complement(NC_002942.5:2933912..2935885)"
+                     /transl_table=11
+ORIGIN
+        1 mnyrsdidgl raiailfvlf fhggltlfps gfigvdvffv isgflitsii ekslqnnrfs
+       61 fmdfysrrlw rlqpvficli vvttlvtlfy ylpddlmlfs ksarktsift snvffknvts
+      121 dyfspdsnql pllhmwslsv ewqcyfilpv giyllyrlvg pqhrikityl ltitffalsm
+      181 yyswsnpakt yyqfssrife fligscvasa sgskrflank yvlnfitvla vltlfyiamh
+      241 hdinigfpnw ytlilclata iliaagqqep qpivtyalsl rplvfiglis yslyiwhwpv
+      301 lalirylnie esnlvllvtf glisiiayls wrfiekpark lhrirfsytv vcllimpvfv
+      361 thlsdylikk nagypyrfne aiqvyaelnk yknpqrplcl erkntevnpq cvlgaknsds
+      421 rtgfmigdsy snqhwgfmdt lakeanvsil ahatvaclal pdiyqfdwnv knkiyqechd
+      481 qtnryfnmik tnhydyvilg qnwngyfgdr iinqlndnrs qelslkriek aldkalelit
+      541 tsgakpvlik sialskgnpy ncffehiklh kkynpercdf nldvseqiwf dnlfakmqrk
+      601 yktlviidpr vaqcpsgmck vdingipvfr dsghitdyas yhlaklylek nnnplvs
+//

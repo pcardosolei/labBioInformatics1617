@@ -1,0 +1,83 @@
+LOCUS       YP_096714                 99 aa            linear   CON 03-AUG-2016
+DEFINITION  integration host factor subunit alpha [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096714
+VERSION     YP_096714.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 99)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 99)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 99)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAU28767.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..99
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..99
+                     /calculated_mol_wt="11068"
+                     /function="Transcription, Replication and Repair"
+                     /product="integration host factor subunit alpha"
+     Region          5..99
+                     /db_xref="CDD:178961"
+                     /note="integration host factor subunit alpha; Reviewed;
+                     PRK00285"
+                     /region_name="ihfA"
+     Site            order(8,27,48,50..52,54,58,60,63..69,74,76,79,81,85,88,91)
+                     /db_xref="CDD:259857"
+                     /note="DNA binding site [nucleotide binding]"
+                     /site_type="DNA binding"
+     Site            order(11,14,28,32,35..36,38..39,45..48,50,79..80,82,84,
+                     93..94)
+                     /db_xref="CDD:259857"
+                     /note="dimer interface [polypeptide binding]"
+                     /site_type="other"
+     CDS             1..99
+                     /coded_by="complement(NC_002942.5:3060361..3060660)"
+                     /note="This protein is one of the two subunits of
+                     integration host factor, a specific DNA-binding protein
+                     that functions in genetic recombination as well as in
+                     transcriptional and translational control"
+                     /transl_table=11
+ORIGIN
+        1 mivnalskai maetlcdelk lnkpvakemv enffeelrha lengqhvkls gfgnftlrdk
+       61 pqrpgrnpkt geeipvearr vvtfkpglkl ktkiekigk
+//

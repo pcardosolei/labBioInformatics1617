@@ -1,0 +1,92 @@
+LOCUS       YP_096623                461 aa            linear   CON 03-AUG-2016
+DEFINITION  UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+            [Legionella pneumophila subsp. pneumophila str. Philadelphia 1].
+ACCESSION   YP_096623
+VERSION     YP_096623.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 461)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 461)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 461)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28676.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..461
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..461
+                     /EC_number="6.3.2.10"
+                     /calculated_mol_wt="49241"
+                     /function="Amino Acid Metabolism, Metabolism of Complex
+                     Carbohydrates"
+                     /product="UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-
+                     alanine ligase"
+     Region          36..108
+                     /db_xref="CDD:279554"
+                     /note="Mur ligase family, catalytic domain; pfam01225"
+                     /region_name="Mur_ligase"
+     Region          41..453
+                     /db_xref="CDD:273468"
+                     /note="UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine
+                     ligase; TIGR01143"
+                     /region_name="murF"
+     Region          119..296
+                     /db_xref="CDD:285457"
+                     /note="Mur ligase middle domain; pfam08245"
+                     /region_name="Mur_ligase_M"
+     Region          324..>396
+                     /db_xref="CDD:280948"
+                     /note="Mur ligase family, glutamate ligase domain;
+                     pfam02875"
+                     /region_name="Mur_ligase_C"
+     CDS             1..461
+                     /coded_by="complement(NC_002942.5:2954902..2956287)"
+                     /transl_table=11
+ORIGIN
+        1 mslsvstlvf stsqntmnli tiasllsqsc qinaditgvs idtrtlkpgn lffaivgerf
+       61 dghdfikeae akgasaavvn rsidgvhipq fvvasplmal akiaaahrqe mscpiialtg
+      121 sngkttvkem iatilpqpsh atkgnlnnhi gvplsmlaln kqhryavfel ganhpgeiah
+      181 tvgivqpdvs linniapahv egfgsidgva rskgeihqgl sptgvaivnd ddayahfwdd
+      241 liadkkilrf sslhpadiya qdirldthgr ahftlvlpns rveielqvpg lhnvrnalaa
+      301 aaccyavgis gndiqrglah fggvkgrmtm lsgqnqstvi ddtynanlrs vltalevlsg
+      361 rpgrkifvfg dmgelgewtt qhhrevgvaa rqlgidklms cglhselasq afgeggqhfc
+      421 sqeelievvk ndltpdttvl vkgsrssame nvvhrlvqve g
+//

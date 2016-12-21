@@ -1,0 +1,91 @@
+LOCUS       YP_096560                455 aa            linear   CON 03-AUG-2016
+DEFINITION  hexosephosphate transport [Legionella pneumophila subsp. pneumophila
+            str. Philadelphia 1].
+ACCESSION   YP_096560
+VERSION     YP_096560.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 455)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 455)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 455)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28613.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..455
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..455
+                     /calculated_mol_wt="51576"
+                     /function="Transport and binding"
+                     /product="hexosephosphate transport"
+     Region          3..424
+                     /db_xref="CDD:225180"
+                     /note="Sugar phosphate permease [Carbohydrate transport and
+                     metabolism]; COG2271"
+                     /region_name="UhpC"
+     Region          34..424
+                     /db_xref="CDD:119392"
+                     /note="The Major Facilitator Superfamily (MFS) is a large
+                     and diverse group of secondary transporters that includes
+                     uniporters, symporters, and antiporters. MFS proteins
+                     facilitate the transport across cytoplasmic or internal
+                     membranes of a variety of...; cd06174"
+                     /region_name="MFS"
+     Site            order(48,51..53,55..56,73,76..77,80,84..85,87..88,134..135,
+                     138..139,142..143,146,158..159,162..163,169,266,269..270,
+                     273..274,277,291,295,299,302,306,358,361..362,365,369..370,
+                     373,385..386,389..390,393..394,397)
+                     /db_xref="CDD:119392"
+                     /note="putative substrate translocation pore"
+                     /site_type="other"
+     CDS             1..455
+                     /coded_by="NC_002942.5:2885982..2887349"
+                     /transl_table=11
+ORIGIN
+        1 mallsflkpa pyldeiqdkn vvkrqyrywr irtfyamyig yalfyftrks ftfvmpalqs
+       61 tlgmtktelg miasilslsy giskflsgil gdksnprylm aigliltgvf nilfglsstw
+      121 wlfaifwgln gwfqgwgwpg ctkllthwys qsergrwwsl wntshnvgga liplivavca
+      181 qyfgwrsamf vpgiicilgg vflinrlrdt pqslglpaie qyhedfsgst nhhqektels
+      241 vkeilwnyvl cnqyiwilsi sylfiyivrt aindwsmlyl tevkeyslit agscviwfev
+      301 ggffgnlvag wssdkifqgk rnpinvlfta gvfatlllft ltraytpfld alflfffgff
+      361 ifgpqmmigm acaelahkka aatatgfagf fayclgavla gaplgaiikn ygwdnffltl
+      421 fvccliplll mlplwhvkvn pkyrqsefsg ksefa
+//

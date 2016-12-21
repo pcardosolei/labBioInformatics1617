@@ -1,0 +1,88 @@
+LOCUS       YP_096617                368 aa            linear   CON 03-AUG-2016
+DEFINITION  D-alanyl-alanine synthetase A [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096617
+VERSION     YP_096617.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 368)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 368)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 368)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAU28670.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..368
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..368
+                     /EC_number="6.3.2.4"
+                     /calculated_mol_wt="40766"
+                     /function="Metabolism of Other Amino Acids, Metabolism of
+                     Complex Carbohydrates"
+                     /product="D-alanyl-alanine synthetase A"
+     Region          5..354
+                     /db_xref="CDD:234993"
+                     /note="D-alanyl-alanine synthetase A; Reviewed; PRK01966"
+                     /region_name="ddl"
+     Region          10..123
+                     /db_xref="CDD:280066"
+                     /note="D-ala D-ala ligase N-terminus; pfam01820"
+                     /region_name="Dala_Dala_lig_N"
+     Region          144..350
+                     /db_xref="CDD:302634"
+                     /note="ATP-grasp domain; cl17255"
+                     /region_name="ATP-grasp_4"
+     CDS             1..368
+                     /coded_by="complement(NC_002942.5:2947732..2948838)"
+                     /note="D-alanine--D-alanine ligase; DdlA; DdlB;
+                     cytoplasmic; catalyzes the formation of D-alanyl-D-alanine
+                     from two D-alanines in peptidoglycan synthesis; there are
+                     two forms of this enzyme in Escherichia coli"
+                     /transl_table=11
+ORIGIN
+        1 metlmskpvn lvllyggksg ehevslvsaa svlkhldsek yhiipiamdk sgrfhrhdyn
+       61 dllacsdklp vvtekstple gllingrlav dakivfpvvh gplyedgclq gllelagvay
+      121 vgcdvlssai gmdkdmarrl acinglksar ykllswhana serqqfchev asefgwplfv
+      181 kpcslgssvg ihkannmdel naavadalry deeilveefi vgreielavl ensipcgkpr
+      241 vsmvgeikvn hpdgyysyta kylessqtdl iipaqlnnsl eeqlkqaaan ifsylkckgm
+      301 arvdffvndk teeiyfnein tlpgftsism ypklwqatgi aypdlldeli nlamvhhncr
+      361 qhlvtnyl
+//

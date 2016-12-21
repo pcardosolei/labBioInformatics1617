@@ -1,0 +1,106 @@
+LOCUS       YP_096674                228 aa            linear   CON 03-AUG-2016
+DEFINITION  hypothetical protein lpg2669 [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096674
+VERSION     YP_096674.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 228)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 228)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 228)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28727.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..228
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..228
+                     /calculated_mol_wt="24982"
+                     /function="Chemotaxis / motility / cell division"
+                     /product="hypothetical protein"
+     Region          13..227
+                     /db_xref="CDD:225438"
+                     /note="ABC-type ATPase involved in cell division [Cell
+                     cycle control, cell division, chromosome partitioning];
+                     COG2884"
+                     /region_name="FtsE"
+     Region          14..227
+                     /db_xref="CDD:304359"
+                     /note="P-loop containing Nucleoside Triphosphate
+                     Hydrolases; cl21455"
+                     /region_name="P-loop_NTPase"
+     Site            47..54
+                     /db_xref="CDD:213179"
+                     /note="Walker A/P-loop"
+                     /site_type="other"
+     Site            order(50..51,53..55,98,174..175,207)
+                     /db_xref="CDD:213179"
+                     /note="ATP binding site [chemical binding]"
+                     /site_type="other"
+     Site            95..98
+                     /db_xref="CDD:213179"
+                     /note="Q-loop/lid"
+                     /site_type="other"
+     Site            150..159
+                     /db_xref="CDD:213179"
+                     /note="ABC transporter signature motif"
+                     /site_type="other"
+     Site            170..175
+                     /db_xref="CDD:213179"
+                     /note="Walker B"
+                     /site_type="other"
+     Site            178..181
+                     /db_xref="CDD:213179"
+                     /note="D-loop"
+                     /site_type="other"
+     Site            203..209
+                     /db_xref="CDD:213179"
+                     /note="H-loop/switch region"
+                     /site_type="other"
+     CDS             1..228
+                     /coded_by="complement(NC_002942.5:3016310..3016996)"
+                     /transl_table=11
+ORIGIN
+        1 mtqrnllvry smmitfdqvs krypggfeal sqvnfslqkg emvfltghsg agkstllkli
+       61 allewptsgq ltvnglklnh lkkrdvaahr sqlgitfqsp qllndrtvfd nvalplqiqg
+      121 vaypmiakrv haaldmvgll skekmlpvhl svgeqqrvgi aravvhkpal lladeptgnl
+      181 dpklsseimk ifeqfnqvgv siliathdla liagmkhriv mlkggrlc
+//

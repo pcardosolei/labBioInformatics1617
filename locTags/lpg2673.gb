@@ -1,0 +1,80 @@
+LOCUS       YP_096678                181 aa            linear   CON 03-AUG-2016
+DEFINITION  N-6 adenine-specific DNA methylase [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096678
+VERSION     YP_096678.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 181)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 181)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 181)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28731.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..181
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..181
+                     /EC_number="2.1.1.-"
+                     /calculated_mol_wt="20444"
+                     /function="Metabolism of Cofactors and Vitamins, Lipid
+                     Metabolism, Amino Acid Metabolism, Metabolism of Other
+                     Amino Acids, Biodegradation of Xenobiotics"
+                     /product="N-6 adenine-specific DNA methylase"
+     Region          5..179
+                     /db_xref="CDD:223813"
+                     /note="16S rRNA G966 N2-methylase RsmD [Translation,
+                     ribosomal structure and biogenesis]; COG0742"
+                     /region_name="RsmD"
+     Site            order(52..58,75..76,101..103,120)
+                     /db_xref="CDD:100107"
+                     /note="S-adenosylmethionine binding site [chemical
+                     binding]"
+                     /site_type="other"
+     CDS             1..181
+                     /coded_by="NC_002942.5:3020700..3021245"
+                     /transl_table=11
+ORIGIN
+        1 mkqviriigg lyrgkkihfp dvdglrptpd rvretlfnwl mndiknarcl dafagsgalg
+       61 feaysrgash vvfieqspka haslqntirq fdtpklhlik tdtlnylkqs teqfdlifld
+      121 ppyalnyvpq cldhiitnnl lvkgglvyie ssspievkte lwkqlklkqa gqviyglfek
+      181 l
+//

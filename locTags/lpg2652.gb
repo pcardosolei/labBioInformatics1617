@@ -1,0 +1,99 @@
+LOCUS       YP_096657                219 aa            linear   CON 03-AUG-2016
+DEFINITION  50S ribosomal protein L25 [Legionella pneumophila subsp. pneumophila
+            str. Philadelphia 1].
+ACCESSION   YP_096657
+VERSION     YP_096657.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 219)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 219)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 219)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAU28710.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..219
+                     /calculated_mol_wt="23855"
+                     /function="Translation"
+                     /product="50S ribosomal protein L25/general stress protein
+                     Ctc"
+     Region          1..203
+                     /db_xref="CDD:235534"
+                     /note="50S ribosomal protein L25/general stress protein
+                     Ctc; Reviewed"
+                     /region_name="PRK05618"
+     Region          5..96
+                     /db_xref="CDD:198379"
+                     /note="Ribosomal L25/TL5/CTC N-terminal 5S rRNA binding
+                     domain; cd00495"
+                     /region_name="Ribosomal_L25_TL5_CTC"
+     Site            order(11,19..21,23,34..36,40,78..79,81,91,93,95)
+                     /db_xref="CDD:198379"
+                     /note="5S rRNA interface [nucleotide binding]"
+                     /site_type="other"
+     Site            order(36,62,74,78,95..96)
+                     /db_xref="CDD:198379"
+                     /note="CTC domain interface [polypeptide binding]"
+                     /site_type="other"
+     Site            order(76..77,80,87,95)
+                     /db_xref="CDD:198379"
+                     /note="L16 interface [polypeptide binding]"
+                     /site_type="other"
+     Region          107..191
+                     /db_xref="CDD:291365"
+                     /note="Ribosomal protein TL5, C-terminal domain; pfam14693"
+                     /region_name="Ribosomal_TL5_C"
+     CDS             1..219
+                     /coded_by="NC_002942.5:2998935..2999594"
+                     /note="the Ctc family of proteins consists of two types,
+                     one that contains the N-terminal ribosomal protein L25
+                     domain only which in Escherichia coli binds the 5S rRNA
+                     while a subset of proteins contain a C-terminal extension
+                     that is involved in the stress response"
+                     /transl_table=11
+ORIGIN
+        1 mstiqleaqs rtdmgkgasr rlrrlenkvp aviyggskkp maihfshnkv ikaletesiy
+       61 ssvfditvdg kvehvilkal qrhpykpivl hmdlqrvssk dilvklvpvh fineeqspgi
+      121 kaggivqhtm tqveircqak dlpefievdm skvgmddvvh lsdlklpkgv qltvdvadgs
+      181 hdapvvsiha akvsstelee tpevpasavp ttdqgesae
+//

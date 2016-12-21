@@ -1,0 +1,105 @@
+LOCUS       YP_096651                225 aa            linear   CON 03-AUG-2016
+DEFINITION  response regulator GacA [Legionella pneumophila subsp. pneumophila
+            str. Philadelphia 1].
+ACCESSION   YP_096651
+VERSION     YP_096651.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 225)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 225)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 225)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28704.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..225
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..225
+                     /calculated_mol_wt="25195"
+                     /function="Signal transduction / other regulatory
+                     functions, Transcription factors / DNA binding proteins"
+                     /product="response regulator GacA"
+     Region          7..216
+                     /db_xref="CDD:236538"
+                     /note="response regulator; Provisional"
+                     /region_name="PRK09483"
+     Region          11..125
+                     /db_xref="CDD:238088"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /region_name="REC"
+     Site            order(14..15,60,68,88,107,110..111)
+                     /db_xref="CDD:238088"
+                     /site_type="active"
+     Site            60
+                     /db_xref="CDD:238088"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /site_type="phosphorylation"
+     Site            order(63..64,66..68)
+                     /db_xref="CDD:238088"
+                     /note="intermolecular recognition site"
+                     /site_type="other"
+     Site            110..112
+                     /db_xref="CDD:238088"
+                     /note="dimerization interface [polypeptide binding]"
+                     /site_type="other"
+     Region          153..209
+                     /db_xref="CDD:278619"
+                     /note="Bacterial regulatory proteins, luxR family;
+                     pfam00196"
+                     /region_name="GerE"
+     Site            order(156..158,171..173,181..182,184..185,187..191,202)
+                     /db_xref="CDD:99777"
+                     /note="DNA binding residues [nucleotide binding]"
+                     /site_type="DNA binding"
+     CDS             1..225
+                     /coded_by="complement(NC_002942.5:2993753..2994430)"
+                     /transl_table=11
+ORIGIN
+        1 mvkehylikv livddhalvr mgirrlledm sdvdvvadae sgeqalayvk thspdvvlld
+       61 mkmpgidgwe vtrrlkktnp nikviavtai csdplptrvl qlgamgyltk esgaeemaaa
+      121 irkvakgeky lsaeiaqkma inslqesqds pfdllserem qvmlmitsgm nvqdiadrlf
+      181 lssktingyr yrmfeklgik ndveltylam khriiehpnd lsqdd
+//

@@ -1,0 +1,95 @@
+LOCUS       YP_096768                308 aa            linear   CON 03-AUG-2016
+DEFINITION  tRNA pseudouridine synthase B [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096768
+VERSION     YP_096768.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 308)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 308)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 308)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28821.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..308
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..308
+                     /calculated_mol_wt="33840"
+                     /function="DNA/RNA degradation / restriction, Translation"
+                     /product="tRNA pseudouridine synthase B"
+     Region          15..307
+                     /db_xref="CDD:235333"
+                     /note="tRNA pseudouridine synthase B; Provisional;
+                     PRK05033"
+                     /region_name="truB"
+     Region          17..227
+                     /db_xref="CDD:211339"
+                     /note="Pseudouridine synthase, Escherichia coli TruB like;
+                     cd02573"
+                     /region_name="PseudoU_synth_EcTruB"
+     Site            order(28,30,33,45..47,49..53,67,70..71,74,78,80,131..135,
+                     156,181..186,207)
+                     /db_xref="CDD:211339"
+                     /note="RNA binding site [nucleotide binding]"
+                     /site_type="other"
+     Site            order(49..52,186)
+                     /db_xref="CDD:211339"
+                     /site_type="active"
+     Region          248..304
+                     /db_xref="CDD:286267"
+                     /note="Pseudouridine synthase II TruB, C-terminal;
+                     pfam09157"
+                     /region_name="TruB-C_2"
+     CDS             1..308
+                     /coded_by="complement(NC_002942.5:3120631..3121557)"
+                     /note="catalyzes isomerization of specific uridines in RNA
+                     to pseudouridine; responsible for residues in T loops of
+                     many tRNAs"
+                     /transl_table=11
+ORIGIN
+        1 miqvvmttie sqcsidgill lnkpqgmtsn aalqktkhlf gakkaghtgs ldplatgmlp
+       61 lcfgeatkic qyllnadksy etigrlgikt ntadctgevi fcienytvsh eemiatleky
+      121 kgkikqipsm fsalkhkgtp lyrlaregie ierkardivi sqlnleqfdg ecftltvscs
+      181 kgtyirnlve digdtlkaga hmtklhrlyt agfennrmyt ldelqdmpls qrlaclipid
+      241 qavqhltpvi lsdsevtair qgkvisnktg avegedlrly geqsqfigig qalihgdika
+      301 krlvsfal
+//

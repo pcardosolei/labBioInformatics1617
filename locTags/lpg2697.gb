@@ -1,0 +1,110 @@
+LOCUS       YP_096702                576 aa            linear   CON 03-AUG-2016
+DEFINITION  DNA mismatch repair protein MutL [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096702
+VERSION     YP_096702.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 576)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 576)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 576)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28755.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..576
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..576
+                     /calculated_mol_wt="65385"
+                     /function="Replication and Repair"
+                     /product="DNA mismatch repair protein MutL"
+     Region          4..310
+                     /db_xref="CDD:273155"
+                     /note="DNA mismatch repair protein MutL; TIGR00585"
+                     /region_name="mutl"
+     Region          20..117
+                     /db_xref="CDD:280651"
+                     /note="Histidine kinase-, DNA gyrase B-, and HSP90-like
+                     ATPase; pfam02518"
+                     /region_name="HATPase_c"
+     Site            order(31,35,38,58,60,62,64..65,98..101,112,114)
+                     /db_xref="CDD:238030"
+                     /note="ATP binding site [chemical binding]"
+                     /site_type="other"
+     Site            35
+                     /db_xref="CDD:238030"
+                     /note="Mg2+ binding site [ion binding]"
+                     /site_type="other"
+     Site            order(62,64,98,100)
+                     /db_xref="CDD:238030"
+                     /note="G-X-G motif"
+                     /site_type="other"
+     Region          208..330
+                     /db_xref="CDD:239564"
+                     /note="MutL_Trans_MutL: transducer domain, having a
+                     ribosomal S5 domain 2-like fold, found in proteins similar
+                     to Escherichia coli MutL. EcMutL belongs to the DNA
+                     mismatch repair (MutL/MLH1/PMS2) family. This transducer
+                     domain is homologous to the second...; cd03482"
+                     /region_name="MutL_Trans_MutL"
+     Site            306
+                     /db_xref="CDD:239564"
+                     /note="ATP binding site [chemical binding]"
+                     /site_type="other"
+     Region          409..>514
+                     /db_xref="CDD:214857"
+                     /note="MutL C terminal dimerisation domain; smart00853"
+                     /region_name="MutL_C"
+     CDS             1..576
+                     /coded_by="complement(NC_002942.5:3049445..3051175)"
+                     /transl_table=11
+ORIGIN
+        1 mvlrihqlsp aianqiaage vierpasvvk ellensldag asvigvdvny ggllqitvsd
+       61 ngsgivgddl plaiaahats kirtlddlys idsmgfrgea lasiasvakv tiiskpeeqd
+      121 nammlrvege nrtlspcarn igttidvsdl fynapvrkrf lkneklefqa iemvvkrfal
+      181 sapqialtlk hnkklifslp palseqakai rmgrilgntf mreaifldve hsgmrlygwi
+      241 snhrlqrsqn drqwiyvnqr mvkdkllqha vkqaydgllh agrfpiclly ftlpasevdv
+      301 nvhptkhevr fqqprlvhdf ftsqltkalq stldhsetme yayaasscne qqntvsepsh
+      361 icndresyeg aralspswsd nslsssitck gykktssvyh petefqwvil nerfilvlik
+      421 qqpylvdivt lfqewiekql mqkalplesr pllisirypl pnqwihkldh lkheltrvgi
+      481 qieypnaddl lirsiplnap yldvrrffnv lceldffdte qlialisrsq mfdpkqltve
+      541 eriemnqlll elslqeekcn tckaltiddc rmllhe
+//

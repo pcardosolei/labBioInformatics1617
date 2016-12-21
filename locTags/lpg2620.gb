@@ -1,0 +1,132 @@
+LOCUS       YP_096625               1164 aa            linear   CON 03-AUG-2016
+DEFINITION  chromosome segregation protein SMC [Legionella pneumophila subsp.
+            pneumophila str. Philadelphia 1].
+ACCESSION   YP_096625
+VERSION     YP_096625.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 1164)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 1164)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 1164)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28678.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1164
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..1164
+                     /calculated_mol_wt="134215"
+                     /function="Chemotaxis / motility / cell division"
+                     /product="chromosome segregation protein SMC"
+     Region          3..1157
+                     /db_xref="CDD:274008"
+                     /note="chromosome segregation protein SMC, common bacterial
+                     type; TIGR02168"
+                     /region_name="SMC_prok_B"
+     Region          3..>156
+                     /db_xref="CDD:213245"
+                     /note="ATP-binding cassette domain of barmotin, a member of
+                     the SMC protein family; cd03278"
+                     /region_name="ABC_SMC_barmotin"
+     Site            31..38
+                     /db_xref="CDD:213245"
+                     /note="Walker A/P-loop"
+                     /site_type="other"
+     Site            143..146
+                     /db_xref="CDD:213245"
+                     /note="Q-loop/lid"
+                     /site_type="other"
+     Region          291..>476
+                     /db_xref="CDD:301352"
+                     /note="Peptidase Gluzincin family (thermolysin-like
+                     proteinases, TLPs) includes peptidases M1, M2, M3, M4, M13,
+                     M32 and M36 (fungalysins); cl14813"
+                     /region_name="GluZincin"
+     Region          520..615
+                     /db_xref="CDD:284001"
+                     /note="SMC proteins Flexible Hinge Domain; pfam06470"
+                     /region_name="SMC_hinge"
+     Region          <1035..1151
+                     /db_xref="CDD:213245"
+                     /note="ATP-binding cassette domain of barmotin, a member of
+                     the SMC protein family; cd03278"
+                     /region_name="ABC_SMC_barmotin"
+     Site            1068..1077
+                     /db_xref="CDD:213245"
+                     /note="ABC transporter signature motif"
+                     /site_type="other"
+     Site            1092..1097
+                     /db_xref="CDD:213245"
+                     /note="Walker B"
+                     /site_type="other"
+     Site            1100..1103
+                     /db_xref="CDD:213245"
+                     /note="D-loop"
+                     /site_type="other"
+     Site            1124..1130
+                     /db_xref="CDD:213245"
+                     /note="H-loop/switch region"
+                     /site_type="other"
+     CDS             1..1164
+                     /coded_by="complement(NC_002942.5:2957264..2960758)"
+                     /transl_table=11
+ORIGIN
+        1 mhlkqlklag fksfvdpttv hfpsrlvavv gpngcgksni idavrwvmge ssaknlrges
+       61 mtdiifngss nrkpvgqasv elvfdnslgr ltgpfasyge iavkrivtrd gesfyylnga
+      121 rcrrkditdi flgtgagars ysiigqgtvs rlieakpeel rvyleeaagv skykerrret
+      181 lqrieqtrdn ltrvadiree lgkylqrler qakaaeryti lkeeekicra eiqalkwqey
+      241 sekqtvkqre lqelairneq qqslltscyk eravlneqlq daidqsqsiq dslyhsgtdi
+      301 arleeaiqqq erekkrlend rqqmqvdsql ieeqlkldne elhncklkaq qleehlhhlk
+      361 mefkeqeslw qekqkeqsqw ekiwqevqin sntikneyql tqaklqhleq krhqvlvrle
+      421 klnleqsais lddlqknkie lqekhfqlke tqefdeeqlr qanetqsdlq nqlqnteqql
+      481 htlqdefhrl ntelaalkaa qiaakkenrp nkdgiaewsd kprlmdvlkv epqwqsscei
+      541 vlgddliayv lddfaelwsr wqfcedhken vvtmralnge kqerprladk iqglvpstvn
+      601 hlehiyaads leeaktwfpd llahesivtv ngiwlgkgwi klprqkeqde vgvlarqqri
+      661 ielnlsvesl qqkiesirla rdsyqarlqe nlnfiklhql nlntsnealr nhiiavnsqe
+      721 qaifhaekqk daitneiiel essleelnae qlemadkire legqyqasel qfkrfinekd
+      781 twnsvlveqn kqvesvrall hqseleydre vtkiqqitdr isrekerlqr aqmrleeltq
+      841 hylqsvapea efknqlaall ikhgeielml tlsrekvsql klqledqekl ilnydqevkr
+      901 iqelmnqiqm ekqalsvras siqetldean lqaqslleri psgvtqsike deliaileki
+      961 krlgainlaa ieefaaeqqr kvfldeqynd lsqalstlet aiekmdnetk srlentfdev
+     1021 ntsfkalfpr lfgggraqle ltcdnlleag ivvmaqppgk rnssihllsg gekamtaval
+     1081 vfaifqlnps pfcmldevda plddlnvsrf cdlvkemsqf iqflfithnk vtmelaehlv
+     1141 gvtmrepgvs rlvavdvkqa ltme
+//

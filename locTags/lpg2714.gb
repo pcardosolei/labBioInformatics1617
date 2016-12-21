@@ -1,0 +1,140 @@
+LOCUS       YP_096719                646 aa            linear   CON 03-AUG-2016
+DEFINITION  threonyl-tRNA synthetase [Legionella pneumophila subsp. pneumophila
+            str. Philadelphia 1].
+ACCESSION   YP_096719
+VERSION     YP_096719.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 646)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 646)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 646)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AAU28772.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..646
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..646
+                     /EC_number="6.1.1.3"
+                     /calculated_mol_wt="73781"
+                     /function="Amino Acid Metabolism, Translation"
+                     /product="threonyl-tRNA synthetase"
+     Region          10..644
+                     /db_xref="CDD:234752"
+                     /note="threonyl-tRNA synthetase; Reviewed; PRK00413"
+                     /region_name="thrS"
+     Region          11..70
+                     /db_xref="CDD:133437"
+                     /note="TGS _ThrRS_N: ThrRS (threonyl-tRNA Synthetase) is a
+                     class II tRNA synthetase that couples threonine to its
+                     cognate tRNA. In addition to its catalytic and
+                     anticodon-binding domains, ThrRS has an N-terminal TGS
+                     domain, named after the ThrRS, GTPase, and...; cd01667"
+                     /region_name="TGS_ThrRS_N"
+     Region          178..226
+                     /db_xref="CDD:197931"
+                     /note="Threonyl and Alanyl tRNA synthetase second
+                     additional domain; smart00863"
+                     /region_name="tRNA_SAD"
+     Region          250..547
+                     /db_xref="CDD:238394"
+                     /note="Threonyl-tRNA synthetase (ThrRS) class II core
+                     catalytic domain. ThrRS is a homodimer. It is responsible
+                     for the attachment of threonine to the 3' OH group of
+                     ribose of the appropriate tRNA. This domain is primarily
+                     responsible for ATP-dependent...; cd00771"
+                     /region_name="ThrRS_core"
+     Site            order(253,266,317,321,324..325,339,371,373,375..377,
+                     382..384,387,389,484,487..488,492,524..525,528)
+                     /db_xref="CDD:238394"
+                     /site_type="active"
+     Site            order(257,263,265..267,269,271,273..274,276,279,294..295,
+                     299..300,302,304..306,308,326..328,330..333,335,347..348,
+                     351..353,355..357,370,372,375,385..386,413,455..457,506,
+                     508)
+                     /db_xref="CDD:238394"
+                     /note="dimer interface [polypeptide binding]"
+                     /site_type="other"
+     Site            299..306
+                     /db_xref="CDD:238394"
+                     /note="motif 1"
+                     /site_type="other"
+     Site            370..373
+                     /db_xref="CDD:238394"
+                     /note="motif 2"
+                     /site_type="other"
+     Site            524..528
+                     /db_xref="CDD:238394"
+                     /note="motif 3"
+                     /site_type="other"
+     Region          547..630
+                     /db_xref="CDD:238437"
+                     /note="ThrRS Threonyl-anticodon binding domain. ThrRS
+                     belongs to class II aminoacyl-tRNA synthetases (aaRS). This
+                     alignment contains the anticodon binding domain, which is
+                     responsible for specificity in tRNA-binding, so that the
+                     activated amino acid is...; cd00860"
+                     /region_name="ThrRS_anticodon"
+     Site            order(555..556,591,597,605,615,617)
+                     /db_xref="CDD:238437"
+                     /note="anticodon binding site"
+                     /site_type="other"
+     CDS             1..646
+                     /coded_by="complement(NC_002942.5:3065606..3067546)"
+                     /note="catalyzes a two-step reaction, first charging a
+                     threonine molecule by linking its carboxyl group to the
+                     alpha-phosphate of ATP, followed by transfer of the
+                     aminoacyl-adenylate to its tRNA; catalyzes the formation of
+                     threonyl-tRNA(Thr) from threonine and tRNA(Thr)"
+                     /transl_table=11
+ORIGIN
+        1 mkdgktdkim pnvklpdgnv khfeapltiy dvahhispgl akaaiagrvd gvlvdtsyli
+       61 kedcsliivt ekhedsleii rhstahllaq avkalfpsaq vtigpviedg fyydfafers
+      121 ftpddlslie akmhelakan lsitrrelpr neaiqyfkdl geeykakiia dipenealsl
+      181 yrqgdfedlc rgphvpstgf lkafkltkva gaywrgdsnn emlqriygta wadkksleey
+      241 lfrleeaekr dhrklgkald lfhfqdiapg mvfwhpkgwt iyqelehymr nrlvdfgyqe
+      301 irtpqlvdrs lweksghwan frdemfvtet enrhyavkpm scpchvqiyn hglksyrdlp
+      361 lrlsefgnch rcepsgalhg lmrvrnmvqd dahifctedq iqsevammle lvqsvykdfg
+      421 fteikyrlal rpekrvgsdd vwdkaetalk lamqgrniew vdapgegafy gpkiecslsd
+      481 clgriwqcgt iqvdfsmpar leasyvaedg skqtpvmlhr ailgsferfm giliehyagk
+      541 lplwlspvqa ivltisekqn eyaekvrktl qkrgiranfd lrnekigfki rehtlqkipy
+      601 llvvgdkeve ncqvavrtrd gidlgvmtid ticdtltqei irkgsi
+//

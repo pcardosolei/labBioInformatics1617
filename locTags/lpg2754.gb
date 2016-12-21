@@ -1,0 +1,113 @@
+LOCUS       YP_096752                556 aa            linear   CON 03-AUG-2016
+DEFINITION  DNA polymerase III subunits gamma and tau [Legionella pneumophila
+            subsp. pneumophila str. Philadelphia 1].
+ACCESSION   YP_096752
+VERSION     YP_096752.1
+DBLINK      BioProject:PRJNA57609
+            Assembly:GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 556)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (residues 1 to 556)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (residues 1 to 556)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAU28805.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..556
+                     /db_xref="taxon:272624"
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+     Protein         1..556
+                     /EC_number="2.7.7.7"
+                     /calculated_mol_wt="61887"
+                     /function="Nucleotide Metabolism, Replication and Repair"
+                     /product="DNA polymerase III subunits gamma and tau"
+     Region          1..550
+                     /db_xref="CDD:236138"
+                     /note="DNA polymerase III subunits gamma and tau;
+                     Validated"
+                     /region_name="PRK07994"
+     Region          19..170
+                     /db_xref="CDD:99707"
+                     /note="The AAA+ (ATPases Associated with a wide variety of
+                     cellular Activities) superfamily represents an ancient
+                     group of ATPases belonging to the ASCE (for additional
+                     strand, catalytic E) division of the P-loop NTPase fold.
+                     The ASCE division also includes ABC; cd00009"
+                     /region_name="AAA"
+     Site            45..52
+                     /db_xref="CDD:99707"
+                     /note="Walker A motif"
+                     /site_type="other"
+     Site            order(46..53,126,157)
+                     /db_xref="CDD:99707"
+                     /note="ATP binding site [chemical binding]"
+                     /site_type="other"
+     Site            122..127
+                     /db_xref="CDD:99707"
+                     /note="Walker B motif"
+                     /site_type="other"
+     Site            169
+                     /db_xref="CDD:99707"
+                     /note="arginine finger"
+                     /site_type="other"
+     Region          258..354
+                     /db_xref="CDD:288981"
+                     /note="DNA polymerase III subunits gamma and tau domain
+                     III; pfam12169"
+                     /region_name="DNA_pol3_gamma3"
+     Region          431..531
+                     /db_xref="CDD:288982"
+                     /note="DNA polymerase III tau subunit V interacting with
+                     alpha; pfam12170"
+                     /region_name="DNA_pol3_tau_5"
+     CDS             1..556
+                     /coded_by="NC_002942.5:3103406..3105076"
+                     /transl_table=11
+ORIGIN
+        1 msylalarkw rprtfsqlvg qehinkalin alnqqrlhha ylftgtrgvg ktsvarilak
+       61 alncekgits epclhcdtci aieqgryidl ieidgasktr vedtrdlldn iqyaptngrf
+      121 kvylidevhm lsqhsfnall ktleeppshv kfilattdpq klpvtvlsrc lqfnlkhlpa
+      181 elinqqlqli lqeerldfei qaldilaqaa rgsmrdalsl ldqaitscet kllasdvkml
+      241 lghtqqdyal lllqalakqe apimlvlsqq iiaeggnfqy vldeilsylh qitvyqclgd
+      301 nnplispkae ikelakqfsa adtqlfyqig ikgreemhla ptlaigfnmt mlrmytfkpa
+      361 shvttpplaf eqnnktcsli vddntpaqnp igiepipvik atdntvayqq tqslstddkk
+      421 sansgesmsc dwneiipqlk lsglalnaie naeflgkker eitfgvhkgh qslftpttin
+      481 rietalagyy kspvkiilnt qdavhaspaq qkekasqekl eqaeaalhad pvfqqlqqef
+      541 saelvknsiv llkddl
+//
