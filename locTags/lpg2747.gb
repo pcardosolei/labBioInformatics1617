@@ -1,53 +1,153 @@
-LOCUS       AV800328                 410 bp    DNA     linear   EST 29-MAR-2002
-DEFINITION  AV800328 RAFL9 Arabidopsis thaliana cDNA clone RAFL09-23-K21 3',
-            mRNA sequence.
-ACCESSION   AV800328
-VERSION     AV800328.1
-DBLINK      BioSample:LIBEST_010443
-KEYWORDS    EST.
-SOURCE      Arabidopsis thaliana (thale cress)
-  ORGANISM  Arabidopsis thaliana
-            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
-            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
-            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
-            Camelineae; Arabidopsis.
-REFERENCE   1  (bases 1 to 410)
-  AUTHORS   Seki,M., Narusaka,M., Ishida,J., Kamiya,A., Satou,M., Nakajima,M.,
-            Oono,Y., Sakurai,T., Carninci,P., Kawai,J., Itoh,M., Ishii,Y.,
-            Arakawa,T., Shibata,K., Shinagawa,A., Muramatsu,M., Hayashizaki,Y.
-            and Shinozaki,K.
-  TITLE     Large scale analysis of Arabidopsis full-length cDNA (2002b)
-  JOURNAL   Unpublished (2002)
-COMMENT     Contact: Motoaki Seki
-            Plant Functional Genomics Research Group
-            RIKEN Genomic Sciences Center
-            3-1-1 Koyadai, Tsukuba, Ibaraki 305-0074, Japan
-            An Arabidopsis full-length cDNA library was constructed essentially
-            as reported previously (Seki et al., 1998). cDNA cleaved with BamHI
-            and XhoI was ligated to modified Lambda FLC-1 vector (Carninci et
-            al., submitted for publication) digested with BamHI and SalI. This
-            clone is in a modified pBluescript vector. Please visit our web
-            site (http://www.gsc.riken.go.jp/e/plant/index _e.html) for further
-            details.
+LOCUS       NC_002942               2902 bp    DNA     linear   CON 03-AUG-2016
+DEFINITION  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            chromosome, complete genome.
+ACCESSION   NC_002942 REGION: complement(3097929..3100830)
+VERSION     NC_002942.5
+DBLINK      BioProject: PRJNA57609
+            Assembly: GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (bases 1 to 2902)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E.,
+            De Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (bases 1 to 2902)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E.,
+            De Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia
+            University, 1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (bases 1 to 2902)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AE017354.
+            On Sep 29, 2004 this sequence version replaced gi:50659180.
+            RefSeq Category: Reference Genome
+                        COM: Community Selected
+                        TYS: Designated Type Strain
+                        UPR: UniProt Genome
+            COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
-     source          1..410
-                     /clone="RAFL09-23-K21"
-                     /clone_lib="LIBEST_010443 RAFL9"
-                     /db_xref="taxon:3702"
-                     /dev_stage="plants at various developmental stages from
-                     germination to mature seeds"
-                     /lab_host="DH10B"
-                     /mol_type="mRNA"
-                     /note="Site_1: BamHI; Site_2: SalI; subjected to
-                     dehydration (1, 2, 5, 10, 24 hr) and cold (1, 2, 5, 10, 24
-                     hr) treatments"
-                     /organism="Arabidopsis thaliana"
-ORIGIN
-        1 aacaagtatt atttatttca tccaaatttt cttttcatgt aactttcgac atactcgggt
-       61 atattaaaca aaacaacata aaacattctg taaacggtac gcaaactttt aacatctatt
-      121 atcacattca cagacagtca aagatggcta caacgctctt atggctcgac aatgatcttc
-      181 ccagtagcat gaccatcgat acttttggcc caagcatcct ccgctttgct caaaggatgc
-      241 tttgagtcaa tcactgtctt cactttccct tctttcacta gattcaccat aaactccaaa
-      301 ttctcagctt ttgggatcaa caagagtggc actaactgct tctttgacat ggttattttc
-      361 ttaaccgcat aagtccacat tgcattaggc cccggtgtga tgtctatcac
+     source          1..2902
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /mol_type="genomic DNA"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+                     /db_xref="taxon:272624"
+     gene            1..2902
+                     /locus_tag="lpg2747"
+                     /db_xref="GeneID:19834313"
+     rRNA            1..2902
+                     /locus_tag="lpg2747"
+                     /product="23S ribosomal RNA"
+                     /db_xref="GeneID:19834313"
+     gene            complement(1231..1581)
+                     /locus_tag="lpg2751"
+                     /db_xref="GeneID:19834316"
+     CDS             complement(1231..1581)
+                     /locus_tag="lpg2751"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_096751.1"
+                     /db_xref="GeneID:19834316"
+                     /translation="MASSFSWKPGINDFSVPKGQNHFAPQSYGKPDLPSLPPYMQVPG
+                     QPTPGSPSLLRPHFTTYKKSRNINLVPIDYALQPRLRGRLTLLRLTSCRKPGTSGVWA
+                     FHPHYRYSCQHSHF"
+     gene            complement(2072..2413)
+                     /locus_tag="lpg2750"
+                     /db_xref="GeneID:19834315"
+     CDS             complement(2072..2413)
+                     /locus_tag="lpg2750"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_096750.1"
+                     /db_xref="GeneID:19834315"
+                     /translation="MALPFRTTGSLRPTFVPARAVTLAVKHPFAFTLLVRCPTVPRVP
+                     LCSSVTLWEETAPVKLPIIHCPHPGLLDQVRTSITTGWYFKGGSMRTSVLTSQPPTYP
+                     TQSSSKSSAKL"
+     gene            complement(2190..2471)
+                     /locus_tag="lpg2749"
+                     /db_xref="GeneID:19834314"
+     CDS             complement(2190..2471)
+                     /locus_tag="lpg2749"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_096749.1"
+                     /db_xref="GeneID:19834314"
+                     /translation="MNSWAVSACYPRSTFYPLSDGPSIQNHRITKTNFRSCSSRHSRS
+                     QAPFCLYTLGTMSDRTEGTFVLLRYSLGGDRPSQTTHHTLSSSRITGPS"
+ORIGIN      
+        1 aagcgcaaac ggtggatgcc ttggcagtaa gaggcgaaga aggacgtgga atcctgcgaa
+       61 aagctatggg gagctggaaa cgagcgatga gccatagatg tccgaatggg ggaacccggc
+      121 tgcagcgatg cggtcatttg catttgaata cataggatgc aaaggcgaac tcggggaact
+      181 gaaacatcta agtacccgaa ggaaaagaaa tcaagagaga ttctccaagt agcggcgagc
+      241 gaacggggag gagcctggcg tgatttatta ttgaactgag tagaacaatt tgggaaagtt
+      301 ggcgatagag ggtgaaagcc ccgtatacga aggtttgatg aggaactagg cacgcgagca
+      361 agtaggccgg gacacgtgaa atcctggttg aagatgggtg gaccatcatc caaggctaaa
+      421 tactacttac tgaccgatag tgaaccagta ccgtgaggga aaggtgaaaa gaaccccgga
+      481 gaggggagtg aaatagaatc tgaaaccgtt tgcgtacaag cagtgggagc atggtttagg
+      541 ctgtgtgact gcgtaccttt tgtataatgg gtcagcgagt tactttcagt ggcgaggtta
+      601 actgaataag ggagccgtag agaaatcgag tctgaatagg gcgatagtcg ctgggagtag
+      661 acccgaaacc gggcgatcta gccatgtgca ggatgaaggt tgggtaacac caactggagg
+      721 tccgaaccgg gtaatgttga aaaattatcg gatgacgtgt ggctaggagt gaaaggctaa
+      781 tcaagcccgg agatagctgg ttctccccga aagctattta ggtagcgcct cgtgaatgat
+      841 tactgggggt agagcactgt ttcggctagg gggctgtcat ggcttaccaa accgatgcaa
+      901 actccgaata ccggctaatt gaatcacggg agacacacgg cgggtgctaa cgtccgtcgt
+      961 ggagagggaa acaacccaga ccgccagcta aggtccccaa gtactagtta agtgggaaac
+     1021 gatgtgggaa ggcatagaca gccaggaggt tggcttagaa gcagccaccc tttaaagaaa
+     1081 gcgtaatagc tcactggtcg agtcggcctg cgcggaagat gtaacggggc taaaactagt
+     1141 caccgaagct gcggatgtgc gcgaaggcgc acgtggtagg ggagcgttct gtaggctgat
+     1201 gaaggtgcat tgagaagtgt gctggaggta tcagaagtgc gaatgctgac atgagtaacg
+     1261 ataatgtggg tgaaaagccc acacgccgga agtcccaggt ttcctgcacg acgttaatcg
+     1321 gagcagggtg agtcggcccc taaggcgagg ctgaagagcg tagtcgatgg gaaccaggtt
+     1381 aatattcctg gactttttat aagtggtgaa gtggggacga agaaggctag gtgagccagg
+     1441 cgttggttgt cctggtactt gcatgtaggg gggaagactt ggcaaatccg gttttccata
+     1501 actctgaggt gcgaagtggt tctgaccttt tggtacagag aagtcattga tgcccggctt
+     1561 ccaggaaaag ctgctagcca taacttatag agaaccgtac cgcaaaccga cacaggtgga
+     1621 caggtagaga atactaaggc gcttgagaga actcgggtga aggaactagg caaaatggta
+     1681 ccgtaacttc gggagaaggt acgccctttc tggtgatggg atttactttc agagctggag
+     1741 agggccgcag agaccaggtg gctgcgactg tttattaaaa acacagcact ctgcaaattc
+     1801 gtaagaagac gtatagggtg tgacgcctgc ccggtgccgg aaggttaatt gatggggtta
+     1861 tcttcggaga agctcttgat cgaagccccg gtaaacggcg gccgtaacta taacggtcct
+     1921 aaggtagcga aattccttgt cgggtaagtt ccgacctgca cgaatggcgt aacgatggcc
+     1981 acactgtctc cacccgagac tcagtgaaat tgaaatcgct gtgaagatgc agtgtacccg
+     2041 cggctagacg gaaagacccc gtgaaccttt actatagttt tgcactggac tttgatgatg
+     2101 actgtgtagg ataggtggga ggctgtgaag tgagaacgct agttctcatg gagccgccct
+     2161 tgaaatacca ccctgttgtt attgaggttc taacttggtc cagtaatcct ggatgaggac
+     2221 agtgtatgat gggtagtttg actggggcgg tctcctccca aagagtaacg gaggagcaca
+     2281 aaggtaccct cggtacggtc ggacatcgta ccaagagtgt aaaggcaaaa gggtgcttga
+     2341 ctgcgagagt gacggctcga gcaggaacga aagttggtct tagtgatccg gtggttctga
+     2401 atggaagggc catcgctcaa cggataaaag gtactccggg gataacaggc tgataccgcc
+     2461 caagagttca tatcgacggc ggtgtttggc acctcgatgt cggctcatca catcctgggg
+     2521 ctgaagcagg tcccaagggt atggctgttc gccatttaaa gtggtacgcg agctgggttt
+     2581 agaacgtcgt gagacagttc ggtccctatc tgccgtgggc gtaggaaaat tgagaggagc
+     2641 tgctcctagt acgagaggac cggagtggac gaacctctgg tgcaccggtt gtcacgccag
+     2701 tggcatggcc gggtagctaa gttcggacgg gataaccgct gaaagcatct aagcgggaag
+     2761 cctccctcaa gatgagtttt cccatgaagc ccgttgaaga ctacgacgtt gataggcaag
+     2821 gtgtggaagc gcagtaatgc gtgaagctaa cttgtactaa ttggctgatt gtcttgacca
+     2881 tataatctga gtaacttcag aa
 //
+

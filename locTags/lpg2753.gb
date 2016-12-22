@@ -1,53 +1,91 @@
-LOCUS       AV800333                 414 bp    DNA     linear   EST 29-MAR-2002
-DEFINITION  AV800333 RAFL9 Arabidopsis thaliana cDNA clone RAFL09-23-L05 3',
-            mRNA sequence.
-ACCESSION   AV800333
-VERSION     AV800333.1
-DBLINK      BioSample:LIBEST_010443
-KEYWORDS    EST.
-SOURCE      Arabidopsis thaliana (thale cress)
-  ORGANISM  Arabidopsis thaliana
-            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
-            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
-            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
-            Camelineae; Arabidopsis.
-REFERENCE   1  (bases 1 to 414)
-  AUTHORS   Seki,M., Narusaka,M., Ishida,J., Kamiya,A., Satou,M., Nakajima,M.,
-            Oono,Y., Sakurai,T., Carninci,P., Kawai,J., Itoh,M., Ishii,Y.,
-            Arakawa,T., Shibata,K., Shinagawa,A., Muramatsu,M., Hayashizaki,Y.
-            and Shinozaki,K.
-  TITLE     Large scale analysis of Arabidopsis full-length cDNA (2002b)
-  JOURNAL   Unpublished (2002)
-COMMENT     Contact: Motoaki Seki
-            Plant Functional Genomics Research Group
-            RIKEN Genomic Sciences Center
-            3-1-1 Koyadai, Tsukuba, Ibaraki 305-0074, Japan
-            An Arabidopsis full-length cDNA library was constructed essentially
-            as reported previously (Seki et al., 1998). cDNA cleaved with BamHI
-            and XhoI was ligated to modified Lambda FLC-1 vector (Carninci et
-            al., submitted for publication) digested with BamHI and SalI. This
-            clone is in a modified pBluescript vector. Please visit our web
-            site (http://www.gsc.riken.go.jp/e/plant/index _e.html) for further
-            details.
+LOCUS       NC_002942               1475 bp    DNA     linear   CON 03-AUG-2016
+DEFINITION  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            chromosome, complete genome.
+ACCESSION   NC_002942 REGION: complement(3101228..3102702)
+VERSION     NC_002942.5
+DBLINK      BioProject: PRJNA57609
+            Assembly: GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (bases 1 to 1475)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E.,
+            De Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (bases 1 to 1475)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E.,
+            De Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia
+            University, 1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (bases 1 to 1475)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AE017354.
+            On Sep 29, 2004 this sequence version replaced gi:50659180.
+            RefSeq Category: Reference Genome
+                        COM: Community Selected
+                        TYS: Designated Type Strain
+                        UPR: UniProt Genome
+            COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
-     source          1..414
-                     /clone="RAFL09-23-L05"
-                     /clone_lib="LIBEST_010443 RAFL9"
-                     /db_xref="taxon:3702"
-                     /dev_stage="plants at various developmental stages from
-                     germination to mature seeds"
-                     /lab_host="DH10B"
-                     /mol_type="mRNA"
-                     /note="Site_1: BamHI; Site_2: SalI; subjected to
-                     dehydration (1, 2, 5, 10, 24 hr) and cold (1, 2, 5, 10, 24
-                     hr) treatments"
-                     /organism="Arabidopsis thaliana"
-ORIGIN
-        1 cgttcatgtt ttttgatcat ttatgatctt agcattcaca taataattaa tgagtatata
-       61 ctgtacgaca aaaagctatc tgagatatct taaaggggct ttagtatttt tctcaaaagc
-      121 atcatttgct tttctttttt ccctggttcc tctaattaac agggcactgg accaaaactc
-      181 aaagtcctcc ataagtaaaa tctatgagag ggatggcaaa agtgtaatta atttcctgct
-      241 gggtaggggt tatttgattc tgggtgagca cctagagctt ccattatgct ctcgacccac
-      301 ccttcaagtc ctggtttctc tgggtagtag acgtttttca atcctagtct tctagcagct
-      361 gatgcagttg tctctccaat gcaggcaacg taattgctcc attgctcctc attt
+     source          1..1475
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /mol_type="genomic DNA"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+                     /db_xref="taxon:272624"
+     gene            1..1475
+                     /locus_tag="lpg2753"
+                     /db_xref="GeneID:19834318"
+     rRNA            1..1475
+                     /locus_tag="lpg2753"
+                     /product="16S ribosomal RNA"
+                     /db_xref="GeneID:19834318"
+ORIGIN      
+        1 aactgaagag tttgatcctg gctcagattg aacgctggcg gcatgcttaa cacatgcaag
+       61 tcgaacggca gcattgtcta gcttgctaga cagatggcga gtggcgaacg ggtgagtaac
+      121 gcgtaggaat atgccttgaa gagggggaca acttggggaa actcaagcta ataccgcata
+      181 atgtctgagg acgaaagctg gggaccttcg ggcctggcgc tttaagatta gcctgcgtcc
+      241 gattagctag ttggtggggt aagggcctac caaggcgacg atcggtagct ggtctgagag
+      301 gatgaccagc cacactggaa ctgagacacg gtccagactc ctacgggagg cagcagtggg
+      361 gaatattgga caatgggggc aaccctgatc cagcaatgcc gcgtgtgtga agaaggcctg
+      421 agggttgtaa agcactttca gtggggagga gggttgatag gttaagagct gattaactgg
+      481 acgttaccca cagaagaagc accggctaac tccgtgccag cagccgcggt aatacggagg
+      541 gtgcgagcgt taatcggaat tactgggggt aaagggtgcg taggtggttg attaagttat
+      601 ctgtgaaatt cctgggctta acctgggacg gtcagataat actggttgac tcgagtatgg
+      661 gagagggtag tggaatttcc ggtgtagcgg tgaattgcgt agagatcgga aggaacacca
+      721 gtggcgaagg cggctacctg gcctaatact gacactgagg cacgaaagcg tggggagcaa
+      781 acaggattag ataccctggt agtccacgct gtaaacgatg tcaactagct gttggttata
+      841 tgaaaataat tagtggcgca gcaaacgcga taagttgacc gcctggggag tacggtcgca
+      901 agattaaaac tcaaaggaat tgacgggggc ccgcacaagc ggtggagcat gtggtttaat
+      961 tcgatgcaac gcgaagaacc ttacctaccc ttgacataca gtgaattttg cagagatgca
+     1021 ttagtgcctt cgggaacact gatacaggtg ctgcatggct gtcgtcagct cgtgtcgtga
+     1081 gatgttgggt taagtcccgt aacgagcgca acccttatcc ttagttgcca gcatgtgatg
+     1141 gtggggactc taaggagact gccggtgaca aaccggagga aggcggggat gacgtcaagt
+     1201 catcatggcc cttacgggta gggctacaca cgtgctacaa tggccgatac agagggcggc
+     1261 gaaggggcga cctggagcaa atccttaaaa gtcggtcgta gtccggattg gagtctgcaa
+     1321 ctcgactcca tgaagtcgga atcgctagta atcgcgaatc agcatgtcgc ggtgaatacg
+     1381 ttcccgggcc ttgtacacac cgcccgtcac accatgggag tgggttgcac cagaagtaga
+     1441 tagtctaacc ttcgggggga cgtttaccac ggtgt
 //
+

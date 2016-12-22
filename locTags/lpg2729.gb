@@ -1,54 +1,91 @@
-LOCUS       AV800309                 438 bp    DNA     linear   EST 29-MAR-2002
-DEFINITION  AV800309 RAFL9 Arabidopsis thaliana cDNA clone RAFL09-23-J08 3',
-            mRNA sequence.
-ACCESSION   AV800309
-VERSION     AV800309.1
-DBLINK      BioSample:LIBEST_010443
-KEYWORDS    EST.
-SOURCE      Arabidopsis thaliana (thale cress)
-  ORGANISM  Arabidopsis thaliana
-            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
-            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
-            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
-            Camelineae; Arabidopsis.
-REFERENCE   1  (bases 1 to 438)
-  AUTHORS   Seki,M., Narusaka,M., Ishida,J., Kamiya,A., Satou,M., Nakajima,M.,
-            Oono,Y., Sakurai,T., Carninci,P., Kawai,J., Itoh,M., Ishii,Y.,
-            Arakawa,T., Shibata,K., Shinagawa,A., Muramatsu,M., Hayashizaki,Y.
-            and Shinozaki,K.
-  TITLE     Large scale analysis of Arabidopsis full-length cDNA (2002b)
-  JOURNAL   Unpublished (2002)
-COMMENT     Contact: Motoaki Seki
-            Plant Functional Genomics Research Group
-            RIKEN Genomic Sciences Center
-            3-1-1 Koyadai, Tsukuba, Ibaraki 305-0074, Japan
-            An Arabidopsis full-length cDNA library was constructed essentially
-            as reported previously (Seki et al., 1998). cDNA cleaved with BamHI
-            and XhoI was ligated to modified Lambda FLC-1 vector (Carninci et
-            al., submitted for publication) digested with BamHI and SalI. This
-            clone is in a modified pBluescript vector. Please visit our web
-            site (http://www.gsc.riken.go.jp/e/plant/index _e.html) for further
-            details.
+LOCUS       NC_002942                417 bp    DNA     linear   CON 03-AUG-2016
+DEFINITION  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            chromosome, complete genome.
+ACCESSION   NC_002942 REGION: complement(3079716..3080132)
+VERSION     NC_002942.5
+DBLINK      BioProject: PRJNA57609
+            Assembly: GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (bases 1 to 417)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E.,
+            De Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (bases 1 to 417)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E.,
+            De Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia
+            University, 1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (bases 1 to 417)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AE017354.
+            On Sep 29, 2004 this sequence version replaced gi:50659180.
+            RefSeq Category: Reference Genome
+                        COM: Community Selected
+                        TYS: Designated Type Strain
+                        UPR: UniProt Genome
+            COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
-     source          1..438
-                     /clone="RAFL09-23-J08"
-                     /clone_lib="LIBEST_010443 RAFL9"
-                     /db_xref="taxon:3702"
-                     /dev_stage="plants at various developmental stages from
-                     germination to mature seeds"
-                     /lab_host="DH10B"
-                     /mol_type="mRNA"
-                     /note="Site_1: BamHI; Site_2: SalI; subjected to
-                     dehydration (1, 2, 5, 10, 24 hr) and cold (1, 2, 5, 10, 24
-                     hr) treatments"
-                     /organism="Arabidopsis thaliana"
-ORIGIN
-        1 ccgcaggaat gacacaaaat atcatattaa gcggaatatt ccaaaaaggg tttaaaaatt
-       61 attacaaaaa aaaaaaagaa attaaaaggg aggctggagt ggcaagttac ttcggcaact
-      121 tcggttcaga aaccaattcg gaaattgggc ttcgagggag aattaaagga gggggtacaa
-      181 aaacaaacaa acccaaataa caaagcaatt aaggttaaag aaaactaaaa ttagtccttt
-      241 aatttattca acgggaaaga ggttttggat ggtccaagaa gttcaacttg ggcaaccttt
-      301 tttggactgg cagccttggt aacctgggct ccagttgggg tcctccttgt aaacactcct
-      361 tgataacccc gactgcccca gcctggctca tgtccctcac agcgaaccgt caagcggtgg
-      421 gtactccgac aaggtccc
+     source          1..417
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /mol_type="genomic DNA"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+                     /db_xref="taxon:272624"
+     gene            <1..40
+                     /gene="cycB"
+                     /locus_tag="lpg2730"
+                     /db_xref="GeneID:19834295"
+     CDS             <1..40
+                     /gene="cycB"
+                     /locus_tag="lpg2730"
+                     /function="Energy Metabolism"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cytochrome c5"
+                     /protein_id="YP_096733.1"
+                     /db_xref="GeneID:19834295"
+                     /translation="MIFKLTIRGRINMRLNIALILSFFSIMLFAMDEVDEQQILQRIQ
+                     PVGKVRVQEEQGNNIEAGATKTTVVDSKSKKEPGQDIYDKYCSVCHRDGLAGAPKFQS
+                     EADWKPRLASKKIDDLLASAIKGLNAMPAKGTCMDCSDAELKAAIQYMLPKS"
+     gene            1..417
+                     /gene="dsbH"
+                     /locus_tag="lpg2729"
+                     /db_xref="GeneID:19834294"
+     misc_feature    1..417
+                     /gene="dsbH"
+                     /locus_tag="lpg2729"
+                     /note="similar to protein-disulfide oxidoreductase
+                     (disulfide bond formation)"
+ORIGIN      
+        1 attaaaagcc gcgatacaat atatgttgcc gaaatcatga aaaagcttac ttacagaaaa
+       61 atacaatctt ttcaggtaat tattacttta ttggtaatat tcgcttcgtt ttaccttgaa
+      121 tatgctgttg gactacaacc atgtcctttg tgcttgatgc agcgaatttg tgtatttatt
+      181 ttgttagggt taatggggtt gtctctggga accttgaaaa aagcgcatat agtaagcttg
+      241 atgcagtttc tggttgcgtg tgccggtttg tatttctctt taaggcaatt gtggttgcaa
+      301 tctttaccgt cagatcaagc tcctgcttgc atgcctgggc ttgatgtatt aattcagtat
+      361 tttccatggc aaactgttgc taaagcccta ttttggggag caggggattg tgctgaa
 //
+
