@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_231777</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834112</BlastOutput_query-def>
+  <BlastOutput_query-len>111</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_231777</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834112</Iteration_query-def>
+  <Iteration_query-len>111</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250709|ref|WP_010948249.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|52842755|ref|YP_096554.1| chaperonin CsaA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629866|gb|AAU28607.1| chaperonin CsaA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509260|gb|AEW52784.1| chaperonin CsaA [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490742|gb|AGH52587.1| Protein secretion chaperonin CsaA [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083224|gb|AGN15472.1| chaperonin CsaA [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772927|emb|CZI20386.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998775624|emb|CZG57235.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998778210|emb|CZG72208.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998784449|emb|CZG81185.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998787401|emb|CZG55745.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998796413|emb|CZH95640.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998800417|emb|CZL07441.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998805701|emb|CZK04349.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998808465|emb|CZH91542.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998811806|emb|CZH75071.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998814395|emb|CZG65651.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998817620|emb|CZL53907.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998820723|emb|CZL57714.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998826685|emb|CZK05423.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998832677|emb|CZI11884.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998835658|emb|CZK83423.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998837952|emb|CZJ77238.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998842197|emb|CZL08562.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998844615|emb|CZK24347.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998847566|emb|CZK64034.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998850347|emb|CZI44064.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998853670|emb|CZL21778.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998856366|emb|CZL29557.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998859689|emb|CZL68898.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998862775|emb|CZK21787.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998865500|emb|CZJ44912.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998869759|emb|CZJ33103.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998870954|emb|CZM13096.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998874442|emb|CZK33522.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998877571|emb|CZM02875.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998880638|emb|CZI90296.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998887932|emb|CZL45718.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998889333|emb|CZK26141.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998895616|emb|CZK02807.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998906017|emb|CZK52085.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998909588|emb|CZL05056.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998915942|emb|CZK66316.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998918411|emb|CZK87307.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998921382|emb|CZL41938.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998927687|emb|CZL67135.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998930774|emb|CZK78439.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998933821|emb|CZL72290.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998939989|emb|CZK79709.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998946066|emb|CZK99799.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998949110|emb|CZK85606.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998958504|emb|CZL96455.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998961410|emb|CZK21357.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998964723|emb|CZK09673.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998966855|emb|CZM48010.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998970397|emb|CZK49253.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998973912|emb|CZK29830.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998979617|emb|CZL62928.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998985966|emb|CZK04042.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998988604|emb|CZL45107.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998998134|emb|CZJ92286.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999008106|emb|CZK31873.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999013039|emb|CZL47060.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999016961|emb|CZL73069.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999022759|emb|CZL19921.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999025270|emb|CZK71690.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999037027|emb|CZL51178.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999046751|emb|CZL73835.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999061558|emb|CZL10427.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999067477|emb|CZJ21418.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999076799|emb|CZG55861.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999080142|emb|CZJ88193.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999082899|emb|CZK80992.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999090391|emb|CZK37895.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999092385|emb|CZL36430.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999095171|emb|CZG82632.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999098814|emb|CZG65211.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999101243|emb|CZL70843.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999110314|emb|CZL12147.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999113907|emb|CZL54956.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999116312|emb|CZK44039.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999126224|emb|CZK76012.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999131490|emb|CZL91652.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999134709|emb|CZL13678.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999138189|emb|CZK32414.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999141696|emb|CZL40288.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999144659|emb|CZK73355.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999147549|emb|CZL45634.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999156960|emb|CZH77336.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999175689|emb|CZL01754.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999191384|emb|CZI21278.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999194507|emb|CZI48211.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999199847|emb|CZG80657.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999203818|emb|CZI48222.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999209913|emb|CZK72157.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999219405|emb|CZL35429.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999222499|emb|CZI39943.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999335174|emb|CZK70062.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1002075454|emb|CZQ93588.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1002078959|emb|CZQ93577.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1003020053|emb|CZR21079.1| chaperonin CsaA [Legionella pneumophila] &gt;gi|1003022930|emb|CZR20022.1| chaperonin CsaA [Legionella pneumophila] &gt;gi|1003026772|emb|CZR17508.1| chaperonin CsaA [Legionella pneumophila] &gt;gi|1073865591|gb|AOU05542.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073868559|gb|AOU08509.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073871554|gb|AOU11503.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073874426|gb|AOU14374.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073877480|gb|AOU17427.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073880442|gb|AOU20388.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073883439|gb|AOU23384.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073886433|gb|AOU26377.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073889401|gb|AOU29344.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073892384|gb|AOU32326.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073895352|gb|AOU35293.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073898311|gb|AOU38251.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073901277|gb|AOU41216.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073904185|gb|AOU44123.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073907139|gb|AOU47076.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073910156|gb|AOU50091.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073913168|gb|AOU53100.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073916128|gb|AOU56059.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073919091|gb|AOU59021.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073921995|gb|AOU61924.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073925077|gb|AOU65004.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073928040|gb|AOU67966.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073931026|gb|AOU70935.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073934396|gb|AOU73955.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073937360|gb|AOU84359.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073947627|gb|AOU87351.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1073950555|gb|AOU90278.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1104003949|emb|SFZ46504.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1129969212|gb|APT99571.1| tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948249</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>5.36895e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|500495975|ref|WP_011947472.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|148281761|gb|ABQ55849.1| chaperonin CsaA [Legionella pneumophila str. Corby] &gt;gi|295650094|gb|ADG25941.1| chaperonin CsaA [Legionella pneumophila 2300/99 Alcoy] &gt;gi|761990624|dbj|GAN18526.1| tRNA-binding protein YgjH [Legionella pneumophila] &gt;gi|761993814|dbj|GAN21632.1| tRNA-binding protein YgjH [Legionella pneumophila] &gt;gi|761996957|dbj|GAN30952.1| tRNA-binding protein YgjH [Legionella pneumophila] &gt;gi|998802541|emb|CZH86040.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998912403|emb|CZH01433.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998982096|emb|CZI81171.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998994830|emb|CZI11131.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999004375|emb|CZI39763.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999107082|emb|CZI80403.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999150979|emb|CZH75956.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999165970|emb|CZG66333.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999170333|emb|CZH63391.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999231401|emb|CZI59106.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999303321|emb|CZI24048.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1032658639|gb|ANH13910.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1032661601|gb|ANH16871.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1032664579|gb|ANH19848.1| tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947472</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>1.19667e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRMVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGR+VIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|754875090|ref|WP_042235623.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042235623</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>9.85078e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRMVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVAPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGR+VIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASV PHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|506459781|ref|WP_015961681.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|53752337|emb|CAH13769.1| hypothetical protein lpp2616 [Legionella pneumophila str. Paris] &gt;gi|536611613|gb|ERB40131.1| tRNA-binding protein [Legionella pneumophila str. 121004] &gt;gi|542000197|gb|ERH46188.1| tRNA-binding protein [Legionella pneumophila str. Leg01/11] &gt;gi|542000727|gb|ERH46703.1| tRNA-binding protein [Legionella pneumophila str. Leg01/53] &gt;gi|542121274|gb|ERI47606.1| tRNA-binding protein [Legionella pneumophila str. Leg01/20] &gt;gi|761987523|dbj|GAN24577.1| tRNA-binding protein YgjH [Legionella pneumophila] &gt;gi|762000157|dbj|GAN27889.1| tRNA-binding protein YgjH [Legionella pneumophila] &gt;gi|998793544|emb|CZI47760.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998925130|emb|CZJ39241.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998944115|emb|CZJ60026.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998955329|emb|CZJ97253.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998976901|emb|CZJ29095.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998992510|emb|CZJ35506.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999010207|emb|CZJ73567.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999019776|emb|CZJ22700.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999029146|emb|CZJ43674.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999030898|emb|CZH09245.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999034480|emb|CZJ67970.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999041205|emb|CZJ39175.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999044000|emb|CZJ37339.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999049884|emb|CZJ55712.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999052657|emb|CZJ40978.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999056366|emb|CZJ27030.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999065432|emb|CZJ41420.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999070843|emb|CZJ42066.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999074529|emb|CZJ53567.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999086123|emb|CZJ59985.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999173468|emb|CZH71509.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999182472|emb|CZG25065.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999185222|emb|CZP78849.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999188637|emb|CZI74650.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999197650|emb|CZP60039.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999207210|emb|CZP26839.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999213569|emb|CZG39711.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999217141|emb|CZI75788.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999228695|emb|CZP04809.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999234560|emb|CZP79784.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999241337|emb|CZH60615.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999243968|emb|CZH85510.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999250323|emb|CZG50883.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999253561|emb|CZG65388.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999256993|emb|CZP46288.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999259807|emb|CZP15065.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999263602|emb|CZG36438.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999266277|emb|CZO81479.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999272015|emb|CZP69346.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999274995|emb|CZG66211.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999278065|emb|CZP10552.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999281070|emb|CZP26923.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999285149|emb|CZP15179.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999291928|emb|CZO97783.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999297168|emb|CZP28342.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999300576|emb|CZP04933.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999306850|emb|CZH98765.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999310384|emb|CZO75845.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999317195|emb|CZH59861.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999319821|emb|CZP32524.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999322854|emb|CZH66955.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999325925|emb|CZG57728.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999329646|emb|CZF98552.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999332409|emb|CZG38202.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999338377|emb|CZP22665.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999341814|emb|CZG27721.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999345764|emb|CZP46985.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999347892|emb|CZP39054.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999351813|emb|CZG42194.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999354420|emb|CZP29916.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999357478|emb|CZP57882.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999361154|emb|CZI04689.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999363483|emb|CZP60640.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999366479|emb|CZP89097.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999370847|emb|CZP50385.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999374112|emb|CZG06864.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999377285|emb|CZI89771.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999380584|emb|CZH49695.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999383472|emb|CZI21181.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999387399|emb|CZG07700.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999390206|emb|CZI07257.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999393181|emb|CZP71464.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999397129|emb|CZG19077.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999399587|emb|CZP85468.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999402722|emb|CZP69005.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999406358|emb|CZG39803.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999409470|emb|CZH74431.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999413418|emb|CZG15951.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999416586|emb|CZG10825.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999419215|emb|CZG40896.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999422673|emb|CZH47090.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999426417|emb|CZG22283.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999429179|emb|CZG33810.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999432767|emb|CZG10697.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999435675|emb|CZH63553.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999438415|emb|CZG47436.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999442183|emb|CZJ81566.1| chaperonin CsaA [Legionella pneumophila] &gt;gi|999445393|emb|CZH58347.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999448658|emb|CZG06960.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999451356|emb|CZP18342.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999458295|emb|CZJ86303.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999470983|emb|CZG34042.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999497084|emb|CZI13681.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999521815|emb|CZP34217.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999526265|emb|CZI58574.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999529147|emb|CZI13719.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999577133|emb|CZI04346.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999612434|emb|CZI10391.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999779703|emb|CZG24963.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1003028639|emb|CZR21266.1| chaperonin CsaA [Legionella pneumophila] &gt;gi|1003031326|emb|CZR31531.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1005834157|gb|AMQ28883.1| tRNA-binding protein [Legionella pneumophila subsp. pneumophila] &gt;gi|1015433903|gb|AMV15530.1| tRNA-binding protein YgjH [Legionella pneumophila] &gt;gi|1041016530|gb|ANN93591.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1041019536|gb|ANN96596.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1103997720|emb|SFZ46503.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1104000854|emb|SFZ46521.1| tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961681</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>1.16143e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAESFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRMVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAE FLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGR+VIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504657589|ref|WP_014844691.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|395131644|emb|CCD09935.1| chaperonin CsaA [Legionella pneumophila subsp. pneumophila] &gt;gi|998790284|emb|CZG92133.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998891826|emb|CZJ63547.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999287806|emb|CZI27720.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999293937|emb|CZI25491.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999313438|emb|CZI28333.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1002080692|emb|CZR08221.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1002092852|emb|CZQ90791.1| tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844691</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>1.56218e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRMVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASIAPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGR+VIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLAS+ PHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|504655472|ref|WP_014842574.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|395128493|emb|CCD06709.1| chaperonin CsaA [Legionella pneumophila subsp. pneumophila] &gt;gi|999247484|emb|CZH76455.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999268933|emb|CZO49115.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999453779|emb|CZI38802.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999460224|emb|CZH16681.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999464148|emb|CZM89374.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999467273|emb|CZO59363.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999473657|emb|CZN07470.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999476879|emb|CZN95017.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999480165|emb|CZN22724.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999483391|emb|CZO32328.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999486598|emb|CZM28750.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999489845|emb|CZO05999.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999492962|emb|CZM27800.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999499518|emb|CZN96769.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999502742|emb|CZO35596.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999505886|emb|CZN40326.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999509088|emb|CZG79900.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999512311|emb|CZN51819.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999515506|emb|CZM17413.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999518518|emb|CZN01834.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999531536|emb|CZO81167.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999535029|emb|CZN58237.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999537859|emb|CZN06350.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999541346|emb|CZO44753.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999544440|emb|CZO76286.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999547735|emb|CZO08044.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999550565|emb|CZO53324.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999554082|emb|CZN57958.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999557250|emb|CZO75621.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999560534|emb|CZM75755.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999563655|emb|CZO92445.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999566943|emb|CZM70573.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999570103|emb|CZN71635.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999573327|emb|CZO22266.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999579708|emb|CZO43891.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999582899|emb|CZO78727.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999586318|emb|CZN00172.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999589321|emb|CZM61297.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999592595|emb|CZN60477.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999595742|emb|CZO32097.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999598949|emb|CZO67823.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999602039|emb|CZM25269.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999605135|emb|CZN92843.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999608457|emb|CZN78463.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999615069|emb|CZM71169.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999618184|emb|CZO15358.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999621177|emb|CZP07577.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999624422|emb|CZO02667.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999627703|emb|CZM89676.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999631043|emb|CZM76730.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999634180|emb|CZN83741.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999637201|emb|CZN91185.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999640513|emb|CZP07911.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999643836|emb|CZO72978.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999646991|emb|CZO15457.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999651213|emb|CZN90036.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999653406|emb|CZO17007.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999656491|emb|CZM59407.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999659567|emb|CZM91575.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999662906|emb|CZN42472.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999666272|emb|CZM64113.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999669463|emb|CZM02614.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999672553|emb|CZM62017.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999675782|emb|CZN99709.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999678691|emb|CZN07944.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999682013|emb|CZM98712.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999685452|emb|CZO33448.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999688538|emb|CZN52365.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999691844|emb|CZO23629.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999694873|emb|CZN57104.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999698068|emb|CZM40303.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999701310|emb|CZN04764.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999704546|emb|CZM23000.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999708398|emb|CZN44061.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999711035|emb|CZN21309.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999714204|emb|CZN46990.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999717465|emb|CZO76682.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999720578|emb|CZN08816.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999724080|emb|CZN58874.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999727301|emb|CZM18634.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999730385|emb|CZO63324.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999733766|emb|CZM35403.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999736959|emb|CZO94458.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999740422|emb|CZM55352.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999743544|emb|CZN41572.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999746760|emb|CZM42196.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999750239|emb|CZM16913.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999753180|emb|CZN04233.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999756272|emb|CZN33485.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999759848|emb|CZM50561.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999762967|emb|CZN41095.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999766165|emb|CZM95653.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999769276|emb|CZN73875.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999772729|emb|CZI10186.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999775808|emb|CZM10884.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999782123|emb|CZH84760.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999785965|emb|CZM47381.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999789029|emb|CZO89044.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999792376|emb|CZO76193.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999795564|emb|CZI49790.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999799115|emb|CZO92917.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1003035952|emb|CZR20415.1| chaperonin CsaA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842574</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>7.42677e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAESFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEELIGRMVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAE FLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPE LIGR+VIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1004016130|ref|WP_061484472.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061484472</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>1.58414e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGVDIGILQTSAQITVHYTPETLIGRMVIGCVNLGEKNIAGFLSQFLLVGFSDEKGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFG DIG+LQTSAQITVHYTPE LIGR+VIGCVNLGEKNIAGFLSQFLL+GFSDEKGAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|653014309|ref|WP_027266358.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|998781266|emb|CZJ47075.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998824099|emb|CZG35604.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998829559|emb|CZG83965.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998883423|emb|CZI80646.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998898736|emb|CZJ42138.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998935739|emb|CZM91658.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998952141|emb|CZJ29895.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|998999890|emb|CZH03156.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999057577|emb|CZM81410.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999103434|emb|CZI33130.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999127932|emb|CZH37664.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999153955|emb|CZM21906.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999158470|emb|CZJ95911.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999163043|emb|CZM08155.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999177181|emb|CZJ94346.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999225985|emb|CZG36254.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999237084|emb|CZG74994.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1002084957|emb|CZR04154.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1002088628|emb|CZQ78613.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1104007391|emb|SFZ46492.1| tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266358</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>2.74279e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAESFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEELIGRMVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVDPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAE FLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPE LIGR+VIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASV+PHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|652975448|ref|WP_027228154.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|985766312|gb|KXB27421.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|985767309|gb|KXB28398.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999120250|emb|CZG37122.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|999121634|emb|CZH41054.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1024339436|gb|KZX33777.1| tRNA-binding protein [Legionella pneumophila] &gt;gi|1108605819|gb|APF04187.1| tRNA-binding protein [Legionella pneumophila subsp. fraseri] &gt;gi|1108608804|gb|APF07171.1| tRNA-binding protein [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027228154</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>5.78645e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MMISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGILQTSAQITVHYTPETLIGRMVIGCVNLGEKNIAGFVSQFLLVGFSDEKGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>M ISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIG+LQTSAQITVHYTPE LIGR+VIGCVNLGEKNIAGF+SQFLL+GFSDEKGAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|654929024|ref|WP_028379433.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028379433</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>9.37995e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MMISYEEFEKIDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGILQTSAQITVHYTPETLIGRMVIGCVNLGEKNIAGFVSQFLLVGFSDEKGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>M ISYEEFEK+DLRSGTVVKAEPFLRARKPAYKVWVDFGADIG+LQTSAQITVHYTPE LIGR+VIGCVNLGEKNIAGF+SQFLL+GFSDEKGAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|652969763|ref|WP_027222656.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|1005363020|gb|AMP88889.1| tRNA-binding protein [Legionella pneumophila subsp. pascullei] &gt;gi|1005367666|gb|AMP93443.1| tRNA-binding protein [Legionella pneumophila subsp. pascullei] &gt;gi|1005370635|gb|AMP96411.1| tRNA-binding protein [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222656</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>2.69101e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MMISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGILQTSAQITVHYTPETLIGRMVIGCVNLGEKNIAGFVSQFLLVGFSDENGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>M ISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIG+LQTSAQITVHYTPE LIGR+VIGCVNLGEKNIAGF+SQFLL+GFSDE GAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1004334440|ref|WP_061513365.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513365</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>4.17472e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MMISYEEFEKVDLRSGTVVKAEAFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRMVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVAPHVPNGKKMY</Hsp_hseq>
+      <Hsp_midline>M ISYEEFEKVDLRSGTVVKAE FLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGR+VIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASV PHVPNGKKM+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|652973340|ref|WP_027226068.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226068</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>7.55661e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAESFL-ARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRMVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAE FL ARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGR+VIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|499535643|ref|WP_011216426.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella pneumophila] &gt;gi|53755215|emb|CAH16708.1| hypothetical protein lpl2468 [Legionella pneumophila str. Lens] &gt;gi|1080000407|gb|AOW50979.1| tRNA-binding protein [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005139|gb|AOW55419.1| tRNA-binding protein [Legionella pneumophila subsp. pneumophila] &gt;gi|1080009042|gb|AOW59030.1| tRNA-binding protein [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011290|gb|AOW60781.1| tRNA-binding protein [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015613|gb|AOW64486.1| tRNA-binding protein [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017534|gb|AOW66179.1| tRNA-binding protein [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216426</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>8.33678e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFEKVDLRSGTVVKAESFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEELIGRMVIGCVNLGEKNIAGFFSQFLLLGFSDEKGAICLASVDPYVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEFEKVDLRSGTVVKAE FLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPE LIGR+VIGCVNLGEKNIAGF SQFLLLGFSDEKGAICLASV+P+VPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|966476723|ref|WP_058507456.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella quinlivanii] &gt;gi|962265975|gb|KTD50011.1| chaperonin CsaA [Legionella quinlivanii] &gt;gi|1090727974|emb|SEF94762.1| tRNA-binding protein [Legionella quinlivanii DSM 21216]</Hit_def>
+  <Hit_accession>WP_058507456</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>3.78467e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYDEFEKVDLRSGTIVKVEPFPRAKKPAYKVWVDFGPEIGILQTSAQITVHYTPESLPGKTVIGCVNLGEKNIAGFTSQFLLVGFSDSEGAICLATINPFVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>MTISY+EFEKVDLRSGT+VK EPF RA+KPAYKVWVDFG +IG+LQTSAQITVHYTPE+L G+ VIGCVNLGEKNIAGF SQFLL+GFSD +GAICLA++ P VPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|966460349|ref|WP_058492778.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella worsleiensis] &gt;gi|962297082|gb|KTD80713.1| chaperonin CsaA [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492778</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>2.26427e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYEEFDNVDLRSGTIIKAEPFVRAKKPAYKVWVDFGSDIGILQTSAQITVHYQPEHLIGKRVIGCVNLGEKNIAGFVSQFLLLGFSDSSDAICLATLEGDVPNGRKMH</Hsp_hseq>
+      <Hsp_midline>MTISYEEF+ VDLRSGT++KAEPF+RA+KPAYKVWVDFG+DIG+LQTSAQITVHY PE LIG+ VIGCVNLGEKNIAGF+SQFLLLGFSD   AICLA++E  VPNG+KMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|966438662|ref|WP_058478985.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella waltersii] &gt;gi|962299401|gb|KTD82992.1| chaperonin CsaA [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058478985</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.70564e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIISYEDFEKVELRSGTVVKVEEFPRAKKPAYKVWVDFGAEIGVLQTSAQVTVHYTPESLIGRSVVGCVNLGERNIAGFISQFLLVGFSDEKGNICLITTEPSVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M ISYE+FEKV+LRSGTVVK E F RA+KPAYKVWVDFGA+IGVLQTSAQ+TVHYTPE+LIGR V+GCVNLGE+NIAGF+SQFLL+GFSDEKG ICL + EP VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|966418206|ref|WP_058461429.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella adelaidensis] &gt;gi|962180445|gb|KTC65693.1| chaperonin CsaA [Legionella adelaidensis]</Hit_def>
+  <Hit_accession>WP_058461429</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>2.19536e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYDDFEKVDLRSGIIVRAEPFERAKKPAYKVWVDFGPAIGILQTSAQITIHYTPESLIGRRVIGCVNLGEKNIAGFTSQFLLVGFSDNSGAICLASVDARVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>MTISY++FEKVDLRSG +V+AEPF RA+KPAYKVWVDFG  IG+LQTSAQIT+HYTPE+LIGR VIGCVNLGEKNIAGF SQFLL+GFSD  GAICLASV+  VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1085357574|gb|OGV29403.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionellales bacterium RIFCSPHIGHO2_12_FULL_35_11]</Hit_def>
+  <Hit_accession>OGV29403</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>6.57808e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MSISYDEFEKVDLRSGTIVKVELFSRAKKPAYKIWADFGTNIGVLQTSAQVTIHYTPDSLIGRSIVGCVNLGEKNIAGFTSQFLLVGFSDEDGAICLMTVDPKVPNGKKLH</Hsp_hseq>
+      <Hsp_midline>M+ISY+EFEKVDLRSGT+VK E F RA+KPAYK+W DFG +IGVLQTSAQ+T+HYTP++LIGR ++GCVNLGEKNIAGF SQFLL+GFSDE GAICL +V+P VPNGKK+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|769979834|ref|WP_045095819.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella fallonii] &gt;gi|698843330|emb|CEG57298.1| Secretion chaperone CsaA [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045095819</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>8.56012e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVTYDDFAKIELRSGTVVKVEPFQRAKKPAYKVWVDFGKDIGILQTSAQVTVHYTPESLLGRSVVGCVNLGEKNIAGFISQFLLVGFSDENGAICLVTTDPKVPNGKKLH</Hsp_hseq>
+      <Hsp_midline>M ++Y++F K++LRSGTVVK EPF RA+KPAYKVWVDFG DIG+LQTSAQ+TVHYTPE+L+GR V+GCVNLGEKNIAGF+SQFLL+GFSDE GAICL + +P VPNGKK+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|654934615|ref|WP_028384930.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella moravica] &gt;gi|962253151|gb|KTD37336.1| chaperonin CsaA [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028384930</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>2.12835e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MVMTYDDFEKIELRSGTVVKVEEFQRAKKPAYKVWVDFGNDIGVLQTSAQITVHYTPETLLGRSVVGCVNLGEKNIAGFISQFLLVGFSDEQGAICLVTTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M ++Y++FEK++LRSGTVVK E F RA+KPAYKVWVDFG DIGVLQTSAQITVHYTPE L+GR V+GCVNLGEKNIAGF+SQFLL+GFSDE+GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|517403350|ref|WP_018576204.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella shakespearei] &gt;gi|962273951|gb|KTD57891.1| chaperonin CsaA [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576204</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>2.45469e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTITYDDFEKVELRSGTVVKVEEFPRAKKPAYKVWVDFGNDIGVLQTSAQVTVHYTPESLVGRSVIGCVNLGERNIAGFMSQFLLVGFSDAEGAICLITTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>MTI+Y++FEKV+LRSGTVVK E F RA+KPAYKVWVDFG DIGVLQTSAQ+TVHYTPE+L+GR VIGCVNLGE+NIAGF+SQFLL+GFSD +GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966510837|ref|WP_058527428.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella erythra] &gt;gi|962209231|gb|KTC94138.1| chaperonin CsaA [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058527428</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>2.62175e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIISYEEFAKVDLRSGTIVKVEPFPRAKKPAYKVWVDFGAAIGVLQTSAQITAHYTPETLIGRLVIGCVNLGEKNIAGFTSQFLLVGFSDSQGAICLATVDKPVANGEKLH</Hsp_hseq>
+      <Hsp_midline>M ISYEEF KVDLRSGT+VK EPF RA+KPAYKVWVDFGA IGVLQTSAQIT HYTPE LIGR+VIGCVNLGEKNIAGF SQFLL+GFSD +GAICLA+V+  V NG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1085364086|gb|OGV35498.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionellales bacterium RIFCSPHIGHO2_12_FULL_35_11]</Hit_def>
+  <Hit_accession>OGV35498</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>2.80018e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MSISYEEFEKVDLRSGTIVKAEEFPRAKKPAYKIWADFGGELGVLQTSAQVTKHYTTESLIGRSIVGCVNLGEKNIAGFASQFLLVGFSDDNGDICLITVEPHVPNGKKLH</Hsp_hseq>
+      <Hsp_midline>M+ISYEEFEKVDLRSGT+VKAE F RA+KPAYK+W DFG ++GVLQTSAQ+T HYT E+LIGR ++GCVNLGEKNIAGF SQFLL+GFSD+ G ICL +VEPHVPNGKK+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966518242|ref|WP_058534736.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058534736</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>2.92583e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIITYDDFAKVDLRSGTIVKVEPFPRAKKPAYKVWVDFGNDIGILQTSAQITVHYTPETLVGRSVVGCVNLGEKNIAGFVSQFLLVGFTDANGAICLITTEPQVPNGEKLH</Hsp_hseq>
+      <Hsp_midline>M I+Y++F KVDLRSGT+VK EPF RA+KPAYKVWVDFG DIG+LQTSAQITVHYTPE L+GR V+GCVNLGEKNIAGF+SQFLL+GF+D  GAICL + EP VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966433586|ref|WP_058474019.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella quateirensis] &gt;gi|962264263|gb|KTD48315.1| chaperonin CsaA [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474019</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>3.02375e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MLATYEDFEKIELRSGTVVKVEEFLRAKKPAYKVWVDFGKDIGVLQTSAQVTVHYTPETLLGRSVVGCVNLGEKNIAGFISQFLLVGFSDEHGAICLITTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M  +YE+FEK++LRSGTVVK E FLRA+KPAYKVWVDFG DIGVLQTSAQ+TVHYTPE L+GR V+GCVNLGEKNIAGF+SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|737925941|ref|WP_035891108.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella norrlandica] &gt;gi|701444994|gb|KGP62410.1| tRNA-binding protein [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035891108</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>6.17046e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTITYDEFEKVDLRSGTVVKVEEFPRAKKPSYKVWVDFGEEIGVLQTSAQVTVHYTPESLLGRSVVGCVNLGERNIAGFISQFLLVGFSDANGAISLVTTDPHVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>MTI+Y+EFEKVDLRSGTVVK E F RA+KP+YKVWVDFG +IGVLQTSAQ+TVHYTPE+L+GR V+GCVNLGE+NIAGF+SQFLL+GFSD  GAI L + +PHVPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966506194|ref|WP_058522840.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella birminghamensis] &gt;gi|962189590|gb|KTC74697.1| chaperonin CsaA [Legionella birminghamensis]</Hit_def>
+  <Hit_accession>WP_058522840</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>1.50083e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MPISYDDFERVDIRSGTVVKAEPFERAKKPAYKLWVDFGPELGILQTSAQVTVHYTVESLPGKTVVGCVNLGEKNIAGFTSQFLLLGFSDSNGAICLATIDPAVPNGKKMH</Hsp_hseq>
+      <Hsp_midline>M ISY++FE+VD+RSGTVVKAEPF RA+KPAYK+WVDFG ++G+LQTSAQ+TVHYT E+L G+ V+GCVNLGEKNIAGF SQFLLLGFSD  GAICLA+++P VPNGKKMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966417175|ref|WP_058460460.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Fluoribacter bozemanae] &gt;gi|962186143|gb|KTC71302.1| chaperonin CsaA [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058460460</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>3.73549e-60</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>ISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>ISYDDFAKVDLRSGTVVKVEEFPRTKKPAYKVWVDFGKDIGILQTSAQITVHYTPETLVGRSVVGCVNLGEKNIAGFISQFLLVGFSDENGAICLITTDPRVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>ISY++F KVDLRSGTVVK E F R +KPAYKVWVDFG DIG+LQTSAQITVHYTPE L+GR V+GCVNLGEKNIAGF+SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966514801|ref|WP_058531320.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella rubrilucens] &gt;gi|962264841|gb|KTD48892.1| chaperonin CsaA [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058531320</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>3.94185e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYDEFAKVDLRSGTVIRVEPFPRAQKPAYKVWVDFGPQLGVLQTSAQVTVHYTPETLMGRTVIGCVNLGEKNIAGFTSQFLLVGFSDVQGAICLATVDKPVPDGQKLH</Hsp_hseq>
+      <Hsp_midline>MTISY+EF KVDLRSGTV++ EPF RA+KPAYKVWVDFG  +GVLQTSAQ+TVHYTPE L+GR VIGCVNLGEKNIAGF SQFLL+GFSD +GAICLA+V+  VP+G+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966512020|ref|WP_058528574.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella londiniensis] &gt;gi|962237903|gb|KTD22337.1| chaperonin CsaA [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058528574</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>5.35961e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MNISYEEFLKVDLRSGTIIKAEEFPRAKKPAYKIWADFGPEFGVLQTSAQVTKHYTPESLIGRSIVGCVNLGEKNIAGFTSQFLLVGFSDENGAICLITVDPKVPNGKKLH</Hsp_hseq>
+      <Hsp_midline>M ISYEEF KVDLRSGT++KAE F RA+KPAYK+W DFG + GVLQTSAQ+T HYTPE+LIGR ++GCVNLGEKNIAGF SQFLL+GFSDE GAICL +V+P VPNGKK+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|518063438|ref|WP_019233646.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella anisa] &gt;gi|962185259|gb|KTC70419.1| chaperonin CsaA [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233646</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>1.97795e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSYDDFAKVELRSGTVVKVEEFPRTKRPAYKVWVDFGKDIGILQTSAQITVHYTPENLIGRSVVGCVNLGEKNIAGFISQFLLVGFSDENGAICLITTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M +SY++F KV+LRSGTVVK E F R ++PAYKVWVDFG DIG+LQTSAQITVHYTPE LIGR V+GCVNLGEKNIAGF+SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966468761|ref|WP_058500087.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella gratiana] &gt;gi|962221564|gb|KTD06224.1| chaperonin CsaA [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058500087</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>2.23169e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSYDDFAKIELRSGTVVKVEEFPRTKKPAYKVWVDFGKDIGILQTSAQVTVHYTPESLLGRSVVGCVNLGEKNIAGFISQFLLVGFSDENGAICLITTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M +SY++F K++LRSGTVVK E F R +KPAYKVWVDFG DIG+LQTSAQ+TVHYTPE+L+GR V+GCVNLGEKNIAGF+SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|962194016|gb|KTC79077.1|</Hit_id>
+  <Hit_def>chaperonin CsaA [Legionella cherrii]</Hit_def>
+  <Hit_accession>KTC79077</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>3.09821e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSYDDFAKIDLRSGTVVKVEEFPRAKKPAYKVWVDFGKDIGILQTSAQVTVHYTPETLLGRSVVGCVNLGEKNIAGFTSQFLLVGFSDANGAICLITTDPKVPNGEKLH</Hsp_hseq>
+      <Hsp_midline>M +SY++F K+DLRSGTVVK E F RA+KPAYKVWVDFG DIG+LQTSAQ+TVHYTPE L+GR V+GCVNLGEKNIAGF SQFLL+GFSD  GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|654931752|ref|WP_028382115.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028382115</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>3.34926e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSYDDFAKIDLRSGTVVKVEEFPRAKKPAYKVWVDFGKDIGILQTSAQVTVHYTPETLLGRSVVGCVNLGEKNIAGFTSQFLLVGFSDANGAICLITTDPKVPNGEKLH</Hsp_hseq>
+      <Hsp_midline>M +SY++F K+DLRSGTVVK E F RA+KPAYKVWVDFG DIG+LQTSAQ+TVHYTPE L+GR V+GCVNLGEKNIAGF SQFLL+GFSD  GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966425243|ref|WP_058467781.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Fluoribacter gormanii] &gt;gi|962218581|gb|KTD03292.1| chaperonin CsaA [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058467781</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>4.45498e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIISFDDFAKVELRSGTVVKVEEFPRAKKPAYKVWVDFGKDIGVLQTSAQVTAHYTPETLLGRSVVGCVNLGEKNIAGFTSQFLLVGFSDENGAICLVTTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M IS+++F KV+LRSGTVVK E F RA+KPAYKVWVDFG DIGVLQTSAQ+T HYTPE L+GR V+GCVNLGEKNIAGF SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966472345|ref|WP_058503108.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella nautarum] &gt;gi|962255096|gb|KTD39248.1| chaperonin CsaA [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058503108</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>5.19468e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTIGYDDFAKVDLRSGTVVKVEPFPKAKKPAYKVWVDFGSEIGILQTSAQVTAHYTPESLLGRTVVGCVNLGEKNIAGFKSQFLLVGFSDETGAICLIGTEFKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>MTI Y++F KVDLRSGTVVK EPF +A+KPAYKVWVDFG++IG+LQTSAQ+T HYTPE+L+GR V+GCVNLGEKNIAGF SQFLL+GFSDE GAICL   E  VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966436144|ref|WP_058476512.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella steigerwaltii] &gt;gi|962295322|gb|KTD78972.1| chaperonin CsaA [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476512</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>5.79711e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSYDDFAKIELRSGTVVKVEEFPRARKPAYKVWVDFGKDIGILQTSAQVTVHYTPETLLGRSVVGCVNLGEKNIAGFTSQFLLVGFSDANGAICLITTDPKVPNGEKLH</Hsp_hseq>
+      <Hsp_midline>M +SY++F K++LRSGTVVK E F RARKPAYKVWVDFG DIG+LQTSAQ+TVHYTPE L+GR V+GCVNLGEKNIAGF SQFLL+GFSD  GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|493926244|ref|WP_006871028.1|</Hit_id>
+  <Hit_def>MULTISPECIES: tRNA-binding protein [Legionella] &gt;gi|363537537|gb|EHL30958.1| hypothetical protein LDG_7107 [Legionella drancourtii LLAP12] &gt;gi|962272681|gb|KTD56666.1| chaperonin CsaA [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_006871028</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>7.37149e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>TISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>TITYEEFERVNLRSGTIVKVEEFPRAKKPAFKVWADFGPEIGVLQTSAQVTVHYTPQFLIGRQIVGCVNLGEKNIAGFTSQFLLVGFADESGAICLITVDPKVPNGQKMH</Hsp_hseq>
+      <Hsp_midline>TI+YEEFE+V+LRSGT+VK E F RA+KPA+KVW DFG +IGVLQTSAQ+TVHYTP+ LIGR ++GCVNLGEKNIAGF SQFLL+GF+DE GAICL +V+P VPNG+KMH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|654937655|ref|WP_028387906.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028387906</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>7.796e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MSISYEEFEKVDLRSGTIIKAEEFSRAKKPSFKIWADFGEELGVLQTSAQVTQHYTCKSLIGRSIVGCVNLGEKNIAGFSSQFLLVGFSDENGAICLITIDPKVPNGKKLH</Hsp_hseq>
+      <Hsp_midline>M+ISYEEFEKVDLRSGT++KAE F RA+KP++K+W DFG ++GVLQTSAQ+T HYT ++LIGR ++GCVNLGEKNIAGF SQFLL+GFSDE GAICL +++P VPNGKK+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|671592389|ref|WP_031567713.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031567713</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>7.97824e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>ISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>VSYDDFAKVDLRSGTVVKVEEFPRTNKPAYKVWVDFGKDIGILQTSAQVTVHYTPESLVGRSVVGCINLGEKNIAGFVSQFLLVGFSDENGAICLITTQPPVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>+SY++F KVDLRSGTVVK E F R  KPAYKVWVDFG DIG+LQTSAQ+TVHYTPE+L+GR V+GC+NLGEKNIAGF+SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966421441|ref|WP_058464642.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella cincinnatiensis] &gt;gi|962203618|gb|KTC88571.1| chaperonin CsaA [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058464642</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.00339e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSYDDFAKIELRSGTVVKVEEFPRAKKPAYKIWVDFGENIGILQTSAQVTVHYTPESLLGRSVVGCVNLGEKNVAGFISQFLLVGFSDESGAICLITADPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M +SY++F K++LRSGTVVK E F RA+KPAYK+WVDFG +IG+LQTSAQ+TVHYTPE+L+GR V+GCVNLGEKN+AGF+SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|498339038|ref|WP_010653194.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Fluoribacter dumoffii] &gt;gi|962204847|gb|KTC89784.1| chaperonin CsaA [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010653194</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.24961e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSFDDFAKIDLRSGTVVKVEEFPRARKPAYKVWVDFGKEIGILQTSAQVTVHYTPETLLGRSVVGCVNLGEKNIAGFTSQFLLVGFADDNGAICLVTTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M +S+++F K+DLRSGTVVK E F RARKPAYKVWVDFG +IG+LQTSAQ+TVHYTPE L+GR V+GCVNLGEKNIAGF SQFLL+GF+D+ GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966399789|ref|WP_058443384.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella feeleii] &gt;gi|962219652|gb|KTD04341.1| chaperonin CsaA [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058443384</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>1.50585e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYDDFARVDLRSGTVVEVKEFSRAKKPAYKVWVDFGPEIGILQTSAQVTAHYTPESLIGRLVVGCVNLGEKNIAGFISQFLLLGFSDADGAICLITADPKVENGRKLH</Hsp_hseq>
+      <Hsp_midline>MTISY++F +VDLRSGTVV+ + F RA+KPAYKVWVDFG +IG+LQTSAQ+T HYTPE+LIGR+V+GCVNLGEKNIAGF+SQFLLLGFSD  GAICL + +P V NG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1085180272|gb|OGT68682.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Gammaproteobacteria bacterium RIFCSPLOWO2_02_FULL_38_11] &gt;gi|1085189773|gb|OGT77146.1| tRNA-binding protein [Gammaproteobacteria bacterium RIFCSPLOWO2_12_FULL_38_14]</Hit_def>
+  <Hit_accession>OGT68682</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>1.62606e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKM</Hsp_qseq>
+      <Hsp_hseq>MTISYDEFEKVDLRSGTIIRAESFERAKKPAYKVWVDFGDEIGVKQTSAQITVHYTPESLIGKKVVGCINLAEKNIAGFISQFLLVGFPDEADAICLISVELNVPNGKKL</Hsp_hseq>
+      <Hsp_midline>MTISY+EFEKVDLRSGT+++AE F RA+KPAYKVWVDFG +IGV QTSAQITVHYTPE+LIG+ V+GC+NL EKNIAGF+SQFLL+GF DE  AICL SVE +VPNGKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966504326|ref|WP_058520985.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella tucsonensis] &gt;gi|962290289|gb|KTD73997.1| chaperonin CsaA [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058520985</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>2.28483e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSYDDFAKVELRSGTVVKVEEFPRTKKPAYKVWVDFGKDIGILQTCAQVTVHYTPESLIGRSVVGCVNLGEKNIAGFISQFLLVGFSDENGAICLITTDPKVPDGQKLH</Hsp_hseq>
+      <Hsp_midline>M +SY++F KV+LRSGTVVK E F R +KPAYKVWVDFG DIG+LQT AQ+TVHYTPE+LIGR V+GCVNLGEKNIAGF+SQFLL+GFSDE GAICL + +P VP+G+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966502190|ref|WP_058518863.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella parisiensis] &gt;gi|962257829|gb|KTD41966.1| chaperonin CsaA [Legionella parisiensis] &gt;gi|1069290939|gb|OEH46330.1| tRNA-binding protein YgjH [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058518863</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>2.39018e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>ISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>ISYDDFAKVELRSGTIVKVEEFPRTNKPAYKVWVDFGKDIGVLQTSAQITVNYTPETLVGRSVVGCVNLGEKNIAGFISQFLLVGFSDENGAICLVTTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>ISY++F KV+LRSGT+VK E F R  KPAYKVWVDFG DIGVLQTSAQITV+YTPE L+GR V+GCVNLGEKNIAGF+SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966408020|ref|WP_058451412.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella maceachernii] &gt;gi|962246226|gb|KTD30507.1| chaperonin CsaA [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058451412</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>3.39153e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MTISYDDFAQVDLRSGTVVKVEFFPKAKKPAYKVWVDFGPEIGVLQTSAQVTVHYTPESLVGRTVVGCVNLGEKNIAGFKSQFLLVGFADETGAICLVTTEFKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>MTISY++F +VDLRSGTVVK E F +A+KPAYKVWVDFG +IGVLQTSAQ+TVHYTPE+L+GR V+GCVNLGEKNIAGF SQFLL+GF+DE GAICL + E  VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|406942557|gb|EKD74760.1|</Hit_id>
+  <Hit_def>hypothetical protein ACD_44C00337G0002 [uncultured bacterium]</Hit_def>
+  <Hit_accession>EKD74760</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>3.50502e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKM</Hsp_qseq>
+      <Hsp_hseq>MTISYDEFEKVDLRSGTIIRAESFERAKKPAYKVWVDFGDEIGVKQTSAQITVHYTPQSLIGKKVVGCINLAEKNIAGFISQFLLVGFPDETGAICLISVGSNVPNGKKL</Hsp_hseq>
+      <Hsp_midline>MTISY+EFEKVDLRSGT+++AE F RA+KPAYKVWVDFG +IGV QTSAQITVHYTP++LIG+ V+GC+NL EKNIAGF+SQFLL+GF DE GAICL SV  +VPNGKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966498387|ref|WP_058515153.1|</Hit_id>
+  <Hit_def>tRNA-binding protein [Legionella santicrucis] &gt;gi|962271655|gb|KTD55653.1| chaperonin CsaA [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515153</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>1.83737e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MTISYEEFEKVDLRSGTVVKAEPFLRARKPAYKVWVDFGADIGVLQTSAQITVHYTPEALIGRIVIGCVNLGEKNIAGFLSQFLLLGFSDEKGAICLASVEPHVPNGKKMH</Hsp_qseq>
+      <Hsp_hseq>MIVSYDDFAKIELRSGTVVKVEEFSRAKKSAYKIWVDFGENIGVLQTSAQVTVHYTPASLLGRSVVGCVNLGEKNVAGFISQFLLVGFSDESGAICLITTDPKVPNGQKLH</Hsp_hseq>
+      <Hsp_midline>M +SY++F K++LRSGTVVK E F RA+K AYK+WVDFG +IGVLQTSAQ+TVHYTP +L+GR V+GCVNLGEKN+AGF+SQFLL+GFSDE GAICL + +P VPNG+K+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

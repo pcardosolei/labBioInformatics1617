@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Entrezgene-Set PUBLIC "-//NLM//DTD NCBI-Entrezgene, 21st January 2005//EN" "https://www.ncbi.nlm.nih.gov/data_specs/dtd/NCBI_Entrezgene.dtd">
+<Entrezgene-Set>
+<Entrezgene>
+  <Entrezgene_track-info>
+    <Gene-track>
+      <Gene-track_geneid>19834294</Gene-track_geneid>
+      <Gene-track_create-date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2014</Date-std_year>
+              <Date-std_month>7</Date-std_month>
+              <Date-std_day>14</Date-std_day>
+              <Date-std_hour>16</Date-std_hour>
+              <Date-std_minute>11</Date-std_minute>
+              <Date-std_second>0</Date-std_second>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </Gene-track_create-date>
+      <Gene-track_update-date>
+        <Date>
+          <Date_std>
+            <Date-std>
+              <Date-std_year>2016</Date-std_year>
+              <Date-std_month>4</Date-std_month>
+              <Date-std_day>16</Date-std_day>
+              <Date-std_hour>6</Date-std_hour>
+              <Date-std_minute>22</Date-std_minute>
+              <Date-std_second>25</Date-std_second>
+            </Date-std>
+          </Date_std>
+        </Date>
+      </Gene-track_update-date>
+    </Gene-track>
+  </Entrezgene_track-info>
+  <Entrezgene_type value="other">255</Entrezgene_type>
+  <Entrezgene_source>
+    <BioSource>
+      <BioSource_genome value="chromosome">21</BioSource_genome>
+      <BioSource_org>
+        <Org-ref>
+          <Org-ref_taxname>Legionella pneumophila subsp. pneumophila str. Philadelphia 1</Org-ref_taxname>
+          <Org-ref_db>
+            <Dbtag>
+              <Dbtag_db>taxon</Dbtag_db>
+              <Dbtag_tag>
+                <Object-id>
+                  <Object-id_id>272624</Object-id_id>
+                </Object-id>
+              </Dbtag_tag>
+            </Dbtag>
+          </Org-ref_db>
+          <Org-ref_orgname>
+            <OrgName>
+              <OrgName_name>
+                <OrgName_name_binomial>
+                  <BinomialOrgName>
+                    <BinomialOrgName_genus>Legionella</BinomialOrgName_genus>
+                    <BinomialOrgName_species>pneumophila</BinomialOrgName_species>
+                    <BinomialOrgName_subspecies>pneumophila</BinomialOrgName_subspecies>
+                  </BinomialOrgName>
+                </OrgName_name_binomial>
+              </OrgName_name>
+              <OrgName_mod>
+                <OrgMod>
+                  <OrgMod_subtype value="strain">2</OrgMod_subtype>
+                  <OrgMod_subname>Philadelphia 1</OrgMod_subname>
+                </OrgMod>
+                <OrgMod>
+                  <OrgMod_subtype value="sub-species">22</OrgMod_subtype>
+                  <OrgMod_subname>pneumophila</OrgMod_subname>
+                </OrgMod>
+              </OrgName_mod>
+              <OrgName_lineage>Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Legionellaceae; Legionella</OrgName_lineage>
+              <OrgName_gcode>11</OrgName_gcode>
+              <OrgName_div>BCT</OrgName_div>
+            </OrgName>
+          </Org-ref_orgname>
+        </Org-ref>
+      </BioSource_org>
+    </BioSource>
+  </Entrezgene_source>
+  <Entrezgene_gene>
+    <Gene-ref>
+      <Gene-ref_locus>dsbH</Gene-ref_locus>
+      <Gene-ref_locus-tag>lpg2729</Gene-ref_locus-tag>
+    </Gene-ref>
+  </Entrezgene_gene>
+  <Entrezgene_gene-source>
+    <Gene-source>
+      <Gene-source_src>Entrez Genomes</Gene-source_src>
+      <Gene-source_src-int>52840256</Gene-source_src-int>
+      <Gene-source_src-str1>NC_002942</Gene-source_src-str1>
+      <Gene-source_src-str2>lpg2729</Gene-source_src-str2>
+    </Gene-source>
+  </Entrezgene_gene-source>
+  <Entrezgene_locus>
+    <Gene-commentary>
+      <Gene-commentary_type value="genomic">1</Gene-commentary_type>
+      <Gene-commentary_accession>NC_002942</Gene-commentary_accession>
+      <Gene-commentary_version>5</Gene-commentary_version>
+      <Gene-commentary_seqs>
+        <Seq-loc>
+          <Seq-loc_int>
+            <Seq-interval>
+              <Seq-interval_from>3079715</Seq-interval_from>
+              <Seq-interval_to>3080131</Seq-interval_to>
+              <Seq-interval_strand>
+                <Na-strand value="minus"/>
+              </Seq-interval_strand>
+              <Seq-interval_id>
+                <Seq-id>
+                  <Seq-id_gi>52840256</Seq-id_gi>
+                </Seq-id>
+              </Seq-interval_id>
+            </Seq-interval>
+          </Seq-loc_int>
+        </Seq-loc>
+      </Gene-commentary_seqs>
+      <Gene-commentary_comment>
+        <Gene-commentary>
+          <Gene-commentary_type value="other">255</Gene-commentary_type>
+          <Gene-commentary_label>misc_feature</Gene-commentary_label>
+          <Gene-commentary_text>Loc: c3080132-3079716 similar to protein-disulfide oxidoreductase (disulfide bond formation) </Gene-commentary_text>
+          <Gene-commentary_genomic-coords>
+            <Seq-loc>
+              <Seq-loc_int>
+                <Seq-interval>
+                  <Seq-interval_from>3079715</Seq-interval_from>
+                  <Seq-interval_to>3080131</Seq-interval_to>
+                  <Seq-interval_strand>
+                    <Na-strand value="minus"/>
+                  </Seq-interval_strand>
+                  <Seq-interval_id>
+                    <Seq-id>
+                      <Seq-id_gi>52840256</Seq-id_gi>
+                    </Seq-id>
+                  </Seq-interval_id>
+                </Seq-interval>
+              </Seq-loc_int>
+            </Seq-loc>
+          </Gene-commentary_genomic-coords>
+        </Gene-commentary>
+      </Gene-commentary_comment>
+    </Gene-commentary>
+  </Entrezgene_locus>
+  <Entrezgene_unique-keys></Entrezgene_unique-keys>
+  <Entrezgene_xtra-iq></Entrezgene_xtra-iq>
+  <Entrezgene_non-unique-keys>
+    <Dbtag>
+      <Dbtag_db>ID</Dbtag_db>
+      <Dbtag_tag>
+        <Object-id>
+          <Object-id_id>52840256</Object-id_id>
+        </Object-id>
+      </Dbtag_tag>
+    </Dbtag>
+  </Entrezgene_non-unique-keys>
+</Entrezgene>
+</Entrezgene-Set>

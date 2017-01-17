@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_238247</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834114</BlastOutput_query-def>
+  <BlastOutput_query-len>256</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_238247</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834114</Iteration_query-def>
+  <Iteration_query-len>256</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250711|ref|WP_010948251.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|52842757|ref|YP_096556.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629868|gb|AAU28609.1| transcriptional regulator, AraC-family [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509262|gb|AEW52786.1| transcriptional regulator, AraC-family [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948251</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>256</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>MLGSNMLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLGSNMLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLGSNMLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|469490740|gb|AGH52585.1|</Hit_id>
+  <Hit_def>AraC-type DNA-binding domain-containing protein [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083226|gb|AGN15474.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772925|emb|CZI20326.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998775626|emb|CZG57295.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998778212|emb|CZG72278.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998784451|emb|CZG81270.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998787403|emb|CZG55814.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998796415|emb|CZH95699.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998800415|emb|CZL07387.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998805703|emb|CZK04419.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998808463|emb|CZH91446.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998811808|emb|CZH75149.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998814393|emb|CZG65589.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998817622|emb|CZL54030.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998820725|emb|CZL57776.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998826687|emb|CZK05500.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998832675|emb|CZI11805.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998835660|emb|CZK83494.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998837950|emb|CZJ77146.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998842199|emb|CZL08623.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998844617|emb|CZK24431.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998847568|emb|CZK64084.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998850345|emb|CZI43959.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998853672|emb|CZL21850.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998856368|emb|CZL29632.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998859691|emb|CZL68985.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998862773|emb|CZK21736.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998865498|emb|CZJ44846.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998869761|emb|CZJ33149.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998870956|emb|CZM13162.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998874444|emb|CZK33614.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998877569|emb|CZM02796.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998880636|emb|CZI90253.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998887934|emb|CZL45786.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998889331|emb|CZK26072.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998895614|emb|CZK02749.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998906019|emb|CZK52192.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998909590|emb|CZL05127.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998915940|emb|CZK66224.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998918409|emb|CZK87214.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998921380|emb|CZL41888.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998927685|emb|CZL67058.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998930772|emb|CZK78371.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998933823|emb|CZL72353.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998939987|emb|CZK79645.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998946064|emb|CZK99716.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998949108|emb|CZK85558.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998958506|emb|CZL96521.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998961412|emb|CZK21428.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998964721|emb|CZK09598.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998966857|emb|CZM48118.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998970399|emb|CZK49349.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998973910|emb|CZK29767.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998979615|emb|CZL62853.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998985964|emb|CZK03988.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998988606|emb|CZL45173.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998998132|emb|CZJ92217.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999008104|emb|CZK31785.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999013037|emb|CZL46999.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999016959|emb|CZL72966.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999022757|emb|CZL19838.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999025272|emb|CZK71738.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999037029|emb|CZL51242.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999046753|emb|CZL73888.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999061560|emb|CZL10520.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999067475|emb|CZJ21355.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999076801|emb|CZG55922.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999080144|emb|CZJ88271.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999082897|emb|CZK80932.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999090393|emb|CZK37966.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999092387|emb|CZL36503.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999095173|emb|CZG82727.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999098812|emb|CZG65115.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999101241|emb|CZL70788.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999110316|emb|CZL12215.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999113905|emb|CZL54880.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999116314|emb|CZK44122.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999126226|emb|CZK76069.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999131492|emb|CZL91704.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999134711|emb|CZL13742.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999138187|emb|CZK32326.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999141698|emb|CZL40363.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999144657|emb|CZK73282.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999147551|emb|CZL45707.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999156958|emb|CZH77293.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999175691|emb|CZL01885.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999191382|emb|CZI21205.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999194505|emb|CZI48126.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999199849|emb|CZG80736.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999203816|emb|CZI48142.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999209915|emb|CZK72226.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999219403|emb|CZL35338.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999222497|emb|CZI39853.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999335176|emb|CZK70102.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1002075456|emb|CZQ93603.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1002078961|emb|CZQ93598.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1003020055|emb|CZR21089.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1003022932|emb|CZR20028.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1003026774|emb|CZR17519.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1104003951|emb|SFZ46510.1| Arabinose operon regulatory protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>AGH52585</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>526.939</Hsp_bit-score>
+      <Hsp_score>1356</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|696222280|ref|WP_032802750.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073866154|gb|AOU06105.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073869120|gb|AOU09070.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073872121|gb|AOU12070.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073875026|gb|AOU14974.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073878044|gb|AOU17991.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073881004|gb|AOU20950.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073884003|gb|AOU23948.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073887001|gb|AOU26945.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073889951|gb|AOU29894.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073892951|gb|AOU32893.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073895914|gb|AOU35855.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073898877|gb|AOU38817.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073901829|gb|AOU41768.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073904742|gb|AOU44680.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073907705|gb|AOU47642.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073910704|gb|AOU50639.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073913730|gb|AOU53662.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073916690|gb|AOU56621.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073919655|gb|AOU59585.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073922558|gb|AOU62487.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073925643|gb|AOU65570.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073928604|gb|AOU68530.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073931589|gb|AOU71498.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073934955|gb|AOU74514.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073937923|gb|AOU84922.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073948193|gb|AOU87917.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1073951109|gb|AOU90832.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1129969767|gb|APU00127.1| AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_032802750</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.472</Hsp_bit-score>
+      <Hsp_score>1347</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|395128495|emb|CCD06711.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|999247482|emb|CZH76369.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999268935|emb|CZO49175.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999464146|emb|CZM89311.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999467271|emb|CZO59274.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999473659|emb|CZN07554.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999476877|emb|CZN94931.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999480167|emb|CZN22822.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999483393|emb|CZO32409.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999486600|emb|CZM28806.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999489843|emb|CZO05915.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999492964|emb|CZM27844.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999499516|emb|CZN96723.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999502740|emb|CZO35507.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999505884|emb|CZN40249.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999509086|emb|CZG79791.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999512309|emb|CZN51764.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999515508|emb|CZM17471.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999518516|emb|CZN01783.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999531538|emb|CZO81247.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999535027|emb|CZN58186.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999537861|emb|CZN06422.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999541344|emb|CZO44689.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999544442|emb|CZO76358.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999547733|emb|CZO07986.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999550567|emb|CZO53416.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999554080|emb|CZN57877.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999557252|emb|CZO75673.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999560532|emb|CZM75683.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999563653|emb|CZO92357.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999566945|emb|CZM70649.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999570101|emb|CZN71591.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999573325|emb|CZO22182.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999579710|emb|CZO43964.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999582897|emb|CZO78647.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999586316|emb|CZN00086.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999589323|emb|CZM61359.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999592597|emb|CZN60537.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999595740|emb|CZO32050.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999598947|emb|CZO67723.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999602041|emb|CZM25349.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999605133|emb|CZN92777.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999608459|emb|CZN78567.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999615071|emb|CZM71246.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999618182|emb|CZO15268.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999621179|emb|CZP07653.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999624424|emb|CZO02761.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999627701|emb|CZM89628.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999631045|emb|CZM76791.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999634178|emb|CZN83648.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999637199|emb|CZN91116.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999640515|emb|CZP08027.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999643834|emb|CZO72904.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999646993|emb|CZO15529.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999651211|emb|CZN89970.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999653408|emb|CZO17070.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999656493|emb|CZM59512.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999659565|emb|CZM91510.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999662904|emb|CZN42395.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999666270|emb|CZM64031.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999669461|emb|CZM02568.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999672551|emb|CZM61957.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999675784|emb|CZN99788.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999678693|emb|CZN08029.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999682015|emb|CZM98802.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999685450|emb|CZO33366.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999688536|emb|CZN52308.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999691842|emb|CZO23545.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999694875|emb|CZN57193.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999698066|emb|CZM40223.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999701308|emb|CZN04693.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999704544|emb|CZM22929.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999708400|emb|CZN44121.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999711037|emb|CZN21393.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999714202|emb|CZN46906.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999717463|emb|CZO76608.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999720580|emb|CZN08893.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999724078|emb|CZN58806.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999727299|emb|CZM18564.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999730387|emb|CZO63395.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999733768|emb|CZM35466.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999736957|emb|CZO94394.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999740420|emb|CZM55288.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999743546|emb|CZN41623.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999746758|emb|CZM42141.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999750237|emb|CZM16816.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999753178|emb|CZN04175.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999756274|emb|CZN33562.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999759846|emb|CZM50468.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999762969|emb|CZN41162.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999766167|emb|CZM95749.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999769274|emb|CZN73802.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999772727|emb|CZI10122.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999775810|emb|CZM10955.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999782125|emb|CZH84816.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999785963|emb|CZM47291.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999789031|emb|CZO89116.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999792378|emb|CZO76249.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999795566|emb|CZI49873.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999799113|emb|CZO92832.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1003035950|emb|CZR20404.1| AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>CCD06711</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.39</Hsp_bit-score>
+      <Hsp_score>1339</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRGEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLR EAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|999453777|emb|CZI38699.1|</Hit_id>
+  <Hit_def>Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999460226|emb|CZH16780.1| Arabinose operon regulatory protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>CZI38699</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.924</Hsp_bit-score>
+      <Hsp_score>1330</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLINRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRGEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLL NRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLR EAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|696254653|ref|WP_032832414.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_032832414</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.924</Hsp_bit-score>
+      <Hsp_score>1330</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRGEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLR EAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|761996958|dbj|GAN30953.1|</Hit_id>
+  <Hit_def>arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998802542|emb|CZH86064.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998982095|emb|CZI81139.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999004376|emb|CZI39793.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999107083|emb|CZI80424.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999150978|emb|CZH75927.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999165971|emb|CZG66382.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999170334|emb|CZH63413.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999231402|emb|CZI59158.1| Arabinose operon regulatory protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>GAN30953</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.153</Hsp_bit-score>
+      <Hsp_score>1328</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESASQWRTKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGES SQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|502866887|ref|WP_013101863.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|53752339|emb|CAH13771.1| hypothetical protein lpp2618 [Legionella pneumophila str. Paris] &gt;gi|295650095|gb|ADG25942.1| AraC-type DNA-binding domain-containing protein [Legionella pneumophila 2300/99 Alcoy] &gt;gi|395131646|emb|CCD09937.1| transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|536611614|gb|ERB40132.1| AraC family transcriptional regulator [Legionella pneumophila str. 121004] &gt;gi|542000198|gb|ERH46189.1| AraC family transcriptional regulator [Legionella pneumophila str. Leg01/11] &gt;gi|542000728|gb|ERH46704.1| AraC family transcriptional regulator [Legionella pneumophila str. Leg01/53] &gt;gi|542121275|gb|ERI47607.1| AraC family transcriptional regulator [Legionella pneumophila str. Leg01/20] &gt;gi|761987525|dbj|GAN24579.1| arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|762000159|dbj|GAN27891.1| arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998790286|emb|CZG92240.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998793546|emb|CZI47841.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998891824|emb|CZJ63438.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998912401|emb|CZH01347.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998925128|emb|CZJ39181.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998944117|emb|CZJ60108.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998955327|emb|CZJ97189.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998976899|emb|CZJ29027.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998992508|emb|CZJ35435.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998994832|emb|CZI11218.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999010205|emb|CZJ73466.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999019774|emb|CZJ22637.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999029148|emb|CZJ43722.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999030900|emb|CZH09321.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999034478|emb|CZJ67898.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999041207|emb|CZJ39213.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999043998|emb|CZJ37277.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999049886|emb|CZJ55778.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999052655|emb|CZJ40921.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999056364|emb|CZJ26962.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999065434|emb|CZJ41500.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999070841|emb|CZJ41995.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999074531|emb|CZJ53651.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999086121|emb|CZJ59888.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999173466|emb|CZH71466.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999182474|emb|CZG25130.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999185224|emb|CZP78907.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999188639|emb|CZI74699.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999197652|emb|CZP60108.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999207212|emb|CZP26911.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999213571|emb|CZG39795.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999217139|emb|CZI75711.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999228697|emb|CZP04894.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999234558|emb|CZP79723.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999241335|emb|CZH60584.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999243966|emb|CZH85413.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999250325|emb|CZG50934.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999253563|emb|CZG65477.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999256995|emb|CZP46374.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999259805|emb|CZP14993.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999263604|emb|CZG36537.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999266279|emb|CZO81533.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999272017|emb|CZP69418.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999274993|emb|CZG66127.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999278063|emb|CZP10463.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999281068|emb|CZP26801.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999285151|emb|CZP15237.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999287808|emb|CZI27813.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999291930|emb|CZO97838.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999293935|emb|CZI25423.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999297166|emb|CZP28282.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999300578|emb|CZP05002.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999306852|emb|CZH98860.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999310382|emb|CZO75767.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999313440|emb|CZI28432.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999317197|emb|CZH59922.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999319823|emb|CZP32761.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999322852|emb|CZH66907.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999338375|emb|CZP22594.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999341812|emb|CZG27640.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999345762|emb|CZP46926.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999347890|emb|CZP38977.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999354422|emb|CZP30008.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999357480|emb|CZP57924.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999361152|emb|CZI04593.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999363481|emb|CZP60584.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999366477|emb|CZP89045.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999370849|emb|CZP50433.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999374110|emb|CZG06805.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999377287|emb|CZI89816.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999380586|emb|CZH49737.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999383470|emb|CZI21092.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999387401|emb|CZG07783.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999390208|emb|CZI07381.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999393179|emb|CZP71399.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999397127|emb|CZG19006.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999399589|emb|CZP85518.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999402724|emb|CZP69078.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999406360|emb|CZG39891.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999409468|emb|CZH74366.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999413416|emb|CZG15886.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999416588|emb|CZG10951.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999419217|emb|CZG40960.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999422671|emb|CZH47028.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999426419|emb|CZG22352.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999429177|emb|CZG33714.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999432765|emb|CZG10615.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999435677|emb|CZH63611.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999438413|emb|CZG47369.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999442185|emb|CZJ81654.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|999445391|emb|CZH58292.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999448656|emb|CZG06891.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999451358|emb|CZP18399.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999458297|emb|CZJ86407.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999470981|emb|CZG33984.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999497082|emb|CZI13573.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999521817|emb|CZP34296.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999526267|emb|CZI58646.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999529149|emb|CZI13797.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999577131|emb|CZI04260.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999612432|emb|CZI10274.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999779701|emb|CZG24808.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1002080690|emb|CZR08205.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1002092850|emb|CZQ90764.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1003031328|emb|CZR31535.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1015433905|gb|AMV15532.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1103997722|emb|SFZ46508.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1104000857|emb|SFZ46540.1| Arabinose operon regulatory protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101863</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.998</Hsp_bit-score>
+      <Hsp_score>1325</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGRGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLG GIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|148281760|gb|ABQ55848.1|</Hit_id>
+  <Hit_def>transcriptional regulator, AraC-family [Legionella pneumophila str. Corby] &gt;gi|761990625|dbj|GAN18527.1| arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|761993815|dbj|GAN21633.1| arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999303322|emb|CZI24078.1| Arabinose operon regulatory protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>ABQ55848</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.612</Hsp_bit-score>
+      <Hsp_score>1324</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPLVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESASQWRTKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD +VIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGES SQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|764927104|ref|WP_044497942.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_044497942</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.227</Hsp_bit-score>
+      <Hsp_score>1323</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLINRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRGEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+L NRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLR EAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|999325927|emb|CZG57818.1|</Hit_id>
+  <Hit_def>Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999329644|emb|CZF98504.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999332411|emb|CZG38279.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999351815|emb|CZG42295.1| Arabinose operon regulatory protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>CZG57818</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.072</Hsp_bit-score>
+      <Hsp_score>1320</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDTTTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGRGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVID TTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLG GIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|53755217|emb|CAH16710.1|</Hit_id>
+  <Hit_def>hypothetical protein lpl2470 [Legionella pneumophila str. Lens]</Hit_def>
+  <Hit_accession>CAH16710</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.072</Hsp_bit-score>
+      <Hsp_score>1320</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAYNERDFFTDSLINQLLFHFVANSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLA+NERDFFTDSLINQLLFHF A+SFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|696251524|ref|WP_032829285.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1032659162|gb|ANH14433.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1032662127|gb|ANH17397.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1032665104|gb|ANH20373.1| AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_032829285</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.686</Hsp_bit-score>
+      <Hsp_score>1319</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESASQWRTKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGES SQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|653014307|ref|WP_027266356.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|998781264|emb|CZJ46990.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998824101|emb|CZG35690.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998829557|emb|CZG83877.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998883421|emb|CZI80568.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998898738|emb|CZJ42192.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998935737|emb|CZM91563.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998952143|emb|CZJ29972.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|998999888|emb|CZH03075.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999057575|emb|CZM81294.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999103432|emb|CZI33058.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999127934|emb|CZH37737.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999153953|emb|CZM21827.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999158472|emb|CZJ95979.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999163041|emb|CZM08094.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999177183|emb|CZJ94406.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999225983|emb|CZG36163.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999237086|emb|CZG75059.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1002084955|emb|CZR04137.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1002088630|emb|CZQ78615.1| Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|1104007393|emb|SFZ46500.1| Arabinose operon regulatory protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266356</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.301</Hsp_bit-score>
+      <Hsp_score>1318</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNVDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFVANSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVN DIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHF A+SFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|754525651|ref|WP_041932029.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_041932029</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.531</Hsp_bit-score>
+      <Hsp_score>1316</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPLVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESASQWRTKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD +VIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGES SQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|696253400|ref|WP_032831161.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1041017098|gb|ANN94159.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1041020101|gb|ANN97161.1| AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_032831161</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>511.146</Hsp_bit-score>
+      <Hsp_score>1315</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGRGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLG GIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|696253048|ref|WP_032830809.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1005834797|gb|AMQ29523.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_032830809</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.605</Hsp_bit-score>
+      <Hsp_score>1311</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDTTTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGRGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVID TTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLG GIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|752487904|ref|WP_041173924.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1080003087|gb|AOW53659.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080006351|gb|AOW56631.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080009641|gb|AOW59629.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080012963|gb|AOW62454.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080016488|gb|AOW65361.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080019596|gb|AOW68241.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_041173924</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.419</Hsp_bit-score>
+      <Hsp_score>1256</Hsp_score>
+      <Hsp_evalue>3.11519e-174</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAYNERDFFTDSLINQLLFHFVANSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLA+NERDFFTDSLINQLLFHF A+SFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|696251237|ref|WP_032828998.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1005365105|gb|AMP90974.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pascullei] &gt;gi|1005368262|gb|AMP94039.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pascullei] &gt;gi|1005371173|gb|AMP96949.1| AraC family transcriptional regulator [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_032828998</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.034</Hsp_bit-score>
+      <Hsp_score>1255</Hsp_score>
+      <Hsp_evalue>5.82148e-174</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDYAQLVLPVSGSMELEVGHYSAVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDVTTQNPLRDEGFESNILNLTTSTKKLIQFTHHYLAHNERDFFSDSLINQLLFHFVANSFSPEPDPLVVKAKYWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQSLGCGIAEYWRMKKLLHAKRLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGEAPSQWRAKALTAKKMREID</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHD+AQLVLPVSGSMELEVGHYS VVNDDIGVYIAPNEQHCFAGSQKNLFLVID TTQN LRDE FESNILNLT STKKLIQFTHHYLAHNERDFF+DSLINQLLFHF A+SFSPEPD +V++AK WIDLYFADSV+V+RVAKHCYLSISQLQRRFKQ LGCGIAEYWRMKKLLHAK+LLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGE+PSQWR+KALTAKKMREID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|696255080|ref|WP_032832841.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_032832841</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>486.878</Hsp_bit-score>
+      <Hsp_score>1252</Hsp_score>
+      <Hsp_evalue>1.26846e-173</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNVDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFVANSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVN DIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHF A+SFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|754875179|ref|WP_042235712.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042235712</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.797</Hsp_bit-score>
+      <Hsp_score>1244</Hsp_score>
+      <Hsp_evalue>2.03491e-172</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEAGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDVTNQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGYGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELE GHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVID T QNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLG GIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1011915051|ref|WP_062728265.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062728265</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.33</Hsp_bit-score>
+      <Hsp_score>1235</Hsp_score>
+      <Hsp_evalue>5.96741e-171</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHAHDYAQLVLPVSGSMELAVGHYSAVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDVTTQNPLRDEGFESNILNLTTSTKKLIQFTHHYLVHNERDFFADSLINQLLFHFAANSFSPEPDPLVIKAKRWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQRLGCGIAEYWRMKKLLHAKRLLSQKHCPIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMRQID</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSH HD+AQLVLPVSGSMEL VGHYS VVNDDIGVYIAPNEQHCFAGSQKNLFLVID TTQN LRDE FESNILNLT STKKLIQFTHHYL HNERDFF DSLINQLLFHFAA+SFSPEPD +VI+AK+WIDLYFADSV+V+RVAKHCYLSISQLQRRFKQ LGCGIAEYWRMKKLLHAK+LLSQK+C IEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMR+ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1004334457|ref|WP_061513382.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513382</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.33</Hsp_bit-score>
+      <Hsp_score>1235</Hsp_score>
+      <Hsp_evalue>6.23506e-171</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGIYIAPNEQHCFAGSQKNLFLVIDVTTQYSLRDEAFESNILNLSASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGSGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMRQID</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIG+YIAPNEQHCFAGSQKNLFLVID TTQ SLRDEAFESNILNL+ASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLG GIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMR+ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|999120249|emb|CZG37080.1|</Hit_id>
+  <Hit_def>Arabinose operon regulatory protein [Legionella pneumophila] &gt;gi|999121635|emb|CZH41088.1| Arabinose operon regulatory protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>CZG37080</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.019</Hsp_bit-score>
+      <Hsp_score>1229</Hsp_score>
+      <Hsp_evalue>5.37115e-170</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MLLTNRIDLRSYHTESCSHAHDYAQLVLPVSGSMELAVGHYSAVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDVTTQNPLRDEGFESNILNLTTSTKKLIQFTHHYLVHNERDFFADSLINQLLFHFAANSFSPESDPLVIKAKRWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQRLGCGIAEYWRMKKLLHAKRLLSQKHCPIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKTMRQID</Hsp_hseq>
+      <Hsp_midline>MLLTNRIDLRSYHTESCSH HD+AQLVLPVSGSMEL VGHYS VVNDDIGVYIAPNEQHCFAGSQKNLFLVID TTQN LRDE FESNILNLT STKKLIQFTHHYL HNERDFF DSLINQLLFHFAA+SFSPE D +VI+AK+WIDLYFADSV+V+RVAKHCYLSISQLQRRFKQ LGCGIAEYWRMKKLLHAK+LLSQK+C IEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAK MR+ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|696254281|ref|WP_032832042.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_032832042</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.863</Hsp_bit-score>
+      <Hsp_score>1226</Hsp_score>
+      <Hsp_evalue>1.23181e-169</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHAHDYAQLVLPVSGSMELAVGHYSAVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDVTTQNPLRDEGFESNILNLTTSTKKLIQFTHHYLVHNERDFFADSLINQLLFHFAANSFSPESDPLVIKAKRWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQRLGCGIAEYWRMKKLLHAKRLLSQKHCPIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMRQID</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSH HD+AQLVLPVSGSMEL VGHYS VVNDDIGVYIAPNEQHCFAGSQKNLFLVID TTQN LRDE FESNILNLT STKKLIQFTHHYL HNERDFF DSLINQLLFHFAA+SFSPE D +VI+AK+WIDLYFADSV+V+RVAKHCYLSISQLQRRFKQ LGCGIAEYWRMKKLLHAK+LLSQK+C IEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMR+ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|696252551|ref|WP_032830312.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|985766336|gb|KXB27445.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|985767408|gb|KXB28497.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1024339460|gb|KZX33801.1| AraC family transcriptional regulator [Legionella pneumophila] &gt;gi|1108606449|gb|APF04817.1| AraC family transcriptional regulator [Legionella pneumophila subsp. fraseri] &gt;gi|1108609446|gb|APF07813.1| AraC family transcriptional regulator [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_032830312</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.937</Hsp_bit-score>
+      <Hsp_score>1221</Hsp_score>
+      <Hsp_evalue>8.9689e-169</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHAHDYAQLVLPVSGSMELAVGHYSAVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDVTTQNPLRDEGFESNILNLTTSTKKLIQFTHHYLVHNERDFFADSLINQLLFHFAANSFSPESDPLVIKAKRWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQRLGCGIAEYWRMKKLLHAKRLLSQKHCPIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKTMRQID</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSH HD+AQLVLPVSGSMEL VGHYS VVNDDIGVYIAPNEQHCFAGSQKNLFLVID TTQN LRDE FESNILNLT STKKLIQFTHHYL HNERDFF DSLINQLLFHFAA+SFSPE D +VI+AK+WIDLYFADSV+V+RVAKHCYLSISQLQRRFKQ LGCGIAEYWRMKKLLHAK+LLSQK+C IEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAK MR+ID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1004016332|ref|WP_061484558.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061484558</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>7.37234e-167</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPHDQHCFAGSQKNLFLVIDVTTQNSLRDKAFESNTFNLTTSTKKLIQFTHYYLAHNERDFFTDSLINQLLFHFTANSFSPEPDPVVRKAKHWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAP++QHCFAGSQKNLFLVID TTQNSLRD+AFESN  NLT STKKLIQFTH+YLAHNERDFFTDSLINQLLFHF A+SFSPEPD VV +AK WIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966440607|ref|WP_058480930.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella waltersii] &gt;gi|962292900|gb|KTD76585.1| AraC family transcriptional regulator [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480930</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.92</Hsp_bit-score>
+      <Hsp_score>1060</Hsp_score>
+      <Hsp_evalue>2.56956e-144</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MLTNRIDLRSYRTESCSHAHDFAQFVLPVTGSMELEVGNYSGLVNDDIGVYIAPNDVHCFAGSQNNRFLVIDVNPKNQPHDGHFESATLHLTTSTKKLIQFVHHYLENNERDFFTDSLVNQLVFHFAVNSFSPEQDSLVMKAKQWIDLYFAYSVDVTKVAKHCYLSVSQLQRRFKQAMGCSIAEYWRMRKLHHAKRLLAQRNLSIEAIAFALGYENLPAFSRRFSKVFGTSPSQWRTKALSAKKMHEMD</Hsp_hseq>
+      <Hsp_midline>+LTNRIDLRSY TESCSH HDFAQ VLPV+GSMELEVG+YSG+VNDDIGVYIAPN+ HCFAGSQ N FLVID   +N   D  FES  L+LT STKKLIQF HHYL +NERDFFTDSL+NQL+FHFA +SFSPE D +V++AKQWIDLYFA SV+V +VAKHCYLS+SQLQRRFKQ +GC IAEYWRM+KL HAK+LL+Q+N SIEAIAF +GYENLPAFSRRFSKVFG SPSQWR+KAL+AKKM E+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966438012|ref|WP_058478380.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella steigerwaltii] &gt;gi|962287933|gb|KTD71653.1| AraC family transcriptional regulator [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058478380</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.823</Hsp_bit-score>
+      <Hsp_score>1026</Hsp_score>
+      <Hsp_evalue>3.8024e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MITHRVDLRSYHTESCSHSHEFAQLVLPLAGSMELEVGHYSGVVNHHVGVFIAPNERHCFAGSQENLFLVVDVASQNGLSEE-HGSHVFNLTTSIKKLMQFTHHYLASHEGDFFTDSLINQLLIHFATKSFSPELDRMVIKAKNWIDFYFAEHVNVNKVAQHCHLSVSQLQRRFKQSLGCSIAEYWRFKKLNQAKQLLASKHLSIEAIAFAVGYENLPAFSRRFSMVFGESPSQWRTKALSAKKMREMD</Hsp_hseq>
+      <Hsp_midline>++T+R+DLRSYHTESCSH+H+FAQLVLP++GSMELEVGHYSGVVN  +GV+IAPNE+HCFAGSQ+NLFLV+D  +QN L +E   S++ NLT S KKL+QFTHHYLA +E DFFTDSLINQLL HFA  SFSPE D +VI+AK WID YFA+ VNVN+VA+HC+LS+SQLQRRFKQ LGC IAEYWR KKL  AK+LL+ K+ SIEAIAF VGYENLPAFSRRFS VFGESPSQWR+KAL+AKKMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966417496|ref|WP_058460781.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058460781</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>2.86868e-134</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MITNRIDLRSYHTESCSHAHDFAQLVLPLAGSMELESGLYAGIVDKQVGVFIAPNERHCFAGSPNNLFLVIDVTAQNHLFEDR-RSHAFNLTASMKKLLHFTHHYLAVKEGDFFTDSLINQLIIHFATKSFSPELDPIAIKAKNWIDLYFADAVDVTKVARQCYLSVSQLQRRFKHALGCSIAEYWRFKKLHRAKQLLSSKNLSIEAIAFAVGYENLPAFSRRFSKVFGESPSQWRTKALSANKMREMD</Hsp_hseq>
+      <Hsp_midline>++TNRIDLRSYHTESCSH HDFAQLVLP++GSMELE G Y+G+V+  +GV+IAPNE+HCFAGS  NLFLVID T QN L ++   S+  NLTAS KKL+ FTHHYLA  E DFFTDSLINQL+ HFA  SFSPE D + I+AK WIDLYFAD+V+V +VA+ CYLS+SQLQRRFK  LGC IAEYWR KKL  AK+LLS KN SIEAIAF VGYENLPAFSRRFSKVFGESPSQWR+KAL+A KMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|654931997|ref|WP_028382360.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella cherrii] &gt;gi|962193767|gb|KTC78828.1| AraC family transcriptional regulator [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028382360</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>3.6108e-134</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MITHHVDLRSYHTESCSHTHDFAQLVLPLAGSMELEAGHYSGIVNHQVGVFIAPNERHCFSGSQENLFLVVDVANQNNLYREQ-SSHAFNLTTSIKKLIHFAHDYLAANEGDFLTDSLINQLLVHFATKSFSPELDRTVIKAKNWIDFYFADAVNVSKVAQHCHLSVSQLQRRFKQSLGCSIAEYWRFKKLNQAKQLLCAQHLSIEAIAFAVGYENLPAFSRRFSKVFGESPSQWRTKALSAKKMREMD</Hsp_hseq>
+      <Hsp_midline>++T+ +DLRSYHTESCSHTHDFAQLVLP++GSMELE GHYSG+VN  +GV+IAPNE+HCF+GSQ+NLFLV+D   QN+L  E   S+  NLT S KKLI F H YLA NE DF TDSLINQLL HFA  SFSPE D  VI+AK WID YFAD+VNV++VA+HC+LS+SQLQRRFKQ LGC IAEYWR KKL  AK+LL  ++ SIEAIAF VGYENLPAFSRRFSKVFGESPSQWR+KAL+AKKMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|962184497|gb|KTC69694.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>KTC69694</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>3.24973e-133</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>LITNRIDLRSYHTESCSHAHDFAQLVLPLAGSMELESGLYAGIVDKQVGVFIAPNERHCFAGSPNNLFLVIDVTAQNHLFEDR-RSHAFNLTASMKKLLHFTHHYLAVKEGDFFTDSLINQLIIHFATKSFSPELDPIAIKAKNWIDLYFADAVDVTKVARQCYLSVSQLQRRFKHALGCSIAEYWRFKKLHRAKQLLSSKNLSIEAIAFAVGYENLPAFSRRFSKVFGESPSQWRTKALSANKMREMD</Hsp_hseq>
+      <Hsp_midline>L+TNRIDLRSYHTESCSH HDFAQLVLP++GSMELE G Y+G+V+  +GV+IAPNE+HCFAGS  NLFLVID T QN L ++   S+  NLTAS KKL+ FTHHYLA  E DFFTDSLINQL+ HFA  SFSPE D + I+AK WIDLYFAD+V+V +VA+ CYLS+SQLQRRFK  LGC IAEYWR KKL  AK+LLS KN SIEAIAF VGYENLPAFSRRFSKVFGESPSQWR+KAL+A KMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|518065490|ref|WP_019235698.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella anisa] &gt;gi|962186342|gb|KTC71491.1| AraC family transcriptional regulator [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019235698</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>5.58611e-133</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MIPNRIDLRSYHSESCSHTHDFAQLVLPLAGSMELESGLYSGVVDKHVGVFIAPNERHCFAGSQNNLFLVIDVTVRNHLFEDR-RSHAFHLTASVKKLLHFTHHYLAAKEGDFFTDSLINQLLIHFATKSFSPELDAIAIKAKNWIDLYFADTVDVSKVAQHCHLSVSQLQRRFKLALGCSMAEYWRFKKLHQAKQLLSLKNLSIEAIAFTVGYENLPAFSRRFSKVFGESPSQWRTKALSANKMREPD</Hsp_hseq>
+      <Hsp_midline>++ NRIDLRSYH+ESCSHTHDFAQLVLP++GSMELE G YSGVV+  +GV+IAPNE+HCFAGSQ NLFLVID T +N L ++   S+  +LTAS KKL+ FTHHYLA  E DFFTDSLINQLL HFA  SFSPE D + I+AK WIDLYFAD+V+V++VA+HC+LS+SQLQRRFK  LGC +AEYWR KKL  AK+LLS KN SIEAIAF VGYENLPAFSRRFSKVFGESPSQWR+KAL+A KMRE D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966504911|ref|WP_058521570.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella tucsonensis] &gt;gi|962288914|gb|KTD72622.1| AraC family transcriptional regulator [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521570</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>6.98127e-132</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MIPNRIDLRSYHTESCSHVHDFAQLVLPLAGSMELESGLYSGVVDKHVGVFIASNERHCFAGSQENLFLVIDMTAQNHLVEDR-RSHAFNLTASVKKLLHFTHHYLAAKEGDLFTDSLINQLIIHFAAKSFSPELDPIAIKAKNWIDLYFAGAVDVSKVAQHCHLSVSQLQRRFKHALGCSMAEYWRFKKLHRAKQLLSSKNRSIEAIAFAVGYENLPAFSRRFSKVFGESPSQWRAKALSANKIREID</Hsp_hseq>
+      <Hsp_midline>++ NRIDLRSYHTESCSH HDFAQLVLP++GSMELE G YSGVV+  +GV+IA NE+HCFAGSQ+NLFLVID T QN L ++   S+  NLTAS KKL+ FTHHYLA  E D FTDSLINQL+ HFAA SFSPE D + I+AK WIDLYFA +V+V++VA+HC+LS+SQLQRRFK  LGC +AEYWR KKL  AK+LLS KN SIEAIAF VGYENLPAFSRRFSKVFGESPSQWR+KAL+A K+REID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1113350478|gb|OJW14246.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW14246</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>2.24112e-131</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MITHRVDLRSYHTESCSHAHDFAQLVLPLAGSMELEAGHYSGVVDHHVGVFIAPNERHCFAGSQGNLFLVVDVASPKDLFKE-HRSHAFNLTTSIKKLIQFAHHYLADNEGDFFTDSLMNQLLVHFATKSLSFESDDIVLKAKNWIDFYFAERVNVNKVAQHCHLSVSQLQRRFKQSLGCSIAEYWRFKKLSQAKQLLSAQHLSIEAIAFAVGYENLPAFSRRFSTVFGESPSQWRIKALSAKKMREMD</Hsp_hseq>
+      <Hsp_midline>++T+R+DLRSYHTESCSH HDFAQLVLP++GSMELE GHYSGVV+  +GV+IAPNE+HCFAGSQ NLFLV+D  +   L  E   S+  NLT S KKLIQF HHYLA NE DFFTDSL+NQLL HFA  S S E D +V++AK WID YFA+ VNVN+VA+HC+LS+SQLQRRFKQ LGC IAEYWR KKL  AK+LLS ++ SIEAIAF VGYENLPAFSRRFS VFGESPSQWR KAL+AKKMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966495230|ref|WP_058512018.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella steelei] &gt;gi|962283215|gb|KTD66989.1| AraC family transcriptional regulator [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058512018</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.637</Hsp_bit-score>
+      <Hsp_score>971</Hsp_score>
+      <Hsp_evalue>8.4357e-131</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MITHRVDLRSYHTESCSHAHDFAQLVLPLAGSMELEAGHYSGVVDHHVGVFIAPNERHCFAGSQGNLFLVVDVASPKDLFKE-HRSHAFNLTTSIKKLIQFAHHYLADNEGDFFTDSLMNQLLVHFATKSLSFESDDIVLKAKNWIDFYFAERVNVNKVAQHCHLSVSQLQRRFKQSLGCSIAEYWRFKKLSQAKQLLSAQHLSIEVIAFAVGYENLPAFSRRFSTVFGESPSQWRIKALSAKKMREMD</Hsp_hseq>
+      <Hsp_midline>++T+R+DLRSYHTESCSH HDFAQLVLP++GSMELE GHYSGVV+  +GV+IAPNE+HCFAGSQ NLFLV+D  +   L  E   S+  NLT S KKLIQF HHYLA NE DFFTDSL+NQLL HFA  S S E D +V++AK WID YFA+ VNVN+VA+HC+LS+SQLQRRFKQ LGC IAEYWR KKL  AK+LLS ++ SIE IAF VGYENLPAFSRRFS VFGESPSQWR KAL+AKKMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966425986|ref|WP_058468524.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468524</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>4.79175e-128</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MITNRMELRSYHTESCSHSHDFAQWVLPLSGSMELEAGYYSGTVDNHVGVFIAPNERHCFAGSQENLFLVIDVTSRHHFFEDR-GSHAFNLTASIKKLLYFTHHYLAAHEGDFFADSLINQLLIHFAAKSFSPELDQTAIKAKNWIDFYFAEPVDVGKVAQHCHLSLSQLQRRFKLALGCSMAEYWRFKKLHYAQKLLSSKECSIEAIASAVGYENLSAFSRRFSKVFGESPSQWRIKALSANKMREMD</Hsp_hseq>
+      <Hsp_midline>++TNR++LRSYHTESCSH+HDFAQ VLP+SGSMELE G+YSG V++ +GV+IAPNE+HCFAGSQ+NLFLVID T+++   ++   S+  NLTAS KKL+ FTHHYLA +E DFF DSLINQLL HFAA SFSPE D   I+AK WID YFA+ V+V +VA+HC+LS+SQLQRRFK  LGC +AEYWR KKL +A+KLLS K CSIEAIA  VGYENL AFSRRFSKVFGESPSQWR KAL+A KMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966502651|ref|WP_058519324.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella parisiensis] &gt;gi|1069290456|gb|OEH45862.1| Arabinose operon regulatory protein [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058519324</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>1.84711e-126</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MISNHIDLRSYHTESCSHAHDFAQLVLPLSGSMELESGLYSGVVDTHVGAFIAPNERHCFAGSQNNLFLVVDVTAQNHLFEDR-RSHPFHLTASIKKLLHFTQHYLAAKEGDFFTDSLINQLLIHFATQSFSLELDAIAIKAKNWIDLNFADTVDVSKVAQHCHLSVSQLQRRFKHALGSSMAEYWRFKKLHHAKHMLSSKNLSIEAIAFAVGYENLSAFSRRFSKVFGESPSQWRTKALSANKMREPD</Hsp_hseq>
+      <Hsp_midline>+++N IDLRSYHTESCSH HDFAQLVLP+SGSMELE G YSGVV+  +G +IAPNE+HCFAGSQ NLFLV+D T QN L ++   S+  +LTAS KKL+ FT HYLA  E DFFTDSLINQLL HFA  SFS E D + I+AK WIDL FAD+V+V++VA+HC+LS+SQLQRRFK  LG  +AEYWR KKL HAK +LS KN SIEAIAF VGYENL AFSRRFSKVFGESPSQWR+KAL+A KMRE D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|962258169|gb|KTD42306.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella parisiensis]</Hit_def>
+  <Hit_accession>KTD42306</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>3.45815e-126</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>LISNHIDLRSYHTESCSHAHDFAQLVLPLSGSMELESGLYSGVVDTHVGAFIAPNERHCFAGSQNNLFLVVDVTAQNHLFEDR-RSHPFHLTASIKKLLHFTQHYLAAKEGDFFTDSLINQLLIHFATQSFSLELDAIAIKAKNWIDLNFADTVDVSKVAQHCHLSVSQLQRRFKHALGSSMAEYWRFKKLHHAKHMLSSKNLSIEAIAFAVGYENLSAFSRRFSKVFGESPSQWRTKALSANKMREPD</Hsp_hseq>
+      <Hsp_midline>L++N IDLRSYHTESCSH HDFAQLVLP+SGSMELE G YSGVV+  +G +IAPNE+HCFAGSQ NLFLV+D T QN L ++   S+  +LTAS KKL+ FT HYLA  E DFFTDSLINQLL HFA  SFS E D + I+AK WIDL FAD+V+V++VA+HC+LS+SQLQRRFK  LG  +AEYWR KKL HAK +LS KN SIEAIAF VGYENL AFSRRFSKVFGESPSQWR+KAL+A KMRE D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|962217556|gb|KTD02294.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>KTD02294</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.614</Hsp_bit-score>
+      <Hsp_score>932</Hsp_score>
+      <Hsp_evalue>7.0466e-125</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>IDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MELRSYHTESCSHSHDFAQWVLPLSGSMELEAGYYSGTVDNHVGVFIAPNERHCFAGSQENLFLVIDVTSRHHFFEDR-GSHAFNLTASIKKLLYFTHHYLAAHEGDFFADSLINQLLIHFAAKSFSPELDQTAIKAKNWIDFYFAEPVDVGKVAQHCHLSLSQLQRRFKLALGCSMAEYWRFKKLHYAQKLLSSKECSIEAIASAVGYENLSAFSRRFSKVFGESPSQWRIKALSANKMREMD</Hsp_hseq>
+      <Hsp_midline>++LRSYHTESCSH+HDFAQ VLP+SGSMELE G+YSG V++ +GV+IAPNE+HCFAGSQ+NLFLVID T+++   ++   S+  NLTAS KKL+ FTHHYLA +E DFF DSLINQLL HFAA SFSPE D   I+AK WID YFA+ V+V +VA+HC+LS+SQLQRRFK  LGC +AEYWR KKL +A+KLLS K CSIEAIA  VGYENL AFSRRFSKVFGESPSQWR KAL+A KMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|498338797|ref|WP_010652953.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Fluoribacter dumoffii] &gt;gi|962204607|gb|KTC89544.1| AraC family transcriptional regulator [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652953</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.147</Hsp_bit-score>
+      <Hsp_score>923</Hsp_score>
+      <Hsp_evalue>2.06483e-123</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MITHQVDLRSYQTETCSHAHDFAQLVLPLSGTMELQAGHYSGIVNQDVGVFIAPKERHCFAGSQNNLFLVVDVAARKVPHNN---SHAFNLTPSLKKLIQFTHFYLAADDGDLFTESLINPLLVHLATKSFAPKLDQVVIKAKNWIDFYFAEAVNVSHVAKHCHLSVSQLQRRFKQTLGYSIAEYWRLKKLMQAKQLLLSKNSSIEAVALAVGYENVPAFSRRFSKVYGESPFQWKTKALSAKKMRELD</Hsp_hseq>
+      <Hsp_midline>++T+++DLRSY TE+CSH HDFAQLVLP+SG+MEL+ GHYSG+VN D+GV+IAP E+HCFAGSQ NLFLV+D   +    +    S+  NLT S KKLIQFTH YLA ++ D FT+SLIN LL H A  SF+P+ D VVI+AK WID YFA++VNV+ VAKHC+LS+SQLQRRFKQ LG  IAEYWR+KKL+ AK+LL  KN SIEA+A  VGYEN+PAFSRRFSKV+GESP QW++KAL+AKKMRE+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966422717|ref|WP_058465918.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella cincinnatiensis] &gt;gi|962197718|gb|KTC82757.1| AraC family transcriptional regulator [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058465918</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>2.25992e-121</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKK</Hsp_qseq>
+      <Hsp_hseq>MIAHRMDLRSYHTESHSHTHDFAQLVLPVAGSMELEAGNYSGVINNNIGVYIAPNEQHCFAGSSKNLFLVVDIGTKN--QPNGYHSHEFNLTKNIKKLVQFTHHYLTVQEEDIFANSLINQLLIHFATNSFSAEMDQTVIKAKNWIDRYFADVVDINKVAKYCHLSVSQLQRRFKHVMGYSLAEYWRSQKLHHAKRLLSLKDTSIEAIAFAVGYENLSAFSRRFTQTFGESPSQWRTKALNSTK</Hsp_hseq>
+      <Hsp_midline>++ +R+DLRSYHTES SHTHDFAQLVLPV+GSMELE G+YSGV+N++IGVYIAPNEQHCFAGS KNLFLV+D  T+N  +   + S+  NLT + KKL+QFTHHYL   E D F +SLINQLL HFA +SFS E D  VI+AK WID YFAD V++N+VAK+C+LS+SQLQRRFK ++G  +AEYWR +KL HAK+LLS K+ SIEAIAF VGYENL AFSRRF++ FGESPSQWR+KAL + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966499199|ref|WP_058515965.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella santicrucis] &gt;gi|962269673|gb|KTD53687.1| AraC family transcriptional regulator [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515965</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>5.25564e-118</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKK</Hsp_qseq>
+      <Hsp_hseq>MIAHRMDLRSYHTECHSHSHDFAQLVLPLAGSMELEAGNYSGIINNNIGVYIAPNEQHCFAGSPKNLFLVVDLRAKN--HPDEYSSHEFNLTTNIKKLMQFTHHYLTAQEEDFFADSLINQLIIHFATNSFPAEVDQTAIKAKNWIDRYFADAIDISKVAKYCHLSVSQLQRRFKHVMGYSLAEYWRSQKLHHAKRLLSLKNTSIEAIAFAVGYENLSAFTRRFTQAFGESPSQWRAKALNSKK</Hsp_hseq>
+      <Hsp_midline>++ +R+DLRSYHTE  SH+HDFAQLVLP++GSMELE G+YSG++N++IGVYIAPNEQHCFAGS KNLFLV+D   +N    + + S+  NLT + KKL+QFTHHYL   E DFF DSLINQL+ HFA +SF  E D   I+AK WID YFAD++++++VAK+C+LS+SQLQRRFK ++G  +AEYWR +KL HAK+LLS KN SIEAIAF VGYENL AF+RRF++ FGESPSQWR+KAL +KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|489728550|ref|WP_003632666.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella longbeachae] &gt;gi|269989582|gb|EEZ95836.1| transcriptional regulator [Legionella longbeachae D-4968] &gt;gi|288857235|emb|CBJ11060.1| putative trancriptional regulator, AraC family [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003632666</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.806</Hsp_bit-score>
+      <Hsp_score>865</Hsp_score>
+      <Hsp_evalue>9.59175e-115</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMRE</Hsp_qseq>
+      <Hsp_hseq>MITHRMDLRSYHTECHSHTHEFAQLVLPLDGSMELEAGNYSGVINKNSGVYIAPNEQHCFAGSPKNLFLVVDLKAQN--HPDRYHSHEFILTKNIKNLMQFTHHYLSFQEEDFFAESLINQLLIHFATNSFSAEADQTAIKAKNWIDRYFADVIDISKVAKYCHLSVSQLQRRFKHVMGYSLAEYWRSQKLYHAKRLLTLKKTSIEAIAFSVGYENLSAFSRRFTQTFGVSPSQWRAKALNSKKNEE</Hsp_hseq>
+      <Hsp_midline>++T+R+DLRSYHTE  SHTH+FAQLVLP+ GSMELE G+YSGV+N + GVYIAPNEQHCFAGS KNLFLV+D   QN    + + S+   LT + K L+QFTHHYL+  E DFF +SLINQLL HFA +SFS E D   I+AK WID YFAD +++++VAK+C+LS+SQLQRRFK ++G  +AEYWR +KL HAK+LL+ K  SIEAIAF VGYENL AFSRRF++ FG SPSQWR+KAL +KK  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|653019538|ref|WP_027271487.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella sainthelensi] &gt;gi|962270587|gb|KTD54594.1| AraC family transcriptional regulator [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027271487</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>3.97967e-114</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMRE</Hsp_qseq>
+      <Hsp_hseq>MITHRMDLRSYHTECHSHAHEFAQLVLPLVGSLELEAGSYSGVINENSGIYIAPNEQHCFAGSPKNLFLVVDLKAQN--HPDGYRSHEFMLTKTIKSLVQFAHEYLTVQEEDFFADSLINQLLIHFATNSFSAKGDQTVIKAKNWIDRYFADVIDISKVAKYCHLSVSQLQRRFKHVMGYSLAEYWRAQKLQHAKRLLPLKNCSIEAIAFSVGYENLSAFSRRFTQTFGESPSQWRAKALNSTKNAE</Hsp_hseq>
+      <Hsp_midline>++T+R+DLRSYHTE  SH H+FAQLVLP+ GS+ELE G YSGV+N++ G+YIAPNEQHCFAGS KNLFLV+D   QN    + + S+   LT + K L+QF H YL   E DFF DSLINQLL HFA +SFS + D  VI+AK WID YFAD +++++VAK+C+LS+SQLQRRFK ++G  +AEYWR +KL HAK+LL  KNCSIEAIAF VGYENL AFSRRF++ FGESPSQWR+KAL + K  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966518030|ref|WP_058534524.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058534524</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>9.03447e-109</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MFHNHIELRSYHSESCSHIHDFAQLVLPLYGSMELEVNQYSGLIHKDIGVYIAPEERHCFSGGEDNLFLVIDVKDKCYLWNEGSIPSLLNLSSSAKKLIQFSHHYLTNNEPDVFTDALLNQLLLQITTKPFAPEGDALVQKAKHWIDLHFAEPVQLSQVARHCHLSISQLQRRFKEQMGCALAEYWRMKKLEQARALLARTTRSIEEVAFKVGYENLSAFSRRFTKVYGVSPSQWR---VTAQPMHVSD</Hsp_hseq>
+      <Hsp_midline>+  N I+LRSYH+ESCSH HDFAQLVLP+ GSMELEV  YSG+++ DIGVYIAP E+HCF+G + NLFLVID   +  L +E    ++LNL++S KKLIQF+HHYL +NE D FTD+L+NQLL       F+PE D +V +AK WIDL+FA+ V +++VA+HC+LSISQLQRRFK+ +GC +AEYWRMKKL  A+ LL++   SIE +AF+VGYENL AFSRRF+KV+G SPSQWR   +TA+ M   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1011986170|ref|WP_062790178.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062790178</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>2.79324e-108</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>AFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREIDK</Hsp_qseq>
+      <Hsp_hseq>AFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFVANSFSPEPDPVVIRAKQWIDLYFADSVDVSRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRAKALTAKKMREIDK</Hsp_hseq>
+      <Hsp_midline>AFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHF A+SFSPEPD VVIRAKQWIDLYFADSV+V+RVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWR+KALTAKKMREIDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|737934297|ref|WP_035898971.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_035898971</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>4.02651e-108</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>LLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MISNRMDLRSYLKESCSHSHEFAQVVLPLSGSMELEAGTYSGIVNHNLGVYIAPNELHCFAGSDHNLFVIVDVLHPNLVLEQS-KSRAFTLSPHLKQFLHFTQHYLMGAQEDSFSFSLMNQLLLHFATESFSPEFDSVAMKARNWIDAHFTHPVDINKIAKFCYLSASQLQRRFKQALGMSLGEYWRFKKLNHAKHLLSLNCCSIEAVAYAVGYENLPAFSRRFNQMFGESPTQWRTKVFSAKKLRETD</Hsp_hseq>
+      <Hsp_midline>+++NR+DLRSY  ESCSH+H+FAQ+VLP+SGSMELE G YSG+VN ++GVYIAPNE HCFAGS  NLF+++D    N + +++ +S    L+   K+ + FT HYL   + D F+ SL+NQLL HFA  SFSPE D V ++A+ WID +F   V++N++AK CYLS SQLQRRFKQ LG  + EYWR KKL HAK LLS   CSIEA+A+ VGYENLPAFSRRF+++FGESP+QWR+K  +AKK+RE D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966419840|ref|WP_058463063.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella adelaidensis] &gt;gi|962179447|gb|KTC64713.1| AraC family transcriptional regulator [Legionella adelaidensis]</Hit_def>
+  <Hit_accession>WP_058463063</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>1.74867e-97</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>LTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAK</Hsp_qseq>
+      <Hsp_hseq>MGNCIELRSYLNESVTHSHDFAQLLLPISGSMEMEAGGYAGVINNEVGIYIAPHEKHCFAGRDKNLLLVIDLISSMGILEDEEHSRTFSISKCTQKFLSFTQQYLQEKKGNLFTDTLINQLLLHFSLDETPLERDPLVIKAKQWIDFHFKTPINVGNVANYCHLSISQLQRRFAKITGFSVAEYWRFKKLEHAKHLLLVKNSSVESVALEVGYENLPAFSRRFNKLFGESPTAWRIKALNGK</Hsp_hseq>
+      <Hsp_midline>+ N I+LRSY  ES +H+HDFAQL+LP+SGSME+E G Y+GV+N+++G+YIAP+E+HCFAG  KNL LVID  +   + ++   S   +++  T+K + FT  YL   + + FTD+LINQLL HF+      E D +VI+AKQWID +F   +NV  VA +C+LSISQLQRRF ++ G  +AEYWR KKL HAK LL  KN S+E++A EVGYENLPAFSRRF+K+FGESP+ WR KAL  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1113551318|gb|OJY11433.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Legionella sp. 40-6]</Hit_def>
+  <Hit_accession>OJY11433</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.41383e-90</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MLLTNRIDLRSYHTESCSHTHDFAQLVLPVSGSMELEVGHYSGVVNDDIGVYIAPNEQHCFAGSQKNLFLVIDATTQNSLRDEAFESNILNLTASTKKLIQFTHHYLAHNERDFFTDSLINQLLFHFAASSFSPEPDLVVIRAKQWIDLYFADSVNVNRVAKHCYLSISQLQRRFKQMLGCGIAEYWRMKKLLHAKKLLSQKNCSIEAIAFEVGYENLPAFSRRFSKVFGESPSQWRSKALTAKKMREID</Hsp_qseq>
+      <Hsp_hseq>MVENNRLDLRSYDTDVCRHEHDFAQLVLPLQGTLELEICGRMNIVNQNRGAYIQPGDTHCFSGSPGNLFLVMDLYNHKL----QLPSTAIQLNSSTQKFIQFTHHYFKYHEGDLIAEGLINQLLLHFTAAPIVPVQDSYVLKAKTWIDTHFKEPVDLSRITKYCYLSLSQLQRRFKKSLGSTLAEYWRLKKIQHAKTLLIETNCSIEMIATMVGYENLSAFSRRFHQVVGQSPKRWRVATIAAKKSLFLD</Hsp_hseq>
+      <Hsp_midline>M+  NR+DLRSY T+ C H HDFAQLVLP+ G++ELE+     +VN + G YI P + HCF+GS  NLFLV+D             S  + L +ST+K IQFTHHY  ++E D   + LINQLL HF A+   P  D  V++AK WID +F + V+++R+ K+CYLS+SQLQRRFK+ LG  +AEYWR+KK+ HAK LL + NCSIE IA  VGYENL AFSRRF +V G+SP +WR   + AKK   +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
