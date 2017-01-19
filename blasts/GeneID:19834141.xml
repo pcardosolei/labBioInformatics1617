@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_79831</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834141</BlastOutput_query-def>
+  <BlastOutput_query-len>125</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_79831</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834141</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250736|ref|WP_010948276.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|52842782|ref|YP_096581.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629893|gb|AAU28634.1| hypothetical, uroporphyrin-III C-methyltransferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509287|gb|AEW52811.1| putative, uroporphyrin-III C-methyltransferase [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490713|gb|AGH52558.1| putative uroporphyrin-III c-methyltransferase [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083249|gb|AGN15497.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772899|emb|CZI19521.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998775652|emb|CZG58075.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998778238|emb|CZG73224.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998784477|emb|CZG82565.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998787429|emb|CZG56751.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998796441|emb|CZH96563.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998800389|emb|CZL06661.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998805729|emb|CZK05195.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998808437|emb|CZH90469.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998811834|emb|CZH76087.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998814367|emb|CZG64782.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998817648|emb|CZL55466.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998820751|emb|CZL58558.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998826713|emb|CZK06269.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998832649|emb|CZI10668.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998835686|emb|CZK84536.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998837924|emb|CZJ76016.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998842225|emb|CZL09728.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998844643|emb|CZK25476.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998847594|emb|CZK64805.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998850319|emb|CZI42343.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998853698|emb|CZL22896.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998856394|emb|CZL30537.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998859717|emb|CZL69995.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998862747|emb|CZK21066.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998865472|emb|CZJ43926.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998869787|emb|CZJ33817.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998870982|emb|CZM13979.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998874470|emb|CZK34805.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998877543|emb|CZM02013.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998880610|emb|CZI89538.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998887960|emb|CZL46798.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998889305|emb|CZK25307.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998895588|emb|CZK01980.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998906045|emb|CZK53343.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998909616|emb|CZL06071.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998915914|emb|CZK65228.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998918383|emb|CZK85939.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998921354|emb|CZL40952.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998927659|emb|CZL66222.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998930746|emb|CZK77692.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998933849|emb|CZL73200.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998939961|emb|CZK78766.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998946038|emb|CZK98560.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998949082|emb|CZK84710.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998958532|emb|CZL97582.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998961438|emb|CZK22416.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998964695|emb|CZK08657.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998966883|emb|CZM49295.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998970425|emb|CZK50586.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998973884|emb|CZK29036.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998979589|emb|CZL62088.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998985938|emb|CZK02944.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998988632|emb|CZL45940.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998998106|emb|CZJ91374.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999008078|emb|CZK30670.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999013011|emb|CZL46335.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999016933|emb|CZL71912.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999022731|emb|CZL18601.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999025298|emb|CZK72404.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999037055|emb|CZL51957.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999046779|emb|CZL74785.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999061586|emb|CZL11697.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999067449|emb|CZJ20656.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999076827|emb|CZG56752.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999080170|emb|CZJ89145.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999082871|emb|CZK80181.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999090419|emb|CZK38947.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999092413|emb|CZL37598.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999095199|emb|CZG83992.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999098786|emb|CZG63878.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999101215|emb|CZL70068.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999110342|emb|CZL13025.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999113879|emb|CZL53931.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999116340|emb|CZK45390.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999126252|emb|CZK76884.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999131518|emb|CZL92547.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999134737|emb|CZL14566.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999138161|emb|CZK31193.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999141724|emb|CZL41366.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999144631|emb|CZK72333.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999147577|emb|CZL46654.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999156932|emb|CZH76598.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999175717|emb|CZL02630.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999191356|emb|CZI20345.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999194479|emb|CZI47134.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999200344|emb|CZG63245.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999203790|emb|CZI47114.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999209941|emb|CZK73110.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999219377|emb|CZL34148.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999222471|emb|CZI38578.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999335202|emb|CZK70724.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1002075482|emb|CZQ93790.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1002078987|emb|CZQ93880.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1003020079|emb|CZR21185.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila] &gt;gi|1003022958|emb|CZR20125.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila] &gt;gi|1003026800|emb|CZR17654.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila] &gt;gi|1073865616|gb|AOU05567.1| hypothetical protein A9E97_12980 [Legionella pneumophila] &gt;gi|1073868585|gb|AOU08535.1| hypothetical protein A9E98_13035 [Legionella pneumophila] &gt;gi|1073871580|gb|AOU11529.1| hypothetical protein A9F03_13150 [Legionella pneumophila] &gt;gi|1073874450|gb|AOU14398.1| hypothetical protein A9E99_12965 [Legionella pneumophila] &gt;gi|1073877505|gb|AOU17452.1| hypothetical protein A9F00_13150 [Legionella pneumophila] &gt;gi|1073880468|gb|AOU20414.1| hypothetical protein A9F01_12970 [Legionella pneumophila] &gt;gi|1073883465|gb|AOU23410.1| hypothetical protein A9F02_13150 [Legionella pneumophila] &gt;gi|1073886458|gb|AOU26402.1| hypothetical protein A9E77_13185 [Legionella pneumophila] &gt;gi|1073889426|gb|AOU29369.1| hypothetical protein A9E78_12985 [Legionella pneumophila] &gt;gi|1073892410|gb|AOU32352.1| hypothetical protein A9E79_13175 [Legionella pneumophila] &gt;gi|1073895378|gb|AOU35319.1| hypothetical protein A9E80_12995 [Legionella pneumophila] &gt;gi|1073898336|gb|AOU38276.1| hypothetical protein A9E81_12995 [Legionella pneumophila] &gt;gi|1073901302|gb|AOU41241.1| hypothetical protein A9E82_12995 [Legionella pneumophila] &gt;gi|1073904211|gb|AOU44149.1| hypothetical protein A9E83_12725 [Legionella pneumophila] &gt;gi|1073907164|gb|AOU47101.1| hypothetical protein A9E84_12995 [Legionella pneumophila] &gt;gi|1073910182|gb|AOU50117.1| hypothetical protein A9E85_12970 [Legionella pneumophila] &gt;gi|1073913194|gb|AOU53126.1| hypothetical protein A9E86_12750 [Legionella pneumophila] &gt;gi|1073916154|gb|AOU56085.1| hypothetical protein A9E87_12995 [Legionella pneumophila] &gt;gi|1073919117|gb|AOU59047.1| hypothetical protein A9E88_12975 [Legionella pneumophila] &gt;gi|1073922020|gb|AOU61949.1| hypothetical protein A9E89_12715 [Legionella pneumophila] &gt;gi|1073925103|gb|AOU65030.1| hypothetical protein A9E90_13240 [Legionella pneumophila] &gt;gi|1073928066|gb|AOU67992.1| hypothetical protein A9E91_12975 [Legionella pneumophila] &gt;gi|1073931052|gb|AOU70961.1| hypothetical protein A9E92_13015 [Legionella pneumophila] &gt;gi|1073934421|gb|AOU73980.1| hypothetical protein A9E93_12980 [Legionella pneumophila] &gt;gi|1073937386|gb|AOU84385.1| hypothetical protein A9E94_13025 [Legionella pneumophila] &gt;gi|1073947652|gb|AOU87376.1| hypothetical protein A9E95_13165 [Legionella pneumophila] &gt;gi|1073950580|gb|AOU90303.1| hypothetical protein A9E96_12750 [Legionella pneumophila] &gt;gi|1104003977|emb|SFZ46625.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1129969238|gb|APT99597.1| hypothetical protein AVR58_12950 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948276</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>7.77763e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|757481065|ref|WP_042755173.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|999185022|emb|CZP72524.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999195605|emb|CZQ05840.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999207226|emb|CZP27475.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999226732|emb|CZP86900.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999232907|emb|CZQ08496.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999240819|emb|CZH73987.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999243952|emb|CZH84712.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999254642|emb|CZQ06440.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999257819|emb|CZP81888.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999266077|emb|CZO75947.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999270137|emb|CZQ06136.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999276428|emb|CZP89591.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999279534|emb|CZP93777.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999282728|emb|CZP87785.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999289006|emb|CZP88547.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999297152|emb|CZP27876.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999300592|emb|CZP05564.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999304792|emb|CZI92513.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999307932|emb|CZP89779.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999314272|emb|CZI66464.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999317425|emb|CZP95360.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999320564|emb|CZI57200.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999336419|emb|CZP87986.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999342804|emb|CZQ05027.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999346023|emb|CZP93542.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999354436|emb|CZP30633.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999355565|emb|CZP99661.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999361980|emb|CZP97176.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999365189|emb|CZQ08103.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999368396|emb|CZQ01788.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999390941|emb|CZQ09130.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999397372|emb|CZQ09195.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999400594|emb|CZQ07845.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999451372|emb|CZP18826.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999519998|emb|CZP94882.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1003026980|emb|CZR29897.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila] &gt;gi|1015433992|gb|AMV15619.1| hypothetical protein ULM_29600 [Legionella pneumophila] &gt;gi|1041016545|gb|ANN93606.1| hypothetical protein A9P85_13635 [Legionella pneumophila] &gt;gi|1103997736|emb|SFZ46573.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042755173</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>1.78519e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPALRKWFHQDSEHWHEFAKQYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSPALRKWFHQDSEHWHEFAK+YAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|754877494|ref|WP_042237427.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042237427</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>3.52558e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKESFPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKRYAQELKKKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKK+SF LDMWLKDIAPSPALRKWFHQDS+HWHEFAKRYAQELK+KPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|652973743|ref|WP_027226463.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|998792770|emb|CZI66944.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998925116|emb|CZJ38770.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998944129|emb|CZJ60570.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998955315|emb|CZJ96647.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998976887|emb|CZJ28630.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998992496|emb|CZJ34923.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999010193|emb|CZJ72932.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999019762|emb|CZJ22249.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999029160|emb|CZJ44122.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999030912|emb|CZH09870.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999034466|emb|CZJ67492.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999041219|emb|CZJ39490.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999043986|emb|CZJ36971.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999049898|emb|CZJ56156.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999052643|emb|CZJ40636.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999056352|emb|CZJ26452.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999065446|emb|CZJ41828.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999070829|emb|CZJ41688.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999074543|emb|CZJ54193.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999086109|emb|CZJ59238.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999250343|emb|CZG51529.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999253580|emb|CZG66280.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999263621|emb|CZG37439.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999273566|emb|CZH44475.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999325948|emb|CZG58825.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999329631|emb|CZF98286.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999332431|emb|CZG39055.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999351835|emb|CZG43283.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999426431|emb|CZG22796.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999438401|emb|CZG46993.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999448644|emb|CZG06416.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999470964|emb|CZG33447.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999779684|emb|CZG23577.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1104000874|emb|SFZ46618.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226463</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>5.00922e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKQYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSPALRKWFHQDS+HWHEFAK+YAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504657600|ref|WP_014844702.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|395131658|emb|CCD09951.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|761987416|dbj|GAN24591.1| hypothetical protein lptwr_02496 [Legionella pneumophila] &gt;gi|998892840|emb|CZJ05468.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1002082080|emb|CZQ95326.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844702</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>5.77748e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKESIPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKK+S  LDMWLKDIAPSPALRKWFHQDS+HWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|652971996|ref|WP_027224818.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|761990429|dbj|GAN18538.1| hypothetical protein lpbnt_02661 [Legionella pneumophila] &gt;gi|761993619|dbj|GAN21644.1| hypothetical protein lpofk_02662 [Legionella pneumophila] &gt;gi|998981163|emb|CZJ28764.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999107008|emb|CZI87313.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999231282|emb|CZI65184.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1032658655|gb|ANH13926.1| hypothetical protein A5478_13150 [Legionella pneumophila] &gt;gi|1032661617|gb|ANH16887.1| hypothetical protein A5480_13145 [Legionella pneumophila] &gt;gi|1032664595|gb|ANH19864.1| hypothetical protein A5479_13185 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027224818</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>6.81148e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPQITLSRVYSPPEHKEGLWILVDRLWPRGIKKESFPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKRYAQELKKKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT P+ITLSRVYSPPEHKEGLWILVDRLWPRGIKK+SF LDMWLKDIAPSPALRKWFHQDS+HWHEFAKRYAQELK+KPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|506459789|ref|WP_015961689.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|53752349|emb|CAH13781.1| hypothetical protein lpp2628 [Legionella pneumophila str. Paris] &gt;gi|536611623|gb|ERB40141.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila str. 121004] &gt;gi|541998712|gb|ERH44728.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila str. Leg01/53] &gt;gi|542000207|gb|ERH46198.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila str. Leg01/11] &gt;gi|542123102|gb|ERI49411.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila str. Leg01/20] &gt;gi|762000169|dbj|GAN27901.1| hypothetical protein lpymg_02804 [Legionella pneumophila] &gt;gi|999173456|emb|CZH71250.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999182484|emb|CZG25508.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999188649|emb|CZI74997.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999213581|emb|CZG40251.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999217129|emb|CZI75256.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999225973|emb|CZG35647.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999361142|emb|CZI04118.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999374100|emb|CZG06406.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999377297|emb|CZI90093.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999380596|emb|CZH50048.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999383460|emb|CZI20348.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999387411|emb|CZG08141.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999390218|emb|CZI07886.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999397117|emb|CZG18663.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999406370|emb|CZG40374.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999409458|emb|CZH73993.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999412528|emb|CZG25784.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999416598|emb|CZG11426.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999419227|emb|CZG41318.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999422661|emb|CZH46705.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999429167|emb|CZG33209.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999432755|emb|CZG10236.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999435687|emb|CZH63975.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999442195|emb|CZJ82287.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila] &gt;gi|999445381|emb|CZH58007.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999458307|emb|CZJ86928.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999497072|emb|CZI13117.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999526277|emb|CZI59087.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999529159|emb|CZI14297.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999577121|emb|CZI03916.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999612422|emb|CZI09735.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1041019547|gb|ANN96607.1| hypothetical protein A9P84_13235 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961689</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>8.20875e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKQYAQELKEKPELIEHILALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSPALRKWFHQDS+HWHEFAK+YAQELKEKPELIEH+LALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1006526246|ref|WP_061784452.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|1005834244|gb|AMQ28970.1| uroporphyrin-III methyltransferase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061784452</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>9.36438e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKESIPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKRYAQELKEKPELIEHILALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKK+S  LDMWLKDIAPSPALRKWFHQDS+HWHEFAKRYAQELKEKPELIEH+LALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|749505510|ref|WP_040146352.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|998802568|emb|CZH86957.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999166001|emb|CZG67462.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_040146352</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>9.67786e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKQYAQELKEKPELIEHILALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSPALRKWFHQDS+HWHEFAK+YAQELKEKPELIEH+LALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|500496042|ref|WP_011947500.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|148280467|gb|ABQ54555.1| hypothetical, uroporphyrin-III C- methyltransferase [Legionella pneumophila str. Corby] &gt;gi|295650119|gb|ADG25966.1| hypothetical, uroporphyrin-III C-methyltransferase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|999286845|emb|CZI78259.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999293032|emb|CZI60223.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999302320|emb|CZI57335.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999311991|emb|CZI85069.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1002091700|emb|CZR05573.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947500</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>1.24571e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKESIPLDMWLKDIAPSPALRKWFHQDSEHWHEFAKQYAQELKEKPELIEHILALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKK+S  LDMWLKDIAPSPALRKWFHQDSEHWHEFAK+YAQELKEKPELIEH+LALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|504655532|ref|WP_014842634.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|395128572|emb|CCD06788.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|999247401|emb|CZH73783.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999269017|emb|CZO51621.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999453751|emb|CZI37487.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999460252|emb|CZH18053.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999464063|emb|CZM85503.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999467189|emb|CZO55801.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999473741|emb|CZN10845.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999476795|emb|CZN91326.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999480249|emb|CZN26467.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999483475|emb|CZO35807.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999486682|emb|CZM31050.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999489761|emb|CZO02470.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999493045|emb|CZM30112.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999499434|emb|CZN94298.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999502658|emb|CZO32035.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999505802|emb|CZN36668.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999509005|emb|CZG75716.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999512227|emb|CZN49181.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999515590|emb|CZM19996.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999518434|emb|CZM99493.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999529903|emb|CZP61539.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999534945|emb|CZN55614.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999536309|emb|CZN83886.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999541262|emb|CZO42343.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999544524|emb|CZO78724.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999547651|emb|CZO05555.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999549085|emb|CZP27019.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999553998|emb|CZN54494.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999557334|emb|CZO78119.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999560450|emb|CZM72034.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999563571|emb|CZO89103.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999567027|emb|CZM73723.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999570019|emb|CZN69290.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999573243|emb|CZO18928.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999579792|emb|CZO47389.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999582816|emb|CZO75183.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999586234|emb|CZM96686.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999589405|emb|CZM63988.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999592679|emb|CZN62793.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999595658|emb|CZO29751.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999598865|emb|CZO64122.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999602123|emb|CZM28612.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999605051|emb|CZN89075.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999608541|emb|CZN81094.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999615153|emb|CZM74779.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999618100|emb|CZO11845.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999621260|emb|CZP11086.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999624506|emb|CZO06106.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999627620|emb|CZM87175.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999631127|emb|CZM79394.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999634096|emb|CZN80143.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999635550|emb|CZO71684.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999640597|emb|CZP11791.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999643752|emb|CZO69350.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999645118|emb|CZO83116.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999648320|emb|CZO84414.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999651512|emb|CZO84727.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999654717|emb|CZN53666.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999658430|emb|CZN27637.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999662822|emb|CZN38763.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999666188|emb|CZM60388.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999669379|emb|CZL99959.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999672469|emb|CZM59302.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999675866|emb|CZO03113.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999678775|emb|CZN11542.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999682097|emb|CZN01231.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999685368|emb|CZO30153.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999688454|emb|CZN49762.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999691760|emb|CZO20204.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999694957|emb|CZN60437.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999696261|emb|CZN03188.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999701225|emb|CZN01368.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999704462|emb|CZM19227.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999705864|emb|CZO33715.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999711119|emb|CZN25015.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999714120|emb|CZN43327.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999717381|emb|CZO73139.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999720661|emb|CZN12070.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999723996|emb|CZN55406.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999725348|emb|CZM86254.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999730469|emb|CZO66055.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999733850|emb|CZM37999.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999736875|emb|CZO89823.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999740338|emb|CZM52533.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999743628|emb|CZN43939.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999746676|emb|CZM39437.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999750155|emb|CZM13015.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999753096|emb|CZN01842.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999756356|emb|CZN36828.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999759764|emb|CZM46632.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999763051|emb|CZN43579.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999766249|emb|CZM98994.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999769192|emb|CZN70726.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999772646|emb|CZI07224.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999775891|emb|CZM13597.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999780491|emb|CZI50216.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999785882|emb|CZM43754.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999789113|emb|CZO92475.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999792460|emb|CZO78672.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999795647|emb|CZI53023.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999799031|emb|CZO89563.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1003035868|emb|CZR19905.1| uroporphyrin-III C-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842634</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.42107e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPQITLSRVYSPPEHKEGLWILVDRLWPRGIKKESIPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT P+ITLSRVYSPPEHKEGLWILVDRLWPRGIKK+S  LDMWLKDIAPSPALRKWFHQDS+HWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1004014322|ref|WP_061483669.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483669</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>3.13201e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKESIPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKRYAQELKKKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKK+S  LDMWLKDIAPSPALRKWFHQDS+HWHEFAKRYAQELK+KPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|652967003|ref|WP_027219980.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|999004399|emb|CZI40775.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027219980</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>3.53392e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPALRKWFHQDSDHWHEFTKQYAQELKEKPELIEHILALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSPALRKWFHQDS+HWHEF K+YAQELKEKPELIEH+LALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|652969835|ref|WP_027222728.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|1005362998|gb|AMP88867.1| hypothetical protein AXF35_03825 [Legionella pneumophila subsp. pascullei] &gt;gi|1005367737|gb|AMP93514.1| hypothetical protein AXF36_13225 [Legionella pneumophila subsp. pascullei] &gt;gi|1005370656|gb|AMP96432.1| hypothetical protein AXF37_12860 [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222728</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>4.03141e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKESIPLDMWLKDIAPSPALRKWFHQDSDHWHEFTKRYAQELKEKPELIEHVLALASTSPITLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKK+S  LDMWLKDIAPSPALRKWFHQDS+HWHEF KRYAQELKEKPELIEHVLALASTSP+TLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|653015649|ref|WP_027267679.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267679</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>6.32254e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPQITLSRVYSPPEHKEGLWILVDRLWPRGIKKESFPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKRYAQELKKKPELIEHVLALASTSTVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT P+ITLSRVYSPPEHKEGLWILVDRLWPRGIKK+SF LDMWLKDIAPSPALRKWFHQDS+HWHEFAKRYAQELK+KPELIEHVLALASTS VTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|756829015|ref|WP_042646121.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|761996907|dbj|GAN30969.1| hypothetical protein lpymt_02584 [Legionella pneumophila] &gt;gi|998912381|emb|CZH00215.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998993895|emb|CZI43970.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999151513|emb|CZH52986.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999168255|emb|CZI49355.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042646121</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>1.1066e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPQITLSRVYSPPEHKEGLWILVDRLWPRGIKKESFPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKQYAQELKEKPELIEHILALASTSPVTLFYAAKDLQRNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT P+ITLSRVYSPPEHKEGLWILVDRLWPRGIKK+SF LDMWLKDIAPSPALRKWFHQDS+HWHEFAK+YAQELKEKPELIEH+LALASTSPVTLFYAAKDLQ NHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1004334851|ref|WP_061513776.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513776</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>1.44009e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPQITLSRVYSPPEHKEGLWILVDRLWPRGIKKDTIPLDMWLKDVAPSPALRKWFHQDSDHWHEFAKQYAQELKEKPELIEHVLAFASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT P+ITLSRVYSPPEHKEGLWILVDRLWPRGIKKD+  LDMWLKD+APSPALRKWFHQDS+HWHEFAK+YAQELKEKPELIEHVLA ASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1006037930|ref|WP_061721513.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|999339749|emb|CZH36021.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061721513</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>4.71175e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPQITLSRVYSPPEHKEGLWILVDRLWPRGIKKESIPLDMWLKDIAPSPALRKWFHQDSDHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQRNHALVLQEVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT P+ITLSRVYSPPEHKEGLWILVDRLWPRGIKK+S  LDMWLKDIAPSPALRKWFHQDS+HWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQ NHALVLQ+VLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|499535671|ref|WP_011216454.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|53755244|emb|CAH16738.1| hypothetical protein lpl2498 [Legionella pneumophila str. Lens] &gt;gi|1080000379|gb|AOW50951.1| hypothetical protein BE841_00025 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005166|gb|AOW55446.1| hypothetical protein BE842_08730 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080009012|gb|AOW59000.1| hypothetical protein BE843_12385 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011321|gb|AOW60812.1| hypothetical protein BE844_06385 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015586|gb|AOW64459.1| hypothetical protein BE845_10485 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017565|gb|AOW66210.1| hypothetical protein BE846_04150 [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216454</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>5.80425e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPSLRKWFHQDREHWPEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIE</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSP+LRKWFHQD EHW EFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1006936173|ref|WP_061828107.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|998789654|emb|CZH18123.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061828107</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>7.07202e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKESIPLDMWLKDIAPSPSLRKWFHQDREHWPEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKK+S  LDMWLKDIAPSP+LRKWFHQD EHW EFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1005836387|ref|WP_061710508.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|999158430|emb|CZJ99754.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999176981|emb|CZK03732.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061710508</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>1.94115e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKDGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPSLRKWFHQDREHWPEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIE</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHK+GLWILVDRLWPRGIKKDS  LDMWLKDIAPSP+LRKWFHQD EHW EFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|653014284|ref|WP_027266333.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|998824226|emb|CZG41886.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266333</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>2.07328e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPSLRKWFHQDREHWPEFAKRYAQELKENPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIE</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSP+LRKWFHQD EHW EFAKRYAQELKE PELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1011914628|ref|WP_062727842.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727842</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>2.41762e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPSLRKWFHQDREHWPEFAKRYAQELKEKPELIEHVLALANTSPITLFYAAKDLQHNHALVLQKVLKSWPKIPEIE</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSP+LRKWFHQD EHW EFAKRYAQELKEKPELIEHVLALA+TSP+TLFYAAKDLQHNHALVLQKVLKSWPKIPEI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|742357330|ref|WP_038839580.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|998781225|emb|CZJ45524.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998829518|emb|CZG82188.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998883382|emb|CZI78982.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998898777|emb|CZJ43578.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998935698|emb|CZM90031.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998952182|emb|CZJ31582.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|998999849|emb|CZH01733.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999057536|emb|CZM79584.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999103393|emb|CZI31818.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999127841|emb|CZH42019.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999153914|emb|CZM20115.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999163002|emb|CZM06996.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999237125|emb|CZG76236.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1002084916|emb|CZR03846.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1002088669|emb|CZQ78654.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1104007431|emb|SFZ46686.1| Uncharacterized conserved protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839580</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>8.44806e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPSLRKWFHQDREHWPEFAKRYARELKEKPELIEHVLALSSTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIE</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSP+LRKWFHQD EHW EFAKRYA+ELKEKPELIEHVLAL+STSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|654928894|ref|WP_028379314.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028379314</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>1.72412e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTAPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPSLRKWFHQDREHWPEFAKRYAQELKEKPELIEHILALANTSPITLFYAAKDLQQNHALVLQKVLKSWPKMPEIK</Hsp_hseq>
+      <Hsp_midline>MT PEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSP+LRKWFHQD EHW EFAKRYAQELKEKPELIEH+LALA+TSP+TLFYAAKDLQ NHALVLQKVLKSWPK+PEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|652976466|ref|WP_027229138.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|985764587|gb|KXB25706.1| uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|985767141|gb|KXB28236.1| uroporphyrin-III methyltransferase [Legionella pneumophila] &gt;gi|999119036|emb|CZG84145.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|999122161|emb|CZH17133.1| Uncharacterized conserved protein [Legionella pneumophila] &gt;gi|1024339643|gb|KZX33982.1| hypothetical protein PtVFX2014_06455 [Legionella pneumophila] &gt;gi|1108605927|gb|APF04295.1| hypothetical protein BIZ52_13430 [Legionella pneumophila subsp. fraseri] &gt;gi|1108608910|gb|APF07277.1| hypothetical protein BIZ51_13310 [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229138</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>5.47974e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MTTLQIALSRVYSPPEHKEGLWILVDRLWPRGIKKDSIPLDMWLKDIAPSPSLRKWFHQDREHWPEFAKRYAQELKEKPELIEHILALANTSPITLFYAAKDLQQNHALVLQKVLKSWPKMPEIK</Hsp_hseq>
+      <Hsp_midline>MT  +I LSRVYSPPEHKEGLWILVDRLWPRGIKKDS  LDMWLKDIAPSP+LRKWFHQD EHW EFAKRYAQELKEKPELIEH+LALA+TSP+TLFYAAKDLQ NHALVLQKVLKSWPK+PEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|737921637|ref|WP_035886939.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella norrlandica] &gt;gi|701446900|gb|KGP64248.1| uroporphyrin-III methyltransferase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886939</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>8.08945e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>MSHAQITIERVYSPPEHKEGKWILVDKLWPRGIKKDSIAFDMWLKEIAPSTSLRKWFHQDSNNWCKFAKRYIQELQEKSDLIEDILEMAKDSSITLFYAAKDIHHNHALVLQKVLLSWPRTPEIK</Hsp_hseq>
+      <Hsp_midline>M+  +IT+ RVYSPPEHKEG WILVD+LWPRGIKKDS   DMWLK+IAPS +LRKWFHQDS +W +FAKRY QEL+EK +LIE +L +A  S +TLFYAAKD+ HNHALVLQKVL SWP+ PEIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|769980203|ref|WP_045096188.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella fallonii] &gt;gi|698843776|emb|CEG57745.1| conserved protein of unknown function [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096188</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>1.16196e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MAHTDIRICRVYSPPVHKEGVWLLVDRLWPRGIKKESIDFDLWLKDITPSPELRKWFNHEPEKWADFACSYIKELQHKPELIKQVQEMAKNSPVTLFYAAKDTQHTHALVLQAMLRSWPDLPDI</Hsp_hseq>
+      <Hsp_midline>M   +I + RVYSPP HKEG+W+LVDRLWPRGIKK+S   D+WLKDI PSP LRKWF+ + E W +FA  Y +EL+ KPELI+ V  +A  SPVTLFYAAKD QH HALVLQ +L+SWP +P+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|517403929|ref|WP_018576749.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella shakespearei] &gt;gi|962273718|gb|KTD57684.1| uroporphyrin-III C- methyltransferase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576749</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>8.86638e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSE-HWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MAGLDISICRVYSPPAQKEGTWILVDKLWPRGLRKDALAFDLWLKEITPSTELRKWFHQDSAGNWLEFAQRYIKELQDKPELIEQVRQRAAHSPVTLFYAAKDPVHNHALVLQKVLLSWPESPDF</Hsp_hseq>
+      <Hsp_midline>M   +I++ RVYSPP  KEG WILVD+LWPRG++KD+   D+WLK+I PS  LRKWFHQDS  +W EFA+RY +EL++KPELIE V   A+ SPVTLFYAAKD  HNHALVLQKVL SWP+ P+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|501449403|ref|WP_012472852.1|</Hit_id>
+  <Hit_def>hypothetical protein [Candidatus Amoebophilus asiaticus] &gt;gi|189497538|gb|ACE06085.1| hypothetical protein Aasi_0695 [Candidatus Amoebophilus asiaticus 5a2]</Hit_def>
+  <Hit_accession>WP_012472852</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>2.2203e-49</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>EITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>KIAICRVYEIPTYKEGIWVLVDRLWPRGIKKDDLIIDLWLKEIAPSTSLRKWFNHDPAKWFDFAQRYMKELQGKQALIESILEKANHSPITLLYAAKDTQHNHALVLQAVLQSWPKFPKFN</Hsp_hseq>
+      <Hsp_midline>+I + RVY  P +KEG+W+LVDRLWPRGIKKD  ++D+WLK+IAPS +LRKWF+ D   W +FA+RY +EL+ K  LIE +L  A+ SP+TL YAAKD QHNHALVLQ VL+SWPK P+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|644965729|ref|WP_025386484.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella oakridgensis] &gt;gi|570285951|gb|AHE68138.1| hypothetical protein Loa_02601 [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570701386|gb|ETO92352.1| hypothetical protein LOR_77c22070 [Legionella oakridgensis RV-2-2007] &gt;gi|962253081|gb|KTD37267.1| uroporphyrin-III C- methyltransferase [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025386484</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.73825e-48</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>EITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>NIQLCRVYEPPSSKKGVWLLVDRLWPRGLKKEALAFDVWLKDIAPSPSLRTWFNHDPDKWVEFADKYINELKDKSELITHILEKAQNSDLVLFYAAKDKQHNHARVLKAVLESWPKRPEFK</Hsp_hseq>
+      <Hsp_midline> I L RVY PP  K+G+W+LVDRLWPRG+KK++   D+WLKDIAPSP+LR WF+ D + W EFA +Y  ELK+K ELI H+L  A  S + LFYAAKD QHNHA VL+ VL+SWPK PE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966444091|ref|WP_058484353.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella spiritensis] &gt;gi|962277965|gb|KTD61834.1| uroporphyrin-III C- methyltransferase [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058484353</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>7.69014e-47</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIP</Hsp_qseq>
+      <Hsp_hseq>IRICRVYEPPGSRDGLWFLVDRLWPRGLKKDALPFDAWLKEIAPSPELRKWFHHDPDKWLDFASRYIDELQNKPELIEDVLKKADSSEIVLFYAAKDKQYNHAQILKAVLESWPKSP</Hsp_hseq>
+      <Hsp_midline>I + RVY PP  ++GLW LVDRLWPRG+KKD+   D WLK+IAPSP LRKWFH D + W +FA RY  EL+ KPELIE VL  A +S + LFYAAKD Q+NHA +L+ VL+SWPK P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966434140|ref|WP_058474571.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella quateirensis] &gt;gi|962262232|gb|KTD46323.1| uroporphyrin-III C- methyltransferase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474571</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.00347e-46</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSE-HWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPE</Hsp_qseq>
+      <Hsp_hseq>IVICRVYTPPKVKEGSWVLVDRLWPRGIKKETLAFDLWLKDITPSTTLRQWFHENSEKRWSEFVDCYIEELNHKSDLIELILEMAEHTPVTLFYAAKDPEHNHALILNAVLRSWPNLPD</Hsp_hseq>
+      <Hsp_midline>I + RVY+PP+ KEG W+LVDRLWPRGIKK++   D+WLKDI PS  LR+WFH++SE  W EF   Y +EL  K +LIE +L +A  +PVTLFYAAKD +HNHAL+L  VL+SWP +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966470033|ref|WP_058501008.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella israelensis] &gt;gi|962247175|gb|KTD31431.1| uroporphyrin-III C- methyltransferase [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058501008</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>2.14183e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MHHPDVSIRRVYELPEHKKGKWILIDRLWPRGIKKEELDIDEWMKDIAPSSSLRKWFNHDPDKWTEFRQRYIQELKDKKELIKDILEKAEKSKITLLYAAKDPEHNHALVLQAFLQSWPNEPDF</Hsp_hseq>
+      <Hsp_midline>M  P++++ RVY  PEHK+G WIL+DRLWPRGIKK+   +D W+KDIAPS +LRKWF+ D + W EF +RY QELK+K ELI+ +L  A  S +TL YAAKD +HNHALVLQ  L+SWP  P+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966501250|ref|WP_058517923.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella parisiensis] &gt;gi|962256673|gb|KTD40810.1| uroporphyrin-III C- methyltransferase [Legionella parisiensis] &gt;gi|1069293158|gb|OEH48495.1| hypothetical protein lpari_00498 [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517923</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>8.86603e-46</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDS-EHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>IYICRVYTPPKVKEGVWILVDRLWPRGIKKEALAFDFWLKDITPSATLRQLFHGNSGERWSEFVDCYIEELNNKGDLINHILEQAECTSITLFYAAKDLKHNHALILQSVLYSWPQKPDKK</Hsp_hseq>
+      <Hsp_midline>I + RVY+PP+ KEG+WILVDRLWPRGIKK++   D WLKDI PS  LR+ FH +S E W EF   Y +EL  K +LI H+L  A  + +TLFYAAKDL+HNHAL+LQ VL SWP+ P+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966395539|ref|WP_058440769.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058440769</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.0932e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MVDANISICRVYTPPPHKEGVWILIDRLWPRGIKKSSIAFDLWLKEIAPSPSLRKWFDHKPEKWINFARLYIDELQNHQELIESIKETARHEPVTLFYAAKDTLHNHALVLQATLISWPDPPAI</Hsp_hseq>
+      <Hsp_midline>M    I++ RVY+PP HKEG+WIL+DRLWPRGIKK S   D+WLK+IAPSP+LRKWF    E W  FA+ Y  EL+   ELIE +   A   PVTLFYAAKD  HNHALVLQ  L SWP  P I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|962201765|gb|KTC86746.1|</Hit_id>
+  <Hit_def>uroporphyrin-III C- methyltransferase [Legionella brunensis]</Hit_def>
+  <Hit_accession>KTC86746</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.97834e-45</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>EITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>NISICRVYTPPPHKEGVWILIDRLWPRGIKKSSIAFDLWLKEIAPSPSLRKWFDHKPEKWINFARLYIDELQNHQELIESIKETARHEPVTLFYAAKDTLHNHALVLQATLISWPDPPAI</Hsp_hseq>
+      <Hsp_midline> I++ RVY+PP HKEG+WIL+DRLWPRGIKK S   D+WLK+IAPSP+LRKWF    E W  FA+ Y  EL+   ELIE +   A   PVTLFYAAKD  HNHALVLQ  L SWP  P I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|654923691|ref|WP_028374206.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella lansingensis] &gt;gi|962236132|gb|KTD20599.1| uroporphyrin-III C- methyltransferase [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028374206</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>2.56369e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MSKKNIKLCRVYETPPPKEGLWLLVDRLWPRGLKKDALPFDAWVKDMTPSPSLRKWFNHEPDKWLAFANRYLDELKDKPELITDILKKAKNSEIVLFYAAKDKQYNHAQVLKAVLESWPKWPEF</Hsp_hseq>
+      <Hsp_midline>M+   I L RVY  P  KEGLW+LVDRLWPRG+KKD+   D W+KD+ PSP+LRKWF+ + + W  FA RY  ELK+KPELI  +L  A  S + LFYAAKD Q+NHA VL+ VL+SWPK PE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|763131892|ref|WP_044011582.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella massiliensis] &gt;gi|683287712|emb|CEE14174.1| hypothetical protein BN1094_02746 [Legionella massiliensis] &gt;gi|685070305|emb|CDZ78436.1| hypothetical protein BN59_02746 [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_044011582</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>3.78271e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVL</Hsp_qseq>
+      <Hsp_hseq>MNKPDIRIARVYNPPAHKEGLWLLIDRLWPRGIKKESIPFDSWLKEIAPSTELRKWFHHEPDKWPEFKERYVDELADKQELVNEIKKMAMKSPVTLFYSAKDTEHNQALVLQEIL</Hsp_hseq>
+      <Hsp_midline>M  P+I ++RVY+PP HKEGLW+L+DRLWPRGIKK+S   D WLK+IAPS  LRKWFH + + W EF +RY  EL +K EL+  +  +A  SPVTLFY+AKD +HN ALVLQ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966511917|ref|WP_058528471.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella londiniensis] &gt;gi|962238155|gb|KTD22579.1| uroporphyrin-III C- methyltransferase [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058528471</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.39673e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MTVPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MKLKDISICRVYELPEEKEGIWILVDKLWPRGIKKEELPYDEWLQEIAPSAALRKWFDHDPEKWEEFRRKYAEELHEKEELVQKLLEKAKQNPVTLLFAAKDKRHNHALVLKEALLAWPEFPDF</Hsp_hseq>
+      <Hsp_midline>M + +I++ RVY  PE KEG+WILVD+LWPRGIKK+    D WL++IAPS ALRKWF  D E W EF ++YA+EL EK EL++ +L  A  +PVTL +AAKD +HNHALVL++ L +WP+ P+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|769984241|ref|WP_045100223.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Tatlockia micdadei] &gt;gi|698848098|emb|CEG62097.1| conserved protein of unknown function [Tatlockia micdadei] &gt;gi|962243053|gb|KTD27387.1| uroporphyrin-III C- methyltransferase [Tatlockia micdadei] &gt;gi|1081463389|emb|SCY75070.1| Uncharacterized conserved protein YeaO, DUF488 family [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045100223</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>2.17247e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>EITLSRVY-SPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>KINIYRVYEAPSSSKNGLWILVDRLWPRGLKKEAIPFDLWLKDIAPSAALRTWFNHQPEKWIEFANRYIDELKNKPELITSILEKAKNSEITLFYAAKDEQHNNAKVLKAVLESWPKWPAFK</Hsp_hseq>
+      <Hsp_midline>+I + RVY +P   K GLWILVDRLWPRG+KK++   D+WLKDIAPS ALR WF+   E W EFA RY  ELK KPELI  +L  A  S +TLFYAAKD QHN+A VL+ VL+SWPK P  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|654939152|ref|WP_028389353.1|</Hit_id>
+  <Hit_def>uroporphyrin-III methyltransferase [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028389353</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>2.84954e-44</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQD-SEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPE</Hsp_qseq>
+      <Hsp_hseq>IHICRVYTPPKAKEGTWILVDKLWPRGLKKETLDFDLWLKDITPSTRLRQWFHEHPKERWDEFAAQYIKELKSKGSLIEQIQTMAKQHPVTLFYAAKDTEHNHAIILKEVLCSWPNLPD</Hsp_hseq>
+      <Hsp_midline>I + RVY+PP+ KEG WILVD+LWPRG+KK++   D+WLKDI PS  LR+WFH+   E W EFA +Y +ELK K  LIE +  +A   PVTLFYAAKD +HNHA++L++VL SWP +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966474126|ref|WP_058504887.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella nautarum] &gt;gi|962250981|gb|KTD35176.1| uroporphyrin-III C- methyltransferase [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058504887</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>9.49831e-44</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQD-SEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEIK</Hsp_qseq>
+      <Hsp_hseq>IQICRVYTLPPKKKGVWILVDRLWPRGLKKVNFAVDLWLKDISPSTILRQWFHENPRERWQEFTDRYIEELKNKDSLIKQIEDRAQHTPVTLFYAAKDPVHNHAIILQEVLKSWPNSPNLE</Hsp_hseq>
+      <Hsp_midline>I + RVY+ P  K+G+WILVDRLWPRG+KK +F +D+WLKDI+PS  LR+WFH++  E W EF  RY +ELK K  LI+ +   A  +PVTLFYAAKD  HNHA++LQ+VLKSWP  P ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|517403576|ref|WP_018576414.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella shakespearei] &gt;gi|962273386|gb|KTD57361.1| uroporphyrin-III C- methyltransferase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576414</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.08342e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MTVPEITL--SRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MTTNEINIKICRVYEPPETKDGLWLLVDRLWPHGLKKNKLPIDAWLKEIAPSPELRKWFNHEPEKWLDFASQYIDELGSKQELVEEILTKAKNKEVVLFYAAKDKKHNHARVLKAFLDCWPKKPEL</Hsp_hseq>
+      <Hsp_midline>MT  EI +   RVY PPE K+GLW+LVDRLWP G+KK+   +D WLK+IAPSP LRKWF+ + E W +FA +Y  EL  K EL+E +L  A    V LFYAAKD +HNHA VL+  L  WPK PE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966512145|ref|WP_058528699.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella londiniensis] &gt;gi|962237815|gb|KTD22253.1| uroporphyrin-III C- methyltransferase [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058528699</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>9.24812e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MTVPE--ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MTANEKNIKICRVYEHPETKDGLWFLVDRLWPRGLKKDKLPIDAWLKEIAPSPELRKWFNHEPEKWLDFASRYIDELSHKQELVEEILTKAKNKEMILFYAAKDKKHNHAKVLKAFLDCWPKKPKL</Hsp_hseq>
+      <Hsp_midline>MT  E  I + RVY  PE K+GLW LVDRLWPRG+KKD   +D WLK+IAPSP LRKWF+ + E W +FA RY  EL  K EL+E +L  A    + LFYAAKD +HNHA VL+  L  WPK P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1004049438|ref|WP_061504287.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|1113537849|gb|OJX98154.1| hypothetical protein BGO90_15535 [Legionella sp. 40-6]</Hit_def>
+  <Hit_accession>WP_061504287</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.09695e-41</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSE-HWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPE</Hsp_qseq>
+      <Hsp_hseq>IQICRVYAPPPIKEGAWILIDRLWPRGLKKETLAFDLWLKDITPSVALRQWFHGDIEKRWGEFIDCYIEELINKSTLIEQILEMTKDASVTLFYAAKDPKHNHARILQAVLHSWPIAPD</Hsp_hseq>
+      <Hsp_midline>I + RVY+PP  KEG WIL+DRLWPRG+KK++   D+WLKDI PS ALR+WFH D E  W EF   Y +EL  K  LIE +L +   + VTLFYAAKD +HNHA +LQ VL SWP  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966471399|ref|WP_058502314.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella israelensis] &gt;gi|962234922|gb|KTD19431.1| uroporphyrin-III C- methyltransferase [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058502314</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>1.7634e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>MTVPE--ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPEI</Hsp_qseq>
+      <Hsp_hseq>MTANEKNIKICRVYDPPETKDGLWFLVDRLWPRGLKKDKLPIDAWLKEIAPSPEPRKWFNHKPEKWLDFASQYIDELSSKQELVEEILTKAKNKEIILFYAAKDKKHNHAKVLKAFLDCWPKKPKL</Hsp_hseq>
+      <Hsp_midline>MT  E  I + RVY PPE K+GLW LVDRLWPRG+KKD   +D WLK+IAPSP  RKWF+   E W +FA +Y  EL  K EL+E +L  A    + LFYAAKD +HNHA VL+  L  WPK P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1113348930|gb|OJW12711.1|</Hit_id>
+  <Hit_def>hypothetical protein BGO44_18450 [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW12711</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>2.71992e-41</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSE-HWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKSWPKIPE</Hsp_qseq>
+      <Hsp_hseq>IQICRVYAPPPIKEGAWLLIDRLWPRGLKKETLAFDLWLKDITPSVALRQWFHGDIEKRWGEFIDCYIEELINKSTLIEQILEMTKDASVTLFYAAKDPKHNHARILQAVLHSWPIAPD</Hsp_hseq>
+      <Hsp_midline>I + RVY+PP  KEG W+L+DRLWPRG+KK++   D+WLKDI PS ALR+WFH D E  W EF   Y +EL  K  LIE +L +   + VTLFYAAKD +HNHA +LQ VL SWP  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1063995931|gb|ODT06353.1|</Hit_id>
+  <Hit_def>hypothetical protein ABS58_11790 [Mesorhizobium sp. SCN 65-20]</Hit_def>
+  <Hit_accession>ODT06353</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.44139e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>VPEITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVLKS</Hsp_qseq>
+      <Hsp_hseq>MPEISIKRVYEAPSAEDGFRVLVDRVWPRGITRDTAAVDLWMKDIAPSTELRKWFGHDPERWAEFRRRYCGELEQRPELVEQLRGQARKGRLTLVYSARDETHNQAVVLKQALEA</Hsp_hseq>
+      <Hsp_midline>+PEI++ RVY  P  ++G  +LVDR+WPRGI +D+  +D+W+KDIAPS  LRKWF  D E W EF +RY  EL+++PEL+E +   A    +TL Y+A+D  HN A+VL++ L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1094102839|ref|WP_071092986.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhizobium sp. RSm-3] &gt;gi|1092306687|gb|OHV18798.1| hypothetical protein BBJ66_18680 [Rhizobium sp. RSm-3]</Hit_def>
+  <Hit_accession>WP_071092986</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>2.14982e-36</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>ITLSRVYSPPEHKEGLWILVDRLWPRGIKKDSFLLDMWLKDIAPSPALRKWFHQDSEHWHEFAKRYAQELKEKPELIEHVLALASTSPVTLFYAAKDLQHNHALVLQKVL</Hsp_qseq>
+      <Hsp_hseq>VHIKRIYEPKHDKDGIRILVDRLWPRGLSKQDAAVDLWLKEVAPSPALRRWFGQDPAKWTEFQRRYREELKENTSVVEEIERHIGKSNATLLYAAKDLEHNHAIVLQRFL</Hsp_hseq>
+      <Hsp_midline>+ + R+Y P   K+G+ ILVDRLWPRG+ K    +D+WLK++APSPALR+WF QD   W EF +RY +ELKE   ++E +      S  TL YAAKDL+HNHA+VLQ+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

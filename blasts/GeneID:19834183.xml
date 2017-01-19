@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_63657</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834183</BlastOutput_query-def>
+  <BlastOutput_query-len>461</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_63657</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834183</Iteration_query-def>
+  <Iteration_query-len>461</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250778|ref|WP_010948318.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|52842824|ref|YP_096623.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629935|gb|AAU28676.1| UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate-D-alanyl-D-alanyl ligase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509329|gb|AEW52853.1| UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate-D-alanyl-D-alanyl ligase [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|509083290|gb|AGN15538.1| UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate-D-alanyl-D-alanyl ligase [Legionella pneumophila subsp. pneumophila str. Thunder Bay]</Hit_def>
+  <Hit_accession>WP_010948318</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>947.962</Hsp_bit-score>
+      <Hsp_score>2449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>461</Hsp_identity>
+      <Hsp_positive>461</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119393025|ref|WP_072368855.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072368855</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>942.954</Hsp_bit-score>
+      <Hsp_score>2436</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>459</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVSRSIDGVHIPQFVVVSPLMALAKIAVAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVV+RSIDGVHIPQFVV SPLMALAKIA AHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119380394|ref|WP_072356491.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356491</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>941.028</Hsp_bit-score>
+      <Hsp_score>2431</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>459</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVSRSIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSRHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVV+RSIDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSS HPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1119427043|ref|WP_072402343.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402343</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>939.102</Hsp_bit-score>
+      <Hsp_score>2426</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>456</Hsp_identity>
+      <Hsp_positive>457</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRLIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNGRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFSGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNR IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPN RVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHF GVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|505256893|ref|WP_015443995.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|469490662|gb|AGH52507.1| UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|998772856|emb|CZI18197.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998775695|emb|CZG59495.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998778281|emb|CZG74689.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998784520|emb|CZG84567.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998787472|emb|CZG58115.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998796484|emb|CZH98808.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998800345|emb|CZL05462.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998805772|emb|CZK06597.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998808394|emb|CZH89005.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998811877|emb|CZH77745.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998814324|emb|CZG63232.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998817692|emb|CZL57797.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998820794|emb|CZL59932.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998826756|emb|CZK07567.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998832606|emb|CZI08502.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998835729|emb|CZK86480.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998837881|emb|CZJ74064.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998842268|emb|CZL11800.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998844686|emb|CZK27449.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998847637|emb|CZK65938.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998850276|emb|CZI39841.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998853741|emb|CZL24722.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998856437|emb|CZL31985.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998859760|emb|CZL72064.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998862704|emb|CZK19783.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998865429|emb|CZJ42448.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998869830|emb|CZJ35160.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998871025|emb|CZM15440.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998874513|emb|CZK36786.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998877500|emb|CZM00742.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998880567|emb|CZI88274.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998888003|emb|CZL48602.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998889262|emb|CZK24035.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998895545|emb|CZK00384.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998906088|emb|CZK55195.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998909659|emb|CZL07912.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998915871|emb|CZK63432.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998918340|emb|CZK84138.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998921311|emb|CZL39654.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998927616|emb|CZL64860.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998930703|emb|CZK76486.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998933892|emb|CZL74763.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998939918|emb|CZK77540.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998945995|emb|CZK96527.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998949039|emb|CZK83415.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998958575|emb|CZL99577.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998961481|emb|CZK24202.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998964652|emb|CZK06798.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998966926|emb|CZM51302.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998970468|emb|CZK52786.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998973841|emb|CZK27740.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998979546|emb|CZL60689.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998985895|emb|CZK01077.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998988675|emb|CZL47261.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998998063|emb|CZJ89888.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999008035|emb|CZK28820.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999012968|emb|CZL45083.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999016890|emb|CZL70062.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999022688|emb|CZL16256.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999025341|emb|CZK73600.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999037098|emb|CZL53415.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999046822|emb|CZL76320.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999061629|emb|CZL13748.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999067406|emb|CZJ19206.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999076870|emb|CZG58181.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999080213|emb|CZJ90803.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999082828|emb|CZK78839.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999090462|emb|CZK40539.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999092456|emb|CZL39500.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999095242|emb|CZG86284.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999098743|emb|CZG61660.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999101172|emb|CZL68832.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999110385|emb|CZL14464.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999113836|emb|CZL52424.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999116383|emb|CZK47441.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999126295|emb|CZK78280.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999131561|emb|CZL94048.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999134780|emb|CZL16037.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999138118|emb|CZK29254.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999141767|emb|CZL43301.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999144588|emb|CZK70656.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999147620|emb|CZL48452.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999156889|emb|CZH75392.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999175760|emb|CZL04016.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999191313|emb|CZI18827.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999194436|emb|CZI45267.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999200301|emb|CZG61678.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999203747|emb|CZI45206.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999209984|emb|CZK74607.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999219334|emb|CZL32143.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999222428|emb|CZI36694.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999335245|emb|CZK71883.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1002075525|emb|CZQ94092.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1002079030|emb|CZQ94368.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1003020122|emb|CZR21430.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1003023001|emb|CZR20303.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1003026843|emb|CZR17943.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073865659|gb|AOU05610.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073868628|gb|AOU08578.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073871623|gb|AOU11572.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073874492|gb|AOU14440.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073877548|gb|AOU17495.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073880511|gb|AOU20457.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073883508|gb|AOU23453.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073886501|gb|AOU26445.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073889469|gb|AOU29412.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073892453|gb|AOU32395.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073895421|gb|AOU35362.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073898379|gb|AOU38319.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073901345|gb|AOU41284.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073904254|gb|AOU44192.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073907207|gb|AOU47144.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073910225|gb|AOU50160.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073913237|gb|AOU53169.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073916197|gb|AOU56128.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073919160|gb|AOU59090.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073922063|gb|AOU61992.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073925146|gb|AOU65073.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073928109|gb|AOU68035.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073931095|gb|AOU71004.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073934464|gb|AOU74023.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073937429|gb|AOU84428.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073947695|gb|AOU87419.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1073950623|gb|AOU90346.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1104004020|emb|SFZ46816.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1129969281|gb|APT99640.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015443995</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>916.376</Hsp_bit-score>
+      <Hsp_score>2367</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>445</Hsp_identity>
+      <Hsp_positive>445</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1011908786|ref|WP_062723607.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062723607</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>914.835</Hsp_bit-score>
+      <Hsp_score>2363</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>444</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPANLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKP NLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|504657630|ref|WP_014844732.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|395131702|emb|CCD09995.1| UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila] &gt;gi|761990473|dbj|GAN18582.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|761993663|dbj|GAN21688.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998982010|emb|CZI88114.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999106964|emb|CZI85459.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999231238|emb|CZI63275.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1032658697|gb|ANH13968.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1032661659|gb|ANH16929.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1032664637|gb|ANH19906.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844732</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>914.45</Hsp_bit-score>
+      <Hsp_score>2362</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>443</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|764926667|ref|WP_044497515.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999455508|emb|CZH43973.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999462237|emb|CZG06883.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999796484|emb|CZI09281.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_044497515</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>913.294</Hsp_bit-score>
+      <Hsp_score>2359</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>442</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVYRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVV+RLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|981204258|ref|WP_059428633.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|761996840|dbj|GAN31015.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_059428633</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>912.138</Hsp_bit-score>
+      <Hsp_score>2356</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHNFIKEAEAKGASAAVVNRSVDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGH+FIKEAEAKGASAAVVNRS+DGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|653016599|ref|WP_027268571.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|761987459|dbj|GAN24634.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998790003|emb|CZH01949.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998892883|emb|CZJ07325.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1002082123|emb|CZQ95846.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1005834287|gb|AMQ29013.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_027268571</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>912.138</Hsp_bit-score>
+      <Hsp_score>2356</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>442</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVSRSIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVV+RSIDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|502866918|ref|WP_013101894.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|53752392|emb|CAH13824.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila str. Paris] &gt;gi|295650165|gb|ADG26012.1| UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate--D-alanyl-D-alanine ligase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|536611659|gb|ERB40177.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila str. 121004] &gt;gi|541998740|gb|ERH44756.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila str. Leg01/53] &gt;gi|542000244|gb|ERH46235.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila str. Leg01/11] &gt;gi|542123138|gb|ERI49447.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila str. Leg01/20] &gt;gi|762000212|dbj|GAN27944.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998802611|emb|CZH88416.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998912338|emb|CZG97885.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998993938|emb|CZI45923.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999004443|emb|CZI42745.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999158590|emb|CZJ89977.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999166044|emb|CZG69254.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999173413|emb|CZH70193.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999177490|emb|CZJ87131.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999182527|emb|CZG26915.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999188692|emb|CZI76316.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999213624|emb|CZG42319.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999217086|emb|CZI73395.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999225930|emb|CZG33602.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999286802|emb|CZI76539.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999293075|emb|CZI61529.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999302277|emb|CZI56052.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999312034|emb|CZI86854.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999361099|emb|CZI02200.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999374057|emb|CZG04462.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999377340|emb|CZI91009.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999380639|emb|CZH51415.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999383417|emb|CZI17548.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999387454|emb|CZG09879.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999390261|emb|CZI09958.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999397074|emb|CZG17096.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999406413|emb|CZG42483.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999409415|emb|CZH72248.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999412571|emb|CZG27171.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999416641|emb|CZG13856.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999419270|emb|CZG42942.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999422618|emb|CZH45374.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999426475|emb|CZG24337.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999429124|emb|CZG31356.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999432712|emb|CZG07383.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999435730|emb|CZH65304.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999438357|emb|CZG45469.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999442238|emb|CZJ84093.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999445338|emb|CZH56673.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999448600|emb|CZG04461.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999458350|emb|CZJ89162.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999497029|emb|CZI11176.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999526320|emb|CZI60833.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999529202|emb|CZI16364.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999577078|emb|CZI02578.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999612379|emb|CZI07611.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1002091743|emb|CZR06017.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1003030307|emb|CZR34422.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1041019589|gb|ANN96649.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1080008969|gb|AOW58957.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011364|gb|AOW60855.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017608|gb|AOW66253.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_013101894</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>911.753</Hsp_bit-score>
+      <Hsp_score>2355</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>442</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRLIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNR IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|504655570|ref|WP_014842672.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|395128619|emb|CCD06837.1| UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila] &gt;gi|999248112|emb|CZH52490.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999269678|emb|CZO24087.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999465384|emb|CZM25219.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999468360|emb|CZO08417.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999474997|emb|CZM44597.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999478191|emb|CZN26072.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999481386|emb|CZM64163.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999484416|emb|CZN97566.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999487512|emb|CZL94756.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999490703|emb|CZN57729.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999493989|emb|CZL97049.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999500331|emb|CZN56943.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999503553|emb|CZN86170.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999506749|emb|CZM92105.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999510044|emb|CZG27203.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999513141|emb|CZN17148.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999516592|emb|CZL80807.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999519816|emb|CZM50542.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999532684|emb|CZO33025.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999536035|emb|CZN19361.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999539077|emb|CZM54502.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999542269|emb|CZO07529.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999545471|emb|CZO46135.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999548567|emb|CZN73250.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999551859|emb|CZN99724.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999555236|emb|CZM97324.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999558249|emb|CZO45875.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999561345|emb|CZM26857.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999564642|emb|CZO46616.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999567733|emb|CZM40215.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999570932|emb|CZN38750.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999574122|emb|CZN75816.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999580613|emb|CZO00289.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999584125|emb|CZO13676.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999587248|emb|CZM48513.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999590510|emb|CZM22261.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999593385|emb|CZN32092.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999596583|emb|CZN94668.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999599875|emb|CZO24899.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999603269|emb|CZL63506.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999606270|emb|CZN39556.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999609680|emb|CZN41298.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999615856|emb|CZM31133.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999618995|emb|CZN76437.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999622329|emb|CZO51741.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999625627|emb|CZN54052.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999628956|emb|CZM42102.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999631834|emb|CZM46100.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999635126|emb|CZN40821.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999638222|emb|CZN34889.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999641418|emb|CZO62689.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999644589|emb|CZO28326.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999648126|emb|CZN76426.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999650937|emb|CZN92816.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999654299|emb|CZN92387.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999657677|emb|CZM01304.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999660592|emb|CZM48256.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999664106|emb|CZM81897.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999667083|emb|CZM25108.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999670277|emb|CZL74335.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999673664|emb|CZM19282.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999676572|emb|CZN61633.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999679607|emb|CZM62259.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999682802|emb|CZM69625.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999686028|emb|CZN92358.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999689632|emb|CZN10257.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999692559|emb|CZN80930.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999696043|emb|CZN01624.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999699242|emb|CZL98357.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999702480|emb|CZM43492.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999705650|emb|CZL59749.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999708674|emb|CZN41767.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999711926|emb|CZM87385.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999715391|emb|CZM88570.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999718518|emb|CZO27968.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999721408|emb|CZM67247.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999724748|emb|CZN17291.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999728171|emb|CZL89423.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999731641|emb|CZO21508.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999734890|emb|CZM00017.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999738208|emb|CZO47801.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999741092|emb|CZM25740.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999744606|emb|CZN07325.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999747919|emb|CZM00613.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999750814|emb|CZL79605.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999754108|emb|CZM71727.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999757451|emb|CZM84237.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999760402|emb|CZM15099.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999763883|emb|CZN10344.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999767080|emb|CZM56710.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999769831|emb|CZN40252.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999773535|emb|CZH73916.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999776553|emb|CZL89552.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999783417|emb|CZH50291.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999786593|emb|CZM18366.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999789816|emb|CZO48823.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999793237|emb|CZO51613.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999800212|emb|CZO39409.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1003034766|emb|CZR27626.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842672</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>911.753</Hsp_bit-score>
+      <Hsp_score>2355</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>444</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRAIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVYRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNR+IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVV+RLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|757480570|ref|WP_042754698.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998924273|emb|CZJ94880.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998942518|emb|CZK05315.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998954569|emb|CZK40836.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998976204|emb|CZJ66418.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998991532|emb|CZK08680.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999009811|emb|CZK02199.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999018937|emb|CZJ61756.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999027965|emb|CZJ89550.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999034067|emb|CZJ98107.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999040274|emb|CZJ68157.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999043059|emb|CZJ76858.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999048986|emb|CZJ86938.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999052243|emb|CZJ68719.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999055139|emb|CZJ96150.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999064353|emb|CZJ79027.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999070092|emb|CZJ74404.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999073449|emb|CZK05574.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999085608|emb|CZJ96814.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999184484|emb|CZP92620.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999198292|emb|CZP06282.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999206453|emb|CZP59724.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999227868|emb|CZP41059.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999235033|emb|CZP51368.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999240529|emb|CZH75570.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999244198|emb|CZH70750.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999256136|emb|CZP73199.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999259183|emb|CZP38791.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999265473|emb|CZP04481.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999272059|emb|CZP51246.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999277766|emb|CZP28692.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999281528|emb|CZP23575.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999284176|emb|CZP50581.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999290821|emb|CZP26988.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999296779|emb|CZP50309.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999300018|emb|CZP28463.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999307139|emb|CZH65116.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999309525|emb|CZP18819.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999315989|emb|CZI03710.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999318926|emb|CZP56236.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999322178|emb|CZH91456.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999332906|emb|CZG04464.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999338017|emb|CZP44426.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999344181|emb|CZP92041.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999347469|emb|CZP60988.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999349560|emb|CZH47923.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999353712|emb|CZP51716.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999356821|emb|CZP74727.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999363187|emb|CZP70734.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999366950|emb|CZP70886.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999369632|emb|CZP87313.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999392464|emb|CZP95322.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999398712|emb|CZP98681.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999403288|emb|CZP48626.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999450781|emb|CZP29744.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999521333|emb|CZP44139.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1003028410|emb|CZR23592.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1015434041|gb|AMV15668.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1041016590|gb|ANN93651.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1103997782|emb|SFZ46784.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042754698</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>910.212</Hsp_bit-score>
+      <Hsp_score>2351</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVSRSIDGVHIPQFVVVSPLMALAKIAVAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVV+RSIDGVHIPQFVV SPLMALAKIA AHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|652974013|ref|WP_027226727.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998792813|emb|CZI68802.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999031525|emb|CZG67019.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999249406|emb|CZG77863.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999252873|emb|CZG90717.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999262171|emb|CZH07476.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999274326|emb|CZH07668.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999324951|emb|CZH15104.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999327573|emb|CZH27568.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999340715|emb|CZG98408.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999470008|emb|CZG83390.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999778463|emb|CZH00078.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1104000920|emb|SFZ46810.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226727</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>909.827</Hsp_bit-score>
+      <Hsp_score>2350</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>443</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVSRSIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSRHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVV+RSIDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSS HPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|499535710|ref|WP_011216493.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|53755287|emb|CAH16781.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila str. Lens] &gt;gi|1080003046|gb|AOW53618.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005209|gb|AOW55489.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015543|gb|AOW64416.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216493</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>909.057</Hsp_bit-score>
+      <Hsp_score>2348</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>442</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRLIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNGRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNR IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPN RVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1006677913|ref|WP_061821134.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999151557|emb|CZH54793.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999168299|emb|CZI51092.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061821134</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>908.286</Hsp_bit-score>
+      <Hsp_score>2346</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>442</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRLIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIASAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNR IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIA AHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|749508093|ref|WP_040148370.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998781182|emb|CZJ43878.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998829475|emb|CZG79941.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998883339|emb|CZI77179.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998898820|emb|CZJ45177.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998936470|emb|CZM48505.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998952225|emb|CZJ33298.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999000402|emb|CZG76368.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999057946|emb|CZM54710.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999104183|emb|CZI06374.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999128794|emb|CZH04076.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999153871|emb|CZM18178.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999162959|emb|CZM05599.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999237168|emb|CZG77823.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1002085488|emb|CZQ99573.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1002088712|emb|CZQ78697.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1104007474|emb|SFZ46892.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_040148370</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>907.516</Hsp_bit-score>
+      <Hsp_score>2344</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>441</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRLIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNGRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFSGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNR IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPN RVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHF GVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1005609406|ref|WP_061691900.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|998824270|emb|CZG44129.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061691900</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>906.36</Hsp_bit-score>
+      <Hsp_score>2341</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>441</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRLIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNGRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEEVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNR IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPN RVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIE VKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1011910309|ref|WP_062724994.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062724994</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>905.205</Hsp_bit-score>
+      <Hsp_score>2338</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>441</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAESKGASAAVVNRLIDGIHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNGRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEEVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAE+KGASAAVVNR IDG+HIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPN RVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIE VKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1011914653|ref|WP_062727867.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727867</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>873.233</Hsp_bit-score>
+      <Hsp_score>2255</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>420</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVE</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINTDITGVSIDTRTLKPGNLFFAIVGERFDGHDYIKEAEAKGALAVVVNRLIEGVHIPQFVVASPLMALAKIAAVHRQEMNCPIIALTGSNGKTTVKEMIAAILPQPSHATKGNLNNHIGVPLSVLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLLADKKILRFSSIHPADIYAQDIRLDTHGRAHFILILPNGRVEIELQVPGLHNVRNALAAASCCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSERPGRKIFVFGDMGELGEWTTQHHREVGLAARQLGIDQLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLKPGTTVLVKGSRSSAMENIVHQLVQAE</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQIN DITGVSIDTRTLKPGNLFFAIVGERFDGHD+IKEAEAKGA A VVNR I+GVHIPQFVVASPLMALAKIAA HRQEM+CPIIALTGSNGKTTVKEMIA ILPQPSHATKGNLNNHIGVPLS+LALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDL+ADKKILRFSS+HPADIYAQDIRLDTHGRAHF L+LPN RVEIELQVPGLHNVRNALAAA+CCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLS RPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGID+LMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDL P TTVLVKGSRSSAMEN+VH+LVQ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1110760351|ref|WP_071984297.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1108605969|gb|APF04337.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_071984297</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>853.973</Hsp_bit-score>
+      <Hsp_score>2205</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>423</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVE</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDYIKEAEAKGALAAVVNRSIEGVHIPQFVVASPLMALAKIAAVHRQEMNCPIIALTGSNGKTTVKEMIAAILPQPSHATKGNLNNHIGVPLSVLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLLADKKILRFSSIHPADIYAQDIRLDTHGRAHFILILPNGRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSERPGRKIFVFGDMGELGEWTTQHHREVGLAARQLGIDQLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLKPGTTVLVKGSRSSAMENIVYQLVQAE</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHD+IKEAEAKGA AAVVNRSI+GVHIPQFVVASPLMALAKIAA HRQEM+CPIIALTGSNGKTTVKEMIA ILPQPSHATKGNLNNHIGVPLS+LALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDL+ADKKILRFSS+HPADIYAQDIRLDTHGRAHF L+LPN RVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLS RPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGID+LMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDL P TTVLVKGSRSSAMEN+V++LVQ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652976427|ref|WP_027229099.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|985764629|gb|KXB25748.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|985767099|gb|KXB28194.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999119079|emb|CZG85839.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|999122204|emb|CZH18946.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1024339685|gb|KZX34024.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1108608952|gb|APF07319.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229099</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>852.818</Hsp_bit-score>
+      <Hsp_score>2202</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>422</Hsp_identity>
+      <Hsp_positive>434</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVE</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINTDITGVSIDTRTLKPGNLFFAIVGERFDGHDYIKEAEAKGALAAVVNRSIEGVHIPQFVVASPLMALAKIAAVHRQEMNCPIIALTGSNGKTTVKEMIAAILPQPSHATKGNLNNHIGVPLSVLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLLADKKILRFSSIHPADIYAQDIRLDTHGRAHFILILPNGRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSERPGRKIFVFGDMGELGEWTTQHHREVGLAARQLGIDQLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLKPGTTVLVKGSRSSAMENIVYQLVQAE</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQIN DITGVSIDTRTLKPGNLFFAIVGERFDGHD+IKEAEAKGA AAVVNRSI+GVHIPQFVVASPLMALAKIAA HRQEM+CPIIALTGSNGKTTVKEMIA ILPQPSHATKGNLNNHIGVPLS+LALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDL+ADKKILRFSS+HPADIYAQDIRLDTHGRAHF L+LPN RVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLS RPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGID+LMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDL P TTVLVKGSRSSAMEN+V++LVQ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|652969878|ref|WP_027222771.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila] &gt;gi|1005362956|gb|AMP88825.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367780|gb|AMP93557.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370699|gb|AMP96475.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222771</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>852.432</Hsp_bit-score>
+      <Hsp_score>2201</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>422</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINTDITGVSIDTRTLKPGNLFFAIVGERFDGHDYVKEAEAKGALAVVVNRSIEGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIAAILPQPSHATKGNLNNHIGVPLSVLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYSHFWDDLLADKKILRFSSIHPADIYAQDIRMDTHGRAHFILILPNGRVEIELQVPGLHNVRNALAAAACCYAVGIPGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSERPGRKIFVFGDMGELGEWTTQHHREVGLAARQLGIDKLMSCGSHSELASQAFGEGGQHFCSQEELIEVVKNDLKPGTTVLVKGSRSSAMENVVHQLVQAEG</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQIN DITGVSIDTRTLKPGNLFFAIVGERFDGHD++KEAEAKGA A VVNRSI+GVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIA ILPQPSHATKGNLNNHIGVPLS+LALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAY+HFWDDL+ADKKILRFSS+HPADIYAQDIR+DTHGRAHF L+LPN RVEIELQVPGLHNVRNALAAAACCYAVGI GNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLS RPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCG HSELASQAFGEGGQHFCSQEELIEVVKNDL P TTVLVKGSRSSAMENVVH+LVQ EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|148280420|gb|ABQ54508.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6- diaminopimelate-D-alanyl-D-alanyl ligase [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>ABQ54508</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>832.017</Hsp_bit-score>
+      <Hsp_score>2148</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>461</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>402</Hsp_identity>
+      <Hsp_positive>404</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>VGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_qseq>
+      <Hsp_hseq>MGERFDGHDFIKEAEAKGASAAVVNRLIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_hseq>
+      <Hsp_midline>+GERFDGHDFIKEAEAKGASAAVVNR IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|742357461|ref|WP_038839645.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839645</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>829.706</Hsp_bit-score>
+      <Hsp_score>2142</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>401</Hsp_identity>
+      <Hsp_positive>402</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQ</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRLIDGVHIPQFVVVSPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNGRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFSGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGIAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQ</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNR IDGVHIPQFVV SPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPN RVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHF GVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVG+AARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|737921571|ref|WP_035886874.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella norrlandica] &gt;gi|701446863|gb|KGP64211.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886874</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>778.474</Hsp_bit-score>
+      <Hsp_score>2009</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>415</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLITIASLLSQVCQVNADITGICIDTRTIRPGNLFFAIVGDRFDGHDFIKEAEAKGALAVVASREIEGVHIPQFIVASPLIALAKIAAVHRQEMICPIIALTGSNGKTTVKEMIASILPQPSHATKGNLNNHIGVPLSVLDLNREHRYAVFELGANHPGEIAHTVKIVQPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSPTGIAIVNDDDAYAHFWDHLIADKKVLRFSSLHTADVYAQDIRMDTHGRAHFSLILPNGRAEIELQVPGLHNVRNALAAAACCYAVGISIKDIQRGLAHFCGVKGRMTFLSGRNQSIVIDDTYNANLRSVLTALEVLAERPGKRIFVFGDMGELGDWTTQHHQEVGIAARQFGIDKLMSCGSHSQLAAQAFGEGGQHFFSQEELVQVIKDDLAPGTTVLVKGSRSSAMEKVVHQLI</Hsp_hseq>
+      <Hsp_midline>MNLITIASLLSQ CQ+NADITG+ IDTRT++PGNLFFAIVG+RFDGHDFIKEAEAKGA A V +R I+GVHIPQF+VASPL+ALAKIAA HRQEM CPIIALTGSNGKTTVKEMIA+ILPQPSHATKGNLNNHIGVPLS+L LN++HRYAVFELGANHPGEIAHTV IVQPDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLSPTG+AIVNDDDAYAHFWD LIADKK+LRFSSLH AD+YAQDIR+DTHGRAHF+L+LPN R EIELQVPGLHNVRNALAAAACCYAVGIS  DIQRGLAHF GVKGRMT LSG+NQS VIDDTYNANLRSVLTALEVL+ RPG++IFVFGDMGELG+WTTQHH+EVG+AARQ GIDKLMSCG HS+LA+QAFGEGGQHF SQEEL++V+K+DL P TTVLVKGSRSSAME VVH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|517405791|ref|WP_018578461.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella shakespearei] &gt;gi|962281272|gb|KTD65085.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578461</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>735.717</Hsp_bit-score>
+      <Hsp_score>1898</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>342</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTIASLLSQTCLVNAEISGVCTDSRQLKPGSLFIALEGENFDGHNFVKEAEAKGALAVVVSRLTDGVTIPQFLVPDPLMALAKIAAAHRQEIHCPVIALTGSNGKTTVKEMIASVLPQPSLATKGNLNNHIGAPLTALELNAQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSATGIAVVNDDDAYAHFWDDLIGNKKIVRFSALHPADVYAQDVRLDTHGRAHFSLVLPNAHIDIELQVPGLHNVRNALAAAACCHSVGISTQDIQKGLNSFGGVKGRMTVLAGKNQTTVIDDTYNANLRSVLTALEVLAERSGKKIFVFGDMGELGEWAEQHHQEVGLAARQFGIDRLLSCGTHSVLTSQAFGDGGDHFTNQDDLVQILNKELEPDTTILVKGSRSSAMEKIVHKLL</Hsp_hseq>
+      <Hsp_midline>MNL TIASLLSQ+C +NA+I+GV  D+R LKPG+LF A+ GE FDGH+F+KEAEAKGA A VV+R  DGV IPQF+V  PLMALAKIAAAHRQE+ CP+IALTGSNGKTTVKEMIA++LPQPS ATKGNLNNHIG PL+ L LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS TG+A+VNDDDAYAHFWDDLI +KKI+RFS+LHPAD+YAQD+RLDTHGRAHF+LVLPN+ ++IELQVPGLHNVRNALAAAACC++VGIS  DIQ+GL  FGGVKGRMT+L+G+NQ+TVIDDTYNANLRSVLTALEVL+ R G+KIFVFGDMGELGEW  QHH+EVG+AARQ GID+L+SCG HS L SQAFG+GG HF +Q++L++++  +L PDTT+LVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966439663|ref|WP_058479986.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella waltersii] &gt;gi|962295561|gb|KTD79206.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058479986</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>734.176</Hsp_bit-score>
+      <Hsp_score>1894</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>340</Hsp_identity>
+      <Hsp_positive>398</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVE</Hsp_qseq>
+      <Hsp_hseq>MNLLSIASLLSQSCTLSAEVTGVCTDSRIIKPGHLFVAIEGETFDGHDFIKEVEEKGAIAVVASRSVDGLKIPQFIVENTVIALAEIAKAYREEVHCPIIALTGSNGKTTVKEMIASILPAPSHSTKGNFNNHIGVPLSVFELKKEHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSASGTAVVNDDDAYAHYWDQMIGDKKVLRFSAQHQADVYAEDIRLDTHGRAHFILVLPNARAEIELQVPGLHNMRNALAAASCCYAVGVSIQDIQKGLAKFGGVKGRMTVLSGKNQSTIIDDTYNANLRSVLTALEVLSKRPGKKIFVFGDMGELGKWTAQHHQEVGLAAKELGIDQLMSCGIHSQLASEAFGNGAQHFSSKEELIKAVEHNLQADTTVLVKGSRSSAMEKVVQKLVHVE</Hsp_hseq>
+      <Hsp_midline>MNL++IASLLSQSC ++A++TGV  D+R +KPG+LF AI GE FDGHDFIKE E KGA A V +RS+DG+ IPQF+V + ++ALA+IA A+R+E+ CPIIALTGSNGKTTVKEMIA+ILP PSH+TKGN NNHIGVPLS+  L K+HRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS +G A+VNDDDAYAH+WD +I DKK+LRFS+ H AD+YA+DIRLDTHGRAHF LVLPN+R EIELQVPGLHN+RNALAAA+CCYAVG+S  DIQ+GLA FGGVKGRMT+LSG+NQST+IDDTYNANLRSVLTALEVLS RPG+KIFVFGDMGELG+WT QHH+EVG+AA++LGID+LMSCG+HS+LAS+AFG G QHF S+EELI+ V+++L  DTTVLVKGSRSSAME VV +LV VE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966434572|ref|WP_058475003.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella quateirensis] &gt;gi|962260598|gb|KTD44708.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alanine ligase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058475003</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>725.317</Hsp_bit-score>
+      <Hsp_score>1871</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>339</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTIASLLSQTCSINTEVTGVCIDSRTIQPGNLFVAIKGDNFDGHDFIKEVEAKGAIAAVVNRAIPGVQIPQFVVDDPVLALAKIAEAHRQKLHCPVIALTGSNGKTTVKEMIAAILPPPSHATKGNLNNHIGAPLSVLQLNHQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGVSVHGTVVINDDDAYSHFWDNLIADKRVLRFSADHPADVYAQDVRLDTHGRGHFSLVLPNARTDIELQVPGLHNVKNALAAATCCYAVGISIQDIQKGLNQFSGVKGRMTVLPGKNKSTIIDDTYNANLRSVLTALEVLAMRPGKRIFVFGDMGELGDWATQHHQEVGLAANQLGIDQLLSCGTHSLLASQAFGDRGQHFSNQEELVQSLLEELSDNTTVLVKGSRSSAMEKIVHKLL</Hsp_hseq>
+      <Hsp_midline>MNL TIASLLSQ+C IN ++TGV ID+RT++PGNLF AI G+ FDGHDFIKE EAKGA AAVVNR+I GV IPQFVV  P++ALAKIA AHRQ++ CP+IALTGSNGKTTVKEMIA ILP PSHATKGNLNNHIG PLS+L LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQG+S  G  ++NDDDAY+HFWD+LIADK++LRFS+ HPAD+YAQD+RLDTHGR HF+LVLPN+R +IELQVPGLHNV+NALAAA CCYAVGIS  DIQ+GL  F GVKGRMT+L G+N+ST+IDDTYNANLRSVLTALEVL+ RPG++IFVFGDMGELG+W TQHH+EVG+AA QLGID+L+SCG HS LASQAFG+ GQHF +QEEL++ +  +L+ +TTVLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|654932816|ref|WP_028383174.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella moravica] &gt;gi|962253351|gb|KTD37532.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383174</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.153</Hsp_bit-score>
+      <Hsp_score>1855</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>390</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTIASLLSQTCSINAEVTGVCIDSRIINPGNLFVAIKGEHFDGHDFIKDVEAKGAVAVVVSQAIQGVNIPQFVVDDPVLALAKIAEAHRQKIHCPVIALTGSNGKTTVKEMIAAILPSPSHATKGNLNNHIGAPLSVLQLNQQHRYAVFELGANHLGEIAHTVGIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSAHGTVVINDDDAYSHFWDSLIGDKRVLRFSATHPADIYAQDVRLDTHGRGHFSLVLPNARADIELQVPGLHNVRNALAAATCCYAVGISIQDIQNGLNQFGGVKGRMTTLPGKNKSTIIDDTYNANLRSVLTALEVLALRPGKRIFVFGDMGELGEWATQHHQEVGLAAKQLGIDQMLSCGTHSLLASQAFGAQGHHFSSQEELVQNLLDELSDNTTVLVKGSRSSAMEKIVNKLL</Hsp_hseq>
+      <Hsp_midline>MNL TIASLLSQ+C INA++TGV ID+R + PGNLF AI GE FDGHDFIK+ EAKGA A VV+++I GV+IPQFVV  P++ALAKIA AHRQ++ CP+IALTGSNGKTTVKEMIA ILP PSHATKGNLNNHIG PLS+L LN+QHRYAVFELGANH GEIAHTVGIV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  G  ++NDDDAY+HFWD LI DK++LRFS+ HPADIYAQD+RLDTHGR HF+LVLPN+R +IELQVPGLHNVRNALAAA CCYAVGIS  DIQ GL  FGGVKGRMT L G+N+ST+IDDTYNANLRSVLTALEVL+ RPG++IFVFGDMGELGEW TQHH+EVG+AA+QLGID+++SCG HS LASQAFG  G HF SQEEL++ + ++L+ +TTVLVKGSRSSAME +V++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|698843955|emb|CEG57924.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>CEG57924</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>714.146</Hsp_bit-score>
+      <Hsp_score>1842</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>399</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>MSLSVSTLVFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MSQSVSTLDFWPALNTMNLNTIASLLTQSHQTNTEINGISTDSRQVQPGNLFIAIKGENFDGHHFIKEVEEKGAVAVVVDHYIEGVHIPQFVVADTILALAKIAAAHRQSIHCPVIALTGSNGKTTVKEMIAAILPPPSHATKGNLNNHIGAPLSVLQLNNQHRYAVFELGANHQGEIAHTVAVVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSTAGTAVVNDDDAYAHFWDELLADKRVLRFSANHVADVYAQDVRLDTHGRGHFSLVLPNGRADIELQVPGLHNVRNALAAATCCYAVGISIKDIQQGLSNFSGVRGRMTILTGKNQSTVIDDTYNANLRSVLTALEVLAKRPGRKIFVFGDMGELGSWATQHHQEVGLAARQLGIDKLLTCGSYSELASKAFGVGGQHYPSQDDLAQNLFNELNSDTTILVKGSRSSAMEKIVHKLL</Hsp_hseq>
+      <Hsp_midline>MS SVSTL F  + NTMNL TIASLL+QS Q N +I G+S D+R ++PGNLF AI GE FDGH FIKE E KGA A VV+  I+GVHIPQFVVA  ++ALAKIAAAHRQ + CP+IALTGSNGKTTVKEMIA ILP PSHATKGNLNNHIG PLS+L LN QHRYAVFELGANH GEIAHTV +V PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  G A+VNDDDAYAHFWD+L+ADK++LRFS+ H AD+YAQD+RLDTHGR HF+LVLPN R +IELQVPGLHNVRNALAAA CCYAVGIS  DIQ+GL++F GV+GRMT+L+G+NQSTVIDDTYNANLRSVLTALEVL+ RPGRKIFVFGDMGELG W TQHH+EVG+AARQLGIDKL++CG +SELAS+AFG GGQH+ SQ++L + + N+L  DTT+LVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|769981589|ref|WP_045097574.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella fallonii]</Hit_def>
+  <Hit_accession>WP_045097574</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>698.738</Hsp_bit-score>
+      <Hsp_score>1802</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTIASLLTQSHQTNTEINGISTDSRQVQPGNLFIAIKGENFDGHHFIKEVEEKGAVAVVVDHYIEGVHIPQFVVADTILALAKIAAAHRQSIHCPVIALTGSNGKTTVKEMIAAILPPPSHATKGNLNNHIGAPLSVLQLNNQHRYAVFELGANHQGEIAHTVAVVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSTAGTAVVNDDDAYAHFWDELLADKRVLRFSANHVADVYAQDVRLDTHGRGHFSLVLPNGRADIELQVPGLHNVRNALAAATCCYAVGISIKDIQQGLSNFSGVRGRMTILTGKNQSTVIDDTYNANLRSVLTALEVLAKRPGRKIFVFGDMGELGSWATQHHQEVGLAARQLGIDKLLTCGSYSELASKAFGVGGQHYPSQDDLAQNLFNELNSDTTILVKGSRSSAMEKIVHKLL</Hsp_hseq>
+      <Hsp_midline>MNL TIASLL+QS Q N +I G+S D+R ++PGNLF AI GE FDGH FIKE E KGA A VV+  I+GVHIPQFVVA  ++ALAKIAAAHRQ + CP+IALTGSNGKTTVKEMIA ILP PSHATKGNLNNHIG PLS+L LN QHRYAVFELGANH GEIAHTV +V PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  G A+VNDDDAYAHFWD+L+ADK++LRFS+ H AD+YAQD+RLDTHGR HF+LVLPN R +IELQVPGLHNVRNALAAA CCYAVGIS  DIQ+GL++F GV+GRMT+L+G+NQSTVIDDTYNANLRSVLTALEVL+ RPGRKIFVFGDMGELG W TQHH+EVG+AARQLGIDKL++CG +SELAS+AFG GGQH+ SQ++L + + N+L  DTT+LVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966461248|ref|WP_058493601.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella worsleiensis] &gt;gi|962294269|gb|KTD77936.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493601</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.034</Hsp_bit-score>
+      <Hsp_score>1782</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>442</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQ</Hsp_qseq>
+      <Hsp_hseq>MNLNRIASLLSQTCSINSEVTGVCIDSRIIKPGDLFVAIQGEHFDGHDFIREAEGKGAVAAVVSHPVSKVNIPQLVVKDPVLALAQIAKAHRQTINCPVIALTGSNGKTTVKEMIASILPPPSHATKGNLNNHLGAPLSVLQLSHQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIGPAHVEGFGSIDGVARAKGEIHQGLSAHGTVVINDDDAYSHFWDELIADKKVLRFSADHPADVYAQDVRLDTQGRGHFSLVLPNARIDIELQVPGLHNVRNALAAATCCYAVGIDVHDIQNGLNRFSGVNGRMTVLSGINQSTIIDDTYNANLRSVLTALDVLAARPGKRLFVFGDMGELGEWAEEHHREVGLAANRLGIDGLFTCGTYSKYASQAFGNNGQHFANQEDLILNLLKEVSDNTTVLVKGSRSSAMEKIVHKLLN</Hsp_hseq>
+      <Hsp_midline>MNL  IASLLSQ+C IN+++TGV ID+R +KPG+LF AI GE FDGHDFI+EAE KGA AAVV+  +  V+IPQ VV  P++ALA+IA AHRQ ++CP+IALTGSNGKTTVKEMIA+ILP PSHATKGNLNNH+G PLS+L L+ QHRYAVFELGANHPGEIAHTV IV PDV+LINNI PAHVEGFGSIDGVAR+KGEIHQGLS  G  ++NDDDAY+HFWD+LIADKK+LRFS+ HPAD+YAQD+RLDT GR HF+LVLPN+R++IELQVPGLHNVRNALAAA CCYAVGI  +DIQ GL  F GV GRMT+LSG NQST+IDDTYNANLRSVLTAL+VL+ RPG+++FVFGDMGELGEW  +HHREVG+AA +LGID L +CG +S+ ASQAFG  GQHF +QE+LI  +  +++ +TTVLVKGSRSSAME +VH+L+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966421946|ref|WP_058465147.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella cincinnatiensis] &gt;gi|962198892|gb|KTC83902.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058465147</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.937</Hsp_bit-score>
+      <Hsp_score>1748</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQSCQINTELTGICIDSRELKSGNLFIAIRGERFDGHDFIKEAEARGAVAAIVSHIVDGVHIPQFVVPDPIQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPFPSHSTKGNLNNHIGAPLSVFQLNSQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSSAGTAVVNDDDAYAHFWDELLLDKKVLRFSIEHPADIYAQDVQLDTQGCGQFSLIVPNGRADIHLKVPGLHNVRNALAAAACCHAIGISAKEIQQGLNLFGGVKSRLTVLAGKNQSTVIDDTYNANLRSVLVALEVLAERPGKKIFVFGDMGELGEWATQHHQEVGIAARRLGIDQLLCCGSKSRLAAEAFGVGGEYFASQEQLVQNLVGKLSADTVVLVKGSRSSAMEKIVHQLV</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+QSCQIN ++TG+ ID+R LK GNLF AI GERFDGHDFIKEAEA+GA AA+V+  +DGVHIPQFVV  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSH+TKGNLNNHIG PLS+  LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  G A+VNDDDAYAHFWD+L+ DKK+LRFS  HPADIYAQD++LDT G   F+L++PN R +I L+VPGLHNVRNALAAAACC+A+GIS  +IQ+GL  FGGVK R+T+L+G+NQSTVIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELGEW TQHH+EVG+AAR+LGID+L+ CG  S LA++AFG GG++F SQE+L++ +   L+ DT VLVKGSRSSAME +VH+LV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966498888|ref|WP_058515654.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella santicrucis] &gt;gi|962269336|gb|KTD53350.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515654</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>676.781</Hsp_bit-score>
+      <Hsp_score>1745</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>385</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQSCQINTELTGICIDSRELKSGSLFIAIHGERFDGHDFIKEAESRGAVAAIVSRIVDGVHIPQFVVPDPIQALAKIAAAHRQNVHCPVIALTGSNGKTTTKEMIAAILPSPSHSTKGNLNNHIGAPLSVFQLNSQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSSAGTAVVNDDDAYAHFWDELLLDKKVLRFSIEHPADIYAQDVQLDTQGCGQFSLIVPNGRADIHLKVPGLHNVRNALAAAACCHAIGISAKEIQQGLNLFGGIKGRLTVLAGKNQSTVIDDTYNANLRSVLVALEVLAERPGKKIFVFGDMGELGAWATQHHQEVGIAARRLGIDQLLCCGSNSRLAAEAFGVGGEYFSSQEQLVQNLVGKLSADTVVLVKGSRSSAMEKIVHQLI</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+QSCQIN ++TG+ ID+R LK G+LF AI GERFDGHDFIKEAE++GA AA+V+R +DGVHIPQFVV  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSH+TKGNLNNHIG PLS+  LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  G A+VNDDDAYAHFWD+L+ DKK+LRFS  HPADIYAQD++LDT G   F+L++PN R +I L+VPGLHNVRNALAAAACC+A+GIS  +IQ+GL  FGG+KGR+T+L+G+NQSTVIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG W TQHH+EVG+AAR+LGID+L+ CG +S LA++AFG GG++F SQE+L++ +   L+ DT VLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|653017650|ref|WP_027269614.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella sainthelensi] &gt;gi|962271018|gb|KTD55021.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027269614</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>671.389</Hsp_bit-score>
+      <Hsp_score>1731</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQSCQINTELTGICIDSRELKSGSLFIAIRGERFDGHDFIKEAEARGAVAAVVSHRVNGVHIPQFVVPDPIQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPSPSHSTKGNLNNHIGAPLSVFQLNSQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSSAGTAIVNEDDAYAHFWDDLLLDKKVLRFSIEHPADIYAQDVQLDAQGCGQFSLIVPNGRADIHLKVPGLHNVRNALAAAACCHAIGISAKEIQQGLNLFGGVKGRLTVLAGKNQSTVIDDTYNANLRSVLVALEVLAEHPGKKIFVFGDMGELGVWATQHHQEVGIAARRLGIDQLLCCGSKSKLAAEAFGVGGEYFANQEQLVQNLLEKLSADTVVLVKGSRSSAMEKIVHQLV</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+QSCQIN ++TG+ ID+R LK G+LF AI GERFDGHDFIKEAEA+GA AAVV+  ++GVHIPQFVV  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSH+TKGNLNNHIG PLS+  LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  G AIVN+DDAYAHFWDDL+ DKK+LRFS  HPADIYAQD++LD  G   F+L++PN R +I L+VPGLHNVRNALAAAACC+A+GIS  +IQ+GL  FGGVKGR+T+L+G+NQSTVIDDTYNANLRSVL ALEVL+  PG+KIFVFGDMGELG W TQHH+EVG+AAR+LGID+L+ CG  S+LA++AFG GG++F +QE+L++ +   L+ DT VLVKGSRSSAME +VH+LV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966468514|ref|WP_058499840.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella gratiana] &gt;gi|962221299|gb|KTD05959.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499840</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>670.233</Hsp_bit-score>
+      <Hsp_score>1728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>384</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQVE</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQPCQINTELTGICTDSRELKSGSLFIAIRGERFDGHDFIKEAEARGAIAAVVSHRVDGVHIPQFLVPDPIQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPSPAHSTKGNLNNHIGAPLSVFQLNSQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHKGLSAAGTAVVNDDDAYAHFWDELLLDKKVLRFSIEHPVDIYAQDIQLDAQGCAQFSLIVPNGRADIHLKVPGLHNVRNALAAAACCHAVGISAKEIQQGLNLFSGVKGRLTVLAGKNQSTVIDDTYNANLRSVLVALEVLAERPGKKIFVFGDMGELGVWATQHHQEVGIAARRLGIDQLLCCGPNSRLAAEAFGVGGEHFANQEQLVQSLIDNLSADTVVLVKGSRSSAMEKIVHQLVSIK</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+Q CQIN ++TG+  D+R LK G+LF AI GERFDGHDFIKEAEA+GA AAVV+  +DGVHIPQF+V  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP P+H+TKGNLNNHIG PLS+  LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIH+GLS  G A+VNDDDAYAHFWD+L+ DKK+LRFS  HP DIYAQDI+LD  G A F+L++PN R +I L+VPGLHNVRNALAAAACC+AVGIS  +IQ+GL  F GVKGR+T+L+G+NQSTVIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG W TQHH+EVG+AAR+LGID+L+ CG +S LA++AFG GG+HF +QE+L++ + ++L+ DT VLVKGSRSSAME +VH+LV ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|489731068|ref|WP_003635184.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella longbeachae] &gt;gi|269987418|gb|EEZ93673.1| UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase [Legionella longbeachae D-4968] &gt;gi|288859258|emb|CBJ13192.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635184</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>669.463</Hsp_bit-score>
+      <Hsp_score>1726</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQSCQISTELTGICIDSRELKSGSLFIAIRGERFDGHDFIKEAEARGAVAAVVSHRVEGVHIPQFVVPDPIQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPSPSHSTKGNLNNHIGAPLSVFQLNSQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSSAGTAIVNDDDAYAHFWDELLLDKKVLRFSIEHPADVYAQDVQLDSQGCGHFSLIVPNGRADIHLKVPGLHNVRNALAAAACCHAIGLSAKEIQQGLNLFSGVKGRLTVLTGKNQSTVIDDTYNANLRSVLVALEVLAEHPGKKIFVFGDMGELGVWATQHHQEVGIAARRLGIDQLLCCGSKSRLAAEAFGVGGEYFTSQEQLVQNLVAKLSADTVVLVKGSRSSAMEKIVHQLV</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+QSCQI+ ++TG+ ID+R LK G+LF AI GERFDGHDFIKEAEA+GA AAVV+  ++GVHIPQFVV  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSH+TKGNLNNHIG PLS+  LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  G AIVNDDDAYAHFWD+L+ DKK+LRFS  HPAD+YAQD++LD+ G  HF+L++PN R +I L+VPGLHNVRNALAAAACC+A+G+S  +IQ+GL  F GVKGR+T+L+G+NQSTVIDDTYNANLRSVL ALEVL+  PG+KIFVFGDMGELG W TQHH+EVG+AAR+LGID+L+ CG  S LA++AFG GG++F SQE+L++ +   L+ DT VLVKGSRSSAME +VH+LV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|493927650|ref|WP_006872387.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella drancourtii] &gt;gi|363536104|gb|EHL29550.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872387</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>669.078</Hsp_bit-score>
+      <Hsp_score>1725</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>381</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQSCQINAEITGVCTDSRELKPGSLFIAIQGERFDGHDFIKEAEAQGALAAVVKYAVDGITIPQFVVPDPLHALAKIAAAHRHNIHCPVIALTGSNGKTTTKEMIAAILPVPSHATKGNLNNHIGAPLSVLQLTSQHRYAVFELGANHPGEISHTVAIVHPDVTLITNIAPAHIEGFGSIDGVARAKGEIHQGLSTSGIAVVNDDDAYAHFWDDILVDKKTLRFSIEHPAEVYAQDIHLDAYGCAQFSLILPNGRIDTQLQVPGLHNVRNALAAAACCHAVGVAIKDIQHGLNNFGGVKGRLMILSGKNQSTVIDDTYNANLRSVLVALEVLAERPGKKIFVFGDMGELGAWATQHHQEVGLAARRLGIDLLLSCGSFSKLATDSFGAGGEHFTNQELLAQNLIEKLSPDTVVLVKGSRSSAMEKIVNKLL</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+QSCQINA+ITGV  D+R LKPG+LF AI GERFDGHDFIKEAEA+GA AAVV  ++DG+ IPQFVV  PL ALAKIAAAHR  + CP+IALTGSNGKTT KEMIA ILP PSHATKGNLNNHIG PLS+L L  QHRYAVFELGANHPGEI+HTV IV PDV+LI NIAPAH+EGFGSIDGVAR+KGEIHQGLS +G+A+VNDDDAYAHFWDD++ DKK LRFS  HPA++YAQDI LD +G A F+L+LPN R++ +LQVPGLHNVRNALAAAACC+AVG++  DIQ GL +FGGVKGR+ +LSG+NQSTVIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG W TQHH+EVG+AAR+LGID L+SCG  S+LA+ +FG GG+HF +QE L + +   L+PDT VLVKGSRSSAME +V++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966494049|ref|WP_058510837.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella steelei] &gt;gi|962285008|gb|KTD68774.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella steelei] &gt;gi|1113342785|gb|OJW06646.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510837</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>666.766</Hsp_bit-score>
+      <Hsp_score>1719</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLTQPCQISAELTGICTDSRELKPGSLFIAIRGERFDGHDFIKEAEAQGAIAAVVNYAVDGVSMPQFVVPDPIQALAKIAAAHRQDIHCPVIALTGSNGKTTTKEMIAAILPSPSHATRGNFNNHIGAPLSVLQLNNQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDELLLDKKVLRFSLDHTADVYAQDVQLDDSGCGQFSLIIPNGRADIHLKVPGLHNVRNALAAAACCHAVGISVKEIQQGLNRFGGVKGRLTVLEGKNQSTVIDDTYNANLRSVLAALEVLAECPGNKIFVFGDMGELGAWATQHHQEVGFAARRLGINQLLSCGANSKLAAESFGVGGEHFITQEQLIQNLVEKLSPDTVVLVKGSRSSAMEKIVHQLI</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+Q CQI+A++TG+  D+R LKPG+LF AI GERFDGHDFIKEAEA+GA AAVVN ++DGV +PQFVV  P+ ALAKIAAAHRQ++ CP+IALTGSNGKTT KEMIA ILP PSHAT+GN NNHIG PLS+L LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+L+ DKK+LRFS  H AD+YAQD++LD  G   F+L++PN R +I L+VPGLHNVRNALAAAACC+AVGIS  +IQ+GL  FGGVKGR+T+L G+NQSTVIDDTYNANLRSVL ALEVL+  PG KIFVFGDMGELG W TQHH+EVG AAR+LGI++L+SCG +S+LA+++FG GG+HF +QE+LI+ +   L+PDT VLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966415389|ref|WP_058458674.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Fluoribacter bozemanae] &gt;gi|962189899|gb|KTC75001.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458674</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>666.381</Hsp_bit-score>
+      <Hsp_score>1718</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>385</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQPCQINAELTGICTDSRELKPGSLFIAIRGERFDGHDFIKEAETRGAVAAIVSHAVNEVHIPQFIVSDPIQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPPPSHATKGNLNNHIGAPLSILQLNSKHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDELLIDKKVLRFSLEHVADIYAQDVTLDANGCGQFSLIVPNGQVDIHLKVPGLHNVRNALAAAACCHAVGISIKEIQHGLSCFGGVKGRLTVLEGKNKSIVIDDTYNANLRSVLAALEVLAERPGKKIFVFGDMGELGIWATQHHQEVGFAARRLGIDQLLSCGSNSKLAAESFGVGGEHFTSQEQLVQNLVEKLSPDTVVLVKGSRSSAMEKIVHQLI</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+Q CQINA++TG+  D+R LKPG+LF AI GERFDGHDFIKEAE +GA AA+V+ +++ VHIPQF+V+ P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSHATKGNLNNHIG PLS+L LN +HRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+L+ DKK+LRFS  H ADIYAQD+ LD +G   F+L++PN +V+I L+VPGLHNVRNALAAAACC+AVGIS  +IQ GL+ FGGVKGR+T+L G+N+S VIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG W TQHH+EVG AAR+LGID+L+SCG +S+LA+++FG GG+HF SQE+L++ +   L+PDT VLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966423490|ref|WP_058466636.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Fluoribacter gormanii] &gt;gi|962220967|gb|KTD05629.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058466636</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.84</Hsp_bit-score>
+      <Hsp_score>1714</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQPCQVNTELTGICTDSRELTPGSLFIAICGERFDGHDFIKEAETRGAVAAIVSHAVDGVHIPQFVVPDPVQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPPPSHATKGNLNNHIGAPLSILQLNNKHRFAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDELLIDKKVLRFSLDHPADIYAQDVVLDEQGCGQFSLIVPNGQADIHLKIPGLHNVRNALAAAACCYAVGISIKEIQQGLNCFGGVKGRLSVLKGKNQSTVIDDTYNANLRSVLAALEVLAERPGKKIFVFGDMGELGTWATQHHQEVGIAARRLGIDQLLSCGSYSKLAAESFGVGGEHFSSQELLAQSLVEKLAPDVVVLVKGSRSSAMEKIVHQLI</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+Q CQ+N ++TG+  D+R L PG+LF AI GERFDGHDFIKEAE +GA AA+V+ ++DGVHIPQFVV  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSHATKGNLNNHIG PLS+L LN +HR+AVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+L+ DKK+LRFS  HPADIYAQD+ LD  G   F+L++PN + +I L++PGLHNVRNALAAAACCYAVGIS  +IQ+GL  FGGVKGR+++L G+NQSTVIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG W TQHH+EVG+AAR+LGID+L+SCG +S+LA+++FG GG+HF SQE L + +   L PD  VLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|518063302|ref|WP_019233510.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233510</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>664.84</Hsp_bit-score>
+      <Hsp_score>1714</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>385</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQSCQINAELTGICIDSRELKPGSLFIAIRGERFDGHDFIKEAEARGAVAAIVNHAVDGIHIPQFVVPDPIQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPAPSHATKGNLNNHIGAPLSILQLNSKHRYAVFELGANHPGEIAHTVAVVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDELLIEKKVLRFSLDHVADIYAQDVVLDANGCGQFSLIVPNGQADIHLKVPGLHNVRNALAAAACCHAVGISVKEIQQGLNCFGGVKGRLTILEGKNKSIVIDDTYNANLRSVLAALEVLAEYPGKKIFVFGDMGELGIWATQHHQEVGFAARRLGINQLLSCGSNSKLASESFGIGGEHFTNQEQLVQNLVEKLSPSTVVLVKGSRSSAMEKIVHQLM</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+QSCQINA++TG+ ID+R LKPG+LF AI GERFDGHDFIKEAEA+GA AA+VN ++DG+HIPQFVV  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSHATKGNLNNHIG PLS+L LN +HRYAVFELGANHPGEIAHTV +V PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+L+ +KK+LRFS  H ADIYAQD+ LD +G   F+L++PN + +I L+VPGLHNVRNALAAAACC+AVGIS  +IQ+GL  FGGVKGR+T+L G+N+S VIDDTYNANLRSVL ALEVL+  PG+KIFVFGDMGELG W TQHH+EVG AAR+LGI++L+SCG +S+LAS++FG GG+HF +QE+L++ +   L+P T VLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|963705371|ref|WP_058388422.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella anisa] &gt;gi|962187598|gb|KTC72724.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_058388422</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>663.3</Hsp_bit-score>
+      <Hsp_score>1710</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>385</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQSCQINAELTGICIDSRELKPGSLFIAIRGERFDGHDFIKEAEARGAVAAIVNHAVDGIHIPQFVVPDPIQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPAPSHATKGNLNNHIGAPLSILQLNSKHRYAVFELGANHPGEIAHTVAVVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDELLIEKKVLRFSLDHVADIYAQEVVLDANGCGQFSLIVPNGQADIHLKVPGLHNVRNALAAAACCHAVGISVKEIQQGLNCFGGVKGRLTILEGKNKSIVIDDTYNANLRSVLAALEVLAEYPGKKIFVFGDMGELGIWATQHHQEVGFAARRLGINQLLSCGSNSKLASESFGIGGEHFTNQEQLVQNLVEKLSPSTVVLVKGSRSSAMEKIVHQLM</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+QSCQINA++TG+ ID+R LKPG+LF AI GERFDGHDFIKEAEA+GA AA+VN ++DG+HIPQFVV  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSHATKGNLNNHIG PLS+L LN +HRYAVFELGANHPGEIAHTV +V PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+L+ +KK+LRFS  H ADIYAQ++ LD +G   F+L++PN + +I L+VPGLHNVRNALAAAACC+AVGIS  +IQ+GL  FGGVKGR+T+L G+N+S VIDDTYNANLRSVL ALEVL+  PG+KIFVFGDMGELG W TQHH+EVG AAR+LGI++L+SCG +S+LAS++FG GG+HF +QE+L++ +   L+P T VLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966500554|ref|WP_058517227.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella parisiensis] &gt;gi|962255885|gb|KTD40022.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella parisiensis] &gt;gi|1069293450|gb|OEH48776.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517227</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>660.988</Hsp_bit-score>
+      <Hsp_score>1704</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTIAALLAQPCQINAELTDICTDSRELKPGSLFIAIRGERFDGHDFIKEAETRGAVAAIVCHALDGVHIPQFVVPDPIQALAKIAAAHRQNIHCPVIALTGSNGKTTTKEMIAAILPAPSHATKGNLNNHIGAPLSILQLSSKHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDELLIDKKVLRFSLEHVADIYAQDVVMDANGCGQFSLIVPNGQVDIHLKVPGLHNVRNALAAAACCHAVGISIKEIQHGLNCFGGVKGRLTVLEGKNKSVVIDDTYNANLRSVLAALEVLAERPGKKIFVFGDMGELGIWATQHHQEVGFAARRLGIDQLLSCGSNSKLAAESFGVGGEHFTNQEQLVQNLVKQLSPDTVVLVKGSRSSAMEKIVHQLI</Hsp_hseq>
+      <Hsp_midline>MNL TIA+LL+Q CQINA++T +  D+R LKPG+LF AI GERFDGHDFIKEAE +GA AA+V  ++DGVHIPQFVV  P+ ALAKIAAAHRQ + CP+IALTGSNGKTT KEMIA ILP PSHATKGNLNNHIG PLS+L L+ +HRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+L+ DKK+LRFS  H ADIYAQD+ +D +G   F+L++PN +V+I L+VPGLHNVRNALAAAACC+AVGIS  +IQ GL  FGGVKGR+T+L G+N+S VIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG W TQHH+EVG AAR+LGID+L+SCG +S+LA+++FG GG+HF +QE+L++ +   L+PDT VLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966516644|ref|WP_058533138.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533138</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.448</Hsp_bit-score>
+      <Hsp_score>1700</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLTQSCQINAEITGICTDSREIKQGNVFVAIQGEHFDGHEFIKEVEAKGALAAIVKHAVAGVSMPQFIVQDPLQALAKIAAAHRQDIHCPVIALTGSNGKTTTKEMIAAILPAPSHATKGNLNNHIGAPLSVLQLTSQHRYAVFELGANHIGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLATAGTAVINDDDSYAHFWDELLTDKKVLRFSIEHPADIYAQDVRLDARGCGQFSLILPNGRADIQLNVPGMHNIRNALAAAACCYAVGIAIKDIQQGLTNFGGVKGRLTVLLGKNQSTIIDDTYNANLRSVLAALEVLAERPGKKIFVFGDMGELGVWTTQHHQEVGLAARNLGIDLFLSCGAFSKLAAESFGSGGKHFENQELLVESLINELSSDTVVLVKGSRSSAMEKIVNKLL</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+QSCQINA+ITG+  D+R +K GN+F AI GE FDGH+FIKE EAKGA AA+V  ++ GV +PQF+V  PL ALAKIAAAHRQ++ CP+IALTGSNGKTT KEMIA ILP PSHATKGNLNNHIG PLS+L L  QHRYAVFELGANH GEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGL+  G A++NDDD+YAHFWD+L+ DKK+LRFS  HPADIYAQD+RLD  G   F+L+LPN R +I+L VPG+HN+RNALAAAACCYAVGI+  DIQ+GL +FGGVKGR+T+L G+NQST+IDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG WTTQHH+EVG+AAR LGID  +SCG  S+LA+++FG GG+HF +QE L+E + N+L+ DT VLVKGSRSSAME +V++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|498340533|ref|WP_010654689.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Fluoribacter dumoffii] &gt;gi|962206071|gb|KTC91008.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654689</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.448</Hsp_bit-score>
+      <Hsp_score>1700</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQPCHLNTELTGVCTDSRELEPGNLFVAIRGERFDGHEFIKEAETRGAIAAVVNHTIEGVSIPQFVVPDPIQALAKIAAAHRQDIHCPVIALTGSNGKTTTKEMIASILPSPSHATRGNLNNHIGAPLSVLQLNNQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDELLINKKVLRFSLDHMADIYAQDVQLDELGCGQFSLIVPKGQADIHLQVPGLHNVRNALAAAACCHAVGISIKDIQQGLNRFGGVKGRLTVLKGKNQSIIIDDTYNANLRSVLAALEVLSERPGEKIFVFGDMGELGTWATQHHQEVGLAARRLGINRLLSCGSNSKLAAESFGVGGEHFGNQDQLIKSLVDKLSPNTVVLVKGSRSSAMEKVVHQLI</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+Q C +N ++TGV  D+R L+PGNLF AI GERFDGH+FIKEAE +GA AAVVN +I+GV IPQFVV  P+ ALAKIAAAHRQ++ CP+IALTGSNGKTT KEMIA+ILP PSHAT+GNLNNHIG PLS+L LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+L+ +KK+LRFS  H ADIYAQD++LD  G   F+L++P  + +I LQVPGLHNVRNALAAAACC+AVGIS  DIQ+GL  FGGVKGR+T+L G+NQS +IDDTYNANLRSVL ALEVLS RPG KIFVFGDMGELG W TQHH+EVG+AAR+LGI++L+SCG +S+LA+++FG GG+HF +Q++LI+ + + L+P+T VLVKGSRSSAME VVH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|963702338|ref|WP_058387396.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella cherrii] &gt;gi|962197345|gb|KTC82389.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_058387396</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>654.44</Hsp_bit-score>
+      <Hsp_score>1687</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQPCQINAELTGICTDSRELKPGSLFIAIRGERFDGHDFIKDAETRGAVAAVVNSVVEGVHIPQFVVPDPIQALAKIAAAHRQDIHCPVIALTGSNGKTTTKEMIASILPYPSHATRGNFNNHIGAPLSVLQLNNQHNYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDEILLDKKVLRFSLDHTADVYAQDVQLDASGCGHFSLIIPNGQADIHLKVPGLHNVRNALAAAACCHAVGISIKEIQQGLNRFGGVKGRLTVLEGKNQSIVIDDTYNANLRSVLAALEVLAERPGKKIFVFGDMGELGTWATQHHQEVGFAARRLGINQLLSCGSHSKLAAESFGVGGEHFNTQEQLIQSLVEQLSPDTVVLVKGSRSSAMEKIVQQLI</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+Q CQINA++TG+  D+R LKPG+LF AI GERFDGHDFIK+AE +GA AAVVN  ++GVHIPQFVV  P+ ALAKIAAAHRQ++ CP+IALTGSNGKTT KEMIA+ILP PSHAT+GN NNHIG PLS+L LN QH YAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+++ DKK+LRFS  H AD+YAQD++LD  G  HF+L++PN + +I L+VPGLHNVRNALAAAACC+AVGIS  +IQ+GL  FGGVKGR+T+L G+NQS VIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG W TQHH+EVG AAR+LGI++L+SCG HS+LA+++FG GG+HF +QE+LI+ +   L+PDT VLVKGSRSSAME +V +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|654930582|ref|WP_028380951.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380951</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>653.284</Hsp_bit-score>
+      <Hsp_score>1684</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQPCQINAELTGICTDSRELKPGSLFIAIRGERFDGHDFIKDAETRGAVAAVVNSVVEGVHIPQFVVPDPIQALAKIAAAHRQDIHCPVIALTGSNGKTTTKEMIASILPYPSHATRGNFNNHIGAPLSVLQLNNQHNYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDEILLDKKVLRFSLDHTADVYAQDVQLDASGCGHFSLIIPNGQADIHLKVPGLHNVRNALAAAACCHAVGISIKEIQQGLNRFGGVKGRLTVLEGKNQSIVIDDTYNANLRSVLAALEVLAERPGKKIFVFGDMGELGTWATQHHQEVGFAARRLGIHQLLSCGSHSKLAAESFGVGGEHFNTQEQLIQSLVEQLSPDTVVLVKGSRSSAMEKIVQQLI</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+Q CQINA++TG+  D+R LKPG+LF AI GERFDGHDFIK+AE +GA AAVVN  ++GVHIPQFVV  P+ ALAKIAAAHRQ++ CP+IALTGSNGKTT KEMIA+ILP PSHAT+GN NNHIG PLS+L LN QH YAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+++ DKK+LRFS  H AD+YAQD++LD  G  HF+L++PN + +I L+VPGLHNVRNALAAAACC+AVGIS  +IQ+GL  FGGVKGR+T+L G+NQS VIDDTYNANLRSVL ALEVL+ RPG+KIFVFGDMGELG W TQHH+EVG AAR+LGI +L+SCG HS+LA+++FG GG+HF +QE+LI+ +   L+PDT VLVKGSRSSAME +V +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966436824|ref|WP_058477192.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [Legionella steigerwaltii] &gt;gi|962293597|gb|KTD77272.1| UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D- alani ne ligase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477192</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>652.514</Hsp_bit-score>
+      <Hsp_score>1682</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>320</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>MNLNTVAALLAQPCQISAELTGICTDSRELKPGSLFIAIRGDRFDGHDFIKEAESQGAVAAVVSHAVEGVRIPQFVVPDPIQALAKIAAAHRQDIHCPVIALTGSNGKTTTKEMIASILPSPSHATRGNFNNHIGAPLSVLQLNNQHRYAVFELGANHPGEIAHTVAIVHPDVTLINNIAPAHVEGFGSIDGVARAKGEIHQGLSLAGVAVVNDDDAYAHFWDELLLDKKVLRFSLDHAADIYAQDVQLDASGCGQFSLIIPNGQADIQLKVPGLHNVRNALAAAACCHAVGISIKEIQQGLNRFGGVKGRLTVLEGKNKSTVIDDTYNANLRSVLAALEVLAEHPGKKIFVFGDMGELGTWATQHHQEVGFAARRLGINQLLSCGTNSKLAAESFGAGGEHFITQEQLIQSLVEQLSPDTVVLVKGSRSSAMEKIVHQLI</Hsp_hseq>
+      <Hsp_midline>MNL T+A+LL+Q CQI+A++TG+  D+R LKPG+LF AI G+RFDGHDFIKEAE++GA AAVV+ +++GV IPQFVV  P+ ALAKIAAAHRQ++ CP+IALTGSNGKTT KEMIA+ILP PSHAT+GN NNHIG PLS+L LN QHRYAVFELGANHPGEIAHTV IV PDV+LINNIAPAHVEGFGSIDGVAR+KGEIHQGLS  GVA+VNDDDAYAHFWD+L+ DKK+LRFS  H ADIYAQD++LD  G   F+L++PN + +I+L+VPGLHNVRNALAAAACC+AVGIS  +IQ+GL  FGGVKGR+T+L G+N+STVIDDTYNANLRSVL ALEVL+  PG+KIFVFGDMGELG W TQHH+EVG AAR+LGI++L+SCG +S+LA+++FG GG+HF +QE+LI+ +   L+PDT VLVKGSRSSAME +VH+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

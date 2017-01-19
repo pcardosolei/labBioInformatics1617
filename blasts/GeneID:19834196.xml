@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_223809</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834196</BlastOutput_query-def>
+  <BlastOutput_query-len>494</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_223809</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834196</Iteration_query-def>
+  <Iteration_query-len>494</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250791|ref|WP_010948331.1|</Hit_id>
+  <Hit_def>aminopeptidase [Legionella pneumophila] &gt;gi|52842837|ref|YP_096636.1| aminopeptidase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629948|gb|AAU28689.1| aminopeptidase A/I [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509342|gb|AEW52866.1| aminopeptidase A/I [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948331</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1022.69</Hsp_bit-score>
+      <Hsp_score>2643</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>494</Hsp_identity>
+      <Hsp_positive>494</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119427044|ref|WP_072402344.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402344</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1006.9</Hsp_bit-score>
+      <Hsp_score>2602</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MSFSSGAGKNIMNYGLTHTPSLNMSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESSEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MSFSSGAGKNIMNYGLTHTPSL  SECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QES+EWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119393026|ref|WP_072368856.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072368856</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1006.13</Hsp_bit-score>
+      <Hsp_score>2600</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>486</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVIGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQV+GPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1119380396|ref|WP_072356493.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356493</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1003.43</Hsp_bit-score>
+      <Hsp_score>2593</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVIGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVIGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIV GVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQV+GPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1119387954|ref|WP_072363981.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072363981</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1002.66</Hsp_bit-score>
+      <Hsp_score>2591</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>483</Hsp_identity>
+      <Hsp_positive>487</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>494</Hsp_align-len>
+      <Hsp_qseq>MSFSSGAGKNIMNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MSFSSSAGKKIMNYGLTHTPSLTMSECLVLGVFSDLALPDFATAIDNEQKGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSTPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MSFSS AGK IMNYGLTHTPSLT SECLVLGVFSDLALPDFA AIDNEQ+GLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNS PVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|505256889|ref|WP_015443991.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|469490649|gb|AGH52494.1| Cytosol aminopeptidase PepA [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083303|gb|AGN15551.1| aminopeptidase A/I [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772843|emb|CZI17766.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998775708|emb|CZG60065.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998778294|emb|CZG75079.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998784533|emb|CZG85281.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998787485|emb|CZG58547.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998811890|emb|CZH78260.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998814311|emb|CZG62746.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998837868|emb|CZJ73450.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998865416|emb|CZJ41925.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998869843|emb|CZJ35558.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998871038|emb|CZM15902.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998874526|emb|CZK37363.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998877487|emb|CZM00281.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998880554|emb|CZI87865.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998888016|emb|CZL49300.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998889249|emb|CZK23630.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998906101|emb|CZK55784.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998909672|emb|CZL08412.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999067393|emb|CZJ18778.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999076883|emb|CZG58616.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999095255|emb|CZG86863.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999098730|emb|CZG61084.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999156876|emb|CZH75063.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999191300|emb|CZI18316.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999194423|emb|CZI44658.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999200288|emb|CZG61290.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999203734|emb|CZI44597.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999222415|emb|CZI36121.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1002075538|emb|CZQ94204.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1073865672|gb|AOU05623.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073868641|gb|AOU08591.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073871636|gb|AOU11585.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073874504|gb|AOU14452.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073877561|gb|AOU17508.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073880524|gb|AOU20470.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073883521|gb|AOU23466.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073889482|gb|AOU29425.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073892466|gb|AOU32408.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073895434|gb|AOU35375.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073898392|gb|AOU38332.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073901358|gb|AOU41297.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073904267|gb|AOU44205.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073907220|gb|AOU47157.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073910238|gb|AOU50173.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073913250|gb|AOU53182.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073916210|gb|AOU56141.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073919173|gb|AOU59103.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073922076|gb|AOU62005.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073925159|gb|AOU65086.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073928122|gb|AOU68048.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073931108|gb|AOU71017.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073934477|gb|AOU74036.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073937442|gb|AOU84441.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073947708|gb|AOU87432.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1073950636|gb|AOU90359.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1129969294|gb|APT99653.1| aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015443991</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1001.5</Hsp_bit-score>
+      <Hsp_score>2588</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>483</Hsp_identity>
+      <Hsp_positive>483</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|653015671|ref|WP_027267701.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267701</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>997.653</Hsp_bit-score>
+      <Hsp_score>2578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>481</Hsp_identity>
+      <Hsp_positive>482</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVAGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIV GVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|504655579|ref|WP_014842681.1|</Hit_id>
+  <Hit_def>cytosol aminopeptidase [Legionella pneumophila] &gt;gi|395128632|emb|CCD06850.1| aminopeptidase A, a cyteinylglycinase [Legionella pneumophila subsp. pneumophila] &gt;gi|999248099|emb|CZH52022.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999269691|emb|CZO24480.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999465397|emb|CZM25755.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999468347|emb|CZO07866.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999474984|emb|CZM43991.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999478178|emb|CZN25538.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999481373|emb|CZM63582.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999484403|emb|CZN97062.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999487525|emb|CZL95221.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999490716|emb|CZN58234.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999493976|emb|CZL96656.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999500344|emb|CZN57342.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999503566|emb|CZN86773.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999506762|emb|CZM92674.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999510031|emb|CZG26651.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999513154|emb|CZN17477.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999516579|emb|CZL80471.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999519803|emb|CZM50139.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999532671|emb|CZO32541.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999536048|emb|CZN19751.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999539064|emb|CZM53946.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999542282|emb|CZO07944.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999545458|emb|CZO45766.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999548580|emb|CZN73614.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999551846|emb|CZN99230.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999555223|emb|CZM96754.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999558236|emb|CZO45482.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999561358|emb|CZM27314.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999564629|emb|CZO46081.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999567746|emb|CZM40650.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999570945|emb|CZN39193.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999574135|emb|CZN76405.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999580626|emb|CZO00865.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999584138|emb|CZO14262.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999587261|emb|CZM49132.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999590523|emb|CZM22656.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999593398|emb|CZN32464.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999596596|emb|CZN95037.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999599862|emb|CZO24366.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999603282|emb|CZL64098.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999606257|emb|CZN38938.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999609693|emb|CZN41687.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999615869|emb|CZM31603.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999618982|emb|CZN75819.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999622342|emb|CZO52283.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999625614|emb|CZN53544.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999628969|emb|CZM42506.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999631847|emb|CZM46538.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999635113|emb|CZN40242.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999638235|emb|CZN35423.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999641431|emb|CZO63236.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999644602|emb|CZO28849.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999648139|emb|CZN76807.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999650950|emb|CZN93182.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999654286|emb|CZN91977.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999657664|emb|CZM00713.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999660605|emb|CZM48703.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999664119|emb|CZM82577.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999667070|emb|CZM24633.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999670264|emb|CZL73857.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999673651|emb|CZM18846.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999676585|emb|CZN62175.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999679620|emb|CZM62842.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999682815|emb|CZM70020.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999686041|emb|CZN92881.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999689619|emb|CZN09887.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999692572|emb|CZN81531.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999696030|emb|CZN01133.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999699229|emb|CZL97981.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999702493|emb|CZM44123.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999705637|emb|CZL59135.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999708661|emb|CZN41392.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999711913|emb|CZM86789.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999715404|emb|CZM89158.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999718505|emb|CZO27400.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999721421|emb|CZM67835.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999724761|emb|CZN17737.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999728158|emb|CZL88970.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999731654|emb|CZO21817.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999734903|emb|CZM00472.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999738195|emb|CZO47448.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999741105|emb|CZM26103.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999744593|emb|CZN06942.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999747932|emb|CZM01006.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999750827|emb|CZL80226.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999754095|emb|CZM71299.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999757438|emb|CZM83519.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999760415|emb|CZM15774.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999763870|emb|CZN09985.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999767067|emb|CZM56185.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999769844|emb|CZN40794.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999773548|emb|CZH74206.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999776540|emb|CZL89149.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999783404|emb|CZH49903.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999786580|emb|CZM17792.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999789829|emb|CZO49379.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999793224|emb|CZO51178.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999800199|emb|CZO38849.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1003034779|emb|CZR27705.1| aminopeptidase A/I [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842681</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>987.252</Hsp_bit-score>
+      <Hsp_score>2551</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>475</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTMSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESSEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLT SECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QES+EWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|754877543|ref|WP_042237464.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042237464</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>986.482</Hsp_bit-score>
+      <Hsp_score>2549</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>475</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRVNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIEYAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPR+ QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1006038643|ref|WP_061721622.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|999796471|emb|CZI08614.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061721622</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>986.097</Hsp_bit-score>
+      <Hsp_score>2548</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTMSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESSEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERSANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLT SECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QES+EWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIER+ANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|500496174|ref|WP_011947549.1|</Hit_id>
+  <Hit_def>cytosol aminopeptidase [Legionella pneumophila] &gt;gi|259710089|sp|A5IAU5.1|AMPA_LEGPC RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase &gt;gi|148280407|gb|ABQ54495.1| aminopeptidase A/I [Legionella pneumophila str. Corby] &gt;gi|761996853|dbj|GAN31028.1| cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998796497|emb|CZH99539.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998800332|emb|CZL05112.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998805785|emb|CZK06954.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998808381|emb|CZH88588.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998817705|emb|CZL58495.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998820807|emb|CZL60396.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998826769|emb|CZK07989.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998832593|emb|CZI07827.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998835742|emb|CZK87181.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998842281|emb|CZL12365.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998844699|emb|CZK28029.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998847650|emb|CZK66337.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998850263|emb|CZI39051.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998853754|emb|CZL25240.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998856450|emb|CZL32492.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998859773|emb|CZL72649.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998862691|emb|CZK19504.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998895532|emb|CZJ99908.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998912325|emb|CZG97199.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998915858|emb|CZK62957.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998918327|emb|CZK83609.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998921298|emb|CZL39264.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998927603|emb|CZL64511.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998930690|emb|CZK76113.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998933905|emb|CZL75260.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998939905|emb|CZK77155.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998945982|emb|CZK95794.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998949026|emb|CZK83097.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998958588|emb|CZM00217.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998961494|emb|CZK24703.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998964639|emb|CZK06236.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998966939|emb|CZM51951.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998970481|emb|CZK53466.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998973828|emb|CZK27331.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998979533|emb|CZL60241.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998985882|emb|CZK00402.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998988688|emb|CZL47621.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998993951|emb|CZI46447.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998998050|emb|CZJ89433.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999004456|emb|CZI43269.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999008022|emb|CZK28234.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999012955|emb|CZL44734.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999016877|emb|CZL69575.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999022675|emb|CZL15626.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999025354|emb|CZK74003.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999037111|emb|CZL53942.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999046835|emb|CZL76741.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999061642|emb|CZL14350.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999080226|emb|CZJ91286.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999082815|emb|CZK78444.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999090475|emb|CZK40907.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999092469|emb|CZL40084.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999101159|emb|CZL68425.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999110398|emb|CZL14893.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999113823|emb|CZL52074.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999116396|emb|CZK47996.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999126308|emb|CZK78671.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999131574|emb|CZL94472.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999134793|emb|CZL16443.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999138105|emb|CZK28657.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999141780|emb|CZL43905.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999144575|emb|CZK70193.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999147633|emb|CZL49113.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999151570|emb|CZH55302.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999158603|emb|CZJ90451.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999168312|emb|CZI51614.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999175773|emb|CZL04405.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999177477|emb|CZJ86593.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999209997|emb|CZK75114.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999219321|emb|CZL31564.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999335258|emb|CZK72220.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1002079043|emb|CZQ94525.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1003020134|emb|CZR21506.1| aminopeptidase A/I [Legionella pneumophila] &gt;gi|1003023014|emb|CZR20361.1| aminopeptidase A/I [Legionella pneumophila] &gt;gi|1003026856|emb|CZR18027.1| aminopeptidase A/I [Legionella pneumophila] &gt;gi|1073886514|gb|AOU26458.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1080008956|gb|AOW58944.1| leucyl aminopeptidase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011377|gb|AOW60868.1| leucyl aminopeptidase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017621|gb|AOW66266.1| leucyl aminopeptidase [Legionella pneumophila subsp. pneumophila] &gt;gi|1104004033|emb|SFZ46863.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947549</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>985.712</Hsp_bit-score>
+      <Hsp_score>2547</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTMSECLVLGVFSDLALPDFATAIDNEQKGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSTPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLT SECLVLGVFSDLALPDFA AIDNEQ+GLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNS PVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|764926668|ref|WP_044497516.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|999455521|emb|CZH44501.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999462224|emb|CZG06226.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_044497516</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>985.712</Hsp_bit-score>
+      <Hsp_score>2547</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTMSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESSEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMVKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLT SECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QES+EWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEM KAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|504657641|ref|WP_014844743.1|</Hit_id>
+  <Hit_def>cytosol aminopeptidase [Legionella pneumophila] &gt;gi|395131715|emb|CCD10008.1| aminopeptidase A, a cyteinylglycinase [Legionella pneumophila subsp. pneumophila] &gt;gi|761987472|dbj|GAN24647.1| cytosol aminopeptidase [Legionella pneumophila] &gt;gi|761990486|dbj|GAN18595.1| cytosol aminopeptidase [Legionella pneumophila] &gt;gi|761993676|dbj|GAN21701.1| cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998792826|emb|CZI69322.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998892896|emb|CZJ07889.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998982023|emb|CZI88623.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999106951|emb|CZI84975.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999231225|emb|CZI62801.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1002082136|emb|CZQ95989.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1032658710|gb|ANH13981.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1032661672|gb|ANH16942.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1032664650|gb|ANH19919.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1108605982|gb|APF04350.1| leucyl aminopeptidase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_014844743</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>985.712</Hsp_bit-score>
+      <Hsp_score>2547</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>476</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|653014248|ref|WP_027266297.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|998781169|emb|CZJ43437.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998829462|emb|CZG79244.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998883326|emb|CZI76658.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998898833|emb|CZJ45731.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998952238|emb|CZJ33775.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999153858|emb|CZM17529.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999162946|emb|CZM05224.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999237181|emb|CZG78316.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1002088725|emb|CZQ78710.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1104007487|emb|SFZ46945.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266297</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>985.326</Hsp_bit-score>
+      <Hsp_score>2546</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLNMSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESSEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSL  SECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QES+EWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1005612868|ref|WP_061693883.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|998790016|emb|CZH02529.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999286789|emb|CZI75990.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999293088|emb|CZI61936.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999312047|emb|CZI87388.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1002091756|emb|CZR06119.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061693883</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>984.556</Hsp_bit-score>
+      <Hsp_score>2544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>475</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLATSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSL TSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|506459815|ref|WP_015961715.1|</Hit_id>
+  <Hit_def>cytosol aminopeptidase [Legionella pneumophila] &gt;gi|81601666|sp|Q5X1Q9.1|AMPA_LEGPA RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase &gt;gi|53752405|emb|CAH13837.1| hypothetical protein lpp2684 [Legionella pneumophila str. Paris] &gt;gi|536611672|gb|ERB40190.1| aminopeptidase A [Legionella pneumophila str. 121004] &gt;gi|541998750|gb|ERH44766.1| aminopeptidase A [Legionella pneumophila str. Leg01/53] &gt;gi|542123150|gb|ERI49459.1| aminopeptidase A [Legionella pneumophila str. Leg01/20] &gt;gi|762000225|dbj|GAN27957.1| cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998924286|emb|CZJ95505.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998942531|emb|CZK05717.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998954582|emb|CZK41398.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998976191|emb|CZJ65996.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|998991519|emb|CZK08100.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999009824|emb|CZK02757.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999018924|emb|CZJ61292.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999027978|emb|CZJ90284.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999031538|emb|CZG67660.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999034054|emb|CZJ97654.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999040261|emb|CZJ67709.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999043072|emb|CZJ77448.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999048973|emb|CZJ86400.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999052230|emb|CZJ68248.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999055152|emb|CZJ96757.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999064340|emb|CZJ78566.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999070105|emb|CZJ74900.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999073436|emb|CZK04994.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999085621|emb|CZJ97429.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999173400|emb|CZH69930.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999182540|emb|CZG27291.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999184497|emb|CZP92842.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999188705|emb|CZI76697.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999198305|emb|CZP06782.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999206440|emb|CZP59277.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999213637|emb|CZG43000.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999217073|emb|CZI72802.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999225917|emb|CZG33042.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999227855|emb|CZP40497.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999235046|emb|CZP51823.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999240542|emb|CZH75891.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999244211|emb|CZH71186.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999256149|emb|CZP73666.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999259196|emb|CZP39176.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999265460|emb|CZP04094.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999272072|emb|CZP51718.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999277779|emb|CZP29216.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999281515|emb|CZP23062.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999284163|emb|CZP50233.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999290834|emb|CZP27367.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999296766|emb|CZP49988.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999300005|emb|CZP27954.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999307152|emb|CZH65514.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999309538|emb|CZP19443.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999315976|emb|CZI03221.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999318939|emb|CZP56605.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999322191|emb|CZH91922.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999324936|emb|CZH14459.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999338004|emb|CZP44090.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999340730|emb|CZG98977.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999344168|emb|CZP91891.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999347456|emb|CZP60641.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999353725|emb|CZP52192.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999356834|emb|CZP75024.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999361086|emb|CZI01568.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999363200|emb|CZP71017.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999366963|emb|CZP71332.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999369619|emb|CZP87067.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999374044|emb|CZG03877.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999377353|emb|CZI91254.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999380652|emb|CZH51761.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999383404|emb|CZI16667.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999387467|emb|CZG10871.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999390274|emb|CZI10592.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999392477|emb|CZP95535.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999397061|emb|CZG16594.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999398725|emb|CZP98883.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999403275|emb|CZP48081.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999406426|emb|CZG43151.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999409402|emb|CZH71748.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999412584|emb|CZG27539.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999416654|emb|CZG14562.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999419283|emb|CZG43425.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999422605|emb|CZH44953.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999426488|emb|CZG24734.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999429111|emb|CZG30711.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999432699|emb|CZG06271.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999435743|emb|CZH65689.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999438344|emb|CZG44995.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999442251|emb|CZJ84646.1| aminopeptidase A/I [Legionella pneumophila] &gt;gi|999445325|emb|CZH56302.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999448587|emb|CZG03874.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999450794|emb|CZP30233.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999458363|emb|CZJ89859.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999497016|emb|CZI10571.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999521346|emb|CZP44640.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999526333|emb|CZI61325.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999529215|emb|CZI16974.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999577065|emb|CZI02164.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999612366|emb|CZI06957.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1003028397|emb|CZR23526.1| aminopeptidase A/I [Legionella pneumophila] &gt;gi|1003030318|emb|CZR34337.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1015434055|gb|AMV15682.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1041016603|gb|ANN93664.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1041019602|gb|ANN96662.1| leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1103997795|emb|SFZ46841.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961715</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>984.171</Hsp_bit-score>
+      <Hsp_score>2543</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>475</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVIGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQV+GPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1005609413|ref|WP_061691907.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|998824283|emb|CZG44830.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061691907</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>983.4</Hsp_bit-score>
+      <Hsp_score>2541</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>472</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLNMSECLVLGVFSDLALPDFATAIDNEQQGVIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATICLPRLNQESSEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSL  SECLVLGVFSDLALPDFA AIDNEQQG+IKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSAT+CLPRL QES+EWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1006526280|ref|WP_061784469.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1005834300|gb|AMQ29026.1| aminopeptidase A [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061784469</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>982.63</Hsp_bit-score>
+      <Hsp_score>2539</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>472</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCKVIGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGAIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTKDEQLAKSIERAADESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISC+V+GPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG IKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMT+DEQLAKSIERAA+ESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1004014409|ref|WP_061483709.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483709</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>982.63</Hsp_bit-score>
+      <Hsp_score>2539</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>472</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNQQQGLIKKLCQRIPEAGNTVWQTNVDGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVIGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDN+QQGLIKKLCQR+PE GNTVWQT+V+GHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIV GVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1004336872|ref|WP_061515635.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061515635</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>982.245</Hsp_bit-score>
+      <Hsp_score>2538</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVIGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLFQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQV+GPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLL QLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|652974018|ref|WP_027226732.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226732</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>982.245</Hsp_bit-score>
+      <Hsp_score>2538</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSVTVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVIGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSS TVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQV+GPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1005404175|ref|WP_061637076.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|999249421|emb|CZG78437.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999252888|emb|CZG91540.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999262156|emb|CZH06730.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999274341|emb|CZH08403.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999327586|emb|CZH27974.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999332893|emb|CZG03878.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999349573|emb|CZH48571.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999469993|emb|CZG82778.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999778478|emb|CZH00748.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1104000935|emb|SFZ46875.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061637076</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>981.86</Hsp_bit-score>
+      <Hsp_score>2537</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVIGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVIGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIV GVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQV+GPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1011910281|ref|WP_062724966.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062724966</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>981.474</Hsp_bit-score>
+      <Hsp_score>2536</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>472</Hsp_identity>
+      <Hsp_positive>477</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLNMSECLVLGVFSDLALPDFATAIDNEQHGVIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESSEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSL  SECLVLGVFSDLALPDFA AIDNEQ G+IKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QES+EWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|749505477|ref|WP_040146322.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|998802624|emb|CZH88805.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999166057|emb|CZG69735.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_040146322</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>980.704</Hsp_bit-score>
+      <Hsp_score>2534</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>472</Hsp_identity>
+      <Hsp_positive>477</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTMSECLVLGVFSDLALPDFATAIDNEQKGLIKKLCQRVPEPGNTVWQTDVEGYSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSTPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSIIAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLT SECLVLGVFSDLALPDFA AIDNEQ+GLIKKLCQRVPEPGNTVWQTDVEG+SLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNS PVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSI AACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|502866924|ref|WP_013101900.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|295650178|gb|ADG26025.1| aminopeptidase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|998936483|emb|CZM49133.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999000415|emb|CZG76864.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999057959|emb|CZM55250.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999104170|emb|CZI05948.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999128781|emb|CZH03473.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999302264|emb|CZI55692.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1002085475|emb|CZQ99464.1| Cytosol aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101900</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>980.704</Hsp_bit-score>
+      <Hsp_score>2534</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>473</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTMSECLVLGVFSDLALPDFATAIDNEQKGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVIGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLT SECLVLGVFSDLALPDFA AIDNEQ+GLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQV+GPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|499535723|ref|WP_011216506.1|</Hit_id>
+  <Hit_def>cytosol aminopeptidase [Legionella pneumophila] &gt;gi|81601197|sp|Q5WTG8.1|AMPA_LEGPL RecName: Full=Probable cytosol aminopeptidase; AltName: Full=Leucine aminopeptidase; Short=LAP; AltName: Full=Leucyl aminopeptidase &gt;gi|53755302|emb|CAH16796.1| hypothetical protein lpl2556 [Legionella pneumophila str. Lens] &gt;gi|1080003031|gb|AOW53603.1| leucyl aminopeptidase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005223|gb|AOW55503.1| leucyl aminopeptidase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015528|gb|AOW64401.1| leucyl aminopeptidase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216506</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>979.934</Hsp_bit-score>
+      <Hsp_score>2532</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>472</Hsp_identity>
+      <Hsp_positive>477</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLNMSECLVLGVFSDLALPDFATAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEGFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESSEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVSGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSL  SECLVLGVFSDLALPDFA AIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKE FSANSLQKRVGEITEALIKQRFSSATVCLPRL QES+EWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIV+GVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1004334806|ref|WP_061513731.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513731</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>978.393</Hsp_bit-score>
+      <Hsp_score>2528</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>473</Hsp_identity>
+      <Hsp_positive>476</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFLDLALPDFITAIDNEQQGLIKKLCQRVPEPGNTVWQTDFEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIECAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVF DLALPDF  AIDNEQQGLIKKLCQRVPEPGNTVWQTD EGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLID+HYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIE AANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|652976416|ref|WP_027229088.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|985764642|gb|KXB25761.1| aminopeptidase A [Legionella pneumophila] &gt;gi|985767086|gb|KXB28181.1| aminopeptidase A [Legionella pneumophila] &gt;gi|999119092|emb|CZG86254.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|999122217|emb|CZH19486.1| Cytosol aminopeptidase [Legionella pneumophila] &gt;gi|1024339698|gb|KZX34037.1| aminopeptidase [Legionella pneumophila] &gt;gi|1108608965|gb|APF07332.1| leucyl aminopeptidase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229088</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>965.296</Hsp_bit-score>
+      <Hsp_score>2494</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>462</Hsp_identity>
+      <Hsp_positive>475</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTMSECLVLGVFSDLALPDFATAIDNEQQGVIKKLCQRIPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVSGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCHVMGPKEIKEMGMGALLAVAQGSDQPPRLIDIHYQGDKNSAPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYHPDFVIDIATLTGAIIVALGNVATGYMTKDEQLAKSIELAANESQDKVWRMPLDEAYQDALDSPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLTQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLT SECLVLGVFSDLALPDFA AIDNEQQG+IKKLCQR+PEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIV+GVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISC VMGP+EIKEMGMGALLAVAQGSDQPPRLID+HY G+KNSAP+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERY+PDFVIDIATLTGAIIVALGN+ATGYMT+DEQLAKSIE AANESQDKVWRMPLDEAYQDAL+SPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLL QLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|652969891|ref|WP_027222784.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila] &gt;gi|1005362944|gb|AMP88813.1| aminopeptidase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367792|gb|AMP93569.1| aminopeptidase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370711|gb|AMP96487.1| aminopeptidase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222784</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>955.281</Hsp_bit-score>
+      <Hsp_score>2468</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>472</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLTLPDFATAIDNEQPGLIKKLCQRIPEPGNTVWQTDVKGHSLLIIQCGRKEEFSASSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQFLDFKTKHAKSHKLESVIFHLPGATEKSLEMAKAIVSGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCHVMGPEEIKEMGMGALLAVAQGSDQPPRLIDIHYQGDKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYHPDFVIDIATLTGAIIVALGNVATGYMTKDEQLAQSIELAANESQDKVWRMPLDEAYQDALDSPLADMINASFDRTAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLTQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDL LPDFA AIDNEQ GLIKKLCQR+PEPGNTVWQTDV+GHSLLIIQCG+KEEFSA+SLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQ LDFKTK+AKSHKLESVIFHLPGATEKSLEMAKAIV+GVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISC VMGPEEIKEMGMGALLAVAQGSDQPPRLID+HY G+KNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERY+PDFVIDIATLTGAIIVALGN+ATGYMT+DEQLA+SIE AANESQDKVWRMPLDEAYQDAL+SPLADMINA FDR+AGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLL QLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1011914666|ref|WP_062727880.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727880</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>951.814</Hsp_bit-score>
+      <Hsp_score>2459</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>454</Hsp_identity>
+      <Hsp_positive>472</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHTPSLTTSECLVLGVFSDLTLPDFATAIDNEQQGLIKKLCHRIPEPGNTVWQTDIKGHSLLIIQCGRKEEFSASSLQKRVGEITEALIKQRFSSATVCLPRLNQESAEWQLEQMIVQIDNLRYQLLDFKTKHAKSHKLESVIFHLPGATEKSLEIATAIVSGVEFCRDLANMPANICTPTYLGEQAISLSKQFDQISCHVMGPKEIKGMGMGALLAVAQGSDQPPRLIDIHYQGDKNSAPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYHPDFVIDIATLTGAIIVALGNVATGYMTKDEQLAKAIELAANESQDKVWRMPLDEAYQDALDSPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLTQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTHTPSLTTSECLVLGVFSDL LPDFA AIDNEQQGLIKKLC R+PEPGNTVWQTD++GHSLLIIQCG+KEEFSA+SLQKRVGEITEALIKQRFSSATVCLPRL QESAEWQ+EQMIVQIDNLRYQLLDFKTK+AKSHKLESVIFHLPGATEKSLE+A AIV+GVEFCRDLANMPANICTPTYLGEQAI LSKQFDQISC VMGP+EIK MGMGALLAVAQGSDQPPRLID+HY G+KNSAP+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERY+PDFVIDIATLTGAIIVALGN+ATGYMT+DEQLAK+IE AANESQDKVWRMPLDEAYQDAL+SPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLL QLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|737921545|ref|WP_035886848.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella norrlandica] &gt;gi|701446851|gb|KGP64199.1| aminopeptidase A [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886848</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>914.064</Hsp_bit-score>
+      <Hsp_score>2361</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>465</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTYKPSLTTSECLVLGIFSDLELPDFAVTLDKEHQGLIKKLCQRAPEPGNTVWQADVEGHSLLIIQCGKKEEFNTSALQKRVGEITEALIKQRFSSATLCMPRLNQESAEWQIEQMIVQIDNLRYQLLDFKTKNSKAHRLESVVFYLPGATEKNLETAKALVSGVEFCRNLANMPANICTPTYLGEQAILLSEQFDQISCKVMGPDEMQQMGMGALLAVAQGSDQPPRLIDIHYQGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTIKACALLKLPINLIGIIASTENLISGSAVKSGDIVSTMSGQTVEILNTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGTVATGYMTKDEKLAEAIELAANESQDKVWRMPLDDAYQEALDSPLADMINSNFDRTAGSITAACFLSRFTEKYRWAHLDIAGTAWVSGKKRNATGRPVPLLTQLLRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT+ PSLTTSECLVLG+FSDL LPDFA  +D E QGLIKKLCQR PEPGNTVWQ DVEGHSLLIIQCGKKEEF+ ++LQKRVGEITEALIKQRFSSAT+C+PRL QESAEWQIEQMIVQIDNLRYQLLDFKTKN+K+H+LESV+F+LPGATEK+LE AKA+V+GVEFCR+LANMPANICTPTYLGEQAILLS+QFDQISC+VMGP+E+++MGMGALLAVAQGSDQPPRLID+HY GNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG IKACALLKLPINLIGIIAS ENLISGSAVKSGDIV+TMSGQTVEI+NTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALG +ATGYMT+DE+LA++IE AANESQDKVWRMPLD+AYQ+AL+SPLADMIN+ FDR+AGSITAACFLSRFTEKYRWAHLDIAGTAW+SGKKRNATGRPVPLL QLLRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|769980370|ref|WP_045096355.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella fallonii] &gt;gi|698843978|emb|CEG57947.1| aminopeptidase A, a cyteinylglycinase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096355</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>815.068</Hsp_bit-score>
+      <Hsp_score>2104</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>382</Hsp_identity>
+      <Hsp_positive>432</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYALTQTPSLSHSECLVLGVFSDADLPEFARTLDTEHHGLIKKLSQRATEPGDAVWQTDVQGHSLLLIQCGEKAEFTPNKLQKRLSEIVDSLIKQRFTSATLCLPQLKRYTAEWQLEQMILQINNQRYQLLDFKKKNAKPHPLETISFYLPGADEKVVETAQAISTGVELTRHLANMPANICTPTYLGEQAQHLAQQFASISCTVMGPEEIQEMGMGALLAVSQGSDQPPRLIDIQYKGAGTSAPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTIKACALLKLPVNVIGLIASTENMLNGSAVKPGDIITSMSGQTVEILNTDAEGRLVLADALTYAERYSPEFVIDIATLTGAIIVALGNVATGYMTKDEPLAKLIETAATESEDKVWRMPLDDAYQDAIDSPLADMINAGFDRTAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLTQIIRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNY LT TPSL+ SECLVLGVFSD  LP+FA  +D E  GLIKKL QR  EPG+ VWQTDV+GHSLL+IQCG+K EF+ N LQKR+ EI ++LIKQRF+SAT+CLP+L + +AEWQ+EQMI+QI+N RYQLLDFK KNAK H LE++ F+LPGA EK +E A+AI TGVE  R LANMPANICTPTYLGEQA  L++QF  ISC VMGPEEI+EMGMGALLAV+QGSDQPPRLID+ Y G   SAP+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG IKACALLKLP+N+IG+IAS EN+++GSAVK GDI+T+MSGQTVEI+NTDAEGRLVLADALTYAERY+P+FVIDIATLTGAIIVALGN+ATGYMT+DE LAK IE AA ES+DKVWRMPLD+AYQDA++SPLADMINAGFDR+AGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLL Q++RHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|517405764|ref|WP_018578436.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella shakespearei] &gt;gi|962281249|gb|KTD65062.1| aminopeptidase A/I [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578436</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>809.675</Hsp_bit-score>
+      <Hsp_score>2090</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>375</Hsp_identity>
+      <Hsp_positive>437</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNS-APVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTSKPFLTDSECLVVGIFSDAGLPDFAAGLDKEHQGLLTKLSKRATEPGDAVWQTDLNGHSLVLVQCGKKDEFNSTALQKRVAEITDSLIKQRFASATLCMPQLPQQTAEWQLEQMIVQVDNLRYQLLDFKKKNAKAHKLESISFYLPGASEQSLELAKSIVIGVEFARHLANMPANICTPTYLGEQASHMAEQFELMSCMVMGPEEMREMGMGTLLAVSQGSDQPPRLIDIQYKGAGNDEPPIVLVGKGITFDSGGLSIKPAAGMDEMKYDMSGAASVLGTLKACALLKLPVNVIGLIASAENVIGGSAVKPGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYNPRFVLDIATLTGAIIVALGSVATGFMTKDDELANMLEQAAKESQDKVWRMPLEDDYQEALDSPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLTQLIRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  P LT SECLV+G+FSD  LPDFA  +D E QGL+ KL +R  EPG+ VWQTD+ GHSL+++QCGKK+EF++ +LQKRV EIT++LIKQRF+SAT+C+P+L Q++AEWQ+EQMIVQ+DNLRYQLLDFK KNAK+HKLES+ F+LPGA+E+SLE+AK+IV GVEF R LANMPANICTPTYLGEQA  +++QF+ +SC VMGPEE++EMGMG LLAV+QGSDQPPRLID+ Y G  N   P++LVGKGITFDSGGLSIKPA  MDEMKYDMSGAASVLG +KACALLKLP+N+IG+IASAEN+I GSAVK GDIVT+MSGQTVEIINTDAEGRLVLADALTYAERYNP FV+DIATLTGAIIVALG++ATG+MT+D++LA  +E+AA ESQDKVWRMPL++ YQ+AL+SPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLL QL+RHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966433946|ref|WP_058474377.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella quateirensis] &gt;gi|962263770|gb|KTD47850.1| aminopeptidase A/I [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474377</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>806.979</Hsp_bit-score>
+      <Hsp_score>2083</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTQNPSLSASECLVLGIFSDAELPDYALNLDKEHDGIITKLSQRATEPGDALWQSDVQGHSLLIVQFGKKNDFKSTVLQKRISDITDELIKQRFTSALLCLPQLINQSAEWQLEQMIVQIDNIRYQLLDFKKKNPKSHKLETISFYLPGASEKSLELAKAIVSGVEMTRHLANMPANICTPTYLGEQALELANQFDQMSCKVMGPDEMRAMGMGLLLAVSQGSSEPPRLIDIQYKGAGDAPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTLKACALLKLPVNVIGLIASAENMVSGAAVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYNPEFVLDIATLTGAIIVALGAVSTGYMTKDDELAKLLEQAAVESQDKIWRMPLDDAYQDALDSPLADMINASFDRTAGSITAACFLSRYTEHYRWAHLDIAGTSWVSGKKRNATGRPVPLLTQLIRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  PSL+ SECLVLG+FSD  LPD+A  +D E  G+I KL QR  EPG+ +WQ+DV+GHSLLI+Q GKK +F +  LQKR+ +IT+ LIKQRF+SA +CLP+L  +SAEWQ+EQMIVQIDN+RYQLLDFK KN KSHKLE++ F+LPGA+EKSLE+AKAIV+GVE  R LANMPANICTPTYLGEQA+ L+ QFDQ+SC+VMGP+E++ MGMG LLAV+QGS +PPRLID+ Y G  ++ P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACALLKLP+N+IG+IASAEN++SG+AVKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERYNP+FV+DIATLTGAIIVALG ++TGYMT+D++LAK +E+AA ESQDK+WRMPLD+AYQDAL+SPLADMINA FDR+AGSITAACFLSR+TE YRWAHLDIAGT+W+SGKKRNATGRPVPLL QL+RHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|654932796|ref|WP_028383154.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella moravica] &gt;gi|962253330|gb|KTD37511.1| aminopeptidase A/I [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383154</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>802.742</Hsp_bit-score>
+      <Hsp_score>2072</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>434</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLIQNPSLTISECLVLGIFSDAELPDYAINLDKEHDGVITRLSQRATEPGDAVWQMDVQGQSLLVVQFGKKNEFKSTVLQKRITEITDELIKKRFSSALLCLPQLNNQSAEWQLEQMIVQIDNIRYQLLDFKKKNPKSHKLESISFYLPGAREKSLELAKAIVSGVEMTRHLANMPANICTPTYLGEQALELAKQFDSMSCKVMGPDEMRAMGMGLLLAVSQGSNEPPRFIDLHYKGAGDAAPIVLVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTLKACALLKLPVNVIGLIASAENMVSGAAVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYHPEFVLDIATLTGAMIVALGSIATGYMTKDDELAKLLEQAAIESQDKIWRMPLDDAYQEALDSPLADMINASFDRTAGSITAACFLSRYTEGYRWAHLDIAGTSWVSGKKRNATGRPVPLLTQLIRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGL   PSLT SECLVLG+FSD  LPD+A  +D E  G+I +L QR  EPG+ VWQ DV+G SLL++Q GKK EF +  LQKR+ EIT+ LIK+RFSSA +CLP+L  +SAEWQ+EQMIVQIDN+RYQLLDFK KN KSHKLES+ F+LPGA EKSLE+AKAIV+GVE  R LANMPANICTPTYLGEQA+ L+KQFD +SC+VMGP+E++ MGMG LLAV+QGS++PPR ID+HY G  ++AP++LVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACALLKLP+N+IG+IASAEN++SG+AVKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY+P+FV+DIATLTGA+IVALG+IATGYMT+D++LAK +E+AA ESQDK+WRMPLD+AYQ+AL+SPLADMINA FDR+AGSITAACFLSR+TE YRWAHLDIAGT+W+SGKKRNATGRPVPLL QL+RHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966439684|ref|WP_058480007.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella waltersii] &gt;gi|962295581|gb|KTD79226.1| aminopeptidase A/I [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480007</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>799.275</Hsp_bit-score>
+      <Hsp_score>2063</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>373</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTNTPSLTNNECLVVGLFSDSGLPDCAAHLHQHHQELIQTLSQKASEPGDLVWQSDIDGHSLLLIQCGKQNDYNPSHFQKRITEITEALIKQRISSATLCLPRLANETAEWQLEQMIVQIDNLRYQLLDFKTKNPKSHRLESITFYLPGANETSLKVAKAIADGVEYTRHLANLPANVCTPTYLGEQATELAKQFDSVTCKVMGKEEIQAMGMGAFLAVSQGSDQPPRLIDIQYQGAGKADPIVLVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTIKTCALLKLPINVVGLIASAENLIGGSAVKSGDIVKTMSGQTVEIINTDAEGRLVLCDALTYAERFNPKFVIDIATLTGAIIVALGSVATGYMTNDDDLSQLIETAAKESQDKVWRMPLDDAYQDAIDSPLADMINANFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWVSGKKRNATGRPVPLLTQILRHVANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT+TPSLT +ECLV+G+FSD  LPD A  +    Q LI+ L Q+  EPG+ VWQ+D++GHSLL+IQCGK+ +++ +  QKR+ EITEALIKQR SSAT+CLPRL  E+AEWQ+EQMIVQIDNLRYQLLDFKTKN KSH+LES+ F+LPGA E SL++AKAI  GVE+ R LAN+PAN+CTPTYLGEQA  L+KQFD ++C+VMG EEI+ MGMGA LAV+QGSDQPPRLID+ Y G   + P++LVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG IK CALLKLPIN++G+IASAENLI GSAVKSGDIV TMSGQTVEIINTDAEGRLVL DALTYAER+NP FVIDIATLTGAIIVALG++ATGYMT D+ L++ IE AA ESQDKVWRMPLD+AYQDA++SPLADMINA FDRSAGSITAACFLSRFTEKYRWAHLDIAGTAW+SGKKRNATGRPVPLL Q+LRHVANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966460498|ref|WP_058492927.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella worsleiensis] &gt;gi|962296574|gb|KTD80211.1| aminopeptidase A/I [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492927</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.571</Hsp_bit-score>
+      <Hsp_score>2043</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTQKPALNASECLVLGIFSDAELPDYAIKLDKEHDGIITRLSQKATEPGGAVWQSDLAGHSLLVIQFGKKNEFKASVLQKRIAELSDELIKKRITSALLCLPQLSNHSAEWQLEQMVVQIDNIRYQLLDFKKNNPKFHKLESIRFYLPGASEKALELGKAVIAGVEMTRHLANMPANICTPTYLGEQALELAKHYDSINCKVMGPDEMRSMGMGLLLAVSQGSSEPPRLIDIQYKGAGDAAPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTIKACALLKLPVNVIGLIASAENMVSGAAVKSGDIVTSMSGQTVEIINTDAEGRLVMADALTYAERYNPEFVLDIATLTGAMIVALGSVATGFMTEDDKLAKLLEQAALESQDKVWRMPLDEAYQDALDSPLADMINAGFDRTAGSITAACFLSRFTKKYRWAHLDIAGTAWISGKKRNATGRPVPLLTQLIRHVANSH</Hsp_hseq>
+      <Hsp_midline>MNYGLT  P+L  SECLVLG+FSD  LPD+A  +D E  G+I +L Q+  EPG  VWQ+D+ GHSLL+IQ GKK EF A+ LQKR+ E+++ LIK+R +SA +CLP+L+  SAEWQ+EQM+VQIDN+RYQLLDFK  N K HKLES+ F+LPGA+EK+LE+ KA++ GVE  R LANMPANICTPTYLGEQA+ L+K +D I+C+VMGP+E++ MGMG LLAV+QGS +PPRLID+ Y G  ++AP+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG IKACALLKLP+N+IG+IASAEN++SG+AVKSGDIVT+MSGQTVEIINTDAEGRLV+ADALTYAERYNP+FV+DIATLTGA+IVALG++ATG+MT D++LAK +E+AA ESQDKVWRMPLDEAYQDAL+SPLADMINAGFDR+AGSITAACFLSRFT+KYRWAHLDIAGTAWISGKKRNATGRPVPLL QL+RHVANS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966421252|ref|WP_058464453.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella cincinnatiensis] &gt;gi|962204226|gb|KTC89171.1| leucine aminopeptidase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058464453</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>753.436</Hsp_bit-score>
+      <Hsp_score>1944</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>354</Hsp_identity>
+      <Hsp_positive>419</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTSKPSLSANECLVLGVFSDIELADFALNIDKEHHGLLSKLIHKATEPGDLLWHHNSQG-SVLIIQCGEKAKFNANQLQKRLTEVMGALIKHRINSATLCIPQVTEYSSDQQLEQMVVLIDNQRYQLLDFKKKKVKPHQLETITFYLPNASEHGIKLGKAIATGIELTRHLANMPANICTPTYLGEQALQLAKEFPQEISCRVMGPEEMREMGMETLLAVAQGSAQPPKLIDIHYQGAGNNPPIILVGKGITFDSGGLSIKPANAMDEMKYDMCGAASVLGVIKACALLKLPINVIGLIASAENMVSGTSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYTPEFVIDVATLTGGIIVALGTVASGFMTQDEELAQLIEKAAKESNDRVWRMPLDDAYQDALESPLADMINAGFDRTASSITAACFLSRFTEKYRWAHIDIAGTAWIFGKNRNATGRPVPLLIQILRHAANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  PSL+ +ECLVLGVFSD+ L DFA  ID E  GL+ KL  +  EPG+ +W  + +G S+LIIQCG+K +F+AN LQKR+ E+  ALIK R +SAT+C+P++T+ S++ Q+EQM+V IDN RYQLLDFK K  K H+LE++ F+LP A+E  +++ KAI TG+E  R LANMPANICTPTYLGEQA+ L+K+F Q ISC+VMGPEE++EMGM  LLAVAQGS QPP+LID+HY G  N+ P+ILVGKGITFDSGGLSIKPANAMDEMKYDM GAASVLGVIKACALLKLPIN+IG+IASAEN++SG++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+G+MT+DE+LA+ IE+AA ES D+VWRMPLD+AYQDALESPLADMINAGFDR+A SITAACFLSRFTEKYRWAH+DIAGTAWI GK RNATGRPVPLLIQ+LRH ANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|493927784|ref|WP_006872518.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella drancourtii] &gt;gi|363536235|gb|EHL29681.1| aminopeptidase A/I [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872518</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>753.051</Hsp_bit-score>
+      <Hsp_score>1943</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQF-DQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTQKPSLSTSECLVLGIFADDKLSDFAQILDKEHHGLITKLAQKASDAGDAIWQAHIEGSSLLLIQCGKKEKFTPALLKKRVLEITDALIKQRIKSATVCLPQLPEYSADWQLEQMVVHIDSQCYQLLDFKKKNAKPHVLASINFYLPNATEQALTVGQAIADGVEFTRNLANMPANICTPSYLGEQAMHLAEQFASQINCTVLGPNEMLAMGMGSLLAVAQGSDQPPRLIDIQYKGAGDAAPIVLVGKGITFDSGGMSIKPANVMDEMKYDMCGAASVLGTIKACALLKLPVNIVGLIASAENMVSGAAIKPGDIVTSMSGQTIEILNTDAEGRLVLADALTYAERFNPKFVLDIATLTGAIIVALGTVASGFMTKDDELAQLINEAAQESNDRVWRMPLDEEYQDAIDSPLADMINAGFDRTAGSVTAACFLSRFTEKYRWAHLDIAGTAWVFGKKRNATGRPVPLLTQLIRHAANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  PSL+TSECLVLG+F+D  L DFA  +D E  GLI KL Q+  + G+ +WQ  +EG SLL+IQCGKKE+F+   L+KRV EIT+ALIKQR  SATVCLP+L + SA+WQ+EQM+V ID+  YQLLDFK KNAK H L S+ F+LP ATE++L + +AI  GVEF R+LANMPANICTP+YLGEQA+ L++QF  QI+C V+GP E+  MGMG+LLAVAQGSDQPPRLID+ Y G  ++AP++LVGKGITFDSGG+SIKPAN MDEMKYDM GAASVLG IKACALLKLP+N++G+IASAEN++SG+A+K GDIVT+MSGQT+EI+NTDAEGRLVLADALTYAER+NP FV+DIATLTGAIIVALG +A+G+MT+D++LA+ I  AA ES D+VWRMPLDE YQDA++SPLADMINAGFDR+AGS+TAACFLSRFTEKYRWAHLDIAGTAW+ GKKRNATGRPVPLL QL+RH ANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966496941|ref|WP_058513707.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella santicrucis] &gt;gi|962279638|gb|KTD63465.1| leucine aminopeptidase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058513707</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>749.199</Hsp_bit-score>
+      <Hsp_score>1933</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>354</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTSKPSLSASECLVLGVFSDTELPDFALNIDKEHHGLLSNLINKATEPGDLLWHHNPQ-VSVLIIQCGEKEKFNPNQLQKRLADIISALIKHRINSATLCIPQITGYSSDQQLEQMVVLIDNQRYQLLDFKKKKVKPHQLETITFYLPNASEQGIKLGKAIATGVELTRHLANMPANICTPTYLGEQAIQLAKEFSQEISCKVMGPEEMRELGMETLLAVAQGSAQPPKLIDINYQGAGNNPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGAIKACALLKLPINVIGLIASAENMVSGTSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYKPEFVIDVATLTGGIIVALGTVASGFMTQDEELAQLIEKAAKESNDRVWRMPLDDAYQDALESPLADMINAGFDRTASSITAACFLSRFTEKYRWAHIDIAGTAWIFGKNRNATGRPVPLLIQILRHAANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  PSL+ SECLVLGVFSD  LPDFA  ID E  GL+  L  +  EPG+ +W  + +  S+LIIQCG+KE+F+ N LQKR+ +I  ALIK R +SAT+C+P++T  S++ Q+EQM+V IDN RYQLLDFK K  K H+LE++ F+LP A+E+ +++ KAI TGVE  R LANMPANICTPTYLGEQAI L+K+F Q ISC+VMGPEE++E+GM  LLAVAQGS QPP+LID++Y G  N+ P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG IKACALLKLPIN+IG+IASAEN++SG++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+G+MT+DE+LA+ IE+AA ES D+VWRMPLD+AYQDALESPLADMINAGFDR+A SITAACFLSRFTEKYRWAH+DIAGTAWI GK RNATGRPVPLLIQ+LRH ANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966414667|ref|WP_058457952.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Fluoribacter bozemanae] &gt;gi|962192223|gb|KTC77297.1| leucine aminopeptidase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058457952</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>748.043</Hsp_bit-score>
+      <Hsp_score>1930</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>415</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHKPTLSTSECLVLGVFSDAELTDFAMALDKEHHGLISRLIKKTSESGDIQWHHDVHG-SLLIIQCGEQAKFTPSQLKKRLGEITGALIKHRIRTATVCLPLITQYSADWQLEQMVTQIDNQCYQLLDFKKKKAKPHQLEAITFYLPNASEEGLKSGQAIAAGVELSRHLADMPANICTPTYLGEQAIQLAKEFTQHMSCKVMGPDEMRKMGMETLLAVAQGSAQPPRLIDIHYKGAGDLPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTLKACALLKLPINVIGLIASAENMVSGTSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYQPEFVIDIATLTGGIIVALGTVASGFMTQDEELAQLIENAAKESNDRVWRMPLDDEYQDALDSPLADMINAGFDRTASSITAACFLSRFTEKYRWAHLDIAGTAWVFGKNRNATGRPVPLLTQIIRHASNSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTH P+L+TSECLVLGVFSD  L DFA A+D E  GLI +L ++  E G+  W  DV G SLLIIQCG++ +F+ + L+KR+GEIT ALIK R  +ATVCLP +TQ SA+WQ+EQM+ QIDN  YQLLDFK K AK H+LE++ F+LP A+E+ L+  +AI  GVE  R LA+MPANICTPTYLGEQAI L+K+F Q +SC+VMGP+E+++MGM  LLAVAQGS QPPRLID+HY G  +  P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACALLKLPIN+IG+IASAEN++SG++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVIDIATLTG IIVALG +A+G+MT+DE+LA+ IE AA ES D+VWRMPLD+ YQDAL+SPLADMINAGFDR+A SITAACFLSRFTEKYRWAHLDIAGTAW+ GK RNATGRPVPLL Q++RH +NSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966437527|ref|WP_058477895.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella steigerwaltii] &gt;gi|962292361|gb|KTD76055.1| leucine aminopeptidase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477895</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.117</Hsp_bit-score>
+      <Hsp_score>1925</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>416</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYELTQKPSLSTSECLVLGVFSDAKLSDFALALDKKNQGLISKLIEKTSEAGDIQWHHDLHG-TLLIIQCGEQAKFSPSQLKKRITEITVALIKHRIRSATVCLPQITQHSADWQLEQMIIQMDNQRYQLLDFKKKKAKAHQLESVAFYLPNAHSEGLKLGQAIAAGVKLTRNLANMPANICTPTYLGEQATQLAKEFPQSMNCKVMGPEEMRQMGMETLLAVAQGSVQPPRLIDIHYKGAEDAPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTLKACAMLKLPINVIGLIASAENMVSGTAVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYQPEFVIDVATLTGGIIVALGTVASGFMTQDEELAQLIENAAQESNDRVWRMPLDDDYQDALDSPLADMINANFDRTASSITAACFLSRFTEKYRWAHLDIAGTAWVFGKNRNATGRPVPLLTQIIRHAINSR</Hsp_hseq>
+      <Hsp_midline>MNY LT  PSL+TSECLVLGVFSD  L DFA A+D + QGLI KL ++  E G+  W  D+ G +LLIIQCG++ +FS + L+KR+ EIT ALIK R  SATVCLP++TQ SA+WQ+EQMI+Q+DN RYQLLDFK K AK+H+LESV F+LP A  + L++ +AI  GV+  R+LANMPANICTPTYLGEQA  L+K+F Q ++C+VMGPEE+++MGM  LLAVAQGS QPPRLID+HY G +++ P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACA+LKLPIN+IG+IASAEN++SG+AVKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+G+MT+DE+LA+ IE AA ES D+VWRMPLD+ YQDAL+SPLADMINA FDR+A SITAACFLSRFTEKYRWAHLDIAGTAW+ GK RNATGRPVPLL Q++RH  NSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|518063421|ref|WP_019233629.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella anisa] &gt;gi|962187481|gb|KTC72607.1| leucine aminopeptidase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233629</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>744.962</Hsp_bit-score>
+      <Hsp_score>1922</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>413</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTQKPSLSTSECLVLGVFSDAELTDFALTLDKELHGLISRLIKKTSETGDIQWHHDVHG-SIFIIQCGEQTKFTPSQLKKRLGEITGALIKHRIRTATVCLPLITQYSADWQLEQMVIQIDNQCYQLLDFKKKKAKPHQLEAITFYLPNASEEGLKSGRAIAAGVELTRHLANMPANICTPTYLGEQAIQLAKEFTQHMSCKVMGPDEMRKMGMETLLAVAQGSAQPPRLIDIHYKGAGDLPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGALKACALLKLPINVIGLIASAENMVSGTAVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYQPKFVIDVATLTGGVIVALGTVASGFMTQDEELAQLIEKAAQESNDRVWRMPLDDEYQDALDSPLADMINAGFDRTASSVTAACFLSRFTEKYRWAHLDIAGTAWIFGKNRNATGRPVPLLTQIIRHAANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  PSL+TSECLVLGVFSD  L DFA  +D E  GLI +L ++  E G+  W  DV G S+ IIQCG++ +F+ + L+KR+GEIT ALIK R  +ATVCLP +TQ SA+WQ+EQM++QIDN  YQLLDFK K AK H+LE++ F+LP A+E+ L+  +AI  GVE  R LANMPANICTPTYLGEQAI L+K+F Q +SC+VMGP+E+++MGM  LLAVAQGS QPPRLID+HY G  +  P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACALLKLPIN+IG+IASAEN++SG+AVKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P FVID+ATLTG +IVALG +A+G+MT+DE+LA+ IE+AA ES D+VWRMPLD+ YQDAL+SPLADMINAGFDR+A S+TAACFLSRFTEKYRWAHLDIAGTAWI GK RNATGRPVPLL Q++RH ANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966468625|ref|WP_058499951.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella gratiana] &gt;gi|962221419|gb|KTD06079.1| leucine aminopeptidase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499951</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>744.577</Hsp_bit-score>
+      <Hsp_score>1921</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>418</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTYKPSLSASECLVLGVFSDTDLPDFAQNIDKEHHGLLNKLIHKATEPGDVLWHHNSQG-SLLIIQCGEKAKFNLNQLKKRITEIIGALIKHRINSAILCVPQISGCSPDQQLEQMVILIDNQRYQLLDFKKKKAKPHQLETISFYLPNATEQSIKLGKAIATGVELTRHLANMPANICTPTYLGEQAIQLANEFPQELNCKVLGPEEMRDLGMETLLAVAQGSAQPPKLIDIHYKGAGDNPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTIKACALLKLPINVIGLIASAENMVSATSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYNPEFVIDIATLTGGIIVALGTVASGFMTQDEELAQLIEKAATESNDRVWRMPLDEDYQDALDSPLADMINAGFDRTASSITAACFLSRFTEKYRWAHIDIAGTAWISGKNRNATGRPVPLLIEIIRHAANSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT+ PSL+ SECLVLGVFSD  LPDFA  ID E  GL+ KL  +  EPG+ +W  + +G SLLIIQCG+K +F+ N L+KR+ EI  ALIK R +SA +C+P+++  S + Q+EQM++ IDN RYQLLDFK K AK H+LE++ F+LP ATE+S+++ KAI TGVE  R LANMPANICTPTYLGEQAI L+ +F Q ++C+V+GPEE++++GM  LLAVAQGS QPP+LID+HY G  ++ P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG IKACALLKLPIN+IG+IASAEN++S ++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERYNP+FVIDIATLTG IIVALG +A+G+MT+DE+LA+ IE+AA ES D+VWRMPLDE YQDAL+SPLADMINAGFDR+A SITAACFLSRFTEKYRWAH+DIAGTAWISGK RNATGRPVPLLI+++RH ANSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|962205949|gb|KTC90886.1|</Hit_id>
+  <Hit_def>leucine aminopeptidase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>KTC90886</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>743.806</Hsp_bit-score>
+      <Hsp_score>1919</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>416</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTQKPTLSASECLVLGVFSDVELSAFAQSLDKEHQGLISRLIKKTSEAGDMLWHHDLHG-AILIVQCGEQGKFNPSQLKKRIAEVTGALIKHRIRSATICFPQIAQYSADWQLEQMIIQMDNQCYQLLEFKKKKAKAHQLESVTFYLPNANTEGLKLGEAIATGVEFTRHLANMPANICTPAYLGEQAMQLAKEFAQSMNCKVMGPEEMRQMGMETLLAVAQGSAQPPRLIDIHYKGAGDAPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTLKACALLKLPVNVIGLIASAENMVSGTSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYQPEFVIDVATLTGGIIVALGTVASGYMTQDEELAKLIEEAAMESNDRVWRMPLDDEYQDALESPLADMINAGFDRTASSVTAACFLSRFTEKYRWAHLDIAGTAWVFGKNRNATGRPVPLLTQILRHASNSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  P+L+ SECLVLGVFSD+ L  FA ++D E QGLI +L ++  E G+ +W  D+ G ++LI+QCG++ +F+ + L+KR+ E+T ALIK R  SAT+C P++ Q SA+WQ+EQMI+Q+DN  YQLL+FK K AK+H+LESV F+LP A  + L++ +AI TGVEF R LANMPANICTP YLGEQA+ L+K+F Q ++C+VMGPEE+++MGM  LLAVAQGS QPPRLID+HY G  ++ P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACALLKLP+N+IG+IASAEN++SG++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+GYMT+DE+LAK IE AA ES D+VWRMPLD+ YQDALESPLADMINAGFDR+A S+TAACFLSRFTEKYRWAHLDIAGTAW+ GK RNATGRPVPLL Q+LRH +NSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|657688597|ref|WP_029489048.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Fluoribacter dumoffii]</Hit_def>
+  <Hit_accession>WP_029489048</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>743.036</Hsp_bit-score>
+      <Hsp_score>1917</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>416</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTQKPTLSASECLVLGVFSDVELSAFAQSLDKEHQGLISRLIKKTSEAGDMLWHHDLHG-AILIVQCGEQGKFNPSQLKKRIAEVTGALIKHRIRSATICFPQIAQYSADWQLEQMIIQMDNQCYQLLEFKKKKAKAHQLESVTFYLPNANTEGLKLGEAIATGVEFTRHLANMPANICTPAYLGEQAMQLAKEFAQSMNCKVMGPEEMRQMGMETLLAVAQGSAQPPRLIDIHYKGAGDAPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTLKACALLKLPVNVIGLIASAENMVSGTSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYQPEFVIDVATLTGGIIVALGTVASGYMTQDEELAKLIEEAAMESNDRVWRMPLDDEYQDALESPLADMINAGFDRTASSVTAACFLSRFTEKYRWAHLDIAGTAWVFGKNRNATGRPVPLLTQILRHASNSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  P+L+ SECLVLGVFSD+ L  FA ++D E QGLI +L ++  E G+ +W  D+ G ++LI+QCG++ +F+ + L+KR+ E+T ALIK R  SAT+C P++ Q SA+WQ+EQMI+Q+DN  YQLL+FK K AK+H+LESV F+LP A  + L++ +AI TGVEF R LANMPANICTP YLGEQA+ L+K+F Q ++C+VMGPEE+++MGM  LLAVAQGS QPPRLID+HY G  ++ P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACALLKLP+N+IG+IASAEN++SG++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+GYMT+DE+LAK IE AA ES D+VWRMPLD+ YQDALESPLADMINAGFDR+A S+TAACFLSRFTEKYRWAHLDIAGTAW+ GK RNATGRPVPLL Q+LRH +NSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|498340411|ref|WP_010654567.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Fluoribacter dumoffii]</Hit_def>
+  <Hit_accession>WP_010654567</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>742.265</Hsp_bit-score>
+      <Hsp_score>1915</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>343</Hsp_identity>
+      <Hsp_positive>416</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTQKPTLSASECLVLGVFSDVELSAFAQSLDKEHQGLISRLIKKTSEAGDMLWHHDLHG-AILIVQCGEQGKFNPSQLKKRIAEVTGALIQHRIRSATICFPQIAQYSADWQLEQMIIQMDNQCYQLLEFKKKKAKAHQLESVTFYLPNANTEGLKLGEAIATGVEFTRHLANMPANICTPAYLGEQAMQLAKEFAQSMNCKVMGPEEMRQMGMETLLAVAQGSAQPPRLIDIHYKGAGDAPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTLKACALLKLPVNVIGLIASAENMVSGTSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYQPEFVIDVATLTGGIIVALGTVASGYMTQDEELAKLIEEAAMESNDRVWRMPLDDEYQDALESPLADMINAGFDRTASSVTAACFLSRFTEKYRWAHLDIAGTAWVFGKNRNATGRPVPLLTQILRHASNSR</Hsp_hseq>
+      <Hsp_midline>MNYGLT  P+L+ SECLVLGVFSD+ L  FA ++D E QGLI +L ++  E G+ +W  D+ G ++LI+QCG++ +F+ + L+KR+ E+T ALI+ R  SAT+C P++ Q SA+WQ+EQMI+Q+DN  YQLL+FK K AK+H+LESV F+LP A  + L++ +AI TGVEF R LANMPANICTP YLGEQA+ L+K+F Q ++C+VMGPEE+++MGM  LLAVAQGS QPPRLID+HY G  ++ P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACALLKLP+N+IG+IASAEN++SG++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+GYMT+DE+LAK IE AA ES D+VWRMPLD+ YQDALESPLADMINAGFDR+A S+TAACFLSRFTEKYRWAHLDIAGTAW+ GK RNATGRPVPLL Q+LRH +NSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966500683|ref|WP_058517356.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella parisiensis] &gt;gi|962256026|gb|KTD40163.1| leucine aminopeptidase [Legionella parisiensis] &gt;gi|1069293260|gb|OEH48592.1| Cytosol aminopeptidase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517356</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>741.495</Hsp_bit-score>
+      <Hsp_score>1913</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>412</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTHKPTLSTSECLVLGVFSDAELADFALALDKEQHGLISMLIKKTSEAGDMQWHHDMHG-SIFIIQCGEQAKFTPSQLKKRLVEITGALIKHRIRTATVCLPLITQYSADWQLEQMVTRIDNQCYQLLDFKKKKAKPHQLETITFYLPNASEEGLKSGQAIAAGVELTRNLANMPANICTPTYLGEQAIQLAKEFTQHMSCKVMGPDEMRKMGMETLLAVAQGSAQPPRLIDIHYKGAGNLPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGTLKACALLKLPINVIGLIASAENMVSGSSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYQPEFVIDVATLTGGIIVALGTVASGYMTQDEELAQLIENAAKESNDRVWRMPLDDEYQDALDSPLADMINADFDRTASSVTAACFLSRFTEKYRWAHLDIAGTAWVFGKNRNATGRPVPLLTQIIRHAHNSR</Hsp_hseq>
+      <Hsp_midline>MNYGLTH P+L+TSECLVLGVFSD  L DFA A+D EQ GLI  L ++  E G+  W  D+ G S+ IIQCG++ +F+ + L+KR+ EIT ALIK R  +ATVCLP +TQ SA+WQ+EQM+ +IDN  YQLLDFK K AK H+LE++ F+LP A+E+ L+  +AI  GVE  R+LANMPANICTPTYLGEQAI L+K+F Q +SC+VMGP+E+++MGM  LLAVAQGS QPPRLID+HY G  N  P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG +KACALLKLPIN+IG+IASAEN++SGS+VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+GYMT+DE+LA+ IE AA ES D+VWRMPLD+ YQDAL+SPLADMINA FDR+A S+TAACFLSRFTEKYRWAHLDIAGTAW+ GK RNATGRPVPLL Q++RH  NSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|489731377|ref|WP_003635493.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella longbeachae] &gt;gi|269987553|gb|EEZ93808.1| cytosol aminopeptidase [Legionella longbeachae D-4968] &gt;gi|288859134|emb|CBJ13063.1| putative leucine aminopeptidase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635493</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>740.725</Hsp_bit-score>
+      <Hsp_score>1911</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>413</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQF-DQISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MNYGLTSKPSLSASECLVLGVFSDTELPDFALNIDKEHRGLMNNLINKATEPGDLRWHHNSH-ESILIIQCGEKNKFNSNQLQKRLTDVMGALIKHRISSATLCIPQISDYSPDQQLEQMIVLLDNQRYQLLDFKKKKANPHQLETITFYLPNASEQCIELGKAIATGVELTRHLANMPANICTPTYLGEQSLQLAKEFPHEISCKVMGAEEMREMGMGTLLAVAQGSAQPPKLIDIHYQGAGNNPPIVLVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGAIKACALLKLPINVIGLIASAENMVSSTSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYKPEFVIDVATLTGGIIVALGTVASGFMTQDEELAQLIEKAAKESNDRVWRMPLDDAYQDALESPLADMINAGFDRTASSITAACFLSRFTEKYRWAHIDIAGTAWIFGKNRNATGRPVPLLVQILRHAANSH</Hsp_hseq>
+      <Hsp_midline>MNYGLT  PSL+ SECLVLGVFSD  LPDFA  ID E +GL+  L  +  EPG+  W  +    S+LIIQCG+K +F++N LQKR+ ++  ALIK R SSAT+C+P+++  S + Q+EQMIV +DN RYQLLDFK K A  H+LE++ F+LP A+E+ +E+ KAI TGVE  R LANMPANICTPTYLGEQ++ L+K+F  +ISC+VMG EE++EMGMG LLAVAQGS QPP+LID+HY G  N+ P++LVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLG IKACALLKLPIN+IG+IASAEN++S ++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+G+MT+DE+LA+ IE+AA ES D+VWRMPLD+AYQDALESPLADMINAGFDR+A SITAACFLSRFTEKYRWAH+DIAGTAWI GK RNATGRPVPLL+Q+LRH ANS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|654930698|ref|WP_028381067.1|</Hit_id>
+  <Hit_def>leucyl aminopeptidase [Legionella cherrii] &gt;gi|962197467|gb|KTC82511.1| leucine aminopeptidase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028381067</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>737.258</Hsp_bit-score>
+      <Hsp_score>1902</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>343</Hsp_identity>
+      <Hsp_positive>413</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>484</Hsp_align-len>
+      <Hsp_qseq>MNYGLTHTPSLTTSECLVLGVFSDLALPDFANAIDNEQQGLIKKLCQRVPEPGNTVWQTDVEGHSLLIIQCGKKEEFSANSLQKRVGEITEALIKQRFSSATVCLPRLTQESAEWQIEQMIVQIDNLRYQLLDFKTKNAKSHKLESVIFHLPGATEKSLEMAKAIVTGVEFCRDLANMPANICTPTYLGEQAILLSKQFDQ-ISCQVMGPEEIKEMGMGALLAVAQGSDQPPRLIDVHYHGNKNSAPVILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVLGVIKACALLKLPINLIGIIASAENLISGSAVKSGDIVTTMSGQTVEIINTDAEGRLVLADALTYAERYNPDFVIDIATLTGAIIVALGNIATGYMTRDEQLAKSIERAANESQDKVWRMPLDEAYQDALESPLADMINAGFDRSAGSITAACFLSRFTEKYRWAHLDIAGTAWISGKKRNATGRPVPLLIQLLRHVANSR</Hsp_qseq>
+      <Hsp_hseq>MKYELTQQPSLSTSECLVLGVFSDTDLSDFAQALDKENHGLISKLIQKTSEAGDIQWHHNLHG-TLLIIQCGEQAKFNPSQLKKRTTEITVALIKHRVRSATICLPQINQYSANWQLEQMIIQMDNQRYQLLDFKKKKAKAHQLDSLTFYLPNASDEGLKLGQAIAAGVELTRNLANMPANICTPTYLGEQAMQLCKEFAQNMSCKVMGPEEMRQMGMETLLAVAQGSAQPPRLIDIHYKGAENTPPIILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASVFGALKACALLKLPIHVIGLIASAENMVSGTSVKSGDIVTSMSGQTVEIINTDAEGRLVLADALTYAERYQPEFVIDVATLTGGIIVALGTVASGFMTQDEELAQLIEKAAKDSNDRVWRMPLDDEYQDALDSPLADMINANFDRTASSVTAACFLSRFTEKYRWAHIDIAGTAWVFGKNRNATGRPVPLLTQIIRHAINSR</Hsp_hseq>
+      <Hsp_midline>M Y LT  PSL+TSECLVLGVFSD  L DFA A+D E  GLI KL Q+  E G+  W  ++ G +LLIIQCG++ +F+ + L+KR  EIT ALIK R  SAT+CLP++ Q SA WQ+EQMI+Q+DN RYQLLDFK K AK+H+L+S+ F+LP A+++ L++ +AI  GVE  R+LANMPANICTPTYLGEQA+ L K+F Q +SC+VMGPEE+++MGM  LLAVAQGS QPPRLID+HY G +N+ P+ILVGKGITFDSGGLSIKPANAMDEMKYDMSGAASV G +KACALLKLPI++IG+IASAEN++SG++VKSGDIVT+MSGQTVEIINTDAEGRLVLADALTYAERY P+FVID+ATLTG IIVALG +A+G+MT+DE+LA+ IE+AA +S D+VWRMPLD+ YQDAL+SPLADMINA FDR+A S+TAACFLSRFTEKYRWAH+DIAGTAW+ GK RNATGRPVPLL Q++RH  NSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

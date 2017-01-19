@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_54057</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834223</BlastOutput_query-def>
+  <BlastOutput_query-len>75</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_54057</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834223</Iteration_query-def>
+  <Iteration_query-len>75</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|910282623|ref|WP_050069638.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila] &gt;gi|1032659165|gb|ANH14436.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1032662130|gb|ANH17400.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1032665107|gb|ANH20376.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1041016631|gb|ANN93692.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073865700|gb|AOU05651.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073868669|gb|AOU08619.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073871664|gb|AOU11613.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1073877589|gb|AOU17536.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1073880552|gb|AOU20498.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1073883549|gb|AOU23494.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1073886541|gb|AOU26485.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073889510|gb|AOU29453.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073892494|gb|AOU32436.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073895462|gb|AOU35403.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073898420|gb|AOU38360.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073901386|gb|AOU41325.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073904295|gb|AOU44233.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073907248|gb|AOU47185.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073910266|gb|AOU50201.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073913278|gb|AOU53210.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073916238|gb|AOU56169.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073919201|gb|AOU59131.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073922104|gb|AOU62033.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073925187|gb|AOU65114.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073928150|gb|AOU68076.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073931136|gb|AOU71045.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073934505|gb|AOU74064.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073937470|gb|AOU84469.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073947736|gb|AOU87460.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1073950664|gb|AOU90387.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|1080003005|gb|AOW53577.1| iron transporter FeoA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005249|gb|AOW55529.1| iron transporter FeoA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008927|gb|AOW58915.1| iron transporter FeoA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011406|gb|AOW60897.1| iron transporter FeoA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015502|gb|AOW64375.1| iron transporter FeoA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017650|gb|AOW66295.1| iron transporter FeoA [Legionella pneumophila subsp. pneumophila] &gt;gi|1129969322|gb|APT99681.1| iron transporter FeoA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_050069638</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>4.24854e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499250818|ref|WP_010948358.1|</Hit_id>
+  <Hit_def>ferrous iron transporter A [Legionella pneumophila] &gt;gi|52842864|ref|YP_096663.1| ferrous iron transporter A [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|23305589|gb|AAN17184.1|AF492466_2 ferrous iron transporter A [Legionella pneumophila 130b] &gt;gi|52629975|gb|AAU28716.1| ferrous iron transporter A [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|53755330|emb|CAH16826.1| ferrous iron transporter A [Legionella pneumophila str. Lens] &gt;gi|148280380|gb|ABQ54468.1| ferrous iron transporter A [Legionella pneumophila str. Corby] &gt;gi|364509369|gb|AEW52893.1| ferrous iron transporter A [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|395128660|emb|CCD06878.1| ferrous iron transporter A [Legionella pneumophila subsp. pneumophila] &gt;gi|395131744|emb|CCD10037.1| ferrous iron transporter A [Legionella pneumophila subsp. pneumophila] &gt;gi|469490618|gb|AGH52463.1| Ferrous iron transport protein A [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083331|gb|AGN15579.1| ferrous iron transporter A [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|761987325|dbj|GAN24675.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|761990399|dbj|GAN18623.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|761993589|dbj|GAN21729.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|761996882|dbj|GAN31057.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998772815|emb|CZI16787.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998775736|emb|CZG61184.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998778322|emb|CZG75940.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998781140|emb|CZJ42350.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998784561|emb|CZG86679.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998787513|emb|CZG59524.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998790044|emb|CZH03979.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998792854|emb|CZI70468.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998796526|emb|CZI01262.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998800303|emb|CZL04238.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998802652|emb|CZH89809.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998805814|emb|CZK07846.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998808352|emb|CZH87654.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998811918|emb|CZH79463.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998814283|emb|CZG61707.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998817734|emb|CZL59972.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998820836|emb|CZL61372.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998824312|emb|CZG46343.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998826798|emb|CZK08851.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998829433|emb|CZG77657.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998832564|emb|CZI06339.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998835771|emb|CZK88650.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998837840|emb|CZJ72089.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998842310|emb|CZL13749.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998844728|emb|CZK29383.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998847679|emb|CZK67155.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998850234|emb|CZI37413.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998853783|emb|CZL26596.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998856479|emb|CZL33460.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998859802|emb|CZL74126.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998862662|emb|CZK18745.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998865388|emb|CZJ40868.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998869871|emb|CZJ36429.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998871066|emb|CZM16908.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998874554|emb|CZK38737.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998877459|emb|CZL99364.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998880526|emb|CZI86798.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998883297|emb|CZI75418.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998888044|emb|CZL50631.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998889221|emb|CZK22774.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998892924|emb|CZJ09133.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998895503|emb|CZJ99043.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998898862|emb|CZJ46980.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998906129|emb|CZK56934.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998909700|emb|CZL09625.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998915829|emb|CZK61663.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998918298|emb|CZK82442.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998921269|emb|CZL38438.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998927574|emb|CZL63670.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998930661|emb|CZK75208.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998933934|emb|CZL76258.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998936512|emb|CZM50505.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998939876|emb|CZK76278.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998945953|emb|CZK94238.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998948997|emb|CZK82189.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998952267|emb|CZJ34953.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998958617|emb|CZM01588.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998961523|emb|CZK25922.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998964610|emb|CZK04850.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998966968|emb|CZM53288.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998970510|emb|CZK54712.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998973799|emb|CZK26447.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998979504|emb|CZL59273.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998982051|emb|CZI89704.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998985853|emb|CZJ99069.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998988717|emb|CZL48563.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998998021|emb|CZJ88312.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999000444|emb|CZG77963.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999004484|emb|CZI44527.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999007993|emb|CZK26997.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999012926|emb|CZL43780.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999016848|emb|CZL68311.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999022646|emb|CZL14213.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999025383|emb|CZK74824.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999031566|emb|CZG69186.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999037140|emb|CZL55001.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999046864|emb|CZL77580.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999057988|emb|CZM56494.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999061671|emb|CZL15779.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999067365|emb|CZJ17907.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999076911|emb|CZG59596.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999080255|emb|CZJ92302.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999082786|emb|CZK77635.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999090504|emb|CZK41882.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999092498|emb|CZL41296.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999095283|emb|CZG88225.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999098702|emb|CZG59634.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999101130|emb|CZL67383.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999104141|emb|CZI04941.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999106923|emb|CZI84010.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999110427|emb|CZL15875.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999113794|emb|CZL51247.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999116425|emb|CZK49433.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999126337|emb|CZK79626.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999128752|emb|CZH02049.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999131603|emb|CZL95488.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999134822|emb|CZL17543.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999138076|emb|CZK27356.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999141809|emb|CZL45152.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999144546|emb|CZK68890.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999147662|emb|CZL50548.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999151598|emb|CZH56415.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999153829|emb|CZM16083.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999156848|emb|CZH74422.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999158631|emb|CZJ91497.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999162917|emb|CZM04288.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999166085|emb|CZG70800.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999168340|emb|CZI52801.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999175802|emb|CZL05328.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999177449|emb|CZJ85613.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999184525|emb|CZP93394.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999191272|emb|CZI17427.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999194395|emb|CZI43383.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999198333|emb|CZP07913.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999200260|emb|CZG60297.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999203706|emb|CZI43372.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999206412|emb|CZP58119.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999210026|emb|CZK76137.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999219292|emb|CZL30148.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999222387|emb|CZI34764.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999227827|emb|CZP39350.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999231197|emb|CZI61680.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999235074|emb|CZP52994.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999236353|emb|CZH06904.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999240570|emb|CZH76674.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999244239|emb|CZH72027.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999248071|emb|CZH50772.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999256177|emb|CZP74640.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999259224|emb|CZP40000.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999265432|emb|CZP03270.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999269719|emb|CZO25282.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999272100|emb|CZP52831.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999277807|emb|CZP30373.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999281487|emb|CZP21870.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999284135|emb|CZP49460.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999290862|emb|CZP28206.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999296738|emb|CZP49252.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999299977|emb|CZP26760.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999307180|emb|CZH66384.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999309566|emb|CZP20602.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999315948|emb|CZI02228.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999318967|emb|CZP57329.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999322219|emb|CZH92921.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999324907|emb|CZH13002.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999327614|emb|CZH28800.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999332865|emb|CZG02584.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999335287|emb|CZK72979.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999337976|emb|CZP43311.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999340758|emb|CZG99989.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999344140|emb|CZP91535.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999347428|emb|CZP59960.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999350116|emb|CZH27639.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999353753|emb|CZP53363.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999356862|emb|CZP75666.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999363228|emb|CZP71696.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999366991|emb|CZP72407.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999369591|emb|CZP86530.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999392505|emb|CZP95954.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999398753|emb|CZP99230.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999403247|emb|CZP46796.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999450822|emb|CZP31154.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999455550|emb|CZH45830.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999462195|emb|CZG04715.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999465425|emb|CZM26884.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999468319|emb|CZO06670.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999474575|emb|CZM55752.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999478150|emb|CZN24282.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999481345|emb|CZM62302.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999484375|emb|CZN95898.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999487553|emb|CZL96168.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999490744|emb|CZN59309.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999493948|emb|CZL95773.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999500372|emb|CZN58192.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999503594|emb|CZN88067.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999506790|emb|CZM93869.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999510003|emb|CZG25296.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999513182|emb|CZN18300.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999515203|emb|CZM27413.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999519775|emb|CZM49161.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999521374|emb|CZP45815.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999532643|emb|CZO31409.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999534723|emb|CZN68113.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999539036|emb|CZM52659.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999542310|emb|CZO08711.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999545430|emb|CZO44925.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999548608|emb|CZN74412.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999551818|emb|CZN98061.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999555195|emb|CZM95571.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999558208|emb|CZO44608.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999561386|emb|CZM28449.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999564601|emb|CZO44806.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999567774|emb|CZM41550.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999570973|emb|CZN40185.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999574163|emb|CZN77525.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999580654|emb|CZO02071.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999584166|emb|CZO15551.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999585940|emb|CZN11248.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999590551|emb|CZM23503.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999593426|emb|CZN33348.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999596624|emb|CZN95921.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999599834|emb|CZO23111.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999603310|emb|CZL65242.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999606229|emb|CZN37731.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999609721|emb|CZN42490.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999615897|emb|CZM32743.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999618954|emb|CZN74723.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999622370|emb|CZO53668.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999625586|emb|CZN52296.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999628997|emb|CZM43377.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999631875|emb|CZM47418.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999635085|emb|CZN38909.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999638263|emb|CZN36575.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999641459|emb|CZO64597.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999644630|emb|CZO29947.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999648167|emb|CZN77600.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999650978|emb|CZN94150.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999654258|emb|CZN90999.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999657636|emb|CZL99314.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999660633|emb|CZM49644.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999664147|emb|CZM83777.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999667042|emb|CZM23686.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999670236|emb|CZL72862.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999673623|emb|CZM17901.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999676613|emb|CZN63172.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999679648|emb|CZM64073.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999682843|emb|CZM71045.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999686069|emb|CZN94023.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999689591|emb|CZN09068.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999692600|emb|CZN82687.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999696002|emb|CZM99955.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999698192|emb|CZM31770.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999702521|emb|CZM45348.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999705609|emb|CZL57916.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999708633|emb|CZN40467.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999711885|emb|CZM85371.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999715432|emb|CZM90291.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999718477|emb|CZO26282.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999721449|emb|CZM69154.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999724789|emb|CZN19017.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999728130|emb|CZL88079.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999731682|emb|CZO22650.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999734931|emb|CZM01317.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999738167|emb|CZO46596.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999741133|emb|CZM26913.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999744565|emb|CZN06093.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999747960|emb|CZM01849.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999750855|emb|CZL81344.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999754067|emb|CZM70262.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999757410|emb|CZM82213.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999760443|emb|CZM17164.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999763842|emb|CZN09124.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999767039|emb|CZM54984.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999769872|emb|CZN41974.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999773576|emb|CZH74875.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999776512|emb|CZL88182.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999783376|emb|CZH48997.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999786552|emb|CZM16411.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999789857|emb|CZO50611.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999793196|emb|CZO50364.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999796443|emb|CZI07164.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999799606|emb|CZO59726.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1002075566|emb|CZQ94424.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1002079072|emb|CZQ94885.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1002082164|emb|CZQ96295.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1002085446|emb|CZQ99233.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1002088107|emb|CZQ79285.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1003020163|emb|CZR21673.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1003023043|emb|CZR20490.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1003026885|emb|CZR18228.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1003028369|emb|CZR23412.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1003035448|emb|CZR22764.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1005834328|gb|AMQ29054.1| iron transporter FeoA [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434083|gb|AMV15710.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1073874531|gb|AOU14479.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1103997823|emb|SFZ46997.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1104004062|emb|SFZ46996.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1104007516|emb|SFZ47082.1| Ferrous iron transport protein A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948358</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>4.76107e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|295650206|gb|ADG26053.1|</Hit_id>
+  <Hit_def>ferrous iron transport protein A [Legionella pneumophila 2300/99 Alcoy] &gt;gi|998912297|emb|CZG95756.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998993979|emb|CZI47712.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999286761|emb|CZI74717.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999293116|emb|CZI62743.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999302236|emb|CZI54885.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999312075|emb|CZI88512.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1002091784|emb|CZR06393.1| Ferrous iron transport protein A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>ADG26053</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>6.99294e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGIEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCG+EFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|915019981|ref|WP_050754611.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_050754611</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>7.27734e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGIEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCG+EFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|914350171|ref|WP_050584031.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_050584031</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>2.13518e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGATEMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFGAT+MQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|506459835|ref|WP_015961735.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila] &gt;gi|53752433|emb|CAH13865.1| ferrous iron transporter A [Legionella pneumophila str. Paris] &gt;gi|536611697|gb|ERB40215.1| iron transporter FeoA [Legionella pneumophila str. 121004] &gt;gi|541998872|gb|ERH44885.1| iron transporter FeoA [Legionella pneumophila str. Leg01/53] &gt;gi|542000386|gb|ERH46373.1| iron transporter FeoA [Legionella pneumophila str. Leg01/11] &gt;gi|542123175|gb|ERI49484.1| iron transporter FeoA [Legionella pneumophila str. Leg01/20] &gt;gi|762000253|dbj|GAN27985.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999173372|emb|CZH69365.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999182568|emb|CZG28225.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999188733|emb|CZI77474.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999213665|emb|CZG44496.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999217045|emb|CZI71574.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999225889|emb|CZG31889.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999361058|emb|CZI00298.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999374016|emb|CZG02583.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999377381|emb|CZI91887.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999380680|emb|CZH52568.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999383376|emb|CZI14643.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999387495|emb|CZG11867.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999390302|emb|CZI11825.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999397033|emb|CZG15420.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999406454|emb|CZG44620.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999409374|emb|CZH70766.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999412612|emb|CZG28421.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999416682|emb|CZG16023.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999419312|emb|CZG44489.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999422577|emb|CZH44116.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999426516|emb|CZG25623.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999429082|emb|CZG29183.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999432671|emb|CZG04347.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999435771|emb|CZH66558.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999438316|emb|CZG43940.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999442280|emb|CZJ85845.1| ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999445297|emb|CZH55526.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999448559|emb|CZG02582.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999458391|emb|CZJ91262.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999496988|emb|CZI09133.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999526361|emb|CZI62520.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999529243|emb|CZI18266.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999577037|emb|CZI01314.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999612338|emb|CZI05459.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1003031888|emb|CZR28506.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1041019628|gb|ANN96688.1| iron transporter FeoA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961735</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>2.34084e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGATEMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFGAT+MQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1119380400|ref|WP_072356497.1|</Hit_id>
+  <Hit_def>ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998924314|emb|CZJ96862.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998942559|emb|CZK06638.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998954610|emb|CZK42649.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998976163|emb|CZJ65030.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|998991491|emb|CZK06843.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999009852|emb|CZK04055.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999018896|emb|CZJ60302.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999028006|emb|CZJ91694.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999034026|emb|CZJ96693.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999040233|emb|CZJ66759.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999043100|emb|CZJ78527.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999048945|emb|CZJ85396.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999052202|emb|CZJ67187.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999055180|emb|CZJ98252.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999064312|emb|CZJ77509.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999070133|emb|CZJ75994.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999073408|emb|CZK03718.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999085649|emb|CZJ98852.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999249449|emb|CZG79566.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999252916|emb|CZG92853.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999262128|emb|CZH05393.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999274369|emb|CZH09795.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999469965|emb|CZG81706.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999778506|emb|CZH02171.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1104000963|emb|SFZ47003.1| Ferrous iron transport protein A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356497</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>3.40059e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLENL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1005407426|ref|WP_061638008.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061638008</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>3.90647e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLENL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|756828855|ref|WP_042645973.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042645973</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>4.18872e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISGLKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEYL</Hsp_hseq>
+      <Hsp_midline>MQIS LKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|696251171|ref|WP_032828932.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila] &gt;gi|1005362918|gb|AMP88787.1| iron transporter FeoA [Legionella pneumophila subsp. pascullei] &gt;gi|1005367819|gb|AMP93596.1| iron transporter FeoA [Legionella pneumophila subsp. pascullei] &gt;gi|1005370738|gb|AMP96514.1| iron transporter FeoA [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_032828932</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>4.83157e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGTTDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVEIEVRGTFLTLRKDEAGQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFG TDMQYRRRLLSLGITCGVEFSVVRMAPLGCPV+IEVRGTFLTLRKDEA QLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|914604154|ref|WP_050598581.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila] &gt;gi|1024339725|gb|KZX34064.1| iron transporter FeoA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_050598581</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>6.42841e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGTTDTQYRRRLLSLGITCGVEFSVVRMAPLGCPVEIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFG TD QYRRRLLSLGITCGVEFSVVRMAPLGCPV+IEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|652976393|ref|WP_027229065.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila] &gt;gi|985764669|gb|KXB25788.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|985767060|gb|KXB28155.1| iron transporter FeoA [Legionella pneumophila] &gt;gi|999119120|emb|CZG87186.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|999122245|emb|CZH20721.1| Ferrous iron transport protein A [Legionella pneumophila] &gt;gi|1108606010|gb|APF04378.1| iron transporter FeoA [Legionella pneumophila subsp. fraseri] &gt;gi|1108608992|gb|APF07359.1| ferrous iron transport protein A [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229065</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>6.81958e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLVSFGTTDTQYRRRLLSLGITCGVEFSVVRMAPLGCPVEIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRLVSFG TD QYRRRLLSLGITCGVEFSVVRMAPLGCPV+IEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|654928544|ref|WP_028378975.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378975</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.09361e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISELKQGDKVRLISFGTTDTQYRRRLLSLGITCGVEFSVVRMAPLGCPVEIEVRGTFLTLRKDEASQLVLEHL</Hsp_hseq>
+      <Hsp_midline>MQISELKQGDKVRL+SFG TD QYRRRLLSLGITCGVEFSVVRMAPLGCPV+IEVRGTFLTLRKDEASQLVLEHL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|701445245|gb|KGP62640.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella norrlandica]</Hit_def>
+  <Hit_accession>KGP62640</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>2.42067e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISDLKQGDRVRLVGFGATDMQYRRRLLSLGITCGIEFSVVRIAPLGCPVQIEVRGTFLTLRKDEASQLILEYL</Hsp_hseq>
+      <Hsp_midline>MQIS+LKQGD+VRLV FGATDMQYRRRLLSLGITCG+EFSVVR+APLGCPVQIEVRGTFLTLRKDEASQL+LE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|737925567|ref|WP_035890755.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890755</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>2.43707e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISDLKQGDRVRLVGFGATDMQYRRRLLSLGITCGIEFSVVRIAPLGCPVQIEVRGTFLTLRKDEASQLILEYL</Hsp_hseq>
+      <Hsp_midline>MQIS+LKQGD+VRLV FGATDMQYRRRLLSLGITCG+EFSVVR+APLGCPVQIEVRGTFLTLRKDEASQL+LE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|737941702|ref|WP_035905999.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella sainthelensi] &gt;gi|962274588|gb|KTD58519.1| ferrous iron transporter A [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_035905999</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>5.58913e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELVQGDKVRLTSFGSTDMQYRRRLLSLGVTCGTEFSVVRIAPLGCPIQIEVRGTALTLRKEEANQLVLEYV</Hsp_hseq>
+      <Hsp_midline>++I+EL QGDKVRL SFG+TDMQYRRRLLSLG+TCG EFSVVR+APLGCP+QIEVRGT LTLRK+EA+QLVLE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|517403167|ref|WP_018576032.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella shakespearei] &gt;gi|962276120|gb|KTD60021.1| ferrous iron transporter A [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576032</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>5.86651e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MHITELKQGDKVRLVDFGATELQYRRRLLSLGVTRGVEFSVVRMAPLGCPVQIEVRGTSLTLRKEEASHLVLERL</Hsp_hseq>
+      <Hsp_midline>M I+ELKQGDKVRLV FGAT++QYRRRLLSLG+T GVEFSVVRMAPLGCPVQIEVRGT LTLRK+EAS LVLE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|489729099|ref|WP_003633215.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella longbeachae] &gt;gi|269990025|gb|EEZ96279.1| putative ferrous iron transport protein A [Legionella longbeachae D-4968] &gt;gi|288856906|emb|CBJ10720.1| ferrous iron transporter A [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003633215</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>6.30665e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>VNITELVQGDKVRLTSFGSTDMQYRRRLLSLGVTCGTEFSVVRLAPLGCPIQIEVRGTALTLRKEEANQLVLEYV</Hsp_hseq>
+      <Hsp_midline>+ I+EL QGDKVRL SFG+TDMQYRRRLLSLG+TCG EFSVVR+APLGCP+QIEVRGT LTLRK+EA+QLVLE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|966496219|ref|WP_058512985.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella santicrucis] &gt;gi|962282802|gb|KTD66578.1| ferrous iron transporter A [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058512985</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>9.67772e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>VKITELVQGDKVRLTSFGTTDMQYRRRLLSLGVTCGTEFSVVRIAPLGCPIQIEVRGTALTLRKEEANQLVLEYV</Hsp_hseq>
+      <Hsp_midline>++I+EL QGDKVRL SFG TDMQYRRRLLSLG+TCG EFSVVR+APLGCP+QIEVRGT LTLRK+EA+QLVLE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966420704|ref|WP_058463905.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella cincinnatiensis] &gt;gi|962206965|gb|KTC91898.1| ferrous iron transporter A [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463905</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.62141e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>VKITELVQGDKVRLTSFGPTDMQYRRRLLSLGVTCGTEFSVVRIAPLGCPIQIEVRGTALTLRKEEANQLVLEYV</Hsp_hseq>
+      <Hsp_midline>++I+EL QGDKVRL SFG TDMQYRRRLLSLG+TCG EFSVVR+APLGCP+QIEVRGT LTLRK+EA+QLVLE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966466528|ref|WP_058497854.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella gratiana] &gt;gi|962230021|gb|KTD14617.1| ferrous iron transporter A [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497854</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.78982e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>VKITELIQGDKVRLTSFGTTDMQYRRRLLSLGVTCGTEFSVVRIAPLGCPIQIEVRGTALTLRKEEANQLILEYV</Hsp_hseq>
+      <Hsp_midline>++I+EL QGDKVRL SFG TDMQYRRRLLSLG+TCG EFSVVR+APLGCP+QIEVRGT LTLRK+EA+QL+LE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|966432337|ref|WP_058472770.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058472770</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>5.02393e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MNISELARGDKVRLVDFGTTDLQYRRRLLSLGITRGVEFSVVRIAPLGCPVQVEVRGTSLTLRKEEASQLVLERL</Hsp_hseq>
+      <Hsp_midline>M ISEL +GDKVRLV FG TD+QYRRRLLSLGIT GVEFSVVR+APLGCPVQ+EVRGT LTLRK+EASQLVLE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|962268709|gb|KTD52725.1|</Hit_id>
+  <Hit_def>ferrous iron transporter A [Legionella quateirensis]</Hit_def>
+  <Hit_accession>KTD52725</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>5.27355e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MNISELARGDKVRLVDFGTTDLQYRRRLLSLGITRGVEFSVVRIAPLGCPVQVEVRGTSLTLRKEEASQLVLERL</Hsp_hseq>
+      <Hsp_midline>M ISEL +GDKVRLV FG TD+QYRRRLLSLGIT GVEFSVVR+APLGCPVQ+EVRGT LTLRK+EASQLVLE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966426206|ref|WP_058468744.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Fluoribacter gormanii] &gt;gi|962216862|gb|KTD01616.1| ferrous iron transporter A [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468744</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>8.69884e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELVQGDRVRLTSFGATEMQYRRRLLSLGVTCGTEFLVVRMAPLGCPIQIEVRGTALTLRKEEASQLILERI</Hsp_hseq>
+      <Hsp_midline>++I+EL QGD+VRL SFGAT+MQYRRRLLSLG+TCG EF VVRMAPLGCP+QIEVRGT LTLRK+EASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|737958122|ref|WP_035921336.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_035921336</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.77583e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MNISELVGGDRVRLVDFGATDLQYRRRLLSLGITRGVEFSVVRIAPLGCPVQVEVRGTSLTLRKEEASQLVLERL</Hsp_hseq>
+      <Hsp_midline>M ISEL  GD+VRLV FGATD+QYRRRLLSLGIT GVEFSVVR+APLGCPVQ+EVRGT LTLRK+EASQLVLE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|962295613|gb|KTD79258.1|</Hit_id>
+  <Hit_def>ferrous iron transporter A [Legionella waltersii]</Hit_def>
+  <Hit_accession>KTD79258</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.80372e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MHISELKPGDKVRLVDFGATNSQYRRRLLSLGITRGVEFSVVRLAPLGCPLQIEVRGTSLTLRKDEASQLFLERI</Hsp_hseq>
+      <Hsp_midline>M ISELK GDKVRLV FGAT+ QYRRRLLSLGIT GVEFSVVR+APLGCP+QIEVRGT LTLRKDEASQL LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966439716|ref|WP_058480039.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480039</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.81526e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MHISELKPGDKVRLVDFGATNSQYRRRLLSLGITRGVEFSVVRLAPLGCPLQIEVRGTSLTLRKDEASQLFLERI</Hsp_hseq>
+      <Hsp_midline>M ISELK GDKVRLV FGAT+ QYRRRLLSLGIT GVEFSVVR+APLGCP+QIEVRGT LTLRKDEASQL LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|769981366|ref|WP_045097351.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella fallonii] &gt;gi|698841937|emb|CEG55884.1| Ferrous iron transporter A [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045097351</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.96933e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MQISDLVQGDRVRLVDFGSTESQYRRRLLSLGVTRGVEFSVVRMAPLGCPVQIEVRGTSLTLRKEEASQLILERL</Hsp_hseq>
+      <Hsp_midline>MQIS+L QGD+VRLV FG+T+ QYRRRLLSLG+T GVEFSVVRMAPLGCPVQIEVRGT LTLRK+EASQL+LE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|962250715|gb|KTD34916.1|</Hit_id>
+  <Hit_def>ferrous iron transporter A [Legionella moravica]</Hit_def>
+  <Hit_accession>KTD34916</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>2.08046e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MNISELVGGDRVRLVDFGATDLQYRRRLLSLGITRGVEFSVVRIAPLGCPVQVEVRGTSLTLRKEEASQLVLERL</Hsp_hseq>
+      <Hsp_midline>M ISEL  GD+VRLV FGATD+QYRRRLLSLGIT GVEFSVVR+APLGCPVQ+EVRGT LTLRK+EASQLVLE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966460891|ref|WP_058493320.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493320</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>4.56529e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MNISELVRGDRVRLVDFGATNQQYKRRLLSLGITRGVEFSVIRIAPLGCPVQVEVRGTSLTLRKDEASQLVLERL</Hsp_hseq>
+      <Hsp_midline>M ISEL +GD+VRLV FGAT+ QY+RRLLSLGIT GVEFSV+R+APLGCPVQ+EVRGT LTLRKDEASQLVLE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|962296383|gb|KTD80024.1|</Hit_id>
+  <Hit_def>ferrous iron transporter A [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>KTD80024</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>5.29015e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MNISELVRGDRVRLVDFGATNQQYKRRLLSLGITRGVEFSVIRIAPLGCPVQVEVRGTSLTLRKDEASQLVLERL</Hsp_hseq>
+      <Hsp_midline>M ISEL +GD+VRLV FGAT+ QY+RRLLSLGIT GVEFSV+R+APLGCPVQ+EVRGT LTLRKDEASQLVLE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966414738|ref|WP_058458023.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Fluoribacter bozemanae] &gt;gi|962192299|gb|KTC77373.1| ferrous iron transporter A [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458023</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>7.99177e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELVQGDRVRLTSFGATDMQYRRRLLSLGVTCGTELLVVRIAPLGCPIQIEVRGTALTLRKEEASQLILERV</Hsp_hseq>
+      <Hsp_midline>++I+EL QGD+VRL SFGATDMQYRRRLLSLG+TCG E  VVR+APLGCP+QIEVRGT LTLRK+EASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|518064360|ref|WP_019234568.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella anisa] &gt;gi|962187098|gb|KTC72231.1| ferrous iron transporter A [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019234568</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>2.91926e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELVQGDRVRLTSFGTTDMQYRRRLLSLGVTCGTELLVVRIAPLGCPIQIEVRGTALTLRKEEASQLILERI</Hsp_hseq>
+      <Hsp_midline>++I+EL QGD+VRL SFG TDMQYRRRLLSLG+TCG E  VVR+APLGCP+QIEVRGT LTLRK+EASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966499568|ref|WP_058516241.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella parisiensis] &gt;gi|962260102|gb|KTD44217.1| ferrous iron transporter A [Legionella parisiensis] &gt;gi|1069290688|gb|OEH46088.1| Ferrous iron transport protein A [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516241</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>3.7993e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELVQGDKVRLTSFGTTEMQYRRRLLSLGVTCGTELLVVRIAPLGCPIQIEVRGTALTLRKEEASQLILERI</Hsp_hseq>
+      <Hsp_midline>++I+EL QGDKVRL SFG T+MQYRRRLLSLG+TCG E  VVR+APLGCP+QIEVRGT LTLRK+EASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|737936054|ref|WP_035900703.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella cherrii] &gt;gi|962197130|gb|KTC82174.1| ferrous iron transporter A [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_035900703</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>9.87438e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELVPGDKVRLTSFGTTEMQYRRRLLSLGVTCGTELLVVRIAPLGCPIQIEVRGTALTLRKDEASQLILERI</Hsp_hseq>
+      <Hsp_midline>++I+EL  GDKVRL SFG T+MQYRRRLLSLG+TCG E  VVR+APLGCP+QIEVRGT LTLRKDEASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|750234746|ref|WP_040535991.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella drancourtii]</Hit_def>
+  <Hit_accession>WP_040535991</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.54878e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MRITDLVQGDRARLINFGATDSQYRRRLLSLGVTCGAEFVIVRIAPLGCPIQIDIRGTSLTLRKEEASQLVLERI</Hsp_hseq>
+      <Hsp_midline>M+I++L QGD+ RL++FGATD QYRRRLLSLG+TCG EF +VR+APLGCP+QI++RGT LTLRK+EASQLVLE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966505252|ref|WP_058521911.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella tucsonensis] &gt;gi|962287626|gb|KTD71354.1| ferrous iron transporter A [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521911</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.97188e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELIQGDRVRLTGFGTTDMQYRRRLLSLGVTCGTELLVVRIAPLGCPIQIEVRGTALTLRKEEASQLILERI</Hsp_hseq>
+      <Hsp_midline>++I+EL QGD+VRL  FG TDMQYRRRLLSLG+TCG E  VVR+APLGCP+QIEVRGT LTLRK+EASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966516870|ref|WP_058533364.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533364</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>3.56729e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>QISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>RITELTPGDRARLMSYGATDVQYRRRLLSLGVTCGTEFVVIRMAPLGCPIQIDVRGTSLTLRKEEASQLILERI</Hsp_hseq>
+      <Hsp_midline>+I+EL  GD+ RL+S+GATD+QYRRRLLSLG+TCG EF V+RMAPLGCP+QI+VRGT LTLRK+EASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966436335|ref|WP_058476703.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella steigerwaltii] &gt;gi|962295005|gb|KTD78659.1| ferrous iron transporter A [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476703</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>4.02516e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IRITEVVPGDKVRLTSFGTTDMQYRRRLLSLGVTCGTELLVVRIAPLGCPIQIEVRGTALTLRKEEASQLILERI</Hsp_hseq>
+      <Hsp_midline>++I+E+  GDKVRL SFG TDMQYRRRLLSLG+TCG E  VVR+APLGCP+QIEVRGT LTLRK+EASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|498338331|ref|WP_010652487.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Fluoribacter dumoffii] &gt;gi|962207563|gb|KTC92494.1| ferrous iron transporter A [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652487</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>1.20655e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELVAGDRVRLTSFGATDMQYRRRLLSLGVTCGTELLVVRTAPLGCPIQIEVRGTALTLRKEEAGQLLLERI</Hsp_hseq>
+      <Hsp_midline>++I+EL  GD+VRL SFGATDMQYRRRLLSLG+TCG E  VVR APLGCP+QIEVRGT LTLRK+EA QL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966493787|ref|WP_058510575.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella steelei] &gt;gi|962284723|gb|KTD68489.1| ferrous iron transporter A [Legionella steelei] &gt;gi|1113342049|gb|OJW05926.1| ferrous iron transport protein A [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510575</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.73329e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELVPGDRVRLTDFGTTDMQYRRRLLSLGVTCGTELLVVRIAPLGCPIQIEVRGTALTLRKEEASQLILERI</Hsp_hseq>
+      <Hsp_midline>++I+EL  GD+VRL  FG TDMQYRRRLLSLG+TCG E  VVR+APLGCP+QIEVRGT LTLRK+EASQL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966407359|ref|WP_058450765.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella jamestowniensis] &gt;gi|1045921104|gb|OCH98037.1| iron transporter FeoA [Legionella jamestowniensis]</Hit_def>
+  <Hit_accession>WP_058450765</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>2.24794e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MRITELVKGDRVRLIDFGLTDVQYRRRLLSLGITRGIELSVVRVAPLGCPVQVEVRGTSLTLRKEEAAELIWERL</Hsp_hseq>
+      <Hsp_midline>M+I+EL +GD+VRL+ FG TD+QYRRRLLSLGIT G+E SVVR+APLGCPVQ+EVRGT LTLRK+EA++L+ E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|962222785|gb|KTD07435.1|</Hit_id>
+  <Hit_def>ferrous iron transporter A [Legionella jamestowniensis] &gt;gi|1097327761|emb|SFL92929.1| ferrous iron transport protein A [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>KTD07435</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>3.40628e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MRITELVKGDRVRLIDFGLTDVQYRRRLLSLGITRGIELSVVRVAPLGCPVQVEVRGTSLTLRKEEAAELIWERL</Hsp_hseq>
+      <Hsp_midline>M+I+EL +GD+VRL+ FG TD+QYRRRLLSLGIT G+E SVVR+APLGCPVQ+EVRGT LTLRK+EA++L+ E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|737934267|ref|WP_035898941.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_035898941</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>4.13639e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>IKITELEPGDKVRIASFGETDIQYRRRLLSLGVTCGTEILVIRKAPLGCPIQIEVRGTALTVRREEANQLILERI</Hsp_hseq>
+      <Hsp_midline>++I+EL+ GDKVR+ SFG TD+QYRRRLLSLG+TCG E  V+R APLGCP+QIEVRGT LT+R++EA+QL+LE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|654937977|ref|WP_028388225.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028388225</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>9.70269e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MRITELAIGDRVRLVDFGQTNLSYRRRLLTLGITRGVELSIIRKAPLGCPVQVEVRGTFLTLRKEEAGQLEWEYV</Hsp_hseq>
+      <Hsp_midline>M+I+EL  GD+VRLV FG T++ YRRRLL+LGIT GVE S++R APLGCPVQ+EVRGTFLTLRK+EA QL  E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966515249|ref|WP_058531766.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella rubrilucens] &gt;gi|962262669|gb|KTD46755.1| ferrous iron transporter A [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058531766</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.6797e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLE</Hsp_qseq>
+      <Hsp_hseq>MHITELTRGDKVRLLDFGRTDAQYRRRLLSLGITRGVELTIVRTAPLGCPVQVEVRGTSLTLRKEEAIHLNLE</Hsp_hseq>
+      <Hsp_midline>M I+EL +GDKVRL+ FG TD QYRRRLLSLGIT GVE ++VR APLGCPVQ+EVRGT LTLRK+EA  L LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966511053|ref|WP_058527644.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella erythra] &gt;gi|962209483|gb|KTC94390.1| ferrous iron transporter A [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058527644</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>2.13845e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLE</Hsp_qseq>
+      <Hsp_hseq>MHITELARGDKVRLLDFGRTDAAYRRRLLSLGITRGVEFTIVRTAPLGCPVQVEIRGTSLTLRKEEAIHLNLE</Hsp_hseq>
+      <Hsp_midline>M I+EL +GDKVRL+ FG TD  YRRRLLSLGIT GVEF++VR APLGCPVQ+E+RGT LTLRK+EA  L LE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966474995|ref|WP_058505756.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella nautarum] &gt;gi|962248917|gb|KTD33139.1| ferrous iron transporter A [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505756</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>5.37644e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MRITELAKGDRVRLVDFGLTDLAYRRRLLSLGITRGVELQIVRVAPLGCPVQVEVRGTALTLRKEEAGELEWERI</Hsp_hseq>
+      <Hsp_midline>M+I+EL +GD+VRLV FG TD+ YRRRLLSLGIT GVE  +VR+APLGCPVQ+EVRGT LTLRK+EA +L  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|769991169|ref|WP_045107041.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella hackeliae] &gt;gi|731153359|emb|CEK11944.1| Ferrous iron transporter A [Legionella hackeliae] &gt;gi|962227908|gb|KTD12530.1| ferrous iron transporter A [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045107041</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>7.23088e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MRITELVKGDRARLIDFGLTGVQYRRRLLSLGITRGVEISVVRVAPLGCPVQVDVRGTSLTLRKEEAAELIWERI</Hsp_hseq>
+      <Hsp_midline>M+I+EL +GD+ RL+ FG T +QYRRRLLSLGIT GVE SVVR+APLGCPVQ++VRGT LTLRK+EA++L+ E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966464477|ref|WP_058495838.1|</Hit_id>
+  <Hit_def>iron transporter FeoA [Legionella drozanskii] &gt;gi|962202964|gb|KTC87933.1| ferrous iron transporter A [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058495838</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.1849e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQISELKQGDKVRLVSFGATDMQYRRRLLSLGITCGVEFSVVRMAPLGCPVQIEVRGTFLTLRKDEASQLVLEHL</Hsp_qseq>
+      <Hsp_hseq>MRITELVKGDRVRLVDFGLTDLAYRRRLLSLGITRGVELQIVRVAPLGCPVQVEVRGTALTLRKEEAGELEWERI</Hsp_hseq>
+      <Hsp_midline>M+I+EL +GD+VRLV FG TD+ YRRRLLSLGIT GVE  +VR+APLGCPVQ+EVRGT LTLRK+EA +L  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_67895</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834155</BlastOutput_query-def>
+  <BlastOutput_query-len>263</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_67895</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834155</Iteration_query-def>
+  <Iteration_query-len>263</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250750|ref|WP_010948290.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|52842796|ref|YP_096595.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629907|gb|AAU28648.1| chromosome partitioning protein ParB (SpoOJ) [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509301|gb|AEW52825.1| chromosome partitioning protein ParB (SpoOJ) [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490694|gb|AGH52539.1| Chromosome (plasmid) partitioning protein ParB / Stage 0 sporulation protein J [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083262|gb|AGN15510.1| chromosome partitioning protein ParB (SpoOJ) [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772884|emb|CZI19077.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998775667|emb|CZG58583.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998778253|emb|CZG73763.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998784492|emb|CZG83304.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998787444|emb|CZG57202.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998796456|emb|CZH97133.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998800374|emb|CZL06242.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998805744|emb|CZK05699.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998808422|emb|CZH89984.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998811849|emb|CZH76649.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998814352|emb|CZG64234.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998817663|emb|CZL56200.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998820766|emb|CZL58974.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998826728|emb|CZK06698.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998832634|emb|CZI09916.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998835701|emb|CZK85119.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998837909|emb|CZJ75371.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998842240|emb|CZL10452.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998844658|emb|CZK26219.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998847609|emb|CZK65168.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998850304|emb|CZI41564.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998853713|emb|CZL23480.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998856409|emb|CZL31031.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998859732|emb|CZL70641.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998862732|emb|CZK20579.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998865457|emb|CZJ43463.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998869802|emb|CZJ34217.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998870997|emb|CZM14459.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998874485|emb|CZK35447.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998877528|emb|CZM01584.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998880595|emb|CZI89102.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998887975|emb|CZL47374.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998889290|emb|CZK24877.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998895573|emb|CZK01423.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998906060|emb|CZK53955.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998909631|emb|CZL06675.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998915899|emb|CZK64585.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998918368|emb|CZK85303.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998921339|emb|CZL40515.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998927644|emb|CZL65758.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998930731|emb|CZK77347.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998933864|emb|CZL73717.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998939946|emb|CZK78325.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998946023|emb|CZK97884.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998949067|emb|CZK84260.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998958547|emb|CZL98330.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998961453|emb|CZK22998.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998964680|emb|CZK08000.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998966898|emb|CZM49974.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998970440|emb|CZK51367.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998973869|emb|CZK28613.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998979574|emb|CZL61631.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998985923|emb|CZK02377.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998988647|emb|CZL46365.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998998091|emb|CZJ90895.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999008063|emb|CZK30038.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999012996|emb|CZL45875.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999016918|emb|CZL71264.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999022716|emb|CZL17747.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999025313|emb|CZK72799.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999037070|emb|CZL52512.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999046794|emb|CZL75353.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999061601|emb|CZL12355.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999067434|emb|CZJ20173.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999076842|emb|CZG57261.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999080185|emb|CZJ89744.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999082856|emb|CZK79744.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999090434|emb|CZK39604.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999092428|emb|CZL38276.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999095214|emb|CZG84786.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999098771|emb|CZG63129.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999101200|emb|CZL69649.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999110357|emb|CZL13533.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999113864|emb|CZL53355.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999116355|emb|CZK46095.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999126267|emb|CZK77404.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999131533|emb|CZL93057.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999134752|emb|CZL15047.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999138146|emb|CZK30521.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999141739|emb|CZL42038.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999144616|emb|CZK71782.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999147592|emb|CZL47212.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999156917|emb|CZH76153.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999158562|emb|CZJ88865.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999175732|emb|CZL03154.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999177518|emb|CZJ88161.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999191341|emb|CZI19789.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999194464|emb|CZI46443.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999200329|emb|CZG62705.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999203775|emb|CZI46399.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999209956|emb|CZK73638.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999219362|emb|CZL33435.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999222456|emb|CZI37917.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999335217|emb|CZK71105.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1002075497|emb|CZQ93898.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1002079002|emb|CZQ94030.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1003020094|emb|CZR21261.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1003022973|emb|CZR20190.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1003026815|emb|CZR17742.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073865631|gb|AOU05582.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073868600|gb|AOU08550.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073871595|gb|AOU11544.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073874465|gb|AOU14413.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073877520|gb|AOU17467.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073880483|gb|AOU20429.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073883480|gb|AOU23425.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073886473|gb|AOU26417.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073889441|gb|AOU29384.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073892425|gb|AOU32367.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073898351|gb|AOU38291.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073901317|gb|AOU41256.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073904226|gb|AOU44164.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073907179|gb|AOU47116.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073910197|gb|AOU50132.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073913209|gb|AOU53141.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073916169|gb|AOU56100.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073919132|gb|AOU59062.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073922035|gb|AOU61964.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073925118|gb|AOU65045.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073928081|gb|AOU68007.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073931067|gb|AOU70976.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073934436|gb|AOU73995.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073937401|gb|AOU84400.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073947667|gb|AOU87391.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073950595|gb|AOU90318.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1104003992|emb|SFZ46687.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1129969253|gb|APT99612.1| chromosome partitioning protein ParB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948290</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.495</Hsp_bit-score>
+      <Hsp_score>1386</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1074859836|ref|WP_070068297.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1073895393|gb|AOU35334.1| chromosome partitioning protein ParB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_070068297</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNSRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKN RKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|504655548|ref|WP_014842650.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|395128591|emb|CCD06809.1| ParB-like partition protein [Legionella pneumophila subsp. pneumophila] &gt;gi|761990445|dbj|GAN18554.1| putative chromosome-partitioning protein ParB [Legionella pneumophila] &gt;gi|761993635|dbj|GAN21660.1| putative chromosome-partitioning protein ParB [Legionella pneumophila] &gt;gi|998981982|emb|CZI86933.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999106992|emb|CZI86642.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999231266|emb|CZI64520.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999248140|emb|CZH53695.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999269650|emb|CZO23207.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999455480|emb|CZH42789.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999462265|emb|CZG08480.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999465213|emb|CZM39129.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999468388|emb|CZO09601.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999475025|emb|CZM45877.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999478219|emb|CZN27297.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999481414|emb|CZM65424.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999484444|emb|CZN98770.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999487484|emb|CZL93804.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999490675|emb|CZN56600.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999494017|emb|CZL97963.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999500303|emb|CZN56066.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999503525|emb|CZN84775.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999506721|emb|CZM90910.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999510072|emb|CZG28560.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999513113|emb|CZN16296.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999516620|emb|CZL81576.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999516874|emb|CZN57441.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999532712|emb|CZO34366.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999536007|emb|CZN18500.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999539105|emb|CZM55682.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999542241|emb|CZO06687.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999545499|emb|CZO47023.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999548539|emb|CZN72581.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999551887|emb|CZO00938.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999554929|emb|CZN05942.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999558277|emb|CZO46764.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999561317|emb|CZM25754.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999564670|emb|CZO47758.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999567705|emb|CZM39239.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999570904|emb|CZN37780.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999574094|emb|CZN74636.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999580585|emb|CZN99132.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999584045|emb|CZO27855.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999587220|emb|CZM47200.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999590340|emb|CZM32319.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999593357|emb|CZN31307.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999596555|emb|CZN93718.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999599903|emb|CZO26019.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999603189|emb|CZL79813.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999606298|emb|CZN40910.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999606681|emb|CZO42004.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999615828|emb|CZM30018.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999619023|emb|CZN77647.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999622301|emb|CZO50518.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999625655|emb|CZN55225.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999628928|emb|CZM41132.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999631806|emb|CZM45175.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999635154|emb|CZN42075.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999638194|emb|CZN33605.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999641390|emb|CZO61352.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999644561|emb|CZO27169.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999648098|emb|CZN75576.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999650909|emb|CZN91728.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999654327|emb|CZN93240.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999657370|emb|CZM10872.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999660564|emb|CZM47332.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999663763|emb|CZM89866.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999667111|emb|CZM26300.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999670305|emb|CZL75394.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999673528|emb|CZM30489.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999676544|emb|CZN60441.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999679579|emb|CZM60939.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999682774|emb|CZM68742.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999686000|emb|CZN91048.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999689660|emb|CZN11086.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999692531|emb|CZN79655.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999693083|emb|CZO47017.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999696298|emb|CZN02187.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999699481|emb|CZN90767.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999702704|emb|CZN14181.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999708702|emb|CZN42604.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999711954|emb|CZM88699.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999715363|emb|CZM87186.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999718546|emb|CZO29038.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999721380|emb|CZM66004.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999724720|emb|CZN16119.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999728199|emb|CZL90277.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999731560|emb|CZO30986.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999731881|emb|CZN07987.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999735151|emb|CZP98204.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999741064|emb|CZM24906.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999744634|emb|CZN08139.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999747891|emb|CZL99652.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999750786|emb|CZL78314.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999754136|emb|CZM72702.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999757479|emb|CZM85666.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999760374|emb|CZM13747.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999760927|emb|CZO14896.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999764135|emb|CZN98302.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999769803|emb|CZN38849.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999773507|emb|CZH73184.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999776581|emb|CZL90490.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999783445|emb|CZH51158.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999786621|emb|CZM19646.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999789788|emb|CZO47564.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999793265|emb|CZO52537.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999796512|emb|CZI10753.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999800240|emb|CZO40593.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1003034738|emb|CZR27473.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1032658669|gb|ANH13940.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1032661631|gb|ANH16901.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1032664609|gb|ANH19878.1| chromosome partitioning protein ParB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842650</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.028</Hsp_bit-score>
+      <Hsp_score>1377</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAHQVIGEEWSVRHLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFA Q+IGEEWSVRHLEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|742357366|ref|WP_038839597.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|998781210|emb|CZJ44922.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998829503|emb|CZG81412.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998883367|emb|CZI78360.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998898792|emb|CZJ44086.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998935683|emb|CZM89407.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998952197|emb|CZJ32193.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998999834|emb|CZH01219.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999057521|emb|CZM78914.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999103378|emb|CZI31218.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999127826|emb|CZH41484.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999153899|emb|CZM19496.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999162987|emb|CZM06505.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999237140|emb|CZG76728.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1002084901|emb|CZR03709.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1002088684|emb|CZQ78669.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1104007446|emb|SFZ46769.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839597</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLIGLNPEQQEMFAHQVIGEEWSVRHLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVL+GLNPEQQEMFA Q+IGEEWSVRHLEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1005609396|ref|WP_061691890.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|998824242|emb|CZG42639.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061691890</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLIGLNPEQQEMFAHQVIGEEWSVRHLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIINDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVL+GLNPEQQEMFA Q+IGEEWSVRHLEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQI+NDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|504657612|ref|WP_014844714.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|53752364|emb|CAH13796.1| hypothetical protein lpp2643 [Legionella pneumophila str. Paris] &gt;gi|395131674|emb|CCD09967.1| ParB-like partition protein [Legionella pneumophila subsp. pneumophila] &gt;gi|761987431|dbj|GAN24606.1| putative chromosome-partitioning protein ParB [Legionella pneumophila] &gt;gi|762000184|dbj|GAN27916.1| putative chromosome-partitioning protein ParB [Legionella pneumophila] &gt;gi|998789975|emb|CZH00577.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998892855|emb|CZJ06066.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998924245|emb|CZJ93634.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998942490|emb|CZK04406.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998954541|emb|CZK39558.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998976232|emb|CZJ67337.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998991560|emb|CZK09795.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999009783|emb|CZK00862.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999018965|emb|CZJ62773.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999027937|emb|CZJ88168.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999031497|emb|CZG65619.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999034095|emb|CZJ99020.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999040302|emb|CZJ69295.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999043031|emb|CZJ75783.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999049014|emb|CZJ88016.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999052271|emb|CZJ69801.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999055111|emb|CZJ94771.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999064381|emb|CZJ80088.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999070064|emb|CZJ73365.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999073477|emb|CZK06800.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999085580|emb|CZJ95370.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999173441|emb|CZH70884.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999182499|emb|CZG26026.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999184456|emb|CZP92075.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999188664|emb|CZI75437.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999198264|emb|CZP05117.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999206481|emb|CZP60769.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999213596|emb|CZG40907.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999217114|emb|CZI74579.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999225958|emb|CZG34912.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999227896|emb|CZP42360.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999235005|emb|CZP50202.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999240501|emb|CZH74882.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999244170|emb|CZH69814.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999256108|emb|CZP72260.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999259155|emb|CZP37936.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999265501|emb|CZP05299.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999272031|emb|CZP50151.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999277738|emb|CZP27408.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999281556|emb|CZP24770.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999284204|emb|CZP51364.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999290793|emb|CZP26156.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999296807|emb|CZP51131.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999300046|emb|CZP29568.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999307111|emb|CZH64275.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999307923|emb|CZP90368.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999316017|emb|CZI04758.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999318898|emb|CZP55463.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999322150|emb|CZH90298.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999324979|emb|CZH16332.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999338045|emb|CZP45319.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999344209|emb|CZP92436.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999347497|emb|CZP61662.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999353684|emb|CZP50628.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999356793|emb|CZP73992.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999361127|emb|CZI03471.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999363159|emb|CZP70115.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999366922|emb|CZP69993.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999369660|emb|CZP87850.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999374085|emb|CZG05836.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999377312|emb|CZI90419.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999380611|emb|CZH50505.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999383445|emb|CZI19396.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999387426|emb|CZG08761.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999390233|emb|CZI08573.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999392436|emb|CZP94862.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999397102|emb|CZG18110.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999398684|emb|CZP98289.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999403316|emb|CZP49794.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999406385|emb|CZG41046.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999409443|emb|CZH73320.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999412543|emb|CZG26253.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999416613|emb|CZG12223.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999419242|emb|CZG41813.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999422646|emb|CZH46239.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999426446|emb|CZG23307.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999429152|emb|CZG32598.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999432740|emb|CZG09338.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999435702|emb|CZH64477.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999438386|emb|CZG46539.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999442210|emb|CZJ82875.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|999445366|emb|CZH57574.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999448629|emb|CZG05861.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999450753|emb|CZP28957.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999458322|emb|CZJ87734.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999497057|emb|CZI12470.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999521305|emb|CZP42991.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999526292|emb|CZI59712.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999529174|emb|CZI15051.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999577106|emb|CZI03454.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999612407|emb|CZI09011.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1002082095|emb|CZQ95500.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1003028438|emb|CZR23735.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1015434011|gb|AMV15638.1| putative chromosome-partitioning protein ParB [Legionella pneumophila] &gt;gi|1041016562|gb|ANN93623.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1041019561|gb|ANN96621.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1103997754|emb|SFZ46644.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844714</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.102</Hsp_bit-score>
+      <Hsp_score>1372</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAHQIIGEEWSVRYLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFA QIIGEEWSVR+LEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|499535684|ref|WP_011216467.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|53755259|emb|CAH16753.1| hypothetical protein lpl2513 [Legionella pneumophila str. Lens] &gt;gi|1080003074|gb|AOW53646.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005181|gb|AOW55461.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015571|gb|AOW64444.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216467</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.717</Hsp_bit-score>
+      <Hsp_score>1371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAHQVIGEEWSVRHLEQEIKSYKNKDTNRPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFA Q+IGEEWSVRHLEQEIKSYKNKD N PKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|502866911|ref|WP_013101887.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|295650136|gb|ADG25983.1| chromosome partitioning protein ParB [Legionella pneumophila 2300/99 Alcoy] &gt;gi|999286830|emb|CZI77626.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999293047|emb|CZI60648.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999302305|emb|CZI56856.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999312006|emb|CZI85683.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1002091715|emb|CZR05733.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101887</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.717</Hsp_bit-score>
+      <Hsp_score>1371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAHQIIGEEWSVRHLEQEIKFYKNKDMNSPKNPRKDRDIERLQTILAEQVGAPVQIINDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFA QIIGEEWSVRHLEQEIK YKNKD+NSPKNPRKDRDIERLQTILAEQVGAPVQI+NDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1005404171|ref|WP_061637073.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|999327545|emb|CZH26617.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999332934|emb|CZG05833.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999349532|emb|CZH46697.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061637073</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.946</Hsp_bit-score>
+      <Hsp_score>1369</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLIRDKVLSFGHARVLVGLNPEQQEMFAHQIIGEEWSVRYLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQL+RDKVLSFGHARVLVGLNPEQQEMFA QIIGEEWSVR+LEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|653014273|ref|WP_027266322.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266322</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.946</Hsp_bit-score>
+      <Hsp_score>1369</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLIGLNPEQQEMFAHQVIGEEWSVRYLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVL+GLNPEQQEMFA Q+IGEEWSVR+LEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|652967010|ref|WP_027219987.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|998802583|emb|CZH87468.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998912366|emb|CZG99401.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|998993910|emb|CZI44660.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999004415|emb|CZI41494.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999166016|emb|CZG68109.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027219987</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.946</Hsp_bit-score>
+      <Hsp_score>1369</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKALSFGHARVLVGLNPEQQEMFAHQIIGEEWSVRHLEQEIKFYKNKDMNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDK LSFGHARVLVGLNPEQQEMFA QIIGEEWSVRHLEQEIK YKNKD+NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1004334840|ref|WP_061513765.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513765</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.561</Hsp_bit-score>
+      <Hsp_score>1368</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLSVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEIPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAHQVIGEEWSVRHLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYL VTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNE+PCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFA Q+IGEEWSVRHLEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|756829004|ref|WP_042646110.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|999151529|emb|CZH53579.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999168271|emb|CZI50024.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1080008997|gb|AOW58985.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011336|gb|AOW60827.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017580|gb|AOW66225.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_042646110</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.176</Hsp_bit-score>
+      <Hsp_score>1367</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKALSFGHARVLVGLNPEQQEMFAHQIIGEEWSVRHLEQEIKFYKNKDMNSPKNPRKDRDIERLQTILAEQVGAPVQIINDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDK LSFGHARVLVGLNPEQQEMFA QIIGEEWSVRHLEQEIK YKNKD+NSPKNPRKDRDIERLQTILAEQVGAPVQI+NDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1006037447|ref|WP_061721368.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|999340687|emb|CZG97336.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061721368</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.791</Hsp_bit-score>
+      <Hsp_score>1366</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAHQIIGEEWSVRYLEHEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFA QIIGEEWSVR+LE EIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1005607286|ref|WP_061690772.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|999249378|emb|CZG76766.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999252845|emb|CZG89305.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999262199|emb|CZH08877.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999274298|emb|CZH06381.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999470036|emb|CZG84343.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999778435|emb|CZG98464.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1104000892|emb|SFZ46685.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061690772</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.791</Hsp_bit-score>
+      <Hsp_score>1366</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRSIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNTEQQEMFAHQIIGEEWSVRHLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVR IAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLN EQQEMFA QIIGEEWSVRHLEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|652974004|ref|WP_027226718.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1005834259|gb|AMQ28985.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_027226718</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.02</Hsp_bit-score>
+      <Hsp_score>1364</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAHQIIREEWSVRYLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFA QII EEWSVR+LEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|981204251|ref|WP_059428626.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|761996923|dbj|GAN30985.1| putative chromosome-partitioning protein ParB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_059428626</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.635</Hsp_bit-score>
+      <Hsp_score>1363</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALAGKSRSHVANILRLLTLTDKVKQLVRDKALSFGHARVLVGLNPEQQEMFAHQIIGEEWSVRHLEQEIKFYKNKDMNSPKNPRKDRDIERLQTILAEQVGAPVQIINDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAAL GKSRSHVANILRLLTLTDKVKQLVRDK LSFGHARVLVGLNPEQQEMFA QIIGEEWSVRHLEQEIK YKNKD+NSPKNPRKDRDIERLQTILAEQVGAPVQI+NDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1005410792|ref|WP_061640024.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|998792785|emb|CZI67543.1| Probable chromosome-partitioning protein parB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640024</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.865</Hsp_bit-score>
+      <Hsp_score>1361</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFNYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKHLVRDKVLSFGHARVLVGLNPEQQEMFAHQIIGEEWSVRYLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRF YLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVK LVRDKVLSFGHARVLVGLNPEQQEMFA QIIGEEWSVR+LEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1004014354|ref|WP_061483681.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483681</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.094</Hsp_bit-score>
+      <Hsp_score>1359</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>256</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLSVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEIPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQFVRDKVLSFGHARVLVGLNPEQQEMFAHHVIGEEWSVRHLEQEIKSYKNKDTNSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYL VTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNE+PCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQ VRDKVLSFGHARVLVGLNPEQQEMFA  +IGEEWSVRHLEQEIKSYKNKD NSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|500496088|ref|WP_011947515.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|148280449|gb|ABQ54537.1| chromosome partitioning protein ParB (SpoOJ) [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>WP_011947515</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.472</Hsp_bit-score>
+      <Hsp_score>1347</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKALSFGHARVLVGLNPETPECFAHQIIGEEWSVRHLEQEIKFYKNKDMNSPKNPRKDRDIERLQTILAEQVGAPVQIINDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDK LSFGHARVLVGLNPE  E FA QIIGEEWSVRHLEQEIK YKNKD+NSPKNPRKDRDIERLQTILAEQVGAPVQI+NDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|652976452|ref|WP_027229124.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|985764601|gb|KXB25720.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|985767127|gb|KXB28222.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|999119051|emb|CZG84656.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|999122176|emb|CZH17782.1| Probable chromosome-partitioning protein parB [Legionella pneumophila] &gt;gi|1024339657|gb|KZX33996.1| chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1108605941|gb|APF04309.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. fraseri] &gt;gi|1108608924|gb|APF07291.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229124</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>522.316</Hsp_bit-score>
+      <Hsp_score>1344</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQSRFTYLPITSLQAGQYQPRQDFNATELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLTEIPCLIGDYSDKQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPDQQEMFAHQIIGEEWSVRHLEQEIKSYKNKDMGSPKNPRKDRDIERLQTILAEQVGAPVQIINEGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQ+RFTYLP+TSLQAGQYQPRQDFN TELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGL E+PCLIGDYSD+QACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNP+QQEMFA QIIGEEWSVRHLEQEIKSYKNKD+ SPKNPRKDRDIERLQTILAEQVGAPVQI+N+GEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652969850|ref|WP_027222743.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella pneumophila] &gt;gi|1005362983|gb|AMP88852.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pascullei] &gt;gi|1005367753|gb|AMP93530.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pascullei] &gt;gi|1005370672|gb|AMP96448.1| chromosome partitioning protein ParB [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222743</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>519.62</Hsp_bit-score>
+      <Hsp_score>1337</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQSRFTYLPITSLQAGQYQPRQDFNATELQELAQSISSQGLIEPLVVRTIAKERYEIIAGERRWRAAKLAGLTEIPCLIGDYSDKQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPDQQEMFANQVIGEEWSVRHLEQEIKSYKNKDMSSPKNPRKDRDIERLQTILAEQVGAPVQIINEGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQ+RFTYLP+TSLQAGQYQPRQDFN TELQELAQSISSQGLIEPLVVR IAKERYEIIAGERRWRAAKLAGL E+PCLIGDYSD+QACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNP+QQEMFA Q+IGEEWSVRHLEQEIKSYKNKD++SPKNPRKDRDIERLQTILAEQVGAPVQI+N+GEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|737921610|ref|WP_035886912.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella norrlandica] &gt;gi|701446886|gb|KGP64234.1| chromosome partitioning protein ParB [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886912</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.248</Hsp_bit-score>
+      <Hsp_score>1227</Hsp_score>
+      <Hsp_evalue>2.20107e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTQFSYLPIESLQAGQYQPRQDFNPTILQELAQSIASQGLIEPLVVRPIAKQRYEIIAGERRWRAAKLAGLNEVPCLIGDYTDKQACALTLIENIQRQDLNLIEEAAGYKRLIDEFHYHQDEIAVLVGKSRSHIANVLRLLGLSDKVKQLIRDKVLSLGHARVLVGLSVGQQEMFVSQVIEKDWSVRQLEQEIKSYKSKNIDAPKNPKKDRDIERLQTILAEQVGAPVQIVNDSEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQT+F+YLP+ SLQAGQYQPRQDFN T LQELAQSI+SQGLIEPLVVRPIAK+RYEIIAGERRWRAAKLAGLNEVPCLIGDY+D+QACALTLIENIQRQDLNLIEEA GYKRLI+EFHYHQDEIA LVGKSRSH+AN+LRLL L+DKVKQL+RDKVLS GHARVLVGL+  QQEMF  Q+I ++WSVR LEQEIKSYK+K+I++PKNP+KDRDIERLQTILAEQVGAPVQIVND EDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|517405847|ref|WP_018578511.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella shakespearei] &gt;gi|962281315|gb|KTD65128.1| chromosome partitioning protein ParB [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578511</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.055</Hsp_bit-score>
+      <Hsp_score>1159</Hsp_score>
+      <Hsp_evalue>5.17813e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MQTEFLYLPIESLQAGQYQPRQDFNPAALQELAQSIASQGLIEPLVVRAIAKQRYEIIAGERRWRAAQLAGLHEVPCMVGEYSDKQACALTLIENIQRQDLNLIEEATGYRRLIDEFHYHQDEIAVLIGKSRSHIANILRLLTLTESVKNLLRDKVLSLGHARVLVGLSSAHQEAFVQQAVEEQWSVRQLEQAIKQHKNKELEQPKNPKQDKDIERLQTILAEQVGAPVQIVSDSDDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>MQT F YLP+ SLQAGQYQPRQDFN   LQELAQSI+SQGLIEPLVVR IAK+RYEIIAGERRWRAA+LAGL+EVPC++G+YSD+QACALTLIENIQRQDLNLIEEATGY+RLI+EFHYHQDEIA L+GKSRSH+ANILRLLTLT+ VK L+RDKVLS GHARVLVGL+   QE F QQ + E+WSVR LEQ IK +KNK++  PKNP++D+DIERLQTILAEQVGAPVQIV+D +DGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|654932841|ref|WP_028383199.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella moravica] &gt;gi|962253378|gb|KTD37559.1| chromosome partitioning protein ParB [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383199</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>1.54688e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHTEFIYIPIEQLHAGQYQPRQDFNVDSLNELAQSIASQGLIEPLVVRAIARQRYEIIAGERRWRAAKIAGLREVPCLLGEYTDKQACALTLIENIQRQDLNLIEEATGYRRLMDEFHYHQDEIALLVGKSRSHIANIIRLLSLSEFVKSLIRDARLSFGHARVLVGLTSEQQELFAQQVIEEQCSVRQLEQAVKDYKTQDLDSPKNARKDRDIERLQSILSEQVGAPVQIVNDTAEGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M T F Y+P+  L AGQYQPRQDFNV  L ELAQSI+SQGLIEPLVVR IA++RYEIIAGERRWRAAK+AGL EVPCL+G+Y+D+QACALTLIENIQRQDLNLIEEATGY+RL++EFHYHQDEIA LVGKSRSH+ANI+RLL+L++ VK L+RD  LSFGHARVLVGL  EQQE+FAQQ+I E+ SVR LEQ +K YK +D++SPKN RKDRDIERLQ+IL+EQVGAPVQIVND  +GGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966434543|ref|WP_058474974.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella quateirensis] &gt;gi|962260567|gb|KTD44677.1| chromosome partitioning protein ParB [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474974</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>2.01239e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHTEFIYIPIEQLHAGQYQPRQDFNVDSLNELAQSIASQGLIEPLIVRAIARQRYEIIAGERRWRAAKIAGLREVPCLLGEYTDKQACALTLIENIQRQDLNLIEEATGYRRLMDEFHYHQDEIAVLVGKSRSHLANILRLLTLSEPVKNLIRESQLSLGHARVLVGLNTDQQELFAHQVIDEQWSVRQLEQAVKDYKNRDSESPKNAKKDRDIERLQSILSEQVGAPVQIINDTAEGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M T F Y+P+  L AGQYQPRQDFNV  L ELAQSI+SQGLIEPL+VR IA++RYEIIAGERRWRAAK+AGL EVPCL+G+Y+D+QACALTLIENIQRQDLNLIEEATGY+RL++EFHYHQDEIA LVGKSRSH+ANILRLLTL++ VK L+R+  LS GHARVLVGLN +QQE+FA Q+I E+WSVR LEQ +K YKN+D  SPKN +KDRDIERLQ+IL+EQVGAPVQI+ND  +GGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|769980321|ref|WP_045096306.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella fallonii] &gt;gi|698843921|emb|CEG57890.1| putative chromosome-partitioning protein ParB [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096306</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>2.05237e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MTTEFSYLPIEHLQASQYQPRQDFNSSALQELAQSIASQGLIEPLVVRRIAKQHYEIIAGERRWRAAKLAGLTAVPCLIGEYTDKQACALTLIENIQREDLNLIEEANGYRRLMDEFHYHQDEIAALVGKSRSHIANILRLLSLTEHLKTLIRDKVLSLGHARVLVGLSPDQQEWFASKALDEQWSVRQLEQAIKLHKSKSVGQPQNAKKDRDVERLQTLLSEQVGAPVQIINDNAAGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M T F+YLP+  LQA QYQPRQDFN + LQELAQSI+SQGLIEPLVVR IAK+ YEIIAGERRWRAAKLAGL  VPCLIG+Y+D+QACALTLIENIQR+DLNLIEEA GY+RL++EFHYHQDEIAALVGKSRSH+ANILRLL+LT+ +K L+RDKVLS GHARVLVGL+P+QQE FA + + E+WSVR LEQ IK +K+K +  P+N +KDRD+ERLQT+L+EQVGAPVQI+ND   GGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966439638|ref|WP_058479961.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella waltersii] &gt;gi|962295534|gb|KTD79179.1| chromosome partitioning protein ParB [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058479961</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>1.85791e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MPNQFCYVAVDNLQAGRFQPRQDFNASALQELAHSIASQGLIEPLVVRTIAKDRYEIIAGERRWRAAKLAGLTEVPCIVGEYTDKQACALTLIENIQRQDLNLIEEAQGYRRLIDEFHYQQDELAVLVGKSRSHIANILRLLTLTDRVKDFLRERLLSLGHARVLVGLDAIHQEFFADQVMKEEWSVRHLEQAIKSFKAQEVNQPRNPKSDRDVERLQTILSEQVGAPVQIVNDEQQGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M  +F Y+ V +LQAG++QPRQDFN + LQELA SI+SQGLIEPLVVR IAK+RYEIIAGERRWRAAKLAGL EVPC++G+Y+D+QACALTLIENIQRQDLNLIEEA GY+RLI+EFHY QDE+A LVGKSRSH+ANILRLLTLTD+VK  +R+++LS GHARVLVGL+   QE FA Q++ EEWSVRHLEQ IKS+K +++N P+NP+ DRD+ERLQTIL+EQVGAPVQIVND + GGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966461275|ref|WP_058493628.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella worsleiensis] &gt;gi|962294297|gb|KTD77964.1| partition protein ParB [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493628</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.713</Hsp_bit-score>
+      <Hsp_score>1101</Hsp_score>
+      <Hsp_evalue>2.78703e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHTEFIYIPIEQLHAGQYQPRRDFNPESLHELAQSIASQGLIEPLVVRAIARQRYEIIAGERRWRAAKIAGLVEVPCLLGEYTDKQACALTLIENIQRQDLNLIEEATGYRRLMDEFHYHQDEIAVLVGKSRSHIANILRLLTLAESVKDLIRQSKLSLGHARVLVGLSRNQQELFAQQTMEEQWSVRQLEQAVKEYKNNDLEPPKNAKKDRDIERLQSILAEQVGAPVQIVNDIGEGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M T F Y+P+  L AGQYQPR+DFN   L ELAQSI+SQGLIEPLVVR IA++RYEIIAGERRWRAAK+AGL EVPCL+G+Y+D+QACALTLIENIQRQDLNLIEEATGY+RL++EFHYHQDEIA LVGKSRSH+ANILRLLTL + VK L+R   LS GHARVLVGL+  QQE+FAQQ + E+WSVR LEQ +K YKN D+  PKN +KDRDIERLQ+ILAEQVGAPVQIVND  +GGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|498340394|ref|WP_010654550.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Fluoribacter dumoffii] &gt;gi|962205822|gb|KTC90759.1| partition protein ParB [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654550</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>2.33394e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHIPIDNIQAGQYQPRQDFNDAALKELAQSIISQGLIEPLIVRAIAKQRYEIIAGERRWRAAKIAGLQTVPCLIGNYSDKQACALTLIENIQRENLNLIEEASAYRRLMDEFHYHQDEIATLVGKSRSHIANIIRLLSLSEKIKDLIRDKSLSFGHARVLVGLTPSQQEYFASETIEQQWSVRQLENEVKTQKNNDFSLPKNAKKDRDIERLQTVLSEQIGAPVHIINDKNDGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F ++P+ ++QAGQYQPRQDFN   L+ELAQSI SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCLIG+YSD+QACALTLIENIQR++LNLIEEA+ Y+RL++EFHYHQDEIA LVGKSRSH+ANI+RLL+L++K+K L+RDK LSFGHARVLVGL P QQE FA + I ++WSVR LE E+K+ KN D + PKN +KDRDIERLQT+L+EQ+GAPV I+ND  DGGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|654929381|ref|WP_028379751.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella cherrii] &gt;gi|962195441|gb|KTC80502.1| partition protein ParB [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028379751</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.935</Hsp_bit-score>
+      <Hsp_score>1086</Hsp_score>
+      <Hsp_evalue>6.39692e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHQIPIENIQAGQYQPREDFNDAALKELAQSIVSQGLIEPLIVRTIAKQRYEIIAGERRWRAAKMAGLHTVPCLIGNYTDKQACALTLIENIQREDLNLIEEASAYRRLIDEFHYHQDEIATLVGKSRSHIANIIRLLNLSEKIKDLIRDKSLSFGHARVLVGLNPAQQEYLAAQTIEQQWSVRQLEQAVRTQKNKDFALPKNAKKDRDVERLQAVLSEQVGAPVQIINDNEHGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F  +P+ ++QAGQYQPR+DFN   L+ELAQSI SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL+ VPCLIG+Y+D+QACALTLIENIQR+DLNLIEEA+ Y+RLI+EFHYHQDEIA LVGKSRSH+ANI+RLL L++K+K L+RDK LSFGHARVLVGLNP QQE  A Q I ++WSVR LEQ +++ KNKD   PKN +KDRD+ERLQ +L+EQVGAPVQI+ND E GGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966424134|ref|WP_058467177.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Fluoribacter gormanii] &gt;gi|962220361|gb|KTD05038.1| partition protein ParB [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058467177</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>7.36761e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHVPIENIQAGQYQPRQDFNDIALKELAQSIVSQGLIEPLIVRSIAKQRYEIIAGERRWRAAKIAGLQTVPCLIGDYSDKQACALTLIENIQREDLNLIEEASAYRRLVDEFNYHQDEIATLVGKSRSHVANIIRLLSLSEKVKNLIRDKMLSLGHARVLVGLSPAQQEYLAQQTIEQQWSVRQLEHAVKMQKNKESSPHQNAKKDRDIERLQTVLAEQVGAPVQIINDNGDGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F ++P+ ++QAGQYQPRQDFN   L+ELAQSI SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCLIGDYSD+QACALTLIENIQR+DLNLIEEA+ Y+RL++EF+YHQDEIA LVGKSRSHVANI+RLL+L++KVK L+RDK+LS GHARVLVGL+P QQE  AQQ I ++WSVR LE  +K  KNK+ +  +N +KDRDIERLQT+LAEQVGAPVQI+ND  DGGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|493926544|ref|WP_006871317.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella drancourtii] &gt;gi|363537210|gb|EHL30637.1| hypothetical protein LDG_7408 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006871317</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>1.58664e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHTEFQQIPIDNIQAGQYQPRQDFNSAALAELAQSIASQGLIEPLIVRSIAKERYEIIAGERRWRAAKLAGMQQVPCLIGNYTDKQACALTLVENIQREDLNLIEEASAYRRLMDEFHYHQEEIATLVGKSRSHVANILRLLSLTGYVKEHLRNKTLSLGHARMLVGLNPVQQEYLAEQAIEGQWSVRQLEHAVKEQKNQAIAVPKNAKKDRDIERLQTILAEQVGAPVQIVTDNEDGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M T F  +P+ ++QAGQYQPRQDFN   L ELAQSI+SQGLIEPL+VR IAKERYEIIAGERRWRAAKLAG+ +VPCLIG+Y+D+QACALTL+ENIQR+DLNLIEEA+ Y+RL++EFHYHQ+EIA LVGKSRSHVANILRLL+LT  VK+ +R+K LS GHAR+LVGLNP QQE  A+Q I  +WSVR LE  +K  KN+ I  PKN +KDRDIERLQTILAEQVGAPVQIV D EDGGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966436596|ref|WP_058476964.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella steigerwaltii] &gt;gi|962294457|gb|KTD78119.1| partition protein ParB [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476964</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>7.27801e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHQIPIENIQAGQYQPRQDFNDAALKELAQSIVSQGLIEPLIVRTIAKQRYEIIAGERRWRAAKMAGLQTVPCLIGNYTDKQACALTLIENIQREDLNLIEEASAYRRLIDEFHYHQDEIATLVGKSRSHIANIIRLLSLGEKIKDLIRDKSLSLGHARVLVGLNPPQQEYLVTQTIEHQWSVRQLEHAVKTQKNKELPLPKNAKKDRDIERLQTVLSEQVGAPVQIINDNEQGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F  +P+ ++QAGQYQPRQDFN   L+ELAQSI SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCLIG+Y+D+QACALTLIENIQR+DLNLIEEA+ Y+RLI+EFHYHQDEIA LVGKSRSH+ANI+RLL+L +K+K L+RDK LS GHARVLVGLNP QQE    Q I  +WSVR LE  +K+ KNK++  PKN +KDRDIERLQT+L+EQVGAPVQI+ND E GGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966468643|ref|WP_058499969.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella gratiana] &gt;gi|962221440|gb|KTD06100.1| partition protein ParB [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499969</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>8.57828e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHAEFHHLPIESIYAGQYQPREDFNTTALQELAQSIASQGLIEPLIVRTIAKHRYEIIAGERRWRAAKIAGLQTVPCLVGEYTDKQACAVTLIENIQREDLNLIEEASAYRRLIDEFNYHQDEIATLVGKSRSHIANILRLLSLSEPIKNLIRGKALSLGHARMLVGLDPTQQEYLAMQTIDEQWSVRQLEHAVKMQKSKERSFPKNAKKDRDIERLQTILAEQVGAPVQIINDTDNGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F +LP+ S+ AGQYQPR+DFN T LQELAQSI+SQGLIEPL+VR IAK RYEIIAGERRWRAAK+AGL  VPCL+G+Y+D+QACA+TLIENIQR+DLNLIEEA+ Y+RLI+EF+YHQDEIA LVGKSRSH+ANILRLL+L++ +K L+R K LS GHAR+LVGL+P QQE  A Q I E+WSVR LE  +K  K+K+ + PKN +KDRDIERLQTILAEQVGAPVQI+ND ++GGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|489731410|ref|WP_003635526.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella longbeachae] &gt;gi|269987569|gb|EEZ93824.1| stage 0 sporulation protein J [Legionella longbeachae D-4968] &gt;gi|288859117|emb|CBJ13046.1| putative partition protein ParB [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635526</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>9.57176e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHLPIESIQAGQYQSREDFNTTALQELAQSIASQGLIEPLIVRIIAKNRYEIIAGERRWRAAKIAGLQTVPCLVGDYTDKQACALTLIENIQRENLNLIEEASAYRRLIDEFNYQQDEIATLVGKSRSHIANILRLLSLSEKIKNLIRDKALSLGHARMLVGLDVAQQEYLAVQTINEQWSVRQLEHAVKIQKNNDRASPKNAKKDRDVERLQSVLAEQVGAPVQIINDNDDGGWLKVKFYDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F +LP+ S+QAGQYQ R+DFN T LQELAQSI+SQGLIEPL+VR IAK RYEIIAGERRWRAAK+AGL  VPCL+GDY+D+QACALTLIENIQR++LNLIEEA+ Y+RLI+EF+Y QDEIA LVGKSRSH+ANILRLL+L++K+K L+RDK LS GHAR+LVGL+  QQE  A Q I E+WSVR LE  +K  KN D  SPKN +KDRD+ERLQ++LAEQVGAPVQI+ND +DGGWLKVKF+DNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966504640|ref|WP_058521299.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella tucsonensis] &gt;gi|962290626|gb|KTD74334.1| partition protein ParB [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521299</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>1.45157e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHIPIENIQAGQYQPRQDFNDTTLKELAQSIASQGLIEPLIVRSIAKQRYEIIAGERRWRAAKIAGLQTVPCLVGNYSDKQACALTLIENIQREDLNLIEEASAYRRLIDEFNYYQDEIAALVGKSRSHIANIIRLLSLSEKIKDLIRNKTLSFGHARVLIGLEPTQQEYLAKQAIAQQWSVRQLEHAVKIQKNKDPSPPQNAKRDRDIERLQSVLGEQLGAPVQIINDNGDGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F ++P+ ++QAGQYQPRQDFN T L+ELAQSI+SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCL+G+YSD+QACALTLIENIQR+DLNLIEEA+ Y+RLI+EF+Y+QDEIAALVGKSRSH+ANI+RLL+L++K+K L+R+K LSFGHARVL+GL P QQE  A+Q I ++WSVR LE  +K  KNKD + P+N ++DRDIERLQ++L EQ+GAPVQI+ND  DGGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|653020345|ref|WP_027272274.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella sainthelensi] &gt;gi|962275717|gb|KTD59623.1| partition protein ParB [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027272274</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.461</Hsp_bit-score>
+      <Hsp_score>1064</Hsp_score>
+      <Hsp_evalue>1.53119e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHAEFHHLPIESLQAGQYQSREDFNTTALQELAQSIASQGLIEPLIVRPIAKHRYEIIAGERRWRAAKMAGLHTVPCLIGNYTDKQACALTLIENIQRENLNLIEEANAYRRLIDEFNYQQDEIATLVGKSRSHIANIIRLLTLSEKIKNFIRDKALSLGHARMLVGLDFAQQEYLAVQTINEQWSVRQLEHAVKIQKNNVHSFPKNAKKDRDVERLQSVLAEQVGAPVQIINDNDDGGWLKVKFYDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F +LP+ SLQAGQYQ R+DFN T LQELAQSI+SQGLIEPL+VRPIAK RYEIIAGERRWRAAK+AGL+ VPCLIG+Y+D+QACALTLIENIQR++LNLIEEA  Y+RLI+EF+Y QDEIA LVGKSRSH+ANI+RLLTL++K+K  +RDK LS GHAR+LVGL+  QQE  A Q I E+WSVR LE  +K  KN   + PKN +KDRD+ERLQ++LAEQVGAPVQI+ND +DGGWLKVKF+DNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|518062743|ref|WP_019232951.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella anisa] &gt;gi|962181745|gb|KTC66985.1| partition protein ParB [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019232951</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.69</Hsp_bit-score>
+      <Hsp_score>1062</Hsp_score>
+      <Hsp_evalue>2.29673e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHVPIENIQAGQYQPRQDFNDTTLKELAQSIASQGLIEPLIVRSIAKQRYEIIAGERRWRAAKIAGLQTVPCLIGNYSDKQACALTLIENIQREDLNLIEEASAYRRLIDEFNYHQDEIAALVGKSRSHIANIIRLLGLSEKIKDLIRNKTLSLGHARVLVGLEPSQQDYLAKQTITQQWSVRQLEHAVKIQKNKEFSPPHNAKRDRDIERLQSVLGEQLGAPVQIINDNGDGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F ++P+ ++QAGQYQPRQDFN T L+ELAQSI+SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCLIG+YSD+QACALTLIENIQR+DLNLIEEA+ Y+RLI+EF+YHQDEIAALVGKSRSH+ANI+RLL L++K+K L+R+K LS GHARVLVGL P QQ+  A+Q I ++WSVR LE  +K  KNK+ + P N ++DRDIERLQ++L EQ+GAPVQI+ND  DGGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1113344119|gb|OJW07966.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW07966</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>1.98317e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHQIPIENIQAGQYQPRQDFNDTALKELAQSIISQGLIEPLIVRTIAKQRYEIIAGERRWRAAKMAGLQTVPCLIGNYTDKQACALTLIENIQREDLNLIEEASAYRRLLDEFHYHQDEIATLVGKSRSHIANIIRLLNLSGQIKDLIRDKSLSFGHARVLVGLNPAQQEYLATKTIEQQWSVRQLEHAVKTQKNKE-PLPKNAKKDRDIERLQTVLSEQVGAPVHIINDNEQGGWLQVKFFDNDTLAGLLERLGLRYE</Hsp_hseq>
+      <Hsp_midline>M   F  +P+ ++QAGQYQPRQDFN T L+ELAQSI SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCLIG+Y+D+QACALTLIENIQR+DLNLIEEA+ Y+RL++EFHYHQDEIA LVGKSRSH+ANI+RLL L+ ++K L+RDK LSFGHARVLVGLNP QQE  A + I ++WSVR LE  +K+ KNK+   PKN +KDRDIERLQT+L+EQVGAPV I+ND E GGWL+VKFFDNDTLAGLLERLGLRY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966487694|ref|WP_058509307.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella steelei] &gt;gi|962287235|gb|KTD70965.1| partition protein ParB [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058509307</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.223</Hsp_bit-score>
+      <Hsp_score>1053</Hsp_score>
+      <Hsp_evalue>5.20153e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHQIPIENIQAGQYQPRQDFNDTALKELAQSIISQGLIEPLIVRTIAKQRYEIIAGERRWRAAKMAGLQTVPCLIGNYTDKQACALTLIENIQREDLNLIEEAGAYRRLLDEFHYHQDEIATLVGKSRSHIANIIRLLNLSGQIKDLIRDKSLSFGHARVLVGLNPAQQEYLATKTIEQQWSVRQLEHAVKTQKNKE-PPPKNAKKDRDIERLQTVLSEQVGAPVHIINDNEQGGWLQVKFFDNDTLAGLLERLGLRYE</Hsp_hseq>
+      <Hsp_midline>M   F  +P+ ++QAGQYQPRQDFN T L+ELAQSI SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCLIG+Y+D+QACALTLIENIQR+DLNLIEEA  Y+RL++EFHYHQDEIA LVGKSRSH+ANI+RLL L+ ++K L+RDK LSFGHARVLVGLNP QQE  A + I ++WSVR LE  +K+ KNK+   PKN +KDRDIERLQT+L+EQVGAPV I+ND E GGWL+VKFFDNDTLAGLLERLGLRY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966416755|ref|WP_058460040.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Fluoribacter bozemanae] &gt;gi|962185689|gb|KTC70848.1| partition protein ParB [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058460040</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.223</Hsp_bit-score>
+      <Hsp_score>1053</Hsp_score>
+      <Hsp_evalue>5.57076e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHIPIENIQAGQYQPRQDFNDTTLKELAQSIASQGLIEPLIVRSIAKQRYEIIAGERRWRAAKIAGLQTVPCLVGNYSDKQACALTLIENIQREDLNLIEEASAYRRLIDEFHYHQDEIATLVGKSRSHIANIIRLLGLSEQIKNLIRNKTLSLGHARVLVGLEPTHQEYLAKQTITQQWSVRQLEHAVKIQKNKECSPSQNAKRDRDIERLQSVLGEQLGAPVQIINDNGDGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F ++P+ ++QAGQYQPRQDFN T L+ELAQSI+SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCL+G+YSD+QACALTLIENIQR+DLNLIEEA+ Y+RLI+EFHYHQDEIA LVGKSRSH+ANI+RLL L++++K L+R+K LS GHARVLVGL P  QE  A+Q I ++WSVR LE  +K  KNK+ +  +N ++DRDIERLQ++L EQ+GAPVQI+ND  DGGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966496721|ref|WP_058513487.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella santicrucis] &gt;gi|962279812|gb|KTD63635.1| partition protein ParB [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058513487</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>6.55521e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHLPIESIQAGQYQAREDFNTTALQELAQSIASQGLIEPLIVRTIAKHRYEIIAGERRWRAAKIAGLPTVPCLIGNYTDKQACALTLIENIQRENLNLIEEASAYRRLIDEFNYQQDEIATLVGKSRSHIANILRLLSLSEPIKNLIRDKALSLGHARMLVGLDVAQQEYLAVQTINEQWSVRQLENAVKIQKSNERSSPKNAKKDRDVERLQSVLAEQVGAPVQITNDNDNGGWLKVKFYDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F +LP+ S+QAGQYQ R+DFN T LQELAQSI+SQGLIEPL+VR IAK RYEIIAGERRWRAAK+AGL  VPCLIG+Y+D+QACALTLIENIQR++LNLIEEA+ Y+RLI+EF+Y QDEIA LVGKSRSH+ANILRLL+L++ +K L+RDK LS GHAR+LVGL+  QQE  A Q I E+WSVR LE  +K  K+ + +SPKN +KDRD+ERLQ++LAEQVGAPVQI ND ++GGWLKVKF+DNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966519359|ref|WP_058535853.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058535853</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>8.34204e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHSEFHYLPIENIQAGQYQPRQDFNPDALKELAQSIASQGLIEPLIVRAIAKERYELIAGERRWRAAKIAGMLQVPCLIGNYSDKQACALTLVENIQREDLNLIEEASAYRRLMDEFNYHQDEIATLVGKSRSHVANILRLLTLTPFVKNYLRERTLSLGHARTLIGLNPTDQEYLAEQAIVEQWSVRQLEQAVKEQKKQNSTPIKNAKKDRDIERLQTILAEQVGAPVEIIDDNGDGGWLKVKFFNNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M + F YLP+ ++QAGQYQPRQDFN   L+ELAQSI+SQGLIEPL+VR IAKERYE+IAGERRWRAAK+AG+ +VPCLIG+YSD+QACALTL+ENIQR+DLNLIEEA+ Y+RL++EF+YHQDEIA LVGKSRSHVANILRLLTLT  VK  +R++ LS GHAR L+GLNP  QE  A+Q I E+WSVR LEQ +K  K ++    KN +KDRDIERLQTILAEQVGAPV+I++D  DGGWLKVKFF+NDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966421802|ref|WP_058465003.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella cincinnatiensis] &gt;gi|962199801|gb|KTC84800.1| partition protein ParB [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058465003</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.142</Hsp_bit-score>
+      <Hsp_score>1045</Hsp_score>
+      <Hsp_evalue>9.10625e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHLPIESIQAGQYQAREDFNTTALQELAQSIASQGLIEPLIVRTIAKHRYEIIAGERRWRAAKIAGLQTVPCLIGNYTDKQACALTLIENIQRENLNLIEEASAYRRLIDEFNYQQDEIATLVGKSRSHIANILRLLSLSEPIKNLIRDKALSLGHARMLVGLDVAQQEYLAVQAINEQWSVRQLEQAVKIQKNNARSFPQNAKKDRDVERLQSVLAEQVGAPVQIINDTDNGGWLKVKFYDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F +LP+ S+QAGQYQ R+DFN T LQELAQSI+SQGLIEPL+VR IAK RYEIIAGERRWRAAK+AGL  VPCLIG+Y+D+QACALTLIENIQR++LNLIEEA+ Y+RLI+EF+Y QDEIA LVGKSRSH+ANILRLL+L++ +K L+RDK LS GHAR+LVGL+  QQE  A Q I E+WSVR LEQ +K  KN   + P+N +KDRD+ERLQ++LAEQVGAPVQI+ND ++GGWLKVKF+DNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966500799|ref|WP_058517472.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella parisiensis] &gt;gi|962256155|gb|KTD40292.1| partition protein ParB [Legionella parisiensis] &gt;gi|1069292263|gb|OEH47626.1| putative chromosome-partitioning protein ParB [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517472</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.601</Hsp_bit-score>
+      <Hsp_score>1041</Hsp_score>
+      <Hsp_evalue>3.70177e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVEFHHIPIENIQAGQYQPRQDFNDIALKELAQSIASQGLIEPLIVRSIAKQRYEIIAGERRWRAAKIAGLQTVPCLIGNYSDKQACALTLIENIQREDLNLIEEASAYRRLIDEFNYHQDEIATLVGKSRSHIANIIRLLGLSEQIKDLIRNKTLSLGHARVLVGLEPNYQEYLAKQTITQQWSVRQLEHAVKIQKNKEFSPSQNAKRDRDIERLQSVLGEQLGAPVQIINDNSDGGWLQVKFFDNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M   F ++P+ ++QAGQYQPRQDFN   L+ELAQSI+SQGLIEPL+VR IAK+RYEIIAGERRWRAAK+AGL  VPCLIG+YSD+QACALTLIENIQR+DLNLIEEA+ Y+RLI+EF+YHQDEIA LVGKSRSH+ANI+RLL L++++K L+R+K LS GHARVLVGL P  QE  A+Q I ++WSVR LE  +K  KNK+ +  +N ++DRDIERLQ++L EQ+GAPVQI+ND  DGGWL+VKFFDNDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|671588265|ref|WP_031564281.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031564281</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>4.68941e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MHVELHHIPIENIQAGQYQPRQDFNVTTLKELAESIASHGLIEPILVRIIAKQSYEIIAGERRWRAAKMAGLKTIPCLIGHYTDKQACALTLIENIQREDLNLIEEASAYRRLIDEFNYHQDELATLVGKSRSHIANIIRLLSLSNNIKNMICDKSLSLGHARVLVGLNPAQQEYFAGQTITEQWSVRQLEYAVKTHKNKASVPSQNSKNDRDIERLQTILAEQVGAPVQIVNEG-DGGWLQVKFFNNDTLAGLLERLGLRYD</Hsp_hseq>
+      <Hsp_midline>M     ++P+ ++QAGQYQPRQDFNVT L+ELA+SI+S GLIEP++VR IAK+ YEIIAGERRWRAAK+AGL  +PCLIG Y+D+QACALTLIENIQR+DLNLIEEA+ Y+RLI+EF+YHQDE+A LVGKSRSH+ANI+RLL+L++ +K ++ DK LS GHARVLVGLNP QQE FA Q I E+WSVR LE  +K++KNK     +N + DRDIERLQTILAEQVGAPVQIVN+G DGGWL+VKFF+NDTLAGLLERLGLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966464418|ref|WP_058495779.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella drozanskii] &gt;gi|962202899|gb|KTC87868.1| chromosome partitioning protein ParB [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058495779</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.326</Hsp_bit-score>
+      <Hsp_score>965</Hsp_score>
+      <Hsp_evalue>1.39992e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MKTEFKSIPIEWLQPGRYQPRVNFEANALQELAQSIATQGLIEPLVVRELAKERYEIIAGERRWRAAMLISLAELPCLIGNYSDEQAAAVTLIENIQRQNLNLIEEATGYRRLLDEFHFHQEEIAHLVGKSRSHIANILRLLTLCESVQQRLRNEQLSLGHARMLVGLHPSQQRLLAEQIEQNEWSVRQLEKKVKELKTND-PLKADARKDRDIERLQIKLAEQIGAPVQIINDNREGGWLQVKFFDNDTLAGLLERMGLRYD</Hsp_hseq>
+      <Hsp_midline>M+T F  +P+  LQ G+YQPR +F    LQELAQSI++QGLIEPLVVR +AKERYEIIAGERRWRAA L  L E+PCLIG+YSD+QA A+TLIENIQRQ+LNLIEEATGY+RL++EFH+HQ+EIA LVGKSRSH+ANILRLLTL + V+Q +R++ LS GHAR+LVGL+P QQ + A+QI   EWSVR LE+++K  K  D     + RKDRDIERLQ  LAEQ+GAPVQI+ND  +GGWL+VKFFDNDTLAGLLER+GLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966475058|ref|WP_058505819.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Legionella nautarum] &gt;gi|962248986|gb|KTD33208.1| chromosome partitioning protein ParB [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505819</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.629</Hsp_bit-score>
+      <Hsp_score>958</Hsp_score>
+      <Hsp_evalue>1.5744e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSP--KNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MKTEFKSIPIEWLQSGRYQPRVNFEANALQELAQSIATQGLIEPLVVRELAKERYEIIAGERRWRAAMLVGLAELPCLIGNYSDEQAAAVTLIENIQRQNLNLIEEATGYRRLLDEFHFHQEEIASLVGKSRSHIANILRLLTLCEPLQQRLRNEQLSLGHARVLVGLPPAQQISLAEQTEQNEWSVRQLEKKVKELKT---NEPLKANARKDRDIERLQIKLAEQIGAPVQIINDHGEGGWLQLKFFDNDTLAGLLERMGLRYD</Hsp_hseq>
+      <Hsp_midline>M+T F  +P+  LQ+G+YQPR +F    LQELAQSI++QGLIEPLVVR +AKERYEIIAGERRWRAA L GL E+PCLIG+YSD+QA A+TLIENIQRQ+LNLIEEATGY+RL++EFH+HQ+EIA+LVGKSRSH+ANILRLLTL + ++Q +R++ LS GHARVLVGL P QQ   A+Q    EWSVR LE+++K  K    N P   N RKDRDIERLQ  LAEQ+GAPVQI+ND  +GGWL++KFFDNDTLAGLLER+GLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|769982270|ref|WP_045098252.1|</Hit_id>
+  <Hit_def>chromosome partitioning protein ParB [Tatlockia micdadei] &gt;gi|698845726|emb|CEG59705.1| putative chromosome-partitioning protein parB [Tatlockia micdadei] &gt;gi|962243571|gb|KTD27890.1| chromosome partitioning protein ParB [Tatlockia micdadei] &gt;gi|1081463235|emb|SCY80075.1| chromosome partitioning protein, ParB family [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045098252</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>4.40691e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQTRFTYLPVTSLQAGQYQPRQDFNVTELQELAQSISSQGLIEPLVVRPIAKERYEIIAGERRWRAAKLAGLNEVPCLIGDYSDQQACALTLIENIQRQDLNLIEEATGYKRLIEEFHYHQDEIAALVGKSRSHVANILRLLTLTDKVKQLVRDKVLSFGHARVLVGLNPEQQEMFAQQIIGEEWSVRHLEQEIKSYKNKDINSPKNPRKDRDIERLQTILAEQVGAPVQIVNDGEDGGWLKVKFFDNDTLAGLLERLGLRYD</Hsp_qseq>
+      <Hsp_hseq>MKTQFKLIPIEWLQRGQYQPRMNFEEKALQELAQSIATQGLIEPLVVRELAKERYEIIAGERRWRAAMIAGLAELPCLIGDYSDSQAAAVTLIENIQRQDLNLIEEANGYRRLLDEFHFQQEEVASLVGKSRSHIANILRLLTLCEPVQHRLRAGQLSLGHARMLVGLSSTQQISLAEQIDVHDWSVRQLEKKVRELKSNEC-THVNPKKDRDIERLQTRLAEQIGAPVQITNDNGDGGWLQVKFFDNDTLAGLLERMGLRYD</Hsp_hseq>
+      <Hsp_midline>M+T+F  +P+  LQ GQYQPR +F    LQELAQSI++QGLIEPLVVR +AKERYEIIAGERRWRAA +AGL E+PCLIGDYSD QA A+TLIENIQRQDLNLIEEA GY+RL++EFH+ Q+E+A+LVGKSRSH+ANILRLLTL + V+  +R   LS GHAR+LVGL+  QQ   A+QI   +WSVR LE++++  K+ +  +  NP+KDRDIERLQT LAEQ+GAPVQI ND  DGGWL+VKFFDNDTLAGLLER+GLRYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_163813</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834134</BlastOutput_query-def>
+  <BlastOutput_query-len>135</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_163813</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834134</Iteration_query-def>
+  <Iteration_query-len>135</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250731|ref|WP_010948271.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|52842777|ref|YP_096576.1| hypothetical protein lpg2569 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629888|gb|AAU28629.1| hypothetical protein lpg2569 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509282|gb|AEW52806.1| hypothetical protein lp12_2562 [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|998772904|emb|CZI19666.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998775647|emb|CZG57910.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998778233|emb|CZG73016.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998784472|emb|CZG82294.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998787424|emb|CZG56588.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998796436|emb|CZH96379.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998800394|emb|CZL06812.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998805724|emb|CZK05029.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998808442|emb|CZH90666.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998811829|emb|CZH75901.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998814372|emb|CZG64946.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998817643|emb|CZL55141.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998820746|emb|CZL58421.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998826708|emb|CZK06134.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998832654|emb|CZI10911.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998835681|emb|CZK84327.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998837929|emb|CZJ76245.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998842220|emb|CZL09494.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998844638|emb|CZK25248.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998847589|emb|CZK64651.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998850324|emb|CZI42649.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998853693|emb|CZL22690.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998856389|emb|CZL30342.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998859712|emb|CZL69810.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998862752|emb|CZK21213.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998865477|emb|CZJ44110.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998869782|emb|CZJ33689.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998870977|emb|CZM13813.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998874465|emb|CZK34549.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998877548|emb|CZM02157.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998880615|emb|CZI89706.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998887955|emb|CZL46576.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998889310|emb|CZK25438.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998895593|emb|CZK02154.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998906040|emb|CZK53125.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998909611|emb|CZL05865.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998915919|emb|CZK65402.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998918388|emb|CZK86177.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998921359|emb|CZL41134.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998927664|emb|CZL66394.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998930751|emb|CZK77818.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998933844|emb|CZL73021.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998939966|emb|CZK79001.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998946043|emb|CZK98804.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998949087|emb|CZK84861.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998958527|emb|CZL97364.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998961433|emb|CZK22225.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998964700|emb|CZK08858.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998966878|emb|CZM49069.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998970420|emb|CZK50330.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998973889|emb|CZK29186.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998979594|emb|CZL62237.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998985943|emb|CZK03153.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998988627|emb|CZL45798.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|998998111|emb|CZJ91570.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999008083|emb|CZK30894.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999013016|emb|CZL46471.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999016938|emb|CZL72127.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999022736|emb|CZL18853.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999025293|emb|CZK72277.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999037050|emb|CZL51813.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999046774|emb|CZL74604.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999061581|emb|CZL11468.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999067454|emb|CZJ20820.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999076822|emb|CZG56593.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999080165|emb|CZJ88956.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999082876|emb|CZK80328.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999090414|emb|CZK38778.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999092408|emb|CZL37348.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999095194|emb|CZG83753.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999098791|emb|CZG64116.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999101220|emb|CZL70240.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999110337|emb|CZL12848.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999113884|emb|CZL54107.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999116335|emb|CZK45152.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999126247|emb|CZK76740.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999131513|emb|CZL92383.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999134732|emb|CZL14392.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999138166|emb|CZK31408.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999141719|emb|CZL41155.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999144636|emb|CZK72551.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999147572|emb|CZL46457.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999156937|emb|CZH76729.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999175712|emb|CZL02477.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999191361|emb|CZI20518.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999194484|emb|CZI47336.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999200349|emb|CZG63417.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999203795|emb|CZI47340.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999209936|emb|CZK72968.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999219382|emb|CZL34352.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999222476|emb|CZI38838.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999335197|emb|CZK70601.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|1002075477|emb|CZQ93750.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|1002078982|emb|CZQ93821.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|1003020074|emb|CZR21165.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|1003022953|emb|CZR20104.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|1003026795|emb|CZR17633.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|1073865611|gb|AOU05562.1| hypothetical protein A9E97_12950 [Legionella pneumophila] &gt;gi|1073868580|gb|AOU08530.1| hypothetical protein A9E98_13005 [Legionella pneumophila] &gt;gi|1073871575|gb|AOU11524.1| hypothetical protein A9F03_13120 [Legionella pneumophila] &gt;gi|1073874445|gb|AOU14393.1| hypothetical protein A9E99_12935 [Legionella pneumophila] &gt;gi|1073877500|gb|AOU17447.1| hypothetical protein A9F00_13120 [Legionella pneumophila] &gt;gi|1073880463|gb|AOU20409.1| hypothetical protein A9F01_12940 [Legionella pneumophila] &gt;gi|1073883460|gb|AOU23405.1| hypothetical protein A9F02_13120 [Legionella pneumophila] &gt;gi|1073886453|gb|AOU26397.1| hypothetical protein A9E77_13155 [Legionella pneumophila] &gt;gi|1073889421|gb|AOU29364.1| hypothetical protein A9E78_12955 [Legionella pneumophila] &gt;gi|1073892405|gb|AOU32347.1| hypothetical protein A9E79_13145 [Legionella pneumophila] &gt;gi|1073895373|gb|AOU35314.1| hypothetical protein A9E80_12965 [Legionella pneumophila] &gt;gi|1073898331|gb|AOU38271.1| hypothetical protein A9E81_12965 [Legionella pneumophila] &gt;gi|1073901297|gb|AOU41236.1| hypothetical protein A9E82_12965 [Legionella pneumophila] &gt;gi|1073904206|gb|AOU44144.1| hypothetical protein A9E83_12695 [Legionella pneumophila] &gt;gi|1073907159|gb|AOU47096.1| hypothetical protein A9E84_12965 [Legionella pneumophila] &gt;gi|1073910177|gb|AOU50112.1| hypothetical protein A9E85_12940 [Legionella pneumophila] &gt;gi|1073913189|gb|AOU53121.1| hypothetical protein A9E86_12720 [Legionella pneumophila] &gt;gi|1073916149|gb|AOU56080.1| hypothetical protein A9E87_12965 [Legionella pneumophila] &gt;gi|1073919112|gb|AOU59042.1| hypothetical protein A9E88_12945 [Legionella pneumophila] &gt;gi|1073922015|gb|AOU61944.1| hypothetical protein A9E89_12685 [Legionella pneumophila] &gt;gi|1073925098|gb|AOU65025.1| hypothetical protein A9E90_13210 [Legionella pneumophila] &gt;gi|1073928061|gb|AOU67987.1| hypothetical protein A9E91_12945 [Legionella pneumophila] &gt;gi|1073931047|gb|AOU70956.1| hypothetical protein A9E92_12985 [Legionella pneumophila] &gt;gi|1073934416|gb|AOU73975.1| hypothetical protein A9E93_12950 [Legionella pneumophila] &gt;gi|1073937381|gb|AOU84380.1| hypothetical protein A9E94_12995 [Legionella pneumophila] &gt;gi|1073947647|gb|AOU87371.1| hypothetical protein A9E95_13135 [Legionella pneumophila] &gt;gi|1073950575|gb|AOU90298.1| hypothetical protein A9E96_12720 [Legionella pneumophila] &gt;gi|1104003972|emb|SFZ46606.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|1129969233|gb|APT99592.1| hypothetical protein AVR58_12920 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948271</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>6.89842e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MSKSNNINIFVKGKKNQFVFSISSPDFEVLYQSQSKLDVGEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>MSKSNNINIFVKGKKNQFVFSISSPDFEVLYQSQSKLDVGEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_hseq>
+      <Hsp_midline>MSKSNNINIFVKGKKNQFVFSISSPDFEVLYQSQSKLDVGEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|966400657|ref|WP_058444252.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella feeleii] &gt;gi|962217278|gb|KTD02021.1| hypothetical protein Lfee_0866 [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058444252</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.90816e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MSKSNNINIFVKGKKNQFVFSISSPDFEVL--YQSQSKLDVGEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>MANDDSIFVFVKGNKAKFAYEITDSHFNELHHYIKANQSNNGKPTSPIESDFLAIEDSLFYIKQNRGNGFIPANPVVKVFTSYEKNYEICSTLNKPDKFSQKLKSINQLKNSLARFQGDRDQVKFHWLPKKFKNCME</Hsp_hseq>
+      <Hsp_midline>M+  ++I +FVKG K +F + I+   F  L  Y   ++ + G+  SPI++D LAI++ L ++K+NRGNG IP+ P++ +FT YE NY IC+     DKF  +LK IN++K+ LAR+QGD D VK  W+P  FKN M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|966495399|ref|WP_058512187.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella steelei] &gt;gi|962283404|gb|KTD67178.1| hypothetical protein Lste_3384 [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058512187</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>7.69019e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MSKSNNI-NIFVKGKKNQFVFSISSPDFEVLYQSQSKLDV----GEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>MSKNQDVVYVFVKGYKGRFAYEITDYKFKDIYQS-VKADILNDKNEKMYPINTDMQAMLESLNYVKDNRGKNKIPIHPVVFLFTTFELNFHVANALKNPDKNKENVKELEGIKKELARSLIDRDQIKIYWIPKDFENRME</Hsp_hseq>
+      <Hsp_midline>MSK+ ++  +FVKG K +F + I+   F+ +YQS  K D+     E + PI  D+ A+ E LN+VK+NRG   IP  P++ LFT +E N+H+ N  KN DK ++ +K +  IK +LAR   D D +KI WIP  F+N M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|754875698|ref|WP_042236193.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042236193</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>7.90836e-10</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>IFVKGKKNQFVFSISSPDFEVLYQS--QSKLDV-GEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNA--DKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>LIVKGTKGKYAFEIKNCKGEQLYIALKENVLDPKGLHMWPNNTDFEAIIAGLNYIYANRGKNNIPVDSAILVYTTFENNYQVASGIKTARQENIKVYVETIGMYKNLLRKFGAKDDTVKILFAPNDFSHHFD</Hsp_hseq>
+      <Hsp_midline>+ VKG K ++ F I +   E LY +  ++ LD  G  + P   D  AI  GLN++  NRG   IP    I ++T +ENNY + +G K A  +  +  ++ I   K+ L ++    D VKIL+ P  F +  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|757480668|ref|WP_042754792.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|999197439|emb|CZP68979.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999226675|emb|CZP88284.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999234534|emb|CZP90974.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999239132|emb|CZI33644.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999242249|emb|CZI83848.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999256430|emb|CZP57380.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999257760|emb|CZP83680.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999264007|emb|CZP50860.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999271644|emb|CZP70960.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999282689|emb|CZP89037.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999309818|emb|CZP02585.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999336450|emb|CZP87071.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999342791|emb|CZQ05191.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999347671|emb|CZP56646.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999355545|emb|CZP99780.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999363929|emb|CZP45805.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999365151|emb|CZQ08208.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999368376|emb|CZQ02100.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999390916|emb|CZQ09146.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999399216|emb|CZP87037.1| Uncharacterised protein [Legionella pneumophila] &gt;gi|999402744|emb|CZP69695.1| Uncharacterised protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042754792</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>4.78179e-09</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>IFVKGKKNQFVFSISSPDFEVLYQS--QSKLDV-GEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNA--DKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>LIVKGTKGKYAFEIKNCKGEQLHIALKENVLDPKGLHMWPNNTDFEAIIAGLNYIYTNRGKNNIPVDSAILVYTTFENNYQVASGIKTARQENIKVYVETIGMYKNLLRKFGAKDDTVKILFAPNDFSHHFD</Hsp_hseq>
+      <Hsp_midline>+ VKG K ++ F I +   E L+ +  ++ LD  G  + P   D  AI  GLN++  NRG   IP    I ++T +ENNY + +G K A  +  +  ++ I   K+ L ++    D VKIL+ P  F +  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|947573258|ref|WP_056236728.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium sp. Root552] &gt;gi|945877585|gb|KQZ31045.1| AraC family transcriptional regulator [Mesorhizobium sp. Root552]</Hit_def>
+  <Hit_accession>WP_056236728</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.113885</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>SGPIIALPSEYPDGYRVPEHQHSRSQLLHALTGVVLVKTDYGRWMVPPDHA--MWIPAGIEHAVE</Hsp_hseq>
+      <Hsp_midline>S PII+L + Y + Y +   + +  +    L  +  +K+D  RW    DH   +WIPAG ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1113180265|gb|OJU52198.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium sp. 61-13]</Hit_def>
+  <Hit_accession>OJU52198</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.139381</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>SGPIIALPSEYPDGYRVPEHQHSRSQLLHALTGVVLVKTDYGRWMVPPDHA--MWIPAGIEHAVE</Hsp_hseq>
+      <Hsp_midline>S PII+L + Y + Y +   + +  +    L  +  +K+D  RW    DH   +WIPAG ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|947441147|ref|WP_056105637.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium sp. Root157] &gt;gi|945933886|gb|KQZ87091.1| AraC family transcriptional regulator [Mesorhizobium sp. Root157]</Hit_def>
+  <Hit_accession>WP_056105637</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.171485</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>SGPIIALPSEYPDGYRVPEHHHSRSQLLHALTGVVLVKTDYGRWMVPPDHA--MWIPAGIEHAVE</Hsp_hseq>
+      <Hsp_midline>S PII+L + Y + Y +     +  +    L  +  +K+D  RW    DH   +WIPAG ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|974598903|ref|WP_059188919.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium loti] &gt;gi|973468403|gb|KUM24339.1| AraC family transcriptional regulator [Mesorhizobium loti]</Hit_def>
+  <Hit_accession>WP_059188919</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.369365</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>PIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>PAVALPTEYPDGYHVPRHRHNRSQLLHALVGVVLVTTKHGRWMVPPDHA--MWIPAGIEH</Hsp_hseq>
+      <Hsp_midline>P ++L T Y + YH+   R N  +    L  +  + +   RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1094105865|ref|WP_071095559.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium sp. ORS3428] &gt;gi|1092379533|gb|OHV89739.1| AraC family transcriptional regulator [Mesorhizobium sp. ORS3428]</Hit_def>
+  <Hit_accession>WP_071095559</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.373779</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>PIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>PAVALPTEYPDGYHVPRHRHNRSQLLHALVGVVLVTTKHGRWMVPPDHA--MWIPAGIEH</Hsp_hseq>
+      <Hsp_midline>P ++L T Y + YH+   R N  +    L  +  + +   RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|751261122|ref|WP_040970952.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium sp. ORS3324] &gt;gi|685092643|emb|CDX15885.1| Transcriptional regulator [Mesorhizobium sp. ORS3324]</Hit_def>
+  <Hit_accession>WP_040970952</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.389888</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>PIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>PAVALPTEYPDGYHVPRHRHNRSQLLHALVGVVLVTTRHGRWMVPPDHA--MWIPAGIEH</Hsp_hseq>
+      <Hsp_midline>P ++L T Y + YH+   R N  +    L  +  + +   RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|932308540|ref|WP_054310560.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium sp. 1M-11]</Hit_def>
+  <Hit_accession>WP_054310560</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.502435</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>IISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>VVALPSEYPDGYTVPDHRHNRSQLLHALTGVVLVKTHFGRWMVPPDHA--MWIPAGIKHAVE</Hsp_hseq>
+      <Hsp_midline>+++L + Y + Y + + R N  +    L  +  +K+   RW    DH   +WIPAG K+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|563466553|ref|WP_023691574.1|</Hit_id>
+  <Hit_def>MULTISPECIES: AraC family transcriptional regulator [Mesorhizobium] &gt;gi|562980754|gb|ESX06431.1| AraC family transcriptional regulator [Mesorhizobium sp. LSJC268A00] &gt;gi|563193066|gb|ESZ16115.1| AraC family transcriptional regulator [Mesorhizobium sp. L2C085B000]</Hit_def>
+  <Hit_accession>WP_023691574</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.567493</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>SGPAVALPTEYPDGYHVPQHRHSRSQLLHALVGVVLVTTRYGRWMVPPDHA--MWIPAGTEH</Hsp_hseq>
+      <Hsp_midline>S P ++L T Y + YH+   R +  +    L  +  + +   RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|563531623|ref|WP_023737817.1|</Hit_id>
+  <Hit_def>MULTISPECIES: AraC family transcriptional regulator [Mesorhizobium] &gt;gi|563089096|gb|ESY13749.1| AraC family transcriptional regulator [Mesorhizobium sp. LNJC398B00] &gt;gi|563114089|gb|ESY38512.1| AraC family transcriptional regulator [Mesorhizobium sp. LNJC386A00]</Hit_def>
+  <Hit_accession>WP_023737817</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.58406</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>SGPAVALPTEYPDGYHVPQHRHSRSQLLHALVGVVLVTTRYGRWMVPPDHA--MWIPAGTEH</Hsp_hseq>
+      <Hsp_midline>S P ++L T Y + YH+   R +  +    L  +  + +   RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|563534910|ref|WP_023741070.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium sp. LNJC395A00] &gt;gi|563097487|gb|ESY22054.1| AraC family transcriptional regulator [Mesorhizobium sp. LNJC395A00]</Hit_def>
+  <Hit_accession>WP_023741070</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.595372</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>SGPAVALPTEYPDGYHVPQHRHSRSQLLHALVGVVLVTTRYGRWMVPPDHA--MWIPAGTEH</Hsp_hseq>
+      <Hsp_midline>S P ++L T Y + YH+   R +  +    L  +  + +   RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|563999013|ref|WP_023825359.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Mesorhizobium sp. L103C131B0] &gt;gi|563243044|gb|ESZ65505.1| AraC family transcriptional regulator [Mesorhizobium sp. L103C131B0]</Hit_def>
+  <Hit_accession>WP_023825359</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.624618</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>SGPAVALPTEYPDGYHVPQHRHSRSQLLHALVGVVLVTTRYGRWMVPPDHA--MWIPAGTEH</Hsp_hseq>
+      <Hsp_midline>S P ++L T Y + YH+   R +  +    L  +  + +   RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|739232845|ref|WP_037095985.1|</Hit_id>
+  <Hit_def>threonine-phosphate decarboxylase [Rhizobium sp. OK665]</Hit_def>
+  <Hit_accession>WP_037095985</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.90279</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>VGEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYEN------NYHICNGRKNADKF</Hsp_qseq>
+      <Hsp_hseq>MGGDTQPVRSLILARKQGLDTVLRQAGLTIIGGTP---LFTLVEHERAPDLHAHLCRARILTRKF</Hsp_hseq>
+      <Hsp_midline>+G D  P+++ ILA K+GL+ V    G  II  TP   LFT  E+      + H+C  R    KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|951143540|ref|WP_057624470.1|</Hit_id>
+  <Hit_def>hypothetical protein [Coxiellaceae bacterium CC99] &gt;gi|946811811|gb|KRG18480.1| hypothetical protein CC99x_01363 [Coxiellaceae bacterium CC99]</Hit_def>
+  <Hit_accession>WP_057624470</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.9484</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>IFVKGKKNQFVFSISSPDFEVLYQSQSKLDVGEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQG------DHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>VFTYGNKGRGAFLITNDKGDHLCEITDIPNDDNECEPFEADWESAIKALEFIDKNRSSLNVEGKLNIKIFTTFEQVYRTTSGITKEVQPDIQEKFLNRFDSLRTTLQSKNIIGKQHNKLMSFWVPKEFYNKMD</Hsp_hseq>
+      <Hsp_midline>+F  G K +  F I++   + L +     +   +  P +AD  +  + L F+ +NR +  +     I +FT +E  Y   +G     +   + K +N+  S     Q        H+ +   W+P  F N MD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|640485465|ref|WP_024925417.1|</Hit_id>
+  <Hit_def>MULTISPECIES: AraC family transcriptional regulator [Mesorhizobium] &gt;gi|1052221753|gb|OCX24772.1| AraC family transcriptional regulator [Mesorhizobium sp. UASWS1009]</Hit_def>
+  <Hit_accession>WP_024925417</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>2.17919</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>IISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>IVALPSEYPDGYTVPDHHHNRSQLLHALAGVVLVKTQYGRWMVPPDHA--MWIPAGIEHAVD</Hsp_hseq>
+      <Hsp_midline>I++L + Y + Y + +   N  +    L  +  +K+   RW    DH   +WIPAG ++ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|493518114|ref|WP_006472322.1|</Hit_id>
+  <Hit_def>MULTISPECIES: AraC family transcriptional regulator [Ochrobactrum] &gt;gi|443484976|gb|ELT47774.1| AraC family transcriptional regulator [Ochrobactrum intermedium M86] &gt;gi|542081253|gb|ERI12695.1| AraC family transcriptional regulator [Ochrobactrum sp. EGD-AQ16] &gt;gi|1025937451|gb|OAB85222.1| AraC family transcriptional regulator [Ochrobactrum intermedium] &gt;gi|1026782688|gb|OAE41133.1| AraC family transcriptional regulator [Ochrobactrum intermedium]</Hit_def>
+  <Hit_accession>WP_006472322</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>2.47924</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>SGPVIALPTRYPDGYFVPRHRHSRAQLLCASQGVVLVTTDAGRWMIPSDHA--MWIPAGVEH</Hsp_hseq>
+      <Hsp_midline>S P+I+L T Y + Y +   R +  +     + +  + +D  RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|983321142|ref|WP_060506226.1|</Hit_id>
+  <Hit_def>MULTISPECIES: threonine-phosphate decarboxylase [Rhizobium] &gt;gi|945473870|gb|KQV29518.1| threonine-phosphate decarboxylase [Rhizobium sp. Root1204] &gt;gi|945751271|gb|KQY05437.1| threonine-phosphate decarboxylase [Rhizobium sp. Root1334] &gt;gi|946150042|gb|KRC02052.1| threonine-phosphate decarboxylase [Rhizobium sp. Root73]</Hit_def>
+  <Hit_accession>WP_060506226</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>2.89831</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>DISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFT---CYENNYHICNGRKNADKF</Hsp_qseq>
+      <Hsp_hseq>DTQPVRSQISARKQGLDSVLRQAGLTIIGGTPLFTLVEHQRAPELHEHLCQGRVLTRKF</Hsp_hseq>
+      <Hsp_midline>D  P+++ I A K+GL+ V    G  II  TP+ +L       E + H+C GR    KF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|962230953|gb|KTD15540.1|</Hit_id>
+  <Hit_def>hypothetical protein Lgra_0206 [Legionella gratiana]</Hit_def>
+  <Hit_accession>KTD15540</Hit_accession>
+  <Hit_len>58</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>2.90946</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>NKIKSDLARWQGDHDHVKILWIPAGFKNLMD</Hsp_qseq>
+      <Hsp_hseq>DKIKHDLARSIMYKDQVKVYWIPKDFKNRME</Hsp_hseq>
+      <Hsp_midline>+KIK DLAR     D VK+ WIP  FKN M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|590080619|gb|EXL06928.1|</Hit_id>
+  <Hit_def>AraC family transcriptional regulator [Ochrobactrum anthropi]</Hit_def>
+  <Hit_accession>EXL06928</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>3.00357</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>STPIISLFTCYENNYHICNGRKNADKFRDELKIINKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>SGPVIALPTRYPDGYFVPRHRHSRAQLLCASQGVVLVTTDAGRWMIPSDHA--MWIPAGVEH</Hsp_hseq>
+      <Hsp_midline>S P+I+L T Y + Y +   R +  +     + +  + +D  RW    DH   +WIPAG ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|671155089|ref|XP_008716191.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1541_03618 [Cyphellophora europaea CBS 101466] &gt;gi|568119075|gb|ETN41682.1| hypothetical protein HMPREF1541_03618 [Cyphellophora europaea CBS 101466]</Hit_def>
+  <Hit_accession>XP_008716191</Hit_accession>
+  <Hit_len>1414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>6.56779</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>PDFEVLYQSQSKLDVGEDISPIKADILAIKEGLNFVKENRGNGIIPSTPIISLFTCYENNYHICNGRKNADK----FRDELKI-INKIKSDLARWQGDHDHVKILWIPAGFKN</Hsp_qseq>
+      <Hsp_hseq>PEFEALASENPEIILNEDVLSQQPD-LQIRE-----TEQKGTGMAALRETLSLFSDEEDQTRMRLAAEPADREAHAYERQARLERDAIASSIARWKREHEKMAKMGITAGLNS</Hsp_hseq>
+      <Hsp_midline>P+FE L     ++ + ED+   + D L I+E      E +G G+      +SLF+  E+   +    + AD+    +  + ++  + I S +ARW+ +H+ +  + I AG  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

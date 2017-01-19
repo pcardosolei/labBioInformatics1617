@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_96613</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834228</BlastOutput_query-def>
+  <BlastOutput_query-len>177</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_96613</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834228</Iteration_query-def>
+  <Iteration_query-len>177</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250823|ref|WP_010948363.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|52842869|ref|YP_096668.1| hypothetical protein lpg2663 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629980|gb|AAU28721.1| hypothetical protein lpg2663 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509374|gb|AEW52898.1| hypothetical protein lp12_2656 [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490613|gb|AGH52458.1| hypothetical protein LPE509_00367 [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083336|gb|AGN15584.1| hypothetical protein LP6_2695 [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772810|emb|CZI16625.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998775741|emb|CZG61421.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998778327|emb|CZG76090.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998784566|emb|CZG86874.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998787518|emb|CZG59721.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998796531|emb|CZI01740.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998800298|emb|CZL04056.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998805819|emb|CZK08014.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998808347|emb|CZH87478.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998811923|emb|CZH79681.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998814278|emb|CZG61551.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998817739|emb|CZL60270.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998820841|emb|CZL61529.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998826803|emb|CZK08996.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998832559|emb|CZI06121.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998835776|emb|CZK88897.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998837835|emb|CZJ71837.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998842315|emb|CZL14011.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998844733|emb|CZK29603.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998847684|emb|CZK67313.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998850229|emb|CZI37080.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998853788|emb|CZL26844.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998856484|emb|CZL33639.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998859807|emb|CZL74386.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998862657|emb|CZK18625.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998865383|emb|CZJ40665.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998869876|emb|CZJ36550.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998871071|emb|CZM17116.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998874559|emb|CZK39016.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998877454|emb|CZL99215.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998880521|emb|CZI86644.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998888049|emb|CZL50865.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998889216|emb|CZK22618.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998895498|emb|CZJ98877.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998906134|emb|CZK57145.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998909705|emb|CZL09853.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998915824|emb|CZK61441.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998918293|emb|CZK82234.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998921264|emb|CZL38248.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998927569|emb|CZL63500.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998930656|emb|CZK75033.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998933939|emb|CZL76409.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998939871|emb|CZK76148.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998945948|emb|CZK93965.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998948992|emb|CZK82042.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998958622|emb|CZM01803.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998961528|emb|CZK26151.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998964605|emb|CZK04630.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998966973|emb|CZM53515.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998970515|emb|CZK54946.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998973794|emb|CZK26281.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998979499|emb|CZL59070.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998985848|emb|CZJ98861.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998988722|emb|CZL48731.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998998016|emb|CZJ88147.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999007988|emb|CZK26801.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999012921|emb|CZL43625.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999016843|emb|CZL68093.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999022641|emb|CZL13993.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999025388|emb|CZK74996.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999037145|emb|CZL55163.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999046869|emb|CZL77743.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999061676|emb|CZL16010.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999067360|emb|CZJ17689.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999076916|emb|CZG59795.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999080260|emb|CZJ92485.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999082781|emb|CZK77521.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999090509|emb|CZK42041.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999092503|emb|CZL41511.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999095288|emb|CZG88497.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999098697|emb|CZG59373.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999101125|emb|CZL67209.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999110432|emb|CZL16091.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999113789|emb|CZL51106.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999116430|emb|CZK49702.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999126342|emb|CZK79784.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999131608|emb|CZL95658.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999134827|emb|CZL17743.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999138071|emb|CZK27131.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999141814|emb|CZL45363.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999144541|emb|CZK68682.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999147667|emb|CZL50768.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999156843|emb|CZH74311.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999175807|emb|CZL05449.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999191267|emb|CZI17204.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999194390|emb|CZI43167.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999200255|emb|CZG60127.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999203701|emb|CZI43153.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999210031|emb|CZK76293.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999219287|emb|CZL29913.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999222382|emb|CZI34483.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999335292|emb|CZK73107.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1002075571|emb|CZQ94465.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1002079077|emb|CZQ94946.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1003020168|emb|CZR21695.1| ATPase [Legionella pneumophila] &gt;gi|1003023048|emb|CZR20508.1| ATPase [Legionella pneumophila] &gt;gi|1003026890|emb|CZR18265.1| ATPase [Legionella pneumophila] &gt;gi|1073865705|gb|AOU05656.1| ATPase [Legionella pneumophila] &gt;gi|1073868674|gb|AOU08624.1| ATPase [Legionella pneumophila] &gt;gi|1073871669|gb|AOU11618.1| ATPase [Legionella pneumophila] &gt;gi|1073874536|gb|AOU14484.1| ATPase [Legionella pneumophila] &gt;gi|1073877594|gb|AOU17541.1| ATPase [Legionella pneumophila] &gt;gi|1073880557|gb|AOU20503.1| ATPase [Legionella pneumophila] &gt;gi|1073883554|gb|AOU23499.1| ATPase [Legionella pneumophila] &gt;gi|1073886546|gb|AOU26490.1| ATPase [Legionella pneumophila] &gt;gi|1073889515|gb|AOU29458.1| ATPase [Legionella pneumophila] &gt;gi|1073892499|gb|AOU32441.1| ATPase [Legionella pneumophila] &gt;gi|1073895467|gb|AOU35408.1| ATPase [Legionella pneumophila] &gt;gi|1073898425|gb|AOU38365.1| ATPase [Legionella pneumophila] &gt;gi|1073901391|gb|AOU41330.1| ATPase [Legionella pneumophila] &gt;gi|1073904300|gb|AOU44238.1| ATPase [Legionella pneumophila] &gt;gi|1073907253|gb|AOU47190.1| ATPase [Legionella pneumophila] &gt;gi|1073910271|gb|AOU50206.1| ATPase [Legionella pneumophila] &gt;gi|1073913283|gb|AOU53215.1| ATPase [Legionella pneumophila] &gt;gi|1073916243|gb|AOU56174.1| ATPase [Legionella pneumophila] &gt;gi|1073919206|gb|AOU59136.1| ATPase [Legionella pneumophila] &gt;gi|1073922109|gb|AOU62038.1| ATPase [Legionella pneumophila] &gt;gi|1073925192|gb|AOU65119.1| ATPase [Legionella pneumophila] &gt;gi|1073928155|gb|AOU68081.1| ATPase [Legionella pneumophila] &gt;gi|1073931141|gb|AOU71050.1| ATPase [Legionella pneumophila] &gt;gi|1073934510|gb|AOU74069.1| ATPase [Legionella pneumophila] &gt;gi|1073937475|gb|AOU84474.1| ATPase [Legionella pneumophila] &gt;gi|1073947741|gb|AOU87465.1| ATPase [Legionella pneumophila] &gt;gi|1073950669|gb|AOU90392.1| ATPase [Legionella pneumophila] &gt;gi|1104004067|emb|SFZ47017.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1129969327|gb|APT99686.1| ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948363</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>4.89506e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|653015688|ref|WP_027267717.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267717</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>5.4149e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKNDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDITAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDD+TAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1004334781|ref|WP_061513706.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513706</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.614</Hsp_bit-score>
+      <Hsp_score>932</Hsp_score>
+      <Hsp_evalue>2.38253e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|653014227|ref|WP_027266276.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|998781135|emb|CZJ42157.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998824317|emb|CZG46568.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998829428|emb|CZG77399.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998883292|emb|CZI75193.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998898867|emb|CZJ47231.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998936517|emb|CZM50746.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998952272|emb|CZJ35123.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999000449|emb|CZG78135.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999057993|emb|CZM56687.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999104136|emb|CZI04800.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999128747|emb|CZH01811.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999153824|emb|CZM15803.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999162912|emb|CZM04139.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999236358|emb|CZH07087.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1002085441|emb|CZQ99189.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1002088102|emb|CZQ79280.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1104007521|emb|SFZ47105.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266276</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.762</Hsp_bit-score>
+      <Hsp_score>922</Hsp_score>
+      <Hsp_evalue>9.00814e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKNDLIFFDRGTPDSIGYFRFHHLDEAHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDITAKKISDYIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRACRYLRYKKIFFCHPLPVVPDTIRDEDD+TAKKISD IYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|757480586|ref|WP_042754714.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|999184530|emb|CZP93496.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999198338|emb|CZP08150.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999206407|emb|CZP57933.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999227822|emb|CZP39167.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999235079|emb|CZP53190.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999240575|emb|CZH76823.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999244244|emb|CZH72208.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999256182|emb|CZP74802.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999259229|emb|CZP40148.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999265427|emb|CZP03157.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999272105|emb|CZP53032.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999277812|emb|CZP30605.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999281482|emb|CZP21658.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999284130|emb|CZP49317.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999290867|emb|CZP28351.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999296733|emb|CZP49086.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999299972|emb|CZP26568.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999307185|emb|CZH66545.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999309571|emb|CZP20835.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999315943|emb|CZI01965.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999318972|emb|CZP57451.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999322224|emb|CZH93079.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999337971|emb|CZP43165.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999344135|emb|CZP91470.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999347423|emb|CZP59845.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999353758|emb|CZP53577.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999356867|emb|CZP75794.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999363233|emb|CZP71845.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999366996|emb|CZP72560.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999369586|emb|CZP86435.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999392510|emb|CZP96012.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999398758|emb|CZP99302.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999403242|emb|CZP46584.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999450827|emb|CZP31321.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999521379|emb|CZP46019.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1003028364|emb|CZR23392.1| ATPase [Legionella pneumophila] &gt;gi|1015434088|gb|AMV15715.1| hypothetical protein ULM_30560 [Legionella pneumophila] &gt;gi|1041016636|gb|ANN93697.1| ATPase [Legionella pneumophila] &gt;gi|1103997828|emb|SFZ47018.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042754714</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>1.71063e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDYIYNAYVGLNYPVIELPASSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISD IYNAYVGLNYPVIELPA+SIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|506459840|ref|WP_015961740.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|53752438|emb|CAH13870.1| hypothetical protein lpp2717 [Legionella pneumophila str. Paris] &gt;gi|762000258|dbj|GAN27990.1| hypothetical protein lpymg_02893 [Legionella pneumophila] &gt;gi|998792859|emb|CZI70671.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998924319|emb|CZJ97102.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998942564|emb|CZK06788.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998954615|emb|CZK42871.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998976158|emb|CZJ64846.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998991486|emb|CZK06629.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999009857|emb|CZK04320.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999018891|emb|CZJ60112.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999028011|emb|CZJ91936.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999031571|emb|CZG69438.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999034021|emb|CZJ96516.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999040228|emb|CZJ66586.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999043105|emb|CZJ78716.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999048940|emb|CZJ85208.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999052197|emb|CZJ67017.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999055185|emb|CZJ98568.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999064307|emb|CZJ77322.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999070138|emb|CZJ76192.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999073403|emb|CZK03491.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999085654|emb|CZJ99101.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999173367|emb|CZH69257.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999182573|emb|CZG28396.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999188738|emb|CZI77634.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999213670|emb|CZG44759.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999217040|emb|CZI71378.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999225884|emb|CZG31590.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999249454|emb|CZG79773.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999252921|emb|CZG93098.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999262123|emb|CZH05145.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999274374|emb|CZH10030.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999327619|emb|CZH28954.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999332860|emb|CZG02336.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999340763|emb|CZH00136.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999350111|emb|CZH27472.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999361053|emb|CZI00057.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999374011|emb|CZG02338.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999377386|emb|CZI92012.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999380685|emb|CZH52700.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999383371|emb|CZI14391.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999387500|emb|CZG12067.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999390307|emb|CZI12066.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999397028|emb|CZG15238.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999406459|emb|CZG44890.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999409369|emb|CZH70618.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999412617|emb|CZG28610.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999416687|emb|CZG16277.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999419317|emb|CZG44687.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999422572|emb|CZH43979.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999426521|emb|CZG25801.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999429077|emb|CZG28970.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999432666|emb|CZG03983.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999435776|emb|CZH66727.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999438311|emb|CZG43779.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999442285|emb|CZJ86101.1| ATPase [Legionella pneumophila] &gt;gi|999445292|emb|CZH55395.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999448554|emb|CZG02337.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999458396|emb|CZJ91519.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999469960|emb|CZG81501.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999496983|emb|CZI08878.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999526366|emb|CZI62723.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999529248|emb|CZI18563.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999577032|emb|CZI01135.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999612333|emb|CZI05169.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999778511|emb|CZH02464.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1003033094|emb|CZR19428.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1005834333|gb|AMQ29059.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1041019633|gb|ANN96693.1| ATPase [Legionella pneumophila] &gt;gi|1104000968|emb|SFZ47023.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961740</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>1.7594e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDYIYNAYVGLNYPVIELPASSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISD IYNAYVGLNYPVIELPA+SIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|499535750|ref|WP_011216533.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|53755335|emb|CAH16831.1| hypothetical protein lpl2590 [Legionella pneumophila str. Lens] &gt;gi|1080003000|gb|AOW53572.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005254|gb|AOW55534.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008922|gb|AOW58910.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011411|gb|AOW60902.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015497|gb|AOW64370.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017655|gb|AOW66300.1| ATPase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216533</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>2.44537e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKNDLIFFDRGTPDSIGYFRFHHLDEAHVVKACRYLRYKKIFFCHPLPVVPDTIRDEDDITAKKISDYIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVV+ACRYLRYKKIFFCHPLPVVPDTIRDEDD+TAKKISD IYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|500496249|ref|WP_011947576.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|148280375|gb|ABQ54463.1| hypothetical protein LPC_0476 [Legionella pneumophila str. Corby] &gt;gi|295650211|gb|ADG26058.1| Predicted ATPase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|761996887|dbj|GAN31062.1| hypothetical protein lpymt_02677 [Legionella pneumophila] &gt;gi|998802657|emb|CZH89990.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998912292|emb|CZG95525.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998993984|emb|CZI47896.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999004489|emb|CZI44756.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999151603|emb|CZH56637.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999158636|emb|CZJ91666.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999166090|emb|CZG70993.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999168345|emb|CZI53001.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999177444|emb|CZJ85412.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999286756|emb|CZI74482.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999293121|emb|CZI62881.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999302231|emb|CZI54765.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999312080|emb|CZI88693.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1002091789|emb|CZR06447.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947576</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.221</Hsp_bit-score>
+      <Hsp_score>918</Hsp_score>
+      <Hsp_evalue>3.91998e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACQYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDYIYNAYVGLNYPVIELPATSIKERLEIILSHIDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRAC+YLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISD IYNAYVGLNYPVIELPATSIKERLEIILSH+DT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1006042201|ref|WP_061722070.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|999324902|emb|CZH12727.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061722070</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.451</Hsp_bit-score>
+      <Hsp_score>916</Hsp_score>
+      <Hsp_evalue>7.91238e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MTQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDYIYNAYVGLNYPVIELPASSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>M QTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISD IYNAYVGLNYPVIELPA+SIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|504657664|ref|WP_014844766.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|395131749|emb|CCD10042.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|761987330|dbj|GAN24680.1| hypothetical protein lptwr_02585 [Legionella pneumophila] &gt;gi|761990404|dbj|GAN18628.1| hypothetical protein lpbnt_02751 [Legionella pneumophila] &gt;gi|761993594|dbj|GAN21734.1| hypothetical protein lpofk_02752 [Legionella pneumophila] &gt;gi|998790049|emb|CZH04224.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998892929|emb|CZJ09495.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|998982056|emb|CZI89886.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999106918|emb|CZI83830.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999231192|emb|CZI61487.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1002082169|emb|CZQ96345.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1032658741|gb|ANH14012.1| ATPase [Legionella pneumophila] &gt;gi|1032661703|gb|ANH16973.1| ATPase [Legionella pneumophila] &gt;gi|1032664681|gb|ANH19950.1| ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844766</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.066</Hsp_bit-score>
+      <Hsp_score>915</Hsp_score>
+      <Hsp_evalue>8.54415e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDYIYNAYVDLNYPVIELPATSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISD IYNAYV LNYPVIELPATSIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|504655605|ref|WP_014842707.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|395128665|emb|CCD06883.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|999248066|emb|CZH50536.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999269724|emb|CZO25416.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999455555|emb|CZH46044.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999462190|emb|CZG04454.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999465430|emb|CZM27054.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999468314|emb|CZO06463.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999474580|emb|CZM55980.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999478145|emb|CZN24027.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999481340|emb|CZM62054.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999484370|emb|CZN95659.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999487558|emb|CZL96313.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999490749|emb|CZN59500.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999493943|emb|CZL95474.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999500377|emb|CZN58343.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999503599|emb|CZN88335.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999506795|emb|CZM94082.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999509998|emb|CZG24993.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999513187|emb|CZN18474.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999515208|emb|CZM27550.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999519770|emb|CZM48996.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999532638|emb|CZO31233.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999534718|emb|CZN67975.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999539031|emb|CZM52445.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999542315|emb|CZO08857.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999545425|emb|CZO44782.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999548613|emb|CZN74533.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999551813|emb|CZN97900.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999555190|emb|CZM95367.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999558203|emb|CZO44445.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999561391|emb|CZM28636.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999564596|emb|CZO44590.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999567779|emb|CZM41736.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999570978|emb|CZN40349.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999574168|emb|CZN77721.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999580659|emb|CZO02261.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999584171|emb|CZO15779.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999585945|emb|CZN11443.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999590556|emb|CZM23653.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999593431|emb|CZN33590.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999596629|emb|CZN96072.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999599829|emb|CZO22896.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999603315|emb|CZL65503.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999606224|emb|CZN37533.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999609726|emb|CZN42649.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999615902|emb|CZM32925.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999618949|emb|CZN74504.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999622375|emb|CZO53904.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999625581|emb|CZN52082.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999629002|emb|CZM43533.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999631880|emb|CZM47571.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999635080|emb|CZN38724.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999638268|emb|CZN36779.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999641464|emb|CZO64824.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999644635|emb|CZO30185.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999648172|emb|CZN77748.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999650983|emb|CZN94303.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999654253|emb|CZN90852.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999657631|emb|CZL99083.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999660638|emb|CZM49812.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999664152|emb|CZM83979.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999667037|emb|CZM23465.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999670231|emb|CZL72659.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999673618|emb|CZM17751.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999676618|emb|CZN63367.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999679653|emb|CZM64312.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999682848|emb|CZM71206.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999686074|emb|CZN94222.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999689586|emb|CZN08929.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999692605|emb|CZN82936.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999695997|emb|CZM99746.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999698197|emb|CZM31904.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999702526|emb|CZM45566.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999705604|emb|CZL57705.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999708628|emb|CZN40315.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999711880|emb|CZM85143.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999715437|emb|CZM90484.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999718472|emb|CZO26088.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999721454|emb|CZM69390.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999724794|emb|CZN19240.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999728125|emb|CZL87920.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999731687|emb|CZO22800.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999734936|emb|CZM01470.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999738162|emb|CZO46439.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999741138|emb|CZM27041.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999744560|emb|CZN05946.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999747965|emb|CZM02020.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999750860|emb|CZL81524.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999754062|emb|CZM70099.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999757405|emb|CZM81984.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999760448|emb|CZM17393.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999763837|emb|CZN08994.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999767034|emb|CZM54776.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999769877|emb|CZN42194.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999773581|emb|CZH75010.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999776507|emb|CZL88024.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999783371|emb|CZH48855.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999786547|emb|CZM16127.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999789862|emb|CZO50820.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999793191|emb|CZO50195.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999796438|emb|CZI06899.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999799611|emb|CZO59999.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1003035453|emb|CZR22790.1| ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842707</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.91</Hsp_bit-score>
+      <Hsp_score>912</Hsp_score>
+      <Hsp_evalue>2.83934e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLTELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKNDLIFFDRGTPDSIGYFRFHHLDEAHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDYIYNAYVDLNYPVIELPATSIKERLEIILSHVDT</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHL ELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISD IYNAYV LNYPVIELPATSIKERLEIILSHVDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|654929086|ref|WP_028379470.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028379470</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>9.58902e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHEKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACQYLRYKKIFFCHPLPVIPDSIRDEDDLTAKKISDCIYDAYTGLHYPVIELPATSIKERLEIILSHIDV</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSH+KKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRAC+YLRYKKIFFCHPLPV+PD+IRDEDD+TAKKISDCIY+AY GL+YPVIELPATSIKERLEIILSH+D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|654928539|ref|WP_028378970.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378970</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.895</Hsp_bit-score>
+      <Hsp_score>886</Hsp_score>
+      <Hsp_evalue>2.44121e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHEKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRCTPDSIGYFRFHHLDEAHVVRACQYLRYKKIFFCHPLPVIPDSIRDEDDLTAKKISDCIYDAYTGLHYPVIELPATSIKERLEIILSHIDV</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSH+KKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDR TPDSIGYFRFHHLDE HVVRAC+YLRYKKIFFCHPLPV+PD+IRDEDD+TAKKISDCIY+AY GL+YPVIELPATSIKERLEIILSH+D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|652969918|ref|WP_027222811.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|1005362913|gb|AMP88782.1| ATPase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367824|gb|AMP93601.1| ATPase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370743|gb|AMP96519.1| ATPase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222811</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>6.48227e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWYVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHEKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACQYLRYKKIFFCHPLPVTPDSIRDEDDLTAKKISDCIYDAYAGLNYPVIELPAISVKERLEIILSHIDV</Hsp_hseq>
+      <Hsp_midline>MIQTNW VITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSH+KKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRAC+YLRYKKIFFCHPLPV PD+IRDEDD+TAKKISDCIY+AY GLNYPVIELPA S+KERLEIILSH+D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|652976388|ref|WP_027229060.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila] &gt;gi|985764674|gb|KXB25793.1| ATPase [Legionella pneumophila] &gt;gi|985767055|gb|KXB28150.1| ATPase [Legionella pneumophila] &gt;gi|999119125|emb|CZG87350.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|999122250|emb|CZH20919.1| Predicted ATPase/kinase involved in NAD metabolism [Legionella pneumophila] &gt;gi|1024339730|gb|KZX34069.1| ATPase [Legionella pneumophila] &gt;gi|1108606015|gb|APF04383.1| ATPase [Legionella pneumophila subsp. fraseri] &gt;gi|1108608997|gb|APF07364.1| ATPase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229060</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>9.32609e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWYVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSYEKKTLQEVKHDILWLQRKILNIMLRRDRNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACQYLRYKKIFFCHPLPVIPDSIRDEDDLTAKKISDCIYDAYTGLHYPVIELPATSIKERLEIILSHIDV</Hsp_hseq>
+      <Hsp_midline>MIQTNW VITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLS++KKTLQE+KHDILWLQRKILNIMLRR+RNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRAC+YLRYKKIFFCHPLPV+PD+IRDEDD+TAKKISDCIY+AY GL+YPVIELPATSIKERLEIILSH+D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|541998878|gb|ERH44891.1|</Hit_id>
+  <Hit_def>ATPase, partial [Legionella pneumophila str. Leg01/53]</Hit_def>
+  <Hit_accession>ERH44891</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.117</Hsp_bit-score>
+      <Hsp_score>871</Hsp_score>
+      <Hsp_evalue>4.48837e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILS</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEVKHDILWLQRKILNIMLRRERNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACRYLRYKKIFSVSSLPVVPDTIRDEDDVTAKKISDYIYNAYVGLNYPVIELPASSIKERLEIILS</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQE+KHDILWLQRKILNIMLRRERNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRACRYLRYKKIF    LPVVPDTIRDEDDVTAKKISD IYNAYVGLNYPVIELPA+SIKERLEIILS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1011913192|ref|WP_062726406.1|</Hit_id>
+  <Hit_def>ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062726406</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.183</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>2.43344e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>MIQTNWYVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSYEKKTLQEVKHDILWLQRKILNIMLRRDRNLPKDDLIFFDRGTPDSIGYFRFHHLDEAHVVRACQYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYIDLNYTLIELPAFSVEKRLEIILSQI</Hsp_hseq>
+      <Hsp_midline>MIQTNW VITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLS++KKTLQE+KHDILWLQRKILNIMLRR+RNLPK DLIFFDRGTPDSIGYFRFHHLDE HVVRAC+YLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAY+ LNY +IELPA S+++RLEIILS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|737925563|ref|WP_035890751.1|</Hit_id>
+  <Hit_def>ATPase [Legionella norrlandica] &gt;gi|701445250|gb|KGP62645.1| ATPase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890751</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>1.2315e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHD-ILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>MIQTNWCVITGGPSSGKTTLINSLAELGYQTAPEIARFYINQLLSHEQKTLQEVKHNNILWLQRKILNIMLRRERHLSKGDLIFFDRGTPDSIGYFRFHHLEDTHVVKACQHLRYRKIFFCHPLPVVPDTIRDENDATAKMISNCIYNAYIDLNYPIIELPAISVEKRLEIILSQI</Hsp_hseq>
+      <Hsp_midline>MIQTNWCVITGGPSSGKTTLIN LAELGY+TAPEIARFYINQLLSH++KTLQE+KH+ ILWLQRKILNIMLRRER+L K DLIFFDRGTPDSIGYFRFHHL++THVV+AC++LRY+KIFFCHPLPVVPDTIRDE+D TAK IS+CIYNAY+ LNYP+IELPA S+++RLEIILS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|966439724|ref|WP_058480047.1|</Hit_id>
+  <Hit_def>ATPase [Legionella waltersii] &gt;gi|962295620|gb|KTD79265.1| ATPase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480047</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>2.75089e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVD</Hsp_qseq>
+      <Hsp_hseq>MIQTNWHVITGGPSSGKTTLINRLAEMGYETSSEIARAYLKEQLAKNHLTVEDVKKNMLELQRRILSLMLEHERELSIDDLIFFDRGTPDSLAYFRFHHFNDDHVVKACQHLRYKRVFFCHQLPVVKDGIRDEDDATAKMISEYIFTVYRDLNYDLIELPPVSIEERLQIILTHVE</Hsp_hseq>
+      <Hsp_midline>MIQTNW VITGGPSSGKTTLIN LAE+GY+T+ EIAR Y+ + L+ +  T++++K ++L LQR+IL++ML  ER L   DLIFFDRGTPDS+ YFRFHH ++ HVV+AC++LRYK++FFCH LPVV D IRDEDD TAK IS+ I+  Y  LNY +IELP  SI+ERL+IIL+HV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966432345|ref|WP_058472778.1|</Hit_id>
+  <Hit_def>ATPase [Legionella quateirensis] &gt;gi|962268719|gb|KTD52735.1| ATPase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058472778</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>7.67355e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>MIQTNWYVITGAPSSGKTTLINQLSSAGYAIAPEVARDYIEGLLKSNL-TLDDIKQDNLRLQRGILAIALKRERRLQANQLIFFDRGTPDSLGYFRYYNINADQLIHSCQRIRYKKLFYCHQLPLEHDSVRVEDNSSAKKIGEFIYTAYDHLGYELIELPAVSIEQRMDIILSHI</Hsp_hseq>
+      <Hsp_midline>MIQTNW VITG PSSGKTTLIN L+  GY  APE+AR YI  LL  +  TL +IK D L LQR IL I L+RER L    LIFFDRGTPDS+GYFR+++++   ++ +C+ +RYKK+F+CH LP+  D++R ED+ +AKKI + IY AY  L Y +IELPA SI++R++IILSH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|517403153|ref|WP_018576019.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella shakespearei] &gt;gi|962276108|gb|KTD60009.1| ATPase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576019</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>2.14569e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MIQTNWYVITGAPSSGKTTLINHLAKAGYQTAPEVAREYINGLLANNH-TLDELRQNNWKLQRGILALVLKRERRLSPDELIFFDRGTPDSLGYFSYYQLKSDQIISSCQRTQYKKLFFCHQLPLEYDSVRVEDNISAQQIGQHIYAAYKRLGYELIELPAIPIQERLDIIFSHLNN</Hsp_hseq>
+      <Hsp_midline>MIQTNW VITG PSSGKTTLINHLA+ GY+TAPE+AR YIN LL+++  TL E++ +   LQR IL ++L+RER L   +LIFFDRGTPDS+GYF ++ L    ++ +C+  +YKK+FFCH LP+  D++R ED+++A++I   IY AY  L Y +IELPA  I+ERL+II SH++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|654932952|ref|WP_028383309.1|</Hit_id>
+  <Hit_def>ATPase [Legionella moravica] &gt;gi|962250707|gb|KTD34908.1| ATPase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383309</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>2.27845e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>MIQTNWYVITGAPSSGKTTLINQLATSGYTIAPEVARDYIEGLLESNL-TLDNIKQDNLRLQRGILAIALKRERRLQTNQLIFFDRGTPDSLGYFRYYNINADQVTHSCQRIRYKKLFYCHQLPLEHDAVRVEDDSSALKIGELIYEAYDHLGYELIELPAVSVEQRMSIILSHL</Hsp_hseq>
+      <Hsp_midline>MIQTNW VITG PSSGKTTLIN LA  GY  APE+AR YI  LL  +  TL  IK D L LQR IL I L+RER L    LIFFDRGTPDS+GYFR+++++   V  +C+ +RYKK+F+CH LP+  D +R EDD +A KI + IY AY  L Y +IELPA S+++R+ IILSH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|769978689|ref|WP_045094674.1|</Hit_id>
+  <Hit_def>ATPase [Legionella fallonii] &gt;gi|698841930|emb|CEG55877.1| conserved protein of unknown function [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045094674</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>1.41386e-61</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>MQTNWYVITGAPSSGKTTLINHLAAAGYTIAPEVAREYIEKLLA-NNYTLDDLHHYNHQLQRGILANVLKRERRLQRNQLIFFDRGATDSLGYFHYYHLNTTQIMNAFQHAQYKKIFYCHQLPIVYDAVRVEDQLSAKRIGELIFEAYATLGYQLIELPAIPVEQRIKIIIEHIEA</Hsp_hseq>
+      <Hsp_midline>+QTNW VITG PSSGKTTLINHLA  GY  APE+AR YI +LL+ +  TL ++ H    LQR IL  +L+RER L +  LIFFDRG  DS+GYF ++HL+ T ++ A ++ +YKKIF+CH LP+V D +R ED ++AK+I + I+ AY  L Y +IELPA  +++R++II+ H++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966443214|ref|WP_058483476.1|</Hit_id>
+  <Hit_def>ATPase [Legionella spiritensis] &gt;gi|962280219|gb|KTD64041.1| ATPase [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058483476</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>2.98642e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSH</Hsp_qseq>
+      <Hsp_hseq>MIQTNWDIITGPPSSGKTTLINLLASMGYTTSPEVARDYINRLL-QCHISLDMIQKDAWSLQRKILSIKLRKERQLPPDKKIFFDRGTPDSIAYYRFHNFPLTDAYKACSHRRYKRIFFCSGLPVERDGVRRENEDMAKLLGEYLFEAYVSLGYHPVVLPVTTVEERLNLILRH</Hsp_hseq>
+      <Hsp_midline>MIQTNW +ITG PSSGKTTLIN LA +GY T+PE+AR YIN+LL     +L  I+ D   LQRKIL+I LR+ER LP    IFFDRGTPDSI Y+RFH+   T   +AC + RYK+IFFC  LPV  D +R E++  AK + + ++ AYV L Y  + LP T+++ERL +IL H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966512539|ref|WP_058529093.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058529093</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>1.31165e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>IQTNWCIITGPPSSGKTTLINALSVQGYQTAPEIARAYLTYLLSAGE-IRQFHNRGEAALQDKIFSLKLEREQQLPVNDLIFFDRDLPDSLGYYRYYHLNTDKILKKMRHYRYKHVFFLEGLPVIYDNIRYEDEVTAKQLGQYIYDAYLELGYEAVKIPPVSVEKRIEMILKIV</Hsp_hseq>
+      <Hsp_midline>IQTNWC+ITG PSSGKTTLIN L+  GY+TAPEIAR Y+  LLS  +   Q        LQ KI ++ L RE+ LP  DLIFFDR  PDS+GY+R++HL+   +++  R+ RYK +FF   LPV+ D IR ED+VTAK++   IY+AY+ L Y  +++P  S+++R+E+IL  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|962237217|gb|KTD21664.1|</Hit_id>
+  <Hit_def>ATPase [Legionella londiniensis]</Hit_def>
+  <Hit_accession>KTD21664</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>1.36732e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>IQTNWCIITGPPSSGKTTLINALSVQGYQTAPEIARAYLTYLLSAGE-IRQFHNRGEAALQDKIFSLKLEREQQLPVNDLIFFDRDLPDSLGYYRYYHLNTDKILKKMRHYRYKHVFFLEGLPVIYDNIRYEDEVTAKQLGQYIYDAYLELGYEAVKIPPVSVEKRIEMILKIV</Hsp_hseq>
+      <Hsp_midline>IQTNWC+ITG PSSGKTTLIN L+  GY+TAPEIAR Y+  LLS  +   Q        LQ KI ++ L RE+ LP  DLIFFDR  PDS+GY+R++HL+   +++  R+ RYK +FF   LPV+ D IR ED+VTAK++   IY+AY+ L Y  +++P  S+++R+E+IL  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|644965653|ref|WP_025386408.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella oakridgensis] &gt;gi|570285842|gb|AHE68029.1| putative ATPase [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570701498|gb|ETO92458.1| putative ATPase [Legionella oakridgensis RV-2-2007] &gt;gi|962260459|gb|KTD44570.1| ATPase [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025386408</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>4.73087e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLS-HDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>LKTNWCVITGAPSSGKTTLINALSIKGYRTAPEIARAYLTYLLSIHSQDFILHRGNEAI--QQKILELKTAREKQLPPDELIFFDRGVPDSLGYYRYYHLNTNEIIHKMSFYHYAHVFFLEGLPIIYDEIRREDEKAARDIGEAIYNAYTELEYEVIRIPPASVEQRLAMVLSTVAS</Hsp_hseq>
+      <Hsp_midline>++TNWCVITG PSSGKTTLIN L+  GY+TAPEIAR Y+  LLS H +  +    ++ +  Q+KIL +   RE+ LP  +LIFFDRG PDS+GY+R++HL+   ++    +  Y  +FF   LP++ D IR ED+  A+ I + IYNAY  L Y VI +P  S+++RL ++LS V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1087942296|gb|OGY24333.1|</Hit_id>
+  <Hit_def>hypothetical protein A2172_00515 [Candidatus Woykebacteria bacterium RBG_13_40_15]</Hit_def>
+  <Hit_accession>OGY24333</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.28547e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>LVDTNWYVVTGGPGSGKTKTIEYLAFLGYSTVSEAARKLVDLEMSKGK-TVEEVRRNEKRFQRKVLAMKVDVEEKIPPGQITFFDRGIPDSLAYYRLSNMDEAEVVNASK-RKYKGVFFLDSLPYEKDYARIEDEKTAKKLHQLLYTAYTRFGYKVIKVPVMPIDKRAKFILSKI</Hsp_hseq>
+      <Hsp_midline>++ TNW V+TGGP SGKT  I +LA LGY T  E AR  ++  +S  K T++E++ +    QRK+L + +  E  +P   + FFDRG PDS+ Y+R  ++DE  VV A +  +YK +FF   LP   D  R ED+ TAKK+   +Y AY    Y VI++P   I +R + ILS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1083553273|gb|OGG50433.1|</Hit_id>
+  <Hit_def>hypothetical protein A2704_05865 [Candidatus Kaiserbacteria bacterium RIFCSPHIGHO2_01_FULL_54_36b]</Hit_def>
+  <Hit_accession>OGG50433</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>3.86969e-40</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>IKTNWCVITGGPSSGKTTTVNLLAGRGYKTTIEHARHYIDT-QKVDGRSVEEIRANQLTFQRGVLDMQIEQEQALSPGDVIFLDRAIPDALAYYRFLGLSPDGELEETIRKHSYKKVFILDPLPLVSDYARTEDGAAQKKIHTLLTEVYESLPYPVIHVPVLPPEKRVDFILKNI</Hsp_hseq>
+      <Hsp_midline>I+TNWCVITGGPSSGKTT +N LA  GYKT  E AR YI+     D ++++EI+ + L  QR +L++ + +E+ L   D+IF DR  PD++ Y+RF  L  +  +    R   YKK+F   PLP+V D  R ED    KKI   +   Y  L YPVI +P    ++R++ IL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|931363625|gb|KPJ55445.1|</Hit_id>
+  <Hit_def>hypothetical protein AMJ49_07150 [Parcubacteria bacterium DG_74_2]</Hit_def>
+  <Hit_accession>KPJ55445</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>1.13263e-38</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>IDTNWYVITGGPSSGKTKVIEYLAFLGYAVIPEAARILIDTEISNGK-TIKEIRPNEVEFQKKVLQMKIEVENRTPPEQIKFFDRGIPDTIAYCQIYGEDPASVIKASQRRKYKGVFLLEQLSFEKDYARVEDERLARDLNQLLYDAYSNLGYDVIQVSPKSIEERAKFILSKI</Hsp_hseq>
+      <Hsp_midline>I TNW VITGGPSSGKT +I +LA LGY   PE AR  I+  +S+ K T++EI+ + +  Q+K+L + +  E   P + + FFDRG PD+I Y + +  D   V++A +  +YK +F    L    D  R ED+  A+ ++  +Y+AY  L Y VI++   SI+ER + ILS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1088205622|gb|OHA64228.1|</Hit_id>
+  <Hit_def>hypothetical protein A2842_00215 [Candidatus Wildermuthbacteria bacterium RIFCSPHIGHO2_01_FULL_48_25]</Hit_def>
+  <Hit_accession>OHA64228</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>1.55231e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYIN-QLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVR-ACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>MIKTNWYIITGGPSSGKTTTVNLLKDRGYKTTVEHARHYIDTQKIA--GKTVEEIRKNQLLFQQGILDMQIAQEQALSPDETIFLDRAIPDALAYYRFLKLSEDEKLQNAVHKFLYKKVLVLDPLPLVKDYARTEDEAAQKSIHTLLVQAYEELHYPVIHVPVLPPDERVDFILKNI</Hsp_hseq>
+      <Hsp_midline>MI+TNW +ITGGPSSGKTT +N L + GYKT  E AR YI+ Q ++   KT++EI+ + L  Q+ IL++ + +E+ L   + IF DR  PD++ Y+RF  L E   ++ A     YKK+    PLP+V D  R ED+   K I   +  AY  L+YPVI +P     ER++ IL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|527025251|ref|WP_020877107.1|</Hit_id>
+  <Hit_def>hypothetical protein [Desulfococcus multivorans] &gt;gi|523467145|gb|EPR39035.1| hypothetical protein dsmv_0445 [Desulfococcus multivorans DSM 2059] &gt;gi|1092203889|gb|AOY57952.1| conserved uncharacterized protein [Desulfococcus multivorans]</Hit_def>
+  <Hit_accession>WP_020877107</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>2.8314e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>MRKTHWCVITGAPCSGKTTVILSLERQGYRVVHEAARKAVEEGIAAGM-SLREIRESPLDFQRRILQAKLTLERKLPTRATIFIDRGIPDSIAYFQFFGLDPEEPLAHARHVRYRRIFFFERLPWIRDGIRNENPETVARLDTLLQSAYQTLGYPIIRVPVLPAAARTDYVLNHL</Hsp_hseq>
+      <Hsp_midline>M +T+WCVITG P SGKTT+I  L   GY+   E AR  + + ++    +L+EI+   L  QR+IL   L  ER LP +  IF DRG PDSI YF+F  LD    +   R++RY++IFF   LP + D IR+E+  T  ++   + +AY  L YP+I +P      R + +L+H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1120000309|ref|WP_072875571.1|</Hit_id>
+  <Hit_def>hypothetical protein [Salegentibacter echinorum] &gt;gi|1110027496|emb|SHF41880.1| Predicted ATPase [Salegentibacter echinorum]</Hit_def>
+  <Hit_accession>WP_072875571</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.34031e-37</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>TNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVD</Hsp_qseq>
+      <Hsp_hseq>TNWHVITGGPSTGKTTVINMLAERGYKTTIEHARHYIDTMRT-EGQTVEDLRSNRKKFQIGVLDMQIEQEASILPQDLVFLDRAIPDAMAYYQFLKLDYDEKLLTAVKNTSYKKIFILDRLPFTKDYARTEDEEAQKKIHQLIINVYTSLGFPIVSVPVLPPTERVEFILKKIE</Hsp_hseq>
+      <Hsp_midline>TNW VITGGPS+GKTT+IN LAE GYKT  E AR YI+ + + + +T+++++ +    Q  +L++ + +E ++  +DL+F DR  PD++ Y++F  LD +  ++ A +   YKKIF    LP   D  R ED+   KKI   I N Y  L +P++ +P     ER+E IL  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1101086293|gb|OIO46207.1|</Hit_id>
+  <Hit_def>hypothetical protein AUJ31_02320 [Parcubacteria group bacterium CG1_02_39_15]</Hit_def>
+  <Hit_accession>OIO46207</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.5709e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>QTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>KSDWYVITGGFSSGKSTVLSCFEKMGYKTIPDAARILIDEEMAVGK-TIEEIRRNEREFQQKVLAIKLRVENKLSGNQIIFFDRAIPDSAAYYQICGLNPKEVLDVCQKGQYEKVFFMEQLPLIKDYARTEDSQTAKRLNQFLKQTYKQLGYKVIFVPVMSIKKRVKFIQSRL</Hsp_hseq>
+      <Hsp_midline>+++W VITGG SSGK+T+++   ++GYKT P+ AR  I++ ++  K T++EI+ +    Q+K+L I LR E  L    +IFFDR  PDS  Y++   L+   V+  C+  +Y+K+FF   LP++ D  R ED  TAK+++  +   Y  L Y VI +P  SIK+R++ I S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1090757625|emb|SEF65262.1|</Hit_id>
+  <Hit_def>Predicted ATPase [Sphingobacterium lactis] &gt;gi|1093230915|emb|SEH82861.1| Predicted ATPase [Flavobacterium marinum]</Hit_def>
+  <Hit_accession>SEF65262</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>7.554e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>QTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRAC-RYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>RTNWYVITGGPSTGKTTVVNLLAEKGYNTAIEHARHYI-ETMSIGGKTVAEIRENKLEFQQGVLKMQIEQEAKLDPEEAVFLDRAIPDALAYYRFLRLEPDALLNAALAHVDYKKVFILDRLPLVKDYARTENESEQRHIHSLIIEVYKSLSFPIVHVPVLPPEERVQFILNNL</Hsp_hseq>
+      <Hsp_midline>+TNW VITGGPS+GKTT++N LAE GY TA E AR YI + +S   KT+ EI+ + L  Q+ +L + + +E  L  ++ +F DR  PD++ Y+RF  L+   ++ A   ++ YKK+F    LP+V D  R E++   + I   I   Y  L++P++ +P    +ER++ IL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1083555678|gb|OGG52687.1|</Hit_id>
+  <Hit_def>hypothetical protein A2851_00570 [Candidatus Kaiserbacteria bacterium RIFCSPHIGHO2_01_FULL_53_29]</Hit_def>
+  <Hit_accession>OGG52687</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>8.26587e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYIN-QLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETH-VVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>MTGNNWYVITGGPSSGKTTTVDLLKGRGYKTTIEHARHYIDTQRVA--GKTVEEIRKNQAAFQRGVLDMQIAQEQALSPGDVVFLDRAIPDARAYYRFLNLSEDEKLSETMREISYKKIFILDPLPLTQDYARTEDATAQKEIHELLTETYGSLSFPVVHVPVLPSGERVDLILKNL</Hsp_hseq>
+      <Hsp_midline>M   NW VITGGPSSGKTT ++ L   GYKT  E AR YI+ Q ++   KT++EI+ +    QR +L++ + +E+ L   D++F DR  PD+  Y+RF +L E   +    R + YKKIF   PLP+  D  R ED    K+I + +   Y  L++PV+ +P     ER+++IL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1120010924|ref|WP_072885941.1|</Hit_id>
+  <Hit_def>hypothetical protein [Chryseobacterium takakiae] &gt;gi|1110100451|emb|SHF36519.1| Predicted ATPase [Chryseobacterium takakiae]</Hit_def>
+  <Hit_accession>WP_072885941</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.14102e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>QTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRAC-RYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>RTNWYVITGGPSTGKTTVVNLLAEKGYNTAIEHARHYI-ETMSIGGKTVAEIRENKLEFQQGVLKMQIEQEAKLDPEEAVFLDRAIPDALAYYRFLGLEPDALLNAALAHVDYKKVFILDRLPLVKDYARTENESEQRHIHSLIIEVYKSLSFPIVHVPVLPPEERVQFILNNL</Hsp_hseq>
+      <Hsp_midline>+TNW VITGGPS+GKTT++N LAE GY TA E AR YI + +S   KT+ EI+ + L  Q+ +L + + +E  L  ++ +F DR  PD++ Y+RF  L+   ++ A   ++ YKK+F    LP+V D  R E++   + I   I   Y  L++P++ +P    +ER++ IL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1083576857|gb|OGG72750.1|</Hit_id>
+  <Hit_def>hypothetical protein A3A38_03765 [Candidatus Kaiserbacteria bacterium RIFCSPLOWO2_01_FULL_53_17]</Hit_def>
+  <Hit_accession>OGG72750</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.18813e-35</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>TNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYIN-QLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVR-ACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>TRWYVITGGPGSGKTTTVNILKARGYKTTIEHARHYIDTQRIT--GKTVEEIRANQLAFQTSVLEMQIAQEKALSKDDIVFLDRALPDALAYYRFLDLPEDEELQHALREVSYKKVFILDPLPMTADYARIEDEAAQKKIHTLITEMYGSLGFSIVHVPVLPPEERVDFILKNL</Hsp_hseq>
+      <Hsp_midline>T W VITGGP SGKTT +N L   GYKT  E AR YI+ Q ++   KT++EI+ + L  Q  +L + + +E+ L K D++F DR  PD++ Y+RF  L E   ++ A R + YKK+F   PLP+  D  R ED+   KKI   I   Y  L + ++ +P    +ER++ IL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1072866601|gb|OEU66528.1|</Hit_id>
+  <Hit_def>hypothetical protein BA867_10320 [Desulfobacterales bacterium S5133MH16]</Hit_def>
+  <Hit_accession>OEU66528</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>4.36836e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIIL</Hsp_qseq>
+      <Hsp_hseq>MQKTNWYVITGAPCSGKTVVISALEQLGYPVIHEVARTYIDEELKRGKSIVQ-IKADILSFERHILYKKVEIEKSLSKDATVFLDRAVPDSIGYYILEGLSPDEPIKKSKQTRYKKIFLFERLRFEKDAVRSEDDKIAAELNRILKESYQMLGYEIISVPLLSINDRVDFIL</Hsp_hseq>
+      <Hsp_midline>M +TNW VITG P SGKT +I+ L +LGY    E+AR YI++ L   K  +Q IK DIL  +R IL   +  E++L K   +F DR  PDSIGY+    L     ++  +  RYKKIF    L    D +R EDD  A +++  +  +Y  L Y +I +P  SI +R++ IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|818273213|gb|KKP59165.1|</Hit_id>
+  <Hit_def>hypothetical protein UR52_C0011G0002 [Candidatus Gottesmanbacteria bacterium GW2011_GWA1_34_13]</Hit_def>
+  <Hit_accession>KKP59165</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.0213e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVV-RACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVD</Hsp_qseq>
+      <Hsp_hseq>MIKNNWYVITGAPCSGKSTILFLLKNKGYYVVEEAARVYIDQEMAKGR-TLEEIRKNEYAFQKKVLQIKINNEKRLSKDKLIIFERGIPDSVAYYKLCGINKNVLLERSIKNCFYRKIFLFELLDYQIDYARTEDKERANHLEKLLEESYQYINAPVIKIPKMSIEKRLEIILSHIN</Hsp_hseq>
+      <Hsp_midline>MI+ NW VITG P SGK+T++  L   GY    E AR YI+Q ++  + TL+EI+ +    Q+K+L I +  E+ L K  LI F+RG PDS+ Y++   +++  ++ R+ +   Y+KIF    L    D  R ED   A  +   +  +Y  +N PVI++P  SI++RLEIILSH++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|941021338|ref|WP_055046729.1|</Hit_id>
+  <Hit_def>hypothetical protein [Devosia sp. A16]</Hit_def>
+  <Hit_accession>WP_055046729</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.52734e-34</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYIN-QLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVDT</Hsp_qseq>
+      <Hsp_hseq>TNWHVITGGPSSGKTTMIRLLAQRGYHTTIEHARHFIDTQRVT--GRTVAEIRANQREFQRSVLMMQLRQEQALDPNQLCFLDRALPDSLAYYRYLGLEPEPELLDALKTASYRKVFALDLLPLARDYARTEDSLAQTRIHGLLLEVYEGLGCPVERVPVLPVEERLDYILSRVDT</Hsp_hseq>
+      <Hsp_midline>TNW VITGGPSSGKTT+I  LA+ GY T  E AR +I+ Q ++   +T+ EI+ +    QR +L + LR+E+ L    L F DR  PDS+ Y+R+  L+ E  ++ A +   Y+K+F    LP+  D  R ED +   +I   +   Y GL  PV  +P   ++ERL+ ILS VDT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1054416187|ref|WP_066249758.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bizionia sp. APA-3] &gt;gi|1041880029|gb|OBX23339.1| hypothetical protein BAA08_04605 [Bizionia sp. APA-3]</Hit_def>
+  <Hit_accession>WP_066249758</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.83191e-34</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>WCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>WHVITGGPSTGKTTVINMLAERGYKTTIEHARHYIDT-MRIEGQTVEEIRNNKRQFQLGVLDMQIEQEAAIQPQDLVFLDRAIPDAMAYYQFLMLDYDEKLLNAVKNTSYKKIFILDRLPFTKDYARTEDEEDQKIIHQLIIDVYTVLGFPIVTVPVLPPTERVEFILNNI</Hsp_hseq>
+      <Hsp_midline>W VITGGPS+GKTT+IN LAE GYKT  E AR YI+  +  + +T++EI+++    Q  +L++ + +E  +  +DL+F DR  PD++ Y++F  LD +  ++ A +   YKKIF    LP   D  R ED+   K I   I + Y  L +P++ +P     ER+E IL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|559194973|ref|WP_023571598.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavobacterium cauense] &gt;gi|558891664|gb|ESU19082.1| hypothetical protein FCR2A7T_25010 [Flavobacterium cauense R2A-7] &gt;gi|700534765|gb|KGO82288.1| hypothetical protein Q762_06290 [Flavobacterium cauense R2A-7]</Hit_def>
+  <Hit_accession>WP_023571598</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.83279e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>QTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYIN-QLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>KTNWYVITGGPSSGKTTTVNILKEIGYITTFEHARHYLDTQRLK--GRTIEETRKNQREFQLGVLDMQIEQENEIAANVQVFLDRAIPDALAYYRFLNLSVDEKLAKALQMVSYKKIFILDPLPLKNDYARSEDEQAQKKIHELITEVYESLPFPVVHVPVLSAEERVDFILKNL</Hsp_hseq>
+      <Hsp_midline>+TNW VITGGPSSGKTT +N L E+GY T  E AR Y++ Q L    +T++E + +    Q  +L++ + +E  +     +F DR  PD++ Y+RF +L  +  + +A + + YKKIF   PLP+  D  R ED+   KKI + I   Y  L +PV+ +P  S +ER++ IL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1082982549|gb|OGC86918.1|</Hit_id>
+  <Hit_def>hypothetical protein A2949_01405 [Candidatus Adlerbacteria bacterium RIFCSPLOWO2_01_FULL_54_21b]</Hit_def>
+  <Hit_accession>OGC86918</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>7.7463e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>IQTNWYVVTGGPSSGKTTTVNLLQARGYKTTIEHARHYID-TQKVDGKTVEEIRANQLTFQRGILDMQIEQEQALSPCDVIFLDRAIPDALAYYRFLGLSPDGELEETIRKHSYKKVFILDPLPLVSDYARTEDATAQKKIHALLAEVYESLPYPVVHVPVLPPEERVDFILKNI</Hsp_hseq>
+      <Hsp_midline>IQTNW V+TGGPSSGKTT +N L   GYKT  E AR YI+     D KT++EI+ + L  QR IL++ + +E+ L   D+IF DR  PD++ Y+RF  L  +  +    R   YKK+F   PLP+V D  R ED    KKI   +   Y  L YPV+ +P    +ER++ IL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|559215021|ref|WP_023579476.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavobacterium limnosediminis] &gt;gi|558901276|gb|ESU28501.1| hypothetical protein FLJC2902T_18700 [Flavobacterium limnosediminis JC2902]</Hit_def>
+  <Hit_accession>WP_023579476</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.98754e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYIN-QLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>IQTNWYVITGGPSSGKTTTVNLLKERGYITTFEHARHYLDTQRLK--GRTVEEARKNQREFQLGVLDMQIEQENEIAPNVQVFLDRAIPDALAYYRFLNLSVDEKLAKALQMVSYKKIFILDSLPLKNDYARSEDEQAQKKIHKLITEVYESLPFPVVHVPVLSAEERVDFILKNL</Hsp_hseq>
+      <Hsp_midline>IQTNW VITGGPSSGKTT +N L E GY T  E AR Y++ Q L    +T++E + +    Q  +L++ + +E  +     +F DR  PD++ Y+RF +L  +  + +A + + YKKIF    LP+  D  R ED+   KKI   I   Y  L +PV+ +P  S +ER++ IL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|406965114|gb|EKD90786.1|</Hit_id>
+  <Hit_def>hypothetical protein ACD_30C00090G0007 [uncultured bacterium] &gt;gi|818325404|gb|KKQ08370.1| hypothetical protein US19_C0026G0011 [Candidatus Daviesbacteria bacterium GW2011_GWB1_36_5] &gt;gi|818333799|gb|KKQ16183.1| hypothetical protein US28_C0004G0025 [Candidatus Daviesbacteria bacterium GW2011_GWA1_36_8] &gt;gi|1083137849|gb|OGE33257.1| hypothetical protein A3C99_01425 [Candidatus Daviesbacteria bacterium RIFCSPHIGHO2_02_FULL_37_9] &gt;gi|1083140855|gb|OGE36159.1| hypothetical protein A3E66_05115 [Candidatus Daviesbacteria bacterium RIFCSPHIGHO2_12_FULL_37_16]</Hit_def>
+  <Hit_accession>EKD90786</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.01049e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>TNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHVD</Hsp_qseq>
+      <Hsp_hseq>NNWYVITGGPSSGKTTLIKLLGGKGYRVIHEQARELIDQEL-YKGKTLGQIRRDEGKFQKKVLEMKITLEKKLSKEELIFFDRGIPDTLAYCWFHKIPVDKLLKKALKKSSYKKVFLLELIKYYEDYARNESAEESREIEKLLEKTYRGLNMSVIKVPEGTIKERVKFILKNIN</Hsp_hseq>
+      <Hsp_midline> NW VITGGPSSGKTTLI  L   GY+   E AR  I+Q L +  KTL +I+ D    Q+K+L + +  E+ L K++LIFFDRG PD++ Y  FH +  +  + +A +   YKK+F    +    D  R+E    +++I   +   Y GLN  VI++P  +IKER++ IL +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|652315082|ref|WP_026716878.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavobacterium gelidilacus]</Hit_def>
+  <Hit_accession>WP_026716878</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.16659e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>IQKNWYVITGGPSTGKTTVIDLLQKQGYTTTIEHARHYID-TMRNEGHSVDEIRNNKRKFQLGVLDMQIEQEASIKTKNIVFLDRAIPDALAYYQFLELDYDEKLINAIKEVSYKKIFILDRLPFTKDYARTENEEDQEKIHQLIIDVYRDLGFPIVFVPVVSPLERVKYILDNV</Hsp_hseq>
+      <Hsp_midline>IQ NW VITGGPS+GKTT+I+ L + GY T  E AR YI+  + ++  ++ EI+++    Q  +L++ + +E ++  K+++F DR  PD++ Y++F  LD +  ++ A + + YKKIF    LP   D  R E++   +KI   I + Y  L +P++ +P  S  ER++ IL +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1120449961|ref|WP_073312197.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavobacterium terrae] &gt;gi|1109804073|emb|SHJ17945.1| Predicted ATPase [Flavobacterium terrae]</Hit_def>
+  <Hit_accession>WP_073312197</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.65967e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>QTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYIN-QLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>KTNWYVITGGPSSGKTTTVNLLKERGYITTFEHARHYLDTQRLK--GRTVEEARKNQREFQLGVLDMQIEQENEIAPNVQVFLDRAIPDALAYYRFLNLSVDEKLAKALQMVSYKKIFILDSLPLKNDYARSEDEQAQKKIHELITEVYESLPFPVVHVPVLSAEERVDFILKNL</Hsp_hseq>
+      <Hsp_midline>+TNW VITGGPSSGKTT +N L E GY T  E AR Y++ Q L    +T++E + +    Q  +L++ + +E  +     +F DR  PD++ Y+RF +L  +  + +A + + YKKIF    LP+  D  R ED+   KKI + I   Y  L +PV+ +P  S +ER++ IL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1072858363|gb|OEU59798.1|</Hit_id>
+  <Hit_def>hypothetical protein BBJ57_12470 [Desulfobacterales bacterium PC51MH44]</Hit_def>
+  <Hit_accession>OEU59798</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.99987e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MIQTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLDETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>MRRTNWYVITGAPCSGKTSVLCELEQLGYQVVHEVARAYIDEELQKGK-SIAQIKAHELSFERYILYKKIEIEKSLSKDATAFLDRAVPDSIGYYILEGLNPDDPIKKSKLAQYKKIFFFERLRFEKDQVRSEDDRIAARLDALLKKSYQMLGYEIIHVPLLSVRDRVDFILKRL</Hsp_hseq>
+      <Hsp_midline>M +TNW VITG P SGKT+++  L +LGY+   E+AR YI++ L   K ++ +IK   L  +R IL   +  E++L K    F DR  PDSIGY+    L+    ++  +  +YKKIFF   L    D +R EDD  A ++   +  +Y  L Y +I +P  S+++R++ IL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|868638069|ref|WP_048500307.1|</Hit_id>
+  <Hit_def>hypothetical protein [Chryseobacterium koreense] &gt;gi|861377813|gb|KMQ70447.1| hypothetical protein ACM44_12080 [Chryseobacterium koreense CCUG 49689]</Hit_def>
+  <Hit_accession>WP_048500307</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>2.25798e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>QTNWCVITGGPSSGKTTLINHLAELGYKTAPEIARFYINQLLSHDKKTLQEIKHDILWLQRKILNIMLRRERNLPKKDLIFFDRGTPDSIGYFRFHHLD-ETHVVRACRYLRYKKIFFCHPLPVVPDTIRDEDDVTAKKISDCIYNAYVGLNYPVIELPATSIKERLEIILSHV</Hsp_qseq>
+      <Hsp_hseq>KTNWYVITGGPSTGKTTTIDLLQKLGYHTTIEYARHYIDT-MRNVGDSVEEIRSNKKKFQLAVLEMQIAQEASLNKDDLVFLDRAIPDAMAYYQFLKLDYDEELRKAVNEVSYKKIFILERLPFTKDYARTENEDDQKVIHQLIIETYTNLGFPIVFVPVLPPEERVQFILNNL</Hsp_hseq>
+      <Hsp_midline>+TNW VITGGPS+GKTT I+ L +LGY T  E AR YI+  + +   +++EI+ +    Q  +L + + +E +L K DL+F DR  PD++ Y++F  LD +  + +A   + YKKIF    LP   D  R E++   K I   I   Y  L +P++ +P    +ER++ IL+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

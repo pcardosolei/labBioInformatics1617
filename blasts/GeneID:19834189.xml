@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_183149</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834189</BlastOutput_query-def>
+  <BlastOutput_query-len>160</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_183149</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834189</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250784|ref|WP_010948324.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella pneumophila] &gt;gi|52842830|ref|YP_096629.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|81367742|sp|Q5WTH5.1|GREA_LEGPL RecName: Full=Transcription elongation factor GreA; AltName: Full=Transcript cleavage factor GreA &gt;gi|81369784|sp|Q5X1R6.1|GREA_LEGPA RecName: Full=Transcription elongation factor GreA; AltName: Full=Transcript cleavage factor GreA &gt;gi|81376728|sp|Q5ZS95.1|GREA_LEGPH RecName: Full=Transcription elongation factor GreA; AltName: Full=Transcript cleavage factor GreA &gt;gi|52629941|gb|AAU28682.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|53752398|emb|CAH13830.1| transcription elongation factor GreA [Legionella pneumophila str. Paris] &gt;gi|53755295|emb|CAH16789.1| transcription elongation factor GreA [Legionella pneumophila str. Lens] &gt;gi|364509335|gb|AEW52859.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|395128625|emb|CCD06843.1| transcription elongation factor [Legionella pneumophila subsp. pneumophila] &gt;gi|395131708|emb|CCD10001.1| transcription elongation factor [Legionella pneumophila subsp. pneumophila] &gt;gi|509083296|gb|AGN15544.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|536611665|gb|ERB40183.1| transcription elongation factor GreA [Legionella pneumophila str. 121004] &gt;gi|541998745|gb|ERH44761.1| transcription elongation factor GreA [Legionella pneumophila str. Leg01/53] &gt;gi|542000249|gb|ERH46240.1| transcription elongation factor GreA [Legionella pneumophila str. Leg01/11] &gt;gi|542123144|gb|ERI49453.1| transcription elongation factor GreA [Legionella pneumophila str. Leg01/20] &gt;gi|761987465|dbj|GAN24640.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|761990479|dbj|GAN18588.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|761993669|dbj|GAN21694.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|761996846|dbj|GAN31021.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|762000218|dbj|GAN27950.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|998772850|emb|CZI18031.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998775701|emb|CZG59719.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998778287|emb|CZG74873.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998781176|emb|CZJ43695.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998784526|emb|CZG84839.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998787478|emb|CZG58306.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998790009|emb|CZH02183.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998796490|emb|CZH99117.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998800339|emb|CZL05334.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998802617|emb|CZH88613.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998805778|emb|CZK06751.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998808388|emb|CZH88814.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998811883|emb|CZH77991.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998814318|emb|CZG62994.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998817698|emb|CZL58091.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998820800|emb|CZL60158.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998824276|emb|CZG44435.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998826762|emb|CZK07786.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998829469|emb|CZG79612.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998832600|emb|CZI08219.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998835735|emb|CZK86825.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998837875|emb|CZJ73775.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998842274|emb|CZL12050.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998844692|emb|CZK27726.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998847643|emb|CZK66108.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998850270|emb|CZI39388.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998853747|emb|CZL24951.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998856443|emb|CZL32236.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998859766|emb|CZL72311.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998862698|emb|CZK19654.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998865423|emb|CZJ42200.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998869836|emb|CZJ35310.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998871031|emb|CZM15636.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998874519|emb|CZK37061.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998877494|emb|CZM00533.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998880561|emb|CZI88059.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998883333|emb|CZI76937.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998888009|emb|CZL48963.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998889256|emb|CZK23841.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998892889|emb|CZJ07565.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998895539|emb|CZK00103.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998898826|emb|CZJ45422.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998906094|emb|CZK55455.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998909665|emb|CZL08147.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998912332|emb|CZG97549.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998915865|emb|CZK63192.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998918334|emb|CZK83887.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998921305|emb|CZL39469.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998927610|emb|CZL64701.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998930697|emb|CZK76314.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998933898|emb|CZL74972.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998936476|emb|CZM48806.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998939912|emb|CZK77337.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998945989|emb|CZK96184.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998949033|emb|CZK83274.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998952231|emb|CZJ33506.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998958581|emb|CZL99869.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998961487|emb|CZK24419.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998964646|emb|CZK06546.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998966932|emb|CZM51644.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998970474|emb|CZK53127.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998973835|emb|CZK27556.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998979540|emb|CZL60510.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998982016|emb|CZI88353.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998985889|emb|CZK00787.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998988681|emb|CZL47416.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998993944|emb|CZI46179.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998998057|emb|CZJ89688.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999000408|emb|CZG76595.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999004449|emb|CZI42982.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999008029|emb|CZK28551.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999012962|emb|CZL44922.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999016884|emb|CZL69840.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999022682|emb|CZL15963.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999025347|emb|CZK73779.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999031531|emb|CZG67296.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999037104|emb|CZL53657.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999046828|emb|CZL76546.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999057952|emb|CZM54956.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999061635|emb|CZL14043.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999067400|emb|CZJ19023.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999076876|emb|CZG58377.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999080219|emb|CZJ91017.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999082822|emb|CZK78668.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999090468|emb|CZK40700.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999092462|emb|CZL39765.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999095248|emb|CZG86562.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999098737|emb|CZG61389.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999101166|emb|CZL68639.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999104177|emb|CZI06200.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999106958|emb|CZI85222.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999110391|emb|CZL14675.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999113830|emb|CZL52270.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999116389|emb|CZK47727.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999126301|emb|CZK78451.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999128788|emb|CZH03800.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999131567|emb|CZL94247.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999134786|emb|CZL16223.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999138112|emb|CZK28997.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999141773|emb|CZL43633.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999144582|emb|CZK70457.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999147626|emb|CZL48746.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999151563|emb|CZH55055.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999153865|emb|CZM17894.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999156883|emb|CZH75242.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999158596|emb|CZJ90179.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999162953|emb|CZM05429.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999166050|emb|CZG69459.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999168305|emb|CZI51320.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999173407|emb|CZH70078.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999175766|emb|CZL04201.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999177484|emb|CZJ86902.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999182533|emb|CZG27073.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999184490|emb|CZP92724.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999188698|emb|CZI76501.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999191307|emb|CZI18577.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999194430|emb|CZI45007.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999198298|emb|CZP06512.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999200295|emb|CZG61481.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999203741|emb|CZI44931.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999206447|emb|CZP59532.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999209990|emb|CZK74909.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999213630|emb|CZG42650.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999217080|emb|CZI73107.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999219328|emb|CZL31903.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999222422|emb|CZI36440.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999225924|emb|CZG33345.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999227862|emb|CZP40797.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999231232|emb|CZI63040.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999235039|emb|CZP51571.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999237174|emb|CZG78045.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999240535|emb|CZH75721.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999244204|emb|CZH70941.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999248106|emb|CZH52280.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999256142|emb|CZP73437.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999259189|emb|CZP38984.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999265467|emb|CZP04315.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999269684|emb|CZO24269.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999272065|emb|CZP51472.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999277772|emb|CZP28933.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999281522|emb|CZP23342.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999284170|emb|CZP50426.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999286796|emb|CZI76278.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999290827|emb|CZP27156.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999293081|emb|CZI61736.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999296773|emb|CZP50156.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999300012|emb|CZP28240.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999307145|emb|CZH65295.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999309531|emb|CZP19134.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999312040|emb|CZI87097.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999315983|emb|CZI03469.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999318932|emb|CZP56405.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999322184|emb|CZH91673.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999335251|emb|CZK72038.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999338011|emb|CZP44245.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999340723|emb|CZG98707.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999344175|emb|CZP91976.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999347463|emb|CZP60823.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999353718|emb|CZP51915.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999356827|emb|CZP74847.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999361093|emb|CZI01949.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999363193|emb|CZP70861.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999366956|emb|CZP71088.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999369626|emb|CZP87198.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999374051|emb|CZG04184.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999377346|emb|CZI91118.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999380645|emb|CZH51566.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999383411|emb|CZI17241.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999387460|emb|CZG10120.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999390267|emb|CZI10242.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999392470|emb|CZP95418.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999397068|emb|CZG16839.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999398718|emb|CZP98776.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999403282|emb|CZP48366.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999406419|emb|CZG42791.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999409409|emb|CZH71967.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999412577|emb|CZG27338.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999416647|emb|CZG14157.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999419276|emb|CZG43161.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999422612|emb|CZH45179.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999429118|emb|CZG31071.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999432706|emb|CZG07066.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999435736|emb|CZH65479.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999442244|emb|CZJ84344.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|999445332|emb|CZH56511.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999450787|emb|CZP30017.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999455514|emb|CZH44203.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999458356|emb|CZJ89525.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999462231|emb|CZG06571.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999465390|emb|CZM25444.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999468354|emb|CZO08177.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999474991|emb|CZM44329.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999478185|emb|CZN25826.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999481380|emb|CZM63884.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999484410|emb|CZN97324.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999487518|emb|CZL94978.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999490709|emb|CZN57978.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999493983|emb|CZL96873.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999497023|emb|CZI10922.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999500337|emb|CZN57119.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999503559|emb|CZN86467.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999506755|emb|CZM92363.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999510038|emb|CZG26936.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999513147|emb|CZN17297.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999516586|emb|CZL80658.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999519810|emb|CZM50363.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999521339|emb|CZP44345.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999526326|emb|CZI61047.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999529208|emb|CZI16640.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999532678|emb|CZO32785.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999536041|emb|CZN19522.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999539071|emb|CZM54270.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999542275|emb|CZO07730.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999545465|emb|CZO45970.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999548573|emb|CZN73418.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999551853|emb|CZN99499.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999555230|emb|CZM97059.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999558243|emb|CZO45701.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999561351|emb|CZM27057.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999564636|emb|CZO46369.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999567739|emb|CZM40420.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999570938|emb|CZN38932.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999574128|emb|CZN76099.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999577072|emb|CZI02391.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999580619|emb|CZO00549.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999584131|emb|CZO13977.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999587254|emb|CZM48815.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999590516|emb|CZM22449.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999593391|emb|CZN32272.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999596589|emb|CZN94826.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999599869|emb|CZO24677.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999603275|emb|CZL63801.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999606264|emb|CZN39270.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999609686|emb|CZN41479.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999612373|emb|CZI07327.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999615862|emb|CZM31352.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999618989|emb|CZN76159.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999622335|emb|CZO51996.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999625621|emb|CZN53826.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999628962|emb|CZM42289.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999631840|emb|CZM46285.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999635120|emb|CZN40534.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999638228|emb|CZN35151.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999641424|emb|CZO62946.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999644595|emb|CZO28555.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999648132|emb|CZN76602.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999650943|emb|CZN92968.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999654293|emb|CZN92209.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999657671|emb|CZM01053.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999660598|emb|CZM48460.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999664112|emb|CZM82163.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999667077|emb|CZM24889.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999670271|emb|CZL74104.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999673658|emb|CZM19102.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999676578|emb|CZN61878.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999679613|emb|CZM62525.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999682808|emb|CZM69808.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999686034|emb|CZN92604.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999689626|emb|CZN10102.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999692565|emb|CZN81251.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999696037|emb|CZN01409.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999699236|emb|CZL98198.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999702486|emb|CZM43786.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999705644|emb|CZL59505.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999708668|emb|CZN41587.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999711920|emb|CZM87137.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999715397|emb|CZM88848.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999718512|emb|CZO27702.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999721414|emb|CZM67525.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999724754|emb|CZN17516.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999728165|emb|CZL89188.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999731647|emb|CZO21662.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999734896|emb|CZM00220.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999738202|emb|CZO47618.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999741098|emb|CZM25913.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999744600|emb|CZN07157.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999747925|emb|CZM00794.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999750820|emb|CZL79871.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999754102|emb|CZM71523.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999757445|emb|CZM83975.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999760408|emb|CZM15399.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999763877|emb|CZN10195.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999767074|emb|CZM56469.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999769837|emb|CZN40501.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999773541|emb|CZH74056.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999776547|emb|CZL89363.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999783411|emb|CZH50105.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999786587|emb|CZM18134.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999789822|emb|CZO49072.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999793231|emb|CZO51400.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999796478|emb|CZI08967.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999800206|emb|CZO39142.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1002075531|emb|CZQ94138.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1002079036|emb|CZQ94438.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1002082129|emb|CZQ95923.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1002085482|emb|CZQ99524.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1002088718|emb|CZQ78703.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1002091749|emb|CZR06063.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1003020128|emb|CZR21468.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1003023007|emb|CZR20326.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1003026849|emb|CZR17984.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1003028404|emb|CZR23560.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1003030325|emb|CZR34349.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1003034772|emb|CZR27663.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1005834293|gb|AMQ29019.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434048|gb|AMV15675.1| Transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1032658703|gb|ANH13974.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1032661665|gb|ANH16935.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1032664643|gb|ANH19912.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1041016596|gb|ANN93657.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1041019595|gb|ANN96655.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073865665|gb|AOU05616.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073868634|gb|AOU08584.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073871629|gb|AOU11578.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073874498|gb|AOU14446.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073877554|gb|AOU17501.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073880517|gb|AOU20463.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073883514|gb|AOU23459.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073886507|gb|AOU26451.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073889475|gb|AOU29418.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073892459|gb|AOU32401.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073895427|gb|AOU35368.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073898385|gb|AOU38325.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073901351|gb|AOU41290.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073904260|gb|AOU44198.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073907213|gb|AOU47150.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073910231|gb|AOU50166.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073913243|gb|AOU53175.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073916203|gb|AOU56134.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073919166|gb|AOU59096.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073922069|gb|AOU61998.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073925152|gb|AOU65079.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073928115|gb|AOU68041.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073931101|gb|AOU71010.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073934470|gb|AOU74029.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073937435|gb|AOU84434.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073947701|gb|AOU87425.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1073950629|gb|AOU90352.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1080003038|gb|AOW53610.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005217|gb|AOW55497.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008963|gb|AOW58951.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011370|gb|AOW60861.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015535|gb|AOW64408.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017614|gb|AOW66259.1| transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila] &gt;gi|1103997788|emb|SFZ46812.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1104004026|emb|SFZ46838.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1104007480|emb|SFZ46921.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1108605975|gb|APF04343.1| transcription elongation factor GreA [Legionella pneumophila subsp. fraseri] &gt;gi|1129969287|gb|APT99646.1| transcription elongation factor GreA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948324</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>2.24995e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_hseq>
+      <Hsp_midline>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|500496156|ref|WP_011947542.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella pneumophila] &gt;gi|166200670|sp|A5IAV2.1|GREA_LEGPC RecName: Full=Transcription elongation factor GreA; AltName: Full=Transcript cleavage factor GreA &gt;gi|148280414|gb|ABQ54502.1| transcription elongation factor GreA [Legionella pneumophila str. Corby] &gt;gi|998792819|emb|CZI69065.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998924279|emb|CZJ95175.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998942524|emb|CZK05505.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998954575|emb|CZK41103.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998976198|emb|CZJ66235.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|998991526|emb|CZK08408.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999009817|emb|CZK02462.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999018931|emb|CZJ61547.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999027971|emb|CZJ89891.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999034061|emb|CZJ97899.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999040268|emb|CZJ67946.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999043065|emb|CZJ77139.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999048980|emb|CZJ86734.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999052237|emb|CZJ68517.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999055145|emb|CZJ96434.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999064347|emb|CZJ78825.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999070098|emb|CZJ74633.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999073443|emb|CZK05301.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999085614|emb|CZJ97097.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999249414|emb|CZG78171.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999252881|emb|CZG91169.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999262163|emb|CZH07075.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999274334|emb|CZH08037.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999302271|emb|CZI55885.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999324943|emb|CZH14767.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999327579|emb|CZH27769.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999332900|emb|CZG04209.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999349566|emb|CZH48202.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999426481|emb|CZG24528.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999438351|emb|CZG45260.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999448594|emb|CZG04198.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999470000|emb|CZG83007.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999778471|emb|CZH00424.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1104000928|emb|SFZ46845.1| Transcript cleavage factor greA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947542</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.324</Hsp_bit-score>
+      <Hsp_score>830</Hsp_score>
+      <Hsp_evalue>2.20596e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVEGAEALKEELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_hseq>
+      <Hsp_midline>MSKHPMTVEGAEALK ELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|652969884|ref|WP_027222777.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella pneumophila] &gt;gi|985764635|gb|KXB25754.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|985767093|gb|KXB28188.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|999119085|emb|CZG86020.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|999122210|emb|CZH19187.1| Transcript cleavage factor greA [Legionella pneumophila] &gt;gi|1005362950|gb|AMP88819.1| transcription elongation factor GreA [Legionella pneumophila subsp. pascullei] &gt;gi|1005367786|gb|AMP93563.1| transcription elongation factor GreA [Legionella pneumophila subsp. pascullei] &gt;gi|1005370705|gb|AMP96481.1| transcription elongation factor GreA [Legionella pneumophila subsp. pascullei] &gt;gi|1024339691|gb|KZX34030.1| transcription elongation factor GreA [Legionella pneumophila] &gt;gi|1108608958|gb|APF07325.1| transcription elongation factor GreA [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027222777</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>5.03502e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALKSELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIKVQYLVD</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK+ELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEII+VQY+V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|737921553|ref|WP_035886856.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella norrlandica] &gt;gi|701446855|gb|KGP64203.1| transcription elongation factor GreA [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886856</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>6.49414e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVEGAEALKLELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVSTGSELTYRIVGEDEADIKLNKISYSSPIARALIGKELDDTVTVETPGGMVEYEIIDVQYVVE</Hsp_hseq>
+      <Hsp_midline>MSKHPMTVEGAEALK ELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHV+TGSELTY+IVGEDEADIKLNKISYSSPIARALIGKELDD VTVETPGGMVEYEII VQY+VE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|469490656|gb|AGH52501.1|</Hit_id>
+  <Hit_def>Transcription elongation factor GreA [Legionella pneumophila subsp. pneumophila LPE509]</Hit_def>
+  <Hit_accession>AGH52501</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>9.06419e-109</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>MTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_hseq>
+      <Hsp_midline>MTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|295650171|gb|ADG26018.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella pneumophila 2300/99 Alcoy]</Hit_def>
+  <Hit_accession>ADG26018</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>6.32338e-108</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>MTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MTVEGAEALKEELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_hseq>
+      <Hsp_midline>MTVEGAEALK ELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|966427055|ref|WP_058469593.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Fluoribacter gormanii] &gt;gi|962215443|gb|KTD00225.1| transcription elongation factor GreA [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058469593</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>2.73414e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALKEELNRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGATVTVCHIATDATVTYKIVGEDEADIKQNKISYSSPIGRALIGKELDDSVTVNTPGGMVDYEIIDVQYV</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK EL+RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG+TVT+CH+AT + +TYKIVGEDEADIK NKISYSSPI RALIGKELDD+VTV TPGGMV+YEII VQY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|654932809|ref|WP_028383167.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella moravica] &gt;gi|962253343|gb|KTD37524.1| transcription elongation factor GreA [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383167</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>4.78452e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALKEELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQDLEAKLSHAQIIDISKLPNNGKVVFGATVTICHLATDAELTYQIVGEDEADIKLNKISYSSPIGRALIGKELDDTVTVNTPGGMVDYEIIDVKY</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQ+LEAKLSHAQIIDISKLPNNGKV+FG+TVTICH+AT +ELTY+IVGEDEADIKLNKISYSSPI RALIGKELDD VTV TPGGMV+YEII V+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|671586598|ref|WP_031563010.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563010</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>5.33935e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVHGAEALKSELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIVDISKLPNNGKVVFGSTVTVCHIATDNKVTYKIVGEDEADIKQNKISYSSPIGRALIGKELDDCVSVNTPGGLVEYEIIDVAYI</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV GAEALK+ELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQI+DISKLPNNGKV+FGSTVT+CH+AT +++TYKIVGEDEADIK NKISYSSPI RALIGKELDD V+V TPGG+VEYEII V YI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|966433984|ref|WP_058474415.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella quateirensis] &gt;gi|962263784|gb|KTD47864.1| transcription elongation factor GreA [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474415</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>6.02426e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALKEELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQDLEAKLSHAQIIDISKLPNNGKVVFGATVTVCHLATDAELTYQIVGEDEADIKLNKISYSSPIGRALIGKELDDTVTVNTPGGMVDYEIIDVKY</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQ+LEAKLSHAQIIDISKLPNNGKV+FG+TVT+CH+AT +ELTY+IVGEDEADIKLNKISYSSPI RALIGKELDD VTV TPGGMV+YEII V+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|498338369|ref|WP_010652525.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Fluoribacter dumoffii] &gt;gi|962207524|gb|KTC92455.1| transcription elongation factor GreA [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652525</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>8.9422e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVEGAEALKEELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGSTVTVCHIATDAKVTYKIVGEDEADIKHNKISYSSPMGRALIGKELDDTVTVNTPGGIVEYEIIEVEYV</Hsp_hseq>
+      <Hsp_midline>MSKHPMTVEGAEALK EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FGSTVT+CH+AT +++TYKIVGEDEADIK NKISYSSP+ RALIGKELDD VTV TPGG+VEYEII+V+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|966414779|ref|WP_058458064.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Fluoribacter bozemanae] &gt;gi|962192343|gb|KTC77417.1| transcription elongation factor GreA [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458064</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>1.00893e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVEGAEALNSELQRLKFIDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGCTVTVCHIATDAKVTYKIVGEDEADIKQNKISYSSPIGRALIGKELDDTVTVNTPGGMVEYEIIDVEYI</Hsp_hseq>
+      <Hsp_midline>MSKHPMTVEGAEAL +EL RLKF+DRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG TVT+CH+AT +++TYKIVGEDEADIK NKISYSSPI RALIGKELDD VTV TPGGMVEYEII V+YI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|966460538|ref|WP_058492967.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella worsleiensis] &gt;gi|962296584|gb|KTD80221.1| transcription elongation factor GreA [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492967</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.34199e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALKEELQRLKFIDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQDLEAKLSHAQIVDISKLPNNGKVVFGATVTICHLATDAELTYQIVGEDEADIKLNKISYSSPIGRALIGKELDDTVTVNTPGGMVDYEIIDVKY</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK EL RLKF+DRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQ+LEAKLSHAQI+DISKLPNNGKV+FG+TVTICH+AT +ELTY+IVGEDEADIKLNKISYSSPI RALIGKELDD VTV TPGGMV+YEII V+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|966505216|ref|WP_058521875.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella tucsonensis] &gt;gi|962287583|gb|KTD71311.1| transcription elongation factor GreA [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521875</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>2.48076e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALNSELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLQNNGKVVFGCTVTVCHIATDAKVTYKIVGEDEADIKQNKISYSSPIGRALIGKELDDSVTVNTPGGMVEYEIVEVQYI</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEAL +EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKL NNGKV+FG TVT+CH+AT +++TYKIVGEDEADIK NKISYSSPI RALIGKELDD+VTV TPGGMVEYEI++VQYI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|517405777|ref|WP_018578448.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella shakespearei] &gt;gi|962281261|gb|KTD65074.1| transcription elongation factor GreA [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578448</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>2.92018e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALKEELQRLKFVDRPRIIEAVATARAHGDLKENAEYHAAREQQSFNEGRIQDLEAKLSHAQIVDISKLPNNGKVVFGATVKICHVATDAELTYQIVGEDEADIKLNKISYSSPIGRALIGKELDDTVTVNTPGGLVDYEIIDVQY</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK EL RLKFVDRPRI+EA+ATARAHGDLKENAEYHAAREQQSFNEGRIQ+LEAKLSHAQI+DISKLPNNGKV+FG+TV ICHVAT +ELTY+IVGEDEADIKLNKISYSSPI RALIGKELDD VTV TPGG+V+YEII VQY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|654930419|ref|WP_028380788.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella cherrii] &gt;gi|962197168|gb|KTC82212.1| transcription elongation factor GreA [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380788</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>3.56309e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVEGAEALKEELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGSTVTVSHIATDAQVTYKIVGEDEADIKQNKISYSSPMGRALIGKELDDSVIVNTPGGMVEYEIIDVQYL</Hsp_hseq>
+      <Hsp_midline>MSKHPMTVEGAEALK EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FGSTVT+ H+AT +++TYKIVGEDEADIK NKISYSSP+ RALIGKELDD+V V TPGGMVEYEII VQY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|966499609|ref|WP_058516282.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella parisiensis] &gt;gi|962260146|gb|KTD44261.1| transcription elongation factor GreA [Legionella parisiensis] &gt;gi|1069291199|gb|OEH46586.1| Transcription elongation factor GreA [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516282</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>3.97627e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALNSELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGCTVTVCHIATDAKVTYKIVGEDEADIKQNKISYSSPIGRALIGKDLDDTVTVNTPGGMVEYEIIDVEYI</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEAL +EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG TVT+CH+AT +++TYKIVGEDEADIK NKISYSSPI RALIGK+LDD VTV TPGGMVEYEII V+YI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|966423326|ref|WP_058466527.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcription elongation factor GreA [Legionella] &gt;gi|962193394|gb|KTC78460.1| transcription elongation factor GreA [Legionella cincinnatiensis] &gt;gi|962279955|gb|KTD63778.1| transcription elongation factor GreA [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058466527</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>5.28887e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKYPMTVHGAEALKEELHRLKFVDRPRIVDAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGCTVTICHVANDTKLTYQIVGEDEADIKQNKISYSSPIGRGLIGKELDDSVTVNTPGGMVEYEIIDVQYI</Hsp_hseq>
+      <Hsp_midline>MSK+PMTV GAEALK ELHRLKFVDRPRIV+AIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG TVTICHVA  ++LTY+IVGEDEADIK NKISYSSPI R LIGKELDD+VTV TPGGMVEYEII VQYI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|966436373|ref|WP_058476741.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella steigerwaltii] &gt;gi|962295045|gb|KTD78699.1| transcription elongation factor GreA [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476741</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>6.16696e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVHGAEALKEELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGSTVTVSHTATDAQVTYKIVGEDEADIKQNKISYSSPMGRALIGKELDDSVTVNTPGGMVEYEIIDVQYV</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV GAEALK EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FGSTVT+ H AT +++TYKIVGEDEADIK NKISYSSP+ RALIGKELDD+VTV TPGGMVEYEII VQY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966466494|ref|WP_058497820.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella gratiana] &gt;gi|962229985|gb|KTD14581.1| transcription elongation factor GreA [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497820</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>9.88462e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKYPMTVHGAEALKEELHRLKFVDRPRIVDAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGCTVTICNVATDAKLTYQIVGEDEADIKQNKISYSSPIGRGLIGKELDDSVTVNTPGGMVEYEIIDVQYI</Hsp_hseq>
+      <Hsp_midline>MSK+PMTV GAEALK ELHRLKFVDRPRIV+AIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG TVTIC+VAT ++LTY+IVGEDEADIK NKISYSSPI R LIGKELDD+VTV TPGGMVEYEII VQYI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966439670|ref|WP_058479993.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA, partial [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058479993</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>7.44176e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALQQELQRLKFVERPKIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSNAQIIDISKLTNNGKVVFGSTVTICQTSSDSEISYQIVGEDEADIKLNKISYSSPIARALIGKELDDTVTVETPGGLVEYEIIQVEYV</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEAL+ EL RLKFV+RP+IVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLS+AQIIDISKL NNGKV+FGSTVTIC  ++ SE++Y+IVGEDEADIKLNKISYSSPIARALIGKELDD VTVETPGG+VEYEIIQV+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|653019381|ref|WP_027271332.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella sainthelensi] &gt;gi|962272906|gb|KTD56886.1| transcription elongation factor GreA [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027271332</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.75113e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKYPMTVHGAEALKEELNRLKFVDRPRIVDAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGCTVTICHVANDTKLTYQIVGEDEADIKQNKISYSSPIGRGLIGKELDDSVTVNTPGGLVEYEIIDVQYI</Hsp_hseq>
+      <Hsp_midline>MSK+PMTV GAEALK EL+RLKFVDRPRIV+AIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG TVTICHVA  ++LTY+IVGEDEADIK NKISYSSPI R LIGKELDD+VTV TPGG+VEYEII VQYI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|489730512|ref|WP_003634628.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella longbeachae] &gt;gi|269990833|gb|EEZ97087.1| transcription elongation factor GreA domain protein [Legionella longbeachae D-4968] &gt;gi|288859570|emb|CBJ13538.1| transcription elongation factor GreA [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003634628</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.87028e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKYPMTVHGAEALKEELHRLKFVDRPRIVDAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGCTVTICNVANETQLTYQIVGEDEADIKQNKISYSSPIGRGLIGKELDDSVTVNTPGGLVEYEIIDVQYI</Hsp_hseq>
+      <Hsp_midline>MSK+PMTV GAEALK ELHRLKFVDRPRIV+AIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG TVTIC+VA  ++LTY+IVGEDEADIK NKISYSSPI R LIGKELDD+VTV TPGG+VEYEII VQYI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966493752|ref|WP_058510540.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella steelei] &gt;gi|962284683|gb|KTD68449.1| transcription elongation factor GreA [Legionella steelei] &gt;gi|1113342013|gb|OJW05890.1| transcription elongation factor GreA [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510540</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>2.04185e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVEGAAALNEELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGATVTVSHVTTDAQVTYKIVGEDEADIKQNKISYSSPMGRALIGKELDDSVTVNTPGGLVEYEIIEVQYV</Hsp_hseq>
+      <Hsp_midline>MSKHPMTVEGA AL  EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG+TVT+ HV T +++TYKIVGEDEADIK NKISYSSP+ RALIGKELDD+VTV TPGG+VEYEII+VQY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966516913|ref|WP_058533407.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533407</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>9.9111e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MNKHPMTIQGAEALKEELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSNAQIIDISKLANNGKVVFGSTVTVCHVATDAHITYQIVGEDEADIKLHKISYSSPIGRALIGKELDDVVTVNTPGGLVDYEIIEVQYV</Hsp_hseq>
+      <Hsp_midline>M+KHPMT++GAEALK EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLS+AQIIDISKL NNGKV+FGSTVT+CHVAT + +TY+IVGEDEADIKL+KISYSSPI RALIGKELDD VTV TPGG+V+YEII+VQY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|962295568|gb|KTD79213.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella waltersii]</Hit_def>
+  <Hit_accession>KTD79213</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>1.05381e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALQQELQRLKFVERPKIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSNAQIIDISKLTNNGKVVFGSTVTICQTSSDSEISYQIVGEDEADIKLNKISYSSPIARALIGKELDDTVTVETPGGLVEYEIIQVEYV</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEAL+ EL RLKFV+RP+IVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLS+AQIIDISKL NNGKV+FGSTVTIC  ++ SE++Y+IVGEDEADIKLNKISYSSPIARALIGKELDD VTVETPGG+VEYEIIQV+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|769980356|ref|WP_045096341.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella fallonii] &gt;gi|698843963|emb|CEG57932.1| transcription elongation factor [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096341</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>1.80951e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVPGAEALKEELKRLKFVDRPRIVEAIAEARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSNAQIIDISKIPNTGKVIFGATVTICHVATDAELTYQIVGEDEANIKLNKISYSSPIGRALIGKQLDDTVTVTTPGGIVEYEIINVQY</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV GAEALK EL RLKFVDRPRIVEAIA ARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLS+AQIIDISK+PN GKVIFG+TVTICHVAT +ELTY+IVGEDEA+IKLNKISYSSPI RALIGK+LDD VTV TPGG+VEYEII VQY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|518064322|ref|WP_019234530.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella anisa] &gt;gi|962190705|gb|KTC75793.1| transcription elongation factor GreA [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019234530</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>1.81204e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALNSELQRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVVFGATVTVCNKDSDATVTYTIVGEDEADIKQNKISYSSPIGRALIGKELDDVVTVNTPGGMVEYEIIDVQYI</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEAL +EL RLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKV+FG+TVT+C+  + + +TY IVGEDEADIK NKISYSSPI RALIGKELDD VTV TPGGMVEYEII VQYI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966508990|ref|WP_058525581.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella erythra] &gt;gi|962214703|gb|KTC99506.1| transcription elongation factor GreA [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058525581</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>3.29887e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVKGAEALKSELHRLKTVERPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSNCQIVDISKLPNQGKVVFGATVKICHLVNNTEICYQIVGEDEADIKLNKISYSSPIGRALIGKQIDDTVVVQTPGGTVEYDIIEVHYVAE</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK+ELHRLK V+RPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLS+ QI+DISKLPN GKV+FG+TV ICH+   +E+ Y+IVGEDEADIKLNKISYSSPI RALIGK++DD V V+TPGG VEY+II+V Y+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966441952|ref|WP_058482214.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella spiritensis] &gt;gi|962282348|gb|KTD66132.1| transcription elongation factor GreA [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058482214</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>5.67522e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTIQGAQALKEELHRLKTIERPRIIEAIATARAHGDLKENAEYHAAREQQSFNEGRILELEAKLSHCQVVDISKLPNNGKVVFGATVKVCHLVTDAEIDYQIVGEDEADIKLNKISYSSPIGRALIGKQVDDTVVVHTPGGMVEYEIIEVNYLCE</Hsp_hseq>
+      <Hsp_midline>M KHPMT++GA+ALK ELHRLK ++RPRI+EAIATARAHGDLKENAEYHAAREQQSFNEGRI ELEAKLSH Q++DISKLPNNGKV+FG+TV +CH+ T +E+ Y+IVGEDEADIKLNKISYSSPI RALIGK++DD V V TPGGMVEYEII+V Y+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|769982755|ref|WP_045098737.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Tatlockia micdadei] &gt;gi|698846318|emb|CEG60303.1| Transcription elongation factor greA [Tatlockia micdadei] &gt;gi|962245816|gb|KTD30108.1| transcription elongation factor GreA [Tatlockia micdadei] &gt;gi|1081464091|emb|SCY56693.1| transcription elongation factor GreA [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045098737</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>2.77685e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTVQGAEALKMELHRLKTVERPRIIEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLAHCQVVDISKLPNNGKVIFGAFVSLLHVQTNMEITYQIVGEDEADIKINKISYSSPIGRALIGKLVEDVVTVETPGGLVEYEIINVDYILQ</Hsp_hseq>
+      <Hsp_midline>M KHPMTV+GAEALK ELHRLK V+RPRI+EAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKL+H Q++DISKLPNNGKVIFG+ V++ HV T  E+TY+IVGEDEADIK+NKISYSSPI RALIGK ++D VTVETPGG+VEYEII V YI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966395949|ref|WP_058440991.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella brunensis] &gt;gi|962200522|gb|KTC85513.1| transcription elongation factor GreA [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058440991</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>2.24509e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTIQGAEALKNELHRLKVIERPRIIEAIATARAHGDLKENAEYHAAREQQSFNEGRIKELEAKLSNAQIVDISKLPNNGKVVFGSTVHVCHLQTDAQISYRIVGEDEADIKVNKISYSSPIGRALIGKLVDDTVVVQTPGGMVEYEIVGVDY</Hsp_hseq>
+      <Hsp_midline>M KHPMT++GAEALK ELHRLK ++RPRI+EAIATARAHGDLKENAEYHAAREQQSFNEGRI+ELEAKLS+AQI+DISKLPNNGKV+FGSTV +CH+ T ++++Y+IVGEDEADIK+NKISYSSPI RALIGK +DD V V+TPGGMVEYEI+ V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966469685|ref|WP_058500696.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella israelensis] &gt;gi|962249560|gb|KTD33772.1| transcription elongation factor GreA [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058500696</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>2.64657e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MKKYPMTVKGAEALKEELKRLKSVERPRIIEAIATARAHGDLKENAEYHAAREEQSFNEGRIQELEEKLANAQIVDVSKLSNEGKVVFGSTVKICHVSTDSELIYQIVGEDEADIKVNKISYSSPIGRALIGKEIDDTVTVNTPGGMVEYEIIEVKYV</Hsp_hseq>
+      <Hsp_midline>M K+PMTV+GAEALK EL RLK V+RPRI+EAIATARAHGDLKENAEYHAARE+QSFNEGRIQELE KL++AQI+D+SKL N GKV+FGSTV ICHV+T SEL Y+IVGEDEADIK+NKISYSSPI RALIGKE+DD VTV TPGGMVEYEII+V+Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966515541|ref|WP_058532058.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella rubrilucens] &gt;gi|962263065|gb|KTD47151.1| transcription elongation factor GreA [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058532058</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>2.68212e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVKGAEALKSELHRLKTVERPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSNCQIVDISKLSNQGKVVFGATVKVCHLVNNMEICYQIVGEDEADIKLNKISYSSPIGRALIGKQVDDTVVVQTPGGTVEYDIIEVHYVSE</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK+ELHRLK V+RPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLS+ QI+DISKL N GKV+FG+TV +CH+    E+ Y+IVGEDEADIKLNKISYSSPI RALIGK++DD V V+TPGG VEY+II+V Y+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966513027|ref|WP_058529581.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella londiniensis] &gt;gi|962236242|gb|KTD20703.1| transcription elongation factor GreA [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058529581</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>4.96874e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MHKHPMTLKGAKALKEELHRLKTVERPRIIEAIATAREHGDLKENAEYHAAREQQSFVEGRIQELEAKLSHAQIVDISKMANNGKVVFGTTVRLCHVETEAEISYQIVGEDEADIKLNKISYSSPMGRALIGKNLDDTVQVKTPGGMVEYEIIAVDYVVE</Hsp_hseq>
+      <Hsp_midline>M KHPMT++GA+ALK ELHRLK V+RPRI+EAIATAR HGDLKENAEYHAAREQQSF EGRIQELEAKLSHAQI+DISK+ NNGKV+FG+TV +CHV T +E++Y+IVGEDEADIKLNKISYSSP+ RALIGK LDD V V+TPGGMVEYEII V Y+VE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|518047911|ref|WP_019218119.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella tunisiensis]</Hit_def>
+  <Hit_accession>WP_019218119</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>5.76606e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALKNELQRLKSIERPRIIEAIATAREHGDLKENAEYHAAREQQSFNEGRIQELEAKLSNAQIVDLSKVTNNGKVVFGAVVTVCHLQTDAELAYQIVGEDEADIKVNKISYSSPIGRALIGKQVDDTVTVETPGGLVEYEIIAVDY</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK EL RLK ++RPRI+EAIATAR HGDLKENAEYHAAREQQSFNEGRIQELEAKLS+AQI+D+SK+ NNGKV+FG+ VT+CH+ T +EL Y+IVGEDEADIK+NKISYSSPI RALIGK++DD VTVETPGG+VEYEII V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966408963|ref|WP_058452355.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella maceachernii] &gt;gi|962241456|gb|KTD25814.1| transcription elongation factor GreA [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058452355</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>6.11987e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTVQGAEALKMELHRLKSVERPRIIEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLAHCQVVDISKLPNNGKVIFGAFVRLLHVETNMEITYQIVGEDEADIKINKISYSSPIGRALIGKLVEDTVTVETPGGVVEYEIIHVNYI</Hsp_hseq>
+      <Hsp_midline>M KHPMTV+GAEALK ELHRLK V+RPRI+EAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKL+H Q++DISKLPNNGKVIFG+ V + HV T  E+TY+IVGEDEADIK+NKISYSSPI RALIGK ++D VTVETPGG+VEYEII V YI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966402945|ref|WP_058446540.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella feeleii] &gt;gi|962211390|gb|KTC96282.1| transcription elongation factor GreA [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058446540</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>7.50235e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MSKHPMTVQGAEALKNELQRLKSIERPRIIEAIATAREHGDLKENAEYHAAREQQSFNEGRIQELEAKLSNAQIVDLSKVTNNGKVVFGAVVTVCHLQTDAELSYQIVGEDEADIKVNKISYSSPIGRALIGKQVDDTVTVQTPGGLVEYEIIAVDY</Hsp_hseq>
+      <Hsp_midline>MSKHPMTV+GAEALK EL RLK ++RPRI+EAIATAR HGDLKENAEYHAAREQQSFNEGRIQELEAKLS+AQI+D+SK+ NNGKV+FG+ VT+CH+ T +EL+Y+IVGEDEADIK+NKISYSSPI RALIGK++DD VTV+TPGG+VEYEII V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|762037466|ref|WP_043873404.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella massiliensis] &gt;gi|683290360|emb|CEE12721.1| Transcription elongation factor GreA [Legionella massiliensis] &gt;gi|685072730|emb|CDZ76983.1| Transcript cleavage factor GreA [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_043873404</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>1.82397e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MHKHPMTVQGAEALKSELQRLKTIERPRIIDAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHCQIVDITKLPNHGKVVFGATVRLCHLQTEAEISYQIVGEDEADIKVNKISYSSPIGRGLIGKEVDDTVSVQTPGGIVEYEIIEVEY</Hsp_hseq>
+      <Hsp_midline>M KHPMTV+GAEALK+EL RLK ++RPRI++AIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSH QI+DI+KLPN+GKV+FG+TV +CH+ T +E++Y+IVGEDEADIK+NKISYSSPI R LIGKE+DD V+V+TPGG+VEYEII+V+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966474715|ref|WP_058505476.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella nautarum] &gt;gi|962248609|gb|KTD32831.1| transcription elongation factor GreA [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505476</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>5.29697e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTIQGAEALKTELHRLKTVERPRIIEAIATARAHGDLKENAEYHAAREQQSFNEGRIKELEAKLSHCQIVDISKLANNGKVVFGATVRLLHLQNEAEISYQIVGEDEADIKINKISYSSPIGRALIGKQVDDTVVVQTPGGMVEYEIIEVNYTQE</Hsp_hseq>
+      <Hsp_midline>M KHPMT++GAEALK ELHRLK V+RPRI+EAIATARAHGDLKENAEYHAAREQQSFNEGRI+ELEAKLSH QI+DISKL NNGKV+FG+TV + H+   +E++Y+IVGEDEADIK+NKISYSSPI RALIGK++DD V V+TPGGMVEYEII+V Y  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|654922123|ref|WP_028372679.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella lansingensis] &gt;gi|962239247|gb|KTD23639.1| transcription elongation factor GreA [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028372679</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>6.50209e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MNKHPMTVKGAEALKKELHRLKTVERPRIIEAIATARAHGDLKENAEYHAAREQQSFNEGRIKEIEAKLANAQIVDISKLPNNGKVVFGAIVHVCHIETEARIQYQIVGEDEADIKVNKISYSSPIGRALIGKLVDDTVTVQTPGGMVEYEIVDVEY</Hsp_hseq>
+      <Hsp_midline>M+KHPMTV+GAEALK ELHRLK V+RPRI+EAIATARAHGDLKENAEYHAAREQQSFNEGRI+E+EAKL++AQI+DISKLPNNGKV+FG+ V +CH+ T + + Y+IVGEDEADIK+NKISYSSPI RALIGK +DD VTV+TPGGMVEYEI+ V+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966418053|ref|WP_058461276.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella adelaidensis] &gt;gi|962180273|gb|KTC65521.1| transcription elongation factor GreA [Legionella adelaidensis]</Hit_def>
+  <Hit_accession>WP_058461276</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>2.01211e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MQKYPMTIEGSEALKKELHRLKTIDRPKVIEAIATAREHGDLKENAEYHAAREQQSFIEGRIQELEAKLSHAQIVDISKLENQGKVVFGSTVKLCNITTDKETTFQIVGEDEADIKLNKISYSSPIGKALIGKQLDDTVSVQTPGGMVEYEIIEVNY</Hsp_hseq>
+      <Hsp_midline>M K+PMT+EG+EALK ELHRLK +DRP+++EAIATAR HGDLKENAEYHAAREQQSF EGRIQELEAKLSHAQI+DISKL N GKV+FGSTV +C++ T  E T++IVGEDEADIKLNKISYSSPI +ALIGK+LDD V+V+TPGGMVEYEII+V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|654937740|ref|WP_028387990.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028387990</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>4.38833e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTVQGAQALKEELQRRKFVDRPTIIEAIATAREHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIVDISKLTNNGKVVFGAKVGVCHLQTEAEISYQIVGEDEADIKINKISYSSPIGRALIGKEVGDTVSVQTPGGVVEYEIIEVDY</Hsp_hseq>
+      <Hsp_midline>M KHPMTV+GA+ALK EL R KFVDRP I+EAIATAR HGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQI+DISKL NNGKV+FG+ V +CH+ T +E++Y+IVGEDEADIK+NKISYSSPI RALIGKE+ D V+V+TPGG+VEYEII+V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|644965518|ref|WP_025386273.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella oakridgensis] &gt;gi|570285647|gb|AHE67834.1| transcription elongation factor GreA [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570701679|gb|ETO92636.1| transcription elongation factor GreA [Legionella oakridgensis RV-2-2007] &gt;gi|962259962|gb|KTD44079.1| transcription elongation factor GreA [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025386273</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>9.60184e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYIVE</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTLNGAAALKKELHHLKTVERPRIIDAIATARAHGDLKENAEYHAAREQQSFVEGRIQELEAKLSNAQIVDISKMNNQGKVIFGTTVRLCHVQTETEITYQIVGEDEADLKLNKISYSSPIGRALIGKQLDDIVVVHTPGGMVEYEIIAVDYVIE</Hsp_hseq>
+      <Hsp_midline>M KHPMT+ GA ALK ELH LK V+RPRI++AIATARAHGDLKENAEYHAAREQQSF EGRIQELEAKLS+AQI+DISK+ N GKVIFG+TV +CHV T +E+TY+IVGEDEAD+KLNKISYSSPI RALIGK+LDD V V TPGGMVEYEII V Y++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|769991511|ref|WP_045107383.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella hackeliae] &gt;gi|731151384|emb|CEK09930.1| Transcription elongation factor greA [Legionella hackeliae] &gt;gi|962225787|gb|KTD10431.1| transcription elongation factor GreA [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045107383</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>1.61836e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTMEGAEALKNELHRLKSIERPRIIEAIATARAHGDLKENAEYHAAREQQSFNEGRIKELEAKLSNAQVIDLSKVPNNGKVVFGAMVHVYHIQSDAKISYRIVGEDEADIKINKISYSSPIGRALIGKQVDDTVTVQTPGGMVEYEIVGVDY</Hsp_hseq>
+      <Hsp_midline>M KHPMT+EGAEALK ELHRLK ++RPRI+EAIATARAHGDLKENAEYHAAREQQSFNEGRI+ELEAKLS+AQ+ID+SK+PNNGKV+FG+ V + H+ + ++++Y+IVGEDEADIK+NKISYSSPI RALIGK++DD VTV+TPGGMVEYEI+ V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966465118|ref|WP_058496479.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella drozanskii] &gt;gi|962200895|gb|KTC85884.1| transcription elongation factor GreA [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058496479</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>2.63329e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTIQGAEALKTELHRLKTVERPSIIEAIATARAHGDLKENAEYHAAREQQSFNEGRIKELEAKLSHCQVVDISKLPNNGKVVFGAKVRLLHLQNEAEISYQIVGEDEADIKINKISYSSPIGRALIGKQVDDTVVVQTPGGLVEYEIIEVNY</Hsp_hseq>
+      <Hsp_midline>M KHPMT++GAEALK ELHRLK V+RP I+EAIATARAHGDLKENAEYHAAREQQSFNEGRI+ELEAKLSH Q++DISKLPNNGKV+FG+ V + H+   +E++Y+IVGEDEADIK+NKISYSSPI RALIGK++DD V V+TPGG+VEYEII+V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966431722|ref|WP_058472167.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella jordanis] &gt;gi|962232066|gb|KTD16614.1| transcription elongation factor GreA [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058472167</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.53618e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTLQGAEALQKELQRLKTVERPRIIEAIATARKHGDLKENAEYHAAREQQSFNEGRIKEIEAKLSNAQIVDISKLPNNGKVVFGAVVHVCHLETDQEIRYQIVGEDEADIKLNKISYSSPIGRALIGRNVDETVVVQTPGGTVEYEIVSVEY</Hsp_hseq>
+      <Hsp_midline>M KHPMT++GAEAL+ EL RLK V+RPRI+EAIATAR HGDLKENAEYHAAREQQSFNEGRI+E+EAKLS+AQI+DISKLPNNGKV+FG+ V +CH+ T  E+ Y+IVGEDEADIKLNKISYSSPI RALIG+ +D+ V V+TPGG VEYEI+ V+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966477175|ref|WP_058507908.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella quinlivanii] &gt;gi|962266176|gb|KTD50212.1| transcription elongation factor GreA [Legionella quinlivanii] &gt;gi|1090729380|emb|SEF47315.1| transcription elongation factor GreA [Legionella quinlivanii DSM 21216]</Hit_def>
+  <Hit_accession>WP_058507908</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>2.62613e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQYI</Hsp_qseq>
+      <Hsp_hseq>MHKHPMTIAGAEALKKELSHLKSVVRPQIIEAIATARALGDLKENAEYHAAREQQSFTEGRIKELEAKISHAQIVDISKLENNGKVVFGATVTICHTETGNELSYQIVGEDEADIKSNKISYSSPIGRALIGKQIDDTVVVETPGGRVEYDIIEVDYL</Hsp_hseq>
+      <Hsp_midline>M KHPMT+ GAEALK EL  LK V RP+I+EAIATARA GDLKENAEYHAAREQQSF EGRI+ELEAK+SHAQI+DISKL NNGKV+FG+TVTICH  TG+EL+Y+IVGEDEADIK NKISYSSPI RALIGK++DD V VETPGG VEY+II+V Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966407441|ref|WP_058450847.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella jamestowniensis] &gt;gi|962224059|gb|KTD08709.1| transcription elongation factor GreA [Legionella jamestowniensis] &gt;gi|1045919885|gb|OCH96852.1| transcription elongation factor GreA [Legionella jamestowniensis] &gt;gi|1097331606|emb|SFL55360.1| transcription elongation factor GreA [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058450847</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>8.61605e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MQKHPMTIQGAEALKNELHRLKTIERPRIIEAIATARAHGDLKENAEYHAAREEQSFNETRIKELEAKLSNAQVVDLSKVPNNGKVVFGALVHVYHIQSDANISYRIVGEDEADIKINKISYSSPIGRALIGKQVDDTVTVKTPGGMVEYEIVGVDY</Hsp_hseq>
+      <Hsp_midline>M KHPMT++GAEALK ELHRLK ++RPRI+EAIATARAHGDLKENAEYHAARE+QSFNE RI+ELEAKLS+AQ++D+SK+PNNGKV+FG+ V + H+ + + ++Y+IVGEDEADIK+NKISYSSPI RALIGK++DD VTV+TPGGMVEYEI+ V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966506952|ref|WP_058523598.1|</Hit_id>
+  <Hit_def>transcription elongation factor GreA [Legionella birminghamensis] &gt;gi|962186543|gb|KTC71684.1| transcription elongation factor GreA [Legionella birminghamensis]</Hit_def>
+  <Hit_accession>WP_058523598</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>1.359e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MSKHPMTVEGAEALKAELHRLKFVDRPRIVEAIATARAHGDLKENAEYHAAREQQSFNEGRIQELEAKLSHAQIIDISKLPNNGKVIFGSTVTICHVATGSELTYKIVGEDEADIKLNKISYSSPIARALIGKELDDAVTVETPGGMVEYEIIQVQY</Hsp_qseq>
+      <Hsp_hseq>MHKHPMTIAGAEALKKELAHLKTVVRPQIIEAIATARALGDLKENAEYHAAREQQSFTEGRIKELESKISHAQIVDISKLENHGKVVFGATVTICHTETGNELSYQIVGEDEADIKLNKISYSSPIGRALIGKQIDDTVVVETPGGKVEYDIIEVDY</Hsp_hseq>
+      <Hsp_midline>M KHPMT+ GAEALK EL  LK V RP+I+EAIATARA GDLKENAEYHAAREQQSF EGRI+ELE+K+SHAQI+DISKL N+GKV+FG+TVTICH  TG+EL+Y+IVGEDEADIKLNKISYSSPI RALIGK++DD V VETPGG VEY+II+V Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

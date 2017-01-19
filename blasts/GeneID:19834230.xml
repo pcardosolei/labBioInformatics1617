@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_162989</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834230</BlastOutput_query-def>
+  <BlastOutput_query-len>238</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_162989</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834230</Iteration_query-def>
+  <Iteration_query-len>238</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250825|ref|WP_010948365.1|</Hit_id>
+  <Hit_def>carboxymethylenebutenolidase [Legionella pneumophila] &gt;gi|52842871|ref|YP_096670.1| dienelactone hydrolase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629982|gb|AAU28723.1| dienelactone hydrolase family protein [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509376|gb|AEW52900.1| dienelactone hydrolase family protein [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490611|gb|AGH52456.1| Dienelactone hydrolase family [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083338|gb|AGN15586.1| dienelactone hydrolase family protein [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772808|emb|CZI16563.1| Predicted esterase [Legionella pneumophila] &gt;gi|998775743|emb|CZG61478.1| Predicted esterase [Legionella pneumophila] &gt;gi|998778329|emb|CZG76155.1| Predicted esterase [Legionella pneumophila] &gt;gi|998784568|emb|CZG86958.1| Predicted esterase [Legionella pneumophila] &gt;gi|998787520|emb|CZG59790.1| Predicted esterase [Legionella pneumophila] &gt;gi|998796533|emb|CZI01838.1| Predicted esterase [Legionella pneumophila] &gt;gi|998800296|emb|CZL03994.1| Predicted esterase [Legionella pneumophila] &gt;gi|998805821|emb|CZK08082.1| Predicted esterase [Legionella pneumophila] &gt;gi|998808345|emb|CZH87404.1| Predicted esterase [Legionella pneumophila] &gt;gi|998811925|emb|CZH79766.1| Predicted esterase [Legionella pneumophila] &gt;gi|998814276|emb|CZG61487.1| Predicted esterase [Legionella pneumophila] &gt;gi|998817741|emb|CZL60361.1| Predicted esterase [Legionella pneumophila] &gt;gi|998820843|emb|CZL61596.1| Predicted esterase [Legionella pneumophila] &gt;gi|998826805|emb|CZK09045.1| Predicted esterase [Legionella pneumophila] &gt;gi|998832557|emb|CZI06023.1| Predicted esterase [Legionella pneumophila] &gt;gi|998835778|emb|CZK88995.1| Predicted esterase [Legionella pneumophila] &gt;gi|998837833|emb|CZJ71757.1| Predicted esterase [Legionella pneumophila] &gt;gi|998842317|emb|CZL14098.1| Predicted esterase [Legionella pneumophila] &gt;gi|998844735|emb|CZK29676.1| Predicted esterase [Legionella pneumophila] &gt;gi|998847686|emb|CZK67374.1| Predicted esterase [Legionella pneumophila] &gt;gi|998850227|emb|CZI36987.1| Predicted esterase [Legionella pneumophila] &gt;gi|998853790|emb|CZL26956.1| Predicted esterase [Legionella pneumophila] &gt;gi|998856486|emb|CZL33722.1| Predicted esterase [Legionella pneumophila] &gt;gi|998859809|emb|CZL74470.1| Predicted esterase [Legionella pneumophila] &gt;gi|998862655|emb|CZK18583.1| Predicted esterase [Legionella pneumophila] &gt;gi|998865381|emb|CZJ40611.1| Predicted esterase [Legionella pneumophila] &gt;gi|998869878|emb|CZJ36590.1| Predicted esterase [Legionella pneumophila] &gt;gi|998871073|emb|CZM17193.1| Predicted esterase [Legionella pneumophila] &gt;gi|998874561|emb|CZK39108.1| Predicted esterase [Legionella pneumophila] &gt;gi|998877452|emb|CZL99154.1| Predicted esterase [Legionella pneumophila] &gt;gi|998880519|emb|CZI86578.1| Predicted esterase [Legionella pneumophila] &gt;gi|998888051|emb|CZL50962.1| Predicted esterase [Legionella pneumophila] &gt;gi|998889214|emb|CZK22558.1| Predicted esterase [Legionella pneumophila] &gt;gi|998895496|emb|CZJ98807.1| Predicted esterase [Legionella pneumophila] &gt;gi|998906136|emb|CZK57208.1| Predicted esterase [Legionella pneumophila] &gt;gi|998909707|emb|CZL09949.1| Predicted esterase [Legionella pneumophila] &gt;gi|998915822|emb|CZK61359.1| Predicted esterase [Legionella pneumophila] &gt;gi|998918291|emb|CZK82148.1| Predicted esterase [Legionella pneumophila] &gt;gi|998921262|emb|CZL38193.1| Predicted esterase [Legionella pneumophila] &gt;gi|998927567|emb|CZL63436.1| Predicted esterase [Legionella pneumophila] &gt;gi|998930654|emb|CZK74970.1| Predicted esterase [Legionella pneumophila] &gt;gi|998933941|emb|CZL76468.1| Predicted esterase [Legionella pneumophila] &gt;gi|998939869|emb|CZK76096.1| Predicted esterase [Legionella pneumophila] &gt;gi|998945946|emb|CZK93859.1| Predicted esterase [Legionella pneumophila] &gt;gi|998948990|emb|CZK81981.1| Predicted esterase [Legionella pneumophila] &gt;gi|998958624|emb|CZM01903.1| Predicted esterase [Legionella pneumophila] &gt;gi|998961530|emb|CZK26253.1| Predicted esterase [Legionella pneumophila] &gt;gi|998964603|emb|CZK04541.1| Predicted esterase [Legionella pneumophila] &gt;gi|998966975|emb|CZM53604.1| Predicted esterase [Legionella pneumophila] &gt;gi|998970517|emb|CZK55027.1| Predicted esterase [Legionella pneumophila] &gt;gi|998973792|emb|CZK26213.1| Predicted esterase [Legionella pneumophila] &gt;gi|998979497|emb|CZL59009.1| Predicted esterase [Legionella pneumophila] &gt;gi|998985846|emb|CZJ98772.1| Predicted esterase [Legionella pneumophila] &gt;gi|998988724|emb|CZL48792.1| Predicted esterase [Legionella pneumophila] &gt;gi|998998014|emb|CZJ88085.1| Predicted esterase [Legionella pneumophila] &gt;gi|999007986|emb|CZK26705.1| Predicted esterase [Legionella pneumophila] &gt;gi|999012919|emb|CZL43559.1| Predicted esterase [Legionella pneumophila] &gt;gi|999016841|emb|CZL68027.1| Predicted esterase [Legionella pneumophila] &gt;gi|999022639|emb|CZL13905.1| Predicted esterase [Legionella pneumophila] &gt;gi|999025390|emb|CZK75053.1| Predicted esterase [Legionella pneumophila] &gt;gi|999037147|emb|CZL55248.1| Predicted esterase [Legionella pneumophila] &gt;gi|999046871|emb|CZL77797.1| Predicted esterase [Legionella pneumophila] &gt;gi|999061678|emb|CZL16113.1| Predicted esterase [Legionella pneumophila] &gt;gi|999067358|emb|CZJ17633.1| Predicted esterase [Legionella pneumophila] &gt;gi|999076918|emb|CZG59874.1| Predicted esterase [Legionella pneumophila] &gt;gi|999080262|emb|CZJ92553.1| Predicted esterase [Legionella pneumophila] &gt;gi|999082779|emb|CZK77464.1| Predicted esterase [Legionella pneumophila] &gt;gi|999090511|emb|CZK42102.1| Predicted esterase [Legionella pneumophila] &gt;gi|999092505|emb|CZL41603.1| Predicted esterase [Legionella pneumophila] &gt;gi|999095290|emb|CZG88587.1| Predicted esterase [Legionella pneumophila] &gt;gi|999098695|emb|CZG59266.1| Predicted esterase [Legionella pneumophila] &gt;gi|999101123|emb|CZL67147.1| Predicted esterase [Legionella pneumophila] &gt;gi|999110434|emb|CZL16156.1| Predicted esterase [Legionella pneumophila] &gt;gi|999113787|emb|CZL51050.1| Predicted esterase [Legionella pneumophila] &gt;gi|999116432|emb|CZK49797.1| Predicted esterase [Legionella pneumophila] &gt;gi|999126344|emb|CZK79853.1| Predicted esterase [Legionella pneumophila] &gt;gi|999131610|emb|CZL95714.1| Predicted esterase [Legionella pneumophila] &gt;gi|999134829|emb|CZL17862.1| Predicted esterase [Legionella pneumophila] &gt;gi|999138069|emb|CZK27048.1| Predicted esterase [Legionella pneumophila] &gt;gi|999141816|emb|CZL45433.1| Predicted esterase [Legionella pneumophila] &gt;gi|999144539|emb|CZK68590.1| Predicted esterase [Legionella pneumophila] &gt;gi|999147669|emb|CZL50860.1| Predicted esterase [Legionella pneumophila] &gt;gi|999156841|emb|CZH74264.1| Predicted esterase [Legionella pneumophila] &gt;gi|999175809|emb|CZL05494.1| Predicted esterase [Legionella pneumophila] &gt;gi|999191265|emb|CZI17130.1| Predicted esterase [Legionella pneumophila] &gt;gi|999194388|emb|CZI43076.1| Predicted esterase [Legionella pneumophila] &gt;gi|999200253|emb|CZG60057.1| Predicted esterase [Legionella pneumophila] &gt;gi|999203699|emb|CZI43072.1| Predicted esterase [Legionella pneumophila] &gt;gi|999210033|emb|CZK76352.1| Predicted esterase [Legionella pneumophila] &gt;gi|999219285|emb|CZL29795.1| Predicted esterase [Legionella pneumophila] &gt;gi|999222380|emb|CZI34381.1| Predicted esterase [Legionella pneumophila] &gt;gi|999335294|emb|CZK73154.1| Predicted esterase [Legionella pneumophila] &gt;gi|1002075573|emb|CZQ94483.1| Predicted esterase [Legionella pneumophila] &gt;gi|1002079079|emb|CZQ94969.1| Predicted esterase [Legionella pneumophila] &gt;gi|1003020170|emb|CZR21710.1| carboxymethylenebutenolidase [Legionella pneumophila] &gt;gi|1003023050|emb|CZR20515.1| carboxymethylenebutenolidase [Legionella pneumophila] &gt;gi|1003026892|emb|CZR18277.1| carboxymethylenebutenolidase [Legionella pneumophila] &gt;gi|1073865707|gb|AOU05658.1| hypothetical protein A9E97_13435 [Legionella pneumophila] &gt;gi|1073868676|gb|AOU08626.1| hypothetical protein A9E98_13490 [Legionella pneumophila] &gt;gi|1073871671|gb|AOU11620.1| hypothetical protein A9F03_13605 [Legionella pneumophila] &gt;gi|1073874538|gb|AOU14486.1| hypothetical protein A9E99_13420 [Legionella pneumophila] &gt;gi|1073877596|gb|AOU17543.1| hypothetical protein A9F00_13605 [Legionella pneumophila] &gt;gi|1073880559|gb|AOU20505.1| hypothetical protein A9F01_13425 [Legionella pneumophila] &gt;gi|1073883556|gb|AOU23501.1| hypothetical protein A9F02_13605 [Legionella pneumophila] &gt;gi|1073886548|gb|AOU26492.1| hypothetical protein A9E77_13640 [Legionella pneumophila] &gt;gi|1073889517|gb|AOU29460.1| hypothetical protein A9E78_13440 [Legionella pneumophila] &gt;gi|1073892501|gb|AOU32443.1| hypothetical protein A9E79_13630 [Legionella pneumophila] &gt;gi|1073895469|gb|AOU35410.1| hypothetical protein A9E80_13450 [Legionella pneumophila] &gt;gi|1073898427|gb|AOU38367.1| hypothetical protein A9E81_13450 [Legionella pneumophila] &gt;gi|1073901393|gb|AOU41332.1| hypothetical protein A9E82_13450 [Legionella pneumophila] &gt;gi|1073904302|gb|AOU44240.1| hypothetical protein A9E83_13180 [Legionella pneumophila] &gt;gi|1073907255|gb|AOU47192.1| hypothetical protein A9E84_13450 [Legionella pneumophila] &gt;gi|1073910273|gb|AOU50208.1| hypothetical protein A9E85_13425 [Legionella pneumophila] &gt;gi|1073913285|gb|AOU53217.1| hypothetical protein A9E86_13205 [Legionella pneumophila] &gt;gi|1073916245|gb|AOU56176.1| hypothetical protein A9E87_13450 [Legionella pneumophila] &gt;gi|1073919208|gb|AOU59138.1| hypothetical protein A9E88_13430 [Legionella pneumophila] &gt;gi|1073922111|gb|AOU62040.1| hypothetical protein A9E89_13170 [Legionella pneumophila] &gt;gi|1073925194|gb|AOU65121.1| hypothetical protein A9E90_13695 [Legionella pneumophila] &gt;gi|1073928157|gb|AOU68083.1| hypothetical protein A9E91_13430 [Legionella pneumophila] &gt;gi|1073931143|gb|AOU71052.1| hypothetical protein A9E92_13470 [Legionella pneumophila] &gt;gi|1073934512|gb|AOU74071.1| hypothetical protein A9E93_13435 [Legionella pneumophila] &gt;gi|1073937477|gb|AOU84476.1| hypothetical protein A9E94_13480 [Legionella pneumophila] &gt;gi|1073947743|gb|AOU87467.1| hypothetical protein A9E95_13620 [Legionella pneumophila] &gt;gi|1073950671|gb|AOU90394.1| hypothetical protein A9E96_13205 [Legionella pneumophila] &gt;gi|1104004069|emb|SFZ47026.1| Predicted esterase [Legionella pneumophila] &gt;gi|1129969329|gb|APT99688.1| hypothetical protein AVR58_13405 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948365</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.508</Hsp_bit-score>
+      <Hsp_score>1277</Hsp_score>
+      <Hsp_evalue>6.99419e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|502866946|ref|WP_013101922.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|53752440|emb|CAH13872.1| hypothetical protein lpp2719 [Legionella pneumophila str. Paris] &gt;gi|295650213|gb|ADG26060.1| carboxymethylenebutenolidase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|395131751|emb|CCD10044.1| Dienelactone hydrolase family protein [Legionella pneumophila subsp. pneumophila] &gt;gi|536611703|gb|ERB40221.1| carboxymethylenebutenolidase [Legionella pneumophila str. 121004] &gt;gi|541999648|gb|ERH45646.1| carboxymethylenebutenolidase [Legionella pneumophila str. Leg01/53] &gt;gi|542000392|gb|ERH46379.1| carboxymethylenebutenolidase [Legionella pneumophila str. Leg01/11] &gt;gi|542123181|gb|ERI49490.1| carboxymethylenebutenolidase [Legionella pneumophila str. Leg01/20] &gt;gi|761990406|dbj|GAN18630.1| dienelactone hydrolase family protein [Legionella pneumophila] &gt;gi|761993596|dbj|GAN21736.1| dienelactone hydrolase family protein [Legionella pneumophila] &gt;gi|762000260|dbj|GAN27992.1| dienelactone hydrolase family protein [Legionella pneumophila] &gt;gi|998982058|emb|CZI89959.1| Predicted esterase [Legionella pneumophila] &gt;gi|999106916|emb|CZI83759.1| Predicted esterase [Legionella pneumophila] &gt;gi|999151605|emb|CZH56744.1| Predicted esterase [Legionella pneumophila] &gt;gi|999168347|emb|CZI53062.1| Predicted esterase [Legionella pneumophila] &gt;gi|999173365|emb|CZH69190.1| Predicted esterase [Legionella pneumophila] &gt;gi|999182575|emb|CZG28471.1| Predicted esterase [Legionella pneumophila] &gt;gi|999188740|emb|CZI77690.1| Predicted esterase [Legionella pneumophila] &gt;gi|999213672|emb|CZG44863.1| Predicted esterase [Legionella pneumophila] &gt;gi|999217038|emb|CZI71302.1| Predicted esterase [Legionella pneumophila] &gt;gi|999225882|emb|CZG31516.1| Predicted esterase [Legionella pneumophila] &gt;gi|999231190|emb|CZI61387.1| Predicted esterase [Legionella pneumophila] &gt;gi|999286754|emb|CZI74370.1| Predicted esterase [Legionella pneumophila] &gt;gi|999293123|emb|CZI62919.1| Predicted esterase [Legionella pneumophila] &gt;gi|999302229|emb|CZI54713.1| Predicted esterase [Legionella pneumophila] &gt;gi|999312082|emb|CZI88764.1| Predicted esterase [Legionella pneumophila] &gt;gi|999361051|emb|CZH99947.1| Predicted esterase [Legionella pneumophila] &gt;gi|999374009|emb|CZG02231.1| Predicted esterase [Legionella pneumophila] &gt;gi|999377388|emb|CZI92058.1| Predicted esterase [Legionella pneumophila] &gt;gi|999380687|emb|CZH52759.1| Predicted esterase [Legionella pneumophila] &gt;gi|999383369|emb|CZI14275.1| Predicted esterase [Legionella pneumophila] &gt;gi|999387502|emb|CZG12145.1| Predicted esterase [Legionella pneumophila] &gt;gi|999390309|emb|CZI12158.1| Predicted esterase [Legionella pneumophila] &gt;gi|999397026|emb|CZG15095.1| Predicted esterase [Legionella pneumophila] &gt;gi|999406461|emb|CZG44977.1| Predicted esterase [Legionella pneumophila] &gt;gi|999409367|emb|CZH70550.1| Predicted esterase [Legionella pneumophila] &gt;gi|999412619|emb|CZG28672.1| Predicted esterase [Legionella pneumophila] &gt;gi|999416689|emb|CZG16383.1| Predicted esterase [Legionella pneumophila] &gt;gi|999419319|emb|CZG44757.1| Predicted esterase [Legionella pneumophila] &gt;gi|999422570|emb|CZH43910.1| Predicted esterase [Legionella pneumophila] &gt;gi|999426523|emb|CZG25866.1| Predicted esterase [Legionella pneumophila] &gt;gi|999429075|emb|CZG28886.1| Predicted esterase [Legionella pneumophila] &gt;gi|999432664|emb|CZG03757.1| Predicted esterase [Legionella pneumophila] &gt;gi|999435778|emb|CZH66796.1| Predicted esterase [Legionella pneumophila] &gt;gi|999438309|emb|CZG43705.1| Predicted esterase [Legionella pneumophila] &gt;gi|999442287|emb|CZJ86188.1| carboxymethylenebutenolidase [Legionella pneumophila] &gt;gi|999445290|emb|CZH55345.1| Predicted esterase [Legionella pneumophila] &gt;gi|999448552|emb|CZG02235.1| Predicted esterase [Legionella pneumophila] &gt;gi|999458398|emb|CZJ91616.1| Predicted esterase [Legionella pneumophila] &gt;gi|999496981|emb|CZI08770.1| Predicted esterase [Legionella pneumophila] &gt;gi|999526368|emb|CZI62792.1| Predicted esterase [Legionella pneumophila] &gt;gi|999529250|emb|CZI18659.1| Predicted esterase [Legionella pneumophila] &gt;gi|999577030|emb|CZI01057.1| Predicted esterase [Legionella pneumophila] &gt;gi|999612331|emb|CZI05064.1| Predicted esterase [Legionella pneumophila] &gt;gi|1002091791|emb|CZR06466.1| Predicted esterase [Legionella pneumophila] &gt;gi|1003033096|emb|CZR19444.1| Predicted esterase [Legionella pneumophila] &gt;gi|1032658743|gb|ANH14014.1| hypothetical protein A5478_13600 [Legionella pneumophila] &gt;gi|1032661705|gb|ANH16975.1| hypothetical protein A5480_13595 [Legionella pneumophila] &gt;gi|1032664683|gb|ANH19952.1| hypothetical protein A5479_13635 [Legionella pneumophila] &gt;gi|1041019635|gb|ANN96695.1| hypothetical protein A9P84_13690 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101922</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.426</Hsp_bit-score>
+      <Hsp_score>1269</Hsp_score>
+      <Hsp_evalue>1.11084e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|757480589|ref|WP_042754717.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella pneumophila] &gt;gi|999184532|emb|CZP93536.1| Predicted esterase [Legionella pneumophila] &gt;gi|999198340|emb|CZP08230.1| Predicted esterase [Legionella pneumophila] &gt;gi|999206405|emb|CZP57870.1| Predicted esterase [Legionella pneumophila] &gt;gi|999227820|emb|CZP39066.1| Predicted esterase [Legionella pneumophila] &gt;gi|999235081|emb|CZP53274.1| Predicted esterase [Legionella pneumophila] &gt;gi|999240577|emb|CZH76861.1| Predicted esterase [Legionella pneumophila] &gt;gi|999244246|emb|CZH72280.1| Predicted esterase [Legionella pneumophila] &gt;gi|999256184|emb|CZP74872.1| Predicted esterase [Legionella pneumophila] &gt;gi|999259231|emb|CZP40211.1| Predicted esterase [Legionella pneumophila] &gt;gi|999265425|emb|CZP03097.1| Predicted esterase [Legionella pneumophila] &gt;gi|999272107|emb|CZP53106.1| Predicted esterase [Legionella pneumophila] &gt;gi|999277814|emb|CZP30695.1| Predicted esterase [Legionella pneumophila] &gt;gi|999281480|emb|CZP21562.1| Predicted esterase [Legionella pneumophila] &gt;gi|999284128|emb|CZP49261.1| Predicted esterase [Legionella pneumophila] &gt;gi|999290869|emb|CZP28464.1| Predicted esterase [Legionella pneumophila] &gt;gi|999296731|emb|CZP49022.1| Predicted esterase [Legionella pneumophila] &gt;gi|999299970|emb|CZP26481.1| Predicted esterase [Legionella pneumophila] &gt;gi|999307187|emb|CZH66613.1| Predicted esterase [Legionella pneumophila] &gt;gi|999309573|emb|CZP20922.1| Predicted esterase [Legionella pneumophila] &gt;gi|999315941|emb|CZI01883.1| Predicted esterase [Legionella pneumophila] &gt;gi|999318974|emb|CZP57502.1| Predicted esterase [Legionella pneumophila] &gt;gi|999322226|emb|CZH93149.1| Predicted esterase [Legionella pneumophila] &gt;gi|999337969|emb|CZP43094.1| Predicted esterase [Legionella pneumophila] &gt;gi|999344133|emb|CZP91441.1| Predicted esterase [Legionella pneumophila] &gt;gi|999347421|emb|CZP59788.1| Predicted esterase [Legionella pneumophila] &gt;gi|999353760|emb|CZP53657.1| Predicted esterase [Legionella pneumophila] &gt;gi|999356869|emb|CZP75845.1| Predicted esterase [Legionella pneumophila] &gt;gi|999363235|emb|CZP71899.1| Predicted esterase [Legionella pneumophila] &gt;gi|999366998|emb|CZP72625.1| Predicted esterase [Legionella pneumophila] &gt;gi|999369584|emb|CZP86401.1| Predicted esterase [Legionella pneumophila] &gt;gi|999392512|emb|CZP96033.1| Predicted esterase [Legionella pneumophila] &gt;gi|999398760|emb|CZP99327.1| Predicted esterase [Legionella pneumophila] &gt;gi|999403240|emb|CZP46488.1| Predicted esterase [Legionella pneumophila] &gt;gi|999450829|emb|CZP31369.1| Predicted esterase [Legionella pneumophila] &gt;gi|999521381|emb|CZP46104.1| Predicted esterase [Legionella pneumophila] &gt;gi|1003028362|emb|CZR23385.1| carboxymethylenebutenolidase [Legionella pneumophila] &gt;gi|1015434090|gb|AMV15717.1| Dienelactone hydrolase family protein [Legionella pneumophila] &gt;gi|1041016638|gb|ANN93699.1| hypothetical protein A9P85_14105 [Legionella pneumophila] &gt;gi|1103997830|emb|SFZ47025.1| Predicted esterase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042754717</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.656</Hsp_bit-score>
+      <Hsp_score>1267</Hsp_score>
+      <Hsp_evalue>2.70181e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGVDIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSG DIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1003778010|ref|WP_061466656.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|998912290|emb|CZG95430.1| Predicted esterase [Legionella pneumophila] &gt;gi|998993986|emb|CZI47982.1| Predicted esterase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061466656</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.886</Hsp_bit-score>
+      <Hsp_score>1265</Hsp_score>
+      <Hsp_evalue>5.33473e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSQPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEEGIKQS+PAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|653016613|ref|WP_027268585.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella pneumophila] &gt;gi|761987332|dbj|GAN24682.1| dienelactone hydrolase family protein [Legionella pneumophila] &gt;gi|998790051|emb|CZH04350.1| Predicted esterase [Legionella pneumophila] &gt;gi|998892931|emb|CZJ09571.1| Predicted esterase [Legionella pneumophila] &gt;gi|1002082171|emb|CZQ96371.1| Predicted esterase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027268585</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.115</Hsp_bit-score>
+      <Hsp_score>1263</Hsp_score>
+      <Hsp_evalue>1.1006e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEVIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEE IKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|504655607|ref|WP_014842709.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|395128667|emb|CCD06885.1| Dienelactone hydrolase family protein [Legionella pneumophila subsp. pneumophila] &gt;gi|999248064|emb|CZH50445.1| Predicted esterase [Legionella pneumophila] &gt;gi|999269726|emb|CZO25475.1| Predicted esterase [Legionella pneumophila] &gt;gi|999455557|emb|CZH46134.1| Predicted esterase [Legionella pneumophila] &gt;gi|999462188|emb|CZG04353.1| Predicted esterase [Legionella pneumophila] &gt;gi|999465432|emb|CZM27124.1| Predicted esterase [Legionella pneumophila] &gt;gi|999468312|emb|CZO06366.1| Predicted esterase [Legionella pneumophila] &gt;gi|999474582|emb|CZM56075.1| Predicted esterase [Legionella pneumophila] &gt;gi|999478143|emb|CZN23939.1| Predicted esterase [Legionella pneumophila] &gt;gi|999481338|emb|CZM61946.1| Predicted esterase [Legionella pneumophila] &gt;gi|999484368|emb|CZN95568.1| Predicted esterase [Legionella pneumophila] &gt;gi|999487560|emb|CZL96372.1| Predicted esterase [Legionella pneumophila] &gt;gi|999490751|emb|CZN59575.1| Predicted esterase [Legionella pneumophila] &gt;gi|999493941|emb|CZL95405.1| Predicted esterase [Legionella pneumophila] &gt;gi|999500379|emb|CZN58398.1| Predicted esterase [Legionella pneumophila] &gt;gi|999503601|emb|CZN88430.1| Predicted esterase [Legionella pneumophila] &gt;gi|999506797|emb|CZM94173.1| Predicted esterase [Legionella pneumophila] &gt;gi|999509996|emb|CZG24889.1| Predicted esterase [Legionella pneumophila] &gt;gi|999513189|emb|CZN18517.1| Predicted esterase [Legionella pneumophila] &gt;gi|999515210|emb|CZM27596.1| Predicted esterase [Legionella pneumophila] &gt;gi|999519768|emb|CZM48923.1| Predicted esterase [Legionella pneumophila] &gt;gi|999532636|emb|CZO31156.1| Predicted esterase [Legionella pneumophila] &gt;gi|999534716|emb|CZN67927.1| Predicted esterase [Legionella pneumophila] &gt;gi|999539029|emb|CZM52354.1| Predicted esterase [Legionella pneumophila] &gt;gi|999542317|emb|CZO08908.1| Predicted esterase [Legionella pneumophila] &gt;gi|999545423|emb|CZO44728.1| Predicted esterase [Legionella pneumophila] &gt;gi|999548615|emb|CZN74579.1| Predicted esterase [Legionella pneumophila] &gt;gi|999551811|emb|CZN97823.1| Predicted esterase [Legionella pneumophila] &gt;gi|999555188|emb|CZM95275.1| Predicted esterase [Legionella pneumophila] &gt;gi|999558201|emb|CZO44371.1| Predicted esterase [Legionella pneumophila] &gt;gi|999561393|emb|CZM28721.1| Predicted esterase [Legionella pneumophila] &gt;gi|999564594|emb|CZO44497.1| Predicted esterase [Legionella pneumophila] &gt;gi|999567781|emb|CZM41804.1| Predicted esterase [Legionella pneumophila] &gt;gi|999570980|emb|CZN40409.1| Predicted esterase [Legionella pneumophila] &gt;gi|999574170|emb|CZN77804.1| Predicted esterase [Legionella pneumophila] &gt;gi|999580661|emb|CZO02335.1| Predicted esterase [Legionella pneumophila] &gt;gi|999584173|emb|CZO15864.1| Predicted esterase [Legionella pneumophila] &gt;gi|999585947|emb|CZN11516.1| Predicted esterase [Legionella pneumophila] &gt;gi|999590558|emb|CZM23705.1| Predicted esterase [Legionella pneumophila] &gt;gi|999593433|emb|CZN33650.1| Predicted esterase [Legionella pneumophila] &gt;gi|999596631|emb|CZN96178.1| Predicted esterase [Legionella pneumophila] &gt;gi|999599827|emb|CZO22806.1| Predicted esterase [Legionella pneumophila] &gt;gi|999603317|emb|CZL65598.1| Predicted esterase [Legionella pneumophila] &gt;gi|999606222|emb|CZN37441.1| Predicted esterase [Legionella pneumophila] &gt;gi|999609728|emb|CZN42731.1| Predicted esterase [Legionella pneumophila] &gt;gi|999615904|emb|CZM33008.1| Predicted esterase [Legionella pneumophila] &gt;gi|999618947|emb|CZN74443.1| Predicted esterase [Legionella pneumophila] &gt;gi|999622377|emb|CZO53991.1| Predicted esterase [Legionella pneumophila] &gt;gi|999625579|emb|CZN51940.1| Predicted esterase [Legionella pneumophila] &gt;gi|999629004|emb|CZM43608.1| Predicted esterase [Legionella pneumophila] &gt;gi|999631882|emb|CZM47638.1| Predicted esterase [Legionella pneumophila] &gt;gi|999635078|emb|CZN38645.1| Predicted esterase [Legionella pneumophila] &gt;gi|999638270|emb|CZN36856.1| Predicted esterase [Legionella pneumophila] &gt;gi|999641466|emb|CZO64910.1| Predicted esterase [Legionella pneumophila] &gt;gi|999644637|emb|CZO30271.1| Predicted esterase [Legionella pneumophila] &gt;gi|999648174|emb|CZN77812.1| Predicted esterase [Legionella pneumophila] &gt;gi|999650985|emb|CZN94359.1| Predicted esterase [Legionella pneumophila] &gt;gi|999654251|emb|CZN90790.1| Predicted esterase [Legionella pneumophila] &gt;gi|999657629|emb|CZL98977.1| Predicted esterase [Legionella pneumophila] &gt;gi|999660640|emb|CZM49876.1| Predicted esterase [Legionella pneumophila] &gt;gi|999664154|emb|CZM84068.1| Predicted esterase [Legionella pneumophila] &gt;gi|999667035|emb|CZM23379.1| Predicted esterase [Legionella pneumophila] &gt;gi|999670229|emb|CZL72557.1| Predicted esterase [Legionella pneumophila] &gt;gi|999673616|emb|CZM17699.1| Predicted esterase [Legionella pneumophila] &gt;gi|999676620|emb|CZN63439.1| Predicted esterase [Legionella pneumophila] &gt;gi|999679655|emb|CZM64406.1| Predicted esterase [Legionella pneumophila] &gt;gi|999682850|emb|CZM71265.1| Predicted esterase [Legionella pneumophila] &gt;gi|999686076|emb|CZN94322.1| Predicted esterase [Legionella pneumophila] &gt;gi|999689584|emb|CZN08856.1| Predicted esterase [Legionella pneumophila] &gt;gi|999692607|emb|CZN83036.1| Predicted esterase [Legionella pneumophila] &gt;gi|999695995|emb|CZM99687.1| Predicted esterase [Legionella pneumophila] &gt;gi|999698199|emb|CZM31967.1| Predicted esterase [Legionella pneumophila] &gt;gi|999702528|emb|CZM45637.1| Predicted esterase [Legionella pneumophila] &gt;gi|999705602|emb|CZL57621.1| Predicted esterase [Legionella pneumophila] &gt;gi|999708626|emb|CZN40266.1| Predicted esterase [Legionella pneumophila] &gt;gi|999711878|emb|CZM85042.1| Predicted esterase [Legionella pneumophila] &gt;gi|999715439|emb|CZM90580.1| Predicted esterase [Legionella pneumophila] &gt;gi|999718470|emb|CZO26006.1| Predicted esterase [Legionella pneumophila] &gt;gi|999721456|emb|CZM69475.1| Predicted esterase [Legionella pneumophila] &gt;gi|999724796|emb|CZN19319.1| Predicted esterase [Legionella pneumophila] &gt;gi|999728123|emb|CZL87866.1| Predicted esterase [Legionella pneumophila] &gt;gi|999731689|emb|CZO22864.1| Predicted esterase [Legionella pneumophila] &gt;gi|999734938|emb|CZM01533.1| Predicted esterase [Legionella pneumophila] &gt;gi|999738160|emb|CZO46384.1| Predicted esterase [Legionella pneumophila] &gt;gi|999741140|emb|CZM27090.1| Predicted esterase [Legionella pneumophila] &gt;gi|999744558|emb|CZN05897.1| Predicted esterase [Legionella pneumophila] &gt;gi|999747967|emb|CZM02091.1| Predicted esterase [Legionella pneumophila] &gt;gi|999750862|emb|CZL81603.1| Predicted esterase [Legionella pneumophila] &gt;gi|999754060|emb|CZM70050.1| Predicted esterase [Legionella pneumophila] &gt;gi|999757403|emb|CZM81879.1| Predicted esterase [Legionella pneumophila] &gt;gi|999760450|emb|CZM17493.1| Predicted esterase [Legionella pneumophila] &gt;gi|999763835|emb|CZN08927.1| Predicted esterase [Legionella pneumophila] &gt;gi|999767032|emb|CZM54689.1| Predicted esterase [Legionella pneumophila] &gt;gi|999769879|emb|CZN42287.1| Predicted esterase [Legionella pneumophila] &gt;gi|999773583|emb|CZH75059.1| Predicted esterase [Legionella pneumophila] &gt;gi|999776505|emb|CZL87919.1| Predicted esterase [Legionella pneumophila] &gt;gi|999783369|emb|CZH48800.1| Predicted esterase [Legionella pneumophila] &gt;gi|999786545|emb|CZM16034.1| Predicted esterase [Legionella pneumophila] &gt;gi|999789864|emb|CZO50901.1| Predicted esterase [Legionella pneumophila] &gt;gi|999793189|emb|CZO50118.1| Predicted esterase [Legionella pneumophila] &gt;gi|999796436|emb|CZI06784.1| Predicted esterase [Legionella pneumophila] &gt;gi|999799613|emb|CZO60065.1| Predicted esterase [Legionella pneumophila] &gt;gi|1003035455|emb|CZR22802.1| carboxymethylenebutenolidase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842709</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.345</Hsp_bit-score>
+      <Hsp_score>1261</Hsp_score>
+      <Hsp_evalue>2.03466e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFIAHEEGIKQSRPTVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALETIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGF+AHEEGIKQSRP VIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALE IKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1003783073|ref|WP_061467338.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061467338</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.574</Hsp_bit-score>
+      <Hsp_score>1259</Hsp_score>
+      <Hsp_evalue>3.44532e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHGEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYVALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAH EGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLY ALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1004014470|ref|WP_061483735.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483735</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.574</Hsp_bit-score>
+      <Hsp_score>1259</Hsp_score>
+      <Hsp_evalue>4.01739e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPEKLTSGRIKAKILALHGYDDPMVKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDENLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPE L SGRIKAKILALHGYDDPM KPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDE+LGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|500496253|ref|WP_011947578.1|</Hit_id>
+  <Hit_def>carboxymethylenebutenolidase [Legionella pneumophila] &gt;gi|148280373|gb|ABQ54461.1| dienelactone hydrolase family protein [Legionella pneumophila str. Corby] &gt;gi|761996889|dbj|GAN31064.1| dienelactone hydrolase family protein [Legionella pneumophila] &gt;gi|998802659|emb|CZH90077.1| Predicted esterase [Legionella pneumophila] &gt;gi|999004491|emb|CZI44851.1| Predicted esterase [Legionella pneumophila] &gt;gi|999158638|emb|CZJ91727.1| Predicted esterase [Legionella pneumophila] &gt;gi|999166092|emb|CZG71053.1| Predicted esterase [Legionella pneumophila] &gt;gi|999177442|emb|CZJ85330.1| Predicted esterase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947578</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.189</Hsp_bit-score>
+      <Hsp_score>1258</Hsp_score>
+      <Hsp_evalue>5.11425e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHGEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYEDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAH EGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGY+DPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|742357523|ref|WP_038839675.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella pneumophila] &gt;gi|998781133|emb|CZJ42082.1| Predicted esterase [Legionella pneumophila] &gt;gi|998824319|emb|CZG46654.1| Predicted esterase [Legionella pneumophila] &gt;gi|998829426|emb|CZG77268.1| Predicted esterase [Legionella pneumophila] &gt;gi|998883290|emb|CZI75113.1| Predicted esterase [Legionella pneumophila] &gt;gi|998898869|emb|CZJ47340.1| Predicted esterase [Legionella pneumophila] &gt;gi|998936519|emb|CZM50844.1| Predicted esterase [Legionella pneumophila] &gt;gi|998952274|emb|CZJ35182.1| Predicted esterase [Legionella pneumophila] &gt;gi|999000451|emb|CZG78214.1| Predicted esterase [Legionella pneumophila] &gt;gi|999057995|emb|CZM56779.1| Predicted esterase [Legionella pneumophila] &gt;gi|999104134|emb|CZI04740.1| Predicted esterase [Legionella pneumophila] &gt;gi|999128745|emb|CZH01692.1| Predicted esterase [Legionella pneumophila] &gt;gi|999153822|emb|CZM15711.1| Predicted esterase [Legionella pneumophila] &gt;gi|999162910|emb|CZM04072.1| Predicted esterase [Legionella pneumophila] &gt;gi|999236360|emb|CZH07159.1| Predicted esterase [Legionella pneumophila] &gt;gi|1002085439|emb|CZQ99173.1| Predicted esterase [Legionella pneumophila] &gt;gi|1002088100|emb|CZQ79278.1| Predicted esterase [Legionella pneumophila] &gt;gi|1104007523|emb|SFZ47116.1| Predicted esterase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839675</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.419</Hsp_bit-score>
+      <Hsp_score>1256</Hsp_score>
+      <Hsp_evalue>1.24386e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEGIKQPQPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLAAGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEEGIKQ +PAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLA+GRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|499535752|ref|WP_011216535.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|53755337|emb|CAH16833.1| hypothetical protein lpl2592 [Legionella pneumophila str. Lens] &gt;gi|1080002998|gb|AOW53570.1| hypothetical protein BE841_14445 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005256|gb|AOW55536.1| hypothetical protein BE842_09195 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008920|gb|AOW58908.1| hypothetical protein BE843_11915 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011413|gb|AOW60904.1| hypothetical protein BE844_06855 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015495|gb|AOW64368.1| hypothetical protein BE845_10020 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017657|gb|AOW66302.1| hypothetical protein BE846_04620 [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216535</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.263</Hsp_bit-score>
+      <Hsp_score>1253</Hsp_score>
+      <Hsp_evalue>3.02525e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEGIKQPQPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDKNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEEGIKQ +PAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVD NRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|652974032|ref|WP_027226746.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella pneumophila] &gt;gi|998924321|emb|CZJ97191.1| Predicted esterase [Legionella pneumophila] &gt;gi|998942566|emb|CZK06855.1| Predicted esterase [Legionella pneumophila] &gt;gi|998954617|emb|CZK42966.1| Predicted esterase [Legionella pneumophila] &gt;gi|998976156|emb|CZJ64772.1| Predicted esterase [Legionella pneumophila] &gt;gi|998991484|emb|CZK06544.1| Predicted esterase [Legionella pneumophila] &gt;gi|999009859|emb|CZK04414.1| Predicted esterase [Legionella pneumophila] &gt;gi|999018889|emb|CZJ60035.1| Predicted esterase [Legionella pneumophila] &gt;gi|999028013|emb|CZJ92032.1| Predicted esterase [Legionella pneumophila] &gt;gi|999031573|emb|CZG69540.1| Predicted esterase [Legionella pneumophila] &gt;gi|999034019|emb|CZJ96450.1| Predicted esterase [Legionella pneumophila] &gt;gi|999040226|emb|CZJ66523.1| Predicted esterase [Legionella pneumophila] &gt;gi|999043107|emb|CZJ78796.1| Predicted esterase [Legionella pneumophila] &gt;gi|999048938|emb|CZJ85138.1| Predicted esterase [Legionella pneumophila] &gt;gi|999052195|emb|CZJ66937.1| Predicted esterase [Legionella pneumophila] &gt;gi|999055187|emb|CZJ98674.1| Predicted esterase [Legionella pneumophila] &gt;gi|999064305|emb|CZJ77186.1| Predicted esterase [Legionella pneumophila] &gt;gi|999070140|emb|CZJ76271.1| Predicted esterase [Legionella pneumophila] &gt;gi|999073401|emb|CZK03392.1| Predicted esterase [Legionella pneumophila] &gt;gi|999085656|emb|CZJ99178.1| Predicted esterase [Legionella pneumophila] &gt;gi|999249456|emb|CZG79851.1| Predicted esterase [Legionella pneumophila] &gt;gi|999252923|emb|CZG93194.1| Predicted esterase [Legionella pneumophila] &gt;gi|999262121|emb|CZH05050.1| Predicted esterase [Legionella pneumophila] &gt;gi|999274376|emb|CZH10135.1| Predicted esterase [Legionella pneumophila] &gt;gi|999324900|emb|CZH12618.1| Predicted esterase [Legionella pneumophila] &gt;gi|999327621|emb|CZH29020.1| Predicted esterase [Legionella pneumophila] &gt;gi|999332858|emb|CZG02226.1| Predicted esterase [Legionella pneumophila] &gt;gi|999340765|emb|CZH00205.1| Predicted esterase [Legionella pneumophila] &gt;gi|999350109|emb|CZH27400.1| Predicted esterase [Legionella pneumophila] &gt;gi|999469958|emb|CZG81425.1| Predicted esterase [Legionella pneumophila] &gt;gi|999778513|emb|CZH02583.1| Predicted esterase [Legionella pneumophila] &gt;gi|1005834334|gb|AMQ29060.1| DeoR faimly transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1104000970|emb|SFZ47037.1| Predicted esterase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226746</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.263</Hsp_bit-score>
+      <Hsp_score>1253</Hsp_score>
+      <Hsp_evalue>3.13786e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEQLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDE LGLIYDEVAARRSWQAMSQFLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|653014225|ref|WP_027266274.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266274</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>485.723</Hsp_bit-score>
+      <Hsp_score>1249</Hsp_score>
+      <Hsp_evalue>1.39037e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHDDFELHGFLAHEEGIKQPLPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLAAGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQHDD ELHGFLAHEEGIKQ  PAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLA+GRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1005410826|ref|WP_061640058.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|998792861|emb|CZI70737.1| Predicted esterase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640058</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.952</Hsp_bit-score>
+      <Hsp_score>1247</Hsp_score>
+      <Hsp_evalue>2.46895e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQQDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEQLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQ DDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDE LGLIYDEVAARRSWQAMSQFLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1004334779|ref|WP_061513704.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513704</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.411</Hsp_bit-score>
+      <Hsp_score>1243</Hsp_score>
+      <Hsp_evalue>1.14299e-172</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQNDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRERLYAALEAIKSISVVDNNRLAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASVRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDGHLGLIYDEVAARRSWQAMSQFLKEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQ+DDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLR RLYAALEAIKSISVVDNNR+AIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLAS RIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHD HLGLIYDEVAARRSWQAMSQFL+EIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|652976387|ref|WP_027229059.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella pneumophila] &gt;gi|985764675|gb|KXB25794.1| DeoR family transcriptional regulator [Legionella pneumophila] &gt;gi|985767054|gb|KXB28149.1| DeoR family transcriptional regulator [Legionella pneumophila] &gt;gi|999119128|emb|CZG87471.1| Predicted esterase [Legionella pneumophila] &gt;gi|999122253|emb|CZH21048.1| Predicted esterase [Legionella pneumophila] &gt;gi|1024339731|gb|KZX34070.1| hypothetical protein PtVFX2014_06910 [Legionella pneumophila] &gt;gi|1108606016|gb|APF04384.1| hypothetical protein BIZ52_13885 [Legionella pneumophila subsp. fraseri] &gt;gi|1108608998|gb|APF07365.1| hypothetical protein BIZ51_13765 [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229059</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>2.65707e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHGDLDLHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLHAAFEAIKSISVVDSHRIAIIGFCFGGLCALDLARSGADIRGAISFHGLLNKPENLRPERIKAKILVLHGYDDPMVKPEQVHAFCQEMTEANVDWQMHMYGQVQHAFTNPQAHDENLGLIYDEVAARRSWQAMKLFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQH DL+LHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRL+AA EAIKSISVVD++RIAIIGFCFGGLCALDLARSGADIRGA+SFHGLLNKPENL   RIKAKIL LHGYDDPM KPEQVHAFCQEMTEANVDWQMHMYGQV+HAFTNPQAHDE+LGLIYDEVAARRSWQAM  FLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|654928538|ref|WP_028378969.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378969</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>1.40796e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHGDLDLHGFLAHEEGIKQPRPAVIVAHDWGGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLHAAFEAIKSISVVDSHRIAIIGFCFGGLCALDLARSGADIRGAISFHGLLNKPENLKSERIKAKILVLHGYDDPMVKPEQVHAFCQEMTEANVDWQMHMYGQVQHAFTNPQAHDENLGLIYDEVAARRSWQAMKLFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQH DL+LHGFLAHEEGIKQ RPAVIVAHDW GRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRL+AA EAIKSISVVD++RIAIIGFCFGGLCALDLARSGADIRGA+SFHGLLNKPENL S RIKAKIL LHGYDDPM KPEQVHAFCQEMTEANVDWQMHMYGQV+HAFTNPQAHDE+LGLIYDEVAARRSWQAM  FLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|652969920|ref|WP_027222813.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella pneumophila] &gt;gi|1005362911|gb|AMP88780.1| hypothetical protein AXF35_03365 [Legionella pneumophila subsp. pascullei] &gt;gi|1005367826|gb|AMP93603.1| hypothetical protein AXF36_13685 [Legionella pneumophila subsp. pascullei] &gt;gi|1005370745|gb|AMP96521.1| hypothetical protein AXF37_13320 [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222813</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>6.59401e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYQHGDLDLHGFLAHEEGIKQSRPAVIVAHDWGGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPFYRDRSLLRRRLHAAFEAIKSISVVDSNRIAIIGFCFGGLCALDLARSGVDIRGAISFHGLLNKPENLTSERIKAKILVLHGYDDPMVKPEQVHDFCQEMTEANVDWQMHMYGQVQHAFTNPQAHDENLGLMYDEVAARRSWQAMKLFLQEIFNV</Hsp_hseq>
+      <Hsp_midline>MYSSNYIYQH DL+LHGFLAHEEGIKQSRPAVIVAHDW GRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQP Y DRSLLR RL+AA EAIKSISVVD+NRIAIIGFCFGGLCALDLARSG DIRGA+SFHGLLNKPENL S RIKAKIL LHGYDDPM KPEQVH FCQEMTEANVDWQMHMYGQV+HAFTNPQAHDE+LGL+YDEVAARRSWQAM  FLQEIFNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|737925566|ref|WP_035890754.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella norrlandica] &gt;gi|701445252|gb|KGP62647.1| DeoR faimly transcriptional regulator [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890754</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>1.40126e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MYSSNYIYHHDDLELLGFLAHKEGINEPCPAVLVAHDWTGRGEFACQKAKLLAEMGYIGFALDMYGQGRLGSNNDEKMALMQPLANDRLFLRKRLCAALEAIKTIPIIDTTRIAIIGFCFGGLCALDMARSGADIKGAVSFHGLLNKPDNLKSEKIKAKVLVLHGYDDPLAKPEQVQAFCQEMTEANVDWQMHMYGHVKHAFTNPVAHDESLGLIYDETAARRSWQAMHQFLQEIF</Hsp_hseq>
+      <Hsp_midline>MYSSNYIY HDDLEL GFLAH+EGI +  PAV+VAHDW+GRGEFAC KAK LAEMGYIGFALDMYGQG++GSNNDEKMALMQPL +DR  LR RL AALEAIK+I ++D  RIAIIGFCFGGLCALD+ARSGADI+GAVSFHGLLNKP+NL S +IKAK+L LHGYDDP+AKPEQV AFCQEMTEANVDWQMHMYG VKHAFTNP AHDE LGLIYDE AARRSWQAM QFLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966432347|ref|WP_058472780.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella quateirensis] &gt;gi|962268721|gb|KTD52737.1| dienelactone hydrolase family transporter protein [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058472780</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>1.35474e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MYEANYIYQHGAQELHGFLAFDEQIRTPRPAVIVAHDWTGRNDFACQKARMLAEMGYVGFASDVYGQGRLGSTNDEKMALMHPLVSDRSLLRDRLRVAYETVAAMPEVDKNRIAVIGFCFGGLCALDLARSGVDLKGAVSFHGLLNKPEHLESEHIKAKILVLHGYDDPMVKPEQVHAFCQEMSDAKADWQVHMYGHVQHAFTNPQAHDVQLGLVFNSLAEHRSWLAMRHFLHEIF</Hsp_hseq>
+      <Hsp_midline>MY +NYIYQH   ELHGFLA +E I+  RPAVIVAHDW+GR +FAC KA+ LAEMGY+GFA D+YGQG++GS NDEKMALM PL SDRSLLR RL  A E + ++  VD NRIA+IGFCFGGLCALDLARSG D++GAVSFHGLLNKPE+L S  IKAKIL LHGYDDPM KPEQVHAFCQEM++A  DWQ+HMYG V+HAFTNPQAHD  LGL+++ +A  RSW AM  FL EIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966439725|ref|WP_058480048.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella waltersii] &gt;gi|962295622|gb|KTD79267.1| dienelactone hydrolase family transporter protein [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480048</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.229</Hsp_bit-score>
+      <Hsp_score>931</Hsp_score>
+      <Hsp_evalue>4.3898e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MHSSNHNYHHDKQELYGYVAYDDKVQGKRPAVIVVHDWTGRNEFACQKAQILAEMGYVGFALDMYGQGRIGSNNEEKSTLMQPLVSDRAFLRARVLAAYEHVKRMPNVDGDRIAILGFCFGGLCALDLARSGVNIQGAISFHGVLNKPEGLKAEPIKAKILVLHGYEDPMVQPEQVRLFCQEMTEAKVDWQVHMYGNIKHAFTNPLAHDEQLGLIYNEVAAKRSWQATANFLQEIFTV</Hsp_hseq>
+      <Hsp_midline>M+SSN+ Y HD  EL+G++A+++ ++  RPAVIV HDW+GR EFAC KA+ LAEMGY+GFALDMYGQG+IGSNN+EK  LMQPL SDR+ LR R+ AA E +K +  VD +RIAI+GFCFGGLCALDLARSG +I+GA+SFHG+LNKPE L +  IKAKIL LHGY+DPM +PEQV  FCQEMTEA VDWQ+HMYG +KHAFTNP AHDE LGLIY+EVAA+RSWQA + FLQEIF V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|493927311|ref|WP_006872060.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella drancourtii] &gt;gi|363536443|gb|EHL29885.1| dienelactone hydrolase family protein [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872060</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.303</Hsp_bit-score>
+      <Hsp_score>926</Hsp_score>
+      <Hsp_evalue>2.45949e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFN</Hsp_qseq>
+      <Hsp_hseq>MHTSNYIYHQGEQELHGFLAYDETHKKARPAVIVAHDWSGRGEFACQKATQLATMGYVGFALDMFGQARLGATTEEKSALIEPIMANQALLRARVTAALHAVCSMPEVDKQRIAIIGFCFGGLCALELARSGADIKGAVSFHGLLHKPGIMESGIIRAKILALHGYDDPMAKPEVVHAFCQEMTAAKVDWQMHMYGLVQHAFTNPQAHDTQLGLVYNAGAAKRSWLAMTNFLQEIFE</Hsp_hseq>
+      <Hsp_midline>M++SNYIY   + ELHGFLA++E  K++RPAVIVAHDWSGRGEFAC KA QLA MGY+GFALDM+GQ ++G+  +EK AL++P+ ++++LLR R+ AAL A+ S+  VD  RIAIIGFCFGGLCAL+LARSGADI+GAVSFHGLL+KP  + SG I+AKILALHGYDDPMAKPE VHAFCQEMT A VDWQMHMYG V+HAFTNPQAHD  LGL+Y+  AA+RSW AM+ FLQEIF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966516860|ref|WP_058533354.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533354</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.762</Hsp_bit-score>
+      <Hsp_score>922</Hsp_score>
+      <Hsp_evalue>7.39698e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHNSNYIYHQDELELHGFLAYDSSKEGVRPAVIVAHDWSGRNEFACQKAMMLAEMGYVGFALDMFGNAQLGTTTAEKSALIEPLVSNQALLRRRLDSALNTVLSIPEVDKQRIAIIGFCFGGMCALELARSGADIKGAVSFHGLLNKPGTMKSDVIKAKVLALHGYEDPMANPEQANAFCQEMTEAKADWQLHMYGQVKHAFTNPNAHDTQLGLIYNSTAAKRSWQAMTNFLQEVF</Hsp_hseq>
+      <Hsp_midline>M++SNYIY  D+LELHGFLA++   +  RPAVIVAHDWSGR EFAC KA  LAEMGY+GFALDM+G  Q+G+   EK AL++PL S+++LLR RL +AL  + SI  VD  RIAIIGFCFGG+CAL+LARSGADI+GAVSFHGLLNKP  + S  IKAK+LALHGY+DPMA PEQ +AFCQEMTEA  DWQ+HMYGQVKHAFTNP AHD  LGLIY+  AA+RSWQAM+ FLQE+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|654932954|ref|WP_028383311.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella moravica] &gt;gi|962250705|gb|KTD34906.1| dienelactone hydrolase family transporter protein [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383311</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.377</Hsp_bit-score>
+      <Hsp_score>921</Hsp_score>
+      <Hsp_evalue>1.20824e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MYEANCIYHHGAEELHGFLAFDDQITTPRPAVIVAHDWTGRNDFACQKAKMLAEMGYIGFALDMYGQGRLGVTNEEKMALMQPLVGDRALLRERLLAAYHAVAARPEVDKSRIAVIGFCFGGLCALDLARSGADLRGVVTFHGILNKPEHLESEHIKAKILVLHGYDDPMVKPEQVHAFCQEMTEAKVDWQVHMYGHVQHAFTNPQAHDASLGLVFDSLAEQRSLLAMRHFLHEIF</Hsp_hseq>
+      <Hsp_midline>MY +N IY H   ELHGFLA ++ I   RPAVIVAHDW+GR +FAC KAK LAEMGYIGFALDMYGQG++G  N+EKMALMQPL  DR+LLR RL AA  A+ +   VD +RIA+IGFCFGGLCALDLARSGAD+RG V+FHG+LNKPE+L S  IKAKIL LHGYDDPM KPEQVHAFCQEMTEA VDWQ+HMYG V+HAFTNPQAHD  LGL++D +A +RS  AM  FL EIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|653018957|ref|WP_027270912.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella sainthelensi] &gt;gi|962274572|gb|KTD58503.1| dienelactone hydrolase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027270912</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>1.52795e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNHIYRDGEQELLGFLAYDRSIVGTRPAVLVVHDWSGRNEFACDKAKMLAEMGYIGFAVDMYGQGKLGTTVEEKQALMSPLMSQQSLLRQRIKAGLAAVCCVPKVDSKQVAIIGFCFGGLCALELARSGADLKGAVSFHGLLHKPGTLKSEPIKAKILALHGYDDPMVQPEQVHAFCTEMTEANVDWQMHMYGHVQHAFTNPNAHDTQLGTIYNEVAAQRSWQAMSQFLQEIF</Hsp_hseq>
+      <Hsp_midline>M++SN+IY+  + EL GFLA++  I  +RPAV+V HDWSGR EFAC KAK LAEMGYIGFA+DMYGQG++G+  +EK ALM PL S +SLLR R+ A L A+  +  VD+ ++AIIGFCFGGLCAL+LARSGAD++GAVSFHGLL+KP  L S  IKAKILALHGYDDPM +PEQVHAFC EMTEANVDWQMHMYG V+HAFTNP AHD  LG IY+EVAA+RSWQAMSQFLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966460886|ref|WP_058493315.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella worsleiensis] &gt;gi|962296378|gb|KTD80019.1| dienelactone hydrolase family transporter protein [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493315</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>2.61368e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFN</Hsp_qseq>
+      <Hsp_hseq>MFAANSIYHHNDQELHGFLAFDEQNLTPRPAVIVAHDWTGRNDFACQKARMLAEMGYVGFALDAYGQGRQGANNDEKMALMQPLIADRSLLRDRLLAAYHAVAARPEVDKSRIAVIGFCFGGLCALDLARSGADLKGVVTFHGILNKPEHLDSAPIKAKILVLHGYDDPMVKPEQVNVFCQEMTQAKVDWQVHMYGQVQHAFTNPQAHDTSLGLMFNSLAEQRSWLAMQHFLYEIFK</Hsp_hseq>
+      <Hsp_midline>M+++N IY H+D ELHGFLA +E     RPAVIVAHDW+GR +FAC KA+ LAEMGY+GFALD YGQG+ G+NNDEKMALMQPL +DRSLLR RL AA  A+ +   VD +RIA+IGFCFGGLCALDLARSGAD++G V+FHG+LNKPE+L S  IKAKIL LHGYDDPM KPEQV+ FCQEMT+A VDWQ+HMYGQV+HAFTNPQAHD  LGL+++ +A +RSW AM  FL EIF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966466544|ref|WP_058497870.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella gratiana] &gt;gi|962230039|gb|KTD14635.1| dienelactone hydrolase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497870</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>8.70476e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHLSNHIYRDGEQELLGFLAYDRSIAGTRPVVLVVHDWSGRNEFACDKAKMLAEMGYIGFAVDMYGQGKLGSTVEEKQALMTPLMSEQSLLRQRIKAGLAAVCSIPKVDSQQVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHKPGTLKSESIKAKILALHGYDDPMVQPEQVHAFCKEMTDAGVDWQMHMYGHVQHAFTNPNAHDTQLGTIYNEVAARRSWQAMSNFLQEIF</Hsp_hseq>
+      <Hsp_midline>M+ SN+IY+  + EL GFLA++  I  +RP V+V HDWSGR EFAC KAK LAEMGYIGFA+DMYGQG++GS  +EK ALM PL S++SLLR R+ A L A+ SI  VD+ ++AIIGFCFGGLCAL+LARSGAD++G VSFHGLL+KP  L S  IKAKILALHGYDDPM +PEQVHAFC+EMT+A VDWQMHMYG V+HAFTNP AHD  LG IY+EVAARRSWQAMS FLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|963705512|ref|WP_058388479.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella anisa] &gt;gi|962187091|gb|KTC72224.1| dienelactone hydrolase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_058388479</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.214</Hsp_bit-score>
+      <Hsp_score>905</Hsp_score>
+      <Hsp_evalue>3.73693e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNCIYHDNEQELHGFVAYDKSRVEPRPAVLVVHDWSGRNEFACNKAKLLAEMGYVGFAVDMYGDGQLGSTTEEKQALMNPLISDQALLRGRVQAGLTAVCSMSEVDNKRVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHKPGNLKSAPIKAKILALHGYDDPMVQPDMVHAFCNEMTEANVDWQMHMYGHVQHAFTNPLAHDMQLGTIYNAVAAHRSWEAMISFFQEIL</Hsp_hseq>
+      <Hsp_midline>M++SN IY  ++ ELHGF+A+++   + RPAV+V HDWSGR EFAC KAK LAEMGY+GFA+DMYG GQ+GS  +EK ALM PL SD++LLRGR+ A L A+ S+S VDN R+AIIGFCFGGLCAL+LARSGAD++G VSFHGLL+KP NL S  IKAKILALHGYDDPM +P+ VHAFC EMTEANVDWQMHMYG V+HAFTNP AHD  LG IY+ VAA RSW+AM  F QEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966420710|ref|WP_058463911.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella cincinnatiensis] &gt;gi|962206971|gb|KTC91904.1| dienelactone hydrolase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463911</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>7.0542e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNHIYRDGEQELLGFLAYDRSIVGTRPAVLVVHDWSGRNEFACDKAKMLAEMGYIGFAVDMYGQGKLGATVEEKQALMTPLMSQQSLLRQRIKAGLAAVCCIPKVDGNQVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHQPGTLKSEPIKAKILALHGYDDPMVQPEQVHAFCKEMTDANVDWQMHMYGHVQHAFTNPNAHDTQLGTIYNEVAAQRSWQAMSYFLQQIF</Hsp_hseq>
+      <Hsp_midline>M++SN+IY+  + EL GFLA++  I  +RPAV+V HDWSGR EFAC KAK LAEMGYIGFA+DMYGQG++G+  +EK ALM PL S +SLLR R+ A L A+  I  VD N++AIIGFCFGGLCAL+LARSGAD++G VSFHGLL++P  L S  IKAKILALHGYDDPM +PEQVHAFC+EMT+ANVDWQMHMYG V+HAFTNP AHD  LG IY+EVAA+RSWQAMS FLQ+IF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|644965612|ref|WP_025386367.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella oakridgensis] &gt;gi|570285779|gb|AHE67966.1| dienelactone hydrolase-related enzyme [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570701639|gb|ETO92597.1| dienelactone hydrolase [Legionella oakridgensis RV-2-2007] &gt;gi|962254618|gb|KTD38782.1| dienelactone hydrolase [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025386367</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>2.15147e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHSSNYVYHHGEQELYGYLAYDDQTIKPRPAVLVIHDWTGRNDFACQKAELLAEMGYVGFAVDMYGFGRQGKSVDEKQALMTPLMNDRRLLRDRIQAGLDAVVTMDEVDNKRIAVIGFCFGGLCALDLARSGADITGVISFHGLLNKPEGISQQSIKAKILALHGYDDPMVLPEQMAAFCQEMTEANVDWQVHMYGHTKHAFTNPQAHDESLGTVYNAKAERRSWQAMTDFLQEIF</Hsp_hseq>
+      <Hsp_midline>M+SSNY+Y H + EL+G+LA+++   + RPAV+V HDW+GR +FAC KA+ LAEMGY+GFA+DMYG G+ G + DEK ALM PL +DR LLR R+ A L+A+ ++  VDN RIA+IGFCFGGLCALDLARSGADI G +SFHGLLNKPE ++   IKAKILALHGYDDPM  PEQ+ AFCQEMTEANVDWQ+HMYG  KHAFTNPQAHDE LG +Y+  A RRSWQAM+ FLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|518064367|ref|WP_019234575.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019234575</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.132</Hsp_bit-score>
+      <Hsp_score>897</Hsp_score>
+      <Hsp_evalue>5.0672e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNCIYHDNEQELHGFVAYDKSRVEPRPAVLVVHDWSGRNEFACNKAKLLAEMGYVGFAVDMYGDGQLGSTTEEKQALMNPLISDQALLRRRVQAGLTAVCSMSEVDNKRVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHKPGNLKSAPIKAKILALHGYDDPMVQPDMVHAFCNEMTEANVDWQMHMYGHVQHAFTNPLAHDMQLGTIYNAVAAHRSWEAMISFFQEIL</Hsp_hseq>
+      <Hsp_midline>M++SN IY  ++ ELHGF+A+++   + RPAV+V HDWSGR EFAC KAK LAEMGY+GFA+DMYG GQ+GS  +EK ALM PL SD++LLR R+ A L A+ S+S VDN R+AIIGFCFGGLCAL+LARSGAD++G VSFHGLL+KP NL S  IKAKILALHGYDDPM +P+ VHAFC EMTEANVDWQMHMYG V+HAFTNP AHD  LG IY+ VAA RSW+AM  F QEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966414731|ref|WP_058458016.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fluoribacter bozemanae] &gt;gi|962192291|gb|KTC77365.1| dienelactone hydrolase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458016</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>6.81104e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNYIYHDNEQELHGFVAYDTSRAEPRPAVLVVHDWSGRNEFACNKAKLLAEMGYVGFAVDLYGGGQLGSTTEEKQALMNPLISDQLLLRRRIQAGLAAVCSMPEVDNKRVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHKPGNLKSEPIKAKILALHGYDDPMVQPDKVHEFCKEMTEANVDWQMHMYGHIQHAFTNPLAHDTQLGTIYNAVAAQRSWEAMIGFLQEIF</Hsp_hseq>
+      <Hsp_midline>M++SNYIY  ++ ELHGF+A++    + RPAV+V HDWSGR EFAC KAK LAEMGY+GFA+D+YG GQ+GS  +EK ALM PL SD+ LLR R+ A L A+ S+  VDN R+AIIGFCFGGLCAL+LARSGAD++G VSFHGLL+KP NL S  IKAKILALHGYDDPM +P++VH FC+EMTEANVDWQMHMYG ++HAFTNP AHD  LG IY+ VAA+RSW+AM  FLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966496204|ref|WP_058512970.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella santicrucis] &gt;gi|962282786|gb|KTD66562.1| dienelactone hydrolase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058512970</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>1.03273e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNHIYRDGDQELLGFLAYDRSIVGTRPAVLVVHDWSGRNEFACDKAKMLAEMGYIGFAVDMYGQGKLGTTVEEKQALMNPLMSQQSLLRQRIRAGLAAVHCIPKVDSKQVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHQPGTLKSEPIKAKILALHGYDDPMVQPEQVHIFCKEMTDADVDWQMHMYGHVQHAFTNPNAHDIQLGTIYNEVAAQRSWQAMSNFLQEIF</Hsp_hseq>
+      <Hsp_midline>M++SN+IY+  D EL GFLA++  I  +RPAV+V HDWSGR EFAC KAK LAEMGYIGFA+DMYGQG++G+  +EK ALM PL S +SLLR R+ A L A+  I  VD+ ++AIIGFCFGGLCAL+LARSGAD++G VSFHGLL++P  L S  IKAKILALHGYDDPM +PEQVH FC+EMT+A+VDWQMHMYG V+HAFTNP AHD  LG IY+EVAA+RSWQAMS FLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|489729115|ref|WP_003633231.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella longbeachae] &gt;gi|269990036|gb|EEZ96290.1| dienelactone hydrolase family protein [Legionella longbeachae D-4968] &gt;gi|288856895|emb|CBJ10706.1| putative dienelactone hydrolase family protein [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003633231</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>2.76774e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNHIYRDGEQELLGFLAYDRSIVGTRPAVLVVHDWSGRNEFACDKAKMLAEMGYIGFAVDMYGQGKLGATVEEKQALMTPLISQQSLLRQRIKAGLDAVCCVPKVDSKRVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHQPGTLKSEPIKAKILALHGYDDPMVQPDQVHAFCKEMTDAGVDWQMHMYGHVQHAFTNPNAHDTQLGTIYNEVAAQRSWQAMSNFLQAIF</Hsp_hseq>
+      <Hsp_midline>M++SN+IY+  + EL GFLA++  I  +RPAV+V HDWSGR EFAC KAK LAEMGYIGFA+DMYGQG++G+  +EK ALM PL S +SLLR R+ A L+A+  +  VD+ R+AIIGFCFGGLCAL+LARSGAD++G VSFHGLL++P  L S  IKAKILALHGYDDPM +P+QVHAFC+EMT+A VDWQMHMYG V+HAFTNP AHD  LG IY+EVAA+RSWQAMS FLQ IF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|769989143|ref|WP_045105094.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella hackeliae] &gt;gi|731151032|emb|CEK09576.1| Dienelactone hydrolase family protein [Legionella hackeliae] &gt;gi|962225444|gb|KTD10088.1| dienelactone hydrolase [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045105094</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>3.32697e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MDTSNYLYHHGEQELHGFLAYDERIDQPRPAVLVAHDWSGRNDFACEKAKMLAELGYVGFALDMYGQGRIGTITPEKMALMEPLANDRLLLRARMRAAYDAVLGMSEVDNSRIAVIGFCFGGLCALDLARSGADLKGVVSFHGLLDKPKDIPNQPIKAKVLALHGYDDPMVKPEQVNEFCHEMTEAHVDWQVHMYGHTQHAFANPHAHDKQLGTIYNAKAERRALQSMANFLAEIF</Hsp_hseq>
+      <Hsp_midline>M +SNY+Y H + ELHGFLA++E I Q RPAV+VAHDWSGR +FAC KAK LAE+GY+GFALDMYGQG+IG+   EKMALM+PL +DR LLR R+ AA +A+  +S VDN+RIA+IGFCFGGLCALDLARSGAD++G VSFHGLL+KP+++ +  IKAK+LALHGYDDPM KPEQV+ FC EMTEA+VDWQ+HMYG  +HAF NP AHD+ LG IY+  A RR+ Q+M+ FL EIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966499561|ref|WP_058516234.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella parisiensis] &gt;gi|962260095|gb|KTD44210.1| dienelactone hydrolase [Legionella parisiensis] &gt;gi|1069291615|gb|OEH46996.1| hypothetical protein lpari_01973 [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516234</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>5.64068e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNYIYHDNEQEFHGFVAYDASRAEPRPAVLVAHDWSGRNEFACNKAKLLAEMGYVGFAVDLYGDGQLGSTTEEKQALMNPLISDQALLRRRLQAGLAAVSSLPEVDNKRVAIIGFCFGGLCALELARSGAELKGVVSFHGLLHKPGNLKSEPIKAKILALHGYDDPMVQPDKVHEFCKEMTEANVDWQMHMYGHVQHAFTNPLAYDMQLGTIYNAVAAQRSWESMISFLQEIL</Hsp_hseq>
+      <Hsp_midline>M++SNYIY  ++ E HGF+A++    + RPAV+VAHDWSGR EFAC KAK LAEMGY+GFA+D+YG GQ+GS  +EK ALM PL SD++LLR RL A L A+ S+  VDN R+AIIGFCFGGLCAL+LARSGA+++G VSFHGLL+KP NL S  IKAKILALHGYDDPM +P++VH FC+EMTEANVDWQMHMYG V+HAFTNP A+D  LG IY+ VAA+RSW++M  FLQEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966436327|ref|WP_058476695.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella steigerwaltii] &gt;gi|962294996|gb|KTD78650.1| dienelactone hydrolase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476695</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>5.94531e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNNIYHDNGQEFHGFMAYDKALAGPRPAVLVVHDWSGRNEFACEKAKLLAQMGYVGFAVDLYGHAQLGSTTEEKQALMKPLVSDQNLLRRRIQAGLTAACSMSEVDSKRVAVIGFCFGGMCALELARSGADLKGVVSFHGLLHKPGSLKSEPIKAKILALHGYDDPMVQPDQVHAFCKEMTEANADWQMHMYGHVQHAFTNPLAHDTQLGTIYNEVAAQRSWQSMTNFLQEIF</Hsp_hseq>
+      <Hsp_midline>M++SN IY  +  E HGF+A+++ +   RPAV+V HDWSGR EFAC KAK LA+MGY+GFA+D+YG  Q+GS  +EK ALM+PL SD++LLR R+ A L A  S+S VD+ R+A+IGFCFGG+CAL+LARSGAD++G VSFHGLL+KP +L S  IKAKILALHGYDDPM +P+QVHAFC+EMTEAN DWQMHMYG V+HAFTNP AHD  LG IY+EVAA+RSWQ+M+ FLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|654923610|ref|WP_028374132.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella lansingensis] &gt;gi|962237506|gb|KTD21952.1| dienelactone hydrolase [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028374132</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>6.21158e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MDTSNYLYHHGEQELHGFLAYDEKSDQPRPAVLVAHDWSGRNDFACEKAQMLAEMGYLGFALDMYGQGRQGASTHEKMALMEPLVNDRLLLRARIRAAYDALIGMSEVDMNKIAVIGFCFGGLCALDLARSGADLRGVVSFHGLLNKPQDIPNKTIHAKVLALHGYDDPMVKPEQVQEFCREMTEANVDWQVHMYGHTQHAFANPHAHDTQLGTVYNAKAERRALQAMTNFLQEVF</Hsp_hseq>
+      <Hsp_midline>M +SNY+Y H + ELHGFLA++E   Q RPAV+VAHDWSGR +FAC KA+ LAEMGY+GFALDMYGQG+ G++  EKMALM+PL +DR LLR R+ AA +A+  +S VD N+IA+IGFCFGGLCALDLARSGAD+RG VSFHGLLNKP+++ +  I AK+LALHGYDDPM KPEQV  FC+EMTEANVDWQ+HMYG  +HAF NP AHD  LG +Y+  A RR+ QAM+ FLQE+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966406929|ref|WP_058450335.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella jamestowniensis] &gt;gi|962223644|gb|KTD08294.1| dienelactone hydrolase [Legionella jamestowniensis] &gt;gi|1045920213|gb|OCH97180.1| hypothetical protein A8135_06010 [Legionella jamestowniensis] &gt;gi|1097331199|emb|SFL49371.1| Dienelactone hydrolase [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058450335</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.051</Hsp_bit-score>
+      <Hsp_score>889</Hsp_score>
+      <Hsp_evalue>9.86133e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MDTSNYLYHHGEQELHGFLAYDEQSDQPRPAVLVAHDWSGRNEFACEKAKALAEMGYVGFALDMYGQGRLGESTHEKKALMEPLVNDRLLLRARIRAAYDALVGMSEVDNNRIAVIGFCFGGLCALDLARSGADLKGVVSFHGLLGKPKDIPNQPISAKVLALHGYDDPMAPPEQVDGFCREMTEANVDWQVHMYGHTQHAFTNPHAHDTQLGTVYNSKAERRALLAMTNFLTEIF</Hsp_hseq>
+      <Hsp_midline>M +SNY+Y H + ELHGFLA++E   Q RPAV+VAHDWSGR EFAC KAK LAEMGY+GFALDMYGQG++G +  EK ALM+PL +DR LLR R+ AA +A+  +S VDNNRIA+IGFCFGGLCALDLARSGAD++G VSFHGLL KP+++ +  I AK+LALHGYDDPMA PEQV  FC+EMTEANVDWQ+HMYG  +HAFTNP AHD  LG +Y+  A RR+  AM+ FL EIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966493794|ref|WP_058510582.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella steelei] &gt;gi|962284731|gb|KTD68497.1| dienelactone hydrolase [Legionella steelei] &gt;gi|1113342056|gb|OJW05933.1| hypothetical protein BGO44_13245 [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510582</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.665</Hsp_bit-score>
+      <Hsp_score>888</Hsp_score>
+      <Hsp_evalue>1.07412e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNYIYHDHGLECHGFAAYDKAFSGPRPTVLVAHDWSGRNEFACEKAKLLAQMGYVGFAIDLYGHGQLGSTTEEKQALMNPLVSEQNLLRRRIQAGLTAACSMPEVDSKRVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHKPGSLKSEPIKAKILALHGYDDPMVPPETVHAFCKEMTDANVDWQMHMYGHVQHAFSNPLAHDMQLGTIYNEVAAHRSWQAMTHFLQEIF</Hsp_hseq>
+      <Hsp_midline>M++SNYIY    LE HGF A+++     RP V+VAHDWSGR EFAC KAK LA+MGY+GFA+D+YG GQ+GS  +EK ALM PL S+++LLR R+ A L A  S+  VD+ R+AIIGFCFGGLCAL+LARSGAD++G VSFHGLL+KP +L S  IKAKILALHGYDDPM  PE VHAFC+EMT+ANVDWQMHMYG V+HAF+NP AHD  LG IY+EVAA RSWQAM+ FLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|671586721|ref|WP_031563113.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563113</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>6.1422e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFN</Hsp_qseq>
+      <Hsp_hseq>MHTSNLIYHDNEQELLGFVAYDNSVAGPRPAVLVVHDWSGRNEFACDKTQLLAQMGYLGFAVDMYGQGKLGSTTEEKKELMHPLISDQAFLRRRVQAGLKAVLSMPEIDRERIAIIGFCFGGLCALELARSGADLKGVVSFHGLLHQPGNLKSESIQAKILVLHGYDDPMVKPDQVHAFCKEMTEANVDWQMHMYGHVQHAFTNPNAHDSQLGTIYNPVAAQRSWQAMTNFLQEIFS</Hsp_hseq>
+      <Hsp_midline>M++SN IY  ++ EL GF+A++  +   RPAV+V HDWSGR EFAC K + LA+MGY+GFA+DMYGQG++GS  +EK  LM PL SD++ LR R+ A L+A+ S+  +D  RIAIIGFCFGGLCAL+LARSGAD++G VSFHGLL++P NL S  I+AKIL LHGYDDPM KP+QVHAFC+EMTEANVDWQMHMYG V+HAFTNP AHD  LG IY+ VAA+RSWQAM+ FLQEIF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966428684|ref|WP_058471180.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella jordanis] &gt;gi|962232875|gb|KTD17423.1| dienelactone hydrolase [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471180</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>7.3031e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MDTSNYLYHHGEQELHGFLAFDENIDQPRPAVLVVHDWSGRNDFACEKAKMLAEMGYVGFALDMYGQGRIGASTPEKKALMEPLVNDRLLLRARIRAAYDALIAMSEVDNNRIAVIGFCFGGLCALDLARSGAELRGVVSFHGLLGKPKDIPNNHIHAKILALHGYDDPMVRPEQVNEFCREMTDAKVDWQVHIYGHTQHAFANPHAHDTHLGTVYNPKAERRALQAMRNFLQEVL</Hsp_hseq>
+      <Hsp_midline>M +SNY+Y H + ELHGFLA +E I Q RPAV+V HDWSGR +FAC KAK LAEMGY+GFALDMYGQG+IG++  EK ALM+PL +DR LLR R+ AA +A+ ++S VDNNRIA+IGFCFGGLCALDLARSGA++RG VSFHGLL KP+++ +  I AKILALHGYDDPM +PEQV+ FC+EMT+A VDWQ+H+YG  +HAF NP AHD HLG +Y+  A RR+ QAM  FLQE+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|654930375|ref|WP_028380744.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella cherrii] &gt;gi|962197122|gb|KTC82166.1| dienelactone hydrolase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380744</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.739</Hsp_bit-score>
+      <Hsp_score>883</Hsp_score>
+      <Hsp_evalue>8.60714e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTLNHIYHDNGQEFHGYIAYDKALAGPRPAVLVVHDWTGRNEFACEKAKLLAQMGYVGFAVDMYGHGQLGSTTEEKQALMNPLVSDQKLLRRRIQAGLTAACSMSEVDSKRVAVIGFCFGGLCALELARSGADLKGVVSFHGLLHKPGNLKSEPITAKILVMHGYDDPMVQPDQVHEFCNEMTEANVDWQMHMYGHVQHAFTNPLAHDKQLGTIYNEVAAQRSWQSMTNFLQEIF</Hsp_hseq>
+      <Hsp_midline>M++ N+IY  +  E HG++A+++ +   RPAV+V HDW+GR EFAC KAK LA+MGY+GFA+DMYG GQ+GS  +EK ALM PL SD+ LLR R+ A L A  S+S VD+ R+A+IGFCFGGLCAL+LARSGAD++G VSFHGLL+KP NL S  I AKIL +HGYDDPM +P+QVH FC EMTEANVDWQMHMYG V+HAFTNP AHD+ LG IY+EVAA+RSWQ+M+ FLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|498338322|ref|WP_010652478.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fluoribacter dumoffii] &gt;gi|962207571|gb|KTC92502.1| dienelactone hydrolase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652478</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>1.01656e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFN</Hsp_qseq>
+      <Hsp_hseq>MHTSNHIYHDNGQELNGFMAYDESLVGSRPAVLVVHDWSGRNEFACEKAKLLAQLGYVGFAVDMYGHAQLGSTVEEKQALMNPLVADQSLLRRRIQAGLAAACSLSEVDSKRVAIIGFCFGGMCALELARSGAELKGVVSFHGLLHKPGELKSAPIKAKILALHGYDDPMVQPDTVHAFCKEMTEAHVDWQMHMYGHVQHAFTNPLAHDLKLGTVYNEIAAERSWQAMTHFLQEIFS</Hsp_hseq>
+      <Hsp_midline>M++SN+IY  +  EL+GF+A++E +  SRPAV+V HDWSGR EFAC KAK LA++GY+GFA+DMYG  Q+GS  +EK ALM PL +D+SLLR R+ A L A  S+S VD+ R+AIIGFCFGG+CAL+LARSGA+++G VSFHGLL+KP  L S  IKAKILALHGYDDPM +P+ VHAFC+EMTEA+VDWQMHMYG V+HAFTNP AHD  LG +Y+E+AA RSWQAM+ FLQEIF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966505260|ref|WP_058521919.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella tucsonensis] &gt;gi|962287633|gb|KTD71361.1| dienelactone hydrolase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521919</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>1.13422e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNYIYHDNEQELHGFVAYDKARAAPRPAVLVVHDWSGRNEFACNKAKLLAEMGYVGFAVDLYGDGQLGSTIEEKQALMNPLISNQVLLRRRMQAGLAAVCAMPEVDNKRVAIIGFCFGGLCALELARSGADLKGVVSFHGLLHQPGNLKSEPIKAKILALHGYDDPMVQPDKVHAFCKEMTEANVDWQMHMYGHIQHAFTNPLAHDTQLGTIYNAVAAQRSWETMISFLQEIL</Hsp_hseq>
+      <Hsp_midline>M++SNYIY  ++ ELHGF+A+++     RPAV+V HDWSGR EFAC KAK LAEMGY+GFA+D+YG GQ+GS  +EK ALM PL S++ LLR R+ A L A+ ++  VDN R+AIIGFCFGGLCAL+LARSGAD++G VSFHGLL++P NL S  IKAKILALHGYDDPM +P++VHAFC+EMTEANVDWQMHMYG ++HAFTNP AHD  LG IY+ VAA+RSW+ M  FLQEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966426212|ref|WP_058468750.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fluoribacter gormanii] &gt;gi|962216868|gb|KTD01622.1| dienelactone hydrolase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468750</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>1.21126e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNYIYHDDEQELHGFVAYDKSFVGPRPAVLVVHDWSGRNEFACDKAKLLAEMGYVGFAVDMYGQGTLGSTIEEKQALMTPLVSDQALLRRRVQAGLTAVSSMSEVDSKQVAIIGFCFGGMCALELARSGADIKGVVSFHGLLHKPGTLNSEPIKAKILALHGYDDPMVQPDIAQAFCKEMTDANVDWQMHMYGHVQHAFTNPLAHDTQLGTIYNAAAAQRSWQAMINFLQEIL</Hsp_hseq>
+      <Hsp_midline>M++SNYIY  D+ ELHGF+A+++     RPAV+V HDWSGR EFAC KAK LAEMGY+GFA+DMYGQG +GS  +EK ALM PL SD++LLR R+ A L A+ S+S VD+ ++AIIGFCFGG+CAL+LARSGADI+G VSFHGLL+KP  L S  IKAKILALHGYDDPM +P+   AFC+EMT+ANVDWQMHMYG V+HAFTNP AHD  LG IY+  AA+RSWQAM  FLQEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|517403151|ref|WP_018576017.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella shakespearei] &gt;gi|962276106|gb|KTD60007.1| dienelactone hydrolase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576017</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>1.97027e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNHIYHHESEELHGFVAFQKDSGTPRPAVIVAHDWSGRNEFACDKAKKLAEMGYIGFASDVYGQGRLGESTEEKTALMHPLVNDRMLLRNRLRAAFDAVKAMPEVDKNRIAVIGFCFGGLCALDLARSGAELRGAVSFHGLLGKP-DLQPETIKARILVLHGYDDPMAQPEQVNEFCHEMTEAKADWQVHMYGHVQHAFTNPQAHDTQAGLVYNALAAERSWLAMELFLKEIF</Hsp_hseq>
+      <Hsp_midline>M++SN+IY H+  ELHGF+A ++     RPAVIVAHDWSGR EFAC KAK+LAEMGYIGFA D+YGQG++G + +EK ALM PL +DR LLR RL AA +A+K++  VD NRIA+IGFCFGGLCALDLARSGA++RGAVSFHGLL KP +L    IKA+IL LHGYDDPMA+PEQV+ FC EMTEA  DWQ+HMYG V+HAFTNPQAHD   GL+Y+ +AA RSW AM  FL+EIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|769978687|ref|WP_045094672.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella fallonii] &gt;gi|698841927|emb|CEG55874.1| Dienelactone hydrolase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045094672</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>2.09444e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIFNV</Hsp_qseq>
+      <Hsp_hseq>MHTSNYIYHDGNHELHGFIAYDDEHKHPRPAVIVAHDWSGRNEFACQKATLLAKMGYVGFALDMYGHGRVGSTIEEKEELMAPLADNREMLRDRINAAFNALITRPEVDKNCVAVIGFCFGGLCALDLARSGADIKGAVSFHGLLGKPDNLEAKKIKAKVLALHGYDDPMVSPDAVNAFCQEMTEADVDWQVHMYGHVQHGFTNPQAHDTNLGIIYNQMAEQRSWQAMTNFLHEIFKI</Hsp_hseq>
+      <Hsp_midline>M++SNYIY   + ELHGF+A+++  K  RPAVIVAHDWSGR EFAC KA  LA+MGY+GFALDMYG G++GS  +EK  LM PL  +R +LR R+ AA  A+ +   VD N +A+IGFCFGGLCALDLARSGADI+GAVSFHGLL KP+NL + +IKAK+LALHGYDDPM  P+ V+AFCQEMTEA+VDWQ+HMYG V+H FTNPQAHD +LG+IY+++A +RSWQAM+ FL EIF +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|654938949|ref|WP_028389178.1|</Hit_id>
+  <Hit_def>DeoR family transcriptional regulator [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028389178</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>2.25071e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKPENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNYLYHHGEQELHGFLAYEEDDDRLRPAVLVVHDWTGRNEFACEKAKMLANMGYVGFAVDMFGQGRLGASVPEKTALMLPLSNDRLLLRDRIRAAFDTVVAMPEVDTNRIAVIGFCFGGLCALDLARSGAELKGVVSFHGLLNKPEEIPNQTIHAKVLALHGYDDPMVKPEQLNEFCQEMTIAQVDWQVHMYGHTQHAFTNPEAHDEQLGTIYQATAERRALQAMTNFLQEVF</Hsp_hseq>
+      <Hsp_midline>M++SNY+Y H + ELHGFLA+EE   + RPAV+V HDW+GR EFAC KAK LA MGY+GFA+DM+GQG++G++  EK ALM PL +DR LLR R+ AA + + ++  VD NRIA+IGFCFGGLCALDLARSGA+++G VSFHGLLNKPE + +  I AK+LALHGYDDPM KPEQ++ FCQEMT A VDWQ+HMYG  +HAFTNP+AHDE LG IY   A RR+ QAM+ FLQE+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966402670|ref|WP_058446265.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella feeleii] &gt;gi|962212169|gb|KTC97056.1| dienelactone hydrolase [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058446265</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.502</Hsp_bit-score>
+      <Hsp_score>872</Hsp_score>
+      <Hsp_evalue>3.65169e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>MYSSNYIYQHDDLELHGFLAHEEGIKQSRPAVIVAHDWSGRGEFACLKAKQLAEMGYIGFALDMYGQGQIGSNNDEKMALMQPLYSDRSLLRGRLYAALEAIKSISVVDNNRIAIIGFCFGGLCALDLARSGADIRGAVSFHGLLNKP-ENLASGRIKAKILALHGYDDPMAKPEQVHAFCQEMTEANVDWQMHMYGQVKHAFTNPQAHDEHLGLIYDEVAARRSWQAMSQFLQEIF</Hsp_qseq>
+      <Hsp_hseq>MHTSNYLYHHGEQELHGFLAYDDENDQPRPAVLVAHDWSGRNEFACEKAQMLVEMGYLGFALDMYGHGRVGASTHEKMGLMQPLANDRRLLRERIRAAYDALIAMPEVDINRIAVIGFCFGGMCALDLARSGAELKGVVSFHGLLNKPEEKLPSHPIHAKILALHGYDDPMVRPEQVDEFCQEMTEAKVDWQVHMYGHTQHAFTNPHAHDTQLGTIYNAKAERRALQAMANFLQEIF</Hsp_hseq>
+      <Hsp_midline>M++SNY+Y H + ELHGFLA+++   Q RPAV+VAHDWSGR EFAC KA+ L EMGY+GFALDMYG G++G++  EKM LMQPL +DR LLR R+ AA +A+ ++  VD NRIA+IGFCFGG+CALDLARSGA+++G VSFHGLLNKP E L S  I AKILALHGYDDPM +PEQV  FCQEMTEA VDWQ+HMYG  +HAFTNP AHD  LG IY+  A RR+ QAM+ FLQEIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

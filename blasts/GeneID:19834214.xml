@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_113163</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834214</BlastOutput_query-def>
+  <BlastOutput_query-len>341</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_113163</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834214</Iteration_query-def>
+  <Iteration_query-len>341</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|52629966|gb|AAU28707.1|</Hit_id>
+  <Hit_def>GTP-binding protein, GTP1/Obg family [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509360|gb|AEW52884.1| GTP-binding protein, GTP1/Obg family [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>AAU28707</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>696.041</Hsp_bit-score>
+      <Hsp_score>1795</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>341</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499250809|ref|WP_010948349.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila] &gt;gi|161723242|ref|YP_096654.2| GTPase ObgE [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|261266899|sp|Q5ZS70.2|OBG_LEGPH RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg &gt;gi|469490629|gb|AGH52474.1| GTP-binding protein Obg [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083321|gb|AGN15569.1| GTPase ObgE [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772825|emb|CZI17131.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998775726|emb|CZG60789.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998778312|emb|CZG75642.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998784551|emb|CZG86159.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998787503|emb|CZG59131.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998811908|emb|CZH79031.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998814293|emb|CZG62087.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998837850|emb|CZJ72589.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998865398|emb|CZJ41254.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998869861|emb|CZJ36177.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998871056|emb|CZM16554.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998874544|emb|CZK38253.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998877469|emb|CZL99693.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998880536|emb|CZI87203.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998888034|emb|CZL50121.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998889231|emb|CZK23071.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998906119|emb|CZK56510.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998909690|emb|CZL09132.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999067375|emb|CZJ18245.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999076901|emb|CZG59224.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999095273|emb|CZG87692.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999098712|emb|CZG60194.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999156858|emb|CZH74652.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999191282|emb|CZI17750.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999194405|emb|CZI43809.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999200270|emb|CZG60644.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999203716|emb|CZI43779.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999222397|emb|CZI35268.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1002075556|emb|CZQ94345.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1073865690|gb|AOU05641.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073868659|gb|AOU08609.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073871654|gb|AOU11603.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073874521|gb|AOU14469.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073877579|gb|AOU17526.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073880542|gb|AOU20488.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073883539|gb|AOU23484.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073889500|gb|AOU29443.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073892484|gb|AOU32426.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073895452|gb|AOU35393.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073898410|gb|AOU38350.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073901376|gb|AOU41315.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073904285|gb|AOU44223.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073907238|gb|AOU47175.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073910256|gb|AOU50191.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073913268|gb|AOU53200.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073916228|gb|AOU56159.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073919191|gb|AOU59121.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073922094|gb|AOU62023.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073925177|gb|AOU65104.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073928140|gb|AOU68066.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073931126|gb|AOU71035.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073934495|gb|AOU74054.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073937460|gb|AOU84459.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073947726|gb|AOU87450.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1073950654|gb|AOU90377.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1129969312|gb|APT99671.1| GTPase Obg [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948349</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>696.041</Hsp_bit-score>
+      <Hsp_score>1795</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>341</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|504655594|ref|WP_014842696.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila] &gt;gi|395128650|emb|CCD06868.1| GTPase involved in cell partioning and DNA repair [Legionella pneumophila subsp. pneumophila] &gt;gi|998824301|emb|CZG45724.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999248081|emb|CZH51261.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999269709|emb|CZO24981.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999455540|emb|CZH45367.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999462205|emb|CZG05251.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999465415|emb|CZM26554.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999468329|emb|CZO07105.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999474565|emb|CZM55313.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999478160|emb|CZN24777.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999481355|emb|CZM62763.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999484385|emb|CZN96313.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999487543|emb|CZL95846.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999490734|emb|CZN58965.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999493958|emb|CZL96098.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999500362|emb|CZN57869.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999503584|emb|CZN87553.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999506780|emb|CZM93473.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999510013|emb|CZG25797.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999513172|emb|CZN17994.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999515193|emb|CZM27135.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999519785|emb|CZM49481.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999532653|emb|CZO31824.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999534733|emb|CZN68420.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999539046|emb|CZM53149.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999542300|emb|CZO08446.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999545440|emb|CZO45248.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999548598|emb|CZN74152.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999551828|emb|CZN98499.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999555205|emb|CZM96002.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999558218|emb|CZO44898.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999561376|emb|CZM28038.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999564611|emb|CZO45278.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999567764|emb|CZM41209.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999570963|emb|CZN39853.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999574153|emb|CZN77121.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999580644|emb|CZO01661.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999584156|emb|CZO15088.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999585930|emb|CZN10831.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999590541|emb|CZM23188.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999593416|emb|CZN32991.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999596614|emb|CZN95578.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999599844|emb|CZO23520.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999603300|emb|CZL64834.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999606239|emb|CZN38117.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999609711|emb|CZN42188.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999615887|emb|CZM32364.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999618964|emb|CZN75148.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999622360|emb|CZO53102.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999625596|emb|CZN52779.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999628987|emb|CZM43080.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999631865|emb|CZM47098.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999635095|emb|CZN39411.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999638253|emb|CZN36185.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999641449|emb|CZO64088.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999644620|emb|CZO29549.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999648157|emb|CZN77301.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999650968|emb|CZN93864.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999654268|emb|CZN91316.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999657646|emb|CZL99831.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999660623|emb|CZM49309.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999664137|emb|CZM83328.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999667052|emb|CZM24040.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999670246|emb|CZL73218.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999673633|emb|CZM18301.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999676603|emb|CZN62819.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999679638|emb|CZM63613.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999682833|emb|CZM70613.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999686059|emb|CZN93608.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999689601|emb|CZN09375.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999692590|emb|CZN82265.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999696012|emb|CZN00394.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999698182|emb|CZM31474.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999702511|emb|CZM44893.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999705619|emb|CZL58386.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999708643|emb|CZN40806.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999711895|emb|CZM85853.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999715422|emb|CZM89837.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999718487|emb|CZO26697.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999721439|emb|CZM68684.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999724779|emb|CZN18569.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999728140|emb|CZL88381.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999731672|emb|CZO22357.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999734921|emb|CZM01035.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999738177|emb|CZO46901.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999741123|emb|CZM26597.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999744575|emb|CZN06380.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999747950|emb|CZM01543.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999750845|emb|CZL80958.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999754077|emb|CZM70616.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999757420|emb|CZM82756.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999760433|emb|CZM16642.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999763852|emb|CZN09424.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999767049|emb|CZM55417.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999769862|emb|CZN41567.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999773566|emb|CZH74631.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999776522|emb|CZL88562.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999783386|emb|CZH49334.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999786562|emb|CZM16923.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999789847|emb|CZO50145.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999793206|emb|CZO50692.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999796453|emb|CZI07690.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999799596|emb|CZO59254.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1003035438|emb|CZR22707.1| GTP-binding protein%2C GTP1/Obg family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842696</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>694.115</Hsp_bit-score>
+      <Hsp_score>1790</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>339</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|652971134|ref|WP_027223998.1|</Hit_id>
+  <Hit_def>GTPase Obg [Legionella pneumophila] &gt;gi|998802642|emb|CZH89428.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|998912307|emb|CZG96252.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|998993969|emb|CZI47259.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999004474|emb|CZI44039.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999151588|emb|CZH56009.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999158621|emb|CZJ91135.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999166075|emb|CZG70414.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999168330|emb|CZI52397.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999177459|emb|CZJ85965.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999302246|emb|CZI55175.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|1080008937|gb|AOW58925.1| GTPase ObgE [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011396|gb|AOW60887.1| GTPase ObgE [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017640|gb|AOW66285.1| GTPase ObgE [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_027223998</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>693.345</Hsp_bit-score>
+      <Hsp_score>1788</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIETKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIE+KGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|506459829|ref|WP_015961729.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila] &gt;gi|81822505|sp|Q5X1P1.1|OBG_LEGPA RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg &gt;gi|53752423|emb|CAH13855.1| hypothetical protein lpp2702 [Legionella pneumophila str. Paris] &gt;gi|536611688|gb|ERB40206.1| GTPase CgtA [Legionella pneumophila str. 121004] &gt;gi|762000243|dbj|GAN27975.1| GTPase ObgE/CgtA [Legionella pneumophila] &gt;gi|998924304|emb|CZJ96393.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998942549|emb|CZK06352.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998954600|emb|CZK42199.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998976173|emb|CZJ65350.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998991501|emb|CZK07244.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999009842|emb|CZK03575.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999018906|emb|CZJ60672.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999027996|emb|CZJ91194.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999031556|emb|CZG68671.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999034036|emb|CZJ97046.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999040243|emb|CZJ67091.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999043090|emb|CZJ78117.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999048955|emb|CZJ85753.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999052212|emb|CZJ67558.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999055170|emb|CZJ97667.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999064322|emb|CZJ77872.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999070123|emb|CZJ75605.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999073418|emb|CZK04182.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999085639|emb|CZJ98378.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999173382|emb|CZH69584.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999182558|emb|CZG27886.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999184515|emb|CZP93199.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999188723|emb|CZI77184.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999198323|emb|CZP07483.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999206422|emb|CZP58529.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999213655|emb|CZG43939.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999217055|emb|CZI72066.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999225899|emb|CZG32330.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999227837|emb|CZP39783.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999235064|emb|CZP52574.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999240560|emb|CZH76393.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999244229|emb|CZH71710.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999249439|emb|CZG79150.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999252906|emb|CZG92359.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999256167|emb|CZP74289.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999259214|emb|CZP39737.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999262138|emb|CZH05955.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999265442|emb|CZP03566.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999272090|emb|CZP52400.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999274359|emb|CZH09288.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999277797|emb|CZP29932.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999281497|emb|CZP22303.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999284145|emb|CZP49739.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999290852|emb|CZP27917.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999296748|emb|CZP49546.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999299987|emb|CZP27211.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999307170|emb|CZH66078.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999309556|emb|CZP20186.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999315958|emb|CZI02560.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999318957|emb|CZP57070.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999322209|emb|CZH92562.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999324917|emb|CZH13492.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999327604|emb|CZH28507.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999332875|emb|CZG03032.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999337986|emb|CZP43603.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999340748|emb|CZG99641.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999344150|emb|CZP91662.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999347438|emb|CZP60206.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999350126|emb|CZH27958.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999353743|emb|CZP52929.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999356852|emb|CZP75435.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999361068|emb|CZI00775.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999363218|emb|CZP71448.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999366981|emb|CZP71995.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999369601|emb|CZP86704.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999374026|emb|CZG03030.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999377371|emb|CZI91682.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999380670|emb|CZH52267.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999383386|emb|CZI15626.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999387485|emb|CZG11508.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999390292|emb|CZI11390.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999392495|emb|CZP95805.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999397043|emb|CZG15798.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999398743|emb|CZP99100.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999403257|emb|CZP47257.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999406444|emb|CZG44067.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999409384|emb|CZH71129.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999412602|emb|CZG28121.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999416672|emb|CZG15490.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999419302|emb|CZG44131.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999422587|emb|CZH44407.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999426506|emb|CZG25284.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999429092|emb|CZG29658.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999432681|emb|CZG05280.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999435761|emb|CZH66246.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999438326|emb|CZG44289.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999442270|emb|CZJ85414.1| GTP-binding protein%2C GTP1/Obg family [Legionella pneumophila] &gt;gi|999445307|emb|CZH55790.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999448569|emb|CZG03033.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999450812|emb|CZP30785.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999458381|emb|CZJ90777.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999469975|emb|CZG82084.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999496998|emb|CZI09657.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999521364|emb|CZP45366.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999526351|emb|CZI62075.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999529233|emb|CZI17809.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999577047|emb|CZI01619.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999612348|emb|CZI06046.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999778496|emb|CZH01660.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1003028379|emb|CZR23452.1| GTP-binding protein%2C GTP1/Obg family [Legionella pneumophila] &gt;gi|1003031898|emb|CZR28563.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1005834318|gb|AMQ29044.1| GTPase CgtA [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434073|gb|AMV15700.1| GTPase ObgE/CgtA [Legionella pneumophila] &gt;gi|1041016621|gb|ANN93682.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1041019618|gb|ANN96678.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1103997813|emb|SFZ46949.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1104000953|emb|SFZ46956.1| GTP-binding protein Obg [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961729</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.96</Hsp_bit-score>
+      <Hsp_score>1787</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLKWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGL+WKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|653014235|ref|WP_027266284.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella pneumophila] &gt;gi|998781151|emb|CZJ42779.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998829444|emb|CZG78267.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998883308|emb|CZI75892.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998898851|emb|CZJ46486.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998936502|emb|CZM50033.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998952256|emb|CZJ34502.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999000434|emb|CZG77577.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999057978|emb|CZM56047.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999104151|emb|CZI05249.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999128762|emb|CZH02513.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999153840|emb|CZM16674.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999162928|emb|CZM04687.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999236342|emb|CZH06571.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1002085456|emb|CZQ99319.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1002088118|emb|CZQ79296.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1104007505|emb|SFZ47024.1| GTP-binding protein Obg [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266284</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>692.189</Hsp_bit-score>
+      <Hsp_score>1785</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDAKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPD KEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|500496217|ref|WP_011947566.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila] &gt;gi|261266848|sp|A5IAS7.1|OBG_LEGPC RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg &gt;gi|148280389|gb|ABQ54477.1| GTP-binding protein, GTP1/Obg family [Legionella pneumophila str. Corby] &gt;gi|295650196|gb|ADG26043.1| Predicted GTPase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|761996872|dbj|GAN31047.1| GTPase Obg/CgtA [Legionella pneumophila] &gt;gi|998796516|emb|CZI00601.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998800313|emb|CZL04555.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998805804|emb|CZK07517.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998808362|emb|CZH87978.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998817724|emb|CZL59469.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998820826|emb|CZL61044.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998826788|emb|CZK08568.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998832574|emb|CZI06827.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998835761|emb|CZK88165.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998842300|emb|CZL13272.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998844718|emb|CZK28894.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998847669|emb|CZK66882.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998850244|emb|CZI37896.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998853773|emb|CZL26149.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998856469|emb|CZL33119.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998859792|emb|CZL73596.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998862672|emb|CZK19024.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998895513|emb|CZJ99355.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998915839|emb|CZK62178.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998918308|emb|CZK82914.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998921279|emb|CZL38747.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998927584|emb|CZL63967.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998930671|emb|CZK75577.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998933924|emb|CZL75919.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998939886|emb|CZK76535.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998945963|emb|CZK94717.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998949007|emb|CZK82524.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998958607|emb|CZM01131.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998961513|emb|CZK25473.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998964620|emb|CZK05338.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998966958|emb|CZM52783.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998970500|emb|CZK54267.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998973809|emb|CZK26759.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998979514|emb|CZL59587.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998985863|emb|CZJ99491.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998988707|emb|CZL48206.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|998998031|emb|CZJ88671.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999008003|emb|CZK27351.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999012936|emb|CZL44192.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999016858|emb|CZL68792.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999022656|emb|CZL14694.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999025373|emb|CZK74510.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999037130|emb|CZL54627.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999046854|emb|CZL77260.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999061661|emb|CZL15264.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999080245|emb|CZJ91929.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999082796|emb|CZK77910.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999090494|emb|CZK41510.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999092488|emb|CZL40855.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999101140|emb|CZL67767.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999110417|emb|CZL15533.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999113804|emb|CZL51550.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999116415|emb|CZK48913.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999126327|emb|CZK79261.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999131593|emb|CZL95125.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999134812|emb|CZL17181.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999138086|emb|CZK27835.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999141799|emb|CZL44714.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999144556|emb|CZK69412.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999147652|emb|CZL50043.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999175792|emb|CZL05049.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999210016|emb|CZK75841.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999219302|emb|CZL30674.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|999335277|emb|CZK72719.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1002079062|emb|CZQ94760.1| GTP-binding protein Obg [Legionella pneumophila] &gt;gi|1003020153|emb|CZR21611.1| GTP-binding protein%2C GTP1/Obg family [Legionella pneumophila] &gt;gi|1003023033|emb|CZR20446.1| GTP-binding protein%2C GTP1/Obg family [Legionella pneumophila] &gt;gi|1003026875|emb|CZR18154.1| GTP-binding protein%2C GTP1/Obg family [Legionella pneumophila] &gt;gi|1073886531|gb|AOU26475.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1104004052|emb|SFZ46948.1| GTP-binding protein Obg [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947566</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>691.034</Hsp_bit-score>
+      <Hsp_score>1782</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSSGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIETKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGS GESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIE+KGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1005410819|ref|WP_061640051.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila] &gt;gi|998792844|emb|CZI70052.1| GTP-binding protein Obg [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640051</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>690.263</Hsp_bit-score>
+      <Hsp_score>1780</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLKWKDKVFSISAIESKGTQELCYALMQLIDEMKEPEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGL+WKDKVFSISAIESKGTQELCYALMQLIDEMKE EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|504657656|ref|WP_014844758.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila] &gt;gi|395131734|emb|CCD10027.1| GTPase involved in cell partioning and DNA repair [Legionella pneumophila subsp. pneumophila] &gt;gi|761987315|dbj|GAN24665.1| GTPase Obg [Legionella pneumophila] &gt;gi|761990389|dbj|GAN18613.1| GTPase Obg [Legionella pneumophila] &gt;gi|761993579|dbj|GAN21719.1| GTPase Obg [Legionella pneumophila] &gt;gi|998790034|emb|CZH03472.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|998892914|emb|CZJ08698.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|998982041|emb|CZI89330.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999106933|emb|CZI84357.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999231207|emb|CZI62092.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999286771|emb|CZI75176.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999293106|emb|CZI62451.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999312065|emb|CZI88110.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|1002082154|emb|CZQ96161.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|1002091774|emb|CZR06293.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|1032658728|gb|ANH13999.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1032661690|gb|ANH16960.1| GTPase ObgE [Legionella pneumophila] &gt;gi|1032664668|gb|ANH19937.1| GTPase ObgE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844758</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>689.878</Hsp_bit-score>
+      <Hsp_score>1779</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLIIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLKWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DL IKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGL+WKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|499535738|ref|WP_011216521.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila] &gt;gi|81822314|sp|Q5WTF1.1|OBG_LEGPL RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg &gt;gi|53755319|emb|CAH16815.1| hypothetical protein lpl2574 [Legionella pneumophila str. Lens] &gt;gi|1080003015|gb|AOW53587.1| GTPase ObgE [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005239|gb|AOW55519.1| GTPase ObgE [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015512|gb|AOW64385.1| GTPase ObgE [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216521</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>689.493</Hsp_bit-score>
+      <Hsp_score>1778</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPMLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDAKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKKSEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+P+LIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPD KEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMK+SEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1011913185|ref|WP_062726399.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062726399</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>688.723</Hsp_bit-score>
+      <Hsp_score>1776</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVVDAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFAISAIEGKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPV DAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVF+ISAIE KGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1110760353|ref|WP_071984299.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila] &gt;gi|1108606000|gb|APF04368.1| GTPase ObgE [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_071984299</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>686.411</Hsp_bit-score>
+      <Hsp_score>1770</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQPGMGGNCTGKKGDDLIIKVPVGTMVYDADTGELLADISQPGIAILIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLKWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQ GMGGNCTGKKGDDL IKVPVGTMVYDADTGELLADISQPGI +LIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGL+WKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1004014445|ref|WP_061483724.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483724</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>686.411</Hsp_bit-score>
+      <Hsp_score>1770</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQPGMGGNCTGKKGEDLTIKVPVGTMVYDADTGELLADISQPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSSYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPELLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFAISAIESKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQ GMGGNCTGKKG+DLTIKVPVGTMVYDADTGELLADISQPG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVS YKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNP+LLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVF+ISAIESKGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|652976400|ref|WP_027229072.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella pneumophila] &gt;gi|985764659|gb|KXB25778.1| GTPase CgtA [Legionella pneumophila] &gt;gi|985767070|gb|KXB28165.1| GTPase CgtA [Legionella pneumophila] &gt;gi|999119110|emb|CZG86885.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|999122235|emb|CZH20285.1| GTP-binding protein obg [Legionella pneumophila] &gt;gi|1024339715|gb|KZX34054.1| GTPase Obg [Legionella pneumophila] &gt;gi|1108608982|gb|APF07349.1| GTPase ObgE [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229072</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.33</Hsp_bit-score>
+      <Hsp_score>1762</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQPGMGGNCTGKKGDDLIIKVPVGTMVYDADTGELLADISQPGIAILIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCILLHVIDIAPLDGSDPVADAKAVLNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFAISAIEGKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQ GMGGNCTGKKGDDL IKVPVGTMVYDADTGELLADISQPGI +LIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTC+LLHVIDIAPLDGSDPVADAKA+LNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVF+ISAIE KGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|652969905|ref|WP_027222798.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella pneumophila] &gt;gi|1005362928|gb|AMP88797.1| GTPase ObgE [Legionella pneumophila subsp. pascullei] &gt;gi|1005367809|gb|AMP93586.1| GTPase ObgE [Legionella pneumophila subsp. pascullei] &gt;gi|1005370728|gb|AMP96504.1| GTPase ObgE [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222798</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQPGMGGNCTGKKGDDLIIKVPVGTMVYDADTGELLADISQPGIPILIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDESDPIADAKAILNELSQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKNKVFAISAIEGKGTQELCYALMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQ GMGGNCTGKKGDDL IKVPVGTMVYDADTGELLADISQPGIP+LIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLD SDP+ADAKAILNEL+QYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWK+KVF+ISAIE KGTQELCYALMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|737925547|ref|WP_035890736.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella norrlandica] &gt;gi|701445259|gb|KGP62653.1| GTPase CgtA [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890736</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.558</Hsp_bit-score>
+      <Hsp_score>1625</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>320</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRHYKAENGQSGMGGNCTGKKGDDLIIKVPIGTMVYDVDTGELLADINQPGIPVLIAKGGFHGLGNTRYKSSVNRTPRQTTPGRPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAIINELTQYNPDLHNKPRWLVLNKIDMLPDETSRKEKIQSIIEGLNWKDKVFPISAIKGEGTQELCYALMQLVDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTR YKAENGQSGMGGNCTGKKGDDL IKVP+GTMVYD DTGELLADI+QPGIPVLIA+GGFHGLGNTRYKSSVNR+PRQTTPG PGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAI+NELTQYNPDL NKPRWLVLNKIDMLPDE  R+EKIQSII+GL WKDKVF ISAI+ +GTQELCYALMQL+DEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|966439703|ref|WP_058480026.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella waltersii] &gt;gi|962295600|gb|KTD79245.1| GTP-binding protein, GTP1/Obg family [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480026</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>594.734</Hsp_bit-score>
+      <Hsp_score>1532</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAIIKVDAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEANNDLNTLIDFRYMRHYKAENGQPGMGGNCTGKKGDDLTISVPVGTLVYDVDTGELLADINQPGVPVLIAQGGFHGLGNTRYKSSVNRAPRQTTQGSLGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGASQGAGLGHRFLKHLSRTCILLHVIDIAPLDGSDPVVDAKAIINELAQFNPELLNKPRFLVLNKIDMIPDEAQRHETIQNIVNGLNWKDKVYTISAIKAEGTQQLCYDLMQLIDEMKETEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKV+AGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEA++DLNTLIDFRY R YKAENGQ GMGGNCTGKKGDDLTI VPVGT+VYD DTGELLADI+QPG+PVLIAQGGFHGLGNTRYKSSVNR+PRQTT GS GESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGA+QGAGLGHRFLKHLSRTC+LLHVIDIAPLDGSDPV DAKAI+NEL Q+NP+LLNKPR+LVLNKIDM+PDE +R E IQ+I+ GL WKDKV++ISAI+++GTQ+LCY LMQLIDEMKE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|769980383|ref|WP_045096368.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella fallonii] &gt;gi|698843992|emb|CEG57961.1| GTPase involved in cell partioning and DNA repair [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096368</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.423</Hsp_bit-score>
+      <Hsp_score>1526</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAIIKVDAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIFFEASTDLNTLVDFRYTRHYKAENGQSGMGSNCTGKKGEDLIIKVPVGTMIYDVDTDELLGDINKPGEPVLIAQGGFHGLGNTRYKSSVNRSPRQTTQGTPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGAASGAGLGHRFLKHLSRTCILLHVIDIAPLDDSDPIANAKAIINELAEYDPELVKKPRWLVLNKIDMIPDEALREERIQAIIKGLKWKDKVFTISAISNQGTQQLCYALMQLIDEMKEAEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKV+AGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSI+FEAS+DLNTL+DFRYTR YKAENGQSGMG NCTGKKG+DL IKVPVGTM+YD DT ELL DI++PG PVLIAQGGFHGLGNTRYKSSVNRSPRQTT G+PGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTC+LLHVIDIAPLD SDP+A+AKAI+NEL +Y+P+L+ KPRWLVLNKIDM+PDE  REE+IQ+IIKGL+WKDKVF+ISAI ++GTQ+LCYALMQLIDEMKE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|966423394|ref|WP_058466540.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Fluoribacter gormanii] &gt;gi|962220861|gb|KTD05523.1| GTP-binding protein, GTP1/Obg family [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058466540</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.038</Hsp_bit-score>
+      <Hsp_score>1525</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVEAGNGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLVDFRYMRHFKARNGQHGMGGNCTGKKGDDLTIKVPVGTMVYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPVDDSDPVASAKAIIHELAEYNPELLQKPRWLVLNKIDMLPDTASREERIQAIINGLGWKDKVFAISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTL+DFRY R +KA NGQ GMGGNCTGKKGDDLTIKVPVGTMVYD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+AP+D SDPVA AKAI++EL +YNP+LL KPRWLVLNKIDMLPD   REE+IQ+II GL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|750218487|ref|WP_040522560.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_040522560</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>591.652</Hsp_bit-score>
+      <Hsp_score>1524</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVDAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLVDFRYMRHYKAGNGQSGMGGNCTGKKGDDLTIKVPVGTMVYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLARTCVLLHVIDVAPLDDSDPVESAKAIIHELAEYNPELLQKPRWLVLNKIDMLPDAASREERIKTIVNGLNWKDKVFAISAISSEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKV+AG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTL+DFRY R YKA NGQSGMGGNCTGKKGDDLTIKVPVGTMVYD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHL+RTCVLLHVID+APLD SDPV  AKAI++EL +YNP+LL KPRWLVLNKIDMLPD   REE+I++I+ GL WKDKVF+ISAI S+GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|963705353|ref|WP_058388415.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella anisa] &gt;gi|962187498|gb|KTC72624.1| GTP-binding protein, GTP1/Obg family [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_058388415</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>589.726</Hsp_bit-score>
+      <Hsp_score>1519</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>294</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVDAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLVDFRYMRHYKAGNGQSGMGGNCTGKKGDDLIIKVPVGTMVYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLARTCVLLHVIDVAPLDDSDPVESAKAIIHELAEYNPELLQKPRWLVLNKIDMLPDAASREERIKTIVNGLNWKDKVFAISAISSEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKV+AG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTL+DFRY R YKA NGQSGMGGNCTGKKGDDL IKVPVGTMVYD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHL+RTCVLLHVID+APLD SDPV  AKAI++EL +YNP+LL KPRWLVLNKIDMLPD   REE+I++I+ GL WKDKVF+ISAI S+GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|517405375|ref|WP_018578076.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella shakespearei] &gt;gi|962276989|gb|KTD60878.1| GTP-binding protein, GTP1/Obg family [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578076</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.186</Hsp_bit-score>
+      <Hsp_score>1515</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>294</Hsp_identity>
+      <Hsp_positive>320</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MRFVDEAIIKVDAGNGGNGCVSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYMRHYKAENGQQGMGGNCSGKKGADLTLKVPVGTMVYDVDTGELIGDISKPGEPVLIAQGGFHGLGNTRYKSSVNRSPRQSSPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGAATGAGLGHRFLKHLSRTCVLLHVIDVAPLDDSDPVASAKAIINELAEYNPELLNKPRWLVLNKMDMLPDEASREERIKAIVDGLQWTGKVFAISAISGQGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>M+FVDEA+IKV+AG GGNGC+SFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRY R YKAENGQ GMGGNC+GKKG DLT+KVPVGTMVYD DTGEL+ DIS+PG PVLIAQGGFHGLGNTRYKSSVNRSPRQ++PGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHVID+APLD SDPVA AKAI+NEL +YNP+LLNKPRWLVLNK+DMLPDE  REE+I++I+ GL+W  KVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|498340426|ref|WP_010654582.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Fluoribacter dumoffii] &gt;gi|962205964|gb|KTC90901.1| essential GTPase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654582</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>587.415</Hsp_bit-score>
+      <Hsp_score>1513</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>293</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVEAGNGGNGCLSFRREKFIPRGGPDGGDGGDGGSVFFEASTDLNTLVDFRYMRHYKAGNGQHGMGGNCTGKKGDDLIIKVPVGTMVYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLARTCVLLHVIDVAPLDDSDPVASAKTIIHELAEYNPELLQKPRWLVLNKIDMLPDAASREERIQTIVKGLNWNDKVFAISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GGNGCLSFRREKFIPRGGPDGGDGGDGGS++FEAS+DLNTL+DFRY R YKA NGQ GMGGNCTGKKGDDL IKVPVGTMVYD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHL+RTCVLLHVID+APLD SDPVA AK I++EL +YNP+LL KPRWLVLNKIDMLPD   REE+IQ+I+KGL W DKVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966493870|ref|WP_058510658.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella steelei] &gt;gi|962284815|gb|KTD68581.1| GTP-binding protein, GTP1/Obg family [Legionella steelei] &gt;gi|1113341786|gb|OJW05669.1| GTPase ObgE [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510658</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>587.03</Hsp_bit-score>
+      <Hsp_score>1512</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKIDAGNGGNGCLSFRREKFIPKGGPDGGDGGDGGSVYFEASTDLNTLIDFRYMRHYKAGNGQPGMGGNCTGKKGDDLTIKVPVGTMIYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTSPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLARTCVLLHVIDVAPLDESDPVASAKAIIHELAEYNPELLQKPRWLVLNKIDMLPDAASRDERIQAIVKGLNWHDKVFAISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IK++AG GGNGCLSFRREKFIP+GGPDGGDGGDGGS+YFEAS+DLNTLIDFRY R YKA NGQ GMGGNCTGKKGDDLTIKVPVGTM+YD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQT+PGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHL+RTCVLLHVID+APLD SDPVA AKAI++EL +YNP+LL KPRWLVLNKIDMLPD   R+E+IQ+I+KGL W DKVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966433925|ref|WP_058474358.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella quateirensis] &gt;gi|962263751|gb|KTD47831.1| GTP-binding protein, GTP1/Obg family [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474358</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.645</Hsp_bit-score>
+      <Hsp_score>1511</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>320</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MRFVDEAIIKVDAGNGGNGCVSFRREKFIPRGGPDGGDGGDGGSVYFEASSDLNTLVDFRYMRHYKAENGQQGMGGNCSGKKGADLIIKVPVGTMVYDIDTGELLGDINKPGEPVLIAQGGFHGLGNTRYKSSVNRSPRQSSPGSPGECRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGAAMGAGLGHRFLKHLSRTCVLLHVIDVAPLDDSDPVASAKAIINELGEYSPELLNKPRWLVLNKIDMLPDEASRQERVETIVKGLNWKDKVFAISAISGQGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>M+FVDEA+IKV+AG GGNGC+SFRREKFIPRGGPDGGDGGDGGS+YFEASSDLNTL+DFRY R YKAENGQ GMGGNC+GKKG DL IKVPVGTMVYD DTGELL DI++PG PVLIAQGGFHGLGNTRYKSSVNRSPRQ++PGSPGE R+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHVID+APLD SDPVA AKAI+NEL +Y+P+LLNKPRWLVLNKIDMLPDE  R+E++++I+KGL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|654930680|ref|WP_028381049.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella cherrii] &gt;gi|962197448|gb|KTC82492.1| essential GTPase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028381049</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.645</Hsp_bit-score>
+      <Hsp_score>1511</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKIEAGHGGNGCLSFRREKFIPKGGPDGGDGGDGGSVYFEASTDLNTLVDFRYMRHYKAGNGQPGMGGNCTGKKGDDLIIKVPVGTMVYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTSPGSPGEARHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPVDDSDPVASAKTIINELAEYNPQLLEKPRWLVLNKIDMLPDAASREERIQTIVKGLNWKDKVFAISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IK+EAG GGNGCLSFRREKFIP+GGPDGGDGGDGGS+YFEAS+DLNTL+DFRY R YKA NGQ GMGGNCTGKKGDDL IKVPVGTMVYD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQT+PGSPGE+R+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+AP+D SDPVA AK I+NEL +YNP LL KPRWLVLNKIDMLPD   REE+IQ+I+KGL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966414650|ref|WP_058457935.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Fluoribacter bozemanae] &gt;gi|962192206|gb|KTC77280.1| GTP-binding protein, GTP1/Obg family [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058457935</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>585.874</Hsp_bit-score>
+      <Hsp_score>1509</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVEAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLVDFRYMRHFKAGNGQSGMGGNCTGKKGDDLTIKVPVGTMIYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSSGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPLDNSDPVESAKAIIHELAEYNPELLQKPRWLVLNKIDMLPDAASREERIGAIVNGLDWKDRVFAISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTL+DFRY R +KA NGQSGMGGNCTGKKGDDLTIKVPVGTM+YD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGS GESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+APLD SDPV  AKAI++EL +YNP+LL KPRWLVLNKIDMLPD   REE+I +I+ GL+WKD+VF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|671587529|ref|WP_031563737.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563737</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>585.874</Hsp_bit-score>
+      <Hsp_score>1509</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAIIKVEAGHGGNGCLSFRREKFIPKGGPDGGDGGDGGSVYFEASTDLNTLVDFRYKRHYKAGNGQSGMGGNCTGKKGDDLTIKVPVGTLIYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTSPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSISSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCILLHVIDIAPLDESDPVASAKAIIHELAEYNPELLQKPRWLVLNKIDMIPDEIIRNEKIKTIIDGLNWKDKVFTISAISGEGTQQLCYSLMQLIDEMRESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GGNGCLSFRREKFIP+GGPDGGDGGDGGS+YFEAS+DLNTL+DFRY R YKA NGQSGMGGNCTGKKGDDLTIKVPVGT++YD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQT+PGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV +S +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTC+LLHVIDIAPLD SDPVA AKAI++EL +YNP+LL KPRWLVLNKIDM+PDE  R EKI++II GL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEM+ESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966500666|ref|WP_058517339.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella parisiensis] &gt;gi|962256009|gb|KTD40146.1| GTP-binding protein, GTP1/Obg family [Legionella parisiensis] &gt;gi|1069293278|gb|OEH48610.1| GTPase Obg [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517339</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>585.489</Hsp_bit-score>
+      <Hsp_score>1508</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVEAGHGGSGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLVDFRYMRHYKAGNGQSGMGGNCTGKKGDDLTIKVPVGTMIYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPLDDSDPITSAKVIIQELAEYNPELLQKPRWLVLNKIDMLPDAASREERIMAIVNGLDWKDKVFPISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GG+GCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTL+DFRY R YKA NGQSGMGGNCTGKKGDDLTIKVPVGTM+YD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+APLD SDP+  AK I+ EL +YNP+LL KPRWLVLNKIDMLPD   REE+I +I+ GL+WKDKVF ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966437543|ref|WP_058477911.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella steigerwaltii] &gt;gi|962292377|gb|KTD76071.1| essential GTPase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477911</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>582.793</Hsp_bit-score>
+      <Hsp_score>1501</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>290</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVDAGHGGNGCLSFRREKFIPKGGPDGGDGGDGGSVYFEASTDLNTLIDFRYMRHYKAGNGQPGMGGNCTGKKGDDLIIKVPVGTMIYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTSPGSPGEARHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPLDESDPVASAKTIINELAEYNPELLQKPRWLVLNKIDMLPDAASREERIQTIVNGLNWNDRVFAISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKV+AG GGNGCLSFRREKFIP+GGPDGGDGGDGGS+YFEAS+DLNTLIDFRY R YKA NGQ GMGGNCTGKKGDDL IKVPVGTM+YD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQT+PGSPGE+R+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+APLD SDPVA AK I+NEL +YNP+LL KPRWLVLNKIDMLPD   REE+IQ+I+ GL W D+VF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966504670|ref|WP_058521329.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella tucsonensis] &gt;gi|962290657|gb|KTD74365.1| essential GTPase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521329</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.941</Hsp_bit-score>
+      <Hsp_score>1491</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVDAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLVDFRYMRHYKAGNGQSGMGGNCTGKKGDDLIIKVPVGTLVYDVDTGELLGDIKEPGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTSPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPIDNSDPVESAKAIIHELAEYNPELLQKPRWLVLNKIDMLPDAVSREDRIKAIVDGLNWKGKVFAISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKV+AG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTL+DFRY R YKA NGQSGMGGNCTGKKGDDL IKVPVGT+VYD DTGELL DI +PG+PVLIAQGGFHGLGNTRYKSSVNRSPRQT+PGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+AP+D SDPV  AKAI++EL +YNP+LL KPRWLVLNKIDMLPD   RE++I++I+ GL WK KVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|493927751|ref|WP_006872486.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella drancourtii] &gt;gi|363536203|gb|EHL29649.1| GTPase ObgE [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872486</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.556</Hsp_bit-score>
+      <Hsp_score>1490</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MRFVDEAIIKIDAGNGGNGCVSFRREKFIPRGGPDGGDGGDGGSIYFEASNNLNTLIDFRYMRHYKAGNGQQGMGSNCSGKKGDDLIIKVPVGTLIYDVDSGELLGDISQVGVPVLIAQGGFHGLGNTRYKSSVNRSPRQSSPGSAGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGASAGAGLGHRFLKHLSRTCVLLHVIDVAPLDGSDPVVSAKAILNELNEYNPELLQKPRWLVLNKIDMLPDEAEREARIQAIVDGLEWKEKVFPISAISGQGTQQLCYSLMQLIDEMKEPEA</Hsp_hseq>
+      <Hsp_midline>M+FVDEA+IK++AG GGNGC+SFRREKFIPRGGPDGGDGGDGGSIYFEAS++LNTLIDFRY R YKA NGQ GMG NC+GKKGDDL IKVPVGT++YD D+GELL DISQ G+PVLIAQGGFHGLGNTRYKSSVNRSPRQ++PGS GESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+APLDGSDPV  AKAILNEL +YNP+LL KPRWLVLNKIDMLPDE ERE +IQ+I+ GLEWK+KVF ISAI  +GTQ+LCY+LMQLIDEMKE EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966516732|ref|WP_058533226.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533226</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.244</Hsp_bit-score>
+      <Hsp_score>1484</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIRVDAGNGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASSDLNTLIDFRYMRHYKAGNGQPGMGGNCSGKKGDDLIIKVPVGTLIYDVDSGELLGDINKVGVPVLIAQGGFHGLGNTRYKSSVNRSPRQTSPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPLDESDPVASAKAIINELAEYNPELVQKPRWLVLNKIDMLPDEATRNERIQAIVDGLNWKDKVFTISAISGQGTQQLCYSLMQLIDELNNPEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALI+V+AG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEASSDLNTLIDFRY R YKA NGQ GMGGNC+GKKGDDL IKVPVGT++YD D+GELL DI++ G+PVLIAQGGFHGLGNTRYKSSVNRSPRQT+PGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+APLD SDPVA AKAI+NEL +YNP+L+ KPRWLVLNKIDMLPDE  R E+IQ+I+ GL WKDKVF+ISAI  +GTQ+LCY+LMQLIDE+   EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966460481|ref|WP_058492910.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella worsleiensis] &gt;gi|962296555|gb|KTD80192.1| GTP-binding protein, GTP1/Obg family [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492910</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>567</Hsp_bit-score>
+      <Hsp_score>1460</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>320</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MRFVDEAIIKVDAGNGGNGCVSFRREKFIPRGGPDGGDGGDGGSIYFEASIDLNTLVDFRYMRHYKAENGQQGMGSNCSGKKGADLVIKVPVGTLVYDVDTGELLGDINKPGEPVLIAQGGFHGLGNTRYKSSVNRSPRQSSPGSPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGAAAGAGLGHRFLKHLSRTCVLLHVIDVAPLDGSDPVASAKAIINELGEYNPDLLNKPRWLVLNKMDMLPDEASRQERVETIVKGLDWKGRVFAISAISGQGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>M+FVDEA+IKV+AG GGNGC+SFRREKFIPRGGPDGGDGGDGGSIYFEAS DLNTL+DFRY R YKAENGQ GMG NC+GKKG DL IKVPVGT+VYD DTGELL DI++PG PVLIAQGGFHGLGNTRYKSSVNRSPRQ++PGSPGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHVID+APLDGSDPVA AKAI+NEL +YNPDLLNKPRWLVLNK+DMLPDE  R+E++++I+KGL+WK +VF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|654932777|ref|WP_028383135.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella moravica] &gt;gi|962253309|gb|KTD37490.1| GTP-binding protein, GTP1/Obg family [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383135</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>565.074</Hsp_bit-score>
+      <Hsp_score>1455</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MRFVDEAIIKVDAGNGGNGCVSFRREKFIPRGGPDGGDGGDGGSVYFEASSDLNTLVDFRYMRHYKAENGQQGMGGNCSGKKGADLIIKVPVGTMVYDIDTGELLGDINKPGEPVLIAQGGFHGLGNTRYKSSVNRSPRQSSPGSPGECRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGAAAGAGLGHRFLKHLSRTCVLLHVIDVAPLDDSDPVASAKAIINELGEYSPDLLNKPRWLVLNKIDMLPDEASRQERVEAIVKGLNWTGKVFAISAISGQGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>M+FVDEA+IKV+AG GGNGC+SFRREKFIPRGGPDGGDGGDGGS+YFEASSDLNTL+DFRY R YKAENGQ GMGGNC+GKKG DL IKVPVGTMVYD DTGELL DI++PG PVLIAQGGFHGLGNTRYKSSVNRSPRQ++PGSPGE R+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHVID+APLD SDPVA AKAI+NEL +Y+PDLLNKPRWLVLNKIDMLPDE  R+E++++I+KGL W  KVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1113549061|gb|OJY09217.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella sp. 40-6]</Hit_def>
+  <Hit_accession>OJY09217</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>562.762</Hsp_bit-score>
+      <Hsp_score>1449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIRVEAGHGGHGCLSFRREKFVPKGGPDGGDGGDGGSVYFEACSDLNTLIDFRYMRHYKAGNGQSGMGGNCTGKKGDDLIIKVPVGTLIYDVDTGELLGDIREVGVPVLIAQGGFHGLGNTRYKSSVNRAPRQTSQGSPGEARHLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVSVSTHKSFVMADIPGLIEGASEGAGLGHRFLKHLSRTCVLLHVIDIAPLDESDPITSAQTIINELAEYDPELLNKPRWLVLNKIDMIPDHDLREQRIQEIITGLNWQNKFFAVSAISGEGTQALCYELMQLIDDLKETEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALI+VEAG GG+GCLSFRREKF+P+GGPDGGDGGDGGS+YFEA SDLNTLIDFRY R YKA NGQSGMGGNCTGKKGDDL IKVPVGT++YD DTGELL DI + G+PVLIAQGGFHGLGNTRYKSSVNR+PRQT+ GSPGE+R+LRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGA++GAGLGHRFLKHLSRTCVLLHVIDIAPLD SDP+  A+ I+NEL +Y+P+LLNKPRWLVLNKIDM+PD   RE++IQ II GL W++K F++SAI  +GTQ LCY LMQLID++KE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966468603|ref|WP_058499929.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella gratiana] &gt;gi|962221397|gb|KTD06057.1| essential GTPase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499929</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.222</Hsp_bit-score>
+      <Hsp_score>1445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVEAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLIDFRYTRHYKAGNGQQGMGGNCTGKKGDDLIIKVPVGTLIYDMDTDELLGDIKEPNVPVLIAQGGFHGLGNTRFKSSVNRSPRQTTQGSLGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPLDGSDPVASAQTIINELAQYNPELLKKNRWLVLNKMDMLPDATSREEKIQSIVAGLNWKDKVFAISAISGEGTQQLCYSLMQLIDEMKELEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTLIDFRYTR YKA NGQ GMGGNCTGKKGDDL IKVPVGT++YD DT ELL DI +P +PVLIAQGGFHGLGNTR+KSSVNRSPRQTT GS GESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+APLDGSDPVA A+ I+NEL QYNP+LL K RWLVLNK+DMLPD   REEKIQSI+ GL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEMKE EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966420605|ref|WP_058463806.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella cincinnatiensis] &gt;gi|962207726|gb|KTC92655.1| essential GTPase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463806</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>560.451</Hsp_bit-score>
+      <Hsp_score>1443</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVEAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASTNLNTLIDFRYTRHYKAGNGQQGMGGNCTGKKGDDLIIKVPVGTLIYDTDTDELLGDIKDPNVPVLIAQGGFHGLGNTRFKSSVNRSPRQTTQGSSGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPVDGSDPVASAQTIINELEQYNPELLKKNRWLVLNKMDMLPDATSREEKMQSIVTGLNWKDKVFAISAISGEGTQQLCYSLMQLIDEMKESEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEAS++LNTLIDFRYTR YKA NGQ GMGGNCTGKKGDDL IKVPVGT++YD DT ELL DI  P +PVLIAQGGFHGLGNTR+KSSVNRSPRQTT GS GESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+AP+DGSDPVA A+ I+NEL QYNP+LL K RWLVLNK+DMLPD   REEK+QSI+ GL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEMKESEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966498781|ref|WP_058515547.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella santicrucis] &gt;gi|962269216|gb|KTD53230.1| essential GTPase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515547</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>557.755</Hsp_bit-score>
+      <Hsp_score>1436</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVEAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEARTDLNTLIDFRYTRHYKAGNGQQGMGGNCTGKKGDDLIIKVPVGTLIYDMDTDELLGDIKDPNVPVLIAQGGFHGLGNTRFKSSVNRSPRQTTQGSSGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPVDGSDPVASAQTIINELAQYNPELLKKNRWLVLNKMDMLPDATSREEKMQSIVTGLNWKDKVFAISAISGEGTQQLCYSLMQLIDEMKESEV</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEA +DLNTLIDFRYTR YKA NGQ GMGGNCTGKKGDDL IKVPVGT++YD DT ELL DI  P +PVLIAQGGFHGLGNTR+KSSVNRSPRQTT GS GESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+AP+DGSDPVA A+ I+NEL QYNP+LL K RWLVLNK+DMLPD   REEK+QSI+ GL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEMKESE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966407482|ref|WP_058450874.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella maceachernii] &gt;gi|962247746|gb|KTD31987.1| GTP-binding protein, GTP1/Obg family [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058450874</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>556.984</Hsp_bit-score>
+      <Hsp_score>1434</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGNGGHGCLSFRREKFVPRGGPDGGDGGDGGSVFLEGSSDLNTLVDFRYQRHYKAENGQPGMGGNCTGKKGDDLIIQVPVGTMVYDVDTGELLGDVNHAGERLLVAQGGFHGLGNTRYKSSVNRAPRQTTPGTPGEARHLRLELRVLADVGLLGLPNAGKSTLIRAVSSAKPKVADYPFTTLHPGLGVVSVSTHKSFVMADIPGLIEGAASGAGLGHRFLKHLSRTCILLHVIDVCPLDNTDPVDSAKAIINELELYDPELVNKPRWLVLNKIDMLPDEEAKQKAIQTIVDGLKWPDKVFTVSALTGEGTQQLCYSLMQLIDEMKEAEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAG GG+GCLSFRREKF+PRGGPDGGDGGDGGS++ E SSDLNTL+DFRY R YKAENGQ GMGGNCTGKKGDDL I+VPVGTMVYD DTGELL D++  G  +L+AQGGFHGLGNTRYKSSVNR+PRQTTPG+PGE+R+LRLELRVLADVGLLGLPNAGKSTLIRAVSS+K KVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTC+LLHVID+ PLD +DPV  AKAI+NEL  Y+P+L+NKPRWLVLNKIDMLPDE+ +++ IQ+I+ GL+W DKVF++SA+  +GTQ+LCY+LMQLIDEMKE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|653020114|ref|WP_027272051.1|</Hit_id>
+  <Hit_def>GTPase Obg [Legionella sainthelensi] &gt;gi|962274772|gb|KTD58703.1| essential GTPase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027272051</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>556.599</Hsp_bit-score>
+      <Hsp_score>1433</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESE</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKIEAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLIDFRYMRHYKAGNGQQGMGGNCTGKKGDDLIIKVPVGTLIYDMDTDELLGDIKEPNVPVLIAQGGFHGLGNTRFKSSVNRSPRQTTQGSLGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDIAPIDGSDPVASAQTIINELAQYNPELLKKNRWLVLNKMDTLPDTASREEKIQSIVTGLNWKDKVFAISAISGEGTQQLCYSLMQLIDEMKESE</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IK+EAG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTLIDFRY R YKA NGQ GMGGNCTGKKGDDL IKVPVGT++YD DT ELL DI +P +PVLIAQGGFHGLGNTR+KSSVNRSPRQTT GS GESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVIDIAP+DGSDPVA A+ I+NEL QYNP+LL K RWLVLNK+D LPD   REEKIQSI+ GL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEMKESE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489731315|ref|WP_003635431.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella longbeachae] &gt;gi|269987525|gb|EEZ93780.1| GTP-binding protein Obg/CgtA [Legionella longbeachae D-4968] &gt;gi|288859159|emb|CBJ13088.1| putative essential GTPase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635431</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>555.444</Hsp_bit-score>
+      <Hsp_score>1430</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESE</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKIEAGHGGNGCLSFRREKFIPRGGPDGGDGGDGGSVYFEASTDLNTLIDFRYMRHYKAGNGQQGMGGNCTGKKGDDLIIKVPVGTLIYDMDTDELLGDIKEPNVPVLIAQGGFHGLGNTRFKSSVNRSPRQTTQGSLGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPSLGVVSVSSHKSFVMADIPGLIEGASTGAGLGHRFLKHLSRTCVLLHVIDVAPIDGSDPVASAQTIINELAQYNPELLKKNRWLVLNKMDTLPDTKSREEKIQSIVTGLNWKDKVFAISAISGEGTQQLCYSLMQLIDEMKELE</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IK+EAG GGNGCLSFRREKFIPRGGPDGGDGGDGGS+YFEAS+DLNTLIDFRY R YKA NGQ GMGGNCTGKKGDDL IKVPVGT++YD DT ELL DI +P +PVLIAQGGFHGLGNTR+KSSVNRSPRQTT GS GESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGA+ GAGLGHRFLKHLSRTCVLLHVID+AP+DGSDPVA A+ I+NEL QYNP+LL K RWLVLNK+D LPD K REEKIQSI+ GL WKDKVF+ISAI  +GTQ+LCY+LMQLIDEMKE E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|762038277|ref|WP_043874214.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella massiliensis] &gt;gi|683288601|emb|CEE13463.1| GTPase Obg [Legionella massiliensis] &gt;gi|685071106|emb|CDZ77725.1| GTP-binding protein obg [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_043874214</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.977</Hsp_bit-score>
+      <Hsp_score>1421</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAIIKVEAGNGGHGCLSFRREKFVPRGGPDGGDGGDGGSVFLEANSNLNTLIDFRYQRQFKAENGQQGMGGNCTGKKGDDLIIQVPVGTMVYDIDSGELLGDINHAGERLLIAQGGFHGLGNTRYKSSINRAPRQTSPGTPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSAKPKVADYPFTTLHPGLGVVSVSVHKSFVMADIPGLIEGAADGAGLGHRFLKHLSRTCVLLHVVDMVPLDGSSPVDSAKAIIKELEVYDPELVNKPRWLVLNKMDMLPDEQARHDAEKAIVDGLDWQDKVFTISAISGEGTQQLCYSLMQLIDEMKEAEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GG+GCLSFRREKF+PRGGPDGGDGGDGGS++ EA+S+LNTLIDFRY RQ+KAENGQ GMGGNCTGKKGDDL I+VPVGTMVYD D+GELL DI+  G  +LIAQGGFHGLGNTRYKSS+NR+PRQT+PG+PGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSS+K KVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHV+D+ PLDGS PV  AKAI+ EL  Y+P+L+NKPRWLVLNK+DMLPDE+ R +  ++I+ GL+W+DKVF+ISAI  +GTQ+LCY+LMQLIDEMKE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|654938088|ref|WP_028388334.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028388334</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.592</Hsp_bit-score>
+      <Hsp_score>1420</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAVIKVEAGNGGAGCLSFRREKFVPRGGPDGGDGGDGGSVFLEANSDLNTLVDFRYQRHYKAENGQPGMGGNCTGKKGDDLIIQVPVGTMVYDIDSDELLGDINQAGERLLIAQGGFHGLGNTRYKSSINRAPRQTSPGTPGESRQIRLELRVLADVGLLGLPNAGKSTLIRAVSSAKPKVADYPFTTLHPGLGVVSVSSHKSFVMADIPGLIEGAASGAGLGHRFLKHLSRTCVLLHVVDMAPLDGTDPVDSAKAIIHELEVYDPELLDKPRWLVLNKMDMLPDEKTRQDAAQAIVSGLQWQGKVFIISAISGEGTQQLCFSLMQLIDEMKEAEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GG GCLSFRREKF+PRGGPDGGDGGDGGS++ EA+SDLNTL+DFRY R YKAENGQ GMGGNCTGKKGDDL I+VPVGTMVYD D+ ELL DI+Q G  +LIAQGGFHGLGNTRYKSS+NR+PRQT+PG+PGESR +RLELRVLADVGLLGLPNAGKSTLIRAVSS+K KVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHV+D+APLDG+DPV  AKAI++EL  Y+P+LL+KPRWLVLNK+DMLPDEK R++  Q+I+ GL+W+ KVF ISAI  +GTQ+LC++LMQLIDEMKE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966510218|ref|WP_058526809.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella erythra] &gt;gi|962212979|gb|KTC97854.1| GTP-binding protein, GTP1/Obg family [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058526809</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.436</Hsp_bit-score>
+      <Hsp_score>1417</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>314</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAIIKVEAGNGGHGCLSFRREKFVPKGGPDGGDGGDGGSVFLEATSDLNTLVDFRYQRHYKAQNGQPGMGGNCTGKKGDDLIIKVPVGTMVFDIDTHELIGDIKHAGDRLLIAQGGFHGLGNTRFKSSVNRAPRQTTQGTPGEARHLRLELRVLADVGLLGLPNAGKSTLIRAVSSAKPKVADYPFTTLHPGLGVVDVSSHKSFVMADIPGLIEGAAEGAGLGHRFLKHLSRTCILLHVVDIAPLDGSDPVVSAKAIINELAEYDPELVHKPRWLVLNKIDMLPDEEARQQAVDNLVKGLDWQGKVYTISAIKAEGTQQLCYDLMQLIDEMKEAET</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IKVEAG GG+GCLSFRREKF+P+GGPDGGDGGDGGS++ EA+SDLNTL+DFRY R YKA+NGQ GMGGNCTGKKGDDL IKVPVGTMV+D DT EL+ DI   G  +LIAQGGFHGLGNTR+KSSVNR+PRQTT G+PGE+R+LRLELRVLADVGLLGLPNAGKSTLIRAVSS+K KVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA+GAGLGHRFLKHLSRTC+LLHV+DIAPLDGSDPV  AKAI+NEL +Y+P+L++KPRWLVLNKIDMLPDE+ R++ + +++KGL+W+ KV++ISAI+++GTQ+LCY LMQLIDEMKE+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966472670|ref|WP_058503433.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella nautarum] &gt;gi|962254695|gb|KTD38857.1| GTP-binding protein, GTP1/Obg family [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058503433</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.666</Hsp_bit-score>
+      <Hsp_score>1415</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEAIIKIEAGNGGHGCLSFRREKFVPRGGPDGGDGGDGGSVFLEASSDLNTLVDFRYQRHYKAENGQPGMGGNCTGKKGDDLIISVPVGTMVYDIDSGELLGDINHAGERLLVAQGGFHGLGNTRYKSSVNRAPRQTTQGTPGEARHLRLELRVLADVGLLGLPNAGKSTLIRAVSSAKPKVADYPFTTLHPGLGVVSVSAHKSFVMADIPGLIEGAASGAGLGHRFLKHLSRTCVLLHVIDLCPQDDTNPIDSAKAIINELEVYDPELVNKPRWLVLNKVDMFPDEESKQKAVQSLIDGLQWKDKVFTISALSGVGTQQLCYSLMQLIDEMKEAEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEA+IK+EAG GG+GCLSFRREKF+PRGGPDGGDGGDGGS++ EASSDLNTL+DFRY R YKAENGQ GMGGNCTGKKGDDL I VPVGTMVYD D+GELL DI+  G  +L+AQGGFHGLGNTRYKSSVNR+PRQTT G+PGE+R+LRLELRVLADVGLLGLPNAGKSTLIRAVSS+K KVADYPFTTLHPGLGVV VS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHVID+ P D ++P+  AKAI+NEL  Y+P+L+NKPRWLVLNK+DM PDE+ +++ +QS+I GL+WKDKVF+ISA+   GTQ+LCY+LMQLIDEMKE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966403123|ref|WP_058446718.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella feeleii] &gt;gi|962211489|gb|KTC96381.1| GTP-binding protein, GTP1/Obg family [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058446718</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.895</Hsp_bit-score>
+      <Hsp_score>1413</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVDAGNGGHGCLSFRREKFVPFGGPDGGDGGDGGSVVLEANANLNTLVDFRYQRHYKAENGQPGMGSNCTGKKGDDCVIQVPVGTMVFDVDTGELLGDIKQAGERLLVAQGGFHGLGNTRYKSSVNRAPRQTSPGTPGESRHLRLELRVLADVGLLGLPNAGKSTLIRSVSSAKPKVADYPFTTLHPGLGVVRVSAHKSFVMADIPGLIEGAASGAGLGHRFLKHLSRTCVLLHVVDVVPLDESDPVESAKAILNELNEYDPELLDKPRWLVLNKIDMLPDEQIRNKTVQAIVDGLQWQGKVFAISAMTGEGTQQLCYSLMQLIDEMKEAEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKV+AG GG+GCLSFRREKF+P GGPDGGDGGDGGS+  EA+++LNTL+DFRY R YKAENGQ GMG NCTGKKGDD  I+VPVGTMV+D DTGELL DI Q G  +L+AQGGFHGLGNTRYKSSVNR+PRQT+PG+PGESR+LRLELRVLADVGLLGLPNAGKSTLIR+VSS+K KVADYPFTTLHPGLGVVRVS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHV+D+ PLD SDPV  AKAILNEL +Y+P+LL+KPRWLVLNKIDMLPDE+ R + +Q+I+ GL+W+ KVF+ISA+  +GTQ+LCY+LMQLIDEMKE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966471616|ref|WP_058502531.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella israelensis] &gt;gi|962231347|gb|KTD15917.1| GTP-binding protein, GTP1/Obg family [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058502531</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>548.51</Hsp_bit-score>
+      <Hsp_score>1412</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGHGGYGCLSFRREKYIPRGGPDGGDGGDGGSIYFVASHDLNTLVDFRYQRHFKAENGQPGMGSNRTGKKGDDLYIKVPVGTMVFDADSGELLADIHKPEQPVLIAKGGFHGLGNTRFKSSVNRAPRQTTPGTPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSAKPKVADYPFTTLHPNLGVVRVSSHKSFVMADIPGLIEGAASGAGLGHHFLKHLSRTCILLHVIDIAPIDGSDPVEAAKSIINELSEYSTDLLQKPRWLVLNKIDTITDEKNRQDLVKSIIERLHWKDRVFEISAINGEGTQKLCYSLMQFIDEMREAKA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAG GG GCLSFRREK+IPRGGPDGGDGGDGGSIYF AS DLNTL+DFRY R +KAENGQ GMG N TGKKGDDL IKVPVGTMV+DAD+GELLADI +P  PVLIA+GGFHGLGNTR+KSSVNR+PRQTTPG+PGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSS+K KVADYPFTTLHP LGVVRVS +KSFVMADIPGLIEGAA GAGLGH FLKHLSRTC+LLHVIDIAP+DGSDPV  AK+I+NEL++Y+ DLL KPRWLVLNKID + DEK R++ ++SII+ L WKD+VF ISAI  +GTQ+LCY+LMQ IDEM+E++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|518048082|ref|WP_019218290.1|</Hit_id>
+  <Hit_def>GTPase ObgE [Legionella tunisiensis]</Hit_def>
+  <Hit_accession>WP_019218290</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>547.74</Hsp_bit-score>
+      <Hsp_score>1410</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVDAGNGGHGCLSFRREKFVPFGGPDGGDGGDGGSVFLEANSNLNTLVDFRYQRHYKAENGQPGMGSNCTGKKGDDCVIQVPVGTMVFDVDTGELLGDIKQAGERLLVAQGGFHGLGNTRYKSSVNRAPRQTSPGTPGESRHLRLELRVLADVGLLGLPNAGKSTLIRAVSSAKPKVADYPFTTLHPGLGVVRVSVHKSFVMADIPGLIEGAASGAGLGHRFLKHLSRTCVLLHVVDVVPADESNPVESAKAILNELKEYDPELLDKPRWLVLNKIDMLPDEHLRQKTVQAIVDGLQWQGKIFAISAMTGEGTQQLCYSLMQLIDEMKEAEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKV+AG GG+GCLSFRREKF+P GGPDGGDGGDGGS++ EA+S+LNTL+DFRY R YKAENGQ GMG NCTGKKGDD  I+VPVGTMV+D DTGELL DI Q G  +L+AQGGFHGLGNTRYKSSVNR+PRQT+PG+PGESR+LRLELRVLADVGLLGLPNAGKSTLIRAVSS+K KVADYPFTTLHPGLGVVRVS +KSFVMADIPGLIEGAA GAGLGHRFLKHLSRTCVLLHV+D+ P D S+PV  AKAILNEL +Y+P+LL+KPRWLVLNKIDMLPDE  R++ +Q+I+ GL+W+ K+F+ISA+  +GTQ+LCY+LMQLIDEMKE+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|769989248|ref|WP_045105199.1|</Hit_id>
+  <Hit_def>Obg family GTPase CgtA [Legionella hackeliae] &gt;gi|731151169|emb|CEK09715.1| GTPase obg [Legionella hackeliae] &gt;gi|962225575|gb|KTD10219.1| GTP-binding protein, GTP1/Obg family [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045105199</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>547.354</Hsp_bit-score>
+      <Hsp_score>1409</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>MKFVDEALIKVEAGKGGNGCLSFRREKFIPRGGPDGGDGGDGGSIYFEASSDLNTLIDFRYTRQYKAENGQSGMGGNCTGKKGDDLTIKVPVGTMVYDADTGELLADISQPGIPVLIAQGGFHGLGNTRYKSSVNRSPRQTTPGSPGESRNLRLELRVLADVGLLGLPNAGKSTLIRAVSSSKAKVADYPFTTLHPGLGVVRVSPYKSFVMADIPGLIEGAAQGAGLGHRFLKHLSRTCVLLHVIDIAPLDGSDPVADAKAILNELTQYNPDLLNKPRWLVLNKIDMLPDEKEREEKIQSIIKGLEWKDKVFSISAIESKGTQELCYALMQLIDEMKESEA</Hsp_qseq>
+      <Hsp_hseq>MKFVDEALIKVEAGNGGHGCLSFRREKFVPRGGPDGGDGGDGGSVFLEASSELNTLVDFRYQRHYKADNGQPGMGGNCTGKKGEDLIIRVPVGTMVFDVDTGELLGDINQAGERLLVAQGGFHGLGNTRYKSSTNRAPRQTTPGTPGEARHLRLELRVLADVGLLGLPNAGKSTLIRAVSSAKPKVADYPFTTLHPSLGVVGVSSHKSFVMADIPGLIEGAAEGAGLGHRFLKHLSRTCVLLHVIDIAPLDETNPVDSAKAIIKELGEYDPELLNKPRWLVLNKIDLIHDEAERKKAMQAIIDGLHWKEKVFCISAISGEGTQQLSYALMQLIDEMREAEA</Hsp_hseq>
+      <Hsp_midline>MKFVDEALIKVEAG GG+GCLSFRREKF+PRGGPDGGDGGDGGS++ EASS+LNTL+DFRY R YKA+NGQ GMGGNCTGKKG+DL I+VPVGTMV+D DTGELL DI+Q G  +L+AQGGFHGLGNTRYKSS NR+PRQTTPG+PGE+R+LRLELRVLADVGLLGLPNAGKSTLIRAVSS+K KVADYPFTTLHP LGVV VS +KSFVMADIPGLIEGAA+GAGLGHRFLKHLSRTCVLLHVIDIAPLD ++PV  AKAI+ EL +Y+P+LLNKPRWLVLNKID++ DE ER++ +Q+II GL WK+KVF ISAI  +GTQ+L YALMQLIDEM+E+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

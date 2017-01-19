@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_164869</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834225</BlastOutput_query-def>
+  <BlastOutput_query-len>220</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_164869</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834225</Iteration_query-def>
+  <Iteration_query-len>220</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250820|ref|WP_010948360.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|52842866|ref|YP_096665.1| transmembrane protein [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629977|gb|AAU28718.1| transmembrane protein [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509371|gb|AEW52895.1| transmembrane protein [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490616|gb|AGH52461.1| hypothetical protein LPE509_00370 [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083333|gb|AGN15581.1| hypothetical protein LP6_2692 [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772813|emb|CZI16721.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998775738|emb|CZG61262.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998778324|emb|CZG76007.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998784563|emb|CZG86757.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998787515|emb|CZG59601.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998796528|emb|CZI01502.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998800301|emb|CZL04173.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998805816|emb|CZK07908.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998808350|emb|CZH87592.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998811920|emb|CZH79543.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998814281|emb|CZG61650.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998817736|emb|CZL60127.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998820838|emb|CZL61431.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998826800|emb|CZK08908.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998832562|emb|CZI06257.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998835773|emb|CZK88745.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998837838|emb|CZJ72003.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998842312|emb|CZL13850.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998844730|emb|CZK29464.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998847681|emb|CZK67213.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998850232|emb|CZI37262.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998853785|emb|CZL26688.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998856481|emb|CZL33517.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998859804|emb|CZL74218.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998862660|emb|CZK18705.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998865386|emb|CZJ40793.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998869873|emb|CZJ36480.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998871068|emb|CZM17004.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998874556|emb|CZK38842.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998877457|emb|CZL99306.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998880524|emb|CZI86744.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998888046|emb|CZL50719.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998889219|emb|CZK22717.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998895501|emb|CZJ98974.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998906131|emb|CZK57026.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998909702|emb|CZL09715.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998915827|emb|CZK61581.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998918296|emb|CZK82369.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998921267|emb|CZL38355.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998927572|emb|CZL63596.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998930659|emb|CZK75138.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998933936|emb|CZL76316.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998939874|emb|CZK76229.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998945951|emb|CZK94110.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998948995|emb|CZK82134.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998958619|emb|CZM01669.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998961525|emb|CZK26011.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998964608|emb|CZK04783.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998966970|emb|CZM53377.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998970512|emb|CZK54814.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998973797|emb|CZK26388.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998979502|emb|CZL59198.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998985851|emb|CZJ98989.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998988719|emb|CZL48628.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998998019|emb|CZJ88243.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999007991|emb|CZK26918.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999012924|emb|CZL43725.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999016846|emb|CZL68222.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999022644|emb|CZL14129.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999025385|emb|CZK74902.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999037142|emb|CZL55062.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999046866|emb|CZL77642.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999061673|emb|CZL15855.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999067363|emb|CZJ17843.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999076913|emb|CZG59669.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999080257|emb|CZJ92370.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999082784|emb|CZK77592.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999090506|emb|CZK41942.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999092500|emb|CZL41381.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999095285|emb|CZG88350.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999098700|emb|CZG59533.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999101128|emb|CZL67318.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999110429|emb|CZL15938.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999113792|emb|CZL51201.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999116427|emb|CZK49537.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999126339|emb|CZK79686.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999131605|emb|CZL95569.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999134824|emb|CZL17616.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999138074|emb|CZK27276.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999141811|emb|CZL45264.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999144544|emb|CZK68810.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999147664|emb|CZL50636.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999156846|emb|CZH74383.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999175804|emb|CZL05377.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999191270|emb|CZI17358.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999194393|emb|CZI43295.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999200258|emb|CZG60240.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999203704|emb|CZI43290.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999210028|emb|CZK76202.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999219290|emb|CZL30064.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999222385|emb|CZI34645.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999335289|emb|CZK73033.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1002075568|emb|CZQ94443.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1002079074|emb|CZQ94909.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1003020165|emb|CZR21682.1| transmembrane protein [Legionella pneumophila] &gt;gi|1003023045|emb|CZR20497.1| transmembrane protein [Legionella pneumophila] &gt;gi|1003026887|emb|CZR18243.1| transmembrane protein [Legionella pneumophila] &gt;gi|1073865702|gb|AOU05653.1| hypothetical protein A9E97_13410 [Legionella pneumophila] &gt;gi|1073868671|gb|AOU08621.1| hypothetical protein A9E98_13465 [Legionella pneumophila] &gt;gi|1073871666|gb|AOU11615.1| hypothetical protein A9F03_13580 [Legionella pneumophila] &gt;gi|1073874533|gb|AOU14481.1| hypothetical protein A9E99_13395 [Legionella pneumophila] &gt;gi|1073877591|gb|AOU17538.1| hypothetical protein A9F00_13580 [Legionella pneumophila] &gt;gi|1073880554|gb|AOU20500.1| hypothetical protein A9F01_13400 [Legionella pneumophila] &gt;gi|1073883551|gb|AOU23496.1| hypothetical protein A9F02_13580 [Legionella pneumophila] &gt;gi|1073886543|gb|AOU26487.1| hypothetical protein A9E77_13615 [Legionella pneumophila] &gt;gi|1073889512|gb|AOU29455.1| hypothetical protein A9E78_13415 [Legionella pneumophila] &gt;gi|1073892496|gb|AOU32438.1| hypothetical protein A9E79_13605 [Legionella pneumophila] &gt;gi|1073895464|gb|AOU35405.1| hypothetical protein A9E80_13425 [Legionella pneumophila] &gt;gi|1073898422|gb|AOU38362.1| hypothetical protein A9E81_13425 [Legionella pneumophila] &gt;gi|1073901388|gb|AOU41327.1| hypothetical protein A9E82_13425 [Legionella pneumophila] &gt;gi|1073904297|gb|AOU44235.1| hypothetical protein A9E83_13155 [Legionella pneumophila] &gt;gi|1073907250|gb|AOU47187.1| hypothetical protein A9E84_13425 [Legionella pneumophila] &gt;gi|1073910268|gb|AOU50203.1| hypothetical protein A9E85_13400 [Legionella pneumophila] &gt;gi|1073913280|gb|AOU53212.1| hypothetical protein A9E86_13180 [Legionella pneumophila] &gt;gi|1073916240|gb|AOU56171.1| hypothetical protein A9E87_13425 [Legionella pneumophila] &gt;gi|1073919203|gb|AOU59133.1| hypothetical protein A9E88_13405 [Legionella pneumophila] &gt;gi|1073922106|gb|AOU62035.1| hypothetical protein A9E89_13145 [Legionella pneumophila] &gt;gi|1073925189|gb|AOU65116.1| hypothetical protein A9E90_13670 [Legionella pneumophila] &gt;gi|1073928152|gb|AOU68078.1| hypothetical protein A9E91_13405 [Legionella pneumophila] &gt;gi|1073931138|gb|AOU71047.1| hypothetical protein A9E92_13445 [Legionella pneumophila] &gt;gi|1073934507|gb|AOU74066.1| hypothetical protein A9E93_13410 [Legionella pneumophila] &gt;gi|1073937472|gb|AOU84471.1| hypothetical protein A9E94_13455 [Legionella pneumophila] &gt;gi|1073947738|gb|AOU87462.1| hypothetical protein A9E95_13595 [Legionella pneumophila] &gt;gi|1073950666|gb|AOU90389.1| hypothetical protein A9E96_13180 [Legionella pneumophila] &gt;gi|1104004064|emb|SFZ47004.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1129969324|gb|APT99683.1| hypothetical protein AVR58_13380 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948360</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.833</Hsp_bit-score>
+      <Hsp_score>1174</Hsp_score>
+      <Hsp_evalue>7.51427e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|653015686|ref|WP_027267715.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267715</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.136</Hsp_bit-score>
+      <Hsp_score>1167</Hsp_score>
+      <Hsp_evalue>1.00135e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFKLVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPF+LVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|504655602|ref|WP_014842704.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|395128662|emb|CCD06880.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|999248069|emb|CZH50680.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999269721|emb|CZO25327.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999465427|emb|CZM26942.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999468317|emb|CZO06585.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999474577|emb|CZM55847.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999478148|emb|CZN24185.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999481343|emb|CZM62210.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999484373|emb|CZN95816.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999487555|emb|CZL96219.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999490746|emb|CZN59384.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999493946|emb|CZL95710.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999500374|emb|CZN58258.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999503596|emb|CZN88161.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999506792|emb|CZM93950.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999510001|emb|CZG25159.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999513184|emb|CZN18375.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999515205|emb|CZM27469.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999519773|emb|CZM49103.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999532641|emb|CZO31337.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999534721|emb|CZN68054.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999539034|emb|CZM52568.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999542312|emb|CZO08772.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999545428|emb|CZO44877.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999548610|emb|CZN74461.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999551816|emb|CZN97994.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999555193|emb|CZM95486.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999558206|emb|CZO44548.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999561388|emb|CZM28524.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999564599|emb|CZO44721.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999567776|emb|CZM41615.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999570975|emb|CZN40244.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999574165|emb|CZN77609.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999580656|emb|CZO02138.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999584168|emb|CZO15638.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999585942|emb|CZN11322.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999590553|emb|CZM23559.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999593428|emb|CZN33408.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999596626|emb|CZN95986.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999599832|emb|CZO23028.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999603312|emb|CZL65325.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999606227|emb|CZN37652.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999609723|emb|CZN42551.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999615899|emb|CZM32826.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999618952|emb|CZN74641.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999622372|emb|CZO53756.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999625584|emb|CZN52205.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999628999|emb|CZM43440.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999631877|emb|CZM47475.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999635083|emb|CZN38854.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999638265|emb|CZN36653.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999641461|emb|CZO64685.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999644632|emb|CZO30034.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999648169|emb|CZN77652.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999650980|emb|CZN94208.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999654256|emb|CZN90947.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999657634|emb|CZL99225.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999660635|emb|CZM49707.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999664149|emb|CZM83876.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999667040|emb|CZM23597.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999670234|emb|CZL72794.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999673621|emb|CZM17832.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999676615|emb|CZN63247.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999679650|emb|CZM64165.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999682845|emb|CZM71115.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999686071|emb|CZN94095.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999689589|emb|CZN09017.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999692602|emb|CZN82769.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999696000|emb|CZM99869.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999698194|emb|CZM31815.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999702523|emb|CZM45446.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999705607|emb|CZL57836.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999708631|emb|CZN40408.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999711883|emb|CZM85284.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999715434|emb|CZM90367.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999718475|emb|CZO26206.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999721451|emb|CZM69251.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999724791|emb|CZN19106.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999728128|emb|CZL88017.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999731684|emb|CZO22703.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999734933|emb|CZM01385.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999738165|emb|CZO46538.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999741135|emb|CZM26966.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999744563|emb|CZN06025.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999747962|emb|CZM01922.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999750857|emb|CZL81406.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999754065|emb|CZM70195.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999757408|emb|CZM82123.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999760445|emb|CZM17254.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999763840|emb|CZN09069.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999767037|emb|CZM54909.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999769874|emb|CZN42048.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999773578|emb|CZH74926.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999776510|emb|CZL88124.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999783374|emb|CZH48939.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999786550|emb|CZM16309.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999789859|emb|CZO50690.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999793194|emb|CZO50312.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999796441|emb|CZI07068.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999799608|emb|CZO59836.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1003035450|emb|CZR22774.1| transmembrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842704</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.825</Hsp_bit-score>
+      <Hsp_score>1161</Hsp_score>
+      <Hsp_evalue>7.96679e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGSLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVG LE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|764926966|ref|WP_044497804.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|999455552|emb|CZH45916.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999462193|emb|CZG04624.1| Alpha/beta hydrolase family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_044497804</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.284</Hsp_bit-score>
+      <Hsp_score>1157</Hsp_score>
+      <Hsp_evalue>3.28122e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGSLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGEEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVG LE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQG+EDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1005410824|ref|WP_061640056.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|998792856|emb|CZI70556.1| Alpha/beta hydrolase family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640056</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.743</Hsp_bit-score>
+      <Hsp_score>1153</Hsp_score>
+      <Hsp_evalue>1.26528e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELILEGLVGPLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSIRFNFRGVGQSGGHYDNGIGESDDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASYCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHEL+LEGLVGPLE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPS+RFNFRGVGQSGGHYDNGIGES+DMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTAS+CEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|742357505|ref|WP_038839665.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|998781138|emb|CZJ42283.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998824314|emb|CZG46442.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998829431|emb|CZG77555.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998883295|emb|CZI75320.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998898864|emb|CZJ47077.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998936514|emb|CZM50612.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998952269|emb|CZJ35024.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999000446|emb|CZG78044.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999057990|emb|CZM56572.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999104139|emb|CZI04886.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999128750|emb|CZH01948.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999153827|emb|CZM16000.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999162915|emb|CZM04223.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999236355|emb|CZH06978.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1002085444|emb|CZQ99216.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1002088105|emb|CZQ79283.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1104007518|emb|SFZ47088.1| Alpha/beta hydrolase family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839665</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>2.31358e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGSLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGRSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGTEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVG LE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVG+SGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQG EDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|653014229|ref|WP_027266278.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266278</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.973</Hsp_bit-score>
+      <Hsp_score>1151</Hsp_score>
+      <Hsp_evalue>3.21549e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGSLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGRSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGTEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAIRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVG LE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVG+SGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQG EDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDA+RDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|504657662|ref|WP_014844764.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|395131746|emb|CCD10039.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|761987327|dbj|GAN24677.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|761990401|dbj|GAN18625.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|761993591|dbj|GAN21731.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|998790046|emb|CZH04080.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998892926|emb|CZJ09301.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998982053|emb|CZI89779.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999106921|emb|CZI83940.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999231195|emb|CZI61599.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1002082166|emb|CZQ96314.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1032658738|gb|ANH14009.1| hypothetical protein A5478_13575 [Legionella pneumophila] &gt;gi|1032661700|gb|ANH16970.1| hypothetical protein A5480_13570 [Legionella pneumophila] &gt;gi|1032664678|gb|ANH19947.1| hypothetical protein A5479_13610 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844764</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.203</Hsp_bit-score>
+      <Hsp_score>1149</Hsp_score>
+      <Hsp_evalue>4.87902e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDVDTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESDDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASYCEHALLITIAPPVHHYDYKEFEPPPHPWFIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPED DTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGES+DMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTAS+CEHALLITIAPPVHHYDYKEFEPPPHPW IIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|499535747|ref|WP_011216530.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|53755332|emb|CAH16828.1| hypothetical protein lpl2587 [Legionella pneumophila str. Lens] &gt;gi|1080003003|gb|AOW53575.1| hypothetical protein BE841_14470 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005251|gb|AOW55531.1| hypothetical protein BE842_09170 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008925|gb|AOW58913.1| hypothetical protein BE843_11940 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011408|gb|AOW60899.1| hypothetical protein BE844_06830 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015500|gb|AOW64373.1| hypothetical protein BE845_10045 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017652|gb|AOW66297.1| hypothetical protein BE846_04595 [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216530</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>1.19975e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGRSGGHYDKGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGTEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVG+SGGHYD GIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQG EDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|500496240|ref|WP_011947573.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|148280378|gb|ABQ54466.1| hydrolase of the alpha/beta superfamily [Legionella pneumophila str. Corby] &gt;gi|761996884|dbj|GAN31059.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|998802654|emb|CZH89877.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999004486|emb|CZI44625.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999151600|emb|CZH56489.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999158633|emb|CZJ91572.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999166087|emb|CZG70870.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999168342|emb|CZI52879.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999177447|emb|CZJ85540.1| Alpha/beta hydrolase family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947573</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>5.16272e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPLPHPWLIIQGKEDEVVPFELVSNFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMNAIRDQVCL</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEP PHPWLIIQGKEDEVVPFELVS FASQSSQVLPVIEFVETGHFFHGKLLILKEKLM+A+RDQVCL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|506459837|ref|WP_015961737.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|53752435|emb|CAH13867.1| hypothetical protein lpp2714 [Legionella pneumophila str. Paris] &gt;gi|536611699|gb|ERB40217.1| membrane protein [Legionella pneumophila str. 121004] &gt;gi|541998873|gb|ERH44886.1| membrane protein [Legionella pneumophila str. Leg01/53] &gt;gi|542000388|gb|ERH46375.1| membrane protein [Legionella pneumophila str. Leg01/11] &gt;gi|542123177|gb|ERI49486.1| membrane protein [Legionella pneumophila str. Leg01/20] &gt;gi|762000255|dbj|GAN27987.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|999173370|emb|CZH69333.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999182570|emb|CZG28305.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999188735|emb|CZI77531.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999213667|emb|CZG44597.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999217043|emb|CZI71504.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999225887|emb|CZG31721.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999361056|emb|CZI00209.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999374014|emb|CZG02515.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999377383|emb|CZI91932.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999380682|emb|CZH52615.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999383374|emb|CZI14551.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999387497|emb|CZG11938.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999390304|emb|CZI11921.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999397031|emb|CZG15350.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999406456|emb|CZG44734.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999409372|emb|CZH70707.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999412614|emb|CZG28511.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999416684|emb|CZG16114.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999419314|emb|CZG44565.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999422575|emb|CZH44065.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999426518|emb|CZG25698.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999429080|emb|CZG29093.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999432669|emb|CZG04185.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999435773|emb|CZH66623.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999438314|emb|CZG43883.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999442282|emb|CZJ85941.1| transmembrane protein [Legionella pneumophila] &gt;gi|999445295|emb|CZH55471.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999448557|emb|CZG02513.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999458393|emb|CZJ91368.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999496986|emb|CZI09040.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999526363|emb|CZI62600.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999529245|emb|CZI18382.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999577035|emb|CZI01251.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999612336|emb|CZI05292.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1003031886|emb|CZR28495.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1041019630|gb|ANN96690.1| hypothetical protein A9P84_13665 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961737</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>5.76144e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDVDTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESDDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASYCEHALLITIAPPVHHYDYKEFDPLPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPED DTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGES+DMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTAS+CEHALLITIAPPVHHYDYKEF+P PHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|754877574|ref|WP_042237487.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042237487</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>1.12515e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDVDTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESDDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASYCEHALLITIAPPVHHYDYKEFEPLPHPWFIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPED DTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGES+DMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTAS+CEHALLITIAPPVHHYDYKEFEP PHPW IIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|652974030|ref|WP_027226744.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|998924316|emb|CZJ96956.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998942561|emb|CZK06697.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998954612|emb|CZK42732.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998976161|emb|CZJ64962.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998991489|emb|CZK06773.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999009854|emb|CZK04160.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999018894|emb|CZJ60243.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999028008|emb|CZJ91789.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999031568|emb|CZG69280.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999034024|emb|CZJ96633.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999040231|emb|CZJ66703.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999043102|emb|CZJ78606.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999048943|emb|CZJ85323.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999052200|emb|CZJ67122.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999055182|emb|CZJ98349.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999064310|emb|CZJ77438.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999070135|emb|CZJ76079.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999073406|emb|CZK03615.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999085651|emb|CZJ98960.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999184527|emb|CZP93430.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999198335|emb|CZP08024.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999206410|emb|CZP58055.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999227825|emb|CZP39262.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999235076|emb|CZP53071.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999240572|emb|CZH76734.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999244241|emb|CZH72090.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999249451|emb|CZG79653.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999252918|emb|CZG92948.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999256179|emb|CZP74711.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999259226|emb|CZP40059.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999262126|emb|CZH05297.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999265430|emb|CZP03226.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999272102|emb|CZP52921.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999274371|emb|CZH09869.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999277809|emb|CZP30469.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999281485|emb|CZP21785.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999284133|emb|CZP49402.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999290864|emb|CZP28257.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999296736|emb|CZP49177.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999299975|emb|CZP26682.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999307182|emb|CZH66444.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999309568|emb|CZP20697.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999315946|emb|CZI02150.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999318969|emb|CZP57377.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999322221|emb|CZH92981.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999324905|emb|CZH12915.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999327616|emb|CZH28861.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999337974|emb|CZP43245.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999340760|emb|CZH00040.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999344138|emb|CZP91508.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999347426|emb|CZP59913.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999353755|emb|CZP53436.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999356864|emb|CZP75726.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999363230|emb|CZP71763.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999366993|emb|CZP72455.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999369589|emb|CZP86497.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999392507|emb|CZP95981.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999398755|emb|CZP99261.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999403245|emb|CZP46711.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999450824|emb|CZP31226.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999469963|emb|CZG81634.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999521376|emb|CZP45894.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999778508|emb|CZH02283.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1003028367|emb|CZR23405.1| transmembrane protein [Legionella pneumophila] &gt;gi|1005834330|gb|AMQ29056.1| membrane protein [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434085|gb|AMV15712.1| Alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|1041016633|gb|ANN93694.1| hypothetical protein A9P85_14080 [Legionella pneumophila] &gt;gi|1103997825|emb|SFZ47005.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1104000965|emb|SFZ47011.1| Alpha/beta hydrolase family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226744</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>1.21498e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDVDTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSIRFNFRGVGQSGGHYDNGIGESDDMRKLVRQWHSEQPQAQNIFVGFSFGSYVAYRTASYCEHALLITIAPPVHHYDYKEFEPLPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPED DTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPS+RFNFRGVGQSGGHYDNGIGES+DMRKLVRQWHSEQPQAQNIF GFSFGSYVAYRTAS+CEHALLITIAPPVHHYDYKEFEP PHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1004334784|ref|WP_061513709.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513709</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>3.19087e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHKLMLEGLVGPLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFRELHIPSVRFNFRGVGQSGGHYDNGIGESDDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPLPYPWLIIQGKEDEVVPFELVSDFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDSVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEH+LMLEGLVGPLE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR F+ELHIPSVRFNFRGVGQSGGHYDNGIGES+DMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEP P+PWLIIQGKEDEVVPFELVS+FASQSSQVLPVIEFVETGHFFHGKLLILKEKLMD+VRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|502866943|ref|WP_013101919.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|295650208|gb|ADG26055.1| transmembrane protein [Legionella pneumophila 2300/99 Alcoy] &gt;gi|998912295|emb|CZG95678.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|998993981|emb|CZI47783.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999286759|emb|CZI74625.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999293118|emb|CZI62804.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999302234|emb|CZI54839.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999312077|emb|CZI88580.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1002091786|emb|CZR06415.1| Alpha/beta hydrolase family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101919</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>8.66045e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPLPHPWLIIQGKEDEVVPFELVSNFASQLSQVLPVIEFVETGHFFHGKLLILKEKLMNAIRDQVCL</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEP PHPWLIIQGKEDEVVPFELVS FASQ SQVLPVIEFVETGHFFHGKLLILKEKLM+A+RDQVCL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1006048175|ref|WP_061722407.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|999332863|emb|CZG02514.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999350114|emb|CZH27569.1| Alpha/beta hydrolase family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061722407</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.039</Hsp_bit-score>
+      <Hsp_score>1133</Hsp_score>
+      <Hsp_evalue>1.74787e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MRFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDVDTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSIRFNFRGVGQSGGHYDNGIGESDDMRKLVRQWHSEQPQAQNIFVGFSFGSYVAYRTASYCEHALLITIAPPVHHYDYKEFEPLPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>M FTDKLNTPGEHELMLEGLVGPLE VLTVPED DTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPS+RFNFRGVGQSGGHYDNGIGES+DMRKLVRQWHSEQPQAQNIF GFSFGSYVAYRTAS+CEHALLITIAPPVHHYDYKEFEP PHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|756828857|ref|WP_042645975.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042645975</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>3.41336e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGSHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPLPHPWLIIQGKEDEVVPFELVSNFASQLSQVLPVIEFVETGHFFHGKLLILKEKLMNAIRDQVCL</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSG HYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEP PHPWLIIQGKEDEVVPFELVS FASQ SQVLPVIEFVETGHFFHGKLLILKEKLM+A+RDQVCL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|654928542|ref|WP_028378973.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378973</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>3.60585e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHGLMLEGLVGPLEAVLTVPEDADTRYIAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASRCEHALLITIAPPVHHYHYKEFEPAPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFGETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEH LMLEGLVGPLE VLTVPEDADTRY+AFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTAS CEHALLITIAPPVHHY YKEFEP PHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEF ETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1004026932|ref|WP_061489156.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061489156</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.113</Hsp_bit-score>
+      <Hsp_score>1128</Hsp_score>
+      <Hsp_evalue>9.78654e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTAFHCEHALLITIAPPVHHYDYKEFEPLPHPWLIIQGKEDEVVPFELVSNFASQLSQVLPVIEFVETGHFFHGKLLILKEKLMNAIRDQVCL</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTA HCEHALLITIAPPVHHYDYKEFEP PHPWLIIQGKEDEVVPFELVS FASQ SQVLPVIEFVETGHFFHGKLLILKEKLM+A+RDQVCL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1004014462|ref|WP_061483732.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483732</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>7.45e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHELMLEGLVGPLEAVLTVPEDADIRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELRIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVGQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYHYKEFDPPPHPWLIIQGNEDEVVPFELVSEFASQSSPVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEHELMLEGLVGPLE VLTVPEDAD RYVAFLGHPHSLQGGTMNNKVVTTMAR FKEL IPSVRFNFRGVGQSGGHYDNGIGESEDMRKLV QWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHY YKEF+PPPHPWLIIQG EDEVVPFELVSEFASQSS VLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|652976391|ref|WP_027229063.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|985764671|gb|KXB25790.1| membrane protein [Legionella pneumophila] &gt;gi|985767058|gb|KXB28153.1| membrane protein [Legionella pneumophila] &gt;gi|999119122|emb|CZG87244.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|999122247|emb|CZH20801.1| Alpha/beta hydrolase family [Legionella pneumophila] &gt;gi|1024339727|gb|KZX34066.1| hypothetical protein PtVFX2014_06885 [Legionella pneumophila] &gt;gi|1108606012|gb|APF04380.1| hypothetical protein BIZ52_13860 [Legionella pneumophila subsp. fraseri] &gt;gi|1108608994|gb|APF07361.1| hypothetical protein BIZ51_13740 [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229063</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>2.62266e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHGLMLEGLVGSLEAVLTVPEEADTRYVAFLGHPHSLQGGTMNNKVVTTMARTFKELRIPSVRFNFRGVGQSGGHYDNGIGESEDMCHLVRQWHAEQPQAKNIFAGFSFGSYVAYRAASHCEHALLITIAPPVHHYHYKEFEPAPHPWLIIQGKEDEVVPFELVSEFARQASPVLPVIEFVETGHFFHGKLLILKEKLMDVVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEH LMLEGLVG LE VLTVPE+ADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKEL IPSVRFNFRGVGQSGGHYDNGIGESEDM  LVRQWH+EQPQA+NIFAGFSFGSYVAYR ASHCEHALLITIAPPVHHY YKEFEP PHPWLIIQGKEDEVVPFELVSEFA Q+S VLPVIEFVETGHFFHGKLLILKEKLMD VRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652969915|ref|WP_027222808.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|1005362916|gb|AMP88785.1| hypothetical protein AXF35_03390 [Legionella pneumophila subsp. pascullei] &gt;gi|1005367821|gb|AMP93598.1| hypothetical protein AXF36_13660 [Legionella pneumophila subsp. pascullei] &gt;gi|1005370740|gb|AMP96516.1| hypothetical protein AXF37_13295 [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222808</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>6.19007e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MLFTDKLNTPGEHGLMLEGLVGSLEAVLTVPENADTRYVAFLGHPHSLQGGTMNNKVVTTMARAFKELRIPSVRFNFRGVGQSGGHYDNGIGESEDMCHLVRQWHSEQPQAKNIFSGFSFGSYVAYRTASRCEHALLITIAPPVHHYHYKEFEPAPHPWLIIQGKEDEVVPFELVSEFARQASPVLPVIEFDETGHFFHGKLLILKEKLIGIVRDQVCLS</Hsp_hseq>
+      <Hsp_midline>MLFTDKLNTPGEH LMLEGLVG LE VLTVPE+ADTRYVAFLGHPHSLQGGTMNNKVVTTMAR FKEL IPSVRFNFRGVGQSGGHYDNGIGESEDM  LVRQWHSEQPQA+NIF+GFSFGSYVAYRTAS CEHALLITIAPPVHHY YKEFEP PHPWLIIQGKEDEVVPFELVSEFA Q+S VLPVIEF ETGHFFHGKLLILKEKL+  VRDQVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|737925560|ref|WP_035890748.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella norrlandica] &gt;gi|701445247|gb|KGP62642.1| membrane protein [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890748</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>1.5828e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MQFINKLNSPGEHELMLEGLVGPLEAVLTVPQEVDPTYIAFLGHPHSLQGGTMNNKVVTTMARAFKDLHIPSVRFNFRGVGRSAGCYDNGVGESEDMQSLVKQWHAEYPPAKFIFAGFSFGSYVAYRTASQCEHVLLITVAPPVHHYDYKEFDPVPYPWLIVQGKEDEVVPFELVTQFARQSSPAIPVIEFTETGHFFHGKLLILKEQLIENVRVQVCLS</Hsp_hseq>
+      <Hsp_midline>M F +KLN+PGEHELMLEGLVGPLE VLTVP++ D  Y+AFLGHPHSLQGGTMNNKVVTTMAR FK+LHIPSVRFNFRGVG+S G YDNG+GESEDM+ LV+QWH+E P A+ IFAGFSFGSYVAYRTAS CEH LLIT+APPVHHYDYKEF+P P+PWLI+QGKEDEVVPFELV++FA QSS  +PVIEF ETGHFFHGKLLILKE+L++ VR QVCLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966439720|ref|WP_058480043.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella waltersii] &gt;gi|962295616|gb|KTD79261.1| alpha/beta superfamily transporter hydrolase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480043</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>7.98978e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVC</Hsp_qseq>
+      <Hsp_hseq>MPFIDKLNTPGEHALMLEGQVGALEAILTVPLNLHHSYIAFLGHPHSLQGGTMNNKVVTTLARTFKELGIPSLRFNFRGVGQSQGHYDQGIGESEDMLVLVRQWIAEQPHAKLLFAGFSFGSYVAYRTAAQLQHELLISIAPPVHHYDYKEFDQAPNPWIIVQGTADDVVPFDLVDEFARESTPVIPLIEFPDTGHFFHGNLLLLKEKLTSAIQSMVS</Hsp_hseq>
+      <Hsp_midline>M F DKLNTPGEH LMLEG VG LE +LTVP +    Y+AFLGHPHSLQGGTMNNKVVTT+AR FKEL IPS+RFNFRGVGQS GHYD GIGESEDM  LVRQW +EQP A+ +FAGFSFGSYVAYRTA+  +H LLI+IAPPVHHYDYKEF+  P+PW+I+QG  D+VVPF+LV EFA +S+ V+P+IEF +TGHFFHG LL+LKEKL  A++  V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|517403165|ref|WP_018576030.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella shakespearei] &gt;gi|962276118|gb|KTD60019.1| alpha/beta superfamily transporter hydrolase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576030</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>6.93853e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQV</Hsp_qseq>
+      <Hsp_hseq>MQFTDKLNKAGEHPLSLQGLAGSLDAVLTVPETIQSDHVAFLGHPHSLQGGTMSNKVVTTMARVFKELGIPSLRFNFRGVGQSAGVYDDGIGESEDMLALVKAWQKERSEIKLIFAGFSFGSYVAYRTASQCGQGVLITIAPPVHHYDYKEFQPSPNPWLIVQGDADEVVPAELVLDFAQEASPVIPVIEFADTGHFFHGKLIELKEKLIAYVRTQV</Hsp_hseq>
+      <Hsp_midline>M FTDKLN  GEH L L+GL G L+ VLTVPE   + +VAFLGHPHSLQGGTM+NKVVTTMARVFKEL IPS+RFNFRGVGQS G YD+GIGESEDM  LV+ W  E+ + + IFAGFSFGSYVAYRTAS C   +LITIAPPVHHYDYKEF+P P+PWLI+QG  DEVVP ELV +FA ++S V+PVIEF +TGHFFHGKL+ LKEKL+  VR QV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|654932946|ref|WP_028383303.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella moravica] &gt;gi|962250713|gb|KTD34914.1| alpha/beta superfamily transporter hydrolase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383303</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>2.56504e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MQFIDKLNTPGEHSLALEGLAGQIEAVLTVPENINTPYVAFLGHPHSLQGGTMNNKVVTTLARVFKELGIPSLRFNFRGVGQSGGVYDNGLGESNDLLELVRSWQKEQPEMKLIFAGFSFGSYVCYRAAAQSKPNILITIAPPVHHYDYREFDSQPEPWLIVQGDADEVVPSSLVIDFAKQSQPILPVIEFSETGHFFHGKLVELKIRLIDWLGDWIQTS</Hsp_hseq>
+      <Hsp_midline>M F DKLNTPGEH L LEGL G +E VLTVPE+ +T YVAFLGHPHSLQGGTMNNKVVTT+ARVFKEL IPS+RFNFRGVGQSGG YDNG+GES D+ +LVR W  EQP+ + IFAGFSFGSYV YR A+  +  +LITIAPPVHHYDY+EF+  P PWLI+QG  DEVVP  LV +FA QS  +LPVIEF ETGHFFHGKL+ LK +L+D + D +  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966432338|ref|WP_058472771.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella quateirensis] &gt;gi|962268711|gb|KTD52727.1| alpha/beta superfamily transporter hydrolase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058472771</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>3.99541e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQV</Hsp_qseq>
+      <Hsp_hseq>MQFIDKLNTPGEHSLLLEGLAGQIEAVLTVPETINSHYVAFLGHPHSLQGGTMNNKVVTTMSRVFKELGIPSLRFNFRGVGQSLGVYNDGLGESNDMLELVQIWRKEQPQIKLIFAGFSFGSYVCYRAAAQSRLSILITIAPPVHHYDYREFEPQPESWLIVQGDVDEVVPSTLVIDFAKESHPILPVIEFPETGHFFHGKLMDLKMKLLDYLRDRV</Hsp_hseq>
+      <Hsp_midline>M F DKLNTPGEH L+LEGL G +E VLTVPE  ++ YVAFLGHPHSLQGGTMNNKVVTTM+RVFKEL IPS+RFNFRGVGQS G Y++G+GES DM +LV+ W  EQPQ + IFAGFSFGSYV YR A+    ++LITIAPPVHHYDY+EFEP P  WLI+QG  DEVVP  LV +FA +S  +LPVIEF ETGHFFHGKL+ LK KL+D +RD+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966516865|ref|WP_058533359.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533359</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>2.63206e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLATPGEHALNLQGVVGQLEAVLTVPQQCVSNYIAFLGHPHSLQGGTMTNKVVTTLARTFKDLGIPSLRFNFRGVGQSEGVYDAGIGESEDMLALVQAWQKEQPEAQFIFAGFSFGSYVTYRVAAQCEHQLLISVAPAVHHYDYKEFNPAPYPWLIIQGEEDEVVPPDMVFDFAAQSQPEIPVIRFAETTHFFHGKLIELKNKLAEYLSTQVKL</Hsp_hseq>
+      <Hsp_midline>M  T+KL TPGEH L L+G+VG LE VLTVP+   + Y+AFLGHPHSLQGGTM NKVVTT+AR FK+L IPS+RFNFRGVGQS G YD GIGESEDM  LV+ W  EQP+AQ IFAGFSFGSYV YR A+ CEH LLI++AP VHHYDYKEF P P+PWLIIQG+EDEVVP ++V +FA+QS   +PVI F ET HFFHGKL+ LK KL + +  QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|654930381|ref|WP_028380750.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella cherrii] &gt;gi|962197128|gb|KTC82172.1| alpha/beta superfamily transporter hydrolase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380750</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>5.12487e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLTVPGEHALFLQGAVGKLEAVLTVPEQNNSVFIAFLGHPHSLQGGTMNNKVVTTLARVFKELGIPSLRFNFRGVGQSDGYYDAGLGESEDMLVLVRQWQKEQPEKKLIFAGFSFGSYVAYRAASQSDAKLLITVAPAIHHYNYGEFNPAPYPWLIVQGDEDEVVPPHLVFEFAAQADPELPVIRFANTGHFFHGKLIELKAKLIEYIHSQVVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G VG LE VLTVPE  ++ ++AFLGHPHSLQGGTMNNKVVTT+ARVFKEL IPS+RFNFRGVGQS G+YD G+GESEDM  LVRQW  EQP+ + IFAGFSFGSYVAYR AS  +  LLIT+AP +HHY+Y EF P P+PWLI+QG EDEVVP  LV EFA+Q+   LPVI F  TGHFFHGKL+ LK KL++ +  QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|518064362|ref|WP_019234570.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella anisa] &gt;gi|962187096|gb|KTC72229.1| alpha/beta superfamily transporter hydrolase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019234570</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>2.92395e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLAIPGEHPLFLQGAIGKLEAVLTAPEQNHSAFVAFLGHPHSLQGGTMSNKVVTTLARAFKELGIPSLRFNFRGVGQSEGAYDSGIGESEDMLILAREWQKEQPEKKLIFAGFSFGSYVAYRAAAQSDSQFLITIAPPVHHYDYRELNPAPYPWLMIQGDEDEVVPAALVFDFASQSTPEIPVIRFANTGHFFHGKLIELKTKLMEFIRSQVVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G +G LE VLT PE   + +VAFLGHPHSLQGGTM+NKVVTT+AR FKEL IPS+RFNFRGVGQS G YD+GIGESEDM  L R+W  EQP+ + IFAGFSFGSYVAYR A+  +   LITIAPPVHHYDY+E  P P+PWL+IQG EDEVVP  LV +FASQS+  +PVI F  TGHFFHGKL+ LK KLM+ +R QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966399540|ref|WP_058443173.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058443173</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.301</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>1.9478e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MLLTEKLDTAGEHPFVFTGAQGVLEAILTVPPHLNDNYVAFLGHPHSLQGGTMNNKVVTTLSRVFKELGIPSLRFNFRGVGQSSGSYDSGLGESEDMLDLVRRWQHEKENSKMFFAGFSFGSYVAYRAAAQCPHEMLITIAPPVHHYNYHEFQPAPYPWLIVQGDEDEVVPASVVFDFAKESASTLPVIRLADTGHFFHGKLLDLKAQLIDAIRRQVTV</Hsp_hseq>
+      <Hsp_midline>ML T+KL+T GEH  +  G  G LE +LTVP   +  YVAFLGHPHSLQGGTMNNKVVTT++RVFKEL IPS+RFNFRGVGQS G YD+G+GESEDM  LVR+W  E+  ++  FAGFSFGSYVAYR A+ C H +LITIAPPVHHY+Y EF+P P+PWLI+QG EDEVVP  +V +FA +S+  LPVI   +TGHFFHGKLL LK +L+DA+R QV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966499567|ref|WP_058516240.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella parisiensis] &gt;gi|962260100|gb|KTD44215.1| alpha/beta superfamily transporter hydrolase [Legionella parisiensis] &gt;gi|1069290691|gb|OEH46091.1| hypothetical protein lpari_02974 [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516240</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>3.21804e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLAIPGEHALFLQGAIGKLEVVLTVPEQNHSDFIAFLGHPHSLQGGTMSNKVVTTLARAFRELGIPSLRFNFRGVGQSEGAYDSGIGESEDMLILVREWQKEQPEKKLIFAGFSFGSYVAYRAAAQLDSQCLIMIAPPVHHYDYREFNPAPYPLLIIQGDEDEVVPSALVFDFAAQSAPEIPVIRFANTGHFFHGKLIELKTKLMEYIRSQVAL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G +G LE VLTVPE   + ++AFLGHPHSLQGGTM+NKVVTT+AR F+EL IPS+RFNFRGVGQS G YD+GIGESEDM  LVR+W  EQP+ + IFAGFSFGSYVAYR A+  +   LI IAPPVHHYDY+EF P P+P LIIQG EDEVVP  LV +FA+QS+  +PVI F  TGHFFHGKL+ LK KLM+ +R QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|962191760|gb|KTC76836.1|</Hit_id>
+  <Hit_def>alpha/beta superfamily transporter hydrolase [Legionella brunensis]</Hit_def>
+  <Hit_accession>KTC76836</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>4.88255e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MLLTEKLDTAGEHPFVFTGAQGVLEAILTVPPHLNDNYVAFLGHPHSLQGGTMNNKVVTTLSRVFKELGIPSLRFNFRGVGQSSGSYDSGLGESEDMLDLVRRWQHEKENSKMFFAGFSFGSYVAYRAAAQCPHEMLITIAPPVHHYNYHEFQPAPYPWLIVQGDEDEVVPASVVFDFAKESASTLPVIRLADTGHFFHGKLLDLKAQLIDAIRRQVTV</Hsp_hseq>
+      <Hsp_midline>ML T+KL+T GEH  +  G  G LE +LTVP   +  YVAFLGHPHSLQGGTMNNKVVTT++RVFKEL IPS+RFNFRGVGQS G YD+G+GESEDM  LVR+W  E+  ++  FAGFSFGSYVAYR A+ C H +LITIAPPVHHY+Y EF+P P+PWLI+QG EDEVVP  +V +FA +S+  LPVI   +TGHFFHGKLL LK +L+DA+R QV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966505254|ref|WP_058521913.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella tucsonensis] &gt;gi|962287628|gb|KTD71356.1| alpha/beta superfamily transporter hydrolase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521913</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.834</Hsp_bit-score>
+      <Hsp_score>782</Hsp_score>
+      <Hsp_evalue>4.55542e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLAIPGEHALFLQGAIGKLEAVLTVPEQNHAAFIAFLGHPHSLQGGAMNNKVVTTLARAFRELGIPSLRFNFRGVGQSEGAYDSGIGESEDMLILVREWQKKQPDKKLIFAGFSFGSYVAYRAAAQSDSQFLITIAPPVHHYDYHEFNPAPYPWLMIQGDEDEVVSSTLVFDFASQSKPEIPVIRFANTGHFFHGKLIELKTKLMEYVHSQVVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G +G LE VLTVPE     ++AFLGHPHSLQGG MNNKVVTT+AR F+EL IPS+RFNFRGVGQS G YD+GIGESEDM  LVR+W  +QP  + IFAGFSFGSYVAYR A+  +   LITIAPPVHHYDY EF P P+PWL+IQG EDEVV   LV +FASQS   +PVI F  TGHFFHGKL+ LK KLM+ V  QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966466531|ref|WP_058497857.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella gratiana] &gt;gi|962230024|gb|KTD14620.1| alpha/beta superfamily transporter hydrolase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497857</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>1.15735e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCLS</Hsp_qseq>
+      <Hsp_hseq>MQITEKLAIPGEHPLFLQGIMGKLEAVLTVPEQNDTEFIAFLGHPHSLQGGTMNNKVVTTLARVFKELGIPSLRFNFRGVGKSEGVYDAGQGESEDMLVLVRELQKEQPEKKLIFAGFSFGSYVVYRTAAQVDSNLLITVAPPVHHYNYREFNPAPFPWIIVQGDEDEVVPPDLVVDFAAQSHPEIPVIRFADTSHFFHGKLIELKTKLIDCITSQVVVK</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G++G LE VLTVPE  DT ++AFLGHPHSLQGGTMNNKVVTT+ARVFKEL IPS+RFNFRGVG+S G YD G GESEDM  LVR+   EQP+ + IFAGFSFGSYV YRTA+  +  LLIT+APPVHHY+Y+EF P P PW+I+QG EDEVVP +LV +FA+QS   +PVI F +T HFFHGKL+ LK KL+D +  QV + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966436333|ref|WP_058476701.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476701</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>1.19407e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLAVPGEHALFLQGAVGKLEAVLTVPEQNHSAFIAFLGHPHSLQGGTMSNKVVTTLARVFRELGIPSLRFNFRGVGQSEGDYDAGHGESEDMLFLVNKWQKEQPEKELIFAGFSFGSYVAYRAAAQTDSKLLITVAPPVHHYNYREFNPSPRPWLIIQGDEDEVVPSNLVFEFAAQTNPEIPVIRFANTGHFFHGKLIELKAKLIEYIHSQVVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G VG LE VLTVPE   + ++AFLGHPHSLQGGTM+NKVVTT+ARVF+EL IPS+RFNFRGVGQS G YD G GESEDM  LV +W  EQP+ + IFAGFSFGSYVAYR A+  +  LLIT+APPVHHY+Y+EF P P PWLIIQG EDEVVP  LV EFA+Q++  +PVI F  TGHFFHGKL+ LK KL++ +  QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1113342051|gb|OJW05928.1|</Hit_id>
+  <Hit_def>hypothetical protein BGO44_13215 [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW05928</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>1.24754e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLASPGEHALFLQGTVGKLEAVLTVPEENHSAFIAFLGHPHSLQGGTMSNKVVTTLARTFRELGIPSLRFNFRGVGQSEGEYDAGLGESEDMLVLVREWQKEQPEKKLIFAGFSFGSYVAYRAASQVDSKLLITVAPAVHHYNYHEFNPAPYPWLVLQGDADEVVPSNMVFEFATQANPEIPVIRFVDTGHFFHGKLIELKAKLTEYIHSQVVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL +PGEH L L+G VG LE VLTVPE+  + ++AFLGHPHSLQGGTM+NKVVTT+AR F+EL IPS+RFNFRGVGQS G YD G+GESEDM  LVR+W  EQP+ + IFAGFSFGSYVAYR AS  +  LLIT+AP VHHY+Y EF P P+PWL++QG  DEVVP  +V EFA+Q++  +PVI FV+TGHFFHGKL+ LK KL + +  QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966493789|ref|WP_058510577.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella steelei] &gt;gi|962284725|gb|KTD68491.1| alpha/beta superfamily transporter hydrolase [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058510577</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>1.62251e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLASPGEHALFLQGAVGKLEAVLTVPEENHSAFIAFLGHPHSLQGGTMSNKVVTTLARTFRELGIPSLRFNFRGVGQSEGEYDAGLGESEDMLVLVREWQKEQPEKKLIFAGFSFGSYVAYRAASQVDSKLLITVAPAVHHYNYHEFNPAPYPWLVLQGDADEVVPSNMVFEFATQANPEIPVIRFVDTGHFFHGKLIELKAKLTEYIHSQVVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL +PGEH L L+G VG LE VLTVPE+  + ++AFLGHPHSLQGGTM+NKVVTT+AR F+EL IPS+RFNFRGVGQS G YD G+GESEDM  LVR+W  EQP+ + IFAGFSFGSYVAYR AS  +  LLIT+AP VHHY+Y EF P P+PWL++QG  DEVVP  +V EFA+Q++  +PVI FV+TGHFFHGKL+ LK KL + +  QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|962295003|gb|KTD78657.1|</Hit_id>
+  <Hit_def>alpha/beta superfamily transporter hydrolase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>KTD78657</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>2.05629e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLAVPGEHALFLQGAVGKLEAVLTVPEQNHSAFIAFLGHPHSLQGGTMSNKVVTTLARVFRELGIPSLRFNFRGVGQSEGDYDAGHGESEDMLFLVNKWQKEQPEKELIFAGFSFGSYVAYRAAAQTDSKLLITVAPPVHHYNYREFNPSPRPWLIIQGDEDEVVPSNLVFEFAAQTNPEIPVIRFANTGHFFHGKLIELKAKLIEYIHSQVVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G VG LE VLTVPE   + ++AFLGHPHSLQGGTM+NKVVTT+ARVF+EL IPS+RFNFRGVGQS G YD G GESEDM  LV +W  EQP+ + IFAGFSFGSYVAYR A+  +  LLIT+APPVHHY+Y+EF P P PWLIIQG EDEVVP  LV EFA+Q++  +PVI F  TGHFFHGKL+ LK KL++ +  QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966460889|ref|WP_058493318.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella worsleiensis] &gt;gi|962296381|gb|KTD80022.1| alpha/beta superfamily transporter hydrolase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493318</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>3.49758e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQ</Hsp_qseq>
+      <Hsp_hseq>MQFVDKLSTPGEHALFLQGMVGQIEAVLTVPESMHTPYVAFLGHPHSLQGGTMNNKVVTTLSRVFKELGIPSLRFNFRGVGQSAGVYDDGIGESKDMLELVHTWQQEQPGIKLIFAGFSFGSYVCYRAAAQSRPSLLVTIAPPVHHYDYKEFAPQPESWFILQGDNDEVVPSALVLDFARQAHPPIPVLEFADTGHFFHGKLIELKTRLTDCLSDR</Hsp_hseq>
+      <Hsp_midline>M F DKL+TPGEH L L+G+VG +E VLTVPE   T YVAFLGHPHSLQGGTMNNKVVTT++RVFKEL IPS+RFNFRGVGQS G YD+GIGES+DM +LV  W  EQP  + IFAGFSFGSYV YR A+    +LL+TIAPPVHHYDYKEF P P  W I+QG  DEVVP  LV +FA Q+   +PV+EF +TGHFFHGKL+ LK +L D + D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966414736|ref|WP_058458021.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fluoribacter bozemanae] &gt;gi|962192297|gb|KTC77371.1| alpha/beta superfamily transporter hydrolase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458021</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>2.69706e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQV</Hsp_qseq>
+      <Hsp_hseq>MQITEKLAIPGEHALFLQGVIGKLEAVLTVPEQNHSAFIAFLGHPHSLQGGTMSNKVVTTLARAFKELGIPSLRFNFRGVGQSEGVYDSGIGESEDMLVLVRELQKEQPEKKLIFAGFSFGSYVAYRAAAQSDSQFLITIAPPVHHYDYREFNPAPYPWLMIQGDEDEVVPSALVFDFAFQSIPEIPVIRFANTGHFFHGKLIELKTILIEYIHSQV</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G++G LE VLTVPE   + ++AFLGHPHSLQGGTM+NKVVTT+AR FKEL IPS+RFNFRGVGQS G YD+GIGESEDM  LVR+   EQP+ + IFAGFSFGSYVAYR A+  +   LITIAPPVHHYDY+EF P P+PWL+IQG EDEVVP  LV +FA QS   +PVI F  TGHFFHGKL+ LK  L++ +  QV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966431399|ref|WP_058471844.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella jordanis] &gt;gi|962233612|gb|KTD18160.1| alpha/beta superfamily transporter hydrolase [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471844</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>7.89779e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQV</Hsp_qseq>
+      <Hsp_hseq>MVLTDKLNTPGEHPFLFQATVGLIEAVITVPAEVKSNFVAFLGHPHSLQGGSMNNKVVTTLARIFKELGVPSLRFNFRGVGQSAGVYNDGIGESEDMLLLVNHWLLERPDTRLLFAGFSFGSYVAYRAAAQTHSELLITIAPPVHHYDYNEFHPAPHPWVIVQGDEDEVVPASFVFDFAEESTPQIPVITFKQTGHFFHGKLIELKDQLIPTIRARV</Hsp_hseq>
+      <Hsp_midline>M+ TDKLNTPGEH  + +  VG +E V+TVP +  + +VAFLGHPHSLQGG+MNNKVVTT+AR+FKEL +PS+RFNFRGVGQS G Y++GIGESEDM  LV  W  E+P  + +FAGFSFGSYVAYR A+     LLITIAPPVHHYDY EF P PHPW+I+QG EDEVVP   V +FA +S+  +PVI F +TGHFFHGKL+ LK++L+  +R +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|498338329|ref|WP_010652485.1|</Hit_id>
+  <Hit_def>membrane protein [Fluoribacter dumoffii]</Hit_def>
+  <Hit_accession>WP_010652485</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>1.0483e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLALPGEHPLLLQGAVGRLEAVLTVPEQNHSAFIAFLGHPHSLQGGSMSNKVVTTLARVFRELGIPSLRFNFRGVGHSEGSYDAGLGESEDMLVLVREWQKEQPEKKLIFAGFSFGSYVAYRAAAQSDAHLLITVAPAVNHYNYSEFVPPPHPWLIVQGDEDEVVPSNQVFEFASQAVPEIPVLPFANTGHFFHGKLIELKAKLIEYIHSQAVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L+L+G VG LE VLTVPE   + ++AFLGHPHSLQGG+M+NKVVTT+ARVF+EL IPS+RFNFRGVG S G YD G+GESEDM  LVR+W  EQP+ + IFAGFSFGSYVAYR A+  +  LLIT+AP V+HY+Y EF PPPHPWLI+QG EDEVVP   V EFASQ+   +PV+ F  TGHFFHGKL+ LK KL++ +  Q  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|769978693|ref|WP_045094678.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella fallonii] &gt;gi|698841935|emb|CEG55882.1| conserved protein of unknown function [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045094678</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>1.23721e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVC</Hsp_qseq>
+      <Hsp_hseq>MRFIEKLATPGEHPLLLQGLAGQLEAVLTVPEQIKDNAVAFLGHPHSLQGGSMSNKVVTTLARVFKELGIPSLRFNFRGVGQSEGAYDNGIGESDDMIALVKAWQREQPETKLIFAGFSFGSYVAYRTAAQFASMLLITIAPPVHHYDYTEYNPQPDPWLIIQGDADEVVPYSLVMNFAQLASPAIPVIEFADTGHFFHGKLIELKTKLIEYVRPQVL</Hsp_hseq>
+      <Hsp_midline>M F +KL TPGEH L+L+GL G LE VLTVPE      VAFLGHPHSLQGG+M+NKVVTT+ARVFKEL IPS+RFNFRGVGQS G YDNGIGES+DM  LV+ W  EQP+ + IFAGFSFGSYVAYRTA+     LLITIAPPVHHYDY E+ P P PWLIIQG  DEVVP+ LV  FA  +S  +PVIEF +TGHFFHGKL+ LK KL++ VR QV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966426208|ref|WP_058468746.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fluoribacter gormanii] &gt;gi|962216864|gb|KTD01618.1| alpha/beta superfamily transporter hydrolase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468746</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>1.34448e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLTLPGEHALFLQGATGKLEAVLTVPEQNHSDFIAFLGHPHSLQGGTMSNKVVTTLARVFRELSIPSLRFNFRGVGQSEGSYDAGIGESEDMLVLVREWQKVQPEKKLIFAGFSFGSYVTYRAAAQSDSKLLISVAPAVHHYNYQEFNPIPSPWLIVQGDEDEVVPPALVFDFAAQVE--IPVIQFAGTGHFFHGKLIELKAKLMEYIRTQVIL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L L+G  G LE VLTVPE   + ++AFLGHPHSLQGGTM+NKVVTT+ARVF+EL IPS+RFNFRGVGQS G YD GIGESEDM  LVR+W   QP+ + IFAGFSFGSYV YR A+  +  LLI++AP VHHY+Y+EF P P PWLI+QG EDEVVP  LV +FA+Q    +PVI+F  TGHFFHGKL+ LK KLM+ +R QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966420706|ref|WP_058463907.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella cincinnatiensis] &gt;gi|962206967|gb|KTC91900.1| alpha/beta superfamily transporter hydrolase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463907</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>1.44214e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQIIEKLAIPGEHPLLLQGMIGKLEAVLTVPEQNETAFIAFLGHPHSLQGGTMNNKVVTTLARVFKELGIPSLRFNFRGVGQSEGSYDAGQGESEDMLVLVRELQKERPEKKLIFAGFSFGSYVAYRTAAQANADLLITIAPPIHHYNYREFTPVPSPWIIVQGDEDEVVPPGLVFDFAAQLHPEIPVIRFANTSHFFHGKLIELKTRLIEYITSQVVL</Hsp_hseq>
+      <Hsp_midline>M   +KL  PGEH L+L+G++G LE VLTVPE  +T ++AFLGHPHSLQGGTMNNKVVTT+ARVFKEL IPS+RFNFRGVGQS G YD G GESEDM  LVR+   E+P+ + IFAGFSFGSYVAYRTA+     LLITIAPP+HHY+Y+EF P P PW+I+QG EDEVVP  LV +FA+Q    +PVI F  T HFFHGKL+ LK +L++ +  QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|671586712|ref|WP_031563105.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563105</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>1.81225e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLSLPGEHPVLLQGVVGKIEAVLTVPEQNQSNHIAFLGHPHSLQGGTMNNKVVTTLARVFKELGIPSVRFNFRGVGQSEGTYDAGIGESEDMLVLVREFKYKNPHVDLIFAGFSFGSYVAYRAAAQLDSKLLITIAPPVHHYNYCEFDPAPRPWIIIQGEEDEVVSPALVFDFALKAKPEIPVIRFAQTSHFFHGKLIELKTRLIESIRAQVSL</Hsp_hseq>
+      <Hsp_midline>M  T+KL+ PGEH ++L+G+VG +E VLTVPE   + ++AFLGHPHSLQGGTMNNKVVTT+ARVFKEL IPSVRFNFRGVGQS G YD GIGESEDM  LVR++  + P    IFAGFSFGSYVAYR A+  +  LLITIAPPVHHY+Y EF+P P PW+IIQG+EDEVV   LV +FA ++   +PVI F +T HFFHGKL+ LK +L++++R QV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|518179988|ref|WP_019350196.1|</Hit_id>
+  <Hit_def>membrane protein [Fluoribacter dumoffii] &gt;gi|962207565|gb|KTC92496.1| alpha/beta superfamily transporter hydrolase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_019350196</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>2.46234e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVCL</Hsp_qseq>
+      <Hsp_hseq>MQITEKLALPGEHPLLLQGAVGRLEAVLTVPEQNHSAFIAFLGHPHSLQGGSMSNKVVTTLARVFRELGIPSLRFNFRGVGHSEGSYDAGLGESEDMLVLVREWQKEQPEKKLIFAGFSFGSYVAYRAAAQSDAHLLITVAPAVNHYNYSEFVPPPHPWLIVQGDEDEVVPSNQVFEFATQAVPEIPVLPFANTGHFFHGKLIELKAKLIEYIHSQAVL</Hsp_hseq>
+      <Hsp_midline>M  T+KL  PGEH L+L+G VG LE VLTVPE   + ++AFLGHPHSLQGG+M+NKVVTT+ARVF+EL IPS+RFNFRGVG S G YD G+GESEDM  LVR+W  EQP+ + IFAGFSFGSYVAYR A+  +  LLIT+AP V+HY+Y EF PPPHPWLI+QG EDEVVP   V EFA+Q+   +PV+ F  TGHFFHGKL+ LK KL++ +  Q  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|493927302|ref|WP_006872051.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella drancourtii] &gt;gi|363536434|gb|EHL29876.1| alpha/beta fold family hydrolase [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872051</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.23274e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAVRDQVC</Hsp_qseq>
+      <Hsp_hseq>MQITEKLASPGEHSLFLYGLAGQVEAILTVPERINSDYVAFLGHPHSLQGGTMTNKVVTTMARTFKDLGIPSLRFNFRGVGQSEGVYDAGIGESADMLSLAYAWQKEQAQVKFIFAGFSFGSFVAYRTAAQCAHHLLITIAPALHHYNYQEFTPAPYPWLIVQGEEDEVVPPELVFDFAKHAQPEIPVLRFANTTHFFHGKLIELKAKLTEYLVSQVV</Hsp_hseq>
+      <Hsp_midline>M  T+KL +PGEH L L GL G +E +LTVPE  ++ YVAFLGHPHSLQGGTM NKVVTTMAR FK+L IPS+RFNFRGVGQS G YD GIGES DM  L   W  EQ Q + IFAGFSFGS+VAYRTA+ C H LLITIAP +HHY+Y+EF P P+PWLI+QG+EDEVVP ELV +FA  +   +PV+ F  T HFFHGKL+ LK KL + +  QV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966400267|ref|WP_058443862.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058443862</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.43691e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MLFTDKLNTPGEHELMLEGLVGPLETVLTVPEDADTRYVAFLGHPHSLQGGTMNNKVVTTMARVFKELHIPSVRFNFRGVGQSGGHYDNGIGESEDMRKLVRQWHSEQPQAQNIFAGFSFGSYVAYRTASHCEHALLITIAPPVHHYDYKEFEPPPHPWLIIQGKEDEVVPFELVSEFASQSSQVLPVIEFVETGHFFHGKLLILKEKLMDAV</Hsp_qseq>
+      <Hsp_hseq>MTLVNKLNTIGEHPFIFSGLAGQLEAVLTVPPNRHESYVALLGHPHSLQGGTMNNKVVTTMARAFKEIGIPSLRFNFRGVGQSEGSYDAGIGESNDMLALMRLWQQEKPTARFVLAGFSFGSYVAYRAAAQSEHELLITVAPPVHHYDYREFTPSPEPWLIMQGDEDEVVPLSLVLDFAAQSTPPLSVTRFAETSHFFHGKLLEFKDQLIKGI</Hsp_hseq>
+      <Hsp_midline>M   +KLNT GEH  +  GL G LE VLTVP +    YVA LGHPHSLQGGTMNNKVVTTMAR FKE+ IPS+RFNFRGVGQS G YD GIGES DM  L+R W  E+P A+ + AGFSFGSYVAYR A+  EH LLIT+APPVHHYDY+EF P P PWLI+QG EDEVVP  LV +FA+QS+  L V  F ET HFFHGKLL  K++L+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

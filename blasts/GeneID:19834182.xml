@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_215791</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834182</BlastOutput_query-def>
+  <BlastOutput_query-len>372</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_215791</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834182</Iteration_query-def>
+  <Iteration_query-len>372</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250777|ref|WP_010948317.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|52842823|ref|YP_096622.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629934|gb|AAU28675.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509328|gb|AEW52852.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948317</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>742.265</Hsp_bit-score>
+      <Hsp_score>1915</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>372</Hsp_identity>
+      <Hsp_positive>372</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>MSIILRTRGIIMLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MSIILRTRGIIMLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MSIILRTRGIIMLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|504655569|ref|WP_014842671.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|61213987|sp|Q5ZSA2.2|MRAY_LEGPH RecName: Full=Phospho-N-acetylmuramoyl-pentapeptide-transferase; AltName: Full=UDP-MurNAc-pentapeptide phosphotransferase &gt;gi|395128618|emb|CCD06836.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila subsp. pneumophila] &gt;gi|395131701|emb|CCD09994.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila subsp. pneumophila] &gt;gi|469490664|gb|AGH52509.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083289|gb|AGN15537.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|761987458|dbj|GAN24633.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|761990472|dbj|GAN18581.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|761993662|dbj|GAN21687.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998772857|emb|CZI18230.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998775694|emb|CZG59457.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998778280|emb|CZG74654.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998781183|emb|CZJ43907.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998784519|emb|CZG84502.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998787471|emb|CZG58073.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998790002|emb|CZH01902.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998796483|emb|CZH98760.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998800346|emb|CZL05505.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998805771|emb|CZK06565.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998808395|emb|CZH89040.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998811876|emb|CZH77701.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998814325|emb|CZG63268.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998817691|emb|CZL57741.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998820793|emb|CZL59892.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998824269|emb|CZG44071.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998826755|emb|CZK07531.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998829476|emb|CZG80012.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998832607|emb|CZI08545.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998835728|emb|CZK86427.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998837882|emb|CZJ74110.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998842267|emb|CZL11752.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998844685|emb|CZK27404.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998847636|emb|CZK65912.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998850277|emb|CZI39927.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998853740|emb|CZL24671.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998856436|emb|CZL31954.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998859759|emb|CZL72013.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998862705|emb|CZK19809.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998865430|emb|CZJ42483.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998869829|emb|CZJ35138.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998871024|emb|CZM15393.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998874512|emb|CZK36744.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998877501|emb|CZM00765.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998880568|emb|CZI88311.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998883340|emb|CZI77221.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998888002|emb|CZL48550.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998889263|emb|CZK24045.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998892882|emb|CZJ07279.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998895546|emb|CZK00420.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998898819|emb|CZJ45125.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998906087|emb|CZK55136.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998909658|emb|CZL07874.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998915872|emb|CZK63468.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998918341|emb|CZK84182.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998921312|emb|CZL39696.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998927617|emb|CZL64895.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998930704|emb|CZK76513.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998933891|emb|CZL74714.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998936469|emb|CZM48438.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998939919|emb|CZK77565.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998945996|emb|CZK96574.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998949040|emb|CZK83446.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998952224|emb|CZJ33263.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998958574|emb|CZL99526.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998961480|emb|CZK24160.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998964653|emb|CZK06849.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998966925|emb|CZM51255.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998970467|emb|CZK52739.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998973842|emb|CZK27779.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998979547|emb|CZL60736.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998982009|emb|CZI88075.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998985896|emb|CZK01133.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998988674|emb|CZL47228.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998998064|emb|CZJ89934.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999000401|emb|CZG76330.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999008036|emb|CZK28860.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999012969|emb|CZL45185.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999016891|emb|CZL70097.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999022689|emb|CZL16291.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999025340|emb|CZK73572.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999037097|emb|CZL53376.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999046821|emb|CZL76295.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999057945|emb|CZM54671.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999061628|emb|CZL13699.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999067407|emb|CZJ19240.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999076869|emb|CZG58145.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999080212|emb|CZJ90767.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999082829|emb|CZK78874.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999090461|emb|CZK40506.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999092455|emb|CZL39445.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999095241|emb|CZG86232.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999098744|emb|CZG61724.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999101173|emb|CZL68865.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999104184|emb|CZI06413.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999106965|emb|CZI85499.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999110384|emb|CZL14430.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999113837|emb|CZL52449.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999116382|emb|CZK47391.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999126294|emb|CZK78245.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999128795|emb|CZH04135.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999131560|emb|CZL94015.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999134779|emb|CZL15999.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999138119|emb|CZK29295.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999141766|emb|CZL43258.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999144589|emb|CZK70689.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999147619|emb|CZL48402.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999153872|emb|CZM18227.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999156890|emb|CZH75419.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999162960|emb|CZM05633.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999175759|emb|CZL03986.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999191314|emb|CZI18858.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999194437|emb|CZI45308.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999200302|emb|CZG61709.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999203748|emb|CZI45255.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999209983|emb|CZK74581.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999219335|emb|CZL32197.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999222429|emb|CZI36749.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999231239|emb|CZI63317.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999237167|emb|CZG77786.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999248113|emb|CZH52534.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999269677|emb|CZO24048.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999335244|emb|CZK71852.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999455507|emb|CZH43930.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999462238|emb|CZG06948.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999465383|emb|CZM25149.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999468361|emb|CZO08457.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999474998|emb|CZM44649.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999478192|emb|CZN26099.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999481387|emb|CZM64224.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999484417|emb|CZN97607.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999487511|emb|CZL94723.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999490702|emb|CZN57684.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999493990|emb|CZL97078.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999500330|emb|CZN56912.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999503552|emb|CZN86121.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999506748|emb|CZM92076.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999510045|emb|CZG27250.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999513140|emb|CZN17115.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999516593|emb|CZL80843.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999519817|emb|CZM50592.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999532685|emb|CZO33082.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999536034|emb|CZN19326.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999539078|emb|CZM54547.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999542268|emb|CZO07496.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999545472|emb|CZO46164.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999548566|emb|CZN73219.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999551860|emb|CZN99764.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999555237|emb|CZM97375.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999558250|emb|CZO45908.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999561344|emb|CZM26819.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999564643|emb|CZO46656.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999567732|emb|CZM40176.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999570931|emb|CZN38731.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999574121|emb|CZN75772.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999580612|emb|CZO00236.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999584124|emb|CZO13615.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999587247|emb|CZM48468.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999590509|emb|CZM22233.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999593384|emb|CZN32062.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999596582|emb|CZN94642.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999599876|emb|CZO24946.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999603268|emb|CZL63452.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999606271|emb|CZN39602.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999609679|emb|CZN41276.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999615855|emb|CZM31100.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999618996|emb|CZN76489.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999622328|emb|CZO51686.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999625628|emb|CZN54107.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999628955|emb|CZM42072.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999631833|emb|CZM46086.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999635127|emb|CZN40869.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999638221|emb|CZN34849.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999641417|emb|CZO62641.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999644588|emb|CZO28285.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999648125|emb|CZN76393.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999650936|emb|CZN92794.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999654300|emb|CZN92415.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999657678|emb|CZM01346.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999660591|emb|CZM48218.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999664105|emb|CZM81846.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999667084|emb|CZM25148.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999670278|emb|CZL74376.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999673665|emb|CZM19311.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999676571|emb|CZN61591.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999679606|emb|CZM62207.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999682801|emb|CZM69575.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999686027|emb|CZN92307.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999689633|emb|CZN10287.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999692558|emb|CZN80887.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999696044|emb|CZN01681.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999699243|emb|CZL98393.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999702479|emb|CZM43447.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999705651|emb|CZL59817.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999708675|emb|CZN41789.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999711927|emb|CZM87448.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999715390|emb|CZM88522.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999718519|emb|CZO28012.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999721407|emb|CZM67200.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999724747|emb|CZN17253.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999728172|emb|CZL89454.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999731640|emb|CZO21483.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999734889|emb|CZL99982.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999738209|emb|CZO47833.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999741091|emb|CZM25708.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999744607|emb|CZN07366.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999747918|emb|CZM00573.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999750813|emb|CZL79561.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999754109|emb|CZM71769.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999757452|emb|CZM84310.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999760401|emb|CZM15038.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999763884|emb|CZN10368.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999767081|emb|CZM56761.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999769830|emb|CZN40204.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999773534|emb|CZH73886.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999776554|emb|CZL89586.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999783418|emb|CZH50321.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999786594|emb|CZM18411.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999789815|emb|CZO48774.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999793238|emb|CZO51644.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999796485|emb|CZI09345.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999800213|emb|CZO39455.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1002075524|emb|CZQ94083.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1002079029|emb|CZQ94354.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1002082122|emb|CZQ95833.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1002085489|emb|CZQ99582.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1002088711|emb|CZQ78696.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1003020121|emb|CZR21423.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila] &gt;gi|1003023000|emb|CZR20301.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila] &gt;gi|1003026842|emb|CZR17935.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila] &gt;gi|1003034765|emb|CZR27619.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila] &gt;gi|1032658696|gb|ANH13967.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1032661658|gb|ANH16928.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1032664636|gb|ANH19905.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073865658|gb|AOU05609.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073868627|gb|AOU08577.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073871622|gb|AOU11571.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073874491|gb|AOU14439.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073877547|gb|AOU17494.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073880510|gb|AOU20456.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073883507|gb|AOU23452.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073886500|gb|AOU26444.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073889468|gb|AOU29411.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073892452|gb|AOU32394.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073895420|gb|AOU35361.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073898378|gb|AOU38318.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073901344|gb|AOU41283.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073904253|gb|AOU44191.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073907206|gb|AOU47143.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073910224|gb|AOU50159.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073913236|gb|AOU53168.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073916196|gb|AOU56127.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073919159|gb|AOU59089.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073922062|gb|AOU61991.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073925145|gb|AOU65072.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073928108|gb|AOU68034.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073931094|gb|AOU71003.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073934463|gb|AOU74022.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073937428|gb|AOU84427.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073947694|gb|AOU87418.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1073950622|gb|AOU90345.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1104004019|emb|SFZ46813.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1104007473|emb|SFZ46885.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1129969280|gb|APT99639.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842671</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>721.465</Hsp_bit-score>
+      <Hsp_score>1861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|500496143|ref|WP_011947536.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|61213972|sp|Q5X1S3.1|MRAY_LEGPA RecName: Full=Phospho-N-acetylmuramoyl-pentapeptide-transferase; AltName: Full=UDP-MurNAc-pentapeptide phosphotransferase &gt;gi|166221322|sp|A5IAV9.1|MRAY_LEGPC RecName: Full=Phospho-N-acetylmuramoyl-pentapeptide-transferase; AltName: Full=UDP-MurNAc-pentapeptide phosphotransferase &gt;gi|53752391|emb|CAH13823.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila str. Paris] &gt;gi|148280421|gb|ABQ54509.1| phospho-N-acetylmuramoyl-pentapeptidetransferase [Legionella pneumophila str. Corby] &gt;gi|295650164|gb|ADG26011.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|536611658|gb|ERB40176.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila str. 121004] &gt;gi|542000243|gb|ERH46234.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila str. Leg01/11] &gt;gi|542123137|gb|ERI49446.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila str. Leg01/20] &gt;gi|762000211|dbj|GAN27943.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998792812|emb|CZI68759.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998802610|emb|CZH88381.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998912339|emb|CZG97933.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998924272|emb|CZJ94826.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998942517|emb|CZK05274.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998954568|emb|CZK40778.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998976205|emb|CZJ66431.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998991533|emb|CZK08721.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|998993937|emb|CZI45879.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999004442|emb|CZI42690.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999009810|emb|CZK02151.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999018938|emb|CZJ61813.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999027964|emb|CZJ89500.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999031524|emb|CZG66964.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999034068|emb|CZJ98142.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999040275|emb|CZJ68198.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999043058|emb|CZJ76820.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999048987|emb|CZJ86970.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999052244|emb|CZJ68736.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999055138|emb|CZJ96090.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999064354|emb|CZJ79066.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999070091|emb|CZJ74370.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999073450|emb|CZK05616.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999085607|emb|CZJ96753.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999151556|emb|CZH54758.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999158589|emb|CZJ89932.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999166043|emb|CZG69213.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999168298|emb|CZI51050.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999173414|emb|CZH70220.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999177491|emb|CZJ87170.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999182526|emb|CZG26891.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999184483|emb|CZP92595.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999188691|emb|CZI76282.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999198291|emb|CZP06242.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999206454|emb|CZP59765.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999213623|emb|CZG42263.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999217087|emb|CZI73431.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999225931|emb|CZG33645.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999227869|emb|CZP41088.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999235032|emb|CZP51325.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999240528|emb|CZH75542.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999244197|emb|CZH70725.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999249405|emb|CZG77824.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999252872|emb|CZG90656.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999256135|emb|CZP73156.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999259182|emb|CZP38762.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999262172|emb|CZH07526.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999265474|emb|CZP04511.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999272058|emb|CZP51205.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999274325|emb|CZH07627.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999277765|emb|CZP28647.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999281529|emb|CZP23619.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999284177|emb|CZP50626.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999286803|emb|CZI76584.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999290820|emb|CZP26970.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999293074|emb|CZI61464.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999296780|emb|CZP50340.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999300019|emb|CZP28505.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999302278|emb|CZI56087.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999307138|emb|CZH65085.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999309524|emb|CZP18774.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999312033|emb|CZI86808.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999315990|emb|CZI03747.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999318925|emb|CZP56202.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999322177|emb|CZH91398.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999324952|emb|CZH15150.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999327572|emb|CZH27537.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999332907|emb|CZG04538.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999338018|emb|CZP44459.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999340714|emb|CZG98367.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999344182|emb|CZP92056.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999347470|emb|CZP61017.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999349559|emb|CZH47884.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999353711|emb|CZP51673.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999356820|emb|CZP74702.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999361100|emb|CZI02248.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999363186|emb|CZP70711.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999366949|emb|CZP70852.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999369633|emb|CZP87336.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999374058|emb|CZG04537.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999377339|emb|CZI90992.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999380638|emb|CZH51376.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999383418|emb|CZI17645.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999387453|emb|CZG09822.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999390260|emb|CZI09897.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999392463|emb|CZP95305.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999397075|emb|CZG17132.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999398711|emb|CZP98668.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999403289|emb|CZP48668.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999406412|emb|CZG42423.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999409416|emb|CZH72284.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999412570|emb|CZG27137.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999416640|emb|CZG13773.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999419269|emb|CZG42909.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999422619|emb|CZH45415.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999426474|emb|CZG24301.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999429125|emb|CZG31396.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999432713|emb|CZG07448.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999435729|emb|CZH65273.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999438358|emb|CZG45523.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999442237|emb|CZJ84032.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila] &gt;gi|999445339|emb|CZH56711.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999448601|emb|CZG04529.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999450780|emb|CZP29710.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999458349|emb|CZJ89089.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999470009|emb|CZG83420.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999497030|emb|CZI11228.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999521332|emb|CZP44087.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999526319|emb|CZI60796.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999529201|emb|CZI16320.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999577079|emb|CZI02617.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999612380|emb|CZI07667.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999778462|emb|CZH00026.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1002091742|emb|CZR06004.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1003028411|emb|CZR23598.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella pneumophila] &gt;gi|1003030306|emb|CZR34421.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1005834286|gb|AMQ29012.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1041016589|gb|ANN93650.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1041019588|gb|ANN96648.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1080008970|gb|AOW58958.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011363|gb|AOW60854.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017607|gb|AOW66252.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1103997781|emb|SFZ46780.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1104000919|emb|SFZ46805.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947536</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>721.079</Hsp_bit-score>
+      <Hsp_score>1860</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>360</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499535709|ref|WP_011216492.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|61213969|sp|Q5WTI4.1|MRAY_LEGPL RecName: Full=Phospho-N-acetylmuramoyl-pentapeptide-transferase; AltName: Full=UDP-MurNAc-pentapeptide phosphotransferase &gt;gi|53755286|emb|CAH16780.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila str. Lens] &gt;gi|1080003047|gb|AOW53619.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005208|gb|AOW55488.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015544|gb|AOW64417.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216492</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.539</Hsp_bit-score>
+      <Hsp_score>1856</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTAPFFKTVTWDLGIFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLT PFFKTVTWDLG+FFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|652976428|ref|WP_027229100.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|985764628|gb|KXB25747.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|985767100|gb|KXB28195.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999119078|emb|CZG85794.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|999122203|emb|CZH18906.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1024339684|gb|KZX34023.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1108605968|gb|APF04336.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. fraseri] &gt;gi|1108608951|gb|APF07318.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229100</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>718.383</Hsp_bit-score>
+      <Hsp_score>1853</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRNDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSIIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGIFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVR+DGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQS+IALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLG+FFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1011914652|ref|WP_062727866.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727866</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>717.998</Hsp_bit-score>
+      <Hsp_score>1852</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRNDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNAGLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVR+DGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNA LPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|981204257|ref|WP_059428632.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|761996839|dbj|GAN31014.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_059428632</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>716.842</Hsp_bit-score>
+      <Hsp_score>1849</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLLVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASL VHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|652969877|ref|WP_027222770.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila] &gt;gi|1005362957|gb|AMP88826.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367779|gb|AMP93556.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370698|gb|AMP96474.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222770</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>715.687</Hsp_bit-score>
+      <Hsp_score>1846</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRNDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALIAVSYLYWNASLPVHTQLTVPFFKTVTCDLGIFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVR+DGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIAL+AVSYLYWNASLPVHTQLTVPFFKTVT DLG+FFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|769980349|ref|WP_045096334.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella fallonii] &gt;gi|698843954|emb|CEG57923.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096334</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>686.411</Hsp_bit-score>
+      <Hsp_score>1770</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>352</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALMVGLLCGPLMIRWLRGLQIGQMVRNDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLQQSSLWLVLLVTLGNGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIAIIAVIYLYTNANLPVHTQLILPFFKTVTWDLGIFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYSNYLAIPFVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETISVILQVTYFKYTHGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTAL+VGLLCGPLMIRWLRGLQIGQMVR+DGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDL+Q+SLWLVLLVTL NGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIA++AV YLY NA+LPVHTQL +PFFKTVTWDLG+FFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVYSNYL IP+VPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIET+SVILQV YFKY+ GKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|966439662|ref|WP_058479985.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella waltersii] &gt;gi|962295560|gb|KTD79205.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058479985</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>685.641</Hsp_bit-score>
+      <Hsp_score>1768</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>340</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPIMIRWLQGLQIGQMVRNDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALIAVIYLYATATLPVHTQLTVPFFKTVVLNLGVFFPILAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFTYVSSNAVYSNYLGIPFVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVIVRQELVLLIMGGLFVIETLSVILQVGYFKYTGGKRLFKMAPLHHHFELKGWAEPKVIVRFWIITVVFVLFGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGP+MIRWL+GLQIGQMVR+DGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLPGRWKYFWQSVIAL+AV YLY  A+LPVHTQLTVPFFKTV  +LGVFFP+LAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVF Y SSNAVYSNYLGIP+VPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAV+VRQELVLLIMGGLFVIETLSVILQVGYFKY+GGKRLF+MAPLHHHFELKGW+EPKVIVRFWIITVVFVL GLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|737921572|ref|WP_035886875.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella norrlandica] &gt;gi|701446864|gb|KGP64212.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886875</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.559</Hsp_bit-score>
+      <Hsp_score>1760</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>341</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLSQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSIIALVAVVYLYWNASLPVHTQLTVPFFKTVVWDLGIFFPILAYFVIVGSSNAVNLTDGLDGLAIMPIIMVAGALGVFAYASSNAVYSNYLGIPYVPNTDELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGVFVIETLSVILQVGYFKYTHGKRLFRMAPLHHH--LNEVAEPKVVVRFWILTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDL QTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQS+IALVAV YLYWNASLPVHTQLTVPFFKTV WDLG+FFP+LAYFVIVGSSNAVNLTDGLDGLAIMPI+MVAGALGVFAYASSNAVYSNYLGIPYVPNT ELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGG+FVIETLSVILQVGYFKY+ GKRLFRMAPLHHH  L   +EPKV+VRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|517405792|ref|WP_018578462.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella shakespearei] &gt;gi|962281273|gb|KTD65086.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578462</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>680.248</Hsp_bit-score>
+      <Hsp_score>1754</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALMVGLLCGPLMIRWLRGLQIGQMVRNDGPQSHLSKAGTPTMGGVLILLAITVSCLLWCDLKQSSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALIAVTYLYMNASLPVHTQLTLPFLKSITLDLGILFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYVSSNAVYSNYLAIPFVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETISVILQVGYFKLSHGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTAL+VGLLCGPLMIRWLRGLQIGQMVR+DGPQ+HLSKAGTPTMGGVLILLAITVSCLLWCDL+Q+SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLPGRWKYFWQSVIAL+AV+YLY NASLPVHTQLT+PF K++T DLG+ FPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAY SSNAVYSNYL IP+VPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIET+SVILQVGYFK S GKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|654932817|ref|WP_028383175.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella moravica] &gt;gi|962253352|gb|KTD37533.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383175</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.167</Hsp_bit-score>
+      <Hsp_score>1746</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALMVGLLCGPLMINWLRGLQIGQMVRNDGPQSHLSKAGTPTMGGVLILVAVTVSCLLWCDLKQSSLWLVLLVTLSNGIVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIAVIAVVYLYMNASLPVNTQLILPFFKTVTWDLGILFPFLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNSVYSNYLAIPFVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETISVILQVGYFKISHGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTAL+VGLLCGPLMI WLRGLQIGQMVR+DGPQ+HLSKAGTPTMGGVLIL+A+TVSCLLWCDL+Q+SLWLVLLVTL+NG+VGWVDDYRKLVLKNSKGLPGRWKYFWQSVIA++AV YLY NASLPV+TQL +PFFKTVTWDLG+ FP LAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSN+VYSNYL IP+VPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIET+SVILQVGYFK S GKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|966434571|ref|WP_058475002.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella quateirensis] &gt;gi|962260597|gb|KTD44707.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058475002</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.855</Hsp_bit-score>
+      <Hsp_score>1740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALMVGLLCGPLMINWLRGLQIGQMVRNDGPQSHLSKAGTPTMGGVLILLAVTVSCLLWCDLRQSSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIAVIAVFYLYMNANLPVNTQLILPFFKTVTLDLGILFPILAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNSVYSNYLAIPFVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETISVILQVGYFKMSHGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTAL+VGLLCGPLMI WLRGLQIGQMVR+DGPQ+HLSKAGTPTMGGVLILLA+TVSCLLWCDLRQ+SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLPGRWKYFWQSVIA++AV YLY NA+LPV+TQL +PFFKTVT DLG+ FP+LAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSN+VYSNYL IP+VPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIET+SVILQVGYFK S GKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|966461249|ref|WP_058493602.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella worsleiensis] &gt;gi|962294270|gb|KTD77937.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493602</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>672.544</Hsp_bit-score>
+      <Hsp_score>1734</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRCILASLTGLIVGLLCGPLMINWLRGLQIGQMVRNDGPQTHLSKAGTPTMGGVLILLAVTVSCLLWCDLKQSSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIAVIAVLYLYLNASLPVNTQLIVPFFKTVTFDLGILFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYVSSNSVYSNYLGMPFVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETISVILQVGYFKITHGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFR ILASLT LIVGLLCGPLMI WLRGLQIGQMVR+DGPQTHLSKAGTPTMGGVLILLA+TVSCLLWCDL+Q+SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLPGRWKYFWQSVIA++AV YLY NASLPV+TQL VPFFKTVT+DLG+ FPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAY SSN+VYSNYLG+P+VPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIET+SVILQVGYFK + GKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|966494048|ref|WP_058510836.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella steelei] &gt;gi|962285007|gb|KTD68773.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella steelei] &gt;gi|1113342786|gb|OJW06647.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510836</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>669.848</Hsp_bit-score>
+      <Hsp_score>1727</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLVCGPLMIRWLRGLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPARWKYFWQSIIALIAVIYLYMHATLPVHTQLTVPFFKSLTIGLGIFFPVLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGL+CGPLMIRWLRGLQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQS+IAL+AV YLY +A+LPVHTQLTVPFFK++T  LG+FFPVL YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVR+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|966415388|ref|WP_058458673.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Fluoribacter bozemanae] &gt;gi|962189898|gb|KTC75000.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458673</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>666.766</Hsp_bit-score>
+      <Hsp_score>1719</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALLVGLLCGPMMIRWLRGLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGIVGWVDDYRKLVLKNSKGLPARWKYFWQSVIALIAVIYLYMHATLPVHTQLTVPFFKSLTIGLGILFPVLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQLFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTAL+VGLLCGP+MIRWLRGLQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQSVIAL+AV YLY +A+LPVHTQLTVPFFK++T  LG+ FPVL YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQ+FMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|966436825|ref|WP_058477193.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella steigerwaltii] &gt;gi|962293598|gb|KTD77273.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477193</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>666.381</Hsp_bit-score>
+      <Hsp_score>1718</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLVCGPVMIRWLRSLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVIALIAVIYLYMHASLPVHTQLTVPFFKSLTIGLGIFFPILGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNSVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGL+CGP+MIRWLR LQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQSVIAL+AV YLY +ASLPVHTQLTVPFFK++T  LG+FFP+L YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSN+VY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|518063303|ref|WP_019233511.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella anisa] &gt;gi|962187597|gb|KTC72723.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233511</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>665.996</Hsp_bit-score>
+      <Hsp_score>1717</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLLCGPVMIRWLRGLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVIALIAVIYLYMHATLPVHTQLTVPFFKSLTIGLGILFPILGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQLFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGLLCGP+MIRWLRGLQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQSVIAL+AV YLY +A+LPVHTQLTVPFFK++T  LG+ FP+L YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQ+FMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966504755|ref|WP_058521414.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella tucsonensis] &gt;gi|962290749|gb|KTD74457.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521414</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>665.226</Hsp_bit-score>
+      <Hsp_score>1715</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALLVGLLCGPVMIRWLRGLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVIALIAVIYLYMHATLPVHTQLTVPFFKSLTIGLGILFPILGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQLFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTAL+VGLLCGP+MIRWLRGLQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQSVIAL+AV YLY +A+LPVHTQLTVPFFK++T  LG+ FP+L YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQ+FMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|654930583|ref|WP_028380952.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella cherrii] &gt;gi|962197346|gb|KTC82390.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380952</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>663.685</Hsp_bit-score>
+      <Hsp_score>1711</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLVCGPLMIRWLRSLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVIALIAVIYLYMHATLPVHTQLTVPFFKSLTIGLGILFPLLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNSVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGL+CGPLMIRWLR LQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQSVIAL+AV YLY +A+LPVHTQLTVPFFK++T  LG+ FP+L YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSN+VY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|966498887|ref|WP_058515653.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella santicrucis] &gt;gi|962269335|gb|KTD53349.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515653</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>663.3</Hsp_bit-score>
+      <Hsp_score>1710</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLVCGPIMIRWLRGLQIGQMVRDDGPQSHLSKAGTPTMGGVLILLAVTVSCLLWGDLQQPSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVVALIAVIYLYMHAALPVHTQLTVPFFKSLTIGLGIFFPVLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGL+CGP+MIRWLRGLQIGQMVR DGPQ+HLSKAGTPTMGGVLILLA+TVSCLLW DL+Q SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLP RWKYFWQSV+AL+AV YLY +A+LPVHTQLTVPFFK++T  LG+FFPVL YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966500555|ref|WP_058517228.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella parisiensis] &gt;gi|962255886|gb|KTD40023.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella parisiensis] &gt;gi|1069293451|gb|OEH48777.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517228</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>663.3</Hsp_bit-score>
+      <Hsp_score>1710</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALLVGLLCGPVMIRWLRGLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVIALIAVVYLYMHATLPVHTQLTVPFFKSLTLGLGILFPVLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNSVYAPYLGIPFVPNTGELTIFCSSIVGAGLGFLWYNSYPAQLFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTAL+VGLLCGP+MIRWLRGLQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQSVIAL+AV YLY +A+LPVHTQLTVPFFK++T  LG+ FPVL YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSN+VY+ YLGIP+VPNTGELTIFCSSIVGAGLGFLWYNSYPAQ+FMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966423489|ref|WP_058466635.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Fluoribacter gormanii] &gt;gi|962220966|gb|KTD05628.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058466635</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>663.3</Hsp_bit-score>
+      <Hsp_score>1710</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLLCGPVMIRWLRGLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVIALIAVIYLYMHATLPVHTQLTVPFFKSLTIGLGILFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFTYASGNSVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQLFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGLLCGP+MIRWLRGLQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQSVIAL+AV YLY +A+LPVHTQLTVPFFK++T  LG+ FPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+F YAS N+VY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQ+FMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966421945|ref|WP_058465146.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella cincinnatiensis] &gt;gi|962198891|gb|KTC83901.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058465146</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>663.3</Hsp_bit-score>
+      <Hsp_score>1710</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLVCGPIMIRWLRGLQIGQMVRDDGPQSHLSKAGTPTMGGVLILLAVTVSCLLWGDLQQPSLWLVLLVTLGNGIVGWVDDYRKLVLKNSKGLPARWKYFWQSVVALIAVIYLYMHAALPVHTQLTVPFFKSLTIGLGIFFPVLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGL+CGP+MIRWLRGLQIGQMVR DGPQ+HLSKAGTPTMGGVLILLA+TVSCLLW DL+Q SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLP RWKYFWQSV+AL+AV YLY +A+LPVHTQLTVPFFK++T  LG+FFPVL YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|653017651|ref|WP_027269615.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella sainthelensi] &gt;gi|962271017|gb|KTD55020.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027269615</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>661.759</Hsp_bit-score>
+      <Hsp_score>1706</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLVCGPIMIRWLRGLQIGQMVRDDGPQSHLSKAGTPTMGGVLILLAVTVSCLLWGDLQQPSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVVALIAVIYLYMHAALPVHTQLTVPFFKSLTIGLGIFFPVLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVAYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGL+CGP+MIRWLRGLQIGQMVR DGPQ+HLSKAGTPTMGGVLILLA+TVSCLLW DL+Q SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLP RWKYFWQSV+AL+AV YLY +A+LPVHTQLTVPFFK++T  LG+FFPVL YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQV YFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|489731071|ref|WP_003635187.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella longbeachae] &gt;gi|269987420|gb|EEZ93675.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella longbeachae D-4968] &gt;gi|288859256|emb|CBJ13190.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635187</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>661.374</Hsp_bit-score>
+      <Hsp_score>1705</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALIVGLVCGPIMIRWLRGLQIGQMVRDDGPQSHLSKAGTPTMGGVLIVLAVTVSCLLWGDLQQPSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPARWKYFWQSVVALIAVIYLYMHADLPVHTQLTVPFFKSLTIGLGIFFPVLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTALIVGL+CGP+MIRWLRGLQIGQMVR DGPQ+HLSKAGTPTMGGVLI+LA+TVSCLLW DL+Q SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLP RWKYFWQSV+AL+AV YLY +A LPVHTQLTVPFFK++T  LG+FFPVL YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|498340532|ref|WP_010654688.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Fluoribacter dumoffii] &gt;gi|962206070|gb|KTC91007.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654688</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>660.988</Hsp_bit-score>
+      <Hsp_score>1704</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILAALTALIVGLVCGPLMIRWLRGLQIGQMVRDDGPQTHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLANGVVGWVDDYRKLVLKNSKGLPARWKYFWQSIIALIAVIYLYMHATLPVHTQLTVPFFKSLTIGLGILFPILGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFTYASGNAVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNTYPAQVFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILA+LTALIVGL+CGPLMIRWLRGLQIGQMVR DGPQTHLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTLANG+VGWVDDYRKLVLKNSKGLP RWKYFWQS+IAL+AV YLY +A+LPVHTQLTVPFFK++T  LG+ FP+L YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+F YAS NAVY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYN+YPAQVFMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|750235075|ref|WP_040536217.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella drancourtii]</Hit_def>
+  <Hit_accession>WP_040536217</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.833</Hsp_bit-score>
+      <Hsp_score>1701</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILAALTALLVGLLCGPLTIRWLRTLQIGQMVRDDGPQSHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPGRWKFFWQSVIALIAVIYLYMNATLPVHTLLTVPFFKSVTVGLGIFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVHAHYLGIPFVPNEGELTIFCASIVGAGLGFLWYNSYPAQLFMGDVGSLALGAALGIVAVVVRQELVLLMMGGLFVIETLSVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILA+LTAL+VGLLCGPL IRWLR LQIGQMVR DGPQ+HLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLPGRWK+FWQSVIAL+AV YLY NA+LPVHT LTVPFFK+VT  LG+FFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAV+++YLGIP+VPN GELTIFC+SIVGAGLGFLWYNSYPAQ+FMGDVGSLALGAALGIVAVVVRQELVLL+MGGLFVIETLSVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966468515|ref|WP_058499841.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella gratiana] &gt;gi|962221300|gb|KTD05960.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499841</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.448</Hsp_bit-score>
+      <Hsp_score>1700</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILAALTALIVGLVCGPIMIRWLRGLQIGQMVRDDGPQSHLSKAGTPTMGGVLILLAVTVSCLLWGDLQQPSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPARWKYFWQSIVALIAVIYLYMHATLPVHTQLTVPFFKSLTLGLGLFFPILGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNSVYAPYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILA+LTALIVGL+CGP+MIRWLRGLQIGQMVR DGPQ+HLSKAGTPTMGGVLILLA+TVSCLLW DL+Q SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLP RWKYFWQS++AL+AV YLY +A+LPVHTQLTVPFFK++T  LG+FFP+L YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSN+VY+ YLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVV+R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966516645|ref|WP_058533139.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533139</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.292</Hsp_bit-score>
+      <Hsp_score>1697</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILAALTALIVGLVCGPYTIRWLRNMQIGQMVRDDGPQSHLSKAGTPTMGGILILLAVTVSCLLWGDLQQSSLWLVLLVTLGNGVVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALIAVIYLYMNATLPVHTQLVLPFFKSVTIGLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAVHAHYLGIPFVPNEGELTIFCASIVGAGLGFLWYNSYPAQLFMGDVGSLALGAALGIVAIVVRQELVLLLMGGLFVIETLSVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILA+LTALIVGL+CGP  IRWLR +QIGQMVR DGPQ+HLSKAGTPTMGG+LILLA+TVSCLLW DL+Q+SLWLVLLVTL NG+VGWVDDYRKLVLKNSKGLPGRWKYFWQSVIAL+AV YLY NA+LPVHTQL +PFFK+VT  LGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNAV+++YLGIP+VPN GELTIFC+SIVGAGLGFLWYNSYPAQ+FMGDVGSLALGAALGIVA+VVRQELVLL+MGGLFVIETLSVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|671587306|ref|WP_031563568.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563568</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>658.292</Hsp_bit-score>
+      <Hsp_score>1697</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>321</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHALRVFQYLTFRSILASLTALLVGLLCGPLMIRWLRNLQIGQMVRDDGPQSHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWIVLLVTIANGIVGWVDDYRKLVLKNSKGLPGRWKYFWQSIIAIIAVIYLYMHATLPVNTQLTVPFFKSLTIGLGILFPVLGYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNSVYAPYLGIPYVPNTGELTIFCASIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVIIREELVLLMMGGLFVIETISVILQVGYFKYTHGKRLFRMAPLHHHFELKGWSEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHA RVFQYLTFRSILASLTAL+VGLLCGPLMIRWLR LQIGQMVR DGPQ+HLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLW+VLLVT+ANG+VGWVDDYRKLVLKNSKGLPGRWKYFWQS+IA++AV YLY +A+LPV+TQLTVPFFK++T  LG+ FPVL YFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSN+VY+ YLGIPYVPNTGELTIFC+SIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAV++R+ELVLL+MGGLFVIET+SVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1113550682|gb|OJY10812.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella sp. 40-6]</Hit_def>
+  <Hit_accession>OJY10812</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>648.662</Hsp_bit-score>
+      <Hsp_score>1672</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>312</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQMLQGQYHALRVFQYLTFRSILAALTALIVGLVCGPLMIRWLRNMQIGQMVRDDGPQSHLSKAGTPTMGGVLILLAITVSCLLWGDLQQSSLWLVLLVTLGYGIVGWVDDYRKLVLKNSKGLPGRWKFFWQSIIALAAVFYLYWNATLPVHTQLTIPFFKTASISLGLLFPIFAYFVIVGTSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNVVHAHYLGIPFIPNEGELTIFCASIVGAGLGFLWYNTYPAQLFMGDVGSLALGGALGIVAIVVRQELVLFMMGGLFVIETLSLILQVGYFKYTHGKRLFRMAPLHHHFELKGWTEPKIIVRFWIITVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQ+LQGQYHA RVFQYLTFRSILA+LTALIVGL+CGPLMIRWLR +QIGQMVR DGPQ+HLSKAGTPTMGGVLILLAITVSCLLW DL+Q+SLWLVLLVTL  G+VGWVDDYRKLVLKNSKGLPGRWK+FWQS+IAL AV YLYWNA+LPVHTQLT+PFFKT +  LG+ FP+ AYFVIVG+SNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSN V+++YLGIP++PN GELTIFC+SIVGAGLGFLWYN+YPAQ+FMGDVGSLALG ALGIVA+VVRQELVL +MGGLFVIETLS+ILQVGYFKY+ GKRLFRMAPLHHHFELKGW+EPK+IVRFWIITVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|644964254|ref|WP_025385009.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella oakridgensis] &gt;gi|570283954|gb|AHE66141.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570703108|gb|ETO94007.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella oakridgensis RV-2-2007] &gt;gi|962259761|gb|KTD43885.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025385009</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>647.121</Hsp_bit-score>
+      <Hsp_score>1668</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWITQLLQGQYHAFRVFQYLTFRSILAALTALLVGLFCGPMTIRWLQGLQIGQMVRDDGPKTHLAKAGTPTMGGVLILLAITVSTLLWGDLHQASLWLVLLVTLSVGLVGWVDDYRKVVLKNSKGLPGRWKYFWQSVIALIAVFYLYFNASMPIHTQLTIPFFKNWLINLGPLFPIFAYFVIVGSSNAVNLTDGLDGLAIMPIVMVGGALGVFAYAASNAVYAHYLAIPFVPNTGELTIFCSAIVGAGLGFLWYNTYPAQVFMGDVGSLSLGAALGIVAIVIRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYW+TQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGL CGP+ IRWL+GLQIGQMVR DGP+THL+KAGTPTMGGVLILLAITVS LLW DL Q SLWLVLLVTL+ GLVGWVDDYRK+VLKNSKGLPGRWKYFWQSVIAL+AV YLY+NAS+P+HTQLT+PFFK    +LG  FP+ AYFVIVGSSNAVNLTDGLDGLAIMPIVMV GALGVFAYA+SNAVY++YL IP+VPNTGELTIFCS+IVGAGLGFLWYN+YPAQVFMGDVGSL+LGAALGIVA+V+RQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TV+FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966418883|ref|WP_058462106.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella adelaidensis] &gt;gi|962181185|gb|KTC66433.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella adelaidensis]</Hit_def>
+  <Hit_accession>WP_058462106</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.884</Hsp_bit-score>
+      <Hsp_score>1657</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>312</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILAALTALVVGLFLGPATIRWLRGLQIGQMVRDDGPKTHLSKAGTPTMGGVLILLGVTTSCLLWGDLRQVSLWIVLLVTIGFGIVGWVDDYRKLVLKNSKGLPARWKYFWQSAIALVAVGYLYYDASLPINTQLTIPFFKNWLIDLGIFFPFFAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYAASNSVYAHYLAIPYVPNTGELTIFCSALVGAGLGFLWYNSYPAQLFMGDVGSLALGASLGTIAVIVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRIFRMAPLHHHFELKGWSEPKVIVRFWILTVIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGL  GP  IRWLRGLQIGQMVR DGP+THLSKAGTPTMGGVLILL +T SCLLW DLRQ SLW+VLLVT+  G+VGWVDDYRKLVLKNSKGLP RWKYFWQS IALVAV YLY++ASLP++TQLT+PFFK    DLG+FFP  AYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYA+SN+VY++YL IPYVPNTGELTIFCS++VGAGLGFLWYNSYPAQ+FMGDVGSLALGA+LG +AV+VRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKR+FRMAPLHHHFELKGWSEPKVIVRFWI+TV+FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966406111|ref|WP_058449517.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella jamestowniensis] &gt;gi|962222740|gb|KTD07390.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella jamestowniensis] &gt;gi|1045920902|gb|OCH97835.1| phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella jamestowniensis] &gt;gi|1097327806|emb|SFL93679.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058449517</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>642.499</Hsp_bit-score>
+      <Hsp_score>1656</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILAALTALLVGLFCGPLMIKWLRNLQIGQMVRDDGPKTHLSKAGTPTMGGVLILLAIIVSCLLWGDLRQVALWLVLLVTTGFGLVGWIDDYRKLVRKNSKGLPGRWKYFWQSLIALGAVLYLYLNAEIPVQTQLTVPFFKELLIDLGPLFPVLAYFVIVGSSNAVNLTDGLDGLAIVPIIMVAGALGIFAYASSNSIYAHYLAIPFVPDTGELTIFCSAIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGMVAVIVRQELVLLIMGGLFVIETVSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGL CGPLMI+WLR LQIGQMVR DGP+THLSKAGTPTMGGVLILLAI VSCLLW DLRQ +LWLVLLVT   GLVGW+DDYRKLV KNSKGLPGRWKYFWQS+IAL AV YLY NA +PV TQLTVPFFK +  DLG  FPVLAYFVIVGSSNAVNLTDGLDGLAI+PI+MVAGALG+FAYASSN++Y++YL IP+VP+TGELTIFCS+IVGAGLGFLWYNSYPAQVFMGDVGSLALGAALG+VAV+VRQELVLLIMGGLFVIET+SVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|769991130|ref|WP_045107002.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella hackeliae] &gt;gi|731153317|emb|CEK11900.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella hackeliae] &gt;gi|962227865|gb|KTD12487.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045107002</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>641.343</Hsp_bit-score>
+      <Hsp_score>1653</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILAALTALLVGLFCGPLMIKWLRNLQIGQMVRDDGPKTHLSKAGTPTMGGVLILLAIISSCLLWGDLRQPALWLVLLVTSGFGLVGWVDDYRKLVRKNSKGLPARWKYFWQSIIALGAVFYLYWNAEIPVQTQLTVPFFKDLLIGLGPLFPVLAYFVIVGSSNAVNLTDGLDGLAIVPIVMVAGALGIFAYASSNAIYAHYLTIPFVPNTGELTIFCSAIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGMVAVIVRQELVLLIMGGLFVLETVSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGL CGPLMI+WLR LQIGQMVR DGP+THLSKAGTPTMGGVLILLAI  SCLLW DLRQ +LWLVLLVT   GLVGWVDDYRKLV KNSKGLP RWKYFWQS+IAL AV YLYWNA +PV TQLTVPFFK +   LG  FPVLAYFVIVGSSNAVNLTDGLDGLAI+PIVMVAGALG+FAYASSNA+Y++YL IP+VPNTGELTIFCS+IVGAGLGFLWYNSYPAQVFMGDVGSLALGAALG+VAV+VRQELVLLIMGGLFV+ET+SVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|654922048|ref|WP_028372605.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella lansingensis] &gt;gi|962237755|gb|KTD22194.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028372605</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.802</Hsp_bit-score>
+      <Hsp_score>1649</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALLVGLFCGPMMIRWLRSLQIGQMVRDDGPKTHLSKAGTPTMGGVLILLAIIVSCLLWGDLRQPALWLVLLVTTGFGLVGWIDDYRKLVRKNSKGLPGRWKFFWQSVIAFAAVLFLYHTAEIPVQTQLTVPFFKDLLINLGPFFPILAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNALHAHYLAIPFVPNIGELTIFCSAIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGMVAVIVRQELVLLIMGGLFVLETISVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTAL+VGL CGP+MIRWLR LQIGQMVR DGP+THLSKAGTPTMGGVLILLAI VSCLLW DLRQ +LWLVLLVT   GLVGW+DDYRKLV KNSKGLPGRWK+FWQSVIA  AV +LY  A +PV TQLTVPFFK +  +LG FFP+LAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNA++++YL IP+VPN GELTIFCS+IVGAGLGFLWYNSYPAQVFMGDVGSLALGAALG+VAV+VRQELVLLIMGGLFV+ET+SVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966400209|ref|WP_058443804.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella feeleii] &gt;gi|962218252|gb|KTD02971.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058443804</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.417</Hsp_bit-score>
+      <Hsp_score>1648</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILAALTALLVGLFCGPLMIRWLRSLQIGQMVRDDGPKTHLSKAGTPTMGGVLILLAILVSCLLWGDLRQPALWLALLVTTGFGIVGWVDDYRKVVRKNSKGLPGRWKYFWQSVIALAAVFYLYCSADIPVSTQLSVPFFKNWFITLGPLFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNALYAHYLAIPFVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETISVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGL CGPLMIRWLR LQIGQMVR DGP+THLSKAGTPTMGGVLILLAI VSCLLW DLRQ +LWL LLVT   G+VGWVDDYRK+V KNSKGLPGRWKYFWQSVIAL AV YLY +A +PV TQL+VPFFK     LG  FPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNA+Y++YL IP+VPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIET+SVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966399227|ref|WP_058442860.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella brunensis] &gt;gi|962191709|gb|KTC76785.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058442860</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>638.647</Hsp_bit-score>
+      <Hsp_score>1646</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>315</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILAALTALLVGLFCGPVMIRWLRNLQIGQMVRDDGPKTHLSKAGTPTMGGVLILLAIIVSSLLWGDLKQPALWLVLIVMTGFGLIGWVDDYRKLVRKNSKGLPGKWKYFWQSVIALVAVLYLYCNAEIPVQTQLTVPFFKDLFINLGPFFAVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNAIYAHYLAIPFVPNTGELTIFCSAMVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGMVAVIVRQELVLLIMGGLFVIETVSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWILTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGL CGP+MIRWLR LQIGQMVR DGP+THLSKAGTPTMGGVLILLAI VS LLW DL+Q +LWLVL+V    GL+GWVDDYRKLV KNSKGLPG+WKYFWQSVIALVAV YLY NA +PV TQLTVPFFK +  +LG FF VLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNA+Y++YL IP+VPNTGELTIFCS++VGAGLGFLWYNSYPAQVFMGDVGSLALGAALG+VAV+VRQELVLLIMGGLFVIET+SVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966431440|ref|WP_058471885.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella jordanis] &gt;gi|962233656|gb|KTD18204.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471885</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>638.262</Hsp_bit-score>
+      <Hsp_score>1645</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>362</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNAS-LPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALLVGLFCGPIMIRWLRNLQIGQMVRDDGPKTHLSKAGTPTMGGVLILLAIMVSCLLWGDLRQPALWLVLLVTSGFGIIGWVDDYRKLVRKNSKGLPARWKYFWQSIIALTAVFSLYWTAAGVPVQTQLTVPFFKDLLIELGPFFPVLAYFVIVGSSNAVNLTDGLDGLAIVPIIMVAGALGIFAYASSNAIYAHYLAIPFVPNTGELTIFCSAIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGMVAVMIRQELVLLIMGGLFVLETISVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTAL+VGL CGP+MIRWLR LQIGQMVR DGP+THLSKAGTPTMGGVLILLAI VSCLLW DLRQ +LWLVLLVT   G++GWVDDYRKLV KNSKGLP RWKYFWQS+IAL AV  LYW A+ +PV TQLTVPFFK +  +LG FFPVLAYFVIVGSSNAVNLTDGLDGLAI+PI+MVAGALG+FAYASSNA+Y++YL IP+VPNTGELTIFCS+IVGAGLGFLWYNSYPAQVFMGDVGSLALGAALG+VAV++RQELVLLIMGGLFV+ET+SVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966511005|ref|WP_058527596.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella erythra] &gt;gi|962209430|gb|KTC94337.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058527596</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>636.721</Hsp_bit-score>
+      <Hsp_score>1641</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHAFRVFQYITFRSILAALTALLVGLFCGPMMIKWLRNLQIGQMVRNDGPQTHLSKAGTPTMGGLLILVAITSSCLLWGDLRQPALWLVLLVTLGFGAIGWVDDYRKVVRKNSRGLPARWKYFWQSVVAILAVTFLYFNASIPVQTQLSIPFFKNWLITLGPLFPVLAYFVVVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNALYAHYLAIPYIPNTGELTIFCSAIVGAGLGFLWYNTYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETVSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHAFRVFQY+TFRSILA+LTAL+VGL CGP+MI+WLR LQIGQMVR+DGPQTHLSKAGTPTMGG+LIL+AIT SCLLW DLRQ +LWLVLLVTL  G +GWVDDYRK+V KNS+GLP RWKYFWQSV+A++AV++LY+NAS+PV TQL++PFFK     LG  FPVLAYFV+VGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNA+Y++YL IPY+PNTGELTIFCS+IVGAGLGFLWYN+YPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIET+SVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TV+FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966515295|ref|WP_058531812.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella rubrilucens] &gt;gi|962262721|gb|KTD46807.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058531812</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.565</Hsp_bit-score>
+      <Hsp_score>1638</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGQYHAFRVFQYITFRSILAALTALLVGLFCGPMMIKWLRNLQIGQMVRNDGPQTHLSKAGTPTMGGLLILVAITSSCLLWGDLRQPALWLVLLVTLGFGAIGWVDDYRKVVRKNSRGLPARWKYFWQSVVAILAVTFLYCNASIPVQTQLSIPFFKNWLITLGPLFPVLAYFVVVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYASSNALYAHYLAIPYIPNTGELTIFCSAIVGAGLGFLWYNTYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETLSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QGQYHAFRVFQY+TFRSILA+LTAL+VGL CGP+MI+WLR LQIGQMVR+DGPQTHLSKAGTPTMGG+LIL+AIT SCLLW DLRQ +LWLVLLVTL  G +GWVDDYRK+V KNS+GLP RWKYFWQSV+A++AV++LY NAS+PV TQL++PFFK     LG  FPVLAYFV+VGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAYASSNA+Y++YL IPY+PNTGELTIFCS+IVGAGLGFLWYN+YPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIETLSVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TV+FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966442494|ref|WP_058482756.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella spiritensis] &gt;gi|962280828|gb|KTD64643.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058482756</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>633.254</Hsp_bit-score>
+      <Hsp_score>1632</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALLVGLLCGPMMIKWLRNLQIGQMVRDDGPQSHLSKAGTPTMGGVLILVAITASCLLWGDLRQPALWLALLVTLGFGAIGWIDDYRKVVRKNSKGLSARWKYLWQSVVAVAAIMILYLNTSFPVQTQLTIPFFKNWLVDLGPLFPLLAYFVMVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYAGSNSVYAHYLAIPYVPNTGELTIFCSSIVGAGLGFLWYNTYPAQVFMGDVGSLALGAALGIVAIVVRQELVLLIMGGLFVIETLSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTAL+VGLLCGP+MI+WLR LQIGQMVR DGPQ+HLSKAGTPTMGGVLIL+AIT SCLLW DLRQ +LWL LLVTL  G +GW+DDYRK+V KNSKGL  RWKY WQSV+A+ A+  LY N S PV TQLT+PFFK    DLG  FP+LAYFV+VGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYA SN+VY++YL IPYVPNTGELTIFCSSIVGAGLGFLWYN+YPAQVFMGDVGSLALGAALGIVA+VVRQELVLLIMGGLFVIETLSVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITV+FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966511860|ref|WP_058528414.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella londiniensis] &gt;gi|962238301|gb|KTD22722.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058528414</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.713</Hsp_bit-score>
+      <Hsp_score>1628</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>316</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILAALTALLVGLFFGPYTIRWLCRLQIGQMVRDDGPKSHLSKAGTPTMGGVLILLAITVSVLLWGDLQQSSLWLVLLVTLGFGLVGWVDDYRKLVLKNSRGLPSRWKFFWQSTIAFAAVLYLYSQASLPVQTQLTVPFFKNWLIDLGVFFPILAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGIFAYVASNAVYAHYLAIPFVPNTEELTIFCSAIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWAEPKVIVRFWIMTVIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGL  GP  IRWL  LQIGQMVR DGP++HLSKAGTPTMGGVLILLAITVS LLW DL+Q+SLWLVLLVTL  GLVGWVDDYRKLVLKNS+GLP RWK+FWQS IA  AV YLY  ASLPV TQLTVPFFK    DLGVFFP+LAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALG+FAY +SNAVY++YL IP+VPNT ELTIFCS+IVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKY+GGKRLFRMAPLHHHFELKGW+EPKVIVRFWI+TV+FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966506694|ref|WP_058523340.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella birminghamensis] &gt;gi|962187358|gb|KTC72486.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella birminghamensis]</Hit_def>
+  <Hit_accession>WP_058523340</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>629.787</Hsp_bit-score>
+      <Hsp_score>1623</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>340</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLIQGQYHAFRVFQYLTFRSILAALTALLVSLFCGPLMIRWLRSLQMGQVVRNDGPQTHLSKAGTPTMGGVLILVGITASSLLWGDLHQPALWLVLLVTLGFGAVGWIDDYRKVVRKNSRGLPGRWKYFWQSVIAIVAVSYLYFNANLPVHTQLTIPFFKNLIINLGPLFPILAYFVIVGSSNAVNLTDGLDGLAIVPIIMVAGALGVFAYASSNALYAHYLAIPFVPDTGELTIFCSAVVGAGLGFLWYNTYPAQVFMGDVGSLALGAALGSVAVIVRQELVLLIMGGLFVLETMSVILQVGYFKCTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTIIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL+QGQYHAFRVFQYLTFRSILA+LTAL+V L CGPLMIRWLR LQ+GQ+VR+DGPQTHLSKAGTPTMGGVLIL+ IT S LLW DL Q +LWLVLLVTL  G VGW+DDYRK+V KNS+GLPGRWKYFWQSVIA+VAVSYLY+NA+LPVHTQLT+PFFK +  +LG  FP+LAYFVIVGSSNAVNLTDGLDGLAI+PI+MVAGALGVFAYASSNA+Y++YL IP+VP+TGELTIFCS++VGAGLGFLWYN+YPAQVFMGDVGSLALGAALG VAV+VRQELVLLIMGGLFV+ET+SVILQVGYFK +GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+T++FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966475566|ref|WP_058506299.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella quinlivanii] &gt;gi|962268575|gb|KTD52595.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella quinlivanii] &gt;gi|1090728476|emb|SEF71623.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella quinlivanii DSM 21216]</Hit_def>
+  <Hit_accession>WP_058506299</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>629.402</Hsp_bit-score>
+      <Hsp_score>1622</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>339</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLIQGQYHAFRVFQYLTFRSILAALTALLVSLFCGPLMIRWLRNLQMGQVVRNDGPQTHLSKAGTPTMGGVLILVGITASSLLWGDLHQPALWLVLLVTLGFGAVGWIDDYRKVVRKNSRGLPGRWKYFWQSVIAILAVLYLYLNANLPVHTQLTIPFFKNLIVNLGPLFPILAYFVIVGSSNAVNLTDGLDGLAIVPIIMVAGALGVFAYASSNAVYAHYLSIPFVPDTGELTIFCSAVLGAGLGFLWYNTYPAQVFMGDVGSLALGAALGTVAVVVRQELVLLIMGGLFVLETMSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTIIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL+QGQYHAFRVFQYLTFRSILA+LTAL+V L CGPLMIRWLR LQ+GQ+VR+DGPQTHLSKAGTPTMGGVLIL+ IT S LLW DL Q +LWLVLLVTL  G VGW+DDYRK+V KNS+GLPGRWKYFWQSVIA++AV YLY NA+LPVHTQLT+PFFK +  +LG  FP+LAYFVIVGSSNAVNLTDGLDGLAI+PI+MVAGALGVFAYASSNAVY++YL IP+VP+TGELTIFCS+++GAGLGFLWYN+YPAQVFMGDVGSLALGAALG VAVVVRQELVLLIMGGLFV+ET+SVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+T++FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966469191|ref|WP_058500469.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella israelensis] &gt;gi|962250328|gb|KTD34531.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058500469</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>628.632</Hsp_bit-score>
+      <Hsp_score>1620</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLFQGHYHAFRVFQYLTFRSILAALTALLVSLFCGPFMIRWLKGLRVGQMVRNDGPQTHLSKAGTPTMGGLLILLGITVSCLFWGDLRQASLWLVLLVTLIFGLVGSIDDYRKLILKNSKGLPGRWKYFWQSVIALIAAFYLFFTASLPVHTQLIVPFFKNTTFALGWLFPFLAYFVIVGSSNAVNLTDGLDGLAIVPIIMVAGALGIFAYASSNVIYAHYLAIPFVPDIGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLSLGAALGVVAVIVRQELALLIMGGLFVIETISVILQVAYFKYTGGKRLFRMAPLHHHFELKGWPEPKVIVRFWIMTVIFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQL QG YHAFRVFQYLTFRSILA+LTAL+V L CGP MIRWL+GL++GQMVR+DGPQTHLSKAGTPTMGG+LILL ITVSCL W DLRQ SLWLVLLVTL  GLVG +DDYRKL+LKNSKGLPGRWKYFWQSVIAL+A  YL++ ASLPVHTQL VPFFK  T+ LG  FP LAYFVIVGSSNAVNLTDGLDGLAI+PI+MVAGALG+FAYASSN +Y++YL IP+VP+ GELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSL+LGAALG+VAV+VRQEL LLIMGGLFVIET+SVILQV YFKY+GGKRLFRMAPLHHHFELKGW EPKVIVRFWI+TV+FVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|654937932|ref|WP_028388180.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028388180</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>625.935</Hsp_bit-score>
+      <Hsp_score>1613</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILAALTALLVGLFCGPLMIRWLRSLQIGQMVRDDGPQSHLSKAGTPTMGGVLILVAVLSSCLLWGDLRQSALWLVLLVTTGFGLIGWIDDYRKIVRKNSKGLPARWKYLWQSLIALVAIVYLYWSPDLPVSSQLTIPFLKNSFIHLGPLFPVFAYFVIVGSSNAVNLTDGLDGLAIMPIVMVGGALGIFAYASSNVLYAHYLAIPFVPNTGELTIFCSALVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGTVAIIVRQELVLLIMGGLFVIETLSVILQVGYFKYTKGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGL CGPLMIRWLR LQIGQMVR DGPQ+HLSKAGTPTMGGVLIL+A+  SCLLW DLRQ++LWLVLLVT   GL+GW+DDYRK+V KNSKGLP RWKY WQS+IALVA+ YLYW+  LPV +QLT+PF K     LG  FPV AYFVIVGSSNAVNLTDGLDGLAIMPIVMV GALG+FAYASSN +Y++YL IP+VPNTGELTIFCS++VGAGLGFLWYNSYPAQVFMGDVGSLALGAALG VA++VRQELVLLIMGGLFVIETLSVILQVGYFKY+ GKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|769982246|ref|WP_045098228.1|</Hit_id>
+  <Hit_def>phospho-N-acetylmuramoyl-pentapeptide-transferase [Tatlockia micdadei] &gt;gi|698845699|emb|CEG59677.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Tatlockia micdadei] &gt;gi|962245137|gb|KTD29441.1| phospho-N-acetylmuramoyl-pentapeptide transferase [Tatlockia micdadei] &gt;gi|1081465887|emb|SCX97115.1| Phospho-N-acetylmuramoyl-pentapeptide-transferase [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045098228</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>621.313</Hsp_bit-score>
+      <Hsp_score>1601</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>312</Hsp_identity>
+      <Hsp_positive>341</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILASLTALIVGLLCGPLMIRWLRGLQIGQMVRSDGPQTHLSKAGTPTMGGVLILLAITVSCLLWCDLRQTSLWLVLLVTLANGLVGWVDDYRKLVLKNSKGLPGRWKYFWQSVIALVAVSYLYWNASLPVHTQLTVPFFKTVTWDLGVFFPVLAYFVIVGSSNAVNLTDGLDGLAIMPIVMVAGALGVFAYASSNAVYSNYLGIPYVPNTGELTIFCSSIVGAGLGFLWYNSYPAQVFMGDVGSLALGAALGIVAVVVRQELVLLIMGGLFVIETLSVILQVGYFKYSGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIITVVFVLCGLATLKLR</Hsp_qseq>
+      <Hsp_hseq>MLYWLTQLLQGQYHAFRVFQYLTFRSILAALTALLVGLLCGPMMINWLKNLQIGQMVRDDGPKSHLSKAGTPTMGGVLILLAVLVSSLLWGDLRQPALWLVMLVTTGFGIVGWVDDYRKVVRKNSKGLPGRWKYFWQSVIALVAVAYLYLSPSIPVTSQLTVPFFKNLLINLGPLFPLLAYFVIVGSSNAVNLTDGLDGLAIVPIVMVAGALGVFAYASSNAVYAHYLAIPYVPNTGELTIFCSALVGAGLGFLWYNSYPAQVFMGDVGSLSLGAALGMVAIIVRQELVLLIMGGLFVIETLSVILQVGYFKYTGGKRLFRMAPLHHHFELKGWSEPKVIVRFWIMTVVFVLCGLATLKLR</Hsp_hseq>
+      <Hsp_midline>MLYWLTQLLQGQYHAFRVFQYLTFRSILA+LTAL+VGLLCGP+MI WL+ LQIGQMVR DGP++HLSKAGTPTMGGVLILLA+ VS LLW DLRQ +LWLV+LVT   G+VGWVDDYRK+V KNSKGLPGRWKYFWQSVIALVAV+YLY + S+PV +QLTVPFFK +  +LG  FP+LAYFVIVGSSNAVNLTDGLDGLAI+PIVMVAGALGVFAYASSNAVY++YL IPYVPNTGELTIFCS++VGAGLGFLWYNSYPAQVFMGDVGSL+LGAALG+VA++VRQELVLLIMGGLFVIETLSVILQVGYFKY+GGKRLFRMAPLHHHFELKGWSEPKVIVRFWI+TVVFVLCGLATLKLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

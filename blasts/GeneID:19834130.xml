@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_139275</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834130</BlastOutput_query-def>
+  <BlastOutput_query-len>88</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_139275</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834130</Iteration_query-def>
+  <Iteration_query-len>88</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250727|ref|WP_010948267.1|</Hit_id>
+  <Hit_def>transposase [Legionella pneumophila] &gt;gi|52842773|ref|YP_096572.1| transposase ORF-A, IS-type [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629884|gb|AAU28625.1| transposase ORF-A, IS-type [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509278|gb|AEW52802.1| transposase ORF-A, IS-type [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490721|gb|AGH52566.1| Mobile element protein [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083242|gb|AGN15490.1| hypothetical protein LP6_2600 [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|1073865607|gb|AOU05558.1| transposase [Legionella pneumophila] &gt;gi|1073868576|gb|AOU08526.1| transposase [Legionella pneumophila] &gt;gi|1073871571|gb|AOU11520.1| transposase [Legionella pneumophila] &gt;gi|1073874442|gb|AOU14390.1| transposase [Legionella pneumophila] &gt;gi|1073877496|gb|AOU17443.1| transposase [Legionella pneumophila] &gt;gi|1073880459|gb|AOU20405.1| transposase [Legionella pneumophila] &gt;gi|1073883456|gb|AOU23401.1| transposase [Legionella pneumophila] &gt;gi|1073886449|gb|AOU26393.1| transposase [Legionella pneumophila] &gt;gi|1073889417|gb|AOU29360.1| transposase [Legionella pneumophila] &gt;gi|1073892401|gb|AOU32343.1| transposase [Legionella pneumophila] &gt;gi|1073895369|gb|AOU35310.1| transposase [Legionella pneumophila] &gt;gi|1073898327|gb|AOU38267.1| transposase [Legionella pneumophila] &gt;gi|1073901293|gb|AOU41232.1| transposase [Legionella pneumophila] &gt;gi|1073904202|gb|AOU44140.1| transposase [Legionella pneumophila] &gt;gi|1073907155|gb|AOU47092.1| transposase [Legionella pneumophila] &gt;gi|1073910173|gb|AOU50108.1| transposase [Legionella pneumophila] &gt;gi|1073913185|gb|AOU53117.1| transposase [Legionella pneumophila] &gt;gi|1073916145|gb|AOU56076.1| transposase [Legionella pneumophila] &gt;gi|1073919108|gb|AOU59038.1| transposase [Legionella pneumophila] &gt;gi|1073922011|gb|AOU61940.1| transposase [Legionella pneumophila] &gt;gi|1073925094|gb|AOU65021.1| transposase [Legionella pneumophila] &gt;gi|1073928057|gb|AOU67983.1| transposase [Legionella pneumophila] &gt;gi|1073931043|gb|AOU70952.1| transposase [Legionella pneumophila] &gt;gi|1073934412|gb|AOU73971.1| transposase [Legionella pneumophila] &gt;gi|1073937377|gb|AOU84376.1| transposase [Legionella pneumophila] &gt;gi|1073947643|gb|AOU87367.1| transposase [Legionella pneumophila] &gt;gi|1073950571|gb|AOU90294.1| transposase [Legionella pneumophila] &gt;gi|1129969229|gb|APT99588.1| transposase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948267</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>1.5547e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|511303500|ref|WP_016356944.1|</Hit_id>
+  <Hit_def>transposase [Legionella israelensis] &gt;gi|509082558|gb|AGN14806.1| putative transposase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|962231406|gb|KTD15960.1| transposase ORF-A, IS-type [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_016356944</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>4.3645e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMEASDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGME+SDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|499526190|ref|WP_011212830.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transposase [Legionella] &gt;gi|53749961|emb|CAH11346.1| hypothetical protein lpp0199 [Legionella pneumophila str. Paris] &gt;gi|53753849|emb|CAH15315.1| hypothetical protein lpl1078 [Legionella pneumophila str. Lens] &gt;gi|536612190|gb|ERB40642.1| transposase [Legionella pneumophila str. 121004] &gt;gi|541999644|gb|ERH45643.1| transposase [Legionella pneumophila str. Leg01/11] &gt;gi|542000943|gb|ERH46915.1| transposase [Legionella pneumophila str. Leg01/53] &gt;gi|542121137|gb|ERI47471.1| transposase [Legionella pneumophila str. Leg01/20] &gt;gi|762002828|dbj|GAN25286.1| transposase [Legionella pneumophila] &gt;gi|962231624|gb|KTD16172.1| transposase ORF-A, IS-type [Legionella jordanis] &gt;gi|1041017303|gb|ANN94363.1| transposase [Legionella pneumophila] &gt;gi|1080001737|gb|AOW52309.1| transposase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080003819|gb|AOW54099.1| transposase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080014233|gb|AOW63106.1| transposase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011212830</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>6.8464e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMEASDVKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGME+SD+KRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|653013623|ref|WP_027265698.1|</Hit_id>
+  <Hit_def>transposase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027265698</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>7.66682e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTEAQIVKILKEVEVGRLVKEVCREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTE QIVKILKEVE GRLVKE+CREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|966506599|ref|WP_058523245.1|</Hit_id>
+  <Hit_def>transposase [Legionella birminghamensis] &gt;gi|962187252|gb|KTC72380.1| transposase ORF-A, IS-type [Legionella birminghamensis]</Hit_def>
+  <Hit_accession>WP_058523245</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>1.52607e-53</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>KSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>KSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMEASDVKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>KSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGME+SD+KRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1004022178|ref|WP_061487087.1|</Hit_id>
+  <Hit_def>transposase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061487087</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>1.01308e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEK</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYSGMEASDVKRLKDLEEENRRLKQMYAELSLDHKILKDIVEK</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKY GME+SD+KRLKDLEEENRRLKQMYAELSLDHKILKDIVEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|654932693|ref|WP_028383052.1|</Hit_id>
+  <Hit_def>transposase [Legionella moravica] &gt;gi|962248109|gb|KTD32340.1| transposase ORF-A, IS-type [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383052</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>1.08112e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTEAQIVKILKEVEAGRLVKEVCREYGISDATYYNWKAKYGGMESSDIKRLKALEEENRPLKQMYAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTE QIVKILKEVEAGRLVKE+CREYGISDATYYNWKAKYGGMESSDIKRLK LEEENR LKQMYAELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|684144817|dbj|GAL06296.1|</Hit_id>
+  <Hit_def>mobile element protein [Photobacterium aphoticum]</Hit_def>
+  <Hit_accession>GAL06296</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>1.10513e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEDENRRLKQMFAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LE+ENRRLKQM+AELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|837863398|ref|WP_047880694.1|</Hit_id>
+  <Hit_def>transposase [Photobacterium aquae] &gt;gi|836447176|gb|KLV03425.1| transposase [Photobacterium aquae]</Hit_def>
+  <Hit_accession>WP_047880694</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>3.82175e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTESQIVKILKEVEAGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEDENRRLKQMFAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTE+QIVKILKEVEAGRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LE+ENRRLKQM+AELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|966401933|ref|WP_058445528.1|</Hit_id>
+  <Hit_def>transposase [Legionella feeleii] &gt;gi|962211748|gb|KTC96635.1| transposase ORF-A, IS-type [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058445528</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.392</Hsp_bit-score>
+      <Hsp_score>420</Hsp_score>
+      <Hsp_evalue>5.3632e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>KKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>KKSRYTETQIVKILKEVEAGRLVKEICHEDGISDATYYNWKAKYGGMEASDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>KKSRYTETQIVKILKEVEAGRLVKEIC E GISDATYYNWKAKYGGME+SDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|837774020|ref|WP_047876773.1|</Hit_id>
+  <Hit_def>transposase [Photobacterium aphoticum] &gt;gi|836441795|gb|KLU98379.1| transposase [Photobacterium aphoticum]</Hit_def>
+  <Hit_accession>WP_047876773</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>6.47367e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETHIVKILKEVEAGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEDENRRLKQMFAELSLDHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTET IVKILKEVEAGRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LE+ENRRLKQM+AELSLDHKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|509082734|gb|AGN14982.1|</Hit_id>
+  <Hit_def>hypothetical protein LP6_2087 [Legionella pneumophila subsp. pneumophila str. Thunder Bay]</Hit_def>
+  <Hit_accession>AGN14982</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>9.01101e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMEASDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKNI</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGME+SDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|490717816|ref|WP_004580381.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transposase [Gammaproteobacteria] &gt;gi|478771543|gb|ENO16091.1| hypothetical protein J057_12081 [Marinobacter nanhaiticus D15-8W] &gt;gi|745807043|gb|AJD49744.1| hypothetical protein S7S_16660 [Alcanivorax pacificus W11-5]</Hit_def>
+  <Hit_accession>WP_004580381</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.98396e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSESQIVKILKEVEGGRLVKEVCREYGISDATYYNWKAKYGGMEASDVKRLKELEEENRRLKQMYAELSLDHKLLKDVIEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E+QIVKILKEVE GRLVKE+CREYGISDATYYNWKAKYGGME+SD+KRLK+LEEENRRLKQMYAELSLDHK+LKD++EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|738937004|ref|WP_036822959.1|</Hit_id>
+  <Hit_def>transposase [Photobacterium sanctipauli]</Hit_def>
+  <Hit_accession>WP_036822959</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>2.41749e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRLVKEVCREYGISDATYYNWKAKYGGMESSDIKRMKELEEENRRLKSMFADLSLEHRILKDIIEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGRLVKE+CREYGISDATYYNWKAKYGGMESSDIKR+K+LEEENRRLK M+A+LSL+H+ILKDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1124131128|ref|WP_074454281.1|</Hit_id>
+  <Hit_def>transposase [Marinobacter sp. X15-166B]</Hit_def>
+  <Hit_accession>WP_074454281</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>4.59106e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSESQIVKILKEVEGGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEEENRRLKQMYAELSLDHKLLKDVIEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E+QIVKILKEVE GRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LEEENRRLKQMYAELSLDHK+LKD++EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1108494925|gb|APD86591.1|</Hit_id>
+  <Hit_def>transposase [Alteromonas sp. Mex14]</Hit_def>
+  <Hit_accession>APD86591</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>4.72319e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTESQIVKILKEVEAGRLVKEVCREYGISDATYYNWKAKYGGMEASDIKRLKDLEDENRRLKAMFADLSLEHRILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTE+QIVKILKEVEAGRLVKE+CREYGISDATYYNWKAKYGGME+SDIKRLKDLE+ENRRLK M+A+LSL+H+ILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1128870687|ref|WP_075267619.1|</Hit_id>
+  <Hit_def>transposase [Marinobacter sp. CP1]</Hit_def>
+  <Hit_accession>WP_075267619</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>5.41286e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSESQIVKILKEVEGGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEEENRRLKQMYAELSLDHKLLKDVIEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E+QIVKILKEVE GRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LEEENRRLKQMYAELSLDHK+LKD++EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|490719699|ref|WP_004582264.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transposase [Gammaproteobacteria] &gt;gi|149359590|gb|EDM48049.1| hypothetical protein MDG893_14353 [Marinobacter algicola DG893] &gt;gi|478769459|gb|ENO14044.1| hypothetical protein J057_21660 [Marinobacter nanhaiticus D15-8W] &gt;gi|478772427|gb|ENO16955.1| hypothetical protein J057_00909 [Marinobacter nanhaiticus D15-8W] &gt;gi|550681548|gb|ERS05930.1| transposase [Alcanivorax sp. PN-3] &gt;gi|745804258|gb|AJD46959.1| hypothetical protein S7S_02685 [Alcanivorax pacificus W11-5] &gt;gi|914750167|gb|AKV96171.1| transposase [Marinobacter sp. CP1] &gt;gi|940515235|emb|CUR45414.1| Mobile element protein [Alcanivorax dieselolei] &gt;gi|1015606266|gb|KYZ84197.1| transposase [Alcanivorax sp. KX64203] &gt;gi|1015608532|gb|KYZ86407.1| transposase [Alcanivorax sp. KX64203] &gt;gi|1015609168|gb|KYZ87035.1| transposase [Alcanivorax sp. KX64203] &gt;gi|1032117642|gb|OAN89976.1| transposase [Marinobacter sp. EhN04] &gt;gi|1032118160|gb|OAN90488.1| transposase [Marinobacter sp. EhC06] &gt;gi|1073450841|gb|OEY65633.1| transposase [Marinobacter sp. X15-166B]</Hit_def>
+  <Hit_accession>WP_004582264</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>6.49408e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSESQIVKILKEVEGGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEEENRRLKQMYAELSLDHKLLKDVIEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E+QIVKILKEVE GRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LEEENRRLKQMYAELSLDHK+LKD++EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|499248990|ref|WP_010946530.1|</Hit_id>
+  <Hit_def>transposase [Legionella pneumophila] &gt;gi|52841030|ref|YP_094829.1| IS1400 transposase, transposase ORFA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52628141|gb|AAU26882.1| IS1400 transposase, transposase ORFA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|53750602|emb|CAH12007.1| hypothetical protein lpp0857 [Legionella pneumophila str. Paris] &gt;gi|536613796|gb|ERB42160.1| transposase [Legionella pneumophila str. 121004] &gt;gi|541997242|gb|ERH43294.1| transposase [Legionella pneumophila str. Leg01/53] &gt;gi|541998943|gb|ERH44955.1| transposase [Legionella pneumophila str. Leg01/11] &gt;gi|542122975|gb|ERI49286.1| transposase [Legionella pneumophila str. Leg01/20] &gt;gi|762002133|dbj|GAN25928.1| transposase [Legionella pneumophila] &gt;gi|1041017900|gb|ANN94960.1| transposase [Legionella pneumophila] &gt;gi|1073863924|gb|AOU03875.1| transposase [Legionella pneumophila] &gt;gi|1073866885|gb|AOU06835.1| transposase [Legionella pneumophila] &gt;gi|1073869890|gb|AOU09839.1| transposase [Legionella pneumophila] &gt;gi|1073872827|gb|AOU12775.1| transposase [Legionella pneumophila] &gt;gi|1073875816|gb|AOU15763.1| transposase [Legionella pneumophila] &gt;gi|1073878778|gb|AOU18724.1| transposase [Legionella pneumophila] &gt;gi|1073881773|gb|AOU21718.1| transposase [Legionella pneumophila] &gt;gi|1073884732|gb|AOU24676.1| transposase [Legionella pneumophila] &gt;gi|1073887732|gb|AOU27675.1| transposase [Legionella pneumophila] &gt;gi|1073890715|gb|AOU30657.1| transposase [Legionella pneumophila] &gt;gi|1073893681|gb|AOU33622.1| transposase [Legionella pneumophila] &gt;gi|1073896646|gb|AOU36586.1| transposase [Legionella pneumophila] &gt;gi|1073899608|gb|AOU39547.1| transposase [Legionella pneumophila] &gt;gi|1073902559|gb|AOU42497.1| transposase [Legionella pneumophila] &gt;gi|1073905474|gb|AOU45411.1| transposase [Legionella pneumophila] &gt;gi|1073908490|gb|AOU48425.1| transposase [Legionella pneumophila] &gt;gi|1073911545|gb|AOU51477.1| transposase [Legionella pneumophila] &gt;gi|1073914464|gb|AOU54395.1| transposase [Legionella pneumophila] &gt;gi|1073917424|gb|AOU57354.1| transposase [Legionella pneumophila] &gt;gi|1073920387|gb|AOU60316.1| transposase [Legionella pneumophila] &gt;gi|1073923362|gb|AOU63289.1| transposase [Legionella pneumophila] &gt;gi|1073926372|gb|AOU66298.1| transposase [Legionella pneumophila] &gt;gi|1073929355|gb|AOU69264.1| transposase [Legionella pneumophila] &gt;gi|1073932738|gb|AOU72297.1| transposase [Legionella pneumophila] &gt;gi|1073935694|gb|AOU82693.1| transposase [Legionella pneumophila] &gt;gi|1073945962|gb|AOU85686.1| transposase [Legionella pneumophila] &gt;gi|1073948929|gb|AOU88652.1| transposase [Legionella pneumophila] &gt;gi|1129967541|gb|APT97900.1| transposase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010946530</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.31126e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTKTQIVKILKEVEAGSLVKEICSEYGISDATYYNWKAKYVGMEASDVKRLKDLEEENRRLKQMYAELSLDHKILKNIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYT+TQIVKILKEVEAG LVKEIC EYGISDATYYNWKAKY GME+SD+KRLKDLEEENRRLKQMYAELSLDHKILK+IVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1016940334|ref|WP_063142073.1|</Hit_id>
+  <Hit_def>transposase, partial [Alcanivorax sp. KX64203] &gt;gi|1015606800|gb|KYZ84706.1| transposase, partial [Alcanivorax sp. KX64203]</Hit_def>
+  <Hit_accession>WP_063142073</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>2.2704e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKK</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSESQIVKILKEVEGGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEEENRRLKQMYAELSLDHKLLKDVIEKK</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E+QIVKILKEVE GRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LEEENRRLKQMYAELSLDHK+LKD++EKK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1056267432|ref|WP_067740151.1|</Hit_id>
+  <Hit_def>transposase [Alteromonadaceae bacterium XY-R5]</Hit_def>
+  <Hit_accession>WP_067740151</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>2.29546e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKESRYTESQIVKILKEVEAGRLVKEVCREYGISDATYYNWKAKYGGMEASDIKRLKDLEDENRRLKAMFADLSLEHRILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MK+SRYTE+QIVKILKEVEAGRLVKE+CREYGISDATYYNWKAKYGGME+SDIKRLKDLE+ENRRLK M+A+LSL+H+ILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1097548454|emb|SFR57441.1|</Hit_id>
+  <Hit_def>putative transposase [Marinobacter daqiaonensis]</Hit_def>
+  <Hit_accession>SFR57441</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>3.60053e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSESQIVKILKEVEGGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEEENRRLKQMYAELSLDHKLLKDVIKKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E+QIVKILKEVE GRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LEEENRRLKQMYAELSLDHK+LKD+++KKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|519052958|ref|WP_020208833.1|</Hit_id>
+  <Hit_def>transposase [Gilvimarinus chinensis]</Hit_def>
+  <Hit_accession>WP_020208833</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>6.44287e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVRILKEVEGGRLVKEVCREYGVSDATYYNWKSKYGGMEASDIKRLKELEEENRRLKAMFADLSLEHKILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIV+ILKEVE GRLVKE+CREYG+SDATYYNWK+KYGGME+SDIKRLK+LEEENRRLK M+A+LSL+HKILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|949075914|gb|KRO70115.1|</Hit_id>
+  <Hit_def>transposase [OM182 bacterium BACL3 MAG-120507-bin80] &gt;gi|949087398|gb|KRO78097.1| transposase [OM182 bacterium BACL3 MAG-120619-bin3] &gt;gi|949151249|gb|KRP25206.1| transposase [OM182 bacterium BACL3 MAG-120924-bin41] &gt;gi|949161068|gb|KRP31911.1| transposase [OM182 bacterium BACL3 MAG-121001-bin29] &gt;gi|949167103|gb|KRP35752.1| transposase [OM182 bacterium BACL3 MAG-120531-bin86]</Hit_def>
+  <Hit_accession>KRO70115</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.21795e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTESQIVKILKEVEGGRLVKEVCREYSVSDATYYNWKAKYGGMEASDIKRLKDLEDENRRLKSMFAELSLEHRILKDIIEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTE+QIVKILKEVE GRLVKE+CREY +SDATYYNWKAKYGGME+SDIKRLKDLE+ENRRLK M+AELSL+H+ILKDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|654654031|ref|WP_028115008.1|</Hit_id>
+  <Hit_def>transposase [Ferrimonas kyonanensis]</Hit_def>
+  <Hit_accession>WP_028115008</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>1.80835e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTESQIVKILKEVEGGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKVLEDENRRMKQMFAELSLDHKIPKDIIEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTE+QIVKILKEVE GRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK LE+ENRR+KQM+AELSLDHKI KDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|898342482|ref|WP_049588065.1|</Hit_id>
+  <Hit_def>transposase [Alteromonas macleodii]</Hit_def>
+  <Hit_accession>WP_049588065</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>5.79018e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSESQIVKILKEVEAGRLVKEVCREYGISDATYYNWKAKYGGMEASDIKRLKDLEDENRRLKTMFAGLSLEHRILKGIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E+QIVKILKEVEAGRLVKE+CREYGISDATYYNWKAKYGGME+SDIKRLKDLE+ENRRLK M+A LSL+H+ILK IVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1057339008|ref|WP_068699666.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transposase [Vibrio] &gt;gi|1040436025|gb|OBT09342.1| transposase [Vibrio sp. UCD-FRSSP16_30] &gt;gi|1040436151|gb|OBT09464.1| transposase [Vibrio sp. UCD-FRSSP16_30] &gt;gi|1040444312|gb|OBT17480.1| transposase [Vibrio sp. UCD-FRSSP16_10] &gt;gi|1040446391|gb|OBT19506.1| transposase [Vibrio sp. UCD-FRSSP16_10]</Hit_def>
+  <Hit_accession>WP_068699666</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>6.53341e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTESQIVKILKEVEAGRKVSDACREYGISDATYYNWRAKYGGMDSSDIKRLKELEEENRRLKQMYADLSLDHSILKDVIEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTE+QIVKILKEVEAGR V + CREYGISDATYYNW+AKYGGM+SSDIKRLK+LEEENRRLKQMYA+LSLDH ILKD++EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|516400742|ref|WP_017790140.1|</Hit_id>
+  <Hit_def>transposase [Vibrio vulnificus] &gt;gi|586664347|gb|EWS67780.1| transposase [Vibrio vulnificus BAA87] &gt;gi|674441504|gb|KFK58777.1| transposase [Vibrio vulnificus] &gt;gi|674450496|gb|KFK66591.1| transposase [Vibrio vulnificus] &gt;gi|674451644|gb|KFK67307.1| transposase [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_017790140</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>8.22748e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSETQIVKILKEVEVGRKVSEVCREYGISDATYYNWKAKYGGMEASEVKRLKDLEEENRRLKAMFAELSLEHRILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+ETQIVKILKEVE GR V E+CREYGISDATYYNWKAKYGGME+S++KRLKDLEEENRRLK M+AELSL+H+ILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|740339463|ref|WP_038176149.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transposase [Vibrio]</Hit_def>
+  <Hit_accession>WP_038176149</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>9.38603e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSETQIVKILKEVEVGRKVNEVCREYGISDATYYNWKAKYGGMEASEVKRLKDLEEENRRLKAMFAELSLEHRILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+ETQIVKILKEVE GR V E+CREYGISDATYYNWKAKYGGME+S++KRLKDLEEENRRLK M+AELSL+H+ILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|740339555|ref|WP_038176237.1|</Hit_id>
+  <Hit_def>transposase [Vibrio pacinii]</Hit_def>
+  <Hit_accession>WP_038176237</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>2.11498e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSETQIVKILKEVEVGRKVNEVCREYGISDATYYNWKAKYGGMEASEVKRLKDLEEQNRRLKAMFAELSLEHRILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+ETQIVKILKEVE GR V E+CREYGISDATYYNWKAKYGGME+S++KRLKDLEE+NRRLK M+AELSL+H+ILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|740340177|ref|WP_038176836.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transposase [Vibrionaceae] &gt;gi|807114667|gb|KKC97882.1| transposase [Photobacterium halotolerans] &gt;gi|807114688|gb|KKC97901.1| transposase [Photobacterium halotolerans] &gt;gi|807115973|gb|KKC99164.1| transposase [Photobacterium halotolerans] &gt;gi|807116229|gb|KKC99418.1| transposase [Photobacterium halotolerans] &gt;gi|807116355|gb|KKC99543.1| transposase [Photobacterium halotolerans] &gt;gi|807117176|gb|KKD00360.1| transposase [Photobacterium halotolerans] &gt;gi|807117386|gb|KKD00569.1| transposase [Photobacterium halotolerans] &gt;gi|807117606|gb|KKD00788.1| transposase [Photobacterium halotolerans] &gt;gi|1063003102|gb|ODQ01346.1| transposase [Salinivibrio sp. DV] &gt;gi|1063003178|gb|ODQ01404.1| transposase [Salinivibrio sp. DV] &gt;gi|1065547748|gb|ODZ78292.1| transposase [Vibrio parahaemolyticus] &gt;gi|1114430170|emb|SHO59094.1| Transposase [Vibrio quintilis]</Hit_def>
+  <Hit_accession>WP_038176836</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>2.69277e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRKVNEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEDENRRLKQMFADLSLEHRIVKDILEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGR V E+CREYGISDATYYNWK+KYGGME+SD+KRLK+LE+ENRRLKQM+A+LSL+H+I+KDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|737585043|ref|WP_035555992.1|</Hit_id>
+  <Hit_def>transposase [Halomonas sp. KO116] &gt;gi|779740960|gb|AJY52921.1| transposase IS3/IS911 family protein (plasmid) [Halomonas sp. KO116]</Hit_def>
+  <Hit_accession>WP_035555992</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>3.82124e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEK</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSEAQIVKILKEVEGGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEEESRRLKQMYAELSLDHKLLKDVIKK</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E QIVKILKEVE GRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LEEE+RRLKQMYAELSLDHK+LKD+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|647081287|ref|WP_025639311.1|</Hit_id>
+  <Hit_def>transposase [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_025639311</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>3.99798e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKRSRYTETQIVKILKEVEAGRKVNEVCREYGISDATYYNWKSKYGGMEASDIKRLKELEDENRRLKQMFADLSLEHRIVKDILEKKL</Hsp_hseq>
+      <Hsp_midline>MK+SRYTETQIVKILKEVEAGR V E+CREYGISDATYYNWK+KYGGME+SDIKRLK+LE+ENRRLKQM+A+LSL+H+I+KDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|491646766|ref|WP_005504292.1|</Hit_id>
+  <Hit_def>transposase [Grimontia hollisae] &gt;gi|262220410|gb|EEY71725.1| hypothetical protein VHA_002147 [Grimontia hollisae CIP 101886] &gt;gi|262220806|gb|EEY72121.1| hypothetical protein VHA_002543 [Grimontia hollisae CIP 101886] &gt;gi|991860758|gb|AMG29050.1| transposase [Grimontia hollisae] &gt;gi|991861038|gb|AMG29330.1| transposase [Grimontia hollisae]</Hit_def>
+  <Hit_accession>WP_005504292</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>8.62155e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTESQIVKILKEVEAGRKVNEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEDENRRLKQMFADLSLEHRIVKDILEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTE+QIVKILKEVEAGR V E+CREYGISDATYYNWK+KYGGME+SD+KRLK+LE+ENRRLKQM+A+LSL+H+I+KDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|746409618|ref|WP_039451109.1|</Hit_id>
+  <Hit_def>transposase [Vibrio vulnificus] &gt;gi|695265346|gb|KGK69263.1| transposase [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_039451109</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>1.07384e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSETQIVKILKEVEVGRKVSEVCREYGISDATYYKWKAKYGGMEASEVKRLKDLEEENRRLKAMFAELSLEHRILKDIVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+ETQIVKILKEVE GR V E+CREYGISDATYY WKAKYGGME+S++KRLKDLEEENRRLK M+AELSL+H+ILKDIVEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|800949462|ref|WP_045977650.1|</Hit_id>
+  <Hit_def>transposase [Vibrio neptunius] &gt;gi|798735702|gb|KJY85644.1| transposase [Vibrio neptunius]</Hit_def>
+  <Hit_accession>WP_045977650</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>2.70038e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIAKILKEVEAGRKVNEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEGENRRLKQMFADLSLEHRIVKDILEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQI KILKEVEAGR V E+CREYGISDATYYNWK+KYGGME+SD+KRLK+LE ENRRLKQM+A+LSL+H+I+KDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1124245991|ref|WP_074545456.1|</Hit_id>
+  <Hit_def>transposase [Vibrio parahaemolyticus] &gt;gi|1123490693|gb|OKY30750.1| transposase [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_074545456</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>3.43806e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRKVNEVCREYGTSDATYYNWKSKYGGMEASDVKRLKELDDENRRLKQMFADLSLEHRIVKDILEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGR V E+CREYG SDATYYNWK+KYGGME+SD+KRLK+L++ENRRLKQM+A+LSL+H+I+KDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|803556381|ref|WP_046074820.1|</Hit_id>
+  <Hit_def>transposase [Salinivibrio sp. KP-1] &gt;gi|802241184|gb|KKA44817.1| transposase [Salinivibrio sp. KP-1]</Hit_def>
+  <Hit_accession>WP_046074820</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>4.42477e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEK</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRKVNEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEDENRRLKQMFADLSLEHRIVKDILEK</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGR V E+CREYGISDATYYNWK+KYGGME+SD+KRLK+LE+ENRRLKQM+A+LSL+H+I+KDI+EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|501092140|ref|WP_012142316.1|</Hit_id>
+  <Hit_def>transposase [Shewanella sediminis] &gt;gi|157317483|gb|ABV36581.1| conserved hypothetical protein [Shewanella sediminis HAW-EB3]</Hit_def>
+  <Hit_accession>WP_012142316</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>5.16076e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIIKILKEVEGGRLIKEVSREYGISEATYYNWKSKFGGMEASDIKRLRELEDENRRLKQMFADISLEHKILKDLVEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQI+KILKEVE GRL+KE+ REYGIS+ATYYNWK+K+GGME+SDIKRL++LE+ENRRLKQM+A++SL+HKILKD+VEKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|654939142|ref|WP_028389343.1|</Hit_id>
+  <Hit_def>transposase [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028389343</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>6.86548e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKWRYSESQIISILKAVETGRLVKDVCREYGISDATYYNWKAKYGGMEASDIKRMKDLEEENRRLKQMFANLSLEHTILKDIIEKKL</Hsp_hseq>
+      <Hsp_midline>MKK RY+E+QI+ ILK VE GRLVK++CREYGISDATYYNWKAKYGGME+SDIKR+KDLEEENRRLKQM+A LSL+H ILKDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1059903480|ref|WP_069005348.1|</Hit_id>
+  <Hit_def>transposase [Candidatus Thiodiazotropha endoloripes] &gt;gi|1058373128|gb|ODB82935.1| transposase [Candidatus Thiodiazotropha endoloripes] &gt;gi|1058373565|gb|ODB83369.1| transposase [Candidatus Thiodiazotropha endoloripes] &gt;gi|1058379653|gb|ODB89447.1| transposase [Candidatus Thiodiazotropha endoloripes]</Hit_def>
+  <Hit_accession>WP_069005348</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>2.62002e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKRSKYSETQIVRILKEVEGGRMVKEVCREYGISDATYYNWKSKYGGMEASDIKRLKELEEENRKLKQMFAELSLENHALKDVIEKKL</Hsp_hseq>
+      <Hsp_midline>MK+S+Y+ETQIV+ILKEVE GR+VKE+CREYGISDATYYNWK+KYGGME+SDIKRLK+LEEENR+LKQM+AELSL++  LKD++EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|653000297|ref|WP_027252501.1|</Hit_id>
+  <Hit_def>transposase [Photobacterium halotolerans]</Hit_def>
+  <Hit_accession>WP_027252501</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.07648e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSL-DHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEASRKVNEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEDENRRLKQMFADLSLEEHRIVKDILEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEA R V E+CREYGISDATYYNWK+KYGGME+SD+KRLK+LE+ENRRLKQM+A+LSL +H+I+KDI+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|935651191|ref|WP_054489988.1|</Hit_id>
+  <Hit_def>transposase [Idiomarina abyssalis] &gt;gi|928500799|gb|KPD21072.1| transposase [Idiomarina abyssalis] &gt;gi|1097117060|emb|SFT75167.1| putative transposase [Idiomarina abyssalis]</Hit_def>
+  <Hit_accession>WP_054489988</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>1.25571e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKI</Hsp_qseq>
+      <Hsp_hseq>MKKSRYSESQIVKILKEVEGGRLVKEVCREYGISDATYYNWKSKYGGMEASDVKRLKELEEENRRLKQMYAELSLDHKL</Hsp_hseq>
+      <Hsp_midline>MKKSRY+E+QIVKILKEVE GRLVKE+CREYGISDATYYNWK+KYGGME+SD+KRLK+LEEENRRLKQMYAELSLDHK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|542099231|ref|WP_021015400.1|</Hit_id>
+  <Hit_def>transposase [Serratia sp. ATCC 39006] &gt;gi|555227273|gb|ESN64726.1| hypothetical protein Ser39006_02134 [Serratia sp. ATCC 39006]</Hit_def>
+  <Hit_accession>WP_021015400</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>1.51733e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKARFTETQILRVLKEVEGGRHVKDVCRENGVSEASYYNWKAKYGGMESSDIKRMKELEEENRRLKQMYASLSLDHEILKDVVSKKL</Hsp_hseq>
+      <Hsp_midline>MKK+R+TETQI+++LKEVE GR VK++CRE G+S+A+YYNWKAKYGGMESSDIKR+K+LEEENRRLKQMYA LSLDH+ILKD+V KKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|746458982|ref|WP_039498367.1|</Hit_id>
+  <Hit_def>transposase [Pectobacterium carotovorum] &gt;gi|741148421|gb|KHT40711.1| transposase [Pectobacterium carotovorum subsp. carotovorum]</Hit_def>
+  <Hit_accession>WP_039498367</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>1.88984e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKARFTETQILRVLKEVEGGRHVKDVCRENGVSEASYYNWKAKYGGMESSDIKRMKELEEENRRLKQMYASLSLDHEILKDVVAKKL</Hsp_hseq>
+      <Hsp_midline>MKK+R+TETQI+++LKEVE GR VK++CRE G+S+A+YYNWKAKYGGMESSDIKR+K+LEEENRRLKQMYA LSLDH+ILKD+V KKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|498119551|ref|WP_010433707.1|</Hit_id>
+  <Hit_def>transposase [Vibrio cyclitrophicus] &gt;gi|1067344321|gb|OEE22035.1| transposase [Vibrio cyclitrophicus ZF14]</Hit_def>
+  <Hit_accession>WP_010433707</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.77509e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKSRYTETQIVKILKEVEAGRKVNEVCREYEISDATYYNWKSKYGGMEASDVKRLKELEDENRRLKQMFADLSLEYRIVKNILEKKL</Hsp_hseq>
+      <Hsp_midline>MKKSRYTETQIVKILKEVEAGR V E+CREY ISDATYYNWK+KYGGME+SD+KRLK+LE+ENRRLKQM+A+LSL+++I+K+I+EKKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|499405763|ref|WP_011093230.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transposase [Enterobacterales] &gt;gi|49611111|emb|CAG74557.1| transposase [Pectobacterium atrosepticum SCRI1043] &gt;gi|573929303|gb|AHG20600.1| transposase [Chania multitudinisentens RB-25] &gt;gi|573929402|gb|AHG20699.1| transposase [Chania multitudinisentens RB-25] &gt;gi|573930910|gb|AHG22207.1| transposase [Chania multitudinisentens RB-25] &gt;gi|679635768|gb|KFX17989.1| transposase [Pectobacterium carotovorum subsp. carotovorum] &gt;gi|679636287|gb|KFX18496.1| transposase [Pectobacterium carotovorum subsp. carotovorum] &gt;gi|685000322|gb|KGA37924.1| transposase [Pectobacterium carotovorum subsp. odoriferum] &gt;gi|685004000|gb|KGA41272.1| transposase [Pectobacterium carotovorum subsp. odoriferum] &gt;gi|700312865|gb|AIU87985.1| transposase [Pectobacterium carotovorum subsp. odoriferum] &gt;gi|741102073|gb|KHS94771.1| transposase [Pectobacterium carotovorum subsp. carotovorum] &gt;gi|768964605|gb|AJW28908.1| transposase [Chania multitudinisentens RB-25]</Hit_def>
+  <Hit_accession>WP_011093230</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>4.35243e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKARFTETQILRVLKEVEGGRHVKDVCRENGVSEASYYNWKSKYGGMESSDIKRMKELEEENRRLKQMYASLSLDHEILKDVVSKKL</Hsp_hseq>
+      <Hsp_midline>MKK+R+TETQI+++LKEVE GR VK++CRE G+S+A+YYNWK+KYGGMESSDIKR+K+LEEENRRLKQMYA LSLDH+ILKD+V KKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|902971035|ref|WP_049689765.1|</Hit_id>
+  <Hit_def>transposase [Yersinia ruckeri] &gt;gi|892367086|emb|CNB83103.1| transposase [Yersinia ruckeri]</Hit_def>
+  <Hit_accession>WP_049689765</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>5.9185e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKARFTETQILRVLKEVEGGRHVKDVCRENGVSEASYYNWKSKYGGMESSDIKRMKELEEENRRLKQMYASLSLDHEILKDVVAKKL</Hsp_hseq>
+      <Hsp_midline>MKK+R+TETQI+++LKEVE GR VK++CRE G+S+A+YYNWK+KYGGMESSDIKR+K+LEEENRRLKQMYA LSLDH+ILKD+V KKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|554498862|ref|WP_023160608.1|</Hit_id>
+  <Hit_def>transposase [Yersinia enterocolitica] &gt;gi|545726306|emb|CCV45970.1| putative transposase [Yersinia enterocolitica (type O:5,27) str. YE149/02] &gt;gi|893045483|emb|CNI77123.1| transposase [Yersinia enterocolitica] &gt;gi|893142221|emb|CNJ96923.1| transposase [Yersinia enterocolitica] &gt;gi|899874958|emb|CQH99761.1| transposase [Yersinia enterocolitica]</Hit_def>
+  <Hit_accession>WP_023160608</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>6.18415e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKARFTESQILRVLKEVEGGRHVKDVCRENGVSEASYYNWKAKYGGMESSDIKRMKELEEENRRLKQMYASLSLDHEILKDVVAKKL</Hsp_hseq>
+      <Hsp_midline>MKK+R+TE+QI+++LKEVE GR VK++CRE G+S+A+YYNWKAKYGGMESSDIKR+K+LEEENRRLKQMYA LSLDH+ILKD+V KKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|497993890|ref|WP_010308046.1|</Hit_id>
+  <Hit_def>transposase [Pectobacterium carotovorum]</Hit_def>
+  <Hit_accession>WP_010308046</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>6.53304e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKKSRYTETQIVKILKEVEAGRLVKEICREYGISDATYYNWKAKYGGMESSDIKRLKDLEEENRRLKQMYAELSLDHKILKDIVEKKL</Hsp_qseq>
+      <Hsp_hseq>MKKARFTETQILRVLKEVEGGRHVKDVCRENGVSEASYYNWKSKYGGMESSDIKRVKELEEENRRLKQMYASLSLDHEILKDVVSKKL</Hsp_hseq>
+      <Hsp_midline>MKK+R+TETQI+++LKEVE GR VK++CRE G+S+A+YYNWK+KYGGMESSDIKR+K+LEEENRRLKQMYA LSLDH+ILKD+V KKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

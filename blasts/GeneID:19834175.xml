@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_142839</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834175</BlastOutput_query-def>
+  <BlastOutput_query-len>420</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_142839</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834175</Iteration_query-def>
+  <Iteration_query-len>420</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250770|ref|WP_010948310.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella pneumophila] &gt;gi|52842816|ref|YP_096615.1| ATP-binding cell division protein FtsA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629927|gb|AAU28668.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509321|gb|AEW52845.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948310</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>854.744</Hsp_bit-score>
+      <Hsp_score>2207</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>420</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>420</Hsp_identity>
+      <Hsp_positive>420</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>420</Hsp_align-len>
+      <Hsp_qseq>METTNGTIMAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>METTNGTIMAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>METTNGTIMAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499535702|ref|WP_011216485.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella pneumophila] &gt;gi|53752384|emb|CAH13816.1| ATP-binding cell division protein FtsA [Legionella pneumophila str. Paris] &gt;gi|53755279|emb|CAH16773.1| ATP-binding cell division protein FtsA [Legionella pneumophila str. Lens] &gt;gi|148280428|gb|ABQ54516.1| ATP-binding cell division protein FtsA [Legionella pneumophila str. Corby] &gt;gi|295650157|gb|ADG26004.1| cell division protein FtsA [Legionella pneumophila 2300/99 Alcoy] &gt;gi|395128611|emb|CCD06829.1| ATP-binding cell division protein involved in recruitment of FtsK to Z ring [Legionella pneumophila subsp. pneumophila] &gt;gi|395131694|emb|CCD09987.1| ATP-binding cell division protein involved in recruitment of FtsK to Z ring [Legionella pneumophila subsp. pneumophila] &gt;gi|469490671|gb|AGH52516.1| Cell division protein FtsA [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083282|gb|AGN15530.1| ATP-binding cell division protein FtsA [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|536611653|gb|ERB40171.1| cell division protein FtsA [Legionella pneumophila str. 121004] &gt;gi|541998734|gb|ERH44750.1| cell division protein FtsA [Legionella pneumophila str. Leg01/53] &gt;gi|542000236|gb|ERH46227.1| cell division protein FtsA [Legionella pneumophila str. Leg01/11] &gt;gi|542123130|gb|ERI49439.1| cell division protein FtsA [Legionella pneumophila str. Leg01/20] &gt;gi|761987451|dbj|GAN24626.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|761990465|dbj|GAN18574.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|761993655|dbj|GAN21680.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|761996832|dbj|GAN31007.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|762000204|dbj|GAN27936.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|998772864|emb|CZI18475.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998775687|emb|CZG59194.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998778273|emb|CZG74440.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998781190|emb|CZJ44200.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998784512|emb|CZG84180.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998787464|emb|CZG57843.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998789995|emb|CZH01603.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998792805|emb|CZI68433.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998796476|emb|CZH98442.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998800353|emb|CZL05709.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998802603|emb|CZH88159.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998805764|emb|CZK06365.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998808402|emb|CZH89302.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998811869|emb|CZH77426.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998814332|emb|CZG63531.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998817684|emb|CZL57327.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998820786|emb|CZL59653.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998824262|emb|CZG43708.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998826748|emb|CZK07296.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998829483|emb|CZG80373.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998832614|emb|CZI08944.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998835721|emb|CZK86061.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998837889|emb|CZJ74463.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998842260|emb|CZL11418.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998844678|emb|CZK27117.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998847629|emb|CZK65716.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998850284|emb|CZI40354.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998853733|emb|CZL24359.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998856429|emb|CZL31693.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998859752|emb|CZL71675.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998862712|emb|CZK19968.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998865437|emb|CZJ42744.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998869822|emb|CZJ34831.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998871017|emb|CZM15122.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998874505|emb|CZK36426.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998877508|emb|CZM00985.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998880575|emb|CZI88536.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998883347|emb|CZI77507.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998887995|emb|CZL48222.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998889270|emb|CZK24243.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998892875|emb|CZJ06925.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998895553|emb|CZK00705.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998898812|emb|CZJ44845.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998906080|emb|CZK54822.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998909651|emb|CZL07547.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998912346|emb|CZG98356.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998915879|emb|CZK63727.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998918348|emb|CZK84484.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998921319|emb|CZL39933.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998924265|emb|CZJ94526.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998927624|emb|CZL65105.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998930711|emb|CZK76722.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998933884|emb|CZL74437.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998936462|emb|CZM48058.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998939926|emb|CZK77745.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998942510|emb|CZK05022.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998946003|emb|CZK96899.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998949047|emb|CZK83637.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998952217|emb|CZJ32965.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998954561|emb|CZK40482.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998958567|emb|CZL99206.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998961473|emb|CZK23829.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998964660|emb|CZK07147.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998966918|emb|CZM50909.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998970460|emb|CZK52364.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998973849|emb|CZK28024.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998976212|emb|CZJ66664.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998979554|emb|CZL60988.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998982002|emb|CZI87772.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998985903|emb|CZK01449.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998988667|emb|CZL47005.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998991540|emb|CZK09028.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998993930|emb|CZI45558.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|998998071|emb|CZJ90187.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999000394|emb|CZG76129.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999004435|emb|CZI42357.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999008043|emb|CZK29179.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999009803|emb|CZK01781.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999012976|emb|CZL45391.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999016898|emb|CZL70432.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999018945|emb|CZJ62080.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999022696|emb|CZL16676.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999025333|emb|CZK73351.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999027957|emb|CZJ89090.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999031517|emb|CZG66614.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999034075|emb|CZJ98385.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999037090|emb|CZL53111.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999040282|emb|CZJ68489.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999043051|emb|CZJ76559.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999046814|emb|CZL76047.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999048994|emb|CZJ87236.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999052251|emb|CZJ69011.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999055131|emb|CZJ95731.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999057938|emb|CZM54363.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999061621|emb|CZL13339.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999064361|emb|CZJ79342.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999067414|emb|CZJ19479.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999070084|emb|CZJ74093.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999073457|emb|CZK05962.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999076862|emb|CZG57915.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999080205|emb|CZJ90471.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999082836|emb|CZK79092.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999085600|emb|CZJ96389.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999090454|emb|CZK40274.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999092448|emb|CZL39152.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999095234|emb|CZG85806.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999098751|emb|CZG62096.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999101180|emb|CZL69077.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999104191|emb|CZI06663.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999106972|emb|CZI85817.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999110377|emb|CZL14208.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999113844|emb|CZL52685.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999116375|emb|CZK47042.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999126287|emb|CZK78035.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999128802|emb|CZH04518.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999131553|emb|CZL93762.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999134772|emb|CZL15732.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999138126|emb|CZK29641.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999141759|emb|CZL42919.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999144596|emb|CZK70985.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999147612|emb|CZL48043.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999151549|emb|CZH54420.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999153879|emb|CZM18587.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999156897|emb|CZH75624.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999158582|emb|CZJ89654.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999162967|emb|CZM05855.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999166036|emb|CZG68940.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999168291|emb|CZI50783.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999173421|emb|CZH70395.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999175752|emb|CZL03774.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999177498|emb|CZJ87419.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999182519|emb|CZG26665.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999184476|emb|CZP92454.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999188684|emb|CZI76061.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999191321|emb|CZI19086.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999194444|emb|CZI45630.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999198284|emb|CZP05948.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999200309|emb|CZG61952.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999203755|emb|CZI45565.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999206461|emb|CZP60021.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999209976|emb|CZK74379.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999213616|emb|CZG41889.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999217094|emb|CZI73751.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999219342|emb|CZL32544.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999222436|emb|CZI37042.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999225938|emb|CZG33974.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999227876|emb|CZP41439.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999231246|emb|CZI63673.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999235025|emb|CZP51031.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999237160|emb|CZG77480.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999240521|emb|CZH75363.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999244190|emb|CZH70488.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999248120|emb|CZH52831.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999249398|emb|CZG77531.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999252865|emb|CZG90294.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999256128|emb|CZP72895.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999259175|emb|CZP38535.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999262179|emb|CZH07864.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999265481|emb|CZP04718.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999269670|emb|CZO23801.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999272051|emb|CZP50922.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999274318|emb|CZH07294.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999277758|emb|CZP28279.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999281536|emb|CZP23918.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999284184|emb|CZP50835.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999286810|emb|CZI76886.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999290813|emb|CZP26755.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999293067|emb|CZI61261.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999296787|emb|CZP50551.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999300026|emb|CZP28802.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999302285|emb|CZI56300.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999307131|emb|CZH64875.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999309517|emb|CZP18444.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999312026|emb|CZI86512.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999315997|emb|CZI03988.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999318918|emb|CZP55993.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999322170|emb|CZH91142.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999324959|emb|CZH15469.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999327565|emb|CZH27288.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999332914|emb|CZG04906.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999335237|emb|CZK71631.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999338025|emb|CZP44750.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999340707|emb|CZG98098.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999344189|emb|CZP92158.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999347477|emb|CZP61187.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999349552|emb|CZH47579.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999353704|emb|CZP51415.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999356813|emb|CZP74494.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999361107|emb|CZI02588.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999363179|emb|CZP70539.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999366942|emb|CZP70610.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999369640|emb|CZP87489.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999374065|emb|CZG04907.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999377332|emb|CZI90853.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999380631|emb|CZH51142.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999383425|emb|CZI18106.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999387446|emb|CZG09521.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999390253|emb|CZI09576.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999392456|emb|CZP95182.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999397082|emb|CZG17412.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999398704|emb|CZP98570.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999403296|emb|CZP48968.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999406405|emb|CZG42064.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999409423|emb|CZH72521.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999412563|emb|CZG26874.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999416633|emb|CZG13360.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999419262|emb|CZG42578.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999422626|emb|CZH45644.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999426467|emb|CZG24066.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999429132|emb|CZG31776.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999432720|emb|CZG07797.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999435722|emb|CZH65059.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999438365|emb|CZG45800.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999442230|emb|CZJ83740.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|999445346|emb|CZH56940.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999448608|emb|CZG04908.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999450773|emb|CZP29511.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999458342|emb|CZJ88740.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999465376|emb|CZM24882.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999468368|emb|CZO08756.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999470016|emb|CZG83635.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999475005|emb|CZM44954.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999478199|emb|CZN26415.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999481394|emb|CZM64556.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999484424|emb|CZN97931.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999487504|emb|CZL94467.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999490695|emb|CZN57362.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999493997|emb|CZL97302.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999497037|emb|CZI11545.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999500323|emb|CZN56690.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999503545|emb|CZN85782.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999506741|emb|CZM91777.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999510052|emb|CZG27584.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999513133|emb|CZN16903.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999516600|emb|CZL81043.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999519824|emb|CZM50837.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999521325|emb|CZP43759.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999526312|emb|CZI60504.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999529194|emb|CZI16016.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999532692|emb|CZO33426.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999536027|emb|CZN19099.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999539085|emb|CZM54848.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999542261|emb|CZO07276.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999545479|emb|CZO46386.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999548559|emb|CZN73069.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999551867|emb|CZO00068.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999555244|emb|CZM97642.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999558257|emb|CZO46139.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999561337|emb|CZM26568.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999564650|emb|CZO46955.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999567725|emb|CZM39953.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999570924|emb|CZN38401.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999574114|emb|CZN75504.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999577086|emb|CZI02855.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999580605|emb|CZN99928.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999584117|emb|CZO13299.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999587240|emb|CZM48111.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999590502|emb|CZM21987.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999593377|emb|CZN31844.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999596575|emb|CZN94402.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999599883|emb|CZO25218.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999603261|emb|CZL63120.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999606278|emb|CZN39973.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999609672|emb|CZN41041.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999612387|emb|CZI08036.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999615848|emb|CZM30813.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999619003|emb|CZN76798.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999622321|emb|CZO51331.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999625635|emb|CZN54412.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999628948|emb|CZM41814.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999631826|emb|CZM45820.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999635134|emb|CZN41237.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999638214|emb|CZN34524.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999641410|emb|CZO62302.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999644581|emb|CZO28021.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999648118|emb|CZN76156.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999650929|emb|CZN92591.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999654307|emb|CZN92622.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999657685|emb|CZM01738.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999660584|emb|CZM47981.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999664098|emb|CZM81503.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999667091|emb|CZM25446.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999670285|emb|CZL74642.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999673672|emb|CZM19536.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999676564|emb|CZN61282.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999679599|emb|CZM61846.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999682794|emb|CZM69357.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999686020|emb|CZN91976.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999689640|emb|CZN10474.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999692551|emb|CZN80567.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999696051|emb|CZN02007.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999699250|emb|CZL98631.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999702472|emb|CZM43059.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999705658|emb|CZL60159.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999708682|emb|CZN41986.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999711934|emb|CZM87775.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999715383|emb|CZM88184.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999718526|emb|CZO28293.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999721400|emb|CZM66903.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999724740|emb|CZN16970.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999728179|emb|CZL89681.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999731633|emb|CZO21300.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999734882|emb|CZL99747.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999738216|emb|CZO48058.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999741084|emb|CZM25516.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999744614|emb|CZN07573.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999747911|emb|CZM00318.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999750806|emb|CZL79233.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999754116|emb|CZM72017.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999757459|emb|CZM84696.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999760394|emb|CZM14654.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999763891|emb|CZN10581.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999767088|emb|CZM57069.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999769823|emb|CZN39879.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999773527|emb|CZH73686.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999776561|emb|CZL89853.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999778455|emb|CZG99618.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999783425|emb|CZH50531.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999786601|emb|CZM18730.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999789808|emb|CZO48434.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999793245|emb|CZO51882.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999796492|emb|CZI09765.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999800220|emb|CZO39756.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1002075517|emb|CZQ94033.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1002079022|emb|CZQ94266.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1002082115|emb|CZQ95743.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1002085496|emb|CZQ99643.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1002088704|emb|CZQ78689.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1002091735|emb|CZR05947.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1003020114|emb|CZR21376.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1003022993|emb|CZR20270.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1003026835|emb|CZR17877.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1003028418|emb|CZR23637.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1003034758|emb|CZR27575.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1005834279|gb|AMQ29005.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434032|gb|AMV15659.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1032658689|gb|ANH13960.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1032661651|gb|ANH16921.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1032664629|gb|ANH19898.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1041016582|gb|ANN93643.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1041019581|gb|ANN96641.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073865651|gb|AOU05602.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073868620|gb|AOU08570.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073871615|gb|AOU11564.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073874484|gb|AOU14432.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073877540|gb|AOU17487.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073880503|gb|AOU20449.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073883500|gb|AOU23445.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073886493|gb|AOU26437.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073889461|gb|AOU29404.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073892445|gb|AOU32387.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073895413|gb|AOU35354.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073898371|gb|AOU38311.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073901337|gb|AOU41276.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073904246|gb|AOU44184.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073907199|gb|AOU47136.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073910217|gb|AOU50152.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073913229|gb|AOU53161.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073916189|gb|AOU56120.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073919152|gb|AOU59082.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073922055|gb|AOU61984.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073925138|gb|AOU65065.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073928101|gb|AOU68027.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073931087|gb|AOU70996.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073934456|gb|AOU74015.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073937421|gb|AOU84420.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073947687|gb|AOU87411.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1073950615|gb|AOU90338.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1080003054|gb|AOW53626.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005201|gb|AOW55481.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008977|gb|AOW58965.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011356|gb|AOW60847.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015551|gb|AOW64424.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017600|gb|AOW66245.1| cell division protein FtsA [Legionella pneumophila subsp. pneumophila] &gt;gi|1103997774|emb|SFZ46749.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1104000912|emb|SFZ46778.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1104004012|emb|SFZ46776.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1104007466|emb|SFZ46855.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1129969273|gb|APT99632.1| cell division protein FtsA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011216485</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>837.795</Hsp_bit-score>
+      <Hsp_score>2163</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>412</Hsp_identity>
+      <Hsp_positive>412</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|764926666|ref|WP_044497514.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella pneumophila] &gt;gi|999455500|emb|CZH43570.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999462245|emb|CZG07359.1| Cell division protein FtsA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_044497514</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>836.254</Hsp_bit-score>
+      <Hsp_score>2159</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>411</Hsp_identity>
+      <Hsp_positive>412</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAINDNGKSIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPA+NDNGKSIWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|652976434|ref|WP_027229106.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella pneumophila] &gt;gi|985764621|gb|KXB25740.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|985767107|gb|KXB28202.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|999119071|emb|CZG85506.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|999122196|emb|CZH18620.1| Cell division protein FtsA [Legionella pneumophila] &gt;gi|1024339677|gb|KZX34016.1| cell division protein FtsA [Legionella pneumophila] &gt;gi|1108605961|gb|APF04329.1| cell division protein FtsA [Legionella pneumophila subsp. fraseri] &gt;gi|1108608944|gb|APF07311.1| cell division protein FtsA [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229106</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>834.713</Hsp_bit-score>
+      <Hsp_score>2155</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>410</Hsp_identity>
+      <Hsp_positive>412</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIEAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVI+AAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+VIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|652969870|ref|WP_027222763.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella pneumophila] &gt;gi|1005362964|gb|AMP88833.1| cell division protein FtsA [Legionella pneumophila subsp. pascullei] &gt;gi|1005367772|gb|AMP93549.1| cell division protein FtsA [Legionella pneumophila subsp. pascullei] &gt;gi|1005370691|gb|AMP96467.1| cell division protein FtsA [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222763</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>832.787</Hsp_bit-score>
+      <Hsp_score>2150</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>409</Hsp_identity>
+      <Hsp_positive>411</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPTMSDNGKSIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+VIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVP M+DNGKSIWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1011914646|ref|WP_062727860.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727860</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>831.632</Hsp_bit-score>
+      <Hsp_score>2147</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>408</Hsp_identity>
+      <Hsp_positive>411</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIEAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPTMNENGKSIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVI+AAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+VIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVP MN+NGKSIWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|737921579|ref|WP_035886881.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella norrlandica] &gt;gi|701446870|gb|KGP64218.1| cell division protein FtsA [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886881</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>809.675</Hsp_bit-score>
+      <Hsp_score>2090</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>398</Hsp_identity>
+      <Hsp_positive>403</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDKSIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKISHACALPELANSNQMLEVTNVNDRSGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGCIELAELCFEMPVRIGCAHYVSGLAEATENPSFATGVGLLLHGFQQQYEGSYNVPAMNDNSKSIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSD +IEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+VIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIK++HACALPELAN NQMLEVT+VNDR GRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRG IELAELCFEMPVR GCAHYVSGL EATENPSFATGVGLLLHGFQQQYE  YNVPAMNDN KSIWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|966434565|ref|WP_058474996.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella quateirensis] &gt;gi|962260590|gb|KTD44700.1| cell division protein FtsA [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474996</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>801.971</Hsp_bit-score>
+      <Hsp_score>2070</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>402</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKLSHACALPELANSNQMLEVASVNERPGRKISAKALADVVSARYEELFSLVRNELKRSGFEDRMAAGIVLTGGASNVRGATELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLHGFQQQYEGGYNVPALNDNTKGIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIK++HACALPELAN NQMLEV SVN+RPGRKISAKALADVVSARYEELFSLVRNEL+RSGFEDR+AAGIVLTGGASNVRGA ELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLLHGFQQQYE GYNVPA+NDN K IWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|654932823|ref|WP_028383181.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella moravica] &gt;gi|962253358|gb|KTD37539.1| cell division protein FtsA [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383181</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>798.89</Hsp_bit-score>
+      <Hsp_score>2062</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>393</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKLTHACALPELANSNQMLEVASVNERPGRKISAKALADVVSARYEELFSLVRNELKRSGFEDRMAAGIVLTGGASNVRGAIELAELNFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLHGFQQQYEGGYNVPALNDNTKGIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIK+ HACALPELAN NQMLEV SVN+RPGRKISAKALADVVSARYEELFSLVRNEL+RSGFEDR+AAGIVLTGGASNVRGAIELAEL FEMPVRKGCAH+VSGL EATENPSFATGVGLLLHGFQQQYE GYNVPA+NDN K IWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|517405799|ref|WP_018578468.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella shakespearei] &gt;gi|962281279|gb|KTD65092.1| cell division protein FtsA [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578468</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>794.653</Hsp_bit-score>
+      <Hsp_score>2051</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>384</Hsp_identity>
+      <Hsp_positive>399</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQDSIREPVGMAGVRLESRVHIVTGSVSSAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAVFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLTHACALPELANPNQMLEVASVNDRPGRKISAKALADVASARYEELFSLVRNELRRSGFEDRMAAGIVLTGGASNIRGAIELAELCFEMPVRKGCAHYVSGLAEATENPSFATGVGLLLHGYQQQYEGGYNAPTLSDNAKGMWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQ SIREP+GMAGVRLESRVHIVTGSVS+AQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIA+FCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+ HACALPELANPNQMLEV SVNDRPGRKISAKALADV SARYEELFSLVRNELRRSGFEDR+AAGIVLTGGASN+RGAIELAELCFEMPVRKGCAHYVSGL EATENPSFATGVGLLLHG+QQQYE GYN P ++DN K +WSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|966461255|ref|WP_058493608.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella worsleiensis] &gt;gi|962294277|gb|KTD77944.1| cell division protein FtsA [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493608</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>794.267</Hsp_bit-score>
+      <Hsp_score>2050</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>387</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVSSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIKDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTDDEKDLGVCLIDIGGGTTDIAVFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKLTHACAVSELANPNQMLEVASVNERPGRKISAKALADVVSARYEELFSLVRNELKRSGFEDRMAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLHGFQQQYEGAYNVPALSDNTKGIWSRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEV+SDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAI+DQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLT+DEK+LGVCLIDIGGGTTDIA+FCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIK+ HACA+ ELANPNQMLEV SVN+RPGRKISAKALADVVSARYEELFSLVRNEL+RSGFEDR+AAGIVLTGGASNVRGAIELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLLHGFQQQYE  YNVPA++DN K IWSRMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|966439657|ref|WP_058479980.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella waltersii] &gt;gi|962295553|gb|KTD79198.1| cell division protein FtsA [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058479980</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>792.341</Hsp_bit-score>
+      <Hsp_score>2045</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>385</Hsp_identity>
+      <Hsp_positive>402</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIEAAKAVAIPADQKILHILPQEFIIDHQDSIREPIGMAGVRLESRVHIVTGSVSAAQNIIKCVRRCGLEVMDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMAFRTPTKAAEAIKLSHACALPELANENQMLEVTSVNDRPGRKISAKALAEVVSARYEELFTLVRNELRRSGFEDRMAAGIVITGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEPTENPSFATGVGLLLHGYQQQYEGGYSVPAVTDNVKGLWSKMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVI+AAKAVAIPADQKILHILPQEFIIDHQ SIREPIGMAGVRLESRVHIVTGSVSAAQNI+KCVRRCGL+V+DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMA RTPTKAAEAIK++HACALPELAN NQMLEVTSVNDRPGRKISAKALA+VVSARYEELF+LVRNELRRSGFEDR+AAGIV+TGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTE TENPSFATGVGLLLHG+QQQYE GY+VPA+ DN K +WS+MKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|654930590|ref|WP_028380959.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella cherrii] &gt;gi|962197352|gb|KTC82396.1| cell division protein FtsA [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380959</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>787.719</Hsp_bit-score>
+      <Hsp_score>2033</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>381</Hsp_identity>
+      <Hsp_positive>400</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGTSKIIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAVFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHACALTELANPDHMLEVASVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGASNVKGGIELAELCFEMPVRKGCAHYVSGLAEATENPSFATGVGLLLRGYQQQYESNYNVPKMNDNTQSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIGTSKIIALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIA+FCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHACAL ELANP+ MLEV SVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGASNV+G IELAELCFEMPVRKGCAHYVSGL EATENPSFATGVGLLL G+QQQYES YNVP MNDN +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|966436832|ref|WP_058477200.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella steigerwaltii] &gt;gi|962293605|gb|KTD77280.1| cell division protein FtsA [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477200</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>783.097</Hsp_bit-score>
+      <Hsp_score>2021</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>401</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGTSKVIALIGEVTSDGSIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVFAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTDDEKDLGVCLIDIGGGTTDIAIFCEGAIRHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHACALTELANSDHMLEVTSVNDRPGRKISAKALSDVVSARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHYVSGLAEATENPSFATGVGLLLQGYQQQYESNYNVPKMNDNTQSLWARMREWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIGTSK+IALIGEVTSDG+IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTV+AGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLT+DEK+LGVCLIDIGGGTTDIAIFCEGAI+HT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHACAL ELAN + MLEVTSVNDRPGRKISAKAL+DVVSARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAHYVSGL EATENPSFATGVGLLL G+QQQYES YNVP MNDN +S+W+RM+EWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|966415381|ref|WP_058458666.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Fluoribacter bozemanae] &gt;gi|962189891|gb|KTC74993.1| cell division protein FtsA [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458666</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>781.556</Hsp_bit-score>
+      <Hsp_score>2017</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>399</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGTSKVIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDQQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHAVALTELANSDQMLEVTSVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLQGYQQQYESNYNVPKMNDNTQSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIGTSK+IALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIID QGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHA AL ELAN +QMLEVTSVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLL G+QQQYES YNVP MNDN +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|966494042|ref|WP_058510830.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella steelei] &gt;gi|962285000|gb|KTD68766.1| cell division protein FtsA [Legionella steelei] &gt;gi|1113342792|gb|OJW06653.1| cell division protein FtsA [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510830</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>781.171</Hsp_bit-score>
+      <Hsp_score>2016</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>398</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKEIITGLDIGTSKVIALIGEVTTDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQGSIREPVGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIRHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHACALTELANSDHMLEVTSVNDRPGRKISAKTLSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHYVSGLAEATENPSFATGVGLLLQGYQQQYESNYNVPTMNDNTQSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK IITGLDIGTSK+IALIGEVT+DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQGSIREP+GMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAI+HT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHACAL ELAN + MLEVTSVNDRPGRKISAK L+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAHYVSGL EATENPSFATGVGLLL G+QQQYES YNVP MNDN +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|518063310|ref|WP_019233518.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella anisa] &gt;gi|962187590|gb|KTC72716.1| cell division protein FtsA [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233518</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>778.089</Hsp_bit-score>
+      <Hsp_score>2008</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>399</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGTSKVIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDQQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTDDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHAVALTELANSDQMLEVTSVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLQGYQQQYESNYNVPKMSDNTQSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIGTSK+IALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIID QGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLT+DEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHA AL ELAN +QMLEVTSVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLL G+QQQYES YNVP M+DN +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|966504748|ref|WP_058521407.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella tucsonensis] &gt;gi|962290742|gb|KTD74450.1| cell division protein FtsA [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521407</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.704</Hsp_bit-score>
+      <Hsp_score>2007</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>398</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGTSKVIALIGEVTSDGAIDIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDQQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLSHAFALTELANSDQMLEVTSVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHYVSGLAEATENPSFATGVGLLLQGYQQQYESNYNVPKMNDNTQGLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIGTSK+IALIGEVTSDG I+IIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIID QGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK++HA AL ELAN +QMLEVTSVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAHYVSGL EATENPSFATGVGLLL G+QQQYES YNVP MNDN + +W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|966468522|ref|WP_058499848.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella gratiana] &gt;gi|962221307|gb|KTD05967.1| cell division protein FtsA [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499848</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.704</Hsp_bit-score>
+      <Hsp_score>2007</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKVIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQNSIREPIGMSGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAVFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAETIKLNHACALSELANSNQMLEVASVNDRPGRKISATALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGFAHSVSGLAEATENPSFATGVGLLLHGYQQQYESNYNVPAVNDSTRSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSK+IALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQ SIREPIGM+GVRLESRVHIVTGSVSAAQNIVKCVRRCGLDV DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIA+F EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE IK+NHACAL ELAN NQMLEV SVNDRPGRKISA AL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKG AH VSGL EATENPSFATGVGLLLHG+QQQYES YNVPA+ND+ +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|518179953|ref|WP_019350161.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Fluoribacter dumoffii] &gt;gi|962206063|gb|KTC91000.1| cell division protein FtsA [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_019350161</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.319</Hsp_bit-score>
+      <Hsp_score>2006</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGTSKVIALIGEVTADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHACALTELADSDLMLEVASVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHYVSGLAEATENPSFATGVGLLLQGYQQQYESNYNVPKMNDTTQGLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIGTSK+IALIGEVT+DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHACAL ELA+ + MLEV SVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAHYVSGL EATENPSFATGVGLLL G+QQQYES YNVP MND  + +W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966498880|ref|WP_058515646.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella santicrucis] &gt;gi|962269328|gb|KTD53342.1| cell division protein FtsA [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515646</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>776.548</Hsp_bit-score>
+      <Hsp_score>2004</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKVIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQNSIREPIGMSGVRLESRVHIVTGLVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAETIKLNHACALSELANANQMLEVTSVNDRPGRKISATALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGFAHSVSGLAEATENPSFATGVGLLLHGYQQQYESNYNVPTMNDSTRSFWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSK+IALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQ SIREPIGM+GVRLESRVHIVTG VSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE IK+NHACAL ELAN NQMLEVTSVNDRPGRKISA AL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKG AH VSGL EATENPSFATGVGLLLHG+QQQYES YNVP MND+ +S W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|498340525|ref|WP_010654681.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Fluoribacter dumoffii]</Hit_def>
+  <Hit_accession>WP_010654681</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>776.163</Hsp_bit-score>
+      <Hsp_score>2003</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>375</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGSSKVIALIGEVTADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHACALTELADSDLMLEVASVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHYVSGLAEATENPSFATGVGLLLQGYQQQYESNYNVPKMNDTTQGLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIG+SK+IALIGEVT+DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHACAL ELA+ + MLEV SVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAHYVSGL EATENPSFATGVGLLL G+QQQYES YNVP MND  + +W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966500562|ref|WP_058517235.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella parisiensis] &gt;gi|962255893|gb|KTD40030.1| cell division protein FtsA [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517235</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>775.778</Hsp_bit-score>
+      <Hsp_score>2002</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKEIITGLDIGTSKVIALIGEVTPDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDQQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHAVALTELANSDQMLEVTSVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLQGYQQQYESTYNVPKMNENTQSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK IITGLDIGTSK+IALIGEVT DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIID QGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHA AL ELAN +QMLEVTSVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLL G+QQQYES YNVP MN+N +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|698843947|emb|CEG57916.1|</Hit_id>
+  <Hit_def>ATP-binding cell division protein involved in recruitment of FtsK to Z ring [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>CEG57916</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>774.622</Hsp_bit-score>
+      <Hsp_score>1999</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>374</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>IMAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MMAKKIEKNIITGLDIGTSKIIALIGEVTTDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADIERVIDAAKAVAIPADQKIIHVLPQEFIIDHQGSIREPVGMAGVRLESRVHIVTGSVSAAQNIIKCVRRCGLEVNDVILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDVAIFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKVTHAYALPELANASQMLEVASVNDRPGRKISAKALSDVVSARYEELFSLVRNELRRSGFEDRMAAGIVLTGGAANIRGAIELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLQGFQQQYEGSYNAPTTSDNSKNIWLRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>+MAKKIEKNIITGLDIGTSKIIALIGEVT+DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQAD+ERVIDAAKAVAIPADQKI+H+LPQEFIIDHQGSIREP+GMAGVRLESRVHIVTGSVSAAQNI+KCVRRCGL+V D+ILEQLASSHAVLTEDEK+LGVCLIDIGGGTTD+AIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IKV HA ALPELAN +QMLEV SVNDRPGRKISAKAL+DVVSARYEELFSLVRNELRRSGFEDR+AAGIVLTGGA+N+RGAIELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLL GFQQQYE  YN P  +DN K+IW RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|653017658|ref|WP_027269622.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella sainthelensi] &gt;gi|962271010|gb|KTD55013.1| cell division protein FtsA [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027269622</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>774.622</Hsp_bit-score>
+      <Hsp_score>1999</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKVIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQNSIREPIGMSGVRLESRVHIVTGLVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAETIKLNHACALSELANANQMLEVTSVNDRPGRKISATALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGFAHSVSGLAEATENPSFATGVGLLLHGYQQQYESNYSVPAMNDSTRSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSK+IALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQ SIREPIGM+GVRLESRVHIVTG VSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE IK+NHACAL ELAN NQMLEVTSVNDRPGRKISA AL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKG AH VSGL EATENPSFATGVGLLLHG+QQQYES Y+VPAMND+ +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|769981587|ref|WP_045097572.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella fallonii]</Hit_def>
+  <Hit_accession>WP_045097572</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>773.852</Hsp_bit-score>
+      <Hsp_score>1997</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>374</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTTDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADIERVIDAAKAVAIPADQKIIHVLPQEFIIDHQGSIREPVGMAGVRLESRVHIVTGSVSAAQNIIKCVRRCGLEVNDVILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDVAIFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKVTHAYALPELANASQMLEVASVNDRPGRKISAKALSDVVSARYEELFSLVRNELRRSGFEDRMAAGIVLTGGAANIRGAIELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLQGFQQQYEGSYNAPTTSDNSKNIWLRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVT+DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQAD+ERVIDAAKAVAIPADQKI+H+LPQEFIIDHQGSIREP+GMAGVRLESRVHIVTGSVSAAQNI+KCVRRCGL+V D+ILEQLASSHAVLTEDEK+LGVCLIDIGGGTTD+AIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IKV HA ALPELAN +QMLEV SVNDRPGRKISAKAL+DVVSARYEELFSLVRNELRRSGFEDR+AAGIVLTGGA+N+RGAIELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLL GFQQQYE  YN P  +DN K+IW RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|671587325|ref|WP_031563583.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563583</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>773.852</Hsp_bit-score>
+      <Hsp_score>1997</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGTSKVIALIGEITSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDQQGSIREPIGMSGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCGGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHAVALTELANSDQMLEVTSVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHQVSGLAEATENPSFATGVGLLLQGYQQQYESNYSVPALNDNTQSIWVRMKKWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIGTSK+IALIGE+TSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIID QGSIREPIGM+GVRLESRVHIVTGSVSAAQNIVKCVRRCGLDV DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFC GAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHA AL ELAN +QMLEVTSVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAH VSGL EATENPSFATGVGLLL G+QQQYES Y+VPA+NDN +SIW RMK+WFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966423483|ref|WP_058466629.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Fluoribacter gormanii] &gt;gi|962220959|gb|KTD05621.1| cell division protein FtsA [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058466629</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>770.77</Hsp_bit-score>
+      <Hsp_score>1989</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>372</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKDIITGLDIGTSKVIALIGEVTADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDQQGSIREPIGMSGVRLESRVHIVTGAVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHACALTELANSDLMLEVASVNDRPGRKISAKTLSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHYVSGLAEATENPSFATGVGLLLQGYQQQYVSNYKVPTMNENTQSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEK+IITGLDIGTSK+IALIGEVT+DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIID QGSIREPIGM+GVRLESRVHIVTG+VSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHACAL ELAN + MLEV SVNDRPGRKISAK L+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAHYVSGL EATENPSFATGVGLLL G+QQQY S Y VP MN+N +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966421938|ref|WP_058465139.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella cincinnatiensis] &gt;gi|962198884|gb|KTC83894.1| cell division protein FtsA [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058465139</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>770.77</Hsp_bit-score>
+      <Hsp_score>1989</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKVIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQNSIREPIGMSGVRLESRVHIVTGLVSAAQNIVKCVRRCGLDVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAEAIKLNHACALSELANANQMLEVTSVNDRPGRKISATALSEVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGFAHSVSGLAEATENPSFATGVGLLLHGYQQQYVSNYSVPTMNDSTRSFWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSK+IALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQ SIREPIGM+GVRLESRVHIVTG VSAAQNIVKCVRRCGLDV DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAEAIK+NHACAL ELAN NQMLEVTSVNDRPGRKISA AL++VV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKG AH VSGL EATENPSFATGVGLLLHG+QQQY S Y+VP MND+ +S W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|489731084|ref|WP_003635200.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella longbeachae] &gt;gi|269987427|gb|EEZ93682.1| cell division protein FtsA [Legionella longbeachae D-4968] &gt;gi|288859249|emb|CBJ13183.1| ATP-binding cell division protein FtsA [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635200</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>767.303</Hsp_bit-score>
+      <Hsp_score>1980</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>373</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKVIALIGEVTSDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDHQNSIREPIGMSGVRLESRVHIVTGLVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTDDEKDLGVCLIDIGGGTTDIAIFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAEAIKLNHACALSELANANQMLEVTSVNDRPGRKISATALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVQGGIELAELCFEMPVRKGLAHSVSGLAEATENPSFATGVGLLLHGYQQQYLSNYSAPTMNDSTRSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSK+IALIGEVTSDG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIIDHQ SIREPIGM+GVRLESRVHIVTG VSAAQNIVKCVRRCGL+V DIILEQLASSHAVLT+DEK+LGVCLIDIGGGTTDIAIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAEAIK+NHACAL ELAN NQMLEVTSVNDRPGRKISA AL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NV+G IELAELCFEMPVRKG AH VSGL EATENPSFATGVGLLLHG+QQQY S Y+ P MND+ +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1069457237|ref|WP_069683374.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_069683374</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>765.763</Hsp_bit-score>
+      <Hsp_score>1976</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>372</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>IEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MEKEIITGLDIGTSKVIALIGEVTPDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDQQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHAVALTELANSDQMLEVTSVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLQGYQQQYESTYNVPKMNENTQSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>+EK IITGLDIGTSK+IALIGEVT DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIID QGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHA AL ELAN +QMLEVTSVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLL G+QQQYES YNVP MN+N +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1113592149|gb|OJY51511.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella sp. 40-6]</Hit_def>
+  <Hit_accession>OJY51511</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>761.14</Hsp_bit-score>
+      <Hsp_score>1964</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>370</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKIIALIGEVTPDGTIEVIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMANCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVLEAAKAVAIPADQKILHILPQEFIIDNQGSIREPIGMAGVRLESRVHLVTGSVSAAQNIIKCVRRCGLDVHDIILEQLASSHAVLTDDEKDLGVCIIDIGGGTTDIAIFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAEAIKLTHACALPELANANEMLEVTSVNDRPGRKISAKALADVVSARYEELFNLVRNELRRSGFEDRMAAGIVITGGAANVQGAVELAELCFEMPVRIGYAHQVAGLGEVTENPSFATGVGLLLHGYQQLYDARYNMPVMNDNSKNIWLRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKIIALIGEVT DGTIE+IGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMA CEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERV++AAKAVAIPADQKILHILPQEFIID+QGSIREPIGMAGVRLESRVH+VTGSVSAAQNI+KCVRRCGLDV DIILEQLASSHAVLT+DEK+LGVC+IDIGGGTTDIAIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAEAIK+ HACALPELAN N+MLEVTSVNDRPGRKISAKALADVVSARYEELF+LVRNELRRSGFEDR+AAGIV+TGGA+NV+GA+ELAELCFEMPVR G AH V+GL E TENPSFATGVGLLLHG+QQ Y++ YN+P MNDN K+IW RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966516652|ref|WP_058533146.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533146</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>759.599</Hsp_bit-score>
+      <Hsp_score>1960</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>367</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKINALIGEVSSDGTIEVIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMANCEVRTVYAGIAGSHIRSLNSHGIVAIREKEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDYQGSIREPVGMAGVRLESRVHLVTGSVSAAQNIVKCVRRCGLEVSDIILEQLASSHAVLTDDEKDLGVCLIDIGAGTTDIAVFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAEAIKLTHACALPELANASQMLEVASVNDRPGRKISAKALADVVSARYEELFTLVRNELRRSGFEDRMAAGIVITGGAANVHGAIELAELCFEMPVRKGYAQHVSGMAEVTENPAFATGVGLLLHGYQQQYDARYNVPAMSENSKGLWLRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSKI ALIGEV+SDGTIE+IGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMA CEVRTVYAGIAGSHIRSLNSHGIVAIR++EVSQADVERVIDAAKAVAIPADQKILHILPQEFIID+QGSIREP+GMAGVRLESRVH+VTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLT+DEK+LGVCLIDIG GTTDIA+F EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAEAIK+ HACALPELAN +QMLEV SVNDRPGRKISAKALADVVSARYEELF+LVRNELRRSGFEDR+AAGIV+TGGA+NV GAIELAELCFEMPVRKG A +VSG+ E TENP+FATGVGLLLHG+QQQY++ YNVPAM++N K +W RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966506701|ref|WP_058523347.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella birminghamensis] &gt;gi|962187365|gb|KTC72493.1| cell division protein FtsA [Legionella birminghamensis]</Hit_def>
+  <Hit_accession>WP_058523347</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>756.133</Hsp_bit-score>
+      <Hsp_score>1951</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKSEKNIITGLDIGTSKVVALVGEVSTDGTIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIEAAKAVAIPADQKILHILPQEFIIDNQGSIREPVGMSGVRLEARVHIVTGAVSAAQNIAKCVRRCGLDVSDVILEQLASSHAVLTDDEKELGVCVLDIGGGTTDIAIFAEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAEAIKINHACALQELANPDEMLEVISVNERPGRKISAKILADVVSARYEELFTLVRHELRRSGFENRIAAGMVISGGGSCVRGAIELAELCFEMPVRQGCAHHVAGLVEATTNPSLATGVGLLLHGFQQQYEGGYSVPALNEGGKSMWSRMREWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKK EKNIITGLDIGTSK++AL+GEV++DGTIEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVI+AAKAVAIPADQKILHILPQEFIID+QGSIREP+GM+GVRLE+RVHIVTG+VSAAQNI KCVRRCGLDV D+ILEQLASSHAVLT+DEKELGVC++DIGGGTTDIAIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAEAIK+NHACAL ELANP++MLEV SVN+RPGRKISAK LADVVSARYEELF+LVR+ELRRSGFE+R+AAG+V++GG S VRGAIELAELCFEMPVR+GCAH+V+GL EAT NPS ATGVGLLLHGFQQQYE GY+VPA+N+ GKS+WSRM+EWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1069293458|gb|OEH48784.1|</Hit_id>
+  <Hit_def>Cell division protein FtsA [Legionella parisiensis]</Hit_def>
+  <Hit_accession>OEH48784</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>754.207</Hsp_bit-score>
+      <Hsp_score>1946</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>365</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>LDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MDIGTSKVIALIGEVTPDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIDAAKAVAIPADQKILHVLPQEFIIDQQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKDLGVCLIDIGGGTTDIAIFCEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHAVALTELANSDQMLEVTSVNDRPGRKISAKALSDVVAARYEELFTLVRNELRRSGFEDRMAAGIVLTGGAANVRGGIELAELCFEMPVRKGCAHHVSGLAEATENPSFATGVGLLLQGYQQQYESTYNVPKMNENTQSLWARMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>+DIGTSK+IALIGEVT DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVIDAAKAVAIPADQKILH+LPQEFIID QGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEK+LGVCLIDIGGGTTDIAIFCEGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHA AL ELAN +QMLEVTSVNDRPGRKISAKAL+DVV+ARYEELF+LVRNELRRSGFEDR+AAGIVLTGGA+NVRG IELAELCFEMPVRKGCAH+VSGL EATENPSFATGVGLLL G+QQQYES YNVP MN+N +S+W+RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|962280821|gb|KTD64636.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella spiritensis]</Hit_def>
+  <Hit_accession>KTD64636</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>752.666</Hsp_bit-score>
+      <Hsp_score>1942</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>420</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>420</Hsp_align-len>
+      <Hsp_qseq>METTNGTIMAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MEKISGKIMAKKSEKNIITGLDIGTSKVVALVGEVAVDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDNQGSIREPIGMAGVRLEARVHIVTGAVSAAQNIVKCVRRCGLDVNDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIVVFAEGAIQFTSVIPIAGDQVTNDIAMALRTPTKAAEAIKIDHACAMPELASANDMIEVTSMNDRPGRKISAKVLSEVVSARYEELFSLVRSELRRSGFEQRIAAGMVMTGGGSSVRGAIELAEMCFEMPVRHGCAHHVSGLAEATVNPVLATGVGLLLHGLQQQYEGGYNAPVLSMNGKGLWKRMREWFQGNF</Hsp_hseq>
+      <Hsp_midline>ME  +G IMAKK EKNIITGLDIGTSK++AL+GEV  DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIID+QGSIREPIGMAGVRLE+RVHIVTG+VSAAQNIVKCVRRCGLDV DIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDI +F EGAIQ TSVIPIAGDQVTNDIAMALRTPTKAAEAIK++HACA+PELA+ N M+EVTS+NDRPGRKISAK L++VVSARYEELFSLVR+ELRRSGFE R+AAG+V+TGG S+VRGAIELAE+CFEMPVR GCAH+VSGL EAT NP  ATGVGLLLHG QQQYE GYN P ++ NGK +W RM+EWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966475559|ref|WP_058506292.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella quinlivanii] &gt;gi|962268568|gb|KTD52588.1| cell division protein FtsA [Legionella quinlivanii] &gt;gi|1090728469|emb|SEF71440.1| cell division protein FtsA [Legionella quinlivanii DSM 21216]</Hit_def>
+  <Hit_accession>WP_058506292</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.74</Hsp_bit-score>
+      <Hsp_score>1937</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>394</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKSEKNIITGLDIGTSKVVALVGEVSSDGTIEVIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIEAAKAVAIPADQKILHILPQEFIIDNQGSIREPAGMSGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVSDVILEQLASSHAVLTDDEKELGVCVLDIGGGTTDIAVFAEGAIQYTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPEFANADEMLEVISVNERPGRKISAKILADVVSARYEELFRLVRNELRRSGFENRIAAGMVITGGGSCVRGAIELAELCFEMPVRQGCAHHVAGLVEATSNPSLATGVGLLLHGFQQQYEGGYSVPTLSESGKSMWSRMREWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKK EKNIITGLDIGTSK++AL+GEV+SDGTIE+IGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVI+AAKAVAIPADQKILHILPQEFIID+QGSIREP GM+GVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V D+ILEQLASSHAVLT+DEKELGVC++DIGGGTTDIA+F EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPE AN ++MLEV SVN+RPGRKISAK LADVVSARYEELF LVRNELRRSGFE+R+AAG+V+TGG S VRGAIELAELCFEMPVR+GCAH+V+GL EAT NPS ATGVGLLLHGFQQQYE GY+VP ++++GKS+WSRM+EWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|493927659|ref|WP_006872396.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella drancourtii] &gt;gi|363536113|gb|EHL29559.1| hypothetical protein LDG_8523 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872396</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>747.658</Hsp_bit-score>
+      <Hsp_score>1929</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>TGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMANCEVRTVYAGIAGSHIRSLNSHGIVAIRDKEVSQADVERVIEAAKAVAIPADQKILHILPQEFVIDYQGSIREPIGMAGVRLESRVHLVTGSVSAAQNIVKCVRRCGLEVSDIILEQLASSHAVLTDDEKDLGVCLIDIGGGTTDIAIFSEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAESIKLNHACALPELANVNQMLEVASVNDRPGRKISAKALSDVVSARYEELFTLVRNELRRSGFEDRMAAGIVITGGAANVHGAIELAELCFEMPVRKGYAHHVAGLAEVTENPSFATSVGLLLHGFQQQYDARYNVPKMSENPKGMWLRMKEWFQGNF</Hsp_hseq>
+      <Hsp_midline>TGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMA CEVRTVYAGIAGSHIRSLNSHGIVAIRD+EVSQADVERVI+AAKAVAIPADQKILHILPQEF+ID+QGSIREPIGMAGVRLESRVH+VTGSVSAAQNIVKCVRRCGL+V DIILEQLASSHAVLT+DEK+LGVCLIDIGGGTTDIAIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAE+IK+NHACALPELAN NQMLEV SVNDRPGRKISAKAL+DVVSARYEELF+LVRNELRRSGFEDR+AAGIV+TGGA+NV GAIELAELCFEMPVRKG AH+V+GL E TENPSFAT VGLLLHGFQQQY++ YNVP M++N K +W RMKEWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966515750|ref|WP_058532267.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella rubrilucens] &gt;gi|962262728|gb|KTD46814.1| cell division protein FtsA [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058532267</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>745.732</Hsp_bit-score>
+      <Hsp_score>1924</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>360</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVND-RPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKSEKNIITGLDIGTSKVVALVGEITADGTIEVIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVFAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDNQGSIREPAGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVSDIILEQLASSHAVLTDDEKELGVCLIDIGGGTTDIVVFAEGAIQYTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVKHACAMPELASANEMIEVTSMNDNRPGRKISAKALSDVVSARYEELFTLVRNELRRSGFEQRLAAGMVMTGGGSSVMGAIELAEMCFEMPVRHGCAHHVSGLAEATVNPSLATGVGLLLHGYQQQYEGGYAVPALNVSGKGLWSRMREWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKK EKNIITGLDIGTSK++AL+GE+T+DGTIE+IGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTV+AGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIID+QGSIREP GMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V DIILEQLASSHAVLT+DEKELGVCLIDIGGGTTDI +F EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIKV HACA+PELA+ N+M+EVTS+ND RPGRKISAKAL+DVVSARYEELF+LVRNELRRSGFE RLAAG+V+TGG S+V GAIELAE+CFEMPVR GCAH+VSGL EAT NPS ATGVGLLLHG+QQQYE GY VPA+N +GK +WSRM+EWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966442732|ref|WP_058482994.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058482994</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>744.962</Hsp_bit-score>
+      <Hsp_score>1922</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>360</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKSEKNIITGLDIGTSKVVALVGEVAVDGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDNQGSIREPIGMAGVRLEARVHIVTGAVSAAQNIVKCVRRCGLDVNDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIVVFAEGAIQFTSVIPIAGDQVTNDIAMALRTPTKAAEAIKIDHACAMPELASANDMIEVTSMNDRPGRKISAKVLSEVVSARYEELFSLVRSELRRSGFEQRIAAGMVMTGGGSSVRGAIELAEMCFEMPVRHGCAHHVSGLAEATVNPVLATGVGLLLHGLQQQYEGGYNAPVLSMNGKGLWKRMREWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKK EKNIITGLDIGTSK++AL+GEV  DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIID+QGSIREPIGMAGVRLE+RVHIVTG+VSAAQNIVKCVRRCGLDV DIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDI +F EGAIQ TSVIPIAGDQVTNDIAMALRTPTKAAEAIK++HACA+PELA+ N M+EVTS+NDRPGRKISAK L++VVSARYEELFSLVR+ELRRSGFE R+AAG+V+TGG S+VRGAIELAE+CFEMPVR GCAH+VSGL EAT NP  ATGVGLLLHG QQQYE GYN P ++ NGK +W RM+EWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|769991730|ref|WP_045107601.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella hackeliae] &gt;gi|731153310|emb|CEK11893.1| Cell division protein ftsA [Legionella hackeliae] &gt;gi|962227858|gb|KTD12480.1| cell division protein FtsA [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045107601</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>743.806</Hsp_bit-score>
+      <Hsp_score>1919</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKIEKNIITGLDIGTSKVVALIGEVAADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIKDLEVSQVDVERVLDAAKAVAIPADQKILHILPQEFIIDNQGSIREPVGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLDVSDVILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAVFAEGAIQYTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVKHACAMPEMCNANEMIEVLSVNERPGRKISTKVLSDVVSARYEELFSLVRNELRRSGFEQRIAAGMVMTGGGSCVQGAIELAEMCFEMPVRQGCAHHVSGLVEATVNPSMTTGVGLLLHGFQQQYEGGYNVTTLSDNGKGMWARMKEWFNGNF</Hsp_hseq>
+      <Hsp_midline>MAKKIEKNIITGLDIGTSK++ALIGEV +DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAI+D EVSQ DVERV+DAAKAVAIPADQKILHILPQEFIID+QGSIREP+GMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGLDV D+ILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIA+F EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIKV HACA+PE+ N N+M+EV SVN+RPGRKIS K L+DVVSARYEELFSLVRNELRRSGFE R+AAG+V+TGG S V+GAIELAE+CFEMPVR+GCAH+VSGL EAT NPS  TGVGLLLHGFQQQYE GYNV  ++DNGK +W+RMKEWF GNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|762036543|ref|WP_043872481.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella massiliensis] &gt;gi|683289221|emb|CEE11582.1| Cell division protein FtsA [Legionella massiliensis] &gt;gi|685071591|emb|CDZ75844.1| Cell division protein FtsA [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_043872481</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>743.806</Hsp_bit-score>
+      <Hsp_score>1919</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKSEKNIITGLDIGTSKVVALIGEVTADGAIEIIGIGNHPSRGLKRGVVVDIEATVNTIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDLEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLEARVHVVTGAVSAAQNIAKCVRRCGLEVNDIILEQLASSHAVLTEDEKELGVCLVDIGGGTTDIAIFSEGAIQYTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVAHAYAMPELANPNEMLEVLSVSERPGRKISARVLSEVVSARYEELFSLVRNELRRSGFEQRVAAGMVITGGGSCIQGAVELAEMCFEMPVRQGCAHHVAGLVEATANPSLATGVGLLLHGFQQQYEGGYNVPALSDNTKGMWKRMKEWFNGNF</Hsp_hseq>
+      <Hsp_midline>MAKK EKNIITGLDIGTSK++ALIGEVT+DG IEIIGIG HPSRGLKRGVVVDIE TVN+IQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRD EVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLE+RVH+VTG+VSAAQNI KCVRRCGL+V DIILEQLASSHAVLTEDEKELGVCL+DIGGGTTDIAIF EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIKV HA A+PELANPN+MLEV SV++RPGRKISA+ L++VVSARYEELFSLVRNELRRSGFE R+AAG+V+TGG S ++GA+ELAE+CFEMPVR+GCAH+V+GL EAT NPS ATGVGLLLHGFQQQYE GYNVPA++DN K +W RMKEWF GNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966431447|ref|WP_058471892.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella jordanis] &gt;gi|962233663|gb|KTD18211.1| cell division protein FtsA [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471892</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>741.495</Hsp_bit-score>
+      <Hsp_score>1913</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKLEKNIITGLDIGTSKVVALVGEIAADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIKDQEVSKADVERVLDAAKAVAIPADQKILHILPQEFIIDNQGSIREPVGMAGVRLEARVHIVTGAVSAAQNIVKCVRRCGLEVNDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFAEGAIQHTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVKHACAMPELSNPNEMIEVLSVNERPGRKISTKVLSDVVSARYEELFSLVRNELRRSGFDQRIAAGMVMTGGGSCVQGAIELAEMCFEMPVRQGRAGQVSGLIEATGNPSMATGVGLLLHGFQQQYEGGYNVATLSDNGKGMWARMKEWFNGNF</Hsp_hseq>
+      <Hsp_midline>MAKK+EKNIITGLDIGTSK++AL+GE+ +DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAI+DQEVS+ADVERV+DAAKAVAIPADQKILHILPQEFIID+QGSIREP+GMAGVRLE+RVHIVTG+VSAAQNIVKCVRRCGL+V DIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIF EGAIQHT+VIPIAGDQVTNDIAMALRTPTKAAEAIKV HACA+PEL+NPN+M+EV SVN+RPGRKIS K L+DVVSARYEELFSLVRNELRRSGF+ R+AAG+V+TGG S V+GAIELAE+CFEMPVR+G A  VSGL EAT NPS ATGVGLLLHGFQQQYE GYNV  ++DNGK +W+RMKEWF GNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966511380|ref|WP_058527971.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella erythra] &gt;gi|962209423|gb|KTC94330.1| cell division protein FtsA [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058527971</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>741.495</Hsp_bit-score>
+      <Hsp_score>1913</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVND-RPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKSEKNIITGLDIGTSKVVALVGEITADGTIEVIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCDVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDNQGSIREPAGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVSDIILEQLASSHAVLTDDEKELGVCLIDIGGGTTDIVVFAEGAIQYTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVKHACAMPELASANEMIEVTSMNDNRPGRKISAKALSDVVSARYEELFTLVRNELRRSGFEQRLAAGMVMTGGGSSVMGAIELAEMCFEMPVRHGWAHHVSGLAEATVNPSLATGVGLLLHGYQQQYEGGYAVPALNVSGKGLWSRMREWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKK EKNIITGLDIGTSK++AL+GE+T+DGTIE+IGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGC+VRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIID+QGSIREP GMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V DIILEQLASSHAVLT+DEKELGVCLIDIGGGTTDI +F EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIKV HACA+PELA+ N+M+EVTS+ND RPGRKISAKAL+DVVSARYEELF+LVRNELRRSGFE RLAAG+V+TGG S+V GAIELAE+CFEMPVR G AH+VSGL EAT NPS ATGVGLLLHG+QQQYE GY VPA+N +GK +WSRM+EWFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966399536|ref|WP_058443169.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella brunensis] &gt;gi|962191702|gb|KTC76778.1| cell division protein FtsA [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058443169</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>738.413</Hsp_bit-score>
+      <Hsp_score>1905</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKLEKNIITGLDIGTSKVVALIGEVTADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIKDLEVSQVDVERVLDAAKAVAIPADQKILHILPQEFIIDNQGSIREPVGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVSDVILEQLASSHAVLTEDEKELGVCIIDIGGGTTDIAVFAEGAIQYTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVKYACAMPELSNASEMIEVLSVNERPGRKISSKVLSDVVSARYEELFSLVRNELRRSGFEQRVAAGMVMTGGGSCVRGAIELAEMCFEMPVRHGCAHHISGLVEATVNPSMATGVGLLLHGFQQQYEGGYNVTTFSDSGKGMWARMKEWFNGNF</Hsp_hseq>
+      <Hsp_midline>MAKK+EKNIITGLDIGTSK++ALIGEVT+DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAI+D EVSQ DVERV+DAAKAVAIPADQKILHILPQEFIID+QGSIREP+GMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V D+ILEQLASSHAVLTEDEKELGVC+IDIGGGTTDIA+F EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIKV +ACA+PEL+N ++M+EV SVN+RPGRKIS+K L+DVVSARYEELFSLVRNELRRSGFE R+AAG+V+TGG S VRGAIELAE+CFEMPVR GCAH++SGL EAT NPS ATGVGLLLHGFQQQYE GYNV   +D+GK +W+RMKEWF GNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|654922041|ref|WP_028372598.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella lansingensis] &gt;gi|962237748|gb|KTD22187.1| cell division protein FtsA [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028372598</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>738.028</Hsp_bit-score>
+      <Hsp_score>1904</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>355</Hsp_identity>
+      <Hsp_positive>385</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKTEKNIITGLDIGTSKVVALIGEVAADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYTGIAGSHIRSLNSHGIVAIKDLEVSQADVERVLDAAKAVAIPADQKILHILPQEFIIDNQGSIREPVGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVNDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAVFAEGAIQYTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVKHACAMPELSNANEMIEVLSVNERPGRKISTKVLSDVVSARYEELFSLVRNELRRSGFEQRIAAGMVMTGGGACVRGAIELAEMCFEMPVRQGCAQQVSGLVEATVNPSMATGVGLLLHGFQQQYEGGYNVTSFSDSGKGMWARMKEWFNGNF</Hsp_hseq>
+      <Hsp_midline>MAKK EKNIITGLDIGTSK++ALIGEV +DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVY GIAGSHIRSLNSHGIVAI+D EVSQADVERV+DAAKAVAIPADQKILHILPQEFIID+QGSIREP+GMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V DIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIA+F EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIKV HACA+PEL+N N+M+EV SVN+RPGRKIS K L+DVVSARYEELFSLVRNELRRSGFE R+AAG+V+TGG + VRGAIELAE+CFEMPVR+GCA  VSGL EAT NPS ATGVGLLLHGFQQQYE GYNV + +D+GK +W+RMKEWF GNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966407354|ref|WP_058450760.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella jamestowniensis] &gt;gi|962222733|gb|KTD07383.1| cell division protein FtsA [Legionella jamestowniensis] &gt;gi|1045921108|gb|OCH98041.1| cell division protein FtsA [Legionella jamestowniensis] &gt;gi|1097327813|emb|SFL93771.1| cell division protein FtsA [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058450760</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>737.258</Hsp_bit-score>
+      <Hsp_score>1902</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>354</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKLEKNIITGLDIGTSKVVALIGEVAADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIKDLEVSQIDVERVLDAAKAVAIPADQKILHILPQEFIIDNQGSIREPVGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVNDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAVFAEGAIQYTAVIPIAGDQVTNDIAMALRTPTKAAEAIKVKHACAMPEMCNANEMIEVLSVNERPGRKISTKVLSEVVSARYEELFSLVRNELRRSGFESRVAAGMVMTGGGSCVQGAIELAEMCFEMPVRQGCAHHVSGLVEATVNPSMTTGVGLLLHGFQQQYEGGYNVAHLNDSGKGMWARMKEWFNGNF</Hsp_hseq>
+      <Hsp_midline>MAKK+EKNIITGLDIGTSK++ALIGEV +DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAI+D EVSQ DVERV+DAAKAVAIPADQKILHILPQEFIID+QGSIREP+GMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V DIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIA+F EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIKV HACA+PE+ N N+M+EV SVN+RPGRKIS K L++VVSARYEELFSLVRNELRRSGFE R+AAG+V+TGG S V+GAIELAE+CFEMPVR+GCAH+VSGL EAT NPS  TGVGLLLHGFQQQYE GYNV  +ND+GK +W+RMKEWF GNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966400204|ref|WP_058443799.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella feeleii] &gt;gi|962218245|gb|KTD02964.1| cell division protein FtsA [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058443799</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>729.939</Hsp_bit-score>
+      <Hsp_score>1883</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKLEKNIITGLDIGTSKVVALIGEVTADGAIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRTAYAGIAGSHIRSLNSHGIVAIRNKEVSHADVAGVIDAAKAVAIPADQKILHVLPQEFIIDHQGSIREPVGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVSDIILEQLAASHAVLTEDEKELGVCLIDIGGGTTDIAVFYDGAIQFTAVIPIAGDQVTNDIAMALRTPTKSAEAIKLKHACAMPELANANEMIEVLGVSERPGRKISATVLADVVSARYEELFTLVRNELRRSGFEQRIAAGMVMTGGGSSVQGAIELAEMCFEMPVRHGCAHQVSGLVEATANPSLATGVGLLLHGFQQQYEGGYNVPVLGDNDKGMWARMKAWFHGNF</Hsp_hseq>
+      <Hsp_midline>MAKK+EKNIITGLDIGTSK++ALIGEVT+DG IEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVRT YAGIAGSHIRSLNSHGIVAIR++EVS ADV  VIDAAKAVAIPADQKILH+LPQEFIIDHQGSIREP+GMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V DIILEQLA+SHAVLTEDEKELGVCLIDIGGGTTDIA+F +GAIQ T+VIPIAGDQVTNDIAMALRTPTK+AEAIK+ HACA+PELAN N+M+EV  V++RPGRKISA  LADVVSARYEELF+LVRNELRRSGFE R+AAG+V+TGG S+V+GAIELAE+CFEMPVR GCAH VSGL EAT NPS ATGVGLLLHGFQQQYE GYNVP + DN K +W+RMK WF GNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|644964258|ref|WP_025385013.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella oakridgensis] &gt;gi|570283962|gb|AHE66149.1| cell division protein FtsA [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570703115|gb|ETO94014.1| cell division protein FtsA [Legionella oakridgensis RV-2-2007] &gt;gi|962259768|gb|KTD43892.1| cell division protein FtsA [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025385013</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>729.939</Hsp_bit-score>
+      <Hsp_score>1883</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKSEKNIITGLDIGTSKVVALVGEVTADGTIEIIGIGRHPSRGLKRGVVVDIEATVNSIQRAVQEAELMAGCEVRSVYTGIAGSHIRSLNSHGIVAIRDQEVSQADIDRVLDAAKAVVIPADQKILHILPQEFIIDNQGSIREPVGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVNDIILEQLASSHAVLTDDEKELGVCLVDIGGGTTDIAIFSGGAIQHTAVIPIAGDQVTNDIAVALRTPSKAAETIKLNYGCVMSELANANQMIEVLSVNERPGRKISAKVLSDVVSARYEELFALARNELRRSGFEDLVAAGIVLTGGASNIKGAIELAELCFEMPVRHGCAHQISGLNEASTNSSLATGVGLLLHGFQQQYEGGYNVPVLSDGASGIWTRMKNWFQGNF</Hsp_hseq>
+      <Hsp_midline>MAKK EKNIITGLDIGTSK++AL+GEVT+DGTIEIIGIGRHPSRGLKRGVVVDIE TVNSIQRAVQEAELMAGCEVR+VY GIAGSHIRSLNSHGIVAIRDQEVSQAD++RV+DAAKAV IPADQKILHILPQEFIID+QGSIREP+GMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V DIILEQLASSHAVLT+DEKELGVCL+DIGGGTTDIAIF  GAIQHT+VIPIAGDQVTNDIA+ALRTP+KAAE IK+N+ C + ELAN NQM+EV SVN+RPGRKISAK L+DVVSARYEELF+L RNELRRSGFED +AAGIVLTGGASN++GAIELAELCFEMPVR GCAH +SGL EA+ N S ATGVGLLLHGFQQQYE GYNVP ++D    IW+RMK WFQGNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966464433|ref|WP_058495794.1|</Hit_id>
+  <Hit_def>cell division protein FtsA [Legionella drozanskii] &gt;gi|962202916|gb|KTC87885.1| cell division protein FtsA [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058495794</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>727.243</Hsp_bit-score>
+      <Hsp_score>1876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>420</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>MAKKIEKNIITGLDIGTSKIIALIGEVTSDGTIEIIGIGRHPSRGLKRGVVVDIETTVNSIQRAVQEAELMAGCEVRTVYAGIAGSHIRSLNSHGIVAIRDQEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDHQGSIREPIGMAGVRLESRVHIVTGSVSAAQNIVKCVRRCGLDVIDIILEQLASSHAVLTEDEKELGVCLIDIGGGTTDIAIFCEGAIQHTSVIPIAGDQVTNDIAMALRTPTKAAEAIKVNHACALPELANPNQMLEVTSVNDRPGRKISAKALADVVSARYEELFSLVRNELRRSGFEDRLAAGIVLTGGASNVRGAIELAELCFEMPVRKGCAHYVSGLTEATENPSFATGVGLLLHGFQQQYESGYNVPAMNDNGKSIWSRMKEWFQGNF</Hsp_qseq>
+      <Hsp_hseq>MAKKLEKNIITGLDIGTSKVVALIGEVTADGAIEIIGIGSHPSRGLKRGVVVDIEATVNTIQRAVQEAELKAGCEVHTVYAGIAGSHIRSLNSHGIVAIRDLEVSQADVERVIDAAKAVAIPADQKILHILPQEFIIDNQGSIREPIGMAGVRLEARVHIVTGAVSAAQNIAKCVRRCGLEVNDIILEQLAASHAVLTEDEKELGVCLIDIGGGTTDIAIFAEGAIQYTTVIPIAGDQVTNDIAMALRTPTKAAEAIKISHAFAMPELASASEMLEVLSVSERPGRKISAKVLSEVVSARYEELFSLVRNELRRSGFEQRIAAGMVMTGGGSCIKGAIELAEMCFEMPVRQGCAHHVSGLVDATTNPSLATGVGLLLHGYQQQYEGGYNGSNMSDNSKGMWARMKEWFHGNF</Hsp_hseq>
+      <Hsp_midline>MAKK+EKNIITGLDIGTSK++ALIGEVT+DG IEIIGIG HPSRGLKRGVVVDIE TVN+IQRAVQEAEL AGCEV TVYAGIAGSHIRSLNSHGIVAIRD EVSQADVERVIDAAKAVAIPADQKILHILPQEFIID+QGSIREPIGMAGVRLE+RVHIVTG+VSAAQNI KCVRRCGL+V DIILEQLA+SHAVLTEDEKELGVCLIDIGGGTTDIAIF EGAIQ+T+VIPIAGDQVTNDIAMALRTPTKAAEAIK++HA A+PELA+ ++MLEV SV++RPGRKISAK L++VVSARYEELFSLVRNELRRSGFE R+AAG+V+TGG S ++GAIELAE+CFEMPVR+GCAH+VSGL +AT NPS ATGVGLLLHG+QQQYE GYN   M+DN K +W+RMKEWF GNF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

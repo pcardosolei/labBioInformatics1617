@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_227101</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834122</BlastOutput_query-def>
+  <BlastOutput_query-len>242</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_227101</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834122</Iteration_query-def>
+  <Iteration_query-len>242</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250719|ref|WP_010948259.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|52842765|ref|YP_096564.1| hypothetical protein lpg2557 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|40644086|emb|CAE46906.1| putative transcriptional regulator [Legionella pneumophila] &gt;gi|52629876|gb|AAU28617.1| hypothetical; probable transcriptional regulator-like [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509270|gb|AEW52794.1| probable transcriptional regulator-like protein [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948259</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.056</Hsp_bit-score>
+      <Hsp_score>1294</Hsp_score>
+      <Hsp_evalue>2.78076e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>MWYYFQPKRLCHNSFMIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MWYYFQPKRLCHNSFMIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MWYYFQPKRLCHNSFMIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|505256917|ref|WP_015444019.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|469490731|gb|AGH52576.1| hypothetical protein LPE509_00485 [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083234|gb|AGN15482.1| hypothetical protein LP6_2592 [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772916|emb|CZI20044.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998775635|emb|CZG57577.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998778221|emb|CZG72602.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998784460|emb|CZG81731.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998787412|emb|CZG56113.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998796424|emb|CZH95978.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998800406|emb|CZL07155.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998805712|emb|CZK04707.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998808454|emb|CZH91102.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998811817|emb|CZH75433.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998814384|emb|CZG65311.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998817631|emb|CZL54515.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998820734|emb|CZL58052.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998826696|emb|CZK05770.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998832666|emb|CZI11431.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998835669|emb|CZK83823.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998837941|emb|CZJ76758.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998842208|emb|CZL08980.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998844626|emb|CZK24800.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998847577|emb|CZK64333.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998850336|emb|CZI43292.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998853681|emb|CZL22209.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998856377|emb|CZL29962.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998859700|emb|CZL69364.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998862764|emb|CZK21495.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998865489|emb|CZJ44518.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998869770|emb|CZJ33384.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998870965|emb|CZM13441.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998874453|emb|CZK34032.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998877560|emb|CZM02515.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998880627|emb|CZI90030.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998887943|emb|CZL46120.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998889322|emb|CZK25808.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998895605|emb|CZK02525.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998906028|emb|CZK52629.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998909599|emb|CZL05472.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998915931|emb|CZK65837.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998918400|emb|CZK86764.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998921371|emb|CZL41594.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998927676|emb|CZL66767.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998930763|emb|CZK78122.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998933832|emb|CZL72617.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998939978|emb|CZK79367.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998946055|emb|CZK99323.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998949099|emb|CZK85193.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998958515|emb|CZL96887.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998961421|emb|CZK21811.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998964712|emb|CZK09284.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998966866|emb|CZM48548.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998970408|emb|CZK49800.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998973901|emb|CZK29526.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998979606|emb|CZL62580.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998985955|emb|CZK03581.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998988615|emb|CZL45443.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998998123|emb|CZJ91947.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999008095|emb|CZK31426.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999013028|emb|CZL46767.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999016950|emb|CZL72601.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999022748|emb|CZL19366.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999025281|emb|CZK71969.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999037038|emb|CZL51512.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999046762|emb|CZL74193.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999061569|emb|CZL10933.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999067466|emb|CZJ21095.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999076810|emb|CZG56238.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999080153|emb|CZJ88585.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999082888|emb|CZK80648.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999090402|emb|CZK38374.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999092396|emb|CZL36880.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999095182|emb|CZG83205.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999098803|emb|CZG64654.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999101232|emb|CZL70556.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999110325|emb|CZL12489.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999113896|emb|CZL54555.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999116323|emb|CZK44555.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999126235|emb|CZK76324.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999131501|emb|CZL91999.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999134720|emb|CZL14025.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999138178|emb|CZK31907.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999141707|emb|CZL40723.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999144648|emb|CZK72960.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999147560|emb|CZL46031.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999156949|emb|CZH77035.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999175700|emb|CZL02134.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999191373|emb|CZI20906.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999194496|emb|CZI47771.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999199858|emb|CZG81025.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999203807|emb|CZI47794.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999209924|emb|CZK72600.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999219394|emb|CZL34942.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999222488|emb|CZI39348.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999335185|emb|CZK70331.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1002075465|emb|CZQ93669.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1002078970|emb|CZQ93694.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1003020064|emb|CZR21123.1| transcriptional regulator-like protein [Legionella pneumophila] &gt;gi|1003022941|emb|CZR20057.1| transcriptional regulator-like protein [Legionella pneumophila] &gt;gi|1003026783|emb|CZR17572.1| transcriptional regulator-like protein [Legionella pneumophila] &gt;gi|1073865599|gb|AOU05550.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073868568|gb|AOU08518.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073871563|gb|AOU11512.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073874435|gb|AOU14383.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073877488|gb|AOU17435.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073880451|gb|AOU20397.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073883448|gb|AOU23393.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073886441|gb|AOU26385.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073889409|gb|AOU29352.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073892393|gb|AOU32335.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073895361|gb|AOU35302.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073898319|gb|AOU38259.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073901285|gb|AOU41224.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073904194|gb|AOU44132.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073907147|gb|AOU47084.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073910165|gb|AOU50100.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073913177|gb|AOU53109.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073916137|gb|AOU56068.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073919100|gb|AOU59030.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073922003|gb|AOU61932.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073925086|gb|AOU65013.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073928049|gb|AOU67975.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073931035|gb|AOU70944.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073934404|gb|AOU73963.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073937369|gb|AOU84368.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073947635|gb|AOU87359.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1073950563|gb|AOU90286.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1104003960|emb|SFZ46554.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1129969221|gb|APT99580.1| helix-turn-helix transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015444019</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.389</Hsp_bit-score>
+      <Hsp_score>1204</Hsp_score>
+      <Hsp_evalue>7.70418e-167</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|652972982|ref|WP_027225743.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|998790295|emb|CZG92682.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998925119|emb|CZJ38881.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998944126|emb|CZJ60446.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998955318|emb|CZJ96768.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998976890|emb|CZJ28724.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998982086|emb|CZI80747.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998992499|emb|CZJ35045.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999010196|emb|CZJ73083.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999019765|emb|CZJ22338.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999029157|emb|CZJ43990.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999030909|emb|CZH09724.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999034469|emb|CZJ67596.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999041216|emb|CZJ39418.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999043989|emb|CZJ37042.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999049895|emb|CZJ56045.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999052646|emb|CZJ40697.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999056355|emb|CZJ26596.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999065443|emb|CZJ41729.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999070832|emb|CZJ41774.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999074540|emb|CZJ54059.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999086112|emb|CZJ59426.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999185233|emb|CZP79191.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999197661|emb|CZP60443.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999207221|emb|CZP27286.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999228706|emb|CZP05239.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999234549|emb|CZP79435.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999241326|emb|CZH60344.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999243957|emb|CZH84959.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999257004|emb|CZP46724.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999259796|emb|CZP14694.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999266288|emb|CZO81796.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999272026|emb|CZP69667.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999278054|emb|CZP10126.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999281059|emb|CZP26449.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999285160|emb|CZP15445.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999287817|emb|CZI28239.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999291939|emb|CZO98091.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999293926|emb|CZI25115.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999297157|emb|CZP28034.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999300587|emb|CZP05377.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999306861|emb|CZH99330.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999310373|emb|CZO75372.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999313449|emb|CZI28859.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999317206|emb|CZH60171.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999319832|emb|CZP33017.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999322843|emb|CZH66698.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999325936|emb|CZG58232.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999329635|emb|CZF98344.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999338366|emb|CZP22318.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999339733|emb|CZH35605.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999345753|emb|CZP46675.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999347881|emb|CZP38706.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999354431|emb|CZP30403.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999357489|emb|CZP58160.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999363472|emb|CZP60313.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999366468|emb|CZP88784.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999370858|emb|CZP50702.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999393170|emb|CZP71077.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999399598|emb|CZP85748.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999402733|emb|CZP69380.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999426428|emb|CZG22688.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999438404|emb|CZG47100.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999448647|emb|CZG06556.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999451367|emb|CZP18657.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999521826|emb|CZP34639.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1002092841|emb|CZQ90655.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1003028628|emb|CZR21226.1| transcriptional regulator-like protein [Legionella pneumophila] &gt;gi|1005834168|gb|AMQ28894.1| transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1015433914|gb|AMV15541.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1041016540|gb|ANN93601.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1103997731|emb|SFZ46551.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027225743</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.848</Hsp_bit-score>
+      <Hsp_score>1200</Hsp_score>
+      <Hsp_evalue>3.35131e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499535655|ref|WP_011216438.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|53755228|emb|CAH16722.1| hypothetical protein lpl2482 [Legionella pneumophila str. Lens] &gt;gi|1080003086|gb|AOW53658.1| helix-turn-helix transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080006353|gb|AOW56633.1| helix-turn-helix transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080009639|gb|AOW59627.1| helix-turn-helix transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080012964|gb|AOW62455.1| helix-turn-helix transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080016486|gb|AOW65359.1| helix-turn-helix transcriptional regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1080019597|gb|AOW68242.1| helix-turn-helix transcriptional regulator [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216438</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.077</Hsp_bit-score>
+      <Hsp_score>1198</Hsp_score>
+      <Hsp_evalue>5.55131e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDVYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKED+YTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1005607173|ref|WP_061690659.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella pneumophila] &gt;gi|999250335|emb|CZG51260.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999253572|emb|CZG65904.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999263613|emb|CZG37017.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999274984|emb|CZG65735.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999332420|emb|CZG38635.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999351824|emb|CZG42732.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999470972|emb|CZG33690.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999779692|emb|CZG24103.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1104000866|emb|SFZ46583.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061690659</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>7.63087e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFAMSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFA+SHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|502866897|ref|WP_013101873.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|295650105|gb|ADG25952.1| hypothetical protein lpa_03746 [Legionella pneumophila 2300/99 Alcoy]</Hit_def>
+  <Hit_accession>WP_013101873</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>7.63087e-166</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNAKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLN+KNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1005609378|ref|WP_061691872.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella pneumophila] &gt;gi|998824111|emb|CZG36195.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061691872</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>1.91784e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDENGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDE+GKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|652967907|ref|WP_027220827.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|999247473|emb|CZH76034.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999268944|emb|CZO49454.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999453768|emb|CZI38280.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999460235|emb|CZH17192.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999464137|emb|CZM88955.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999467262|emb|CZO58884.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999473668|emb|CZN07905.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999476868|emb|CZN94599.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999480176|emb|CZN23260.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999483402|emb|CZO32784.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999486609|emb|CZM29066.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999489834|emb|CZO05504.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999492973|emb|CZM28089.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999499507|emb|CZN96453.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999502731|emb|CZO35104.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999505875|emb|CZN39865.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999509077|emb|CZG79322.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999512300|emb|CZN51526.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999515517|emb|CZM17770.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999518507|emb|CZN01540.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999531547|emb|CZO81596.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999535018|emb|CZN57905.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999537870|emb|CZN06825.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999541335|emb|CZO44421.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999544451|emb|CZO76643.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999547724|emb|CZO07722.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999550576|emb|CZO53891.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999554071|emb|CZN57474.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999557261|emb|CZO75954.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999560523|emb|CZM75288.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999563644|emb|CZO91939.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999566954|emb|CZM70952.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999570092|emb|CZN71359.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999573316|emb|CZO21849.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999579719|emb|CZO44325.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999582888|emb|CZO78265.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999586307|emb|CZM99709.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999589332|emb|CZM61687.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999592606|emb|CZN60808.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999595731|emb|CZO31814.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999598938|emb|CZO67347.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999602050|emb|CZM25763.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999605124|emb|CZN92426.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999608468|emb|CZN78852.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999615080|emb|CZM71617.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999618173|emb|CZO14881.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999621188|emb|CZP08029.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999624433|emb|CZO03120.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999627692|emb|CZM89390.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999631054|emb|CZM77038.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999634169|emb|CZN83245.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999637190|emb|CZN90724.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999640524|emb|CZP08393.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999643825|emb|CZO72508.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999647002|emb|CZO15788.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999651202|emb|CZN89695.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999653417|emb|CZO17359.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999656502|emb|CZM59891.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999659556|emb|CZM91094.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999662895|emb|CZN42020.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999666261|emb|CZM63696.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999669452|emb|CZM02275.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999672542|emb|CZM61678.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999675793|emb|CZO00152.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999678702|emb|CZN08387.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999682024|emb|CZM99090.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999685441|emb|CZO32984.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999688527|emb|CZN52039.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999691833|emb|CZO23162.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999694884|emb|CZN57595.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999698057|emb|CZM39986.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999701299|emb|CZN04343.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999704535|emb|CZM22502.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999708409|emb|CZN44383.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999711046|emb|CZN21776.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999714193|emb|CZN46501.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999717454|emb|CZO76211.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999720589|emb|CZN09245.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999724069|emb|CZN58438.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999727290|emb|CZM18327.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999730396|emb|CZO63704.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999733777|emb|CZM35739.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999736948|emb|CZO94016.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999740411|emb|CZM54989.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999743555|emb|CZN41888.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999746749|emb|CZM41862.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999750228|emb|CZM16374.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999753169|emb|CZN03918.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999756283|emb|CZN33958.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999759837|emb|CZM49961.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999762978|emb|CZN41423.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999766176|emb|CZM96149.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999769265|emb|CZN73460.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999772718|emb|CZI09817.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999775819|emb|CZM11266.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999782134|emb|CZH85190.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999785954|emb|CZM46905.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999789040|emb|CZO89441.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999792387|emb|CZO76552.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999795575|emb|CZI50266.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999799104|emb|CZO92415.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1003035941|emb|CZR20346.1| transcriptional regulator-like protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027220827</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>5.32024e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKIHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLVMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGK HGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLL MRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|504657598|ref|WP_014844700.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|395131656|emb|CCD09947.1| Bacterial regulatory protein, LuxR [Legionella pneumophila subsp. pneumophila] &gt;gi|761987534|dbj|GAN24588.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998891815|emb|CZJ63008.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1002080681|emb|CZR08139.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844700</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>6.41107e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIARLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIA LLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|500496009|ref|WP_011947485.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|148281748|gb|ABQ55836.1| hypothetical [Legionella pneumophila str. Corby] &gt;gi|761996939|dbj|GAN30962.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998802551|emb|CZH86374.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998912392|emb|CZH00844.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998994841|emb|CZI11620.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999004385|emb|CZI40214.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999107092|emb|CZI80776.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999150969|emb|CZH75616.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999165980|emb|CZG66669.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999170343|emb|CZH63679.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999231411|emb|CZI59573.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999301644|emb|CZI77265.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1032658649|gb|ANH13920.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1032661611|gb|ANH16881.1| helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|1032664589|gb|ANH19858.1| helix-turn-helix transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947485</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>7.15447e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNKGLKQLQLQEKDIIGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNN+GLKQLQLQEKDI+GMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|506459788|ref|WP_015961688.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|53752348|emb|CAH13780.1| hypothetical protein lpp2627 [Legionella pneumophila str. Paris] &gt;gi|536611622|gb|ERB40140.1| transcriptional regulator [Legionella pneumophila str. 121004] &gt;gi|541998711|gb|ERH44727.1| transcriptional regulator [Legionella pneumophila str. Leg01/53] &gt;gi|542000206|gb|ERH46197.1| transcriptional regulator [Legionella pneumophila str. Leg01/11] &gt;gi|542123101|gb|ERI49410.1| transcriptional regulator [Legionella pneumophila str. Leg01/20] &gt;gi|762000168|dbj|GAN27900.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999173457|emb|CZH71286.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999182483|emb|CZG25449.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999188648|emb|CZI74964.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999213580|emb|CZG40191.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999217130|emb|CZI75307.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999225974|emb|CZG35695.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999361143|emb|CZI04188.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999374101|emb|CZG06455.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999377296|emb|CZI90070.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999380595|emb|CZH50004.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999383461|emb|CZI20441.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999387410|emb|CZG08091.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999390217|emb|CZI07826.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999397118|emb|CZG18695.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999406369|emb|CZG40310.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999409459|emb|CZH74028.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999413407|emb|CZG15565.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999416597|emb|CZG11364.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999419226|emb|CZG41275.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999422662|emb|CZH46748.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999429168|emb|CZG33264.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999432756|emb|CZG10284.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999435686|emb|CZH63936.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999442194|emb|CZJ82054.1| transcriptional regulator-like protein [Legionella pneumophila] &gt;gi|999445382|emb|CZH58043.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999458306|emb|CZJ86866.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999497073|emb|CZI13168.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999526276|emb|CZI59038.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999529158|emb|CZI14220.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999577122|emb|CZI03959.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999612423|emb|CZI09804.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1041019546|gb|ANN96606.1| helix-turn-helix transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961688</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>8.71649e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKVLPFGEYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDK LPFG+YAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|742357239|ref|WP_038839530.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila] &gt;gi|998781254|emb|CZJ46591.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998829547|emb|CZG83482.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998883411|emb|CZI80193.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998898748|emb|CZJ42582.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998935727|emb|CZM91151.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998952153|emb|CZJ30355.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|998999878|emb|CZH02731.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999057565|emb|CZM80823.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999103422|emb|CZI32732.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999127944|emb|CZH38122.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999153943|emb|CZM21374.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999158482|emb|CZJ96303.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999163031|emb|CZM07780.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999177193|emb|CZJ94681.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|999237096|emb|CZG75334.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1002084945|emb|CZR04064.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|1002088640|emb|CZQ78625.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839530</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>1.30808e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDENGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLHYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDE+GKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVL+YFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|754876326|ref|WP_042236626.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042236626</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>1.62902e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKVLPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFENGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDK LPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE GLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1005410609|ref|WP_061639861.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella pneumophila] &gt;gi|998793555|emb|CZI48189.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061639861</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>3.75006e-164</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKVLPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIARLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDK LPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIA LLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1011916858|ref|WP_062729255.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062729255</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>6.27203e-158</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>TKTIFEYSHSTVYIKDKNFHYQYMNNKGLKQLQLQEKDIIGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>TKTIFEYSHSTVYIKDKNFHYQYMNN+GLKQLQLQEKDI+GMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1011908738|ref|WP_062723559.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062723559</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>2.50977e-155</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>YSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>YSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>YSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|966422883|ref|WP_058466084.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella cincinnatiensis] &gt;gi|962196855|gb|KTC81901.1| transcriptional regulator-like protein [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058466084</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>1.07344e-154</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNCHYQYMNNNGLKQLQLQEKDILGMPDKALPFGKYADFYNSHDYCAMEEIIYFQLDDCLAKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNFHELISNINSKNTFLAPNLKINIDVDDWLKTTINLSQREMEVLYYFLQGKTIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTLIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKN HYQYMNN GLKQLQLQEKDI+GMPDKALPFGKYA FYNSHDY AMEEIIYFQLDDC+ KNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMN H+L++N+NSKNTFL PNLKIN++VDDWLKTTINLS+REMEVLYYFLQGK+IKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLT+IWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|489732232|ref|WP_003636346.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella longbeachae] &gt;gi|269988014|gb|EEZ94269.1| LuxR family transcriptional regulator [Legionella longbeachae D-4968] &gt;gi|288858719|emb|CBJ12621.1| putative transcriptionnal regulator [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003636346</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.032</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>4.56631e-154</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNNGLKQLQLQEQDILCMPDSSLPFGKYADFYNSHDHYAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHELISNLNSKNTFLAPNLKININVDDWLKSTINLSRREMEVLYFFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSIEKGLKNLTIIWDMLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNN GLKQLQLQE+DI+ MPD +LPFGKYA FYNSHD+ AMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLH+L++NLNSKNTFL PNLKIN+NVDDWLK+TINLSRREMEVLY+FLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKS EKGLKNLTIIWD+LAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1011912431|ref|WP_062726165.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062726165</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>7.79585e-153</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSF</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSF</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|653018131|ref|WP_027270092.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella sainthelensi] &gt;gi|962275858|gb|KTD59761.1| transcriptional regulator-like protein [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027270092</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>1.80013e-152</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNCHYQYMNNNGLKQLQLQEQDILHMPDKALPFRKYADFYNSHDYSAMEEIIYFQLDDCITKNGEKLFALSHKLPLKDEDGKTHGVIGFTKFMTLQELISNLNSKNTFLAPNLKININIDDWLKTTINLSRREMEVLYYFLQGKTIKIIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKAIEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKN HYQYMNN GLKQLQLQE+DI+ MPDKALPF KYA FYNSHDYSAMEEIIYFQLDDCITKNGEK+FALSHKLPLKDEDGKTHGVIGFTKFM L +L++NLNSKNTFL PNLKIN+N+DDWLKTTINLSRREMEVLYYFLQGK+IK+IAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTK+ EKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966498321|ref|WP_058515087.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella santicrucis] &gt;gi|962271578|gb|KTD55576.1| transcriptional regulator-like protein [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515087</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.846</Hsp_bit-score>
+      <Hsp_score>1065</Hsp_score>
+      <Hsp_evalue>9.77239e-146</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNCHYQYMNNNGLKRLQLQEKDILCMSAKALPFRMYADFYNSHDYSAMKGIVYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGIIGFTKFMNFHELISNINSKNTFLAPNLKININVDDLLKTTINLSRREMEVLYYFLQGKTTKFIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSIEKGFKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKN HYQYMNN GLK+LQLQEKDI+ M  KALPF  YA FYNSHDYSAM+ I+YFQLDDCITKNGEKIFALSHKLPLKDEDGKTHG+IGFTKFMN H+L++N+NSKNTFL PNLKIN+NVDD LKTTINLSRREMEVLYYFLQGK+ K IAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKS EKG KNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|966468964|ref|WP_058500290.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella gratiana] &gt;gi|962221894|gb|KTD06554.1| transcriptional regulator-like protein [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058500290</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.223</Hsp_bit-score>
+      <Hsp_score>1053</Hsp_score>
+      <Hsp_evalue>6.8078e-144</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MIPKKLLTYTKTIFEYSHSTVYIKDKNCHYQYMNNNGLKRLQLQEQEILCMPDKVLPFGKYADFYNSHDYSAMEESIYFQLDDCITKTGEKIFALSHKLPLKDEDGRTHGVIGFTKFMDFHELISNINSKNTFLAPNLKININVEDWLKTTINLSRREMEILYYFLQGKAIKIIAALLSIAERTVIFHLDNIKSKWGCYHKGDIYTKAFEKGLKNLTIIWDLLAVRS</Hsp_hseq>
+      <Hsp_midline>MIP+KLLTYTKTIFEYSHSTVYIKDKN HYQYMNN GLK+LQLQE++I+ MPDK LPFGKYA FYNSHDYSAMEE IYFQLDDCITK GEKIFALSHKLPLKDEDG+THGVIGFTKFM+ H+L++N+NSKNTFL PNLKIN+NV+DWLKTTINLSRREME+LYYFLQGK+IK+IA LL I ERTVIFHL+NIKSKWGCY+K DIYTK+FEKGLKNLTIIWDLLA+RS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1011906247|ref|WP_062721679.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062721679</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.823</Hsp_bit-score>
+      <Hsp_score>1026</Hsp_score>
+      <Hsp_evalue>3.24641e-140</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>FEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKS</Hsp_qseq>
+      <Hsp_hseq>FEYSHSTVYIKDKNFHYQYMNNKGLKQLQLQEKDIIGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKS</Hsp_hseq>
+      <Hsp_midline>FEYSHSTVYIKDKNFHYQYMNN+GLKQLQLQEKDI+GMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|395128504|emb|CCD06720.1|</Hit_id>
+  <Hit_def>Bacterial regulatory protein, LuxR [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>CCD06720</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>7.22968e-140</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>MNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKIHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLVMRS</Hsp_hseq>
+      <Hsp_midline>MNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGK HGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLL MRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1011933017|ref|WP_062742034.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062742034</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>3.10497e-129</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>TVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYN</Hsp_qseq>
+      <Hsp_hseq>TVYIKDKNFHYQYMNNKGLKQLQLQEKDIIGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYN</Hsp_hseq>
+      <Hsp_midline>TVYIKDKNFHYQYMNN+GLKQLQLQEKDI+GMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLM+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|761990634|dbj|GAN18536.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional activator SdiA [Legionella pneumophila] &gt;gi|761993824|dbj|GAN21642.1| DNA-binding transcriptional activator SdiA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>GAN18536</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>6.45649e-67</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>MNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MSNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>M+NLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|761992952|dbj|GAN16116.1|</Hit_id>
+  <Hit_def>hypothetical protein lpbnt_00203 [Legionella pneumophila] &gt;gi|761996142|dbj|GAN19221.1| hypothetical protein lpofk_00203 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>GAN16116</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>2.46676e-59</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKI</Hsp_qseq>
+      <Hsp_hseq>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNKGLKQLQLQEKDIIGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKI</Hsp_hseq>
+      <Hsp_midline>MIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNN+GLKQLQLQEKDI+GMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1003030266|emb|CZR34360.1|</Hit_id>
+  <Hit_def>Bacterial regulatory proteins%2C luxR family [Legionella pneumophila]</Hit_def>
+  <Hit_accession>CZR34360</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>6.79261e-41</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>MEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_qseq>
+      <Hsp_hseq>MEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_hseq>
+      <Hsp_midline>MEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLTIIWDLLAMRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966466470|ref|WP_058497796.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella gratiana] &gt;gi|962229961|gb|KTD14557.1| LuxR family transcriptional regulator [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497796</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.01112e-14</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEE------IIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLH-QLMNNLNSKNTFLTPNLKINVNVDDWLKTTIN--LSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>TDVDDILDTTLANVYLKDKKGLYLDCNHNMSSVIKLQIDDVKGKMDTDLIWREQAHILMRNDAQIIEQNKVKTFIEPVQLE-----GGPRICYLSRKAPLRMRDGKIIGIMGISFQIDCDTSLLTALQETISLLTSNPNEHVPLPQVPIQNVNNQLTAKQIDCLYYLVKGMTIKQIGQQLNLSPRTVEDHLNAAKNKLHCHNRVELIAAALE</Hsp_hseq>
+      <Hsp_midline>T    I + + + VY+KDK   Y   N+     ++LQ  D+ G  D  L + + AH    +D   +E+      I   QL+      G +I  LS K PL+  DGK  G++G +  ++    L+  L    + LT N   +V +       +N  L+ ++++ LYY ++G +IK I   L+++ RTV  HLN  K+K  C+N+ ++   + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966496867|ref|WP_058513633.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella santicrucis] &gt;gi|962279982|gb|KTD63805.1| LuxR family transcriptional regulator [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058513633</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>3.06412e-14</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>EKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFT-KFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTIN-LSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>DAVTTNVDDILDTTLANVYVKDKTGLYLDCNHNMSSAIKMQIDDVKGKIDTDLMWREQAPVLMRNDAQIIEQNKVKTFIEPVQLDSGPLYYLSRKAPLRTRDGKLIGIVGISFQIDSDISLLTALQETIPFMTPNIIENAQLP--IRNLNNQLTAKQIDCLYYLVKGMTIKQIGQQLNLSPRTVEDHLNAAKNKLHCHNRAELIAAALQ</Hsp_hseq>
+      <Hsp_midline>+ + T    I + + + VY+KDK   Y   N+     +++Q  D+ G  D  L + + A     +D   +E+       + +  +   ++ LS K PL+  DGK  G++G + +  +   L+  L     F+TPN+  N  +   ++   N L+ ++++ LYY ++G +IK I   L+++ RTV  HLN  K+K  C+N+ ++   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966423293|ref|WP_058466494.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella cincinnatiensis] &gt;gi|962193359|gb|KTC78425.1| LuxR family transcriptional regulator [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058466494</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>1.10854e-12</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>TYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFT-KFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTIN-LSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>TNVDDILDTTLANVYVKDKKGLYLDCNLNMSSVVKMQIDDVKGKTDTDLLWREQAPLLMRNDAQIIEQNKVKTFIEPVQLDSGPLYYLSRKAPLRTRDGKLIGIVGISFQIDGDISLLTALQETIPFITPNTIENVPLP--IRNLNNHLTAKQIDCLYYLVKGMTIKQIGQQLNLSPRTVEDHLNAAKNKLHCHSRAELIAAALQ</Hsp_hseq>
+      <Hsp_midline>T    I + + + VY+KDK   Y   N      +++Q  D+ G  D  L + + A     +D   +E+       + +  +   ++ LS K PL+  DGK  G++G + +      L+  L     F+TPN   NV +   ++   N L+ ++++ LYY ++G +IK I   L+++ RTV  HLN  K+K  C+++ ++   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|654930517|ref|WP_028380886.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380886</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>2.7031e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>KRLCHNSFMIPEKLLTY-TKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEE------IIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>RELAH--FMCTESTLTAGTDNILDTTLANVYVKDKKGRYLDCNHTMLCVNKMQAEDIKGKMDVDLLWKEQAPILMKNDATIIQENQVKTFIEAVQFD-----NGPLRHYISRKAPLYTRQGKVIGIVGISFLIDSDTSLFTAIQEPSIIGHD---NPSHSSTQHSNNQLTTKQIKCLYYLVQGMTIKQIGQQLNLSPRTVEDHLNAAKNKLNCYSRSQLITKALQ</Hsp_hseq>
+      <Hsp_midline>+ L H  FM  E  LT  T  I + + + VY+KDK   Y   N+  L   ++Q +DI G  D  L + + A     +D + ++E      I   Q D     NG     +S K PL    GK  G++G +  ++    +     + + +  +   N +      +   L+ ++++ LYY +QG +IK I   L+++ RTV  HLN  K+K  CY++  + TK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|963702272|ref|WP_058387370.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella cherrii] &gt;gi|962197277|gb|KTC82321.1| LuxR family transcriptional regulator [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_058387370</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.2441e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>KRLCHNSFMIPEKLLTY-TKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEE------IIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>RELAH--FMCTESTLTAGTDNILDTTLANVYVKDKKGRYLDCNHTMLCVNKMQTEDIKGKMDVDLLWKEQAPILMKNDATIIQENQVKTFIEAVQFD-----NGPLRHYISRKAPLYTRQGKVIGIVGISFLIDSDTSLFTAIQEPSIIGHD---NPSHSSTQHSNNQLTTKQIKCLYYLVQGMTIKQIGQQLNLSPRTVEDHLNAAKNKLNCYSRSQLITKALQ</Hsp_hseq>
+      <Hsp_midline>+ L H  FM  E  LT  T  I + + + VY+KDK   Y   N+  L   ++Q +DI G  D  L + + A     +D + ++E      I   Q D     NG     +S K PL    GK  G++G +  ++    +     + + +  +   N +      +   L+ ++++ LYY +QG +IK I   L+++ RTV  HLN  K+K  CY++  + TK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1085138496|gb|OGT30381.1|</Hit_id>
+  <Hit_def>hypothetical protein A3E87_01470 [Gammaproteobacteria bacterium RIFCSPHIGHO2_12_FULL_35_23]</Hit_def>
+  <Hit_accession>OGT30381</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>3.49054e-12</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQ-EKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDI</Hsp_qseq>
+      <Hsp_hseq>EAIINQTPGFVFWKSKSLEFEGCNYNLLQASGCDLMKDYIGKTDYEMPWADMAEYYRCDDKEVLLGKTIRRVEPFINHSNQIIPTLVEKRPMLDSKNKIIGMVGYT------QLLNSFSNIKDGLGSWLSTQVSSDIMARLFKGISLRESQVLYYYVRGYSMKEISNFLFISPRTVETHLINLKNLFNCKNKGGI</Hsp_hseq>
+      <Hsp_midline>+ I   +   V+ K K+  ++  N   L+       KD +G  D  +P+   A +Y   D   +      +++  I  + + I  L  K P+ D   K  G++G+T      QL+N+ ++    L   L   V+ D   +    +S RE +VLYY+++G S+K I+  L I+ RTV  HL N+K+ + C NK  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|653019354|ref|WP_027271305.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella sainthelensi] &gt;gi|962272878|gb|KTD56858.1| LuxR family transcriptional regulator [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027271305</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>5.72358e-12</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>FMIPEKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFT-KFMNLHQLMNNLNSKNTFLTPNLKINV-----NVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>LCIDDAVTTKVDDILDTTLANVYVKDKKGLYLDCNHNMSSAIKMQIDDVKGKIDTDLMWKEQGPLLMRNDAQIIEQNKVKTFIEPVQLDTGPLYYLSRKAPLRSRDGKLIGIVGISFQIDSDMSLLTALQETIPFMTQNPIENVPLPIRNVNNQL------TAKQIDCLYHLVKGLTIKQIGQKLNLSPRTVEDHLNAAKNKLHCHNRAELIAAALQ</Hsp_hseq>
+      <Hsp_midline>  I + + T    I + + + VY+KDK   Y   N+     +++Q  D+ G  D  L + +       +D   +E+       + +  +   ++ LS K PL+  DGK  G++G + +  +   L+  L     F+T N   NV     NV++ L      + ++++ LY+ ++G +IK I   L+++ RTV  HLN  K+K  C+N+ ++   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|489730562|ref|WP_003634678.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella longbeachae] &gt;gi|269990862|gb|EEZ97116.1| transcriptional regulator [Legionella longbeachae D-4968] &gt;gi|288859544|emb|CBJ13509.1| putative regulatory protein, luxR family [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003634678</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>5.89987e-12</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>EKLLTYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFT-KFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTIN-LSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>DAVTTKVDDILDTTLANVYVKDKKGLYLDCNHNMSSAIKMQIDDVKGKIDTDLMWREQGPLLMRNDAQIIEQNKVKTFIEPVQLDTGPLYYLSRKAPLRSRDGKLIGIVGISFQIDSDISLLTALQETIPFMTPSTIENVPLP--IRNLNNQLTAKQIDCLYHLVKGLTIKQIGQKLNLSPRTVEDHLNAAKNKLHCHNRAELIAAALQ</Hsp_hseq>
+      <Hsp_midline>+ + T    I + + + VY+KDK   Y   N+     +++Q  D+ G  D  L + +       +D   +E+       + +  +   ++ LS K PL+  DGK  G++G + +  +   L+  L     F+TP+   NV +   ++   N L+ ++++ LY+ ++G +IK I   L+++ RTV  HLN  K+K  C+N+ ++   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1028416299|gb|OAI46511.1|</Hit_id>
+  <Hit_def>hypothetical protein AYO45_01840 [Gammaproteobacteria bacterium SCGC AG-212-F23]</Hit_def>
+  <Hit_accession>OAI46511</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.51602e-11</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>VYIKDKNFHYQYMNNRGLKQLQLQEKD-IMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTF---LTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKNLT</Hsp_qseq>
+      <Hsp_hseq>IWVKDLEMRYIACNERCKNFVGLSSRDDLIGKFDHDLSWNPYAELYREGDKEILKGKSLSFMHPIQLYNGRKLIIITQKSPIKNNNEEIIGITGSIAIASSLPFVKSINHLTQFDAQLTGNDYFQYIVSDDF-CQFNLTKREIHCLFHLVRGKTANDIANILFISKRTAEKHVDNIKTKLKCNTKSEIIAKAIENGFVHLV</Hsp_hseq>
+      <Hsp_midline>+++KD    Y   N R    + L  +D ++G  D  L +  YA  Y   D   ++      +      NG K+  ++ K P+K+ + +  G+ G     +    + ++N    F   LT N      V D      NL++RE+  L++ ++GK+   IA +L I++RT   H++NIK+K  C  K +I  K+ E G  +L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966436512|ref|WP_058476880.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella steigerwaltii] &gt;gi|962294870|gb|KTD78529.1| LuxR family transcriptional regulator [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476880</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.82798e-11</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>TYTKTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEE------IIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLH-QLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>TGVDNILDTTLANVYLKDNKGRYLDCNHNMLCVNKIPTEDIKGKTDSDLLWKEQASILMKNDAEIIQRDKAKTFIEAVQLD-----VGPLQYYISRKAPLHTRQGKVIGVVGISILIDCDISLFTTIQETNPVAIPSTIDNVNPTQ--NSNSQLTPKQIRCLYYLVKGMTIKQIAQQLNLSPRTVEDHLNAAKNKLNCHNRGELIATALQ</Hsp_hseq>
+      <Hsp_midline>T    I + + + VY+KD    Y   N+  L   ++  +DI G  D  L + + A     +D   ++       I   QLD      G   + +S K PL    GK  GV+G +  ++    L   +   N    P+   NVN      +   L+ +++  LYY ++G +IK IA  L+++ RTV  HLN  K+K  C+N+ ++   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966497398|ref|WP_058514164.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella santicrucis] &gt;gi|962277449|gb|KTD61327.1| transcriptional regulator LuxR [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058514164</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.28885e-10</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VYIKDKNFHYQYMNNRGLKQLQLQ-EKDIMGMPDKALP---FGKYAHFYNSHDYSAMEEI--IYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGF------TKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGL</Hsp_qseq>
+      <Hsp_hseq>VFVRDKNLYSQFCNPAYASYLGLKNPQEYIGINYEEVPNSYVANFAELYDAHDRQVLESVNTIHILSIDTIS-HSKPLIMYGCKAPLLDDEEKLQGILGQALLLEDSYFGHLQELLE-FRTKTTY---------EIDNYSK--FGLSSREAECYFYLLRGLTAKAIGNKLSISAKTVEFYIACLKQKLNCTKKAQLIEKGFDLGL</Hsp_hseq>
+      <Hsp_midline>V+++DKN + Q+ N      L L+  ++ +G+  + +P      +A  Y++HD   +E +  I+    D I+ + + +     K PL D++ K  G++G       + F +L +L+    +K T+          +D++ K    LS RE E  +Y L+G + K I   L I+ +TV F++  +K K  C  K  +  K F+ GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966404064|ref|WP_058447635.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella feeleii] &gt;gi|962210250|gb|KTC95155.1| LuxR family transcriptional regulator [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058447635</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.99323e-10</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>FEYSHSTVYIKDKNFHYQYMNNRGLKQLQL-QEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFA-LSHKLPLKDEDGKTHGVIGFTKFM-NLHQLMNNLNSKNTFLTPNLK---INVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>FELASVNVYSKDIKGCFMSSNQTMLEVNNIPSEQDILGATDYDLAWKEQAPALIKNDQEVIQTNKAKTYIEPVWLNGEQLHCYISHKRPLRTSLGKVIGVFGLSFLLEDENSFINTVNEITALSNSNLSKQIQDVGEQPFLRGR-HLTKRQMDCLYYLVKGMTIKQIANTLNLSPKTVEHYLDAVKVKLKCRNRTELITTALQ</Hsp_hseq>
+      <Hsp_midline>FE +   VY KD    +   N   L+   +  E+DI+G  D  L + + A     +D   ++        + +  NGE++   +SHK PL+   GK  GV G +  + + +  +N +N        NL     +V    +L+   +L++R+M+ LYY ++G +IK IA  L+++ +TV  +L+ +K K  C N+ ++ T + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|738954113|ref|WP_036838560.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Photorhabdus temperata] &gt;gi|662549099|gb|KER03527.1| response regulator containing a CheY-like receiver domain and an HTH DNA-binding protein [Photorhabdus temperata subsp. temperata Meg1]</Hit_def>
+  <Hit_accession>WP_036838560</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>4.81964e-10</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>IFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEK-DIMGMPDKALP--FGKYAHFYNSHDYSAMEEIIYF-QLDDCITKNGEKIFALS-HKLPLKDEDGKTHGVIGFTKFMN---LHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTV</Hsp_qseq>
+      <Hsp_hseq>MWDKSHESWFVKDKEFRFMYANPVFIKVNKLPENFNVIGYTDKELPTLFNNFAHLFEEHDRKVLQSMQKVSSIGAYLPDNGQKLKSYSCDKYPLMDENNQCMGIIGHAKAINHFSLYDYIKNDSSTSVRLSPPNNI-------------LTAKEWVIIFLFCRGVSNKFIASEMKISCRSL</Hsp_hseq>
+      <Hsp_midline>+++ SH + ++KDK F + Y N   +K  +L E  +++G  DK LP  F  +AH +  HD   ++ +     +   +  NG+K+ + S  K PL DE+ +  G+IG  K +N   L+  + N +S +  L+P   I             L+ +E  +++ F +G S K IA  + I+ R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|544916983|ref|WP_021326646.1|</Hit_id>
+  <Hit_def>hypothetical protein [Photorhabdus temperata] &gt;gi|530707202|gb|EQB98174.1| hypothetical protein B738_26472 [Photorhabdus temperata subsp. temperata M1021] &gt;gi|550871309|gb|ERT10601.1| LuxR family transcriptional regulator [Photorhabdus temperata J3]</Hit_def>
+  <Hit_accession>WP_021326646</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.10484e-09</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>IFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEK-DIMGMPDKALP--FGKYAHFYNSHDYSAMEEIIYF-QLDDCITKNGEKIFALS-HKLPLKDEDGKTHGVIGFTKFMN---LHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTV</Hsp_qseq>
+      <Hsp_hseq>MWDKSHESWFVKDKEFRFMYANPVFIKVNKLPENFNVIGYTDKELPTLFNNFAHLFEEHDRKVLQSMQKVSSIGAYLPDNGQKLKSYSCDKYPLMDENNQCMGIIGHAKAINHFSLYDYIKNDSSTSVRLSPPNNI-------------LTAKEWIIIFLFCRGVSNKFIANEMKISCRSL</Hsp_hseq>
+      <Hsp_midline>+++ SH + ++KDK F + Y N   +K  +L E  +++G  DK LP  F  +AH +  HD   ++ +     +   +  NG+K+ + S  K PL DE+ +  G+IG  K +N   L+  + N +S +  L+P   I             L+ +E  +++ F +G S K IA  + I+ R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|406915660|gb|EKD54722.1|</Hit_id>
+  <Hit_def>transcription regulator LuxR family protein [uncultured bacterium]</Hit_def>
+  <Hit_accession>EKD54722</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.29517e-09</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>DKNFHYQYMNNRGLKQLQLQEK-DIMGMPDKALP--FGKYAHFYNSHDYSAMEEIIYFQLDDCIT-KNGEKIFALSHKLPLKDEDGK----THGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTIN------LSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKG</Hsp_qseq>
+      <Hsp_hseq>DLTGNYIYVNQAFSSLLGFKNKEDVTGLAFKNAPCKVSEYADVHEKQNQEVVKSNAVIKLLDIHPYANNEIVTILTSKAPFKDVAGHFNVIAHGTV-VSRSMLLKISTAIAQSDKRF-----RKNKNPDQRSYKIVEPIDCQKLSAREIECMFYLIRGKTMTQIATILRLSKRTVEYYLQNIKNKWSCHTKSDLIEKAIETG</Hsp_hseq>
+      <Hsp_midline>D   +Y Y+N      L  + K D+ G+  K  P    +YA  +   +   ++     +L D     N E +  L+ K P KD  G      HG +  ++ M L        S   F     + N N D      +       LS RE+E ++Y ++GK++  IA +L +++RTV ++L NIK+KW C+ K D+  K+ E G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1028418172|gb|OAI48280.1|</Hit_id>
+  <Hit_def>hypothetical protein AYO45_05190 [Gammaproteobacteria bacterium SCGC AG-212-F23]</Hit_def>
+  <Hit_accession>OAI48280</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.65044e-09</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>KIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE-KGLKNL</Hsp_qseq>
+      <Hsp_hseq>KMIAISYKSPLYSANKKLLGINGISIILEKNQFYSSI-------FPSIREDVTTAFSSLSSVKLTTREIECLYHLVKGKTAKAIGKILSISRRTVEQHLENCKRKLKCANKQELIEKSLKLQEIKNI</Hsp_hseq>
+      <Hsp_midline>K+ A+S+K PL   + K  G+ G +  +  +Q  +++        P+++ +V       +++ L+ RE+E LY+ ++GK+ K I  +L I+ RTV  HL N K K  C NK+++  KS + + +KN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966494858|ref|WP_058511646.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella steelei] &gt;gi|962283955|gb|KTD67721.1| LuxR family transcriptional regulator [Legionella steelei] &gt;gi|1113345216|gb|OJW09041.1| helix-turn-helix transcriptional regulator [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058511646</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.1559e-09</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>KRLCHNSFMIPEKLLTYT-KTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKDIMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQ-LMNNLNSKNTFLTPNLKINVNVDDWLKTTIN--LSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFE</Hsp_qseq>
+      <Hsp_hseq>RKLAH--YMYAEASLTTGLDNILDTTLANIYVKDKKGCYLDCNHNMLHVNKMQ--DMKGKMDYDLLWKEQAPLLMKNDAEIIQQNKAKTFLETVQLDGSIQHYLSRKAPLYTRQGKIIGVVGISFLIDGDTPLFSTMHETALVAKPNANVHFNPSLLPEQNANGQLTTKQVKCLYYLVKGMTIKQIGQKLNLSPRTVEDHLNAAKNKLNCYNRAELIAAALQ</Hsp_hseq>
+      <Hsp_midline>++L H  +M  E  LT     I + + + +Y+KDK   Y   N+  L   ++Q  D+ G  D  L + + A     +D   +++       + +  +G     LS K PL    GK  GV+G +  ++    L + ++       PN  ++ N     +   N  L+ ++++ LYY ++G +IK I   L+++ RTV  HLN  K+K  CYN+ ++   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|493936314|ref|WP_006880662.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Vibrio brasiliensis] &gt;gi|323311350|gb|EGA64505.1| hypothetical protein VIBR0546_16858 [Vibrio brasiliensis LMG 20546]</Hit_def>
+  <Hit_accession>WP_006880662</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>3.33651e-09</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>KTIFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEKD-IMGMPDKALPFGKYAHFYNSHDYSAMEEIIYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGL</Hsp_qseq>
+      <Hsp_hseq>KRVIDFPNGVLFIKDKNYKIVACNQEYIKLSGKPNIDEVIGCLDEDMPWKIFSQIYRSHDKDILSGSDYDIFEPIIDSNGERFNLYVRKRRIFDIHGNVAGVAANAMKFGFFDGASILKQ-----SPTMIHNISCGVTLK---KLTVKEKEVLFLFLNGYKRKFISDSLGISIKTFDAHISIIKDKLGCQSSNELMIKGIELGL</Hsp_hseq>
+      <Hsp_midline>K + ++ +  ++IKDKN+     N   +K       D ++G  D+ +P+  ++  Y SHD   +    Y   +  I  NGE+      K  + D  G   GV             + L       +P +  N++    LK    L+ +E EVL+ FL G   K I+  L I+ +T   H++ IK K GC +  ++  K  E GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|822544687|ref|WP_046973595.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Photorhabdus temperata] &gt;gi|822095180|gb|AKH62131.1| LuxR family transcriptional regulator [Photorhabdus temperata subsp. thracensis]</Hit_def>
+  <Hit_accession>WP_046973595</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.19791e-09</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>IFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEK-DIMGMPDKALP--FGKYAHFYNSHDYSAMEEIIYF-QLDDCITKNGEKIFALS-HKLPLKDEDGKTHGVIGFTKFMN---LHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTV</Hsp_qseq>
+      <Hsp_hseq>MWDKSHESWFVKDKEFRFMYANPVFMKVNKLPENFNVIGYTDKELPTLFNNFAHLFEEHDRKVLQSMQKVSSIGTYLPDNGQKLKSYSCDKYPLMDENNQCMGIIGHVKDINHFSLYNYIKNDSSTSVRLRPPNNI-------------LTAKEWIIIFLFCRGVSNKFIANEMKISCRSL</Hsp_hseq>
+      <Hsp_midline>+++ SH + ++KDK F + Y N   +K  +L E  +++G  DK LP  F  +AH +  HD   ++ +     +   +  NG+K+ + S  K PL DE+ +  G+IG  K +N   L+  + N +S +  L P   I             L+ +E  +++ F +G S K IA  + I+ R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|754878658|ref|WP_042238250.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042238250</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>8.49597e-09</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>AMEEIIYFQLDDCITKNGEKIFA-----------LSHKLPLKDEDGKTHGVIGFTKFMN---LHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKN</Hsp_qseq>
+      <Hsp_hseq>AIEENKLFQQQDFRVINGEKVATIHFNAKTSEVFLLEKCPLTDQNNQVTGLIYHCRPCTKNEVFRILKQLDDKWHISPPHYTLNDN-----KNIYGLTEREHECVFLLIRGKSAKEIGALLSLSKRTVESYIENIKNKMDCRNKAEILVKAVSNGYHN</Hsp_hseq>
+      <Hsp_midline>A+EE   FQ  D    NGEK+             L  K PL D++ +  G+I   +      + +++  L+ K     P+  +N N     K    L+ RE E ++  ++GKS K I  LL +++RTV  ++ NIK+K  C NK +I  K+   G  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1006042868|ref|WP_061722232.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Legionella pneumophila] &gt;gi|999324051|emb|CZH52542.1| ATP-dependent transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061722232</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.05668e-08</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>AMEEIIYFQLDDCITKNGEKIFA-----------LSHKLPLKDEDGKTHGVIGFTKFMN---LHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSKWGCYNKEDIYTKSFEKGLKN</Hsp_qseq>
+      <Hsp_hseq>AIEENKLFQQQDFRVINGEKVATVHFNAKTSEVFLLEKCPLTDQNNQVTGLIYHCRLCTKNEVFRILKQLDDKWHISPPHYTPNDN-----KNIYGLTEREHECVFLLIRGKSAKEIGALLSLSKRTVESYIENIKNKMDCRNKAEILVKAVSNGYHN</Hsp_hseq>
+      <Hsp_midline>A+EE   FQ  D    NGEK+             L  K PL D++ +  G+I   +      + +++  L+ K     P+   N N     K    L+ RE E ++  ++GKS K I  LL +++RTV  ++ NIK+K  C NK +I  K+   G  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1049327389|ref|WP_065824120.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Photorhabdus asymbiotica] &gt;gi|1048998492|gb|OCQ51407.1| Virulence factors putative positive transcription regulator BvgA [Photorhabdus asymbiotica subsp. australis]</Hit_def>
+  <Hit_accession>WP_065824120</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.69977e-08</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>IFEYSHSTVYIKDKNFHYQYMNNRGLKQLQLQEK-DIMGMPDKALP--FGKYAHFYNSHDYSAMEEI-------IYFQLDDCITKNGEKIFALSHKLPLKDEDGKTHGVIGFTKFMNLHQLMNNLNSKNTFLTPNLKINVNVDDWLKTTINLSRREMEVLYYFLQGKSIKLIAPLLHITERTVIFHLNNIKSK</Hsp_qseq>
+      <Hsp_hseq>MWDKSHEPWFVKDKEFRFMYANPVFMKVNQLPENFDVTGCTDKELPTLFNHFTHFFEEHDRKVLQSMQKVSSIGTYLQDDSQQLKSYH-----CEKYPLMDENNQCIGIICHTREIN-HFSVYNYIKKDSSISVKLRPPNNI---------LTEKEWVMIFLFCRGISNKSIADEMNISCRTLERYFKNIYEK</Hsp_hseq>
+      <Hsp_midline>+++ SH   ++KDK F + Y N   +K  QL E  D+ G  DK LP  F  + HF+  HD   ++ +        Y Q D    K+         K PL DE+ +  G+I  T+ +N H  + N   K++ ++  L+   N+         L+ +E  +++ F +G S K IA  ++I+ RT+  +  NI  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

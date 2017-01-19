@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_99449</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834132</BlastOutput_query-def>
+  <BlastOutput_query-len>202</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_99449</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834132</Iteration_query-def>
+  <Iteration_query-len>202</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250729|ref|WP_010948269.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Legionella pneumophila] &gt;gi|52842775|ref|YP_096574.1| ISI400 transposase B [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629886|gb|AAU28627.1| ISI400 transposase B [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509280|gb|AEW52804.1| ISI400 transposase B [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490719|gb|AGH52564.1| hypothetical protein LPE509_00473 [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083244|gb|AGN15492.1| ISI transposase B [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772906|emb|CZI19723.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998775645|emb|CZG57855.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998778231|emb|CZG72942.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998784470|emb|CZG82185.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998787422|emb|CZG56528.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998796434|emb|CZH96319.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998800396|emb|CZL06863.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998805722|emb|CZK04974.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998808444|emb|CZH90730.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998811827|emb|CZH75829.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998814374|emb|CZG65014.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998817641|emb|CZL55035.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998820744|emb|CZL58362.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998826706|emb|CZK06074.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998832656|emb|CZI10992.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998835679|emb|CZK84248.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998837931|emb|CZJ76326.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998842218|emb|CZL09397.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998844636|emb|CZK25169.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998847587|emb|CZK64597.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998850326|emb|CZI42782.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998853691|emb|CZL22613.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998856387|emb|CZL30280.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998859710|emb|CZL69734.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998862754|emb|CZK21248.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998865479|emb|CZJ44191.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998869780|emb|CZJ33637.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998870975|emb|CZM13750.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998874463|emb|CZK34455.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998877550|emb|CZM02217.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998880617|emb|CZI89762.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998887953|emb|CZL46488.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998889312|emb|CZK25488.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998895595|emb|CZK02227.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998906038|emb|CZK53049.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998909609|emb|CZL05790.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998915921|emb|CZK65469.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998918390|emb|CZK86279.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998921361|emb|CZL41223.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998927666|emb|CZL66458.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998930753|emb|CZK77878.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998933842|emb|CZL72957.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998939968|emb|CZK79060.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998946045|emb|CZK98874.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998949089|emb|CZK84926.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998958525|emb|CZL97272.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998961431|emb|CZK22157.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998964702|emb|CZK08942.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998966876|emb|CZM48987.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998970418|emb|CZK50253.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998973891|emb|CZK29267.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998979596|emb|CZL62289.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998985945|emb|CZK03239.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998988625|emb|CZL45748.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|998998113|emb|CZJ91627.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999008085|emb|CZK30997.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999013018|emb|CZL46530.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999016940|emb|CZL72200.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999022738|emb|CZL18941.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999025291|emb|CZK72234.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999037048|emb|CZL51763.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999046772|emb|CZL74537.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999061579|emb|CZL11383.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999067456|emb|CZJ20856.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999076820|emb|CZG56534.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999080163|emb|CZJ88896.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999082878|emb|CZK80387.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999090412|emb|CZK38722.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999092406|emb|CZL37271.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999095192|emb|CZG83668.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999098793|emb|CZG64213.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999101222|emb|CZL70282.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999110335|emb|CZL12770.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999113886|emb|CZL54176.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999116333|emb|CZK45058.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999126245|emb|CZK76681.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999131511|emb|CZL92321.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999134730|emb|CZL14338.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999138168|emb|CZK31486.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999141717|emb|CZL41086.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999144638|emb|CZK72613.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999147570|emb|CZL46387.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999156939|emb|CZH76786.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999175710|emb|CZL02424.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999191363|emb|CZI20585.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999194486|emb|CZI47412.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999199868|emb|CZG81370.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999203797|emb|CZI47413.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999209934|emb|CZK72847.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999219384|emb|CZL34468.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999222478|emb|CZI38948.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|999335195|emb|CZK70556.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|1002075475|emb|CZQ93736.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|1002078980|emb|CZQ93800.1| transcriptional regulator%2C y4mF family [Legionella pneumophila] &gt;gi|1003020072|emb|CZR21155.1| ISI400 transposase B [Legionella pneumophila] &gt;gi|1003022951|emb|CZR20094.1| ISI400 transposase B [Legionella pneumophila] &gt;gi|1003026793|emb|CZR17621.1| ISI400 transposase B [Legionella pneumophila] &gt;gi|1073865609|gb|AOU05560.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073868578|gb|AOU08528.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073871573|gb|AOU11522.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073874443|gb|AOU14391.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073877498|gb|AOU17445.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073880461|gb|AOU20407.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073883458|gb|AOU23403.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073886451|gb|AOU26395.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073889419|gb|AOU29362.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073892403|gb|AOU32345.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073895371|gb|AOU35312.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073898329|gb|AOU38269.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073901295|gb|AOU41234.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073904204|gb|AOU44142.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073907157|gb|AOU47094.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073910175|gb|AOU50110.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073913187|gb|AOU53119.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073916147|gb|AOU56078.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073919110|gb|AOU59040.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073922013|gb|AOU61942.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073925096|gb|AOU65023.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073928059|gb|AOU67985.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073931045|gb|AOU70954.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073934414|gb|AOU73973.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073937379|gb|AOU84378.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073947645|gb|AOU87369.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1073950573|gb|AOU90296.1| XRE family transcriptional regulator [Legionella pneumophila] &gt;gi|1104003970|emb|SFZ46598.1| transcriptional regulator, y4mF family [Legionella pneumophila] &gt;gi|1129969231|gb|APT99590.1| XRE family transcriptional regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948269</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.068</Hsp_bit-score>
+      <Hsp_score>1050</Hsp_score>
+      <Hsp_evalue>1.94445e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESLAYKIDYEIPRNSKDADLISSVIQEIKDWGEIWGDLDVGEQIRASYRLNEIISEIEENGLVLFGLRTREKLNIFSQEIEGFLCNLFISYKDNERIVILGSDSTEE</Hsp_qseq>
+      <Hsp_hseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESLAYKIDYEIPRNSKDADLISSVIQEIKDWGEIWGDLDVGEQIRASYRLNEIISEIEENGLVLFGLRTREKLNIFSQEIEGFLCNLFISYKDNERIVILGSDSTEE</Hsp_hseq>
+      <Hsp_midline>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESLAYKIDYEIPRNSKDADLISSVIQEIKDWGEIWGDLDVGEQIRASYRLNEIISEIEENGLVLFGLRTREKLNIFSQEIEGFLCNLFISYKDNERIVILGSDSTEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|769989600|ref|WP_045105550.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Legionella hackeliae] &gt;gi|731151583|emb|CEK10131.1| transposase [Legionella hackeliae] &gt;gi|962229473|gb|KTD14074.1| transposase [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045105550</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>4.42979e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESLAYKIDYEIPRNSKDADLISSVIQEIKDWGEIWGDLDVGEQIRASYRLNEIISEIEENGLVLFGLRTREKLNIFSQEIEGFLCNLFISYKDNERIVILGSDS</Hsp_qseq>
+      <Hsp_hseq>MKIDKNIIKQLRLKQGFTQEQLAHYCGCNQRTIMRVEKDGTCSQETLNALAAVFGVKTWVLIGKKSIQRFPQNVNGEEQYLIRLYSGKMIIETFINSIAYKIDYEIPKNTNDAEFVANAIQEIKDWGELWSDFDIGEQIKASTRLTELISEIEEKGFVLFGLRTKERLNIFSQEIEGSICNLFICYQDNDNIVILNSEN</Hsp_hseq>
+      <Hsp_midline>MK+ +NIIK+LR+ +G+TQE LAH C C+ RTI R EKDG  S ET+ ALAAVFGV+   L+G   I++  Q  +  E+YLIRL+SGKMI+E+FI S+AYKIDYEIP+N+ DA+ +++ IQEIKDWGE+W D D+GEQI+AS RL E+ISEIEE G VLFGLRT+E+LNIFSQEIEG +CNLFI Y+DN+ IVIL S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|916761467|ref|WP_051368523.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Psychromonas sp. SP041]</Hit_def>
+  <Hit_accession>WP_051368523</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>1.28825e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMD-KIEQLQQKTDEGERYLIRLHSGKMIVESFIESLAYKIDYEIPRNSKDADLISSVIQEIKDWGEIWGDLDVGEQIRASYRLNEIISEIEENGLVLFGLRTREKLNIFSQEIEGFLCNLFISYKDNERIVIL</Hsp_qseq>
+      <Hsp_hseq>MKINVKLVKMLRTEKSWSQDQLAMVSGISLRTVQRIEKSGNCALESKKAIASAFDIKACEL---DLKHENTAFSDEESKNVYFRIENGTKLSEIIGGACGYKLSHDDPKSKEEAELLSWSAQSIQDWGGIWSSLESGERIEAAFDLSELIKALELNGFWVFGVRSNEESNLIGGD-KWPVASVFLIQEDNPKIIKL</Hsp_hseq>
+      <Hsp_midline>MK+   ++K LR  + W+Q+ LA +   S+RT+ R EK G  ++E+  A+A+ F ++A +L   D K E      +E +    R+ +G  + E    +  YK+ ++ P++ ++A+L+S   Q I+DWG IW  L+ GE+I A++ L+E+I  +E NG  +FG+R+ E+ N+   + +  + ++F+  +DN +I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1125316657|gb|OLC58740.1|</Hit_id>
+  <Hit_def>hypothetical protein AUH77_02565 [Candidatus Rokubacteria bacterium 13_1_40CM_4_69_39]</Hit_def>
+  <Hit_accession>OLC58740</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>7.88088e-23</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>IKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESLAYKIDY-EIPRNSKDADLISSVIQEIKDWGEIWGDLDVGEQIRASYRLNEIISEIEENGLVLFGLRTREKLNIFSQEIEGFLCNLFISYKDNERIVILGSDS</Hsp_qseq>
+      <Hsp_hseq>IKELRTKRAWSQDHLATIADVSVRTVQRVEGGDPSSVDTLKALANAFDTDVTNLMQ----PRLAAPTAPEPILLLGVRTGRDLLKIAGGAEGFGLDHGEL--DDKAVDLVASFLQDLKDSAEIWNYLEPGDRIRVQHKFTSRIQEIEGAGLNVFAMRHPHPYKVAGRTVQLDTATVYVVKSTDPGIVSLADDA</Hsp_hseq>
+      <Hsp_midline>IKELR  R W+Q+HLA + D SVRT+ R E    +S++T+ ALA  F  + + LM      +L   T      L+ + +G+ +++    +  + +D+ E+  + K  DL++S +Q++KD  EIW  L+ G++IR  ++    I EIE  GL +F +R      +  + ++     +++    +  IV L  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|550944781|ref|WP_022693183.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Ponticaulis koreensis]</Hit_def>
+  <Hit_accession>WP_022693183</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.05239e-15</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>IKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGER-----------YLIRLHSGKMIVESF</Hsp_qseq>
+      <Hsp_hseq>VKDLRSQNGWTQQHLAEICDVSVRTIQRVEKDGVASMETTLALASVFNVEKTTLL-MDSVREGGEATAQPKTSWAHGVAGLALFVLGLGAGVMITTLF</Hsp_hseq>
+      <Hsp_midline>+K+LR   GWTQ+HLA +CD SVRTI R EKDGV SMET  ALA+VF VE + L+ MD + +  + T + +            +++ L +G MI   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1110756262|ref|WP_071980950.1|</Hit_id>
+  <Hit_def>hypothetical protein [Alteromonas sp. RW2A1] &gt;gi|1108515663|gb|APE07322.1| hypothetical protein BM528_17330 [Alteromonas sp. RW2A1]</Hit_def>
+  <Hit_accession>WP_071980950</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>5.2045e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQ-KTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>MEVRGDIVKEMRIERAWTQAQLAELCDVNLRTIQRVENKGNASLETIMALCVAFDVKRQTLFKVPEITEVEPARQNPVKAYLFIFICGLVVLWLVVEPV</Hsp_hseq>
+      <Hsp_midline>M+V+ +I+KE+R+ R WTQ  LA LCD ++RTI R E  G  S+ETI AL   F V+   L  + +I +++  + +  + YL     G +++   +E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|949025901|gb|KRO33926.1|</Hit_id>
+  <Hit_def>hypothetical protein ABR59_08075 [SAR86 cluster bacterium BACL1 MAG-120507-bin14] &gt;gi|949034800|gb|KRO40375.1| hypothetical protein ABR63_03055 [SAR86 cluster bacterium BACL1 MAG-120920-bin57] &gt;gi|949112129|gb|KRO96397.1| hypothetical protein ABS10_03470 [SAR86 cluster bacterium BACL1 MAG-120820-bin45] &gt;gi|949113656|gb|KRO97688.1| hypothetical protein ABS11_04520 [SAR86 cluster bacterium BACL1 MAG-120828-bin5] &gt;gi|949116284|gb|KRO99569.1| hypothetical protein ABS15_03700 [SAR86 cluster bacterium BACL1 MAG-120823-bin87] &gt;gi|949116661|gb|KRO99841.1| hypothetical protein ABS14_01240 [SAR86 cluster bacterium BACL1 MAG-120813-bin36] &gt;gi|949120182|gb|KRP02310.1| hypothetical protein ABS17_06725 [SAR86 cluster bacterium BACL1 MAG-120924-bin88] &gt;gi|949120212|gb|KRP02335.1| hypothetical protein ABS09_01330 [SAR86 cluster bacterium BACL1 MAG-120619-bin26] &gt;gi|949129762|gb|KRP08666.1| hypothetical protein ABS12_02830 [SAR86 cluster bacterium BACL1 MAG-121004-bin11] &gt;gi|949140644|gb|KRP16789.1| hypothetical protein ABS13_03455 [SAR86 cluster bacterium BACL1 MAG-121128-bin56] &gt;gi|949140795|gb|KRP16920.1| hypothetical protein ABS18_00825 [SAR86 cluster bacterium BACL1 MAG-121001-bin56] &gt;gi|949145248|gb|KRP20656.1| hypothetical protein ABS20_06845 [SAR86 cluster bacterium BACL1 MAG-121022-bin58] &gt;gi|949148798|gb|KRP23194.1| hypothetical protein ABS19_06845 [SAR86 cluster bacterium BACL1 MAG-121015-bin70]</Hit_def>
+  <Hit_accession>KRO33926</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.69849e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQ</Hsp_qseq>
+      <Hsp_hseq>MILNTSLIKETRISKGWTQAQLAELCAVNVRTIQRVESDATASLETTMAIASAFEIETKDLFANPKIKK</Hsp_hseq>
+      <Hsp_midline>M +  ++IKE R+S+GWTQ  LA LC  +VRTI R E D   S+ET  A+A+ F +E   L    KI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|501232463|ref|WP_012275481.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Shewanella halifaxensis] &gt;gi|167352313|gb|ABZ74926.1| transcriptional regulator, XRE family [Shewanella halifaxensis HAW-EB4]</Hit_def>
+  <Hit_accession>WP_012275481</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.69328e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQ-QKTDEGERYLI</Hsp_qseq>
+      <Hsp_hseq>MEINAITVKELRQSKGWTQQHLADACAISLRTVQRVEKEGSASNETLLGLCAVFEVEQKQLQVIPKPTHAQMQKVSLYSQWLL</Hsp_hseq>
+      <Hsp_midline>M++    +KELR S+GWTQ+HLA  C  S+RT+ R EK+G  S ET+  L AVF VE  QL  + K    Q QK     ++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|953560047|ref|WP_058031319.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Pseudoalteromonas phenolica] &gt;gi|953013963|gb|ALO43673.1| XRE family transcriptional regulator [Pseudoalteromonas phenolica]</Hit_def>
+  <Hit_accession>WP_058031319</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>3.66978e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIE--QLQQKTDEGERYLI</Hsp_qseq>
+      <Hsp_hseq>MQLNPKTVKQLRDNKNWTQQSLADACGLSLRTIQRVEKEGVASRETMMSLCAVFEVKQSSLINLDEAEANNSSQTTTNMKQYLM</Hsp_hseq>
+      <Hsp_midline>M++    +K+LR ++ WTQ+ LA  C  S+RTI R EK+GV S ET+ +L AVF V+ S L+ +D+ E     Q T   ++YL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|498239011|ref|WP_010553167.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas arctica] &gt;gi|540221263|gb|ERG08067.1| transposase B [Pseudoalteromonas arctica A 37-1-2]</Hit_def>
+  <Hit_accession>WP_010553167</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>8.8238e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQ-KTDEGERYLIRLHSGKMI</Hsp_qseq>
+      <Hsp_hseq>MQLNPKTIKELRQQFNWTQQQLADACDVSLRTVQRVEKEGAASKETTMALCAVFEVRQGELIKLDDLEEDETVKAQSTQKFIVAIAISSLI</Hsp_hseq>
+      <Hsp_midline>M++    IKELR    WTQ+ LA  CD S+RT+ R EK+G  S ET  AL AVF V   +L+ +D +E+ +  K    +++++ +    +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|639312234|ref|WP_024593276.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas haloplanktis]</Hit_def>
+  <Hit_accession>WP_024593276</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>9.90602e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIE</Hsp_qseq>
+      <Hsp_hseq>MQLNPKTIKELRQQFNWTQQQLADACDVSLRTIQRVEKEGAASKETTMALCAVFEVRQGELIKLDDLE</Hsp_hseq>
+      <Hsp_midline>M++    IKELR    WTQ+ LA  CD S+RTI R EK+G  S ET  AL AVF V   +L+ +D +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|759440227|ref|WP_043162444.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Aeromonas hydrophila] &gt;gi|610709867|gb|EZH79339.1| XRE family transcriptional regulator [Aeromonas hydrophila AD9]</Hit_def>
+  <Hit_accession>WP_043162444</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>9.93565e-11</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLATFTGLSVRTIQRIEQGQQPGLESLKALAAVFGLEVAQLDGTSQQEHEMRGSDTMERDEIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVFG+E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|639395646|ref|WP_024610711.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas haloplanktis]</Hit_def>
+  <Hit_accession>WP_024610711</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.46161e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIE</Hsp_qseq>
+      <Hsp_hseq>MQLNPKTIKELRQQFNWTQQQLADACDVSLRTVQRVEKEGAASKETTMALCAVFEVRQGELIKLDDLE</Hsp_hseq>
+      <Hsp_midline>M++    IKELR    WTQ+ LA  CD S+RT+ R EK+G  S ET  AL AVF V   +L+ +D +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|951161820|ref|WP_057641528.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Stenotrophomonas daejeonensis]</Hit_def>
+  <Hit_accession>WP_057641528</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.51405e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEG</Hsp_qseq>
+      <Hsp_hseq>MKIDAHRVKALREARGWSQEHLAAVAGLSPRTVQRLESDGRASHESRMAVASAFGVEPGHLLEADGVPPLPAPAANG</Hsp_hseq>
+      <Hsp_midline>MK+  + +K LR +RGW+QEHLA +   S RT+ R E DG  S E+  A+A+ FGVE   L+  D +  L      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|671592824|ref|WP_031568066.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Rheinheimera texasensis]</Hit_def>
+  <Hit_accession>WP_031568066</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.01028e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEG</Hsp_qseq>
+      <Hsp_hseq>MQLNPQLIKQLRTERGWTQQQLADICAISLRTVQRVELQGLGSLETCKALATAFSISREQLL-----EQNQPASDQA</Hsp_hseq>
+      <Hsp_midline>M++   +IK+LR  RGWTQ+ LA +C  S+RT+ R E  G+ S+ET  ALA  F +   QL+     EQ Q  +D+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|975021933|gb|ALZ74731.1|</Hit_id>
+  <Hit_def>hypothetical protein ATY27_02475 [Rheinheimera sp. F8]</Hit_def>
+  <Hit_accession>ALZ74731</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>2.20965e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLM</Hsp_qseq>
+      <Hsp_hseq>MQLNLHLIKQLRNERGWTQQQLADICAVSLRTVQRVEMQGVGSLETCKALAAAFVIEREHLL</Hsp_hseq>
+      <Hsp_midline>M++  ++IK+LR  RGWTQ+ LA +C  S+RT+ R E  GV S+ET  ALAA F +E   L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1056163016|ref|WP_067663831.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Ferrimonas marina]</Hit_def>
+  <Hit_accession>WP_067663831</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.24491e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAV</Hsp_qseq>
+      <Hsp_hseq>MQINKDVIKQARDQRAWTQQHLAEACGLSLRTIQRAEKTGTASQETLTALASV</Hsp_hseq>
+      <Hsp_midline>M++ +++IK+ R  R WTQ+HLA  C  S+RTI RAEK G  S ET+TALA+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1110261969|emb|SHI09617.1|</Hit_id>
+  <Hit_def>Helix-turn-helix [Ferrimonas marina]</Hit_def>
+  <Hit_accession>SHI09617</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>2.41877e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAV</Hsp_qseq>
+      <Hsp_hseq>MQINKDVIKQARDQRAWTQQHLAEACGLSLRTIQRAEKTGTASQETLTALASV</Hsp_hseq>
+      <Hsp_midline>M++ +++IK+ R  R WTQ+HLA  C  S+RTI RAEK G  S ET+TALA+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|655363165|ref|WP_028769344.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Shewanella fidelis]</Hit_def>
+  <Hit_accession>WP_028769344</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>2.42011e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQ-QKTDEGERYLIRL</Hsp_qseq>
+      <Hsp_hseq>MEVNPVAIKALRQEKGWTQQHLADACAISLRTVQRVEKQGSASNDTLLGLCAVFGVEQKRLLILPEPTDPQIQATSPYQHWILLL</Hsp_hseq>
+      <Hsp_midline>M+V    IK LR  +GWTQ+HLA  C  S+RT+ R EK G  S +T+  L AVFGVE  +L+ + +    Q Q T   + +++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|497262695|ref|WP_009576912.1|</Hit_id>
+  <Hit_def>transcriptional regulator [gamma proteobacterium IMCC3088] &gt;gi|328921179|gb|EGG28581.1| ISI400 transposase B [gamma proteobacterium IMCC3088]</Hit_def>
+  <Hit_accession>WP_009576912</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>2.51363e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLM</Hsp_qseq>
+      <Hsp_hseq>MLIDKDSIKNARQTRGWTQQQLADICDINIRTIQRLEKTGVASMETTKALASVLEATVAELL</Hsp_hseq>
+      <Hsp_midline>M + ++ IK  R +RGWTQ+ LA +CD ++RTI R EK GV SMET  ALA+V     ++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|489658977|ref|WP_003563322.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Rhizobium leguminosarum] &gt;gi|393177912|gb|EJC77952.1| putative transcriptional regulator [Rhizobium leguminosarum bv. trifolii WSM2012]</Hit_def>
+  <Hit_accession>WP_003563322</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.68162e-10</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESLAYKIDYEIPRNSKDADLISSVIQEIKDW-GEIWGDLD------VGEQIRASYRLNEIISEIEENGLVLF</Hsp_qseq>
+      <Hsp_hseq>VRQLRLAKGISQERLALLCNVNKRTVQRAETGAPVALETAAFIAEALSVPALSLRALQQIQTNPEQGAAGEVILVPVNSGRRIVDVIRLSFETKLTFEVEPTRDNVNLLGKIAELLEPMVPNIWADPHDEYIPTYAEVIQKQADVNEILPMLAAIGINVF</Hsp_hseq>
+      <Hsp_midline>+++LR+++G +QE LA LC+ + RT+ RAE     ++ET   +A    V A  L  + +I+   ++   GE  L+ ++SG+ IV+    S   K+ +E+     + +L+  + + ++     IW D          E I+    +NEI+  +   G+ +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1039949331|ref|WP_065018662.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Aeromonas dhakensis] &gt;gi|1039455644|gb|OBR40668.1| XRE family transcriptional regulator [Aeromonas dhakensis]</Hit_def>
+  <Hit_accession>WP_065018662</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.98143e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLAAFTGLSVRTIQRIEQGQQPGLESLKALAAVFELEVAQLDGTSQLEHEMRGSDTMERDQIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVF +E +QL G  ++E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|496237660|ref|WP_008951045.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Alishewanella jeotgali] &gt;gi|374569223|gb|EHR40386.1| XRE family transcriptional regulator [Alishewanella jeotgali KCTC 22429]</Hit_def>
+  <Hit_accession>WP_008951045</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>3.63249e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQL</Hsp_qseq>
+      <Hsp_hseq>MQLNPQLIRQLRIEKGWTQQQLAEICALSLRTIQRVEVHGIASLETSKALAAAFALDRQQL</Hsp_hseq>
+      <Hsp_midline>M++   +I++LR+ +GWTQ+ LA +C  S+RTI R E  G+ S+ET  ALAA F ++  QL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|971842194|ref|WP_058911572.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Erwinia teleogrylli]</Hit_def>
+  <Hit_accession>WP_058911572</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>3.8961e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>VKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQL</Hsp_qseq>
+      <Hsp_hseq>MNQNTVRALRLSRAWSQEHLAELASLSVRTIQRIENGGQASLETLSAIAAVFGLNVADL</Hsp_hseq>
+      <Hsp_midline>+ +N ++ LR+SR W+QEHLA L   SVRTI R E  G  S+ET++A+AAVFG+  + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|496173125|ref|WP_008897632.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Rheinheimera sp. A13L] &gt;gi|335881240|gb|EGM79121.1| Putative transcriptional regulator [Rheinheimera sp. A13L]</Hit_def>
+  <Hit_accession>WP_008897632</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>5.11832e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKI</Hsp_qseq>
+      <Hsp_hseq>MQLNFVFIRQLRTEKGWTQQHLADICAVSLRTIQRVEVHGIASLETSKALAAAFEVNRESLLGEEEL</Hsp_hseq>
+      <Hsp_midline>M++    I++LR  +GWTQ+HLA +C  S+RTI R E  G+ S+ET  ALAA F V    L+G +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|940687329|ref|WP_055020980.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Pseudoalteromonas] &gt;gi|939943190|gb|KPW02088.1| hypothetical protein AN213_01549 [Pseudoalteromonas sp. P1-8] &gt;gi|940465705|gb|KPZ73894.1| hypothetical protein AN394_01141 [Pseudoalteromonas sp. P1-26]</Hit_def>
+  <Hit_accession>WP_055020980</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>6.01026e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMD</Hsp_qseq>
+      <Hsp_hseq>MQLNPNTIKALRLKFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMSLCAVFEVRQGELIKLD</Hsp_hseq>
+      <Hsp_midline>M++  N IK LR+   WTQ+ LA  CD S+RTI R EK+G  S ET  +L AVF V   +L+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|754668451|ref|WP_042049556.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Aeromonas dhakensis]</Hit_def>
+  <Hit_accession>WP_042049556</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>6.34529e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLAAFTGLSVRTIQRIEQGQQPGLESIKALAAVFELEVAQLDGTSQQEHEMRGSDTMERDQIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E+I ALAAVF +E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|739099937|ref|WP_036970624.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas lipolytica] &gt;gi|584420705|gb|EWH06293.1| XRE family transcriptional regulator [Pseudoalteromonas lipolytica SCSIO 04301]</Hit_def>
+  <Hit_accession>WP_036970624</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>6.53623e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMD</Hsp_qseq>
+      <Hsp_hseq>MQLNPNTIKTLRLKFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMSLCAVFEVRQGELIKLD</Hsp_hseq>
+      <Hsp_midline>M++  N IK LR+   WTQ+ LA  CD S+RTI R EK+G  S ET  +L AVF V   +L+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|968558536|ref|WP_058585720.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Pseudoalteromonas sp. XI10] &gt;gi|966686574|gb|KTG19540.1| XRE family transcriptional regulator [Pseudoalteromonas sp. XI10]</Hit_def>
+  <Hit_accession>WP_058585720</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>6.60513e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMD</Hsp_qseq>
+      <Hsp_hseq>MQLNPNTIKALRLKFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMSLCAVFEVRQGELIKLD</Hsp_hseq>
+      <Hsp_midline>M++  N IK LR+   WTQ+ LA  CD S+RTI R EK+G  S ET  +L AVF V   +L+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1024881973|ref|WP_063527559.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Pseudoalteromonas] &gt;gi|1024552596|gb|KZY58067.1| transcriptional regulator [Pseudoalteromonas shioyasakiensis]</Hit_def>
+  <Hit_accession>WP_063527559</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>6.67475e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMD</Hsp_qseq>
+      <Hsp_hseq>MQLNPNTIKALRLKFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMSLCAVFEVRQGELIKLD</Hsp_hseq>
+      <Hsp_midline>M++  N IK LR+   WTQ+ LA  CD S+RTI R EK+G  S ET  +L AVF V   +L+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|937113010|ref|WP_054551220.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas lipolytica] &gt;gi|936650608|gb|KPM85467.1| XRE family transcriptional regulator [Pseudoalteromonas lipolytica]</Hit_def>
+  <Hit_accession>WP_054551220</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>6.88805e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMD</Hsp_qseq>
+      <Hsp_hseq>MQLNPNTIKALRLKFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMSLCAVFEVRQGELIKLD</Hsp_hseq>
+      <Hsp_midline>M++  N IK LR+   WTQ+ LA  CD S+RTI R EK+G  S ET  +L AVF V   +L+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1124712016|ref|WP_074989757.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Pseudoalteromonas] &gt;gi|1097939605|emb|SFT99522.1| DNA-binding transcriptional regulator, XRE-family HTH domain [Pseudoalteromonas lipolytica]</Hit_def>
+  <Hit_accession>WP_074989757</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>7.10815e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMD</Hsp_qseq>
+      <Hsp_hseq>MQLNPNTIKTLRLKFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMSLCAVFEVRQGELIKLD</Hsp_hseq>
+      <Hsp_midline>M++  N IK LR+   WTQ+ LA  CD S+RTI R EK+G  S ET  +L AVF V   +L+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|692176695|ref|WP_032095353.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Alteromonas]</Hit_def>
+  <Hit_accession>WP_032095353</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>7.44087e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQ-KTDEGERYLIRLHSGKMI</Hsp_qseq>
+      <Hsp_hseq>MEVRGDIVKGMRIERAWTQAQLAELCDVNLRTIQRVENKGNASLETIMALCVAFDVKRQTLFKVPEVTEVEPARQNPVKAYLFIFICGLVV</Hsp_hseq>
+      <Hsp_midline>M+V+ +I+K +R+ R WTQ  LA LCD ++RTI R E  G  S+ETI AL   F V+   L  + ++ +++  + +  + YL     G ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|655356528|ref|WP_028762955.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Shewanella colwelliana] &gt;gi|1068689651|gb|OEG73787.1| transcriptional regulator [Shewanella colwelliana]</Hit_def>
+  <Hit_accession>WP_028762955</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>8.85846e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQL</Hsp_qseq>
+      <Hsp_hseq>MDINAESVKQLRQQRGWTQQHLADACDISIRTIQRVEKEGSASSETLLGLCAVLEVDQATL</Hsp_hseq>
+      <Hsp_midline>M +    +K+LR  RGWTQ+HLA  CD S+RTI R EK+G  S ET+  L AV  V+ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1052242766|ref|WP_065955354.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Alishewanella sp. HH-ZS] &gt;gi|1051605344|gb|OCW97380.1| transcriptional regulator [Alishewanella sp. HH-ZS]</Hit_def>
+  <Hit_accession>WP_065955354</Hit_accession>
+  <Hit_len>102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>9.14589e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQL</Hsp_qseq>
+      <Hsp_hseq>MQLNPQLIRQLRTEKGWTQQQLAEICALSLRTIQRVEVHGIASLETSKALAAAFALDRQQL</Hsp_hseq>
+      <Hsp_midline>M++   +I++LR  +GWTQ+ LA +C  S+RTI R E  G+ S+ET  ALAA F ++  QL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|808059550|ref|WP_046220926.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Photobacterium halotolerans] &gt;gi|807116499|gb|KKC99686.1| XRE family transcriptional regulator [Photobacterium halotolerans]</Hit_def>
+  <Hit_accession>WP_046220926</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>9.32043e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQL---MGMDKIEQLQQKTDEGERYL--IRLHSGKMIVESFIESLAYKIDY</Hsp_qseq>
+      <Hsp_hseq>IIRKLRLQRGWSQEQLAQLSGISVRTIQRIERGGNASLETLKSFAAVFDIDITELKQEPGMDKENAVSTEEERALAYVRDIKAFYSHLITYCLVIGLLFVINF</Hsp_hseq>
+      <Hsp_midline>II++LR+ RGW+QE LA L   SVRTI R E+ G  S+ET+ + AAVF ++ ++L    GMDK   +  + +    Y+  I+     +I    +  L + I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|491446385|ref|WP_005304172.1|</Hit_id>
+  <Hit_def>MULTISPECIES: XRE family transcriptional regulator [Aeromonas] &gt;gi|404630802|gb|EKB27452.1| hypothetical protein HMPREF1171_02606 [Aeromonas hydrophila SSU]</Hit_def>
+  <Hit_accession>WP_005304172</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.79352e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLAAFTGLSVRTIQRIEQGQQPGLESLKALAAVFELEVAQLDGTSQQEHEMRGSDTMEREQIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVF +E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1011721077|ref|WP_062564883.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Pseudoalteromonas shioyasakiensis]</Hit_def>
+  <Hit_accession>WP_062564883</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.11551e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMD</Hsp_qseq>
+      <Hsp_hseq>MQLNPNTIKALRLKFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMGLCAVFEVRQGELIKLD</Hsp_hseq>
+      <Hsp_midline>M++  N IK LR+   WTQ+ LA  CD S+RTI R EK+G  S ET   L AVF V   +L+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|516394934|ref|WP_017784332.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_017784332</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.32123e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLAAFTGLSVRTIQRIEQGQQPGLESLKALAAVFELEVTQLDGTSQQEHEMRGSDTMERDQIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVF +E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|516392707|ref|WP_017782106.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_017782106</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.42022e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLAAFTGLSVRTIQRIEQGQQPGLESLKALAAVFELEVAQLDGTSQQEHEMRGSDTMERDQIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVF +E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|639347091|ref|WP_024602110.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas atlantica] &gt;gi|1009078640|gb|KYL35962.1| transcriptional regulator [Pseudoalteromonas spiralis]</Hit_def>
+  <Hit_accession>WP_024602110</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.42974e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRL</Hsp_qseq>
+      <Hsp_hseq>MQLNPTTVKSLRHTFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMALCAVFEVRQGELIKLDENNQNDANNSPSKSFIAGL</Hsp_hseq>
+      <Hsp_midline>M++    +K LR +  WTQ+ LA  CD S+RTI R EK+G  S ET  AL AVF V   +L+ +D+  Q        + ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|498292675|ref|WP_010606831.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas flavipulchra]</Hit_def>
+  <Hit_accession>WP_010606831</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.44764e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGER</Hsp_qseq>
+      <Hsp_hseq>MQINNNTVKLLRTEKSWTQQHLADASGVSLRTIQRVESDGTASKETVMSLCAVFEISQSKL--IDLADMLHNKENKEEK</Hsp_hseq>
+      <Hsp_midline>M++  N +K LR  + WTQ+HLA     S+RTI R E DG  S ET+ +L AVF +  S+L  +D  + L  K ++ E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|516373831|ref|WP_017763864.1|</Hit_id>
+  <Hit_def>MULTISPECIES: XRE family transcriptional regulator [Aeromonas] &gt;gi|848285939|gb|KMK96278.1| XRE family transcriptional regulator [Aeromonas enteropelogenes]</Hit_def>
+  <Hit_accession>WP_017763864</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.48007e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLAAFTGLSVRTIQRIEQGQQPGLESLKALAAVFELEVAQLDGTSQQEHEMRGSDTMERDQIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVF +E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|498320783|ref|WP_010634939.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Aeromonas] &gt;gi|604186916|gb|AHV36359.1| XRE family transcriptional regulator [Aeromonas hydrophila YL17]</Hit_def>
+  <Hit_accession>WP_010634939</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.49543e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLATFTGLSVRTIQRIEQGQQPGLESLKALAAVFELEVAQLDGTSQQEHEMRGSDTMERDQIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVF +E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|501107425|ref|WP_012157110.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Shewanella pealeana] &gt;gi|157848730|gb|ABV89229.1| transcriptional regulator, XRE family [Shewanella pealeana ATCC 700345]</Hit_def>
+  <Hit_accession>WP_012157110</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.53849e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIE--QLQQKTDEGERYLIRLHS</Hsp_qseq>
+      <Hsp_hseq>MEINPITVKSLRQEKGWTQQHLADACAISLRTVQRVEKEGSASNETLLGLCAVFEIEQKSLLVIPKPSHAQMQKVSLYGQWILFALAT</Hsp_hseq>
+      <Hsp_midline>M++    +K LR  +GWTQ+HLA  C  S+RT+ R EK+G  S ET+  L AVF +E   L+ + K    Q+Q+ +  G+  L  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|759449252|ref|WP_043171005.1|</Hit_id>
+  <Hit_def>MULTISPECIES: XRE family transcriptional regulator [Aeromonas]</Hit_def>
+  <Hit_accession>WP_043171005</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.54244e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLAAFTGLSVRTIQRIEQGQQPGLESLKALAAVFELEVAQLDGTSQQEHEMRGSDTMERDQIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVF +E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|503231045|ref|WP_013465706.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Pseudoalteromonas] &gt;gi|315015993|gb|ADT69331.1| ISI400 transposase B [Pseudoalteromonas sp. SM9913] &gt;gi|940455557|gb|KPZ64000.1| hypothetical protein AN392_02831 [Pseudoalteromonas sp. P1-16-1b] &gt;gi|958526452|gb|ALQ55629.1| XRE family transcriptional regulator [Pseudoalteromonas issachenkonii] &gt;gi|1097656011|emb|SFT74082.1| DNA-binding transcriptional regulator, XRE-family HTH domain [Pseudoalteromonas sp. DSM 26666]</Hit_def>
+  <Hit_accession>WP_013465706</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.55468e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRL</Hsp_qseq>
+      <Hsp_hseq>MQLNPTTVKSLRHTFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMALCAVFEVRQGELIKLDENNQNDANNSPSKSFIAGL</Hsp_hseq>
+      <Hsp_midline>M++    +K LR +  WTQ+ LA  CD S+RTI R EK+G  S ET  AL AVF V   +L+ +D+  Q        + ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1126532140|ref|WP_075169747.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas haloplanktis] &gt;gi|1126505271|gb|OLF76361.1| XRE family transcriptional regulator [Pseudoalteromonas haloplanktis]</Hit_def>
+  <Hit_accession>WP_075169747</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.62119e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRL</Hsp_qseq>
+      <Hsp_hseq>MQLNPTTVKSLRHTFDWTQQQLADACDVSLRTIQRVEKEGAASKETTMALCAVFEVRQGELIKLDENNQNDANNSPSKSFIAGL</Hsp_hseq>
+      <Hsp_midline>M++    +K LR +  WTQ+ LA  CD S+RTI R EK+G  S ET  AL AVF V   +L+ +D+  Q        + ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|500024158|ref|WP_011704876.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Aeromonas hydrophila] &gt;gi|117619610|ref|YP_855481.1| helix-turn-helix domain-containing protein [Aeromonas hydrophila subsp. hydrophila ATCC 7966] &gt;gi|117561017|gb|ABK37965.1| helix-turn-helix domain protein [Aeromonas hydrophila subsp. hydrophila ATCC 7966]</Hit_def>
+  <Hit_accession>WP_011704876</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.95545e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESL</Hsp_qseq>
+      <Hsp_hseq>IVRKLRLQRGWSQEQLAAFTGLSVRTIQRIEQGQQPGLESLKALAAVFELEVAQLDGTSQQEHEMKGSDTMERDEIRVSVEERAAMRYVEGL</Hsp_hseq>
+      <Hsp_midline>I+++LR+ RGW+QE LA     SVRTI R E+     +E++ ALAAVF +E +QL G  + E   + +D  ER  IR+   +     ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|498073536|ref|WP_010387692.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Pseudoalteromonas undina] &gt;gi|540296401|gb|ERG59361.1| transposase B [Pseudoalteromonas undina DSM 6065]</Hit_def>
+  <Hit_accession>WP_010387692</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.01982e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRL</Hsp_qseq>
+      <Hsp_hseq>MQLNPTTVKSLRHTFDWTQQQLADACDISLRTIQRVEKEGAASKETTMALCAVFEVRQGELIKLDENNQNDANNSPSKSFIAGL</Hsp_hseq>
+      <Hsp_midline>M++    +K LR +  WTQ+ LA  CD S+RTI R EK+G  S ET  AL AVF V   +L+ +D+  Q        + ++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

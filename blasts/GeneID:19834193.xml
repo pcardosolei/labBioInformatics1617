@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_173083</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834193</BlastOutput_query-def>
+  <BlastOutput_query-len>250</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_173083</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834193</Iteration_query-def>
+  <Iteration_query-len>250</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250788|ref|WP_010948328.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|52842834|ref|YP_096633.1| hypothetical protein lpg2628 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629945|gb|AAU28686.1| membrane protein [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509339|gb|AEW52863.1| membrane protein [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490652|gb|AGH52497.1| Putative membrane protein [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083300|gb|AGN15548.1| hypothetical protein LP6_2659 [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772846|emb|CZI17880.1| DUF218 domain [Legionella pneumophila] &gt;gi|998775705|emb|CZG59954.1| DUF218 domain [Legionella pneumophila] &gt;gi|998778291|emb|CZG74993.1| DUF218 domain [Legionella pneumophila] &gt;gi|998784530|emb|CZG85085.1| DUF218 domain [Legionella pneumophila] &gt;gi|998787482|emb|CZG58443.1| DUF218 domain [Legionella pneumophila] &gt;gi|998811887|emb|CZH78154.1| DUF218 domain [Legionella pneumophila] &gt;gi|998814314|emb|CZG62852.1| DUF218 domain [Legionella pneumophila] &gt;gi|998837871|emb|CZJ73590.1| DUF218 domain [Legionella pneumophila] &gt;gi|998865419|emb|CZJ42043.1| DUF218 domain [Legionella pneumophila] &gt;gi|998869840|emb|CZJ35410.1| DUF218 domain [Legionella pneumophila] &gt;gi|998871035|emb|CZM15790.1| DUF218 domain [Legionella pneumophila] &gt;gi|998874523|emb|CZK37248.1| DUF218 domain [Legionella pneumophila] &gt;gi|998877490|emb|CZM00390.1| DUF218 domain [Legionella pneumophila] &gt;gi|998880557|emb|CZI87948.1| DUF218 domain [Legionella pneumophila] &gt;gi|998888013|emb|CZL49153.1| DUF218 domain [Legionella pneumophila] &gt;gi|998889252|emb|CZK23721.1| DUF218 domain [Legionella pneumophila] &gt;gi|998906098|emb|CZK55663.1| DUF218 domain [Legionella pneumophila] &gt;gi|998909669|emb|CZL08297.1| DUF218 domain [Legionella pneumophila] &gt;gi|999067396|emb|CZJ18878.1| DUF218 domain [Legionella pneumophila] &gt;gi|999076880|emb|CZG58501.1| DUF218 domain [Legionella pneumophila] &gt;gi|999095252|emb|CZG86728.1| DUF218 domain [Legionella pneumophila] &gt;gi|999098733|emb|CZG61210.1| DUF218 domain [Legionella pneumophila] &gt;gi|999156879|emb|CZH75139.1| DUF218 domain [Legionella pneumophila] &gt;gi|999191303|emb|CZI18427.1| DUF218 domain [Legionella pneumophila] &gt;gi|999194426|emb|CZI44814.1| DUF218 domain [Legionella pneumophila] &gt;gi|999200291|emb|CZG61377.1| DUF218 domain [Legionella pneumophila] &gt;gi|999203737|emb|CZI44755.1| DUF218 domain [Legionella pneumophila] &gt;gi|999222418|emb|CZI36271.1| DUF218 domain [Legionella pneumophila] &gt;gi|1002075535|emb|CZQ94179.1| DUF218 domain [Legionella pneumophila] &gt;gi|1073865669|gb|AOU05620.1| hypothetical protein A9E97_13245 [Legionella pneumophila] &gt;gi|1073868638|gb|AOU08588.1| hypothetical protein A9E98_13300 [Legionella pneumophila] &gt;gi|1073871633|gb|AOU11582.1| hypothetical protein A9F03_13415 [Legionella pneumophila] &gt;gi|1073874502|gb|AOU14450.1| hypothetical protein A9E99_13230 [Legionella pneumophila] &gt;gi|1073877558|gb|AOU17505.1| hypothetical protein A9F00_13415 [Legionella pneumophila] &gt;gi|1073880521|gb|AOU20467.1| hypothetical protein A9F01_13235 [Legionella pneumophila] &gt;gi|1073883518|gb|AOU23463.1| hypothetical protein A9F02_13415 [Legionella pneumophila] &gt;gi|1073889479|gb|AOU29422.1| hypothetical protein A9E78_13250 [Legionella pneumophila] &gt;gi|1073892463|gb|AOU32405.1| hypothetical protein A9E79_13440 [Legionella pneumophila] &gt;gi|1073895431|gb|AOU35372.1| hypothetical protein A9E80_13260 [Legionella pneumophila] &gt;gi|1073898389|gb|AOU38329.1| hypothetical protein A9E81_13260 [Legionella pneumophila] &gt;gi|1073901355|gb|AOU41294.1| hypothetical protein A9E82_13260 [Legionella pneumophila] &gt;gi|1073904264|gb|AOU44202.1| hypothetical protein A9E83_12990 [Legionella pneumophila] &gt;gi|1073907217|gb|AOU47154.1| hypothetical protein A9E84_13260 [Legionella pneumophila] &gt;gi|1073910235|gb|AOU50170.1| hypothetical protein A9E85_13235 [Legionella pneumophila] &gt;gi|1073913247|gb|AOU53179.1| hypothetical protein A9E86_13015 [Legionella pneumophila] &gt;gi|1073916207|gb|AOU56138.1| hypothetical protein A9E87_13260 [Legionella pneumophila] &gt;gi|1073919170|gb|AOU59100.1| hypothetical protein A9E88_13240 [Legionella pneumophila] &gt;gi|1073922073|gb|AOU62002.1| hypothetical protein A9E89_12980 [Legionella pneumophila] &gt;gi|1073925156|gb|AOU65083.1| hypothetical protein A9E90_13505 [Legionella pneumophila] &gt;gi|1073928119|gb|AOU68045.1| hypothetical protein A9E91_13240 [Legionella pneumophila] &gt;gi|1073931105|gb|AOU71014.1| hypothetical protein A9E92_13280 [Legionella pneumophila] &gt;gi|1073934474|gb|AOU74033.1| hypothetical protein A9E93_13245 [Legionella pneumophila] &gt;gi|1073937439|gb|AOU84438.1| hypothetical protein A9E94_13290 [Legionella pneumophila] &gt;gi|1073947705|gb|AOU87429.1| hypothetical protein A9E95_13430 [Legionella pneumophila] &gt;gi|1073950633|gb|AOU90356.1| hypothetical protein A9E96_13015 [Legionella pneumophila] &gt;gi|1129969291|gb|APT99650.1| hypothetical protein AVR58_13215 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948328</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.686</Hsp_bit-score>
+      <Hsp_score>1319</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|653015668|ref|WP_027267698.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267698</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.834</Hsp_bit-score>
+      <Hsp_score>1309</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETASINTADQAHELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVET SINTADQA ELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1003963970|ref|WP_061476847.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061476847</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.908</Hsp_bit-score>
+      <Hsp_score>1304</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLTLGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLAELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNPYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLL ELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPN YNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499535720|ref|WP_011216503.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|53755299|emb|CAH16793.1| hypothetical protein lpl2553 [Legionella pneumophila str. Lens] &gt;gi|1080003034|gb|AOW53606.1| hypothetical protein BE841_14635 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015531|gb|AOW64404.1| hypothetical protein BE845_10210 [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216503</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.138</Hsp_bit-score>
+      <Hsp_score>1302</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLTLGICIFLLYRRLAPTFTKVMLFVVLLVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETASINTADQAHELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAPTFTKVMLFVVL+VLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVET SINTADQA ELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504655576|ref|WP_014842678.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|395128629|emb|CCD06847.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|999248102|emb|CZH52135.1| DUF218 domain [Legionella pneumophila] &gt;gi|999269688|emb|CZO24389.1| DUF218 domain [Legionella pneumophila] &gt;gi|999455518|emb|CZH44373.1| DUF218 domain [Legionella pneumophila] &gt;gi|999462227|emb|CZG06394.1| DUF218 domain [Legionella pneumophila] &gt;gi|999465394|emb|CZM25611.1| DUF218 domain [Legionella pneumophila] &gt;gi|999468350|emb|CZO08011.1| DUF218 domain [Legionella pneumophila] &gt;gi|999474987|emb|CZM44122.1| DUF218 domain [Legionella pneumophila] &gt;gi|999478181|emb|CZN25660.1| DUF218 domain [Legionella pneumophila] &gt;gi|999481376|emb|CZM63719.1| DUF218 domain [Legionella pneumophila] &gt;gi|999484406|emb|CZN97174.1| DUF218 domain [Legionella pneumophila] &gt;gi|999487522|emb|CZL95108.1| DUF218 domain [Legionella pneumophila] &gt;gi|999490713|emb|CZN58148.1| DUF218 domain [Legionella pneumophila] &gt;gi|999493979|emb|CZL96751.1| DUF218 domain [Legionella pneumophila] &gt;gi|999500341|emb|CZN57247.1| DUF218 domain [Legionella pneumophila] &gt;gi|999503563|emb|CZN86645.1| DUF218 domain [Legionella pneumophila] &gt;gi|999506759|emb|CZM92542.1| DUF218 domain [Legionella pneumophila] &gt;gi|999510034|emb|CZG26783.1| DUF218 domain [Legionella pneumophila] &gt;gi|999513151|emb|CZN17399.1| DUF218 domain [Legionella pneumophila] &gt;gi|999516582|emb|CZL80568.1| DUF218 domain [Legionella pneumophila] &gt;gi|999519806|emb|CZM50225.1| DUF218 domain [Legionella pneumophila] &gt;gi|999532674|emb|CZO32663.1| DUF218 domain [Legionella pneumophila] &gt;gi|999536045|emb|CZN19655.1| DUF218 domain [Legionella pneumophila] &gt;gi|999539067|emb|CZM54089.1| DUF218 domain [Legionella pneumophila] &gt;gi|999542279|emb|CZO07847.1| DUF218 domain [Legionella pneumophila] &gt;gi|999545461|emb|CZO45855.1| DUF218 domain [Legionella pneumophila] &gt;gi|999548577|emb|CZN73525.1| DUF218 domain [Legionella pneumophila] &gt;gi|999551849|emb|CZN99349.1| DUF218 domain [Legionella pneumophila] &gt;gi|999555226|emb|CZM96893.1| DUF218 domain [Legionella pneumophila] &gt;gi|999558239|emb|CZO45586.1| DUF218 domain [Legionella pneumophila] &gt;gi|999561355|emb|CZM27197.1| DUF218 domain [Legionella pneumophila] &gt;gi|999564632|emb|CZO46206.1| DUF218 domain [Legionella pneumophila] &gt;gi|999567743|emb|CZM40555.1| DUF218 domain [Legionella pneumophila] &gt;gi|999570942|emb|CZN39068.1| DUF218 domain [Legionella pneumophila] &gt;gi|999574132|emb|CZN76267.1| DUF218 domain [Legionella pneumophila] &gt;gi|999580623|emb|CZO00728.1| DUF218 domain [Legionella pneumophila] &gt;gi|999584135|emb|CZO14136.1| DUF218 domain [Legionella pneumophila] &gt;gi|999587258|emb|CZM49000.1| DUF218 domain [Legionella pneumophila] &gt;gi|999590520|emb|CZM22570.1| DUF218 domain [Legionella pneumophila] &gt;gi|999593395|emb|CZN32391.1| DUF218 domain [Legionella pneumophila] &gt;gi|999596593|emb|CZN94950.1| DUF218 domain [Legionella pneumophila] &gt;gi|999599865|emb|CZO24500.1| DUF218 domain [Legionella pneumophila] &gt;gi|999603279|emb|CZL63962.1| DUF218 domain [Legionella pneumophila] &gt;gi|999606260|emb|CZN39063.1| DUF218 domain [Legionella pneumophila] &gt;gi|999609690|emb|CZN41589.1| DUF218 domain [Legionella pneumophila] &gt;gi|999615866|emb|CZM31510.1| DUF218 domain [Legionella pneumophila] &gt;gi|999618985|emb|CZN75970.1| DUF218 domain [Legionella pneumophila] &gt;gi|999622339|emb|CZO52154.1| DUF218 domain [Legionella pneumophila] &gt;gi|999625617|emb|CZN53672.1| DUF218 domain [Legionella pneumophila] &gt;gi|999628966|emb|CZM42422.1| DUF218 domain [Legionella pneumophila] &gt;gi|999631844|emb|CZM46421.1| DUF218 domain [Legionella pneumophila] &gt;gi|999635116|emb|CZN40367.1| DUF218 domain [Legionella pneumophila] &gt;gi|999638232|emb|CZN35312.1| DUF218 domain [Legionella pneumophila] &gt;gi|999641428|emb|CZO63120.1| DUF218 domain [Legionella pneumophila] &gt;gi|999644599|emb|CZO28719.1| DUF218 domain [Legionella pneumophila] &gt;gi|999648136|emb|CZN76733.1| DUF218 domain [Legionella pneumophila] &gt;gi|999650947|emb|CZN93095.1| DUF218 domain [Legionella pneumophila] &gt;gi|999654289|emb|CZN92090.1| DUF218 domain [Legionella pneumophila] &gt;gi|999657667|emb|CZM00843.1| DUF218 domain [Legionella pneumophila] &gt;gi|999660602|emb|CZM48606.1| DUF218 domain [Legionella pneumophila] &gt;gi|999664116|emb|CZM82360.1| DUF218 domain [Legionella pneumophila] &gt;gi|999667073|emb|CZM24746.1| DUF218 domain [Legionella pneumophila] &gt;gi|999670267|emb|CZL73982.1| DUF218 domain [Legionella pneumophila] &gt;gi|999673654|emb|CZM18950.1| DUF218 domain [Legionella pneumophila] &gt;gi|999676582|emb|CZN62034.1| DUF218 domain [Legionella pneumophila] &gt;gi|999679617|emb|CZM62709.1| DUF218 domain [Legionella pneumophila] &gt;gi|999682812|emb|CZM69927.1| DUF218 domain [Legionella pneumophila] &gt;gi|999686038|emb|CZN92762.1| DUF218 domain [Legionella pneumophila] &gt;gi|999689622|emb|CZN09979.1| DUF218 domain [Legionella pneumophila] &gt;gi|999692569|emb|CZN81400.1| DUF218 domain [Legionella pneumophila] &gt;gi|999696033|emb|CZN01267.1| DUF218 domain [Legionella pneumophila] &gt;gi|999699232|emb|CZL98078.1| DUF218 domain [Legionella pneumophila] &gt;gi|999702490|emb|CZM43983.1| DUF218 domain [Legionella pneumophila] &gt;gi|999705640|emb|CZL59278.1| DUF218 domain [Legionella pneumophila] &gt;gi|999708664|emb|CZN41476.1| DUF218 domain [Legionella pneumophila] &gt;gi|999711916|emb|CZM86959.1| DUF218 domain [Legionella pneumophila] &gt;gi|999715401|emb|CZM89034.1| DUF218 domain [Legionella pneumophila] &gt;gi|999718508|emb|CZO27533.1| DUF218 domain [Legionella pneumophila] &gt;gi|999721418|emb|CZM67699.1| DUF218 domain [Legionella pneumophila] &gt;gi|999724758|emb|CZN17648.1| DUF218 domain [Legionella pneumophila] &gt;gi|999728161|emb|CZL89065.1| DUF218 domain [Legionella pneumophila] &gt;gi|999731651|emb|CZO21752.1| DUF218 domain [Legionella pneumophila] &gt;gi|999734900|emb|CZM00363.1| DUF218 domain [Legionella pneumophila] &gt;gi|999738198|emb|CZO47521.1| DUF218 domain [Legionella pneumophila] &gt;gi|999741102|emb|CZM26035.1| DUF218 domain [Legionella pneumophila] &gt;gi|999744596|emb|CZN07039.1| DUF218 domain [Legionella pneumophila] &gt;gi|999747929|emb|CZM00913.1| DUF218 domain [Legionella pneumophila] &gt;gi|999750824|emb|CZL80061.1| DUF218 domain [Legionella pneumophila] &gt;gi|999754098|emb|CZM71404.1| DUF218 domain [Legionella pneumophila] &gt;gi|999757441|emb|CZM83794.1| DUF218 domain [Legionella pneumophila] &gt;gi|999760412|emb|CZM15632.1| DUF218 domain [Legionella pneumophila] &gt;gi|999763873|emb|CZN10078.1| DUF218 domain [Legionella pneumophila] &gt;gi|999767070|emb|CZM56315.1| DUF218 domain [Legionella pneumophila] &gt;gi|999769841|emb|CZN40664.1| DUF218 domain [Legionella pneumophila] &gt;gi|999773545|emb|CZH74149.1| DUF218 domain [Legionella pneumophila] &gt;gi|999776543|emb|CZL89257.1| DUF218 domain [Legionella pneumophila] &gt;gi|999783407|emb|CZH49991.1| DUF218 domain [Legionella pneumophila] &gt;gi|999786583|emb|CZM17941.1| DUF218 domain [Legionella pneumophila] &gt;gi|999789826|emb|CZO49264.1| DUF218 domain [Legionella pneumophila] &gt;gi|999793227|emb|CZO51251.1| DUF218 domain [Legionella pneumophila] &gt;gi|999800202|emb|CZO38988.1| DUF218 domain [Legionella pneumophila] &gt;gi|1003034776|emb|CZR27685.1| membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842678</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>505.753</Hsp_bit-score>
+      <Hsp_score>1301</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLILGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKIVVETASINTADQAHELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEK+VVET SINTADQA ELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1006038647|ref|WP_061721623.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|999796474|emb|CZI08772.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061721623</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.597</Hsp_bit-score>
+      <Hsp_score>1298</Hsp_score>
+      <Hsp_evalue>1.05292e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLILGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKIVVETASINTADQAHELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGRIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEK+VVET SINTADQA ELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILG+IWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1005609412|ref|WP_061691906.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|998824280|emb|CZG44667.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061691906</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.597</Hsp_bit-score>
+      <Hsp_score>1298</Hsp_score>
+      <Hsp_evalue>1.10016e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLTLGICIFLLYRRLVPTFTKVMLFVVLLVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETTSINTADQAHELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRL PTFTKVMLFVVL+VLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVET SINTADQA ELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1005410807|ref|WP_061640039.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|998792823|emb|CZI69224.1| DUF218 domain [Legionella pneumophila] &gt;gi|1005834297|gb|AMQ29023.1| membrane protein [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061640039</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.597</Hsp_bit-score>
+      <Hsp_score>1298</Hsp_score>
+      <Hsp_evalue>1.26881e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLTLGICIFLLYRRRAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKIVVETASINTADQAHELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRR APTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEK+VVET SINTADQA ELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|653014251|ref|WP_027266300.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266300</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.212</Hsp_bit-score>
+      <Hsp_score>1297</Hsp_score>
+      <Hsp_evalue>1.70628e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLTLGICIFLLYRRLAPAFTKVMLFVVLLVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETASINTADQAHELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAP FTKVMLFVVL+VLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVET SINTADQA ELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|506459813|ref|WP_015961713.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|53752402|emb|CAH13834.1| hypothetical protein lpp2681 [Legionella pneumophila str. Paris] &gt;gi|536611669|gb|ERB40187.1| membrane protein [Legionella pneumophila str. 121004] &gt;gi|542000253|gb|ERH46244.1| membrane protein [Legionella pneumophila str. Leg01/11] &gt;gi|762000222|dbj|GAN27954.1| hypothetical protein lpymg_02857 [Legionella pneumophila] &gt;gi|998924283|emb|CZJ95342.1| DUF218 domain [Legionella pneumophila] &gt;gi|998942528|emb|CZK05623.1| DUF218 domain [Legionella pneumophila] &gt;gi|998954579|emb|CZK41266.1| DUF218 domain [Legionella pneumophila] &gt;gi|998976194|emb|CZJ66099.1| DUF218 domain [Legionella pneumophila] &gt;gi|998991522|emb|CZK08239.1| DUF218 domain [Legionella pneumophila] &gt;gi|999009821|emb|CZK02599.1| DUF218 domain [Legionella pneumophila] &gt;gi|999018927|emb|CZJ61408.1| DUF218 domain [Legionella pneumophila] &gt;gi|999027975|emb|CZJ90139.1| DUF218 domain [Legionella pneumophila] &gt;gi|999031535|emb|CZG67508.1| DUF218 domain [Legionella pneumophila] &gt;gi|999034057|emb|CZJ97770.1| DUF218 domain [Legionella pneumophila] &gt;gi|999040264|emb|CZJ67808.1| DUF218 domain [Legionella pneumophila] &gt;gi|999043069|emb|CZJ77260.1| DUF218 domain [Legionella pneumophila] &gt;gi|999048976|emb|CZJ86512.1| DUF218 domain [Legionella pneumophila] &gt;gi|999052233|emb|CZJ68370.1| DUF218 domain [Legionella pneumophila] &gt;gi|999055149|emb|CZJ96620.1| DUF218 domain [Legionella pneumophila] &gt;gi|999064343|emb|CZJ78677.1| DUF218 domain [Legionella pneumophila] &gt;gi|999070102|emb|CZJ74773.1| DUF218 domain [Legionella pneumophila] &gt;gi|999073439|emb|CZK05115.1| DUF218 domain [Legionella pneumophila] &gt;gi|999085618|emb|CZJ97267.1| DUF218 domain [Legionella pneumophila] &gt;gi|999173403|emb|CZH69994.1| DUF218 domain [Legionella pneumophila] &gt;gi|999182537|emb|CZG27196.1| DUF218 domain [Legionella pneumophila] &gt;gi|999184494|emb|CZP92785.1| DUF218 domain [Legionella pneumophila] &gt;gi|999188702|emb|CZI76615.1| DUF218 domain [Legionella pneumophila] &gt;gi|999198302|emb|CZP06679.1| DUF218 domain [Legionella pneumophila] &gt;gi|999206443|emb|CZP59389.1| DUF218 domain [Legionella pneumophila] &gt;gi|999213634|emb|CZG42844.1| DUF218 domain [Legionella pneumophila] &gt;gi|999217076|emb|CZI72937.1| DUF218 domain [Legionella pneumophila] &gt;gi|999225920|emb|CZG33176.1| DUF218 domain [Legionella pneumophila] &gt;gi|999227858|emb|CZP40630.1| DUF218 domain [Legionella pneumophila] &gt;gi|999235043|emb|CZP51717.1| DUF218 domain [Legionella pneumophila] &gt;gi|999240539|emb|CZH75822.1| DUF218 domain [Legionella pneumophila] &gt;gi|999244208|emb|CZH71087.1| DUF218 domain [Legionella pneumophila] &gt;gi|999249418|emb|CZG78322.1| DUF218 domain [Legionella pneumophila] &gt;gi|999252885|emb|CZG91366.1| DUF218 domain [Legionella pneumophila] &gt;gi|999256146|emb|CZP73556.1| DUF218 domain [Legionella pneumophila] &gt;gi|999259193|emb|CZP39093.1| DUF218 domain [Legionella pneumophila] &gt;gi|999262159|emb|CZH06876.1| DUF218 domain [Legionella pneumophila] &gt;gi|999265463|emb|CZP04202.1| DUF218 domain [Legionella pneumophila] &gt;gi|999272069|emb|CZP51614.1| DUF218 domain [Legionella pneumophila] &gt;gi|999274338|emb|CZH08246.1| DUF218 domain [Legionella pneumophila] &gt;gi|999277776|emb|CZP29089.1| DUF218 domain [Legionella pneumophila] &gt;gi|999281518|emb|CZP23186.1| DUF218 domain [Legionella pneumophila] &gt;gi|999284166|emb|CZP50317.1| DUF218 domain [Legionella pneumophila] &gt;gi|999290831|emb|CZP27282.1| DUF218 domain [Legionella pneumophila] &gt;gi|999296769|emb|CZP50056.1| DUF218 domain [Legionella pneumophila] &gt;gi|999300008|emb|CZP28076.1| DUF218 domain [Legionella pneumophila] &gt;gi|999307149|emb|CZH65423.1| DUF218 domain [Legionella pneumophila] &gt;gi|999309535|emb|CZP19318.1| DUF218 domain [Legionella pneumophila] &gt;gi|999315979|emb|CZI03332.1| DUF218 domain [Legionella pneumophila] &gt;gi|999318936|emb|CZP56518.1| DUF218 domain [Legionella pneumophila] &gt;gi|999322188|emb|CZH91817.1| DUF218 domain [Legionella pneumophila] &gt;gi|999324939|emb|CZH14597.1| DUF218 domain [Legionella pneumophila] &gt;gi|999327583|emb|CZH27891.1| DUF218 domain [Legionella pneumophila] &gt;gi|999332896|emb|CZG04039.1| DUF218 domain [Legionella pneumophila] &gt;gi|999338007|emb|CZP44151.1| DUF218 domain [Legionella pneumophila] &gt;gi|999340727|emb|CZG98847.1| DUF218 domain [Legionella pneumophila] &gt;gi|999344171|emb|CZP91930.1| DUF218 domain [Legionella pneumophila] &gt;gi|999347459|emb|CZP60721.1| DUF218 domain [Legionella pneumophila] &gt;gi|999349570|emb|CZH48410.1| DUF218 domain [Legionella pneumophila] &gt;gi|999353722|emb|CZP52078.1| DUF218 domain [Legionella pneumophila] &gt;gi|999356831|emb|CZP74951.1| DUF218 domain [Legionella pneumophila] &gt;gi|999361089|emb|CZI01733.1| DUF218 domain [Legionella pneumophila] &gt;gi|999363197|emb|CZP70952.1| DUF218 domain [Legionella pneumophila] &gt;gi|999366960|emb|CZP71224.1| DUF218 domain [Legionella pneumophila] &gt;gi|999369622|emb|CZP87123.1| DUF218 domain [Legionella pneumophila] &gt;gi|999374047|emb|CZG04009.1| DUF218 domain [Legionella pneumophila] &gt;gi|999377350|emb|CZI91189.1| DUF218 domain [Legionella pneumophila] &gt;gi|999380649|emb|CZH51680.1| DUF218 domain [Legionella pneumophila] &gt;gi|999383407|emb|CZI17013.1| DUF218 domain [Legionella pneumophila] &gt;gi|999387464|emb|CZG10290.1| DUF218 domain [Legionella pneumophila] &gt;gi|999390271|emb|CZI10446.1| DUF218 domain [Legionella pneumophila] &gt;gi|999392474|emb|CZP95489.1| DUF218 domain [Legionella pneumophila] &gt;gi|999397064|emb|CZG16707.1| DUF218 domain [Legionella pneumophila] &gt;gi|999398722|emb|CZP98831.1| DUF218 domain [Legionella pneumophila] &gt;gi|999403278|emb|CZP48204.1| DUF218 domain [Legionella pneumophila] &gt;gi|999406423|emb|CZG42994.1| DUF218 domain [Legionella pneumophila] &gt;gi|999409405|emb|CZH71838.1| DUF218 domain [Legionella pneumophila] &gt;gi|999412581|emb|CZG27448.1| DUF218 domain [Legionella pneumophila] &gt;gi|999416651|emb|CZG14385.1| DUF218 domain [Legionella pneumophila] &gt;gi|999419280|emb|CZG43298.1| DUF218 domain [Legionella pneumophila] &gt;gi|999422608|emb|CZH45050.1| DUF218 domain [Legionella pneumophila] &gt;gi|999426485|emb|CZG24647.1| DUF218 domain [Legionella pneumophila] &gt;gi|999429114|emb|CZG30856.1| DUF218 domain [Legionella pneumophila] &gt;gi|999432702|emb|CZG06692.1| DUF218 domain [Legionella pneumophila] &gt;gi|999435740|emb|CZH65602.1| DUF218 domain [Legionella pneumophila] &gt;gi|999438347|emb|CZG45113.1| DUF218 domain [Legionella pneumophila] &gt;gi|999442248|emb|CZJ84525.1| membrane protein [Legionella pneumophila] &gt;gi|999445328|emb|CZH56408.1| DUF218 domain [Legionella pneumophila] &gt;gi|999448590|emb|CZG04004.1| DUF218 domain [Legionella pneumophila] &gt;gi|999450791|emb|CZP30132.1| DUF218 domain [Legionella pneumophila] &gt;gi|999458360|emb|CZJ89706.1| DUF218 domain [Legionella pneumophila] &gt;gi|999469996|emb|CZG82876.1| DUF218 domain [Legionella pneumophila] &gt;gi|999497019|emb|CZI10721.1| DUF218 domain [Legionella pneumophila] &gt;gi|999521343|emb|CZP44513.1| DUF218 domain [Legionella pneumophila] &gt;gi|999526330|emb|CZI61214.1| DUF218 domain [Legionella pneumophila] &gt;gi|999529212|emb|CZI16831.1| DUF218 domain [Legionella pneumophila] &gt;gi|999577068|emb|CZI02271.1| DUF218 domain [Legionella pneumophila] &gt;gi|999612369|emb|CZI07109.1| DUF218 domain [Legionella pneumophila] &gt;gi|999778475|emb|CZH00619.1| DUF218 domain [Legionella pneumophila] &gt;gi|1003028400|emb|CZR23541.1| membrane protein [Legionella pneumophila] &gt;gi|1003030321|emb|CZR34342.1| DUF218 domain [Legionella pneumophila] &gt;gi|1015434052|gb|AMV15679.1| hypothetical protein ULM_30200 [Legionella pneumophila] &gt;gi|1041016600|gb|ANN93661.1| hypothetical protein A9P85_13915 [Legionella pneumophila] &gt;gi|1041019599|gb|ANN96659.1| hypothetical protein A9P84_13500 [Legionella pneumophila] &gt;gi|1103997792|emb|SFZ46825.1| DUF218 domain [Legionella pneumophila] &gt;gi|1104000932|emb|SFZ46865.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961713</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.442</Hsp_bit-score>
+      <Hsp_score>1295</Hsp_score>
+      <Hsp_evalue>3.44351e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLTLGICIFLLYRRRAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKIVVETASINTADQALELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRR APTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEK+VVET SINTADQA ELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|502866923|ref|WP_013101899.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|295650175|gb|ADG26022.1| membrane protein [Legionella pneumophila 2300/99 Alcoy] &gt;gi|999302267|emb|CZI55784.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101899</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.204</Hsp_bit-score>
+      <Hsp_score>1284</Hsp_score>
+      <Hsp_evalue>1.51652e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPAFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKQVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELTSWFAIDSEKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKLVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAP FTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVK+VNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTEL  WFAIDSEKVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVK+VIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|504657638|ref|WP_014844740.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|395131712|emb|CCD10005.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|761990483|dbj|GAN18592.1| hypothetical protein lpbnt_02715 [Legionella pneumophila] &gt;gi|761993673|dbj|GAN21698.1| hypothetical protein lpofk_02716 [Legionella pneumophila] &gt;gi|998982020|emb|CZI88513.1| DUF218 domain [Legionella pneumophila] &gt;gi|999106954|emb|CZI85089.1| DUF218 domain [Legionella pneumophila] &gt;gi|999231228|emb|CZI62908.1| DUF218 domain [Legionella pneumophila] &gt;gi|1032658707|gb|ANH13978.1| hypothetical protein A5478_13415 [Legionella pneumophila] &gt;gi|1032661669|gb|ANH16939.1| hypothetical protein A5480_13410 [Legionella pneumophila] &gt;gi|1032664647|gb|ANH19916.1| hypothetical protein A5479_13450 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844740</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.819</Hsp_bit-score>
+      <Hsp_score>1283</Hsp_score>
+      <Hsp_evalue>1.82746e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLVLGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESQYPIVKRVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPNAKLLLSGGGSAGEQSEALLLTELTSWFAIDSEKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLES+YPIVKRVNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLP+AKLLLSGGGSAGEQSEALLLTEL  WFAIDSEKVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1004014403|ref|WP_061483706.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483706</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.819</Hsp_bit-score>
+      <Hsp_score>1283</Hsp_score>
+      <Hsp_evalue>2.0846e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPAFTKVMLLVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELTSWFAIDSEKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLVYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAP FTKVML VVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTEL  WFAIDSEKVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNL YTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|652967014|ref|WP_027219991.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|998936480|emb|CZM48997.1| DUF218 domain [Legionella pneumophila] &gt;gi|999000412|emb|CZG76726.1| DUF218 domain [Legionella pneumophila] &gt;gi|999004453|emb|CZI43152.1| DUF218 domain [Legionella pneumophila] &gt;gi|999057956|emb|CZM55130.1| DUF218 domain [Legionella pneumophila] &gt;gi|999104173|emb|CZI06079.1| DUF218 domain [Legionella pneumophila] &gt;gi|999128784|emb|CZH03613.1| DUF218 domain [Legionella pneumophila] &gt;gi|999158600|emb|CZJ90347.1| DUF218 domain [Legionella pneumophila] &gt;gi|999177480|emb|CZJ86718.1| DUF218 domain [Legionella pneumophila] &gt;gi|1002085478|emb|CZQ99487.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027219991</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.664</Hsp_bit-score>
+      <Hsp_score>1280</Hsp_score>
+      <Hsp_evalue>6.96845e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPAFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKQVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELTSWFAIDSEKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKLVIPNSYNLAYTSIALHEILGKIWVLGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAP FTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVK+VNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTEL  WFAIDSEKVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVK+VIPNSYNLAYTSIALHEILGKIW LGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|500496167|ref|WP_011947546.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|148280410|gb|ABQ54498.1| conserved hypothetical protein; DUF218 [Legionella pneumophila str. Corby] &gt;gi|761996850|dbj|GAN31025.1| hypothetical protein lpymt_02640 [Legionella pneumophila] &gt;gi|998796494|emb|CZH99363.1| DUF218 domain [Legionella pneumophila] &gt;gi|998800335|emb|CZL05227.1| DUF218 domain [Legionella pneumophila] &gt;gi|998805782|emb|CZK06872.1| DUF218 domain [Legionella pneumophila] &gt;gi|998808384|emb|CZH88683.1| DUF218 domain [Legionella pneumophila] &gt;gi|998817702|emb|CZL58355.1| DUF218 domain [Legionella pneumophila] &gt;gi|998820804|emb|CZL60320.1| DUF218 domain [Legionella pneumophila] &gt;gi|998826766|emb|CZK07903.1| DUF218 domain [Legionella pneumophila] &gt;gi|998832596|emb|CZI08031.1| DUF218 domain [Legionella pneumophila] &gt;gi|998835739|emb|CZK87031.1| DUF218 domain [Legionella pneumophila] &gt;gi|998842278|emb|CZL12232.1| DUF218 domain [Legionella pneumophila] &gt;gi|998844696|emb|CZK27897.1| DUF218 domain [Legionella pneumophila] &gt;gi|998847647|emb|CZK66234.1| DUF218 domain [Legionella pneumophila] &gt;gi|998850266|emb|CZI39192.1| DUF218 domain [Legionella pneumophila] &gt;gi|998853751|emb|CZL25119.1| DUF218 domain [Legionella pneumophila] &gt;gi|998856447|emb|CZL32391.1| DUF218 domain [Legionella pneumophila] &gt;gi|998859770|emb|CZL72515.1| DUF218 domain [Legionella pneumophila] &gt;gi|998862694|emb|CZK19569.1| DUF218 domain [Legionella pneumophila] &gt;gi|998895535|emb|CZJ99998.1| DUF218 domain [Legionella pneumophila] &gt;gi|998912328|emb|CZG97356.1| DUF218 domain [Legionella pneumophila] &gt;gi|998915861|emb|CZK63058.1| DUF218 domain [Legionella pneumophila] &gt;gi|998918330|emb|CZK83734.1| DUF218 domain [Legionella pneumophila] &gt;gi|998921301|emb|CZL39370.1| DUF218 domain [Legionella pneumophila] &gt;gi|998927606|emb|CZL64603.1| DUF218 domain [Legionella pneumophila] &gt;gi|998930693|emb|CZK76204.1| DUF218 domain [Legionella pneumophila] &gt;gi|998933902|emb|CZL75158.1| DUF218 domain [Legionella pneumophila] &gt;gi|998939908|emb|CZK77257.1| DUF218 domain [Legionella pneumophila] &gt;gi|998945985|emb|CZK95956.1| DUF218 domain [Legionella pneumophila] &gt;gi|998949029|emb|CZK83177.1| DUF218 domain [Legionella pneumophila] &gt;gi|998958585|emb|CZM00072.1| DUF218 domain [Legionella pneumophila] &gt;gi|998961491|emb|CZK24581.1| DUF218 domain [Legionella pneumophila] &gt;gi|998964642|emb|CZK06362.1| DUF218 domain [Legionella pneumophila] &gt;gi|998966936|emb|CZM51812.1| DUF218 domain [Legionella pneumophila] &gt;gi|998970478|emb|CZK53337.1| DUF218 domain [Legionella pneumophila] &gt;gi|998973831|emb|CZK27427.1| DUF218 domain [Legionella pneumophila] &gt;gi|998979536|emb|CZL60378.1| DUF218 domain [Legionella pneumophila] &gt;gi|998985885|emb|CZK00603.1| DUF218 domain [Legionella pneumophila] &gt;gi|998988685|emb|CZL47520.1| DUF218 domain [Legionella pneumophila] &gt;gi|998993948|emb|CZI46348.1| DUF218 domain [Legionella pneumophila] &gt;gi|998998053|emb|CZJ89565.1| DUF218 domain [Legionella pneumophila] &gt;gi|999008025|emb|CZK28383.1| DUF218 domain [Legionella pneumophila] &gt;gi|999012958|emb|CZL44814.1| DUF218 domain [Legionella pneumophila] &gt;gi|999016880|emb|CZL69705.1| DUF218 domain [Legionella pneumophila] &gt;gi|999022678|emb|CZL15766.1| DUF218 domain [Legionella pneumophila] &gt;gi|999025351|emb|CZK73904.1| DUF218 domain [Legionella pneumophila] &gt;gi|999037108|emb|CZL53815.1| DUF218 domain [Legionella pneumophila] &gt;gi|999046832|emb|CZL76655.1| DUF218 domain [Legionella pneumophila] &gt;gi|999061639|emb|CZL14224.1| DUF218 domain [Legionella pneumophila] &gt;gi|999080223|emb|CZJ91179.1| DUF218 domain [Legionella pneumophila] &gt;gi|999082818|emb|CZK78564.1| DUF218 domain [Legionella pneumophila] &gt;gi|999090472|emb|CZK40813.1| DUF218 domain [Legionella pneumophila] &gt;gi|999092466|emb|CZL39949.1| DUF218 domain [Legionella pneumophila] &gt;gi|999101162|emb|CZL68519.1| DUF218 domain [Legionella pneumophila] &gt;gi|999110395|emb|CZL14799.1| DUF218 domain [Legionella pneumophila] &gt;gi|999113826|emb|CZL52137.1| DUF218 domain [Legionella pneumophila] &gt;gi|999116393|emb|CZK47887.1| DUF218 domain [Legionella pneumophila] &gt;gi|999126305|emb|CZK78580.1| DUF218 domain [Legionella pneumophila] &gt;gi|999131571|emb|CZL94387.1| DUF218 domain [Legionella pneumophila] &gt;gi|999134790|emb|CZL16344.1| DUF218 domain [Legionella pneumophila] &gt;gi|999138108|emb|CZK28804.1| DUF218 domain [Legionella pneumophila] &gt;gi|999141777|emb|CZL43789.1| DUF218 domain [Legionella pneumophila] &gt;gi|999144578|emb|CZK70323.1| DUF218 domain [Legionella pneumophila] &gt;gi|999147630|emb|CZL48967.1| DUF218 domain [Legionella pneumophila] &gt;gi|999175770|emb|CZL04321.1| DUF218 domain [Legionella pneumophila] &gt;gi|999209994|emb|CZK75030.1| DUF218 domain [Legionella pneumophila] &gt;gi|999219324|emb|CZL31720.1| DUF218 domain [Legionella pneumophila] &gt;gi|999335255|emb|CZK72146.1| DUF218 domain [Legionella pneumophila] &gt;gi|1002079040|emb|CZQ94487.1| DUF218 domain [Legionella pneumophila] &gt;gi|1003023011|emb|CZR20344.1| membrane protein [Legionella pneumophila] &gt;gi|1003026853|emb|CZR18007.1| membrane protein [Legionella pneumophila] &gt;gi|1073886511|gb|AOU26455.1| hypothetical protein A9E77_13450 [Legionella pneumophila] &gt;gi|1080008959|gb|AOW58947.1| hypothetical protein BE843_12120 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011374|gb|AOW60865.1| hypothetical protein BE844_06650 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017618|gb|AOW66263.1| hypothetical protein BE846_04415 [Legionella pneumophila subsp. pneumophila] &gt;gi|1104004030|emb|SFZ46856.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947546</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.278</Hsp_bit-score>
+      <Hsp_score>1279</Hsp_score>
+      <Hsp_evalue>7.36138e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPAFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKQVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELTSWFAIDSKKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKLVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAP FTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVK+VNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTEL  WFAIDS+KVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVK+VIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1004334809|ref|WP_061513734.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513734</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.893</Hsp_bit-score>
+      <Hsp_score>1278</Hsp_score>
+      <Hsp_evalue>1.15427e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLVLGICTFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPNAKLLLSGGGSAGEQSEALLLTELTSWFAIDSEKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIASPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWTLGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGIC FLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLP+AKLLLSGGGSAGEQSEALLLTEL  WFAIDSEKVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIA+PTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIW LGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|653016604|ref|WP_027268576.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|761987469|dbj|GAN24644.1| hypothetical protein lptwr_02549 [Legionella pneumophila] &gt;gi|998790013|emb|CZH02375.1| DUF218 domain [Legionella pneumophila] &gt;gi|998892893|emb|CZJ07733.1| DUF218 domain [Legionella pneumophila] &gt;gi|999286792|emb|CZI76101.1| DUF218 domain [Legionella pneumophila] &gt;gi|999293085|emb|CZI61855.1| DUF218 domain [Legionella pneumophila] &gt;gi|999312044|emb|CZI87268.1| DUF218 domain [Legionella pneumophila] &gt;gi|1002082133|emb|CZQ95964.1| DUF218 domain [Legionella pneumophila] &gt;gi|1002091753|emb|CZR06096.1| DUF218 domain [Legionella pneumophila] &gt;gi|1108605979|gb|APF04347.1| hypothetical protein BIZ52_13695 [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027268576</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.893</Hsp_bit-score>
+      <Hsp_score>1278</Hsp_score>
+      <Hsp_evalue>1.33122e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLVLGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESQYPIVKRVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPNAKLLLSGGGSAGEQSEALLLKELTSWFAIDSEKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLES+YPIVKRVNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLP+AKLLLSGGGSAGEQSEALLL EL  WFAIDSEKVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1006677916|ref|WP_061821137.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila] &gt;gi|999151567|emb|CZH55196.1| DUF218 domain [Legionella pneumophila] &gt;gi|999168309|emb|CZI51495.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061821137</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.508</Hsp_bit-score>
+      <Hsp_score>1277</Hsp_score>
+      <Hsp_evalue>1.87047e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLSPAFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKQVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELTSWFAIDSEKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKLVIPNSYNLAYTSIALHEILGKIWVLGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRL+P FTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVK+VNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTEL  WFAIDSEKVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVK+VIPNSYNLAYTSIALHEILGKIW LGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|749505480|ref|WP_040146325.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|998802621|emb|CZH88713.1| DUF218 domain [Legionella pneumophila] &gt;gi|999166054|emb|CZG69612.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_040146325</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>3.13247e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPAFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKQVNPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELTSWFAIDSKKVVIETASINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKLVIPNSYNLAYTSIALHEILGKIWVLGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAP FTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVK+VNPNVKWVVVLGGGQNIGE MPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTEL  WFAIDS+KVV+ET SINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVK+VIPNSYNLAYTSIALHEILGKIW LGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|742357437|ref|WP_038839633.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|998781172|emb|CZJ43561.1| DUF218 domain [Legionella pneumophila] &gt;gi|998829465|emb|CZG79410.1| DUF218 domain [Legionella pneumophila] &gt;gi|998883329|emb|CZI76784.1| DUF218 domain [Legionella pneumophila] &gt;gi|998898830|emb|CZJ45578.1| DUF218 domain [Legionella pneumophila] &gt;gi|998952235|emb|CZJ33662.1| DUF218 domain [Legionella pneumophila] &gt;gi|999153861|emb|CZM17700.1| DUF218 domain [Legionella pneumophila] &gt;gi|999162949|emb|CZM05309.1| DUF218 domain [Legionella pneumophila] &gt;gi|999237178|emb|CZG78185.1| DUF218 domain [Legionella pneumophila] &gt;gi|1002088722|emb|CZQ78707.1| DUF218 domain [Legionella pneumophila] &gt;gi|1104007484|emb|SFZ46934.1| DUF218 domain [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839633</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.781</Hsp_bit-score>
+      <Hsp_score>1218</Hsp_score>
+      <Hsp_evalue>1.61999e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLTLGICIFLLYRRLAPTFTKVMLFVVLLVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEGMPANDLLTSASLKRLVEGVRLFRDLPDAKLLLSGGGSAGEQSEALLLAELTKWFAIDPEKVVIETVSINTADQARELAAIVHDHPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAPTFTKVMLFVVL+VLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGE MPANDLLTSAS+KRL+EGVRLFR LPDAKLLLSGGGSAGEQSEALLL EL KWFAID EKVV+ETVSINTADQARELAAIVHD PFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1011914663|ref|WP_062727877.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727877</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.855</Hsp_bit-score>
+      <Hsp_score>1213</Hsp_score>
+      <Hsp_evalue>1.01168e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLHPFFLCLLTLGICIFLLYRRLAPTFTKVMLFVVLLVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRALPDAKLLLSGGGSTGEQPEALLLAELTKWFAIDPEKVVIETVSINTADQARELAAIVHDHPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMIIPNPYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLLHPFFLCLL LGICIFLLYRRLAPTFTKVMLFVVL+VLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFR LPDAKLLLSGGGS GEQ EALLL EL KWFAID EKVV+ETVSINTADQARELAAIVHD PFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKM+IPN YNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652976419|ref|WP_027229091.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|985764639|gb|KXB25758.1| membrane protein [Legionella pneumophila] &gt;gi|985767089|gb|KXB28184.1| membrane protein [Legionella pneumophila] &gt;gi|999119089|emb|CZG86145.1| DUF218 domain [Legionella pneumophila] &gt;gi|999122214|emb|CZH19353.1| DUF218 domain [Legionella pneumophila] &gt;gi|1024339695|gb|KZX34034.1| hypothetical protein PtVFX2014_06720 [Legionella pneumophila] &gt;gi|1108608962|gb|APF07329.1| hypothetical protein BIZ51_13575 [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229091</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.595</Hsp_bit-score>
+      <Hsp_score>1163</Hsp_score>
+      <Hsp_evalue>3.95868e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAFIRHLLEYLLNPFFLCVLGIGICIFLLYRRLVPTVTRVLLFLVLIVLIAMSTGWLPSYLTYQLESRYSIVNQINPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLVEGVRLFRALPDAKLLLSGGGSTGEQPEALLLAELTKWFSIDPEKVVIETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMIIPNPYNLAYTSIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MAFIRHLLEYLL+PFFLC+L +GICIFLLYRRL PT T+V+LF+VLIVL+AMSTGWLPSYLTYQLESRY IV ++NPNVKWVVVLGGGQNIGE MPANDLLTSASIKRL+EGVRLFR LPDAKLLLSGGGS GEQ EALLL EL KWF+ID EKVV+ETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKM+IPN YNLAYTSIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|652969888|ref|WP_027222781.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella pneumophila] &gt;gi|1005362947|gb|AMP88816.1| hypothetical protein AXF35_03555 [Legionella pneumophila subsp. pascullei] &gt;gi|1005367789|gb|AMP93566.1| hypothetical protein AXF36_13495 [Legionella pneumophila subsp. pascullei] &gt;gi|1005370708|gb|AMP96484.1| hypothetical protein AXF37_13130 [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222781</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>1.39866e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MALIRHLLEYLINPFFLCVLAIGIGIFLLWRQLAPTVTRVLLFLVLIVLLAMSTGWLPSYLTYQLESRYSIVNQINPNVKWVVVLGGGQNIGEGMPANDLLTSASIKRLVEGIRLFRALPDAKLLLSGGGSTGEQPEALLLAELTKWFSIDPQKVVIETVSINTADQARELAAIVHEQPFYLVTSAVHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMIIPNPYNLAYASIALHEILGKIWALGFR</Hsp_hseq>
+      <Hsp_midline>MA IRHLLEYL++PFFLC+LA+GI IFLL+R+LAPT T+V+LF+VLIVLLAMSTGWLPSYLTYQLESRY IV ++NPNVKWVVVLGGGQNIGE MPANDLLTSASIKRL+EG+RLFR LPDAKLLLSGGGS GEQ EALLL EL KWF+ID +KVV+ETVSINTADQARELAAIVH+QPFYLVTSA+HMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKM+IPN YNLAY SIALHEILGKIWALGFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|698843975|emb|CEG57944.1|</Hit_id>
+  <Hit_def>conserved protein of unknown function [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>CEG57944</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>1.28344e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MAVLRHWTEFLVNPYFLCLFFLGLSLYFLWRRTHLGFVRITLTVVFMVLLIISTGWLPRYMTYKLEEQYPVVQHVDPQVKWVVVLSGGSGQSAGMPVNDLLTATSLKRLIEGIRLFRALPQAQLVLSGGGDTGEQPEAERLAQLAKWFSIPEQRVVLEGKSINTADQARELVAIVHDQPFYLITSAIHMSRSMALCQQQGLHPIPAPTDFTFYWTTDSWGKMIIPNAYNLSYFAIAMHEVLGKIWA</Hsp_hseq>
+      <Hsp_midline>MA +RH  E+L++P+FLCL  LG+ ++ L+RR    F ++ L VV +VLL +STGWLP Y+TY+LE +YP+V+ V+P VKWVVVL GG      MP NDLLT+ S+KRLIEG+RLFR LP A+L+LSGGG  GEQ EA  L +LAKWF+I  ++VV+E  SINTADQAREL AIVHDQPFYL+TSAIHM RSMALCQQQGLHPI APTDFTF+W+TD+W KM+IPN+YNL+Y +IA+HE+LGKIWA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|769980367|ref|WP_045096352.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella fallonii]</Hit_def>
+  <Hit_accession>WP_045096352</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>1.42896e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MAVLRHWTEFLVNPYFLCLFFLGLSLYFLWRRTHLGFVRITLTVVFMVLLIISTGWLPRYMTYKLEEQYPVVQHVDPQVKWVVVLSGGSGQSAGMPVNDLLTATSLKRLIEGIRLFRALPQAQLVLSGGGDTGEQPEAERLAQLAKWFSIPEQRVVLEGKSINTADQARELVAIVHDQPFYLITSAIHMSRSMALCQQQGLHPIPAPTDFTFYWTTDSWGKMIIPNAYNLSYFAIAMHEVLGKIWA</Hsp_hseq>
+      <Hsp_midline>MA +RH  E+L++P+FLCL  LG+ ++ L+RR    F ++ L VV +VLL +STGWLP Y+TY+LE +YP+V+ V+P VKWVVVL GG      MP NDLLT+ S+KRLIEG+RLFR LP A+L+LSGGG  GEQ EA  L +LAKWF+I  ++VV+E  SINTADQAREL AIVHDQPFYL+TSAIHM RSMALCQQQGLHPI APTDFTF+W+TD+W KM+IPN+YNL+Y +IA+HE+LGKIWA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966433949|ref|WP_058474380.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella quateirensis] &gt;gi|962263773|gb|KTD47853.1| membrane protein [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474380</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.132</Hsp_bit-score>
+      <Hsp_score>897</Hsp_score>
+      <Hsp_evalue>1.50827e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWAL</Hsp_qseq>
+      <Hsp_hseq>MAVFRHLIELFINPYFLCLLLLGICTWMLWFRSHPLFVRRTLLLVLLIMTVISTGWLPRYMTYHLESQYTIVTKTDPDVRWVVVLSGGQTQAAGFPPNDLLSSASMKRLIEGVRLQRSLPEAKLVLSGGGSAGDQPEALLLAELARWFSIPDQKVVLETKSINTADQARELVSLVKKEPFYLVTSAVHMPRAMALCQKQGLHPIAAPTDFTFFWSTDSWGKLIIPNAYNLAYFSIALHEVLGSIWAF</Hsp_hseq>
+      <Hsp_midline>MA  RHL+E  ++P+FLCLL LGIC ++L+ R  P F +  L +VL+++  +STGWLP Y+TY LES+Y IV + +P+V+WVVVL GGQ      P NDLL+SAS+KRLIEGVRL R+LP+AKL+LSGGGSAG+Q EALLL ELA+WF+I  +KVV+ET SINTADQAREL ++V  +PFYLVTSA+HMPR+MALCQ+QGLHPIAAPTDFTFFWSTD+W K++IPN+YNLAY SIALHE+LG IWA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|654932799|ref|WP_028383157.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella moravica] &gt;gi|962253333|gb|KTD37514.1| membrane protein [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383157</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>1.57047e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MALIRHLIELLINPFFLCLVLLGVCAYWLWFRSHLLFVRRTLLLVLLILIVISTGWLPRYMTYVLESRYPLVTEADPKVGWVVVLSGGQTQASGFPPNDLLSSASMKRLIEGIRLLRTLPNAKLILSGGGSAGDQPEALLLAELAHWFSIPDQKVVLETHSINTADQARELVPLVNQEPFYLVTSAVHMPRAMALCQKQGLHPIAAPTDFTFFWSTDSWGKLIIPNAYNLAYFSIALHEVLGSIWAFKFK</Hsp_hseq>
+      <Hsp_midline>MA IRHL+E L++PFFLCL+ LG+C + L+ R    F +  L +VL++L+ +STGWLP Y+TY LESRYP+V   +P V WVVVL GGQ      P NDLL+SAS+KRLIEG+RL RTLP+AKL+LSGGGSAG+Q EALLL ELA WF+I  +KVV+ET SINTADQAREL  +V+ +PFYLVTSA+HMPR+MALCQ+QGLHPIAAPTDFTFFWSTD+W K++IPN+YNLAY SIALHE+LG IWA  F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966460501|ref|WP_058492930.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella worsleiensis] &gt;gi|962296577|gb|KTD80214.1| membrane protein [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492930</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.339</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>2.44002e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAVFRHVIELLVNPFFLCLLVLGTSVYWLWFRSCSGRVRSALLGVFLVLLFMSTGWLPRYLTFRLESHYAAVHQVDTAVRWVVVLSGGQSVVSGLPPNDLLSSASMKRLVEGIRLLRLLPKARLVLSGGGSAGEQPEALLLAELAQWFSVPDDKIVLETRSINTADQARELVALVKQEPFYLVTSAVHMPRAMALCQKQGLHPIAAPTDFTFFWSTDSWSKLVIPNVYNLAYCSIALHEILGGLWAFVVR</Hsp_hseq>
+      <Hsp_midline>MA  RH++E L++PFFLCLL LG  ++ L+ R      +  L  V +VLL MSTGWLP YLT++LES Y  V +V+  V+WVVVL GGQ++   +P NDLL+SAS+KRL+EG+RL R LP A+L+LSGGGSAGEQ EALLL ELA+WF++  +K+V+ET SINTADQAREL A+V  +PFYLVTSA+HMPR+MALCQ+QGLHPIAAPTDFTFFWSTD+W K+VIPN YNLAY SIALHEILG +WA   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966439681|ref|WP_058480004.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella waltersii] &gt;gi|962295578|gb|KTD79223.1| membrane protein [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480004</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>9.42144e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWALGFR</Hsp_qseq>
+      <Hsp_hseq>MAALRHFLEFLLNPFLISLLLL-AVMLLFWRSISSKRMRVLGFIVLLVLLVFSTGFLPHYLTKQLEARYKVVKLADPSVKWVVVLSGGQNLSPGFPANDLLSSASIKRLVEGVRLFRQLPKAKLVLSGGGSIGEQPEAFLLAELSEWFAIPKDRVVLETYSINTVAQAKELVHIVHQDPFYLVTSAVHMPRSMVLCKKEGLNPIPAPTDFTFYWSTDTWLKMVIPNTYNLCYFSIAFHEILGQIWVFGLK</Hsp_hseq>
+      <Hsp_midline>MA +RH LE+LL+PF + LL L   + L +R ++    +V+ F+VL+VLL  STG+LP YLT QLE+RY +VK  +P+VKWVVVL GGQN+    PANDLL+SASIKRL+EGVRLFR LP AKL+LSGGGS GEQ EA LL EL++WFAI  ++VV+ET SINT  QA+EL  IVH  PFYLVTSA+HMPRSM LC+++GL+PI APTDFTF+WSTDTW+KMVIPN+YNL Y SIA HEILG+IW  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|517405767|ref|WP_018578439.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella shakespearei] &gt;gi|962281252|gb|KTD65065.1| membrane protein [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578439</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.80511e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWAL</Hsp_qseq>
+      <Hsp_hseq>MAISRHFIEFLVNPFFICFLLLALTLLFVWRGTCLTFVRRTLLLVCLVLLVISTGWLPRYMTHSLESQYRVVTEIDPKVQWIVVLSGGQFTVNGMPANDLLSSASIKRLVEGVRLLRLLPEAKLVLSGGGSTGEQPEAVLMNQLVQWFAISQKQIVLEKQSINTAEQARELAALVKDEPFYLVTSAVHMPRSMKLCQKQGLHPIAAPTDFTFFWNTENWAKLVIPNPYNVTYFSIAMHEVLGRIWNL</Hsp_hseq>
+      <Hsp_midline>MA  RH +E+L++PFF+C L L + +  ++R    TF +  L +V +VLL +STGWLP Y+T+ LES+Y +V  ++P V+W+VVL GGQ     MPANDLL+SASIKRL+EGVRL R LP+AKL+LSGGGS GEQ EA+L+ +L +WFAI  +++V+E  SINTA+QARELAA+V D+PFYLVTSA+HMPRSM LCQ+QGLHPIAAPTDFTFFW+T+ W K+VIPN YN+ Y SIA+HE+LG+IW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966395926|ref|WP_058440979.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella brunensis] &gt;gi|962200525|gb|KTC85516.1| membrane protein [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058440979</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.59469e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MVLVRHLLEMILNPFFLCLLLFAIFLTLLWLKGNNRLVRWGFVFVLCLFFIFSTGWLPKALTRHLEDQYPAVTKIDPTVHWVVVFSGGQSEMDDKPVNALLNSASIKRLLEGVRLYRELPQAKLLLSGGGYGFEMPEALRLAQIASWFSIPQTNIVLETTSINTADEAKAIKMFVKDEPFYLVTSAIHMYRSMTLCLAQGLHPIAAPTDYTYFWNDERWGKMYLPNPYNLFYLSIAMHEVWGSLWA</Hsp_hseq>
+      <Hsp_midline>M  +RHLLE +L+PFFLCLL   I + LL+ +      +     VL +    STGWLP  LT  LE +YP V +++P V WVVV  GGQ+  ++ P N LL SASIKRL+EGVRL+R LP AKLLLSGGG   E  EAL L ++A WF+I    +V+ET SINTAD+A+ +   V D+PFYLVTSAIHM RSM LC  QGLHPIAAPTD+T+FW+ + W KM +PN YNL Y SIA+HE+ G +WA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|769989434|ref|WP_045105385.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella hackeliae] &gt;gi|731151380|emb|CEK09926.1| conserved protein of unknown function [Legionella hackeliae] &gt;gi|962225783|gb|KTD10427.1| membrane protein [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045105385</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>2.86118e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWAL</Hsp_qseq>
+      <Hsp_hseq>MVIIRHLLEMLLNPYLICLVLLAVFLVILWLRRANRLVCWGLTLVLVLFIIFSTGWLPQTLTRSLEDRYPVITKVDPTIHWVVVLSGGQSEINDKPINAQLNSASIKRLLEGVRLLRQLPKAQLLLSGGGYGFERPEAFRLAELASWFSIPQSKMVLEITSINTADQAKAIKSFVKEEPFYLVTSAIHMRRSMALCLAQGLRPIAAPTDFTYFWNDERLGKIYLPNPYNLFYLSIALHEVLGGWWAI</Hsp_hseq>
+      <Hsp_midline>M  IRHLLE LL+P+ +CL+ L + + +L+ R A       L +VL++ +  STGWLP  LT  LE RYP++ +V+P + WVVVL GGQ+   + P N  L SASIKRL+EGVRL R LP A+LLLSGGG   E+ EA  L ELA WF+I   K+V+E  SINTADQA+ + + V ++PFYLVTSAIHM RSMALC  QGL PIAAPTDFT+FW+ +   K+ +PN YNL Y SIALHE+LG  WA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|644964459|ref|WP_025385214.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella oakridgensis] &gt;gi|570284233|gb|AHE66420.1| hypothetical protein Loa_00852 [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570702912|gb|ETO93823.1| hypothetical protein LOR_82c23420 [Legionella oakridgensis RV-2-2007] &gt;gi|962252673|gb|KTD36859.1| membrane protein [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025385214</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.25074e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MFVVRHFVEAIFNPFFIIVLVLIVCTWLLFRKKEYPVVRVGMVLVLMGLFLCSTGWLPRFLTQQLENQYPVVTKVDSAVHWIVVLGGGQAQYIHSPVNNLLYSASIRRLLEGVRLYRQLPDAKLLLSGGEYGGKTAEALRLATLTSWFAIPMNDVILESGSINTEEQARAIKKWLNHAPFYLVTSAIHMPRAIALCRAQGLQPIAAPTDFTYYWYDERWHKMYVPNPNNLVYLTIAWHEILGRTWA</Hsp_hseq>
+      <Hsp_midline>M  +RH +E + +PFF+ +L L +C +LL+R+      +V + +VL+ L   STGWLP +LT QLE++YP+V +V+  V W+VVLGGGQ      P N+LL SASI+RL+EGVRL+R LPDAKLLLSGG   G+ +EAL L  L  WFAI    V++E+ SINT +QAR +   ++  PFYLVTSAIHMPR++ALC+ QGL PIAAPTDFT++W  + W KM +PN  NL Y +IA HEILG+ WA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966469687|ref|WP_058500698.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella israelensis] &gt;gi|962249562|gb|KTD33774.1| membrane protein [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058500698</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>1.6227e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MVAFRQLLEALLNPFFLCILLFGIVFIVLCLKGYSHSLRLLLGLILVILLALSTGWLPRYLTHRLENQYPIIEEVNPDIHWIVVLSGGQASVQNIPANMLLYNSSIRRLVEGVRLFRQLPKAQLLLSGGSHDENRSEAFHLSQLARWFAIPEHRLQQEPFSLNTADQAREIKKIVGEQPFYLVTAASHMPRAMALCRKQGLHPIAAPTDHTFYWNDERWQKTWIPDAHNIVYFNIALHELLGMLWG</Hsp_hseq>
+      <Hsp_midline>M   R LLE LL+PFFLC+L  GI   +L  +      +++L ++L++LLA+STGWLP YLT++LE++YPI++ VNP++ W+VVL GGQ   + +PAN LL ++SI+RL+EGVRLFR LP A+LLLSGG     +SEA  L++LA+WFAI   ++  E  S+NTADQARE+  IV +QPFYLVT+A HMPR+MALC++QGLHPIAAPTD TF+W+ + W K  IP+++N+ Y +IALHE+LG +W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|737951245|ref|WP_035915101.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella lansingensis] &gt;gi|962237091|gb|KTD21540.1| membrane protein [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_035915101</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>1.13813e-87</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>IRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>IRHLLETILNPFFVCLLLFAFLLALLWLCGNTRIVRWGFLLVLVLLLIFSTGWLPSTLTHQLEDRYPVIKKVDPDVHWVVVLSGGQSEVRDRPVNTLLSSASLKRLLEGVRLYRQLPRAKLLLSGGGYGFETPEAQRLAQIASWFAIPATDMILETTSINTADQAKAIKPLVHEERFYLVTSAIHMPRSMKLFLAQGLHPIPAPTDYTYFWDDERWRKMFLPNPYNLFYLSIALHELLGTWWS</Hsp_hseq>
+      <Hsp_midline>IRHLLE +L+PFF+CLL     + LL+        +    +VL++LL  STGWLPS LT+QLE RYP++K+V+P+V WVVVL GGQ+   + P N LL+SAS+KRL+EGVRL+R LP AKLLLSGGG   E  EA  L ++A WFAI +  +++ET SINTADQA+ +  +VH++ FYLVTSAIHMPRSM L   QGLHPI APTD+T+FW  + W KM +PN YNL Y SIALHE+LG  W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966427961|ref|WP_058470457.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella jordanis] &gt;gi|962232068|gb|KTD16616.1| membrane protein [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058470457</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>1.35739e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLY-----RRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIW</Hsp_qseq>
+      <Hsp_hseq>MAVIRHVLETLLNPYFLCLLLFALCLLLLWHCGNKRRIRWGFTGVLL-----LFLIFSTGWLPRALTLQLEERYPAIVQANPSIHWVVVFSGGSAEVKNKPVNSMLNCASIKRLLEGVRLYRQLPQAKLLLSGGGYGFDVPESRRLAEIASWFSIPAQNIRLETKSINTADEAKEIKAIVRNEPFYLVTSAIHMKRSLALCQAQGLNPIPAPTDYSFFWNDERWAKMVVPNPYNLYYLSIAMHEVLGELW</Hsp_hseq>
+      <Hsp_midline>MA IRH+LE LL+P+FLCLL   +C+ LL+     RR+   FT V+L     + L  STGWLP  LT QLE RYP + + NP++ WVVV  GG    +  P N +L  ASIKRL+EGVRL+R LP AKLLLSGGG   +  E+  L E+A WF+I ++ + +ET SINTAD+A+E+ AIV ++PFYLVTSAIHM RS+ALCQ QGL+PI APTD++FFW+ + W KMV+PN YNL Y SIA+HE+LG++W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966402948|ref|WP_058446543.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella feeleii] &gt;gi|962211392|gb|KTC96284.1| membrane protein [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058446543</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>2.72876e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPA---NDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MVIIRHVLEGVLNPFFLCWLLLGVFLILLWLYGDSVLVRCGFLLVALLLLLCSTGWIPQALTRQLEDQYPVITQVDPAIHWVVVFSGGQS---EMPGQAVNSLLYSASIKRLLEGVRLYKQLPQAKLLLSGGGYGFELPEAVRMAELASWCTIPAGHIVLEKASINTADQVKAIKKIVHEEPFYLVTSAIHMPRAMALCQARGMHPIAAPTDFTFYWNDERWGKTYLPNPHNLFYLSIAMHELLGRLWA</Hsp_hseq>
+      <Hsp_midline>M  IRH+LE +L+PFFLC L LG+ + LL+        +    +V ++LL  STGW+P  LT QLE +YP++ +V+P + WVVV  GGQ+   EMP    N LL SASIKRL+EGVRL++ LP AKLLLSGGG   E  EA+ + ELA W  I +  +V+E  SINTADQ + +  IVH++PFYLVTSAIHMPR+MALCQ +G+HPIAAPTDFTF+W+ + W K  +PN +NL Y SIA+HE+LG++WA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|654937734|ref|WP_028387984.1|</Hit_id>
+  <Hit_def>membrane protein [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028387984</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>3.99957e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQ--NIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIW</Hsp_qseq>
+      <Hsp_hseq>MAIFRHVMEFLLNPFFLILLVFAALVVLLWLNGDTRVVRHGFLWILVLLLLFSTGWVAKNLTRRLEDQYTAVKTVDPTVRWVVVFSGGQAKNI-INMPTNSLLSTVSIKRLIEGVRLYRQLPAAKLLLSGGGYGFEVPEATHLSELASWFAIPASDMVLETKSINTVDEVNAIKQIVHNDPFYLVTSAIHMPRAMKLCKEANLQAIAAPTDFTFYWDDERWVKTYLPNPYNLFYLSVAMHELLGRFW</Hsp_hseq>
+      <Hsp_midline>MA  RH++E+LL+PFFL LL     + LL+        +     +L++LL  STGW+   LT +LE +Y  VK V+P V+WVVV  GGQ  NI   MP N LL++ SIKRLIEGVRL+R LP AKLLLSGGG   E  EA  L+ELA WFAI +  +V+ET SINT D+   +  IVH+ PFYLVTSAIHMPR+M LC++  L  IAAPTDFTF+W  + WVK  +PN YNL Y S+A+HE+LG+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966407294|ref|WP_058450700.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella jamestowniensis] &gt;gi|962224056|gb|KTD08706.1| membrane protein [Legionella jamestowniensis] &gt;gi|1045919888|gb|OCH96855.1| hypothetical protein A8135_04220 [Legionella jamestowniensis] &gt;gi|1097331603|emb|SFL55313.1| Uncharacterized SAM-binding protein YcdF, DUF218 family [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058450700</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>1.98812e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MVIIRHLLETLLNPYLICLLLFTFFLILLWWRDNNRLVRWGLTLVLALLVLFSTGWLPQLLTRKLEDKYPVITQVDPAIHWVVVLSGGQSEINNKPINAQLNSASIKRLMEGIRLYQLLPQARLLLSGGGYGFETPEAFRLAELASWFSIPKSKIVLETTSINTADQAKAIKQWVKDKPFYLVTSAIHMRRSMALCLAQGLHPVAAPTDYTFYWNDERIGKIYLPNPYNLFYLSIALHEILGNWWA</Hsp_hseq>
+      <Hsp_midline>M  IRHLLE LL+P+ +CLL     + LL+ R      +  L +VL +L+  STGWLP  LT +LE +YP++ +V+P + WVVVL GGQ+     P N  L SASIKRL+EG+RL++ LP A+LLLSGGG   E  EA  L ELA WF+I   K+V+ET SINTADQA+ +   V D+PFYLVTSAIHM RSMALC  QGLHP+AAPTD+TF+W+ +   K+ +PN YNL Y SIALHEILG  WA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966408956|ref|WP_058452348.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella maceachernii] &gt;gi|962241448|gb|KTD25806.1| membrane protein [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058452348</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>2.26453e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MAIFRHLFEVVVNPFFLVLLLFAVLLILLWFMGDSRMIRGGLVLVFVLLIFFSTGWFVQTLTRQLEDEYSPVEKINPAIHWIVVLSGGQGNKAHMPANSLLASESIKRLLEGLRLYRQLPAAKLLLSGGGYHFEVPESHHLLEIASWFAIPQSDMVLETTSINTVDQIKAIKHIVNEEPFYLVTSAIHMPRSMRLCQAQGLHPIAAPTDFTLYWNDERWAKRYLPNPHNLFYLSVAMHEILGRAWS</Hsp_hseq>
+      <Hsp_midline>MA  RHL E +++PFFL LL   + + LL+        +  L +V ++L+  STGW    LT QLE  Y  V+++NP + W+VVL GGQ     MPAN LL S SIKRL+EG+RL+R LP AKLLLSGGG   E  E+  L E+A WFAI    +V+ET SINT DQ + +  IV+++PFYLVTSAIHMPRSM LCQ QGLHPIAAPTDFT +W+ + W K  +PN +NL Y S+A+HEILG+ W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966511931|ref|WP_058528485.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella londiniensis] &gt;gi|962238168|gb|KTD22592.1| membrane protein [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058528485</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>1.68511e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MFVYRHFLEAVFNPYIIGLSILVIFTVGLHWFGNTRSVRIGITTGVGALILFSMGWLPMWLTRILENQYPVVKKPNPNVHWVVVLGGGQAQYVDGEAHNVLYTASIRRLLEGIRLYRLLPHAKLLLSGGEYGGEKKEAHRLAEIISWLAIPHEDIVIESNSSNTASQARELKKRLNQEPFYLVTSAIHLPRAMALCRKQGLKPIAAPTDFTYFWQDERWEKYYLPNPKNLVYLNIAWHEILGRAWA</Hsp_hseq>
+      <Hsp_midline>M   RH LE + +P+ + L  L I    L+        ++ +   +  L+  S GWLP +LT  LE++YP+VK+ NPNV WVVVLGGGQ    +  A+++L +ASI+RL+EG+RL+R LP AKLLLSGG   GE+ EA  L E+  W AI  E +V+E+ S NTA QAREL   ++ +PFYLVTSAIH+PR+MALC++QGL PIAAPTDFT+FW  + W K  +PN  NL Y +IA HEILG+ WA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966474713|ref|WP_058505474.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella nautarum] &gt;gi|962248607|gb|KTD32829.1| membrane protein [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505474</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>6.16921e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MAIYRHLFEVILNPFFLSMLFFAVFLLGLWLMGDGLIVRGGLLFVFLLLIFFSTGWLAESLTRSLEDDYLPIMAPDPKIHWVVVLSGGQAEKESMPPNSLLSTVSIKRLIEGLRLYRQLPAAKLLLSGGGYGFEVPEANNLSQVAAWFAIPPSNIVLETGSINTADQVKAIKLLVHNEPFYLVTSALHMPRAMQLCWAQGLHPIAAPTDFTLYWNDERWAKRYLPTPQNLFYLSLAMHELLGRIWA</Hsp_hseq>
+      <Hsp_midline>MA  RHL E +L+PFFL +L   + +  L+        +  L  V ++L+  STGWL   LT  LE  Y  +   +P + WVVVL GGQ   E MP N LL++ SIKRLIEG+RL+R LP AKLLLSGGG   E  EA  L+++A WFAI    +V+ET SINTADQ + +  +VH++PFYLVTSA+HMPR+M LC  QGLHPIAAPTDFT +W+ + W K  +P   NL Y S+A+HE+LG+IWA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966465120|ref|WP_058496481.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella drozanskii] &gt;gi|962200897|gb|KTC85886.1| membrane protein [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058496481</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>2.4644e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MAIYRHLFEVILNPFFISLLLFAVFLTLLWIIGDRLIVRGGLLFVFLLLIFFSTGWLAENLTRNLEDDYLPVITADPKIHWVVVLSGGQAEKDYIPPNSLLSTVSIKRLMEGLRLYRQLPAAKIVLSGGGYGFEVPEAKNLSEVASWFAIPPSNIVLETASINTADQVKAIKSLVNNEPFYLVTSALHMPRAMKLCWAQGLHPIAAPTDFTLYWNDERWAKRYLPNPQNLFYLSLAMHEFLGRIWA</Hsp_hseq>
+      <Hsp_midline>MA  RHL E +L+PFF+ LL   + + LL+        +  L  V ++L+  STGWL   LT  LE  Y  V   +P + WVVVL GGQ   + +P N LL++ SIKRL+EG+RL+R LP AK++LSGGG   E  EA  L+E+A WFAI    +V+ET SINTADQ + + ++V+++PFYLVTSA+HMPR+M LC  QGLHPIAAPTDFT +W+ + W K  +PN  NL Y S+A+HE LG+IWA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|962245814|gb|KTD30106.1|</Hit_id>
+  <Hit_def>membrane protein [Tatlockia micdadei] &gt;gi|1081464093|emb|SCY56739.1| Uncharacterized SAM-binding protein YcdF, DUF218 family [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>KTD30106</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>5.0625e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIW</Hsp_qseq>
+      <Hsp_hseq>MVIFRHLFEVMLNPFFLVLLFFTVLLVLLWFIGDHRFIRGGLVLVLVLLIFFSTGWFVQSLTRNLEDEYSPITKINPAIHWVVVLSGGQSDRIDMPANSLLSNVSIKRLLEGLRLYRQLPAAKLLLSGGGYGFEVPEANHLSEIASWFAIPQSDIVLETKSINTADQIKAIKQIVHKEPFYLVTSAIHMPRSMQLCQAQGLHPIAAPTDYTLYWNDERWAKRYLPNPHNLFYLSVAMHELLGRAW</Hsp_hseq>
+      <Hsp_midline>M   RHL E +L+PFFL LL   + + LL+      F +  L +VL++L+  STGW    LT  LE  Y  + ++NP + WVVVL GGQ+   +MPAN LL++ SIKRL+EG+RL+R LP AKLLLSGGG   E  EA  L+E+A WFAI    +V+ET SINTADQ + +  IVH +PFYLVTSAIHMPRSM LCQ QGLHPIAAPTD+T +W+ + W K  +PN +NL Y S+A+HE+LG+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966506950|ref|WP_058523596.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella birminghamensis] &gt;gi|962186541|gb|KTC71682.1| membrane protein [Legionella birminghamensis]</Hit_def>
+  <Hit_accession>WP_058523596</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>3.26769e-78</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>IRHLLEYLLHPFFLCLLALGICIFLLYRRLAPT---FTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>VRHLLEAVINPFILLILFFIFLLYKL-RKLEGSQRLFTGFSIFLMLLLLI--STGWLPRFITNSLERQYPPIKKTDPKIEWIVVLSGGQTEVKNLPPQSLLYAASVKRVLEGLRLWRQTPGANLLLSGGGYGQETAEAFRMRKLALLYPIDSSRLQIETGSLNTADQAKAIKTWVGDKPFYLVTSAIHMPRAMALCQAQGLHPIAAPTDFTLYWGDERWQKTFIPNAQNMVFLNIALHELMGLAWG</Hsp_hseq>
+      <Hsp_midline>+RHLLE +++PF L +L     ++ L R+L  +   FT   +F++L++L+  STGWLP ++T  LE +YP +K+ +P ++W+VVL GGQ   + +P   LL +AS+KR++EG+RL+R  P A LLLSGGG   E +EA  + +LA  + IDS ++ +ET S+NTADQA+ +   V D+PFYLVTSAIHMPR+MALCQ QGLHPIAAPTDFT +W  + W K  IPN+ N+ + +IALHE++G  W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|698846316|emb|CEG60301.1|</Hit_id>
+  <Hit_def>conserved protein of unknown function [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>CEG60301</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>3.46294e-78</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIW</Hsp_qseq>
+      <Hsp_hseq>RHLFEVMLNPFFLVLLFFTVLLVLLWFIGDHRFIRGGLVLVLVLLIFFSTGWFVQSLTRNLEDEYSPITKINPAIHWVVVLSGGQSDRIDMPANSLLSNVSIKRLLEGLRLYRQLPAAKLLLSGGGYGFEVPEANHLSEIASWFAIPQSDIVLETKSINTADQIKAIKQIVHKEPFYLVTSAIHMPRSMQLCQAQGLHPIAAPTDYTLYWNDERWAKRYLPNPHNLFYLSVAMHELLGRAW</Hsp_hseq>
+      <Hsp_midline>RHL E +L+PFFL LL   + + LL+      F +  L +VL++L+  STGW    LT  LE  Y  + ++NP + WVVVL GGQ+   +MPAN LL++ SIKRL+EG+RL+R LP AKLLLSGGG   E  EA  L+E+A WFAI    +V+ET SINTADQ + +  IVH +PFYLVTSAIHMPRSM LCQ QGLHPIAAPTD+T +W+ + W K  +PN +NL Y S+A+HE+LG+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|769984582|ref|WP_045100564.1|</Hit_id>
+  <Hit_def>membrane protein [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045100564</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>7.49726e-78</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>STGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIW</Hsp_qseq>
+      <Hsp_hseq>STGWFVQSLTRNLEDEYSPITKINPAIHWVVVLSGGQSDRIDMPANSLLSNVSIKRLLEGLRLYRQLPAAKLLLSGGGYGFEVPEANHLSEIASWFAIPQSDIVLETKSINTADQIKAIKQIVHKEPFYLVTSAIHMPRSMQLCQAQGLHPIAAPTDYTLYWNDERWAKRYLPNPHNLFYLSVAMHELLGRAW</Hsp_hseq>
+      <Hsp_midline>STGW    LT  LE  Y  + ++NP + WVVVL GGQ+   +MPAN LL++ SIKRL+EG+RL+R LP AKLLLSGGG   E  EA  L+E+A WFAI    +V+ET SINTADQ + +  IVH +PFYLVTSAIHMPRSM LCQ QGLHPIAAPTD+T +W+ + W K  +PN +NL Y S+A+HE+LG+ W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966515535|ref|WP_058532052.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella rubrilucens] &gt;gi|962263059|gb|KTD47145.1| membrane protein [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058532052</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.047</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>2.15395e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MAFIRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>MTGIRHLLEALLNPLCLFLVVYTLLLIRLWRQ-GDRLSRIGFSLLYLMLLFVSTGWLPKTLTAGLEQQYPVVKQVDPRVRWVVVFSGGQAEVAEQPEHLLLYNASIKRLLEGLRLYRQLPDATLLLSGGGFGGERAESERMAQLADWFNKPLKPVVLETMSLNTAQQAKAIKRWVHEQPFYLVTSAIHMPRAMALCRSQGLKPIAAPADRSLYWQDERWEKRYIPNPQNMVYLSIALHELLGMAWA</Hsp_hseq>
+      <Hsp_midline>M  IRHLLE LL+P  L L+   + +  L+R+     +++   ++ ++LL +STGWLP  LT  LE +YP+VK+V+P V+WVVV  GGQ    E P + LL +ASIKRL+EG+RL+R LPDA LLLSGGG  GE++E+  + +LA WF    + VV+ET+S+NTA QA+ +   VH+QPFYLVTSAIHMPR+MALC+ QGL PIAAP D + +W  + W K  IPN  N+ Y SIALHE+LG  WA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966441872|ref|WP_058482134.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella spiritensis] &gt;gi|962282345|gb|KTD66129.1| membrane protein [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058482134</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.047</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>2.20143e-77</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>IRHLLEYLLHPFFLCLLALGICIFLLYRRLAPTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>LRHIFEALFSPFCLVMIGFTALLFCLYRHRVPMFLKTGFTVIYAVLLATSLGWLPYVLTTHLENQYHVVDKPDPGISRVVVFSGGQVDIPGKPAGDLLNTASIKRLIEGIRLLRQLPSGKLLLSGGGYGGELPEAERMRQVVSLFALPPGDVILETRSLNTADQARAIKHWVHEEPFYLVTSAIHMPRAMALCRSQGLHPVAAPADFTFFWNDERWGKFYVPNAHNLVYLTIALHELVGQVWG</Hsp_hseq>
+      <Hsp_midline>+RH+ E L  PF L ++     +F LYR   P F K    V+  VLLA S GWLP  LT  LE++Y +V + +P +  VVV  GGQ      PA DLL +ASIKRLIEG+RL R LP  KLLLSGGG  GE  EA  + ++   FA+    V++ET S+NTADQAR +   VH++PFYLVTSAIHMPR+MALC+ QGLHP+AAP DFTFFW+ + W K  +PN++NL Y +IALHE++G++W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966476912|ref|WP_058507645.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella quinlivanii] &gt;gi|962266178|gb|KTD50214.1| membrane protein [Legionella quinlivanii] &gt;gi|1090729378|emb|SEF47250.1| Uncharacterized SAM-binding protein YcdF, DUF218 family [Legionella quinlivanii DSM 21216]</Hit_def>
+  <Hit_accession>WP_058507645</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>3.39707e-76</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>IRHLLEYLLHPFFLCLLALGICIFLLYRRL--APTFTKVMLFVVLIVLLAMSTGWLPSYLTYQLESRYPIVKRVNPNVKWVVVLGGGQNIGEEMPANDLLTSASIKRLIEGVRLFRTLPDAKLLLSGGGSAGEQSEALLLTELAKWFAIDSEKVVVETVSINTADQARELAAIVHDQPFYLVTSAIHMPRSMALCQQQGLHPIAAPTDFTFFWSTDTWVKMVIPNSYNLAYTSIALHEILGKIWA</Hsp_qseq>
+      <Hsp_hseq>IRHLIEAVANPFFLLILFFAFLLYKLGKSTDSRPLFIGFSIFFAF--LLVISTGWLPQLLTHSLEKQYLPVKKINPEVQWIVVLSGGQTEIEGLPPQSLLYSASVKRVLEGLRLWRQSPSINLLLSGGGYGQEKAEAFRMRKLALLYPLDTSRLQIETGSLNTADQAVAIKAWVKDKPFYLVTSAIHMPRAMALCEAQGLHPIAAPTDFTLYWGDERWQKTIIPNAQNMVFLNIALHELMGLAWG</Hsp_hseq>
+      <Hsp_midline>IRHL+E + +PFFL +L     ++ L +     P F    +F     LL +STGWLP  LT+ LE +Y  VK++NP V+W+VVL GGQ   E +P   LL SAS+KR++EG+RL+R  P   LLLSGGG   E++EA  + +LA  + +D+ ++ +ET S+NTADQA  + A V D+PFYLVTSAIHMPR+MALC+ QGLHPIAAPTDFT +W  + W K +IPN+ N+ + +IALHE++G  W </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

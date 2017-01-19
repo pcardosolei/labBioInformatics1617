@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_187493</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834178</BlastOutput_query-def>
+  <BlastOutput_query-len>312</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_187493</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834178</Iteration_query-def>
+  <Iteration_query-len>312</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250773|ref|WP_010948313.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|52842819|ref|YP_096618.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629930|gb|AAU28671.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509324|gb|AEW52848.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948313</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>645.195</Hsp_bit-score>
+      <Hsp_score>1663</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>312</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119380391|ref|WP_072356488.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356488</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>644.425</Hsp_bit-score>
+      <Hsp_score>1661</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLTPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQL+PGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119427041|ref|WP_072402341.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402341</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.269</Hsp_bit-score>
+      <Hsp_score>1658</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MRMNMSITGIDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MRMNMSITG+DSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|395128614|emb|CCD06832.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>CCD06832</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.417</Hsp_bit-score>
+      <Hsp_score>1648</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>MNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLRRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFL RLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|395131697|emb|CCD09990.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>CCD09990</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>639.032</Hsp_bit-score>
+      <Hsp_score>1647</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>MNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MNMSITGMDSGHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MNMSITGMDS HVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|511303812|ref|WP_016357031.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|115311640|sp|Q5ZSA6.2|MURB_LEGPH RecName: Full=UDP-N-acetylenolpyruvoylglucosamine reductase; AltName: Full=UDP-N-acetylmuramate dehydrogenase &gt;gi|509083285|gb|AGN15533.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772861|emb|CZI18364.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998775690|emb|CZG59299.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998778276|emb|CZG74534.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998784515|emb|CZG84329.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998787467|emb|CZG57943.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998796479|emb|CZH98600.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998800350|emb|CZL05622.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998805767|emb|CZK06450.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998808399|emb|CZH89177.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998811872|emb|CZH77538.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998814329|emb|CZG63421.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998817687|emb|CZL57523.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998820789|emb|CZL59762.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998826751|emb|CZK07381.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998832611|emb|CZI08737.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998835724|emb|CZK86194.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998837886|emb|CZJ74311.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998842263|emb|CZL11564.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998844681|emb|CZK27245.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998847632|emb|CZK65796.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998850281|emb|CZI40209.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998853736|emb|CZL24494.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998856432|emb|CZL31797.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998859755|emb|CZL71816.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998862709|emb|CZK19908.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998865434|emb|CZJ42636.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998869825|emb|CZJ34912.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998871020|emb|CZM15228.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998874508|emb|CZK36560.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998877505|emb|CZM00894.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998880572|emb|CZI88440.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998887998|emb|CZL48358.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998889267|emb|CZK24154.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998895550|emb|CZK00612.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998906083|emb|CZK54957.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998909654|emb|CZL07673.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998912343|emb|CZG98163.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998915876|emb|CZK63628.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998918345|emb|CZK84353.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998921316|emb|CZL39832.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998927621|emb|CZL65005.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998930708|emb|CZK76633.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998933887|emb|CZL74558.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998939923|emb|CZK77670.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998946000|emb|CZK96762.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998949044|emb|CZK83554.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998958570|emb|CZL99338.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998961476|emb|CZK23976.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998964657|emb|CZK07023.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998966921|emb|CZM51047.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998970463|emb|CZK52517.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998973846|emb|CZK27921.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998979551|emb|CZL60874.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998985900|emb|CZK01321.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998988670|emb|CZL47115.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998993933|emb|CZI45711.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998998068|emb|CZJ90075.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999008040|emb|CZK29021.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999012973|emb|CZL45318.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999016895|emb|CZL70283.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999022693|emb|CZL16519.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999025336|emb|CZK73451.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999037093|emb|CZL53225.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999046817|emb|CZL76166.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999061624|emb|CZL13493.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999067411|emb|CZJ19385.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999076865|emb|CZG58006.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999080208|emb|CZJ90565.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999082833|emb|CZK78990.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999090457|emb|CZK40356.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999092451|emb|CZL39255.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999095237|emb|CZG85951.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999098748|emb|CZG61941.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999101177|emb|CZL68990.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999110380|emb|CZL14299.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999113841|emb|CZL52596.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999116378|emb|CZK47197.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999126290|emb|CZK78121.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999131556|emb|CZL93879.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999134775|emb|CZL15838.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999138123|emb|CZK29497.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999141762|emb|CZL43064.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999144593|emb|CZK70857.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999147615|emb|CZL48192.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999156894|emb|CZH75543.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999175755|emb|CZL03853.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999191318|emb|CZI18993.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999194441|emb|CZI45498.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999200306|emb|CZG61849.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999203752|emb|CZI45430.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999209979|emb|CZK74473.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999219339|emb|CZL32401.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999222433|emb|CZI36904.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999335240|emb|CZK71712.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1002075520|emb|CZQ94051.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1002079025|emb|CZQ94302.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1003020117|emb|CZR21398.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1003022996|emb|CZR20283.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1003026838|emb|CZR17900.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073865654|gb|AOU05605.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073868623|gb|AOU08573.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073871618|gb|AOU11567.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073874487|gb|AOU14435.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073877543|gb|AOU17490.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073880506|gb|AOU20452.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073883503|gb|AOU23448.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073886496|gb|AOU26440.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073889464|gb|AOU29407.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073892448|gb|AOU32390.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073895416|gb|AOU35357.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073898374|gb|AOU38314.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073901340|gb|AOU41279.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073904249|gb|AOU44187.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073907202|gb|AOU47139.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073910220|gb|AOU50155.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073913232|gb|AOU53164.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073916192|gb|AOU56123.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073919155|gb|AOU59085.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073922058|gb|AOU61987.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073925141|gb|AOU65068.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073928104|gb|AOU68030.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073931090|gb|AOU70999.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073934459|gb|AOU74018.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073937424|gb|AOU84423.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073947690|gb|AOU87414.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1073950618|gb|AOU90341.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1080008974|gb|AOW58962.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011359|gb|AOW60850.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017603|gb|AOW66248.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila] &gt;gi|1104004015|emb|SFZ46788.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1129969276|gb|APT99635.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_016357031</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>636.721</Hsp_bit-score>
+      <Hsp_score>1641</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>308</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|652974012|ref|WP_027226726.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998924268|emb|CZJ94639.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998942513|emb|CZK05118.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998954564|emb|CZK40606.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998976209|emb|CZJ66539.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998991537|emb|CZK08901.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999009806|emb|CZK01947.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999018942|emb|CZJ61973.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999027960|emb|CZJ89258.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999031520|emb|CZG66763.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999034072|emb|CZJ98281.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999040279|emb|CZJ68358.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999043054|emb|CZJ76670.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999048991|emb|CZJ87133.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999052248|emb|CZJ68897.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999055134|emb|CZJ95901.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999064358|emb|CZJ79231.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999070087|emb|CZJ74202.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999073454|emb|CZK05815.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999085603|emb|CZJ96538.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999184479|emb|CZP92510.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999198287|emb|CZP06081.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999206458|emb|CZP59914.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999227873|emb|CZP41284.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999235028|emb|CZP51158.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999240524|emb|CZH75435.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999244193|emb|CZH70597.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999249401|emb|CZG77645.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999252868|emb|CZG90454.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999256131|emb|CZP73004.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999259178|emb|CZP38615.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999262176|emb|CZH07727.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999265478|emb|CZP04637.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999272054|emb|CZP51050.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999274321|emb|CZH07435.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999277761|emb|CZP28415.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999281533|emb|CZP23792.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999284181|emb|CZP50751.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999290816|emb|CZP26843.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999296784|emb|CZP50472.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999300023|emb|CZP28680.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999307134|emb|CZH64968.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999309520|emb|CZP18585.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999315994|emb|CZI03880.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999318921|emb|CZP56081.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999322173|emb|CZH91240.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999324956|emb|CZH15331.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999327568|emb|CZH27390.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999332911|emb|CZG04781.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999338022|emb|CZP44576.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999340710|emb|CZG98194.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999344186|emb|CZP92116.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999347474|emb|CZP61121.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999349555|emb|CZH47716.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999353707|emb|CZP51514.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999356816|emb|CZP74559.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999363182|emb|CZP70607.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999366945|emb|CZP70715.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999369637|emb|CZP87425.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999392459|emb|CZP95236.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999398707|emb|CZP98612.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999403293|emb|CZP48842.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999426470|emb|CZG24165.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999438362|emb|CZG45673.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999448605|emb|CZG04785.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999450776|emb|CZP29591.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999470013|emb|CZG83533.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999521328|emb|CZP43871.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999778458|emb|CZG99800.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1003028415|emb|CZR23619.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1015434035|gb|AMV15662.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1041016585|gb|ANN93646.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1103997777|emb|SFZ46763.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1104000915|emb|SFZ46790.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226726</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.565</Hsp_bit-score>
+      <Hsp_score>1638</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLTPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQL+PGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1005410805|ref|WP_061640037.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998792808|emb|CZI68572.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640037</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.18</Hsp_bit-score>
+      <Hsp_score>1637</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLKLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKL+LSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|500496134|ref|WP_011947532.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|166222839|sp|A5IAW3.1|MURB_LEGPC RecName: Full=UDP-N-acetylenolpyruvoylglucosamine reductase; AltName: Full=UDP-N-acetylmuramate dehydrogenase &gt;gi|148280425|gb|ABQ54513.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila str. Corby] &gt;gi|761996835|dbj|GAN31010.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998802606|emb|CZH88250.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999004438|emb|CZI42496.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999151552|emb|CZH54567.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999166039|emb|CZG69042.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999168294|emb|CZI50899.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999286807|emb|CZI76767.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999293070|emb|CZI61340.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999302282|emb|CZI56212.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999312029|emb|CZI86641.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1002091738|emb|CZR05975.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947532</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.795</Hsp_bit-score>
+      <Hsp_score>1636</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSHVTESQGALLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSSHVTESQG LLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|499535705|ref|WP_011216488.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|81367751|sp|Q5WTI8.1|MURB_LEGPL RecName: Full=UDP-N-acetylenolpyruvoylglucosamine reductase; AltName: Full=UDP-N-acetylmuramate dehydrogenase &gt;gi|53755282|emb|CAH16776.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila str. Lens] &gt;gi|998781187|emb|CZJ44065.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998824265|emb|CZG43861.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998829480|emb|CZG80226.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998883344|emb|CZI77373.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998898815|emb|CZJ44957.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998936465|emb|CZM48217.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998952220|emb|CZJ33072.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999000397|emb|CZG76213.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999057941|emb|CZM54499.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999104188|emb|CZI06556.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999128799|emb|CZH04355.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999153876|emb|CZM18421.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999158585|emb|CZJ89769.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999162964|emb|CZM05758.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999177495|emb|CZJ87307.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999237163|emb|CZG77600.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1002085493|emb|CZQ99615.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1002088707|emb|CZQ78692.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1080003051|gb|AOW53623.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005204|gb|AOW55484.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015548|gb|AOW64421.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila] &gt;gi|1104007469|emb|SFZ46864.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011216488</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.795</Hsp_bit-score>
+      <Hsp_score>1636</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGIDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITG+DSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|652971977|ref|WP_027224799.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|761987454|dbj|GAN24629.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|761990468|dbj|GAN18577.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|761993658|dbj|GAN21683.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998789998|emb|CZH01726.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998892878|emb|CZJ07055.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|998982005|emb|CZI87883.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999106969|emb|CZI85684.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999231243|emb|CZI63482.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1002082118|emb|CZQ95783.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1032658692|gb|ANH13963.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1032661654|gb|ANH16924.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1032664632|gb|ANH19901.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027224799</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.795</Hsp_bit-score>
+      <Hsp_score>1636</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSGHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITGMDS HVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|652967537|ref|WP_027220499.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999248117|emb|CZH52712.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999269673|emb|CZO23908.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999455503|emb|CZH43711.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999462242|emb|CZG07214.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999465379|emb|CZM25001.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999468365|emb|CZO08626.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999475002|emb|CZM44815.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999478196|emb|CZN26281.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999481391|emb|CZM64412.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999484421|emb|CZN97788.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999487507|emb|CZL94564.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999490698|emb|CZN57506.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999493994|emb|CZL97204.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999500326|emb|CZN56779.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999503548|emb|CZN85928.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999506744|emb|CZM91907.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999510049|emb|CZG27421.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999513136|emb|CZN16990.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999516597|emb|CZL80953.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999519821|emb|CZM50730.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999532689|emb|CZO33287.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999536030|emb|CZN19206.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999539082|emb|CZM54721.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999542264|emb|CZO07367.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999545476|emb|CZO46276.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999548562|emb|CZN73122.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999551864|emb|CZN99943.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999555241|emb|CZM97511.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999558254|emb|CZO46041.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999561340|emb|CZM26675.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999564647|emb|CZO46824.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999567728|emb|CZM40062.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999570927|emb|CZN38577.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999574117|emb|CZN75615.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999580608|emb|CZO00058.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999584120|emb|CZO13429.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999587243|emb|CZM48263.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999590505|emb|CZM22082.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999593380|emb|CZN31925.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999596578|emb|CZN94507.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999599880|emb|CZO25104.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999603264|emb|CZL63266.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999606275|emb|CZN39821.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999609675|emb|CZN41147.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999615851|emb|CZM30933.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999619000|emb|CZN76679.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999622324|emb|CZO51494.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999625632|emb|CZN54274.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999628951|emb|CZM41926.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999631829|emb|CZM45921.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999635131|emb|CZN41096.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999638217|emb|CZN34669.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999641413|emb|CZO62445.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999644584|emb|CZO28137.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999648121|emb|CZN76260.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999650932|emb|CZN92683.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999654304|emb|CZN92534.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999657682|emb|CZM01523.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999660587|emb|CZM48083.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999664101|emb|CZM81650.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999667088|emb|CZM25327.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999670282|emb|CZL74533.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999673669|emb|CZM19399.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999676567|emb|CZN61406.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999679602|emb|CZM62003.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999682797|emb|CZM69445.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999686023|emb|CZN92117.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999689637|emb|CZN10392.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999692554|emb|CZN80701.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999696048|emb|CZN01879.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999699247|emb|CZL98540.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999702475|emb|CZM43237.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999705655|emb|CZL60003.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999708679|emb|CZN41900.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999711931|emb|CZM87639.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999715386|emb|CZM88324.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999718523|emb|CZO28176.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999721403|emb|CZM67023.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999724743|emb|CZN17093.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999728176|emb|CZL89577.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999731636|emb|CZO21376.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999734885|emb|CZL99858.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999738213|emb|CZO47962.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999741087|emb|CZM25595.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999744611|emb|CZN07488.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999747914|emb|CZM00423.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999750809|emb|CZL79374.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999754113|emb|CZM71907.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999757456|emb|CZM84569.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999760397|emb|CZM14806.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999763888|emb|CZN10486.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999767085|emb|CZM56939.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999769826|emb|CZN40009.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999773530|emb|CZH73778.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999776558|emb|CZL89736.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999783422|emb|CZH50441.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999786598|emb|CZM18582.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999789811|emb|CZO48597.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999793242|emb|CZO51776.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999796489|emb|CZI09569.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999800217|emb|CZO39642.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1003034761|emb|CZR27592.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027220499</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>634.41</Hsp_bit-score>
+      <Hsp_score>1635</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLRRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFL RLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|646381987|ref|WP_025520051.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|762000207|dbj|GAN27939.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999173418|emb|CZH70312.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999182522|emb|CZG26756.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999188687|emb|CZI76161.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999213619|emb|CZG42055.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999217091|emb|CZI73619.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999225935|emb|CZG33837.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999361104|emb|CZI02454.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999374062|emb|CZG04782.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999377335|emb|CZI90913.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999380634|emb|CZH51242.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999383422|emb|CZI17938.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999387449|emb|CZG09655.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999390256|emb|CZI09708.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999397079|emb|CZG17292.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999406408|emb|CZG42215.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999409420|emb|CZH72415.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999412566|emb|CZG26975.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999416636|emb|CZG13537.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999419265|emb|CZG42739.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999422623|emb|CZH45543.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999429129|emb|CZG31637.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999432717|emb|CZG07650.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999435725|emb|CZH65147.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999442233|emb|CZJ83886.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999445343|emb|CZH56847.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999458345|emb|CZJ88873.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999497034|emb|CZI11408.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999526315|emb|CZI60640.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999529197|emb|CZI16149.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999577083|emb|CZI02768.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999612384|emb|CZI07869.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1041019584|gb|ANN96644.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_025520051</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.869</Hsp_bit-score>
+      <Hsp_score>1631</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSEGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLTPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLS GEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQL+PGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1011910311|ref|WP_062724996.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062724996</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGIDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRNRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITG+DSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIR RKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1006526270|ref|WP_061784464.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1005834282|gb|AMQ29008.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061784464</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.713</Hsp_bit-score>
+      <Hsp_score>1628</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MGITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNSLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLTPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>M ITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARN+LSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQL+PGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1004334820|ref|WP_061513745.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513745</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.328</Hsp_bit-score>
+      <Hsp_score>1627</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>304</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDGSHVTESQGNLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGISIGGAIVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSITGMD SHVTESQG LLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKG+SIGGA+VSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|469490668|gb|AGH52513.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pneumophila LPE509]</Hit_def>
+  <Hit_accession>AGH52513</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>626.32</Hsp_bit-score>
+      <Hsp_score>1614</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>303</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|295650160|gb|ADG26007.1|</Hit_id>
+  <Hit_def>UDP-N-acetylmuramate dehydrogenase [Legionella pneumophila 2300/99 Alcoy]</Hit_def>
+  <Hit_accession>ADG26007</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>624.394</Hsp_bit-score>
+      <Hsp_score>1609</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>302</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MDSSHVTESQGALLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MDSSHVTESQG LLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1004014384|ref|WP_061483697.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483697</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>624.009</Hsp_bit-score>
+      <Hsp_score>1608</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>303</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITEMDSSLVTECQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRANTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELMREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MSIT MDSS VTE QGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRA TQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIEL+REVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|81369791|sp|Q5X1S7.1|MURB_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylenolpyruvoylglucosamine reductase; AltName: Full=UDP-N-acetylmuramate dehydrogenase &gt;gi|53752387|emb|CAH13819.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila str. Paris] &gt;gi|536611655|gb|ERB40173.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila str. 121004] &gt;gi|541998737|gb|ERH44753.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila str. Leg01/53] &gt;gi|542000239|gb|ERH46230.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila str. Leg01/11] &gt;gi|542123133|gb|ERI49442.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila str. Leg01/20]</Hit_def>
+  <Hit_accession>Q5X1S7</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>622.083</Hsp_bit-score>
+      <Hsp_score>1603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSEGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLTPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_hseq>
+      <Hsp_midline>MDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLS GEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQL+PGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1011914649|ref|WP_062727863.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727863</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>611.683</Hsp_bit-score>
+      <Hsp_score>1576</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>300</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSLVTECQGTLLFNEPLAEYTTWRVGGPAARLYKPANTADLALFLSRLPSDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPDEFEVAYRHVAGLGDEWFISATLQLTPGNKETSLQLIKDLLAHRANTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELMREVHIIGDANVQIR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSS VTE QGTLLFNEPLAEYTTWRVGGPAARLYKPAN  DLALFLSRLP DEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKP+EFEVAYRHVAGLGDEWFISA LQL+PGNKETSLQLIKDLLAHRA TQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIEL+REVHIIGDANVQ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652976432|ref|WP_027229104.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|985764624|gb|KXB25743.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|985767104|gb|KXB28199.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999119074|emb|CZG85641.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|999122199|emb|CZH18742.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1024339680|gb|KZX34019.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1108605964|gb|APF04332.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. fraseri] &gt;gi|1108608947|gb|APF07314.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229104</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.527</Hsp_bit-score>
+      <Hsp_score>1573</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>299</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSLVTEYQGTLLFNEPLAEYTTWRVGGPAARLYKPANTADLALFLSRLPSDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPDEFEVAYRHVAGLGDEWFISATLQLTPGNKETSLQLIKDLLTHRANTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELMREVHIIGDANVQIR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSS VTE QGTLLFNEPLAEYTTWRVGGPAARLYKPAN  DLALFLSRLP DEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKP+EFEVAYRHVAGLGDEWFISA LQL+PGNKETSLQLIKDLL HRA TQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIEL+REVHIIGDANVQ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|652969873|ref|WP_027222766.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila] &gt;gi|1005362961|gb|AMP88830.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367775|gb|AMP93552.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370694|gb|AMP96470.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222766</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>605.134</Hsp_bit-score>
+      <Hsp_score>1559</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>293</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANVQTR</Hsp_qseq>
+      <Hsp_hseq>MSITGMDSSLVTECQGTLLFNEPLAEYTTWRVGGPAARLYKPANTADLALFLSQLPSDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLNDKCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPDEFEVAYRHVAGLGDEWFISATLQLTPGNKETSLQLIKDLLTHRANTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELMREVHIIGDANVQIR</Hsp_hseq>
+      <Hsp_midline>MSITGMDSS VTE QGTLLFNEPLAEYTTWRVGGPAARLYKPAN  DLALFLS+LP DEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLL+D CIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKP+EFEVAYRHVAGLGDEWFISA LQL+PGNKETSLQLIKDLL HRA TQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIEL+REVHIIGDANVQ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|698843950|emb|CEG57919.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>CEG57919</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.258</Hsp_bit-score>
+      <Hsp_score>1375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MRINMSITEKDCELVTQYQGTLLLNEPLGDYTTWRVGGPATRLYKPTSVADLAFFLRQLPENEPLLWLGLGSNSLIRDKGFSGTVILTQGCLKEMTLLPGQSIRVEAGVSCASMARFAARNNFSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVVEVQTINRQGEIRVRKPEEFEVGYRHVAGLGEEWFISATIKLPTGDKETSLQVIKELLAHRTNTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGASIGGALVSQKHANFIINHQGEATAADIEALIHLVQTKVREQTAIELIHEVHIIGD</Hsp_hseq>
+      <Hsp_midline>MR+NMSIT  D   VT+ QGTLL NEPL +YTTWRVGGPA RLYKP ++ DLA FL +LP +EPLLWLGLGSNSLIRD GFSGTVILTQGCLKEMTLL    IRVEAGVSCASMARF+ARNN SGGEFWAGIPGTMGGALRMNAGCHGGETWQSV+EVQTINR+GEIR RKPEEFEV YRHVAGLG+EWFISA ++L  G+KETSLQ+IK+LLAHR  TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG SIGGA+VS+KHANFIINHQG ATAA+IEALIHLVQTKVREQT+IELI EVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966439886|ref|WP_058480209.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella waltersii] &gt;gi|962295556|gb|KTD79201.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480209</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.406</Hsp_bit-score>
+      <Hsp_score>1365</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSIMEKEVGLATECRGTLLFNEPLAEYTTWRVGGPAAKLYKPANVQDLALFLQRLPAEEPVVWIGLGSNSLIRDKGFSGTVILTQGCLKEMTLLNDNRIRVEAGVSCASMARFAARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQAVTEIETVSRQGEIKTRKPEEFEIAYRHVAGLQDEWFISATFKLMSGNKDHSLQLIKELLAKRANTQPTNEYNCGSVFRNPPGDFAARLIEACGLKGTKIGGAVVSQKHANFIINHEGTATAADIEALIHLVQTKVKEQTTIELKREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MSI   +    TE +GTLLFNEPLAEYTTWRVGGPAA+LYKPAN+ DLALFL RLP +EP++W+GLGSNSLIRD GFSGTVILTQGCLKEMTLL+DN IRVEAGVSCASMARF+ARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQ+V E++T++R+GEI+TRKPEEFE+AYRHVAGL DEWFISA  +L  GNK+ SLQLIK+LLA RA TQPTNEYNCGSVFRNPPGDFAARLIE+CGLKG  IGGAVVS+KHANFIINH+GTATAA+IEALIHLVQTKV+EQT+IEL REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966434567|ref|WP_058474998.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella quateirensis] &gt;gi|962260593|gb|KTD44703.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474998</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.48</Hsp_bit-score>
+      <Hsp_score>1360</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSIMEKDCGLAAECQGTLLFNEPLADYTTWRVGGPATRLYKPAHLADLVVFLRQLPKNEPLLWLGLGSNSLIRDKGFSGTVVVTQGCLKEISLLNEDTVRVEAGVSCASMARFTARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRHGEIRVRKPEEFEVAYRHVAGLDNEWFISATFKLSPGNKETSLQVIKDLLAHRTNTQPTNEYNCGSVFRNPPGNYAARLIESCGLKGFQIGGAVVSQKHANFIINHEGTASAADIEALIHLVQTKVKEQTTIELMHEVHIIGD</Hsp_hseq>
+      <Hsp_midline>MSI   D     E QGTLLFNEPLA+YTTWRVGGPA RLYKPA++ DL +FL +LP +EPLLWLGLGSNSLIRD GFSGTV++TQGCLKE++LL+++ +RVEAGVSCASMARF+ARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINR GEIR RKPEEFEVAYRHVAGL +EWFISA  +LSPGNKETSLQ+IKDLLAHR  TQPTNEYNCGSVFRNPPG++AARLIESCGLKG  IGGAVVS+KHANFIINH+GTA+AA+IEALIHLVQTKV+EQT+IEL+ EVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|769980345|ref|WP_045096330.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella fallonii]</Hit_def>
+  <Hit_accession>WP_045096330</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>526.939</Hsp_bit-score>
+      <Hsp_score>1356</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSITEKDCELVTQYQGTLLLNEPLGDYTTWRVGGPATRLYKPTSVADLAFFLRQLPENEPLLWLGLGSNSLIRDKGFSGTVILTQGCLKEMTLLPGQSIRVEAGVSCASMARFAARNNFSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVVEVQTINRQGEIRVRKPEEFEVGYRHVAGLGEEWFISATIKLPTGDKETSLQVIKELLAHRTNTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGASIGGALVSQKHANFIINHQGEATAADIEALIHLVQTKVREQTAIELIHEVHIIGD</Hsp_hseq>
+      <Hsp_midline>MSIT  D   VT+ QGTLL NEPL +YTTWRVGGPA RLYKP ++ DLA FL +LP +EPLLWLGLGSNSLIRD GFSGTVILTQGCLKEMTLL    IRVEAGVSCASMARF+ARNN SGGEFWAGIPGTMGGALRMNAGCHGGETWQSV+EVQTINR+GEIR RKPEEFEV YRHVAGLG+EWFISA ++L  G+KETSLQ+IK+LLAHR  TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG SIGGA+VS+KHANFIINHQG ATAA+IEALIHLVQTKVREQT+IELI EVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|489731079|ref|WP_003635195.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella longbeachae] &gt;gi|269987424|gb|EEZ93679.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella longbeachae D-4968] &gt;gi|288859252|emb|CBJ13186.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635195</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.309</Hsp_bit-score>
+      <Hsp_score>1331</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSTIENDCDFTDKLQGTLLYNESLAEYTTWRVGGPAAKLYKPANIADLSLFLRQLPETEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEVALLDAQTIKVGAGVSCASMARFCARNDLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIELQTMTRRGEIKIRKPEEYEVAYRHVLAPSDEWFVSATFKLNPGNKETSLQVIKDLLAHRANTQPTNEYNCGSVFRNPPGDYAARLIESCGLKGFTIGGAVVSQKHANFIINHQGSAIAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MS    D     + QGTLL+NE LAEYTTWRVGGPAA+LYKPANI DL+LFL +LP  EPLLWLGLGSNSLIRDGGFSGTVILTQGCLKE+ LL    I+V AGVSCASMARF ARN+LSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIE+QT+ RRGEI+ RKPEE+EVAYRHV    DEWF+SA  +L+PGNKETSLQ+IKDLLAHRA TQPTNEYNCGSVFRNPPGD+AARLIESCGLKG +IGGAVVS+KHANFIINHQG+A AA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966415384|ref|WP_058458669.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Fluoribacter bozemanae] &gt;gi|962189894|gb|KTC74996.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458669</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.924</Hsp_bit-score>
+      <Hsp_score>1330</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSPTENDCGLVAELQGSLLYNEPLAEYTTWRVGGPAARLYKPKNIPDLALFLRQLPETESLLWLGLGSNSLIRDNGFSGTVILTQGCLKEMTLLDMQTVKVEAGVSCASMARFCARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVELQTMTRNGEIRIRKPEEYEVAYRHVSGPPNEWFISATFKLNPGDKETSLQVIKELLAHRANTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGFNIGGAMVSQKHANFIINHQGSATAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MS T  D   V E QG+LL+NEPLAEYTTWRVGGPAARLYKP NI DLALFL +LP  E LLWLGLGSNSLIRD GFSGTVILTQGCLKEMTLL    ++VEAGVSCASMARF ARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQ V+E+QT+ R GEIR RKPEE+EVAYRHV+G  +EWFISA  +L+PG+KETSLQ+IK+LLAHRA TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG +IGGA+VS+KHANFIINHQG+ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|518063307|ref|WP_019233515.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella anisa] &gt;gi|962187593|gb|KTC72719.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233515</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.924</Hsp_bit-score>
+      <Hsp_score>1330</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHV-TESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSPTENDCGLVEAELQGSLLYNEPLAEYTTWRVGGPAAKLYKPKNIPDLALFLRQLPETEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMALLDTQTVKVEAGVSCASMARFCARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVELQTMTRNGEIRIRKPEEYEVAYRHVSGPPDEWFISATFKLNPGDKETSLHAIKDLLAHRANTQPTNEYNCGSVFRNPPGSFAARLIESCGLKGFNIGGAVVSQKHANFIINHQGSATAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MS T  D   V  E QG+LL+NEPLAEYTTWRVGGPAA+LYKP NI DLALFL +LP  EPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEM LL    ++VEAGVSCASMARF ARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQ V+E+QT+ R GEIR RKPEE+EVAYRHV+G  DEWFISA  +L+PG+KETSL  IKDLLAHRA TQPTNEYNCGSVFRNPPG FAARLIESCGLKG +IGGAVVS+KHANFIINHQG+ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966504751|ref|WP_058521410.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella tucsonensis] &gt;gi|962290745|gb|KTD74453.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521410</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.76</Hsp_bit-score>
+      <Hsp_score>1314</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSPTENDCGLVAEFQGNLFHNESLAEYTTWRVGGPAARLYKPKSIADLALFLRQLPETEALLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLDMQTVKVEAGVSCASMARFCARNDLSGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVELQTMTRGGEIKIRKPEEYEVAYRHVSGPLDEWFISATFKLNPGDKETSLQVIKDLLAHRANTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGFNIGGAVVSQKHANFIINHQGSATAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MS T  D   V E QG L  NE LAEYTTWRVGGPAARLYKP +I DLALFL +LP  E LLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLL    ++VEAGVSCASMARF ARN+LSGGEFWAGIPGTMGGALRMNAGCHGGETWQ V+E+QT+ R GEI+ RKPEE+EVAYRHV+G  DEWFISA  +L+PG+KETSLQ+IKDLLAHRA TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG +IGGAVVS+KHANFIINHQG+ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966500559|ref|WP_058517232.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella parisiensis] &gt;gi|962255890|gb|KTD40027.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella parisiensis] &gt;gi|1069293455|gb|OEH48781.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517232</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.375</Hsp_bit-score>
+      <Hsp_score>1313</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSPTENDCGLVAELQGSLLYNEPLAEYTTWRVGGPANKLYKPKSIADLALFLRQLPETEPLLWLGLGSNSLIRDSGFSGTVILTQGCLKEIALLDMQTVKVEAGVSCASMARFCARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVELQTMTRNGEIRIRKPEEYEVAYRHTSGPSDEWFISATFKLNPGDKETSLQVIKDLLTHRANTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGFNIGGAMVSQKHANFIINYQGSATAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MS T  D   V E QG+LL+NEPLAEYTTWRVGGPA +LYKP +I DLALFL +LP  EPLLWLGLGSNSLIRD GFSGTVILTQGCLKE+ LL    ++VEAGVSCASMARF ARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQ V+E+QT+ R GEIR RKPEE+EVAYRH +G  DEWFISA  +L+PG+KETSLQ+IKDLL HRA TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG +IGGA+VS+KHANFIIN+QG+ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|750235086|ref|WP_040536225.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella drancourtii]</Hit_def>
+  <Hit_accession>WP_040536225</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.375</Hsp_bit-score>
+      <Hsp_score>1313</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDA</Hsp_qseq>
+      <Hsp_hseq>MSTVENECELTAEYQGTLLYNEPLAEYTTWRVGGPAAKLYKPAHAADLALFLRNLPEREPLLWLGLGSNSLIKDNGFSGTVVLTQGCLKEINLLSAQTVKVDAGVSCASMARFCARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVVEVQTITRSGEIKIRKPEEYEVAYRHVSGPADEWFISATFKLLAGTKETSLQVIKDLLAHRANTQPTSECNCGSVFRNPPGDFAARLIESCGLKGFSIGGAMVSQKHANFIINHQGLATAADIEALIHLVQTKVREQTTIELMREVHIIGDS</Hsp_hseq>
+      <Hsp_midline>MS    +     E QGTLL+NEPLAEYTTWRVGGPAA+LYKPA+  DLALFL  LP  EPLLWLGLGSNSLI+D GFSGTV+LTQGCLKE+ LLS   ++V+AGVSCASMARF ARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSV+EVQTI R GEI+ RKPEE+EVAYRHV+G  DEWFISA  +L  G KETSLQ+IKDLLAHRA TQPT+E NCGSVFRNPPGDFAARLIESCGLKG SIGGA+VS+KHANFIINHQG ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|363536110|gb|EHL29556.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>EHL29556</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.22</Hsp_bit-score>
+      <Hsp_score>1310</Hsp_score>
+      <Hsp_evalue>1.18879e-180</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>ESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDA</Hsp_qseq>
+      <Hsp_hseq>EYQGTLLYNEPLAEYTTWRVGGPAAKLYKPAHAADLALFLRNLPEREPLLWLGLGSNSLIKDNGFSGTVVLTQGCLKEINLLSAQTVKVDAGVSCASMARFCARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVVEVQTITRSGEIKIRKPEEYEVAYRHVSGPADEWFISATFKLLAGTKETSLQVIKDLLAHRANTQPTSECNCGSVFRNPPGDFAARLIESCGLKGFSIGGAMVSQKHANFIINHQGLATAADIEALIHLVQTKVREQTTIELMREVHIIGDS</Hsp_hseq>
+      <Hsp_midline>E QGTLL+NEPLAEYTTWRVGGPAA+LYKPA+  DLALFL  LP  EPLLWLGLGSNSLI+D GFSGTV+LTQGCLKE+ LLS   ++V+AGVSCASMARF ARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSV+EVQTI R GEI+ RKPEE+EVAYRHV+G  DEWFISA  +L  G KETSLQ+IKDLLAHRA TQPT+E NCGSVFRNPPGDFAARLIESCGLKG SIGGA+VS+KHANFIINHQG ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|498340528|ref|WP_010654684.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Fluoribacter dumoffii] &gt;gi|962206066|gb|KTC91003.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654684</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.449</Hsp_bit-score>
+      <Hsp_score>1308</Hsp_score>
+      <Hsp_evalue>2.56001e-180</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSPTENDYSLDNKFQGTLLYNEPLAEYTTWRVGGPAAKLYKPKNTADLASFLHKLPETEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEISLLDAQTVKVEAGVSCASMARFCARNDLAGGEFWAGIPGTMGGALRMNAGCHGGETWQFVSEVQTMNRKGEITTRKPEEYEVAYRHVSGPPDEWFISATFRLNPGKKETSLQVIKELLEHRANTQPTNEYNCGSVFRNPLGNFAARLIESCGLKGFNIGGAMVSQKHANFIINHQGSATAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MS T  D S   + QGTLL+NEPLAEYTTWRVGGPAA+LYKP N  DLA FL +LP  EPLLWLGLGSNSLIRDGGFSGTVILTQGCLKE++LL    ++VEAGVSCASMARF ARN+L+GGEFWAGIPGTMGGALRMNAGCHGGETWQ V EVQT+NR+GEI TRKPEE+EVAYRHV+G  DEWFISA  +L+PG KETSLQ+IK+LL HRA TQPTNEYNCGSVFRNP G+FAARLIESCGLKG +IGGA+VS+KHANFIINHQG+ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966461253|ref|WP_058493606.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella worsleiensis] &gt;gi|962294274|gb|KTD77941.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493606</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.449</Hsp_bit-score>
+      <Hsp_score>1308</Hsp_score>
+      <Hsp_evalue>2.61675e-180</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSIVEQDCGLAVGCQGTLLFNEPLADYTTWRVGGPAARLFKPAHLADLALFLRQLSKDEPLLWLGLGSNSLIRDKGFAGTVVVTQGCLKEIALLSEGIVRVEAGVSCASMARFTARNNLAGGEFWAGIPGTMGGALRMNAGCHGGETWQSVVEVQTMNRHGEIRVRTPQEFEVAYRHVTGLNDEWFISATFKFALGNKETSLQKIKDLLAHRANTQPTNEYNCGSVFRNPPGNYAAKLIESCGLKGFQLGGAVVSPKHANFIINHEGKASAADIEALIHLVQTKVKEQTTVELMHEVHIIGD</Hsp_hseq>
+      <Hsp_midline>MSI   D       QGTLLFNEPLA+YTTWRVGGPAARL+KPA++ DLALFL +L  DEPLLWLGLGSNSLIRD GF+GTV++TQGCLKE+ LLS+  +RVEAGVSCASMARF+ARNNL+GGEFWAGIPGTMGGALRMNAGCHGGETWQSV+EVQT+NR GEIR R P+EFEVAYRHV GL DEWFISA  + + GNKETSLQ IKDLLAHRA TQPTNEYNCGSVFRNPPG++AA+LIESCGLKG  +GGAVVS KHANFIINH+G A+AA+IEALIHLVQTKV+EQT++EL+ EVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966421941|ref|WP_058465142.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella cincinnatiensis] &gt;gi|962198887|gb|KTC83897.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058465142</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.908</Hsp_bit-score>
+      <Hsp_score>1304</Hsp_score>
+      <Hsp_evalue>1.08774e-179</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>QGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>QGALLYNEPLAEYTTWRVGGPAAKLYKPANIADLSLFLCQLPETEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEISLVDAQTVKVDAGVSCASMARFCARNDMSGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVELQTMTRRGEIRTRKPEEYEVAYRHVLAPPEEWFVSATFKLNPGTKETSLQMIKDLLAHRANTQPTNEYNCGSVFRNPSGNYAARLIESCGLKGFTIGGAVVSQKHANFIINHQGSAIAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>QG LL+NEPLAEYTTWRVGGPAA+LYKPANI DL+LFL +LP  EPLLWLGLGSNSLIRDGGFSGTVILTQGCLKE++L+    ++V+AGVSCASMARF ARN++SGGEFWAGIPGTMGGALRMNAGCHGGETWQ V+E+QT+ RRGEIRTRKPEE+EVAYRHV    +EWF+SA  +L+PG KETSLQ+IKDLLAHRA TQPTNEYNCGSVFRNP G++AARLIESCGLKG +IGGAVVS+KHANFIINHQG+A AA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|671587315|ref|WP_031563576.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563576</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.212</Hsp_bit-score>
+      <Hsp_score>1297</Hsp_score>
+      <Hsp_evalue>1.26671e-178</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSPTDNNCSPVTEIQGNLLYNEPLAEYTTWRVGGPAAKLYKPKSITDLSLFLRTLPAAEPLLWLGLGSNSLIRDSGFSGTVIVTQGCLKEMELLDPHTVKVDAGVSCASMARFCARHDLSGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVELQTMTRSGEIKIRKPEEYEVAYRHVVGPVDEWFISATFKLNPGEKETSLQKIKDLLAHRANTQPTNEFNCGSVFRNPPGNFAARLIESCGLKGFNIGGAVVSPKHANFIINHHGAASAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MS T  + S VTE QG LL+NEPLAEYTTWRVGGPAA+LYKP +I DL+LFL  LP  EPLLWLGLGSNSLIRD GFSGTVI+TQGCLKEM LL  + ++V+AGVSCASMARF AR++LSGGEFWAGIPGTMGGALRMNAGCHGGETWQ V+E+QT+ R GEI+ RKPEE+EVAYRHV G  DEWFISA  +L+PG KETSLQ IKDLLAHRA TQPTNE+NCGSVFRNPPG+FAARLIESCGLKG +IGGAVVS KHANFIINH G A+AA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966498883|ref|WP_058515649.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella santicrucis] &gt;gi|962269331|gb|KTD53345.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515649</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.671</Hsp_bit-score>
+      <Hsp_score>1293</Hsp_score>
+      <Hsp_evalue>6.13824e-178</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>QGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>QGTLLYNESLAEYTTWRVGGPAAKLYKPANIADLSLFLRQLPETEPLLWLGLGSNSLIRDSGFSGTVILTQGCLKEMSLMGAQTVKVDAGVSCASMARFCARNGMSGGEFWAGIPGTMGGALRMNAGCHGSETWQFVVELQTMTRKGEIRVRKPEEYEVAYRHVLAPSDEWFVSATFKLNLGNKETSLQVIKDLLAHRANTQPTNEYNCGSVFRNPPGNYAAQLIESCGLKGFTIGGAVVSQKHANFIINHQGSAIAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>QGTLL+NE LAEYTTWRVGGPAA+LYKPANI DL+LFL +LP  EPLLWLGLGSNSLIRD GFSGTVILTQGCLKEM+L+    ++V+AGVSCASMARF ARN +SGGEFWAGIPGTMGGALRMNAGCHG ETWQ V+E+QT+ R+GEIR RKPEE+EVAYRHV    DEWF+SA  +L+ GNKETSLQ+IKDLLAHRA TQPTNEYNCGSVFRNPPG++AA+LIESCGLKG +IGGAVVS+KHANFIINHQG+A AA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|654930587|ref|WP_028380956.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380956</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.819</Hsp_bit-score>
+      <Hsp_score>1283</Hsp_score>
+      <Hsp_evalue>1.48939e-176</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>ESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>EIQGTLLYNEPLAEYTTWRVGGPASKLYKPKSIADLALFLRKLPAAEPILWLGLGSNSLIRDGGFLGTVILTQGCLKEMVLLDPQTVKVDAGVSCASMARFCARNDLAGGEFWAGIPGTMGGALRMNAGCHGGETWQTVVELQTMNRKGEIITRKPEEYEVSYRHVSGPPEEWFISATFKLNPGKKETSLQIIKELLERRTNTQPTNEYNCGSVFRNPEGNFAARLIESCGLKGFNIGGAMVSQKHANFIINHQGSATAADIEALIHLVQTKVREQTTIELVREVHIIGD</Hsp_hseq>
+      <Hsp_midline>E QGTLL+NEPLAEYTTWRVGGPA++LYKP +I DLALFL +LP  EP+LWLGLGSNSLIRDGGF GTVILTQGCLKEM LL    ++V+AGVSCASMARF ARN+L+GGEFWAGIPGTMGGALRMNAGCHGGETWQ+V+E+QT+NR+GEI TRKPEE+EV+YRHV+G  +EWFISA  +L+PG KETSLQ+IK+LL  R  TQPTNEYNCGSVFRNP G+FAARLIESCGLKG +IGGA+VS+KHANFIINHQG+ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966468519|ref|WP_058499845.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella gratiana] &gt;gi|962221304|gb|KTD05964.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499845</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.664</Hsp_bit-score>
+      <Hsp_score>1280</Hsp_score>
+      <Hsp_evalue>5.25189e-176</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>QGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>QGTLLYNESLAGYTTWRVGGPAAKLYKPTSIADLSLFLRQIPKTEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEISLVDAQTVKVDAGVSCASMARFCARNDLSGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVELKTMTRSGEIKIRKPEEYEVAYRHVSGPSDEWFISATFKLNPGNKEISLQVIKDLLAHRANTQPTNEYNCGSVFRNPPGNYAARLIESCGLKGFKMGGAVVSQKHANFIINHQGSAIAADIEKLIHLIQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>QGTLL+NE LA YTTWRVGGPAA+LYKP +I DL+LFL ++P  EPLLWLGLGSNSLIRDGGFSGTVILTQGCLKE++L+    ++V+AGVSCASMARF ARN+LSGGEFWAGIPGTMGGALRMNAGCHGGETWQ V+E++T+ R GEI+ RKPEE+EVAYRHV+G  DEWFISA  +L+PGNKE SLQ+IKDLLAHRA TQPTNEYNCGSVFRNPPG++AARLIESCGLKG  +GGAVVS+KHANFIINHQG+A AA+IE LIHL+QTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|963702340|ref|WP_058387397.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella cherrii] &gt;gi|962197349|gb|KTC82393.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_058387397</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.278</Hsp_bit-score>
+      <Hsp_score>1279</Hsp_score>
+      <Hsp_evalue>8.32145e-176</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>ESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>EIQGTLLYNEPLAEYTTWRVGGPASKLYKPKSIADLALFLRKLPAAEPILWLGLGSNSLIRDGGFLGTVILTQGCLKEMVLLDPQTVKVDAGVSCASMARFCARNDLAGAEFWAGIPGTMGGALRMNAGCHGGETWQTVVELQTMNRKGEIITRKPEEYEVSYRHVSGPPEEWFISATFKLNPGKKETSLQIIKELLERRTNTQPTNEYNCGSVFRNPEGNFAARLIESCGLKGFNIGGAMVSQKHANFIINHQGSATAADIEALIHLVQTKVREQTTIELVREVHIIGD</Hsp_hseq>
+      <Hsp_midline>E QGTLL+NEPLAEYTTWRVGGPA++LYKP +I DLALFL +LP  EP+LWLGLGSNSLIRDGGF GTVILTQGCLKEM LL    ++V+AGVSCASMARF ARN+L+G EFWAGIPGTMGGALRMNAGCHGGETWQ+V+E+QT+NR+GEI TRKPEE+EV+YRHV+G  +EWFISA  +L+PG KETSLQ+IK+LL  R  TQPTNEYNCGSVFRNP G+FAARLIESCGLKG +IGGA+VS+KHANFIINHQG+ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966494045|ref|WP_058510833.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella steelei] &gt;gi|962285003|gb|KTD68769.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058510833</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.886</Hsp_bit-score>
+      <Hsp_score>1265</Hsp_score>
+      <Hsp_evalue>8.83122e-174</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>ESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>EFQGALLYNEPLAEYTTWRVGGPASKLYKPKSITDLALFLHKIPEVEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLDAQTVKVEAGVSCASMARFCARNDLAGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVALQTMNRKGEVITRKPEEYEVAYRHVSGPPEEWFISATFKLNPGKKETSLQVINELLERRTNTQPTNEYNCGSVFRNPVGNFAARLIESCGLKGFNIGGAMVSQKHANFIINDQGAATAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>E QG LL+NEPLAEYTTWRVGGPA++LYKP +I DLALFL ++P  EPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLL    ++VEAGVSCASMARF ARN+L+GGEFWAGIPGTMGGALRMNAGCHGGETWQ V+ +QT+NR+GE+ TRKPEE+EVAYRHV+G  +EWFISA  +L+PG KETSLQ+I +LL  R  TQPTNEYNCGSVFRNP G+FAARLIESCGLKG +IGGA+VS+KHANFIIN QG ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1113342789|gb|OJW06650.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW06650</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.804</Hsp_bit-score>
+      <Hsp_score>1257</Hsp_score>
+      <Hsp_evalue>1.77795e-172</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>ESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>EFQGALLYNEPLAEYTTWRVGGPASKLYKPKSITDLALFLHKIPEVESLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLDAQTVKVEAGVSCASMARFCARNDLAGGEFWAGIPGTMGGALRMNAGCHGGETWQFVVALQTMNRKGEVITRKPEEYEVAYRHVSGPPEEWFISATFKLNPGKKETSLQVINELLERRTNTQPTNEYNCGSVFRNPVGNFAARLIESCGLKGFNIGGAMVSQKHANFIINDQGAATAADIEALIHLVQTKVREQTTIELMREVHIIGD</Hsp_hseq>
+      <Hsp_midline>E QG LL+NEPLAEYTTWRVGGPA++LYKP +I DLALFL ++P  E LLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLL    ++VEAGVSCASMARF ARN+L+GGEFWAGIPGTMGGALRMNAGCHGGETWQ V+ +QT+NR+GE+ TRKPEE+EVAYRHV+G  +EWFISA  +L+PG KETSLQ+I +LL  R  TQPTNEYNCGSVFRNP G+FAARLIESCGLKG +IGGA+VS+KHANFIIN QG ATAA+IEALIHLVQTKVREQT+IEL+REVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966399224|ref|WP_058442857.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058442857</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.167</Hsp_bit-score>
+      <Hsp_score>1219</Hsp_score>
+      <Hsp_evalue>1.10166e-166</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MSVSTLNKEGAVAYQGQLLIDEPLADYTTWRVGGVANKLYKPASIPDLALFLKQLPKDEPLLWLGLGSNSLIRDKGFVGTVILTQGCLKEIKLIGEDLVHVEAGVSCATMARFCARANLAGAEFWAGIPGTMGGALRMNAGCFGGETWQSVIEVETITRQGELRVRKPEEFEIAYRHVAGLQDEWFVAATCRLVKGEKEKSLRLIKELLAHRANTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGKKVGGAMVSEKHANFIINQNGTALASDIESLIELVRNTVHQETSVELIREVHIIGD</Hsp_hseq>
+      <Hsp_midline>MS++ ++       QG LL +EPLA+YTTWRVGG A +LYKPA+I DLALFL +LP DEPLLWLGLGSNSLIRD GF GTVILTQGCLKE+ L+ ++ + VEAGVSCA+MARF AR NL+G EFWAGIPGTMGGALRMNAGC GGETWQSVIEV+TI R+GE+R RKPEEFE+AYRHVAGL DEWF++A  +L  G KE SL+LIK+LLAHRA TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG  +GGA+VSEKHANFIIN  GTA A++IE+LI LV+  V ++TS+ELIREVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966408470|ref|WP_058451862.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella maceachernii] &gt;gi|962243695|gb|KTD28012.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058451862</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.011</Hsp_bit-score>
+      <Hsp_score>1216</Hsp_score>
+      <Hsp_evalue>2.67556e-166</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>QGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>QGQLLFNEPLADYTTWRVGGQAKKLYKPAGVADLAMFIKQLPKDEPLLWLGLGSNSLIRDSGFAGTVILTQGCLKEISLMGDDLVHVEAGVSCATMARFCARANLAGGEFWAGIPGTMGGALRMNAGCFGGETWQTIVEVKTMTREGEIRVRRPEEFEIAYRHVAGLQDEWFVAATCRLTKGEKEKSLQLIKELLAHRANTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGKQLGGAIVSTKHANFIINQQGNASASDIESLIELVRDTVHKLTDIELIREVHIIGD</Hsp_hseq>
+      <Hsp_midline>QG LLFNEPLA+YTTWRVGG A +LYKPA + DLA+F+ +LP DEPLLWLGLGSNSLIRD GF+GTVILTQGCLKE++L+ D+ + VEAGVSCA+MARF AR NL+GGEFWAGIPGTMGGALRMNAGC GGETWQ+++EV+T+ R GEIR R+PEEFE+AYRHVAGL DEWF++A  +L+ G KE SLQLIK+LLAHRA TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG  +GGA+VS KHANFIIN QG A+A++IE+LI LV+  V + T IELIREVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|769982250|ref|WP_045098232.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Tatlockia micdadei] &gt;gi|698845703|emb|CEG59681.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Tatlockia micdadei] &gt;gi|962245133|gb|KTD29437.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Tatlockia micdadei] &gt;gi|1081465891|emb|SCX97214.1| UDP-N-acetylmuramate dehydrogenase [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045098232</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>1.29568e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MRMNMSITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>MKTSDEIKGNSVSY----RGQLLFNEPLADYTTWRVGGQAKKLYKPAGIADLALFIKQLPKDEPLLWLGLGSNSLIRDSGFAGTVIITQGCLKEISLIGDGLVHVEAGVSCATMARFCARADLAGGEFWAGIPGTMGGALRMNAGCFGGETWQTVVEVKTMTRDGEVRVRKPQEFEIAYRHVAGLNDEWFIAATCRLAKGEKEKSLQLIKELLAHRANTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGKQLGGAIVSTKHANFIINQQGSASASDIESLIELVRDTVHKSTNIELIREVHIIGD</Hsp_hseq>
+      <Hsp_midline>M+ +  I G   S+    +G LLFNEPLA+YTTWRVGG A +LYKPA I DLALF+ +LP DEPLLWLGLGSNSLIRD GF+GTVI+TQGCLKE++L+ D  + VEAGVSCA+MARF AR +L+GGEFWAGIPGTMGGALRMNAGC GGETWQ+V+EV+T+ R GE+R RKP+EFE+AYRHVAGL DEWFI+A  +L+ G KE SLQLIK+LLAHRA TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG  +GGA+VS KHANFIIN QG+A+A++IE+LI LV+  V + T+IELIREVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|654937928|ref|WP_028388176.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028388176</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.315</Hsp_bit-score>
+      <Hsp_score>1209</Hsp_score>
+      <Hsp_evalue>3.94261e-165</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>TESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGDANV</Hsp_qseq>
+      <Hsp_hseq>TTWQGELLFNELLADYTTWRVGGRANKLYKPKNITDLALFIKQLPRDEPLLWLGLGSNSLIRDRGFAGTVVLTQGCLKDIHLIDDNLVHVEAGVSCATMARFCARANLAGGEFWAGIPGTMGGALRMNAGCFGGETWQSVIEVETMTREGEIKIRRPEEFDIAYRHVAGLQDEWFVAATCRLNKGEKEKSLQLIKELLAHRANTQPTSEYNCGSVFRNPPGNFAARLIESCGLKGKQLGGAIVSTKHANFIINQQGNALASDIESLIELVRDTVHQQTNIELIREVHIIGDRNV</Hsp_hseq>
+      <Hsp_midline>T  QG LLFNE LA+YTTWRVGG A +LYKP NI DLALF+ +LP DEPLLWLGLGSNSLIRD GF+GTV+LTQGCLK++ L+ DN + VEAGVSCA+MARF AR NL+GGEFWAGIPGTMGGALRMNAGC GGETWQSVIEV+T+ R GEI+ R+PEEF++AYRHVAGL DEWF++A  +L+ G KE SLQLIK+LLAHRA TQPT+EYNCGSVFRNPPG+FAARLIESCGLKG  +GGA+VS KHANFIIN QG A A++IE+LI LV+  V +QT+IELIREVHIIGD NV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|962191705|gb|KTC76781.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella brunensis]</Hit_def>
+  <Hit_accession>KTC76781</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>6.9557e-165</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>QGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>QGQLLIDEPLADYTTWRVGGVANKLYKPASIPDLALFLKQLPKDEPLLWLGLGSNSLIRDKGFVGTVILTQGCLKEIKLIGEDLVHVEAGVSCATMARFCARANLAGAEFWAGIPGTMGGALRMNAGCFGGETWQSVIEVETITRQGELRVRKPEEFEIAYRHVAGLQDEWFVAATCRLVKGEKEKSLRLIKELLAHRANTQPTNEYNCGSVFRNPPGNFAARLIESCGLKGKKVGGAMVSEKHANFIINQNGTALASDIESLIELVRNTVHQETSVELIREVHIIGD</Hsp_hseq>
+      <Hsp_midline>QG LL +EPLA+YTTWRVGG A +LYKPA+I DLALFL +LP DEPLLWLGLGSNSLIRD GF GTVILTQGCLKE+ L+ ++ + VEAGVSCA+MARF AR NL+G EFWAGIPGTMGGALRMNAGC GGETWQSVIEV+TI R+GE+R RKPEEFE+AYRHVAGL DEWF++A  +L  G KE SL+LIK+LLAHRA TQPTNEYNCGSVFRNPPG+FAARLIESCGLKG  +GGA+VSEKHANFIIN  GTA A++IE+LI LV+  V ++TS+ELIREVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966515298|ref|WP_058531815.1|</Hit_id>
+  <Hit_def>UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella rubrilucens] &gt;gi|962262725|gb|KTD46811.1| UDP-N-acetylenolpyruvoylglucosamine reductase [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058531815</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.774</Hsp_bit-score>
+      <Hsp_score>1205</Hsp_score>
+      <Hsp_evalue>1.10548e-164</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>SITGMDSSHVTESQGTLLFNEPLAEYTTWRVGGPAARLYKPANIDDLALFLSRLPFDEPLLWLGLGSNSLIRDGGFSGTVILTQGCLKEMTLLSDNCIRVEAGVSCASMARFSARNNLSGGEFWAGIPGTMGGALRMNAGCHGGETWQSVIEVQTINRRGEIRTRKPEEFEVAYRHVAGLGDEWFISAKLQLSPGNKETSLQLIKDLLAHRAKTQPTNEYNCGSVFRNPPGDFAARLIESCGLKGVSIGGAVVSEKHANFIINHQGTATAANIEALIHLVQTKVREQTSIELIREVHIIGD</Hsp_qseq>
+      <Hsp_hseq>TINGLNGQGVA-FQGQLLSNEPLADYTTWRVGGLARQLYKPAGIDDLALFLKHLPSSEPLLWLGLGSNSLIRDSGFAGTVILTQGCLKEVSLVGDDLVRVEAGVSCATMARFCARNHLAGGEFWAGIPGTMGGALRMNAGCFGGETWQSVVEVETMTRHGEKRVRKPSEFAIAYRHVAGLEDEWFIAATCRLSPGEKDKSLQMIKELLARRAETQPTNEYNCGSVFRNPAGNFAARLIEECGLKGKQLGGAVVSTKHANFIINHEGNASAHDIESLIELVQQTVHQQTAVELIREVHIIGD</Hsp_hseq>
+      <Hsp_midline>+I G++   V   QG LL NEPLA+YTTWRVGG A +LYKPA IDDLALFL  LP  EPLLWLGLGSNSLIRD GF+GTVILTQGCLKE++L+ D+ +RVEAGVSCA+MARF ARN+L+GGEFWAGIPGTMGGALRMNAGC GGETWQSV+EV+T+ R GE R RKP EF +AYRHVAGL DEWFI+A  +LSPG K+ SLQ+IK+LLA RA+TQPTNEYNCGSVFRNP G+FAARLIE CGLKG  +GGAVVS KHANFIINH+G A+A +IE+LI LVQ  V +QT++ELIREVHIIGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_66451</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834177</BlastOutput_query-def>
+  <BlastOutput_query-len>368</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_66451</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834177</Iteration_query-def>
+  <Iteration_query-len>368</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250772|ref|WP_010948312.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|52842818|ref|YP_096617.1| D-alanyl-alanine synthetase A [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629929|gb|AAU28670.1| D-alanine-D-alanine ligase A [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509323|gb|AEW52847.1| D-alanine-D-alanine ligase A [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948312</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>762.681</Hsp_bit-score>
+      <Hsp_score>1968</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>368</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119380390|ref|WP_072356487.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356487</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>760.755</Hsp_bit-score>
+      <Hsp_score>1963</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>367</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119427040|ref|WP_072402340.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402340</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>759.985</Hsp_bit-score>
+      <Hsp_score>1961</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>366</Hsp_identity>
+      <Hsp_positive>368</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>METLMSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|505256896|ref|WP_015443998.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|190359178|sp|Q5ZSA7.2|DDL_LEGPH RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase &gt;gi|469490669|gb|AGH52514.1| D-alanine-D-alanine ligase A [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083284|gb|AGN15532.1| D-alanyl-alanine synthetase A [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772862|emb|CZI18405.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998775689|emb|CZG59264.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998778275|emb|CZG74499.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998784514|emb|CZG84256.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998787466|emb|CZG57906.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998796478|emb|CZH98552.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998800351|emb|CZL05653.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998805766|emb|CZK06420.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998808400|emb|CZH89219.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998811871|emb|CZH77491.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998814330|emb|CZG63463.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998817686|emb|CZL57433.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998820788|emb|CZL59724.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998826750|emb|CZK07341.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998832612|emb|CZI08817.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998835723|emb|CZK86131.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998837887|emb|CZJ74366.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998842262|emb|CZL11507.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998844680|emb|CZK27196.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998847631|emb|CZK65770.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998850282|emb|CZI40260.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998853735|emb|CZL24444.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998856431|emb|CZL31758.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998859754|emb|CZL71764.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998862710|emb|CZK19927.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998865435|emb|CZJ42669.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998869824|emb|CZJ34893.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998871019|emb|CZM15186.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998874507|emb|CZK36517.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998877506|emb|CZM00925.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998880573|emb|CZI88469.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998887997|emb|CZL48300.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998889268|emb|CZK24183.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998895551|emb|CZK00647.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998906082|emb|CZK54911.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998909653|emb|CZL07636.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998915877|emb|CZK63665.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998918346|emb|CZK84394.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998921317|emb|CZL39865.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998927622|emb|CZL65043.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998930709|emb|CZK76664.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998933886|emb|CZL74525.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998939924|emb|CZK77698.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998946001|emb|CZK96809.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998949045|emb|CZK83582.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998958569|emb|CZL99288.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998961475|emb|CZK23915.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998964658|emb|CZK07066.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998966920|emb|CZM51004.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998970462|emb|CZK52472.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998973847|emb|CZK27956.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998979552|emb|CZL60912.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998985901|emb|CZK01368.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998988669|emb|CZL47069.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998998069|emb|CZJ90116.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999008041|emb|CZK29090.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999012974|emb|CZL45340.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999016896|emb|CZL70327.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999022694|emb|CZL16582.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999025335|emb|CZK73411.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999037092|emb|CZL53187.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999046816|emb|CZL76120.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999061623|emb|CZL13436.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999067412|emb|CZJ19416.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999076864|emb|CZG57988.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999080207|emb|CZJ90543.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999082834|emb|CZK79027.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999090456|emb|CZK40332.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999092450|emb|CZL39220.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999095236|emb|CZG85909.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999098749|emb|CZG61996.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999101178|emb|CZL69024.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999110379|emb|CZL14270.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999113842|emb|CZL52627.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999116377|emb|CZK47143.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999126289|emb|CZK78097.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999131555|emb|CZL93834.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999134774|emb|CZL15799.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999138124|emb|CZK29561.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999141761|emb|CZL43017.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999144594|emb|CZK70902.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999147614|emb|CZL48124.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999156895|emb|CZH75571.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999175754|emb|CZL03819.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999191319|emb|CZI19033.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999194442|emb|CZI45542.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999200307|emb|CZG61883.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999203753|emb|CZI45475.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999209978|emb|CZK74441.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999219340|emb|CZL32449.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999222434|emb|CZI36952.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999335239|emb|CZK71687.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1002075519|emb|CZQ94044.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1002079024|emb|CZQ94290.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1003020116|emb|CZR21391.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|1003022995|emb|CZR20279.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|1003026837|emb|CZR17893.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|1073865653|gb|AOU05604.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073868622|gb|AOU08572.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073871617|gb|AOU11566.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073874486|gb|AOU14434.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073877542|gb|AOU17489.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073880505|gb|AOU20451.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073883502|gb|AOU23447.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073886495|gb|AOU26439.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073889463|gb|AOU29406.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073892447|gb|AOU32389.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073898373|gb|AOU38313.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073901339|gb|AOU41278.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073904248|gb|AOU44186.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073907201|gb|AOU47138.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073910219|gb|AOU50154.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073913231|gb|AOU53163.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073916191|gb|AOU56122.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073919154|gb|AOU59084.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073925140|gb|AOU65067.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073928103|gb|AOU68029.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073931089|gb|AOU70998.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073934458|gb|AOU74017.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073937423|gb|AOU84422.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073947689|gb|AOU87413.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073950617|gb|AOU90340.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1104004014|emb|SFZ46783.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1129969275|gb|APT99634.1| D-alanine--D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015443998</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>753.821</Hsp_bit-score>
+      <Hsp_score>1945</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1074859838|ref|WP_070068298.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073895415|gb|AOU35356.1| D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_070068298</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>753.436</Hsp_bit-score>
+      <Hsp_score>1944</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMAHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAM HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1074841762|ref|WP_070065692.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1073922057|gb|AOU61986.1| D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_070065692</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>751.895</Hsp_bit-score>
+      <Hsp_score>1940</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEKILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDE+ILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|500496131|ref|WP_011947531.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|81369792|sp|Q5X1S8.1|DDL_LEGPA RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase &gt;gi|166198489|sp|A5IAW4.1|DDL_LEGPC RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase &gt;gi|53752386|emb|CAH13818.1| D-alanine--D-alanine ligase A [Legionella pneumophila str. Paris] &gt;gi|148280426|gb|ABQ54514.1| D-alanine-D-alanine ligase A [Legionella pneumophila str. Corby] &gt;gi|295650159|gb|ADG26006.1| D-alanine-D-alanine ligase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|541998736|gb|ERH44752.1| D-alanine--D-alanine ligase [Legionella pneumophila str. Leg01/53] &gt;gi|542000238|gb|ERH46229.1| D-alanine--D-alanine ligase [Legionella pneumophila str. Leg01/11] &gt;gi|542123132|gb|ERI49441.1| D-alanine--D-alanine ligase [Legionella pneumophila str. Leg01/20] &gt;gi|761996834|dbj|GAN31009.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|762000206|dbj|GAN27938.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998802605|emb|CZH88213.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998912344|emb|CZG98226.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998993932|emb|CZI45645.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999004437|emb|CZI42449.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999151551|emb|CZH54507.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999166038|emb|CZG69007.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999168293|emb|CZI50854.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999173419|emb|CZH70340.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999182521|emb|CZG26727.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999188686|emb|CZI76123.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999213618|emb|CZG41994.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999217092|emb|CZI73660.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999225936|emb|CZG33882.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999286808|emb|CZI76810.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999293069|emb|CZI61318.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999302283|emb|CZI56238.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999312028|emb|CZI86596.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999361105|emb|CZI02501.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999374063|emb|CZG04830.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999377334|emb|CZI90896.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999380633|emb|CZH51205.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999383423|emb|CZI18004.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999387448|emb|CZG09603.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999390255|emb|CZI09664.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999397080|emb|CZG17327.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999406407|emb|CZG42151.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999409421|emb|CZH72450.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999412565|emb|CZG26939.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999416635|emb|CZG13476.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999419264|emb|CZG42703.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999422624|emb|CZH45580.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999429130|emb|CZG31677.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999432718|emb|CZG07694.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999435724|emb|CZH65112.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999442232|emb|CZJ83849.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|999445344|emb|CZH56883.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999458344|emb|CZJ88842.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999497035|emb|CZI11457.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999526314|emb|CZI60593.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999529196|emb|CZI16104.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999577084|emb|CZI02789.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999612385|emb|CZI07929.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1002091737|emb|CZR05965.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1003030301|emb|CZR34412.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1041019583|gb|ANN96643.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1080008975|gb|AOW58963.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011358|gb|AOW60849.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017602|gb|AOW66247.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011947531</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>751.895</Hsp_bit-score>
+      <Hsp_score>1940</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGVAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATG+AYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|499535704|ref|WP_011216487.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|81367752|sp|Q5WTI9.1|DDL_LEGPL RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase &gt;gi|53755281|emb|CAH16775.1| D-alanine--D-alanine ligase A [Legionella pneumophila str. Lens] &gt;gi|998781188|emb|CZJ44119.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998829481|emb|CZG80273.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998883345|emb|CZI77412.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998898814|emb|CZJ44914.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998936464|emb|CZM48159.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998952219|emb|CZJ33030.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999000396|emb|CZG76184.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999057940|emb|CZM54455.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999104189|emb|CZI06599.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999128800|emb|CZH04415.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999153877|emb|CZM18474.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999162965|emb|CZM05793.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999237162|emb|CZG77559.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1002085494|emb|CZQ99625.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1002088706|emb|CZQ78691.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1080003052|gb|AOW53624.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005203|gb|AOW55483.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015549|gb|AOW64422.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. pneumophila] &gt;gi|1104007468|emb|SFZ46859.1| D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011216487</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>751.895</Hsp_bit-score>
+      <Hsp_score>1940</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|652974011|ref|WP_027226725.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|998924267|emb|CZJ94601.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998942512|emb|CZK05084.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998954563|emb|CZK40557.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998976210|emb|CZJ66590.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998991538|emb|CZK08952.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999009805|emb|CZK01870.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999018943|emb|CZJ62012.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999027959|emb|CZJ89201.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999031519|emb|CZG66706.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999034073|emb|CZJ98309.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999040280|emb|CZJ68415.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999043053|emb|CZJ76628.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999048992|emb|CZJ87175.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999052249|emb|CZJ68933.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999055133|emb|CZJ95846.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999064359|emb|CZJ79271.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999070086|emb|CZJ74165.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999073455|emb|CZK05868.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999085602|emb|CZJ96491.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999184478|emb|CZP92492.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999198286|emb|CZP06031.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999206459|emb|CZP59950.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999227874|emb|CZP41344.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999235027|emb|CZP51109.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999240523|emb|CZH75411.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999244192|emb|CZH70551.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999249400|emb|CZG77608.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999252867|emb|CZG90389.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999256130|emb|CZP72966.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999259177|emb|CZP38591.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999262177|emb|CZH07778.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999265479|emb|CZP04674.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999272053|emb|CZP51013.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999274320|emb|CZH07390.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999277760|emb|CZP28373.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999281534|emb|CZP23832.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999284182|emb|CZP50791.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999290815|emb|CZP26819.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999296785|emb|CZP50505.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999300024|emb|CZP28724.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999307133|emb|CZH64932.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999309519|emb|CZP18538.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999315995|emb|CZI03919.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999318920|emb|CZP56055.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999322172|emb|CZH91210.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999324957|emb|CZH15385.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999327567|emb|CZH27355.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999332912|emb|CZG04828.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999338023|emb|CZP44678.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999344187|emb|CZP92133.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999347475|emb|CZP61144.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999349554|emb|CZH47669.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999353706|emb|CZP51481.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999356815|emb|CZP74537.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999363181|emb|CZP70581.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999366944|emb|CZP70678.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999369638|emb|CZP87446.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999392458|emb|CZP95216.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999398706|emb|CZP98598.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999403294|emb|CZP48883.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999426469|emb|CZG24128.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999438363|emb|CZG45709.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999448606|emb|CZG04829.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999450775|emb|CZP29563.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999470014|emb|CZG83565.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999521327|emb|CZP43827.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999778457|emb|CZG99729.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1003028416|emb|CZR23625.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|1015434034|gb|AMV15661.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1041016584|gb|ANN93645.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1103997776|emb|SFZ46759.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1104000914|emb|SFZ46785.1| D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226725</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>751.895</Hsp_bit-score>
+      <Hsp_score>1940</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|653014260|ref|WP_027266309.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|999158584|emb|CZJ89743.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999177496|emb|CZJ87343.1| D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266309</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>751.125</Hsp_bit-score>
+      <Hsp_score>1938</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANATERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANA+ERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|504657626|ref|WP_014844728.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|395131696|emb|CCD09989.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. pneumophila] &gt;gi|761987453|dbj|GAN24628.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|761990467|dbj|GAN18576.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|761993657|dbj|GAN21682.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998789997|emb|CZH01687.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998792807|emb|CZI68528.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998892877|emb|CZJ07004.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998982004|emb|CZI87845.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999106970|emb|CZI85726.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999231244|emb|CZI63580.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1002082117|emb|CZQ95768.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1032658691|gb|ANH13962.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|1032661653|gb|ANH16923.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|1032664631|gb|ANH19900.1| D-alanine--D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844728</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.355</Hsp_bit-score>
+      <Hsp_score>1936</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGQFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGVAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSG+FHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATG+AYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|504655564|ref|WP_014842666.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|395128613|emb|CCD06831.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. pneumophila] &gt;gi|999248118|emb|CZH52749.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999269672|emb|CZO23879.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999455502|emb|CZH43666.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999462243|emb|CZG07264.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999465378|emb|CZM24962.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999468366|emb|CZO08673.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999475003|emb|CZM44853.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999478197|emb|CZN26329.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999481392|emb|CZM64460.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999484422|emb|CZN97836.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999487506|emb|CZL94533.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999490697|emb|CZN57465.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999493995|emb|CZL97237.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999500325|emb|CZN56758.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999503547|emb|CZN85876.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999506743|emb|CZM91866.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999510050|emb|CZG27489.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999513135|emb|CZN16967.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999516598|emb|CZL80979.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999519822|emb|CZM50766.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999532690|emb|CZO33341.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999536029|emb|CZN19178.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999539083|emb|CZM54763.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999542263|emb|CZO07335.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999545477|emb|CZO46308.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999548561|emb|CZN73104.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999551865|emb|CZN99983.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999555242|emb|CZM97552.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999558255|emb|CZO46080.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999561339|emb|CZM26639.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999564648|emb|CZO46874.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999567727|emb|CZM40033.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999570926|emb|CZN38540.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999574116|emb|CZN75578.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999580607|emb|CZO00015.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999584119|emb|CZO13382.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999587242|emb|CZM48198.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999590504|emb|CZM22051.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999593379|emb|CZN31900.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999596577|emb|CZN94481.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999599881|emb|CZO25143.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999603263|emb|CZL63205.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999606276|emb|CZN39874.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999609674|emb|CZN41113.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999615850|emb|CZM30887.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999619001|emb|CZN76719.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999622323|emb|CZO51418.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999625633|emb|CZN54320.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999628950|emb|CZM41891.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999631828|emb|CZM45880.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999635132|emb|CZN41145.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999638216|emb|CZN34618.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999641412|emb|CZO62396.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999644583|emb|CZO28095.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999648120|emb|CZN76217.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999650931|emb|CZN92653.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999654305|emb|CZN92559.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999657683|emb|CZM01571.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999660586|emb|CZM48038.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999664100|emb|CZM81604.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999667089|emb|CZM25376.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999670283|emb|CZL74563.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999673670|emb|CZM19443.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999676566|emb|CZN61360.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999679601|emb|CZM61947.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999682796|emb|CZM69426.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999686022|emb|CZN92061.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999689638|emb|CZN10419.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999692553|emb|CZN80648.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999696049|emb|CZN01923.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999699248|emb|CZL98571.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999702474|emb|CZM43167.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999705656|emb|CZL60059.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999708680|emb|CZN41931.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999711932|emb|CZM87683.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999715385|emb|CZM88277.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999718524|emb|CZO28208.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999721402|emb|CZM66980.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999724742|emb|CZN17050.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999728177|emb|CZL89607.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999731635|emb|CZO21355.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999734884|emb|CZL99825.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999738214|emb|CZO47994.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999741086|emb|CZM25564.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999744612|emb|CZN07507.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999747913|emb|CZM00384.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999750808|emb|CZL79325.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999754114|emb|CZM71940.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999757457|emb|CZM84595.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999760396|emb|CZM14757.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999763889|emb|CZN10521.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999767086|emb|CZM56983.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999769825|emb|CZN39963.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999773529|emb|CZH73743.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999776559|emb|CZL89775.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999783423|emb|CZH50477.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999786599|emb|CZM18633.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999789810|emb|CZO48521.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999793243|emb|CZO51806.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999796490|emb|CZI09622.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999800218|emb|CZO39679.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1003034760|emb|CZR27587.1| D-alanine--D-alanine ligase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842666</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.355</Hsp_bit-score>
+      <Hsp_score>1936</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGQPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCG+PRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1011910313|ref|WP_062724998.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062724998</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>749.584</Hsp_bit-score>
+      <Hsp_score>1934</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAIIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLA++HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1006526267|ref|WP_061784463.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1005834281|gb|AMQ29007.1| D-alanine--D-alanine ligase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061784463</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>749.584</Hsp_bit-score>
+      <Hsp_score>1934</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGIPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCG PRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1006037454|ref|WP_061721370.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999340709|emb|CZG98158.1| D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061721370</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>749.199</Hsp_bit-score>
+      <Hsp_score>1933</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGHLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLING LAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1005609405|ref|WP_061691899.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|998824264|emb|CZG43808.1| D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061691899</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>749.199</Hsp_bit-score>
+      <Hsp_score>1933</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFDWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEF WPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1004334821|ref|WP_061513746.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513746</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>747.273</Hsp_bit-score>
+      <Hsp_score>1928</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEDIYFNEINTLPGFTSISMYPKLWQATGVAYTDLLDELINLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTE+IYFNEINTLPGFTSISMYPKLWQATG+AY DLLDELINLAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1004014381|ref|WP_061483696.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483696</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.117</Hsp_bit-score>
+      <Hsp_score>1925</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYSNLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQASGVAYPDLLDELINLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDY++LLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQA+G+AYPDLLDELINLAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|652969872|ref|WP_027222765.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|985764623|gb|KXB25742.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|985767105|gb|KXB28200.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|999119073|emb|CZG85602.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|999122198|emb|CZH18697.1| D-alanine--D-alanine ligase A [Legionella pneumophila] &gt;gi|1005362962|gb|AMP88831.1| D-alanine--D-alanine ligase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367774|gb|AMP93551.1| D-alanine--D-alanine ligase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370693|gb|AMP96469.1| D-alanine--D-alanine ligase [Legionella pneumophila subsp. pascullei] &gt;gi|1024339679|gb|KZX34018.1| D-alanine--D-alanine ligase [Legionella pneumophila] &gt;gi|1108605963|gb|APF04331.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. fraseri] &gt;gi|1108608946|gb|APF07313.1| D-alanine--D-alanine ligase A [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027222765</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>729.169</Hsp_bit-score>
+      <Hsp_score>1881</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKSVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLTCSDKLPVVTEKSTPLESLLINGRLVVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHTNASERQQFCQEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESNQTDLIIPAQLNNNLEKQLKQAAADIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYSDLLDELIHLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK VNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLL CSDKLPVVTEKSTPLE LLINGRL VDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWH NASERQQFC EVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLES+QTDLIIPAQLNN+LE+QLKQAAA+IFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAY DLLDELI+LAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1011914648|ref|WP_062727862.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727862</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>728.398</Hsp_bit-score>
+      <Hsp_score>1879</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKSVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLTCSDKLPVVTEKSTPLESLLINGRLVVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHTNASERQQFCQEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMAGEIKVNHPDGYYSYTAKYLESNQTDLIIPAQLNNNLEKQLKQAAADIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYSDLLDELIHLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK VNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLL CSDKLPVVTEKSTPLE LLINGRL VDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWH NASERQQFC EVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSM GEIKVNHPDGYYSYTAKYLES+QTDLIIPAQLNN+LE+QLKQAAA+IFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAY DLLDELI+LAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|737921576|ref|WP_035886879.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella norrlandica] &gt;gi|701446868|gb|KGP64216.1| D-alanine--D-alanine ligase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886879</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>689.493</Hsp_bit-score>
+      <Hsp_score>1778</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVHLILLYGGKSGEHEVSLVSAASVLKHLDSEKYTIIPIAMDKSGRFHLHDYNDLLSYEDKLPVITEKSTHLESLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLTCINGLKSARYKLLSWYANASEREQFCQEVSSELGWPLFVKPCSLGSSVGIHKASNMDELTSAVADALRYDEEILVEEFIAGREIELAVLENSIPGGKPRVSTVGEIKVNHPDGYYSYTAKYIESSQTDLIIPAQLNSTLEERLKQAASDIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWEASGIAYPDLLDELIRIAMIHQNCRQHLVTNYM</Hsp_hseq>
+      <Hsp_midline>MSKPV+L+LLYGGKSGEHEVSLVSAASVLKHLDSEKY IIPIAMDKSGRFH HDYNDLL+  DKLPV+TEKST LE LLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRL CINGLKSARYKLLSW+ANASER+QFC EV+SE GWPLFVKPCSLGSSVGIHKA+NMDEL +AVADALRYDEEILVEEFI GREIELAVLENSIP GKPRVS VGEIKVNHPDGYYSYTAKY+ESSQTDLIIPAQLN++LEE+LKQAA++IFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLW+A+GIAYPDLLDELI +AM+H NCRQHLVTNY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|517405797|ref|WP_018578466.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella shakespearei] &gt;gi|962281277|gb|KTD65090.1| D-alanine--D-alanine ligase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578466</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>643.269</Hsp_bit-score>
+      <Hsp_score>1658</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKSVKLVLLYGGKSGEHEVSLVSAASVLAHLDAEKYTIIPVAMDKSGQFHVHQYNDLLSCKDKLPVVTELSKPLDSLLSNGRLAIDADVVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRIACINGLKSAQYKVLSWHSNAAERQHFCNEVAAELGWPLFVKPCSLGSSVGIHKANNLAELSAAVDDALRYDEEILVEQFIQGREIELAVLENKTPYSTPRVSRIGEIRVNHPDGFYSYTAKYLESNQTDLIIPAVLSAKLEERLTQAAADIFTRLKCKGLARVDFFVNDKTDEIYFNEINTLPGFTSISMYPKLWQAAGIAYPDLLDELIQLAMTHHHCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK V LVLLYGGKSGEHEVSLVSAASVL HLD+EKY IIP+AMDKSG+FH H YNDLL+C DKLPVVTE S PL+ LL NGRLA+DA +VFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARR+ACINGLKSA+YK+LSWH+NA+ERQ FC+EVA+E GWPLFVKPCSLGSSVGIHKANN+ EL+AAV DALRYDEEILVE+FI GREIELAVLEN  P   PRVS +GEI+VNHPDG+YSYTAKYLES+QTDLIIPA L+  LEE+L QAAA+IF+ LKCKG+ARVDFFVNDKT+EIYFNEINTLPGFTSISMYPKLWQA GIAYPDLLDELI LAM HH+CRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966434566|ref|WP_058474997.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella quateirensis] &gt;gi|962260592|gb|KTD44702.1| D-alanine--D-alanine ligase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474997</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>628.246</Hsp_bit-score>
+      <Hsp_score>1619</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLINLVLLYGGKSGEHEVSLISASSVLRHLNSEKYHIIPIAMDKNGQFHLHTYADLLNYKEKLPVITEHSKPLDSLVSNGRLAVEADVVFPVVHGPLYEDGSLQGLLELAGVAYVGCDVLPSAIGMDKDMARRVACINGLHSAQYKLLSWHTTSAERQQFCSEVSAEFGWPLFVKPCSLGSSVGIHKAKNMAELVAAVDDALRYDEEILVEEYIQGREIELAVLENIKPSATPRVSVVGEIRVNHPDGFYSYTAKYLESGQTDLIIPALLNNKLDERLKQAAAEIFSRLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQASGLTYPDLLDELIQIAMTHQNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHEVSL+SA+SVL+HL+SEKYHIIPIAMDK+G+FH H Y DLL   +KLPV+TE S PL+ L+ NGRLAV+A +VFPVVHGPLYEDG LQGLLELAGVAYVGCDVL SAIGMDKDMARR+ACINGL SA+YKLLSWH  ++ERQQFC EV++EFGWPLFVKPCSLGSSVGIHKA NM EL AAV DALRYDEEILVEE+I GREIELAVLEN  P   PRVS+VGEI+VNHPDG+YSYTAKYLES QTDLIIPA LNN L+E+LKQAAA IFS LKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQA+G+ YPDLLDELI +AM H NCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|653017656|ref|WP_027269620.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella sainthelensi] &gt;gi|962271012|gb|KTD55015.1| D-alanine--D-alanine ligase A [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027269620</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>626.32</Hsp_bit-score>
+      <Hsp_score>1614</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>290</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLINLVLLYGGKSGEHEISLISAASVLAHLDAKKYNVIPIAMDKDGLLHQHQYQDLLACKEKLPVVTEKSKPVAGLIINGRLSVDADIVFPVVHGPLYEDGCLQGVLELSGVAYVGCDVLSSAIGMDKDMARRIACVNGIKSANYKLLSWHTSASERQRFCQEVATEFGWPLFVKPCAMGSSVGIHKAKNMAELINAVEDALRYDEEILVEAFVSGREIEISVLESIIPAGKPRVSLAGEIRVNHPDGFYSYSAKYLESGKTDLIIPALLSHTLYEQLKQAAADIFLRLKCKGMARVDFFVNEKTETIYFNEVNTLPGFTSISMYPKLWQASGLSYPDLLDELIRIAMVHQNCRRHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD++KY++IPIAMDK G  H+H Y DLLAC +KLPVVTEKS P+ GL+INGRL+VDA IVFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSSAIGMDKDMARR+AC+NG+KSA YKLLSWH +ASERQ+FC EVA+EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEILVE F+ GREIE++VLE+ IP GKPRVS+ GEI+VNHPDG+YSY+AKYLES +TDLIIPA L+++L EQLKQAAA+IF  LKCKGMARVDFFVN+KTE IYFNE+NTLPGFTSISMYPKLWQA+G++YPDLLDELI +AMVH NCR+HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|489731080|ref|WP_003635196.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella longbeachae] &gt;gi|269987425|gb|EEZ93680.1| D-alanine--D-alanine ligase A [Legionella longbeachae D-4968] &gt;gi|288859251|emb|CBJ13185.1| D-alanine--D-alanine ligase A [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635196</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>625.935</Hsp_bit-score>
+      <Hsp_score>1613</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>328</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLINLVLLYGGKSGEHEISLISAASVLAHLDDKKYNIIPIAMDKDGLLHQHQYQDLLASKEKLPVVTEKSKPLAGLLINGRLSVDADIVFPIVHGPLYEDGCLQGMLELSGVAYVGCDVLSSAIGMDKDMTRRIACINGLKSADYKVLSWHTSTSERQRFCQEVAAEFGWPLFVKPCAMGSSVGIHKAKNMDELINAVEDALRYDEEILVEAFVTGREIELSVLESVIPAGKPRVSFAGEIRVNHPDGFYSYSAKYLESGKTDLIIPAHLSHTLYEQLKQAAADIFLRLKCKGMARVDFFVNEKTETIYFNEVNTLPGFTSISMYPKLWQASGLAYPDLLDELIRIAMVHQNCRRHIVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD +KY+IIPIAMDK G  H+H Y DLLA  +KLPVVTEKS PL GLLINGRL+VDA IVFP+VHGPLYEDGCLQG+LEL+GVAYVGCDVLSSAIGMDKDM RR+ACINGLKSA YK+LSWH + SERQ+FC EVA+EFGWPLFVKPC++GSSVGIHKA NMDEL  AV DALRYDEEILVE F+ GREIEL+VLE+ IP GKPRVS  GEI+VNHPDG+YSY+AKYLES +TDLIIPA L+++L EQLKQAAA+IF  LKCKGMARVDFFVN+KTE IYFNE+NTLPGFTSISMYPKLWQA+G+AYPDLLDELI +AMVH NCR+H+VTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966421940|ref|WP_058465141.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella cincinnatiensis] &gt;gi|962198886|gb|KTC83896.1| D-alanine--D-alanine ligase A [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058465141</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>623.239</Hsp_bit-score>
+      <Hsp_score>1606</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>330</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLINLVLLYGGKSGEHEISLISAASVLAHLDAKKYNIIPIAMDKDGLFHQHQYQDLLASKERLPVVTENSKPLAGLLIDGRLSVDADIVFPIVHGPLYEDGCLQGMLELSGVAYVGCDVLSSAIGMDKDMARRIVCINGLKSANYKLLSWHTSASERQRFCQEVATEFGWPLFVKPCAMGSSVGIHKAKNMAELINAVEDALRYDEEILVEAFVSGREIELSVLESTIPAGKPRVSVAGEIRVNHPDGFYSYSAKYLESGKTDLIIPALLSQTLYEQLKQAAADIFLRLKCKGMARIDFFVNEKTETIYFNEVNTLPGFTSISMYPKLWQASGLSYPDLLDELIRIAIVHQNCRRHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD++KY+IIPIAMDK G FH+H Y DLLA  ++LPVVTE S PL GLLI+GRL+VDA IVFP+VHGPLYEDGCLQG+LEL+GVAYVGCDVLSSAIGMDKDMARR+ CINGLKSA YKLLSWH +ASERQ+FC EVA+EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEILVE F+ GREIEL+VLE++IP GKPRVS+ GEI+VNHPDG+YSY+AKYLES +TDLIIPA L+ +L EQLKQAAA+IF  LKCKGMAR+DFFVN+KTE IYFNE+NTLPGFTSISMYPKLWQA+G++YPDLLDELI +A+VH NCR+HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966494044|ref|WP_058510832.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella steelei] &gt;gi|962285002|gb|KTD68768.1| D-alanine--D-alanine ligase A [Legionella steelei] &gt;gi|1113342790|gb|OJW06651.1| D-alanine--D-alanine ligase A [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510832</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>621.698</Hsp_bit-score>
+      <Hsp_score>1602</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>328</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPLNLVLLYGGKSGEHEISLISAASVLAHLDARKYNIIPVAMDKDGLFYLHQYQDLLAYKEKLPVVTERSKPLAGLFINGRLSVDADVVFPVVHGPLYEDGCLQGMLELAGVAYVGCDVLSSSIGMDKDMARRIVCVDGLKSANYKLLSWHSSASERQHFCQQVAEEFGWPLFVKPCAMGSSVGIHKAKNMAELLVAVDDALRYDEEILVESFISGREIELSVLESAVPSGEPRVSIAGEIRVNHPDGFYSYSAKYLESGQTDLIIPAPLSQTLYEQLKKAAADIFTRLKCKGMARVDFFVNDATETIYFNEVNTLPGFTSISMYPKLWQASGLAYPDLLDELIRMAMVHQHCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKP+NLVLLYGGKSGEHE+SL+SAASVL HLD+ KY+IIP+AMDK G F+ H Y DLLA  +KLPVVTE+S PL GL INGRL+VDA +VFPVVHGPLYEDGCLQG+LELAGVAYVGCDVLSS+IGMDKDMARR+ C++GLKSA YKLLSWH++ASERQ FC +VA EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEILVE FI GREIEL+VLE+++P G+PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLIIPA L+ +L EQLK+AAA+IF+ LKCKGMARVDFFVND TE IYFNE+NTLPGFTSISMYPKLWQA+G+AYPDLLDELI +AMVH +CRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966498882|ref|WP_058515648.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella santicrucis] &gt;gi|962269330|gb|KTD53344.1| D-alanine--D-alanine ligase A [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515648</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>619.772</Hsp_bit-score>
+      <Hsp_score>1597</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>328</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLAHLDAKKYNIIPVAMDKDGLLHQHQYQDLLAYKEKLPVVTENSKPLAGLLINGRLSVDADIVFPIVHGPLYEDGCLQGMLELSGVAYVGCDVLSSAIGMDKDMARRIVCINGLKSANYKLLSWHTSASERQRFCQEVATEFGWPLFVKPCAMGSSVGIHKAKNMAELINAVEDALRYDEEILVEAFVSGREIELSVLESIVPAGKPRVSVAGEIRVNHPDGFYSYSAKYLESGKTDLIIPALLSQTLYEQLKQAAADIFLRLKCKGMARVDFFVNEKTETIYFNEVNTLPGFTSISMYPKLWQASGLSYPDLLDELIRIAIVHQNCRRHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD++KY+IIP+AMDK G  H+H Y DLLA  +KLPVVTE S PL GLLINGRL+VDA IVFP+VHGPLYEDGCLQG+LEL+GVAYVGCDVLSSAIGMDKDMARR+ CINGLKSA YKLLSWH +ASERQ+FC EVA+EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEILVE F+ GREIEL+VLE+ +P GKPRVS+ GEI+VNHPDG+YSY+AKYLES +TDLIIPA L+ +L EQLKQAAA+IF  LKCKGMARVDFFVN+KTE IYFNE+NTLPGFTSISMYPKLWQA+G++YPDLLDELI +A+VH NCR+HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|493927657|ref|WP_006872394.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella drancourtii] &gt;gi|363536111|gb|EHL29557.1| hypothetical protein LDG_8521 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872394</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>619.387</Hsp_bit-score>
+      <Hsp_score>1596</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>329</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MPKPINLVLLYGGKSGEHEVSLVSAASVLANLDVEKYHIIPVAMDKDGLFYVHQYEDLLAYKDKLPVVTERSKSLDNLLINGRLAIDAEVVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMTRRVACIDGLKSARYKLLSWHAPLSERQRFCQDVAAEFGWPLFVKPCAMGSSVGIHKAKSMDELVVAVDDALRYDEEILVESFVEGREIELSVLESAVPSMAPRVSVAGEIRVHHPDGFYSYSAKYLESNQTDLLIPAALSTTLQAELKQAAADIFTRLKCKGMARIDFFVNDKTESIYFNEINTLPGFTSISMYPKLWQESGLAYPDLLDELIRIAMVHQNCRKHLVTNYL</Hsp_hseq>
+      <Hsp_midline>M KP+NLVLLYGGKSGEHEVSLVSAASVL +LD EKYHIIP+AMDK G F+ H Y DLLA  DKLPVVTE+S  L+ LLINGRLA+DA++VFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDM RR+ACI+GLKSARYKLLSWHA  SERQ+FC +VA+EFGWPLFVKPC++GSSVGIHKA +MDEL  AV DALRYDEEILVE F+ GREIEL+VLE+++P   PRVS+ GEI+V+HPDG+YSY+AKYLES+QTDL+IPA L+ +L+ +LKQAAA+IF+ LKCKGMAR+DFFVNDKTE IYFNEINTLPGFTSISMYPKLWQ +G+AYPDLLDELI +AMVH NCR+HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966439659|ref|WP_058479982.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella waltersii] &gt;gi|962295555|gb|KTD79200.1| D-alanine--D-alanine ligase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058479982</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>618.616</Hsp_bit-score>
+      <Hsp_score>1594</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>326</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLINLVLLYGGKSGEHEVSLVSAASVLRHLNAEKYSIIPIAMDKSGNYHLHSYTDLIAYKDKLPVETEKSKPLESIVIDGHFAVDADVVFPIVHGPLYEDGCLQGMLELAGVAYVGCDVLSSAIGMDKDMARRLACNNGLKSARYKLLTWHSNSAERQQFCHDVATEFGWPLFVKPCSLGSSVGIHKVKTMTELNAAVEDALRYDEEILVEEFIAGREIELSVLENRTPGAKPRVSVPGEIKVNHPDGYYSYTAKYLESNQTELIIPAKLSTSLQQKLQQAAAEIFMNLKCKGMARVDFFVNDSTEQIYFNEINTIPGFTPISMYPKMWDVSGIAYSALLDELIDIALIHQSCRQQLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHEVSLVSAASVL+HL++EKY IIPIAMDKSG +H H Y DL+A  DKLPV TEKS PLE ++I+G  AVDA +VFP+VHGPLYEDGCLQG+LELAGVAYVGCDVLSSAIGMDKDMARRLAC NGLKSARYKLL+WH+N++ERQQFCH+VA+EFGWPLFVKPCSLGSSVGIHK   M ELNAAV DALRYDEEILVEEFI GREIEL+VLEN  P  KPRVS+ GEIKVNHPDGYYSYTAKYLES+QT+LIIPA+L+ SL+++L+QAAA IF  LKCKGMARVDFFVND TE+IYFNEINT+PGFT ISMYPK+W  +GIAY  LLDELI++A++H +CRQ LVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|498340527|ref|WP_010654683.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Fluoribacter dumoffii] &gt;gi|962206065|gb|KTC91002.1| D-alanine--D-alanine ligase A [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654683</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>618.231</Hsp_bit-score>
+      <Hsp_score>1593</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>290</Hsp_identity>
+      <Hsp_positive>326</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLAHLDAGKYNIIPVAMDKEGLFHLHEYQDLLACKERLPVVTERSKPLAGLFINGRLSVDADIVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIVCINGLKSANYKLLSWHSSASERQHFCQQVAEEFGWPVFVKPCAMGSSVGIHKAKNMAELIVAVDDALRYDEEILVESFISGREIELSVLEALIPSGEPRVSIAGEIRVNHPDGFYSYSAKYLESGQTDLIIPAALSQSLYEQLKKAAADIFIRLKCKGMARVDFFVNDKTETIYFNEINTLPGFTSISMYPKLWEASGLPYPELLDELIRIAMVHQHCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+ KY+IIP+AMDK G FH H+Y DLLAC ++LPVVTE+S PL GL INGRL+VDA IVFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+ CINGLKSA YKLLSWH++ASERQ FC +VA EFGWP+FVKPC++GSSVGIHKA NM EL  AV DALRYDEEILVE FI GREIEL+VLE  IP G+PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLIIPA L+ SL EQLK+AAA+IF  LKCKGMARVDFFVNDKTE IYFNEINTLPGFTSISMYPKLW+A+G+ YP+LLDELI +AMVH +CRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|654932821|ref|WP_028383179.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella moravica] &gt;gi|962253356|gb|KTD37537.1| D-alanine--D-alanine ligase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383179</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>617.846</Hsp_bit-score>
+      <Hsp_score>1592</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>294</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLINLVLLYGGKSGEHEVSLTSASSVLRHLDSEKYHIIPIAMDKNGQFHLHTYTDLLNYKEKLPVVTEFSKPLDSLVSNGRLAVDADVVFPVVHGPLYEDGSLQGLLELAGVAYVGCDVLPSAIGMDKDMARRVACIDGLHSAQYQLLSWHTTPAERQQFCNDVSAELGWPLFVKPCSLGSSVGIHKARNMAELVAAVDDALRYDEEILVEQFIQGREIELAVLENNKPSAKPRVSVAGEIRVNHPDGFYSYTAKYLESTQTDLIIPALLNEKLSERLKQAAADIFSRLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQASGLTYSELLDELIQIAMTHQHCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHEVSL SA+SVL+HLDSEKYHIIPIAMDK+G+FH H Y DLL   +KLPVVTE S PL+ L+ NGRLAVDA +VFPVVHGPLYEDG LQGLLELAGVAYVGCDVL SAIGMDKDMARR+ACI+GL SA+Y+LLSWH   +ERQQFC++V++E GWPLFVKPCSLGSSVGIHKA NM EL AAV DALRYDEEILVE+FI GREIELAVLEN+ P  KPRVS+ GEI+VNHPDG+YSYTAKYLES+QTDLIIPA LN  L E+LKQAAA+IFS LKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQA+G+ Y +LLDELI +AM H +CRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966423485|ref|WP_058466631.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Fluoribacter gormanii] &gt;gi|962220961|gb|KTD05623.1| D-alanine--D-alanine ligase A [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058466631</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>617.076</Hsp_bit-score>
+      <Hsp_score>1590</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>326</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLTHLDAEKYNIIPVAMDKDGLFHLHQYQDLLAYKEKLPVETEHSKPLASLFINGRLSVDADVVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIACVNGLKSANYKLLSWHASAPERQHFCHEVAEEFGWPVFVKPCSMGSSVGIHKAKNMAELLVAVDDALRYDEEILVESFVTGREIELSVLESAVPSGEPRVSIAGEIRVNHPDGFYSYSAKYLESGQTDLIVPAPLSQNLYEQLRKAAADIFIRLKCKGMARVDFFVNDKTETIYFNEVNTLPGFTSISMYPKLWQASGLSYPELLDELIRIAMVHQNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+EKY+IIP+AMDK G FH H Y DLLA  +KLPV TE S PL  L INGRL+VDA +VFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+AC+NGLKSA YKLLSWHA+A ERQ FCHEVA EFGWP+FVKPCS+GSSVGIHKA NM EL  AV DALRYDEEILVE F+ GREIEL+VLE+++P G+PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLI+PA L+ +L EQL++AAA+IF  LKCKGMARVDFFVNDKTE IYFNE+NTLPGFTSISMYPKLWQA+G++YP+LLDELI +AMVH NCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966516650|ref|WP_058533144.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533144</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.764</Hsp_bit-score>
+      <Hsp_score>1584</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>293</Hsp_identity>
+      <Hsp_positive>322</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPINLALLYGGKSGEHEVSLVSAASVLAHLDAEKYHIIPIAMDKEGLFHVHQYEELLAYKDKLPVVTKNSKPLASLLIDGRFAVDAEVVFPVVHGPLYEDGCLQGILELAGIAYVGCDVLSSAIGMDKDMARRVACIDGLLSARYKLLSWHAPSSERQRFCQEVAAEFGWPLFVKPCSMGSSVGIHKAKNMSELLAAVDDALRYDEEILVESFIEGREIELSVLESLDPSAAPRVSVAGEICVHHPDGFYSYSAKYLESNQTDLIIPAPLSPSLAERLKQAAADAFTRLKCKGMARVDFFVNDKTETIYFNEINTLPGFTSISMYPKLWQASGLTYPDLLDELIRIAQAHQNCRTHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKP+NL LLYGGKSGEHEVSLVSAASVL HLD+EKYHIIPIAMDK G FH H Y +LLA  DKLPVVT+ S PL  LLI+GR AVDA++VFPVVHGPLYEDGCLQG+LELAG+AYVGCDVLSSAIGMDKDMARR+ACI+GL SARYKLLSWHA +SERQ+FC EVA+EFGWPLFVKPCS+GSSVGIHKA NM EL AAV DALRYDEEILVE FI GREIEL+VLE+  P   PRVS+ GEI V+HPDG+YSY+AKYLES+QTDLIIPA L+ SL E+LKQAAA+ F+ LKCKGMARVDFFVNDKTE IYFNEINTLPGFTSISMYPKLWQA+G+ YPDLLDELI +A  H NCR HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966468520|ref|WP_058499846.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella gratiana] &gt;gi|962221305|gb|KTD05965.1| D-alanine--D-alanine ligase A [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499846</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.609</Hsp_bit-score>
+      <Hsp_score>1581</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLVNLILLYGGKSGEHEISLISAASVLAHLDAKKYNIIPIAMDKDGLFYLHQYYDLLAYKEKLPVVTEHSKPLAGLFINGRLSVDADIVFPIVHGPLYEDGCLQGMLELSDIAYVGCDVLSSAIGMDKDMARRIVCINGLKSANYKLLSWHTSSSERQRFCHEVAAEFGWPLFVKPCAMGSSVGIHKAKNMAELINAVEDALRYDEEILVESFVVGREIELSVLEGVLPSGQPRVSVAGEIRVNHPDGFYSYSAKYLESGQTDLIVPAPLSQTLYDQLKQAAADIFIRLKCKGMARVDFFVNEKTETIYFNEVNTLPGFTSISMYPKLWQASGLSYPDLLDELIRIAMVHQNCRRHLVTDYL</Hsp_hseq>
+      <Hsp_midline>MSK VNL+LLYGGKSGEHE+SL+SAASVL HLD++KY+IIPIAMDK G F+ H Y DLLA  +KLPVVTE S PL GL INGRL+VDA IVFP+VHGPLYEDGCLQG+LEL+ +AYVGCDVLSSAIGMDKDMARR+ CINGLKSA YKLLSWH ++SERQ+FCHEVA+EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEILVE F+VGREIEL+VLE  +P G+PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLI+PA L+ +L +QLKQAAA+IF  LKCKGMARVDFFVN+KTE IYFNE+NTLPGFTSISMYPKLWQA+G++YPDLLDELI +AMVH NCR+HLVT+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|769980344|ref|WP_045096329.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella fallonii] &gt;gi|698843949|emb|CEG57918.1| D-alanine--D-alanine ligase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096329</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.838</Hsp_bit-score>
+      <Hsp_score>1579</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLINLVLLYGGKSGEHEISLISAASVLAYLDASKYNIIPIAMDKKGQFHLHNYQDLLSHRDQLPVETEHSKPLDNLLINGRLSVDADVVFPVVHGPLYEDGCLQGMLELANVAYVGCDVLPSAISMDKDMARRIACINGLKSARYKVLSWYSNANERQQFCTEVAAEFGWPLFVKPCSLGSSVGIHKAKNSAELIAAVNDALRYDEEILVEEFIQGREIELAVLENRIPSAAPRVSNVGEIHVNHPDGFYSYTAKYLESGQTDLIIPAALSEQLNERLKHASADIFTRLKCKGMARVDFFVNDETEEIYFNELNTLPGFTSISMYPKLWQATGLAYPDLLDELIEIAKTHHQCRQQLVTDYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL +LD+ KY+IIPIAMDK G+FH H+Y DLL+  D+LPV TE S PL+ LLINGRL+VDA +VFPVVHGPLYEDGCLQG+LELA VAYVGCDVL SAI MDKDMARR+ACINGLKSARYK+LSW++NA+ERQQFC EVA+EFGWPLFVKPCSLGSSVGIHKA N  EL AAV DALRYDEEILVEEFI GREIELAVLEN IP   PRVS VGEI VNHPDG+YSYTAKYLES QTDLIIPA L+  L E+LK A+A+IF+ LKCKGMARVDFFVND+TEEIYFNE+NTLPGFTSISMYPKLWQATG+AYPDLLDELI +A  HH CRQ LVT+YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966504750|ref|WP_058521409.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella tucsonensis] &gt;gi|962290744|gb|KTD74452.1| D-alanine--D-alanine ligase A [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521409</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>610.527</Hsp_bit-score>
+      <Hsp_score>1573</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>326</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPLNLVLLYGGKSGEHEISLISAASVLAHLDAKQYNIIPVAMDKDGLFHLHQYQDLLAYKEKLPVVTEHSKPMSGLFLDGRLSVDADVVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIACVNGLKSASYKLLSWHTLSTERQRFCQEVAEEFGWPLFVKPCAMGSSVGIHKAKNMAELLVAVDDALRYDEEILIESFISGREIELSVLESVVPSGEPRVSIAGEIRVNHPDGFYSYSAKYLESGQTDLIIPAPISQTLYEQLKKAAADIFIRLKCKGMARIDFFVNDKTETIYFNEVNTLPGFTSISMYPKLWQASGLSYPELLDELIRIATVHQNCRRHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKP+NLVLLYGGKSGEHE+SL+SAASVL HLD+++Y+IIP+AMDK G FH H Y DLLA  +KLPVVTE S P+ GL ++GRL+VDA +VFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+AC+NGLKSA YKLLSWH  ++ERQ+FC EVA EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEIL+E FI GREIEL+VLE+ +P G+PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLIIPA ++ +L EQLK+AAA+IF  LKCKGMAR+DFFVNDKTE IYFNE+NTLPGFTSISMYPKLWQA+G++YP+LLDELI +A VH NCR+HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966436830|ref|WP_058477198.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella steigerwaltii] &gt;gi|962293603|gb|KTD77278.1| D-alanine--D-alanine ligase A [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477198</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>608.986</Hsp_bit-score>
+      <Hsp_score>1569</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLAHLDAGKYNIIPIAMDKDGLFYLHQYQDLLAYKEKLPVVTEHAKPLAGLFINGRFSVDADVVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIVCVNGLKSANYKLLSWHSSASERQHFCQRVAEEFGWPLFVKPCAMGSSVGIHKAKDMAELLVAVDDALRYDEEILVESFVSGREIELSVLESTVPSGEPRVSIAGEIRVNHPDGFYSYSAKYLESGQTDLIIPAPLSQSLYEQLKKAAADIFIRLKCKGMARVDFFVNDKTETIYFNEVNTLPGFTSISMYPKLWQASGLSYPELLDELIRIAMVHQHCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+ KY+IIPIAMDK G F+ H Y DLLA  +KLPVVTE + PL GL INGR +VDA +VFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+ C+NGLKSA YKLLSWH++ASERQ FC  VA EFGWPLFVKPC++GSSVGIHKA +M EL  AV DALRYDEEILVE F+ GREIEL+VLE+++P G+PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLIIPA L+ SL EQLK+AAA+IF  LKCKGMARVDFFVNDKTE IYFNE+NTLPGFTSISMYPKLWQA+G++YP+LLDELI +AMVH +CRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|654930588|ref|WP_028380957.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella cherrii] &gt;gi|962197350|gb|KTC82394.1| D-alanine--D-alanine ligase A [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380957</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>608.216</Hsp_bit-score>
+      <Hsp_score>1567</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLAHLDAGKYNIIPIAMDKDGLFYLHQYQDLLAYKEKLPVVTEHATPLAGLFINGRFSVDADVVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIVCINGLKSADYKLLSWHSSASERQHFCQEVAEEFGWPLFVKPCAMGSSVGIHKAKNMAELLVAVDDALRYDEEILVESFIPGREIELSVLESVVPSGEPRVSIAGEIRVNHPDGFYSYSAKYLESGQTDLIIPAPLSETLYEQLKKAAADIFIRLKCKGMARVDFFVNDKDEIIYFNEVNTLPGFTSISMYPKLWQASGLSYPELLDELIRIAMVHQHCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+ KY+IIPIAMDK G F+ H Y DLLA  +KLPVVTE +TPL GL INGR +VDA +VFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+ CINGLKSA YKLLSWH++ASERQ FC EVA EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEILVE FI GREIEL+VLE+ +P G+PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLIIPA L+ +L EQLK+AAA+IF  LKCKGMARVDFFVNDK E IYFNE+NTLPGFTSISMYPKLWQA+G++YP+LLDELI +AMVH +CRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|518063308|ref|WP_019233516.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella anisa] &gt;gi|962187592|gb|KTC72718.1| D-alanine--D-alanine ligase A [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233516</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>604.749</Hsp_bit-score>
+      <Hsp_score>1558</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLAHLDAKQYNIIPVAMDKDGLFHLHQYQDLLAYKEKLPVVTEHSKPMPSLFIDGRLSVDADVVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIVCVNGLKSANYKLFSWHTPATERQRFCQEVAEEFGWPLFVKPCAMGSSVGIHKAKNMAELLVAVDDALRYDEEILIESFIPGREIELSVLESAVPAGAPRVSIAGEIRVNHPDGFYSYSAKYLESGQTDLIIPAPLSQSLYEQLKKAAADIFIRLKCKGMARIDFFVNDKTETIYFNEVNTLPGFTSISMYPKLWQASGLTYPELLDELIRIATVHQNCRRHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+++Y+IIP+AMDK G FH H Y DLLA  +KLPVVTE S P+  L I+GRL+VDA +VFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+ C+NGLKSA YKL SWH  A+ERQ+FC EVA EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEIL+E FI GREIEL+VLE+++P G PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLIIPA L+ SL EQLK+AAA+IF  LKCKGMAR+DFFVNDKTE IYFNE+NTLPGFTSISMYPKLWQA+G+ YP+LLDELI +A VH NCR+HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966415383|ref|WP_058458668.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Fluoribacter bozemanae] &gt;gi|962189893|gb|KTC74995.1| D-alanine--D-alanine ligase A [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458668</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.668</Hsp_bit-score>
+      <Hsp_score>1550</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLAHLDAKQYNIIPVAMDKDGLFHLHQYQDLLAYKEKLPVVTEHSKPMASLFIDGRLSVDADVVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIVCVDGLKSANYKLLSWHTPATERQRFCQEVAEEFGWPLFVKPCAMGSSVGIHKAKNMAELLVAVDDALRYDEEILIESFIPGREIELSVLEGVVPAGEPRVSIAGEIHVNHPDGFYSYSAKYLESGQTDLIIPAPLSQTLYEQLKKAAADIFIRLKCKGMARVDFFVNDKTETIYFNEVNTLPGFTSISMYPKLWQASGLSYPELLDELIRIATVHQNCRRHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+++Y+IIP+AMDK G FH H Y DLLA  +KLPVVTE S P+  L I+GRL+VDA +VFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+ C++GLKSA YKLLSWH  A+ERQ+FC EVA EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEIL+E FI GREIEL+VLE  +P G+PRVS+ GEI VNHPDG+YSY+AKYLES QTDLIIPA L+ +L EQLK+AAA+IF  LKCKGMARVDFFVNDKTE IYFNE+NTLPGFTSISMYPKLWQA+G++YP+LLDELI +A VH NCR+HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966461254|ref|WP_058493607.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella worsleiensis] &gt;gi|962294275|gb|KTD77942.1| D-alanine--D-alanine ligase A [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493607</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>600.512</Hsp_bit-score>
+      <Hsp_score>1547</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSRLINLVLLYGGKSGEHEVSLASASSVLRHLSPEKYRIIPIAMDKEGQFHLHEYSDLIEYKEKLPVATERSKPLASLLNNGTMAVPADVVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRFACINGLQSASYKLLSWHTTATERQKFCSDVSAEFGWPLFVKPCSLGSSVGIHKVNTMAELIAAVDDALRFDEEILVEQFIQGREIELAVLENTNPSAKPRVSVAGEIRVNHSDGFYSYNAKYLESTKTDLIIPALLNSRLTERLTQAAADVFMRLKCKGLARVDFFVNDKTDELYFNEINTLPGFTSISMYPKLWEASGLAYPDLLDELIQIALTHQNCRHHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MS+ +NLVLLYGGKSGEHEVSL SA+SVL+HL  EKY IIPIAMDK G+FH H+Y+DL+   +KLPV TE+S PL  LL NG +AV A +VFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARR ACINGL+SA YKLLSWH  A+ERQ+FC +V++EFGWPLFVKPCSLGSSVGIHK N M EL AAV DALR+DEEILVE+FI GREIELAVLEN+ P  KPRVS+ GEI+VNH DG+YSY AKYLES++TDLIIPA LN+ L E+L QAAA++F  LKCKG+ARVDFFVNDKT+E+YFNEINTLPGFTSISMYPKLW+A+G+AYPDLLDELI +A+ H NCR HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966500560|ref|WP_058517233.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella parisiensis] &gt;gi|962255891|gb|KTD40028.1| D-alanine--D-alanine ligase A [Legionella parisiensis] &gt;gi|1069293456|gb|OEH48782.1| D-alanine--D-alanine ligase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517233</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>600.127</Hsp_bit-score>
+      <Hsp_score>1546</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLAHLDTKEYNIIPVAMDKDGLFHLHQYQDLLDYKEKLPVVTEHSKPMASLFIDGRLSVDADVVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIVCVDGLKSANYKLLSWHTPTTERQRFCQEVAEQFGWPLFVKPCAMGSSVGIHKAKNMTELLVAVDDALRYDEEILIESFILGREIELSVLESVVPSGEPRVSIAGEIRVNHPDGFYSYSAKYLESGQTDLIIPAPLSPTLYEQLKKAAADIFIRLKCKGMARVDFFVNDETETIYFNEVNTLPGFTSISMYPKLWQASGLSYPELLDELIRIAMVHQNCRRHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+++Y+IIP+AMDK G FH H Y DLL   +KLPVVTE S P+  L I+GRL+VDA +VFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+ C++GLKSA YKLLSWH   +ERQ+FC EVA +FGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEIL+E FI+GREIEL+VLE+ +P G+PRVS+ GEI+VNHPDG+YSY+AKYLES QTDLIIPA L+ +L EQLK+AAA+IF  LKCKGMARVDFFVND+TE IYFNE+NTLPGFTSISMYPKLWQA+G++YP+LLDELI +AMVH NCR+HLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|671587317|ref|WP_031563577.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563577</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>587.03</Hsp_bit-score>
+      <Hsp_score>1512</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>314</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKLLNLVLLYGGKSGEHEISLISAASVLAHLDAEKYNIIPIAMDKEGLFHLHQYQHLVNYKEKLPVITEHSKSIPSLMSHGGFCVDADVVFPVVHGPLYEDGCLQGMLELSGVAYVGCDVLSSSIGMDKDMARRIVCIDGLKSANYKLLSWHTPATDRQHFCQEVAEEFGWPLFVKPCAMGSSVGIHKAKNMSELLIAVNDALRYDEEILIESFIAGREIELSVLEGATPGEEPRVSIAGEICVNHPDGFYSYSAKYLESGQTDLIIPAVLSATLYEQLKKAAADIFIRLKCKGMARVDFFVNDKTETIYFNEVNTLPGFTSISMYPKLWQATGLSYPDLLDELIRIAMVHQNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+EKY+IIPIAMDK G FH H Y  L+   +KLPV+TE S  +  L+ +G   VDA +VFPVVHGPLYEDGCLQG+LEL+GVAYVGCDVLSS+IGMDKDMARR+ CI+GLKSA YKLLSWH  A++RQ FC EVA EFGWPLFVKPC++GSSVGIHKA NM EL  AV DALRYDEEIL+E FI GREIEL+VLE + P  +PRVS+ GEI VNHPDG+YSY+AKYLES QTDLIIPA L+ +L EQLK+AAA+IF  LKCKGMARVDFFVNDKTE IYFNE+NTLPGFTSISMYPKLWQATG++YPDLLDELI +AMVH NCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966431445|ref|WP_058471890.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella jordanis] &gt;gi|962233661|gb|KTD18209.1| D-alanine--D-alanine ligase [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471890</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>577.785</Hsp_bit-score>
+      <Hsp_score>1488</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>313</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNY</Hsp_qseq>
+      <Hsp_hseq>MSKQINLLVVYGGKSGEHEVSLVSAASVLRELDAKKYHIIPVGMDKQGRFFLNDYQELLNFKDRLPVSTSRSRPLPSLLVDGRLAVDADVVFPVVHGPLYEDGCLQGLLKLAGVAFVGCDVLSSAIGMDKDVARRLACTGDIQSARYRLLSWHSTAAEKQQFCQQVVAEFGWPLFVKPCSLGSSVGIHKARNMEELNAAIADALRYDEAILVEEFIVGREIELAVLENTTPAAAPRVSLAGEIRVHHNDGFYSYTAKYLESEQTELHAPAQLNPELVTRLQTLAAEIFNKLKCKGMARVDFFVNDESGAIYFNEINSLPGFTPISMYPKLWQVSGLAYPLLLDELINLALSHQRCRQQLVTDY</Hsp_hseq>
+      <Hsp_midline>MSK +NL+++YGGKSGEHEVSLVSAASVL+ LD++KYHIIP+ MDK GRF  +DY +LL   D+LPV T +S PL  LL++GRLAVDA +VFPVVHGPLYEDGCLQGLL+LAGVA+VGCDVLSSAIGMDKD+ARRLAC   ++SARY+LLSWH+ A+E+QQFC +V +EFGWPLFVKPCSLGSSVGIHKA NM+ELNAA+ADALRYDE ILVEEFIVGREIELAVLEN+ P   PRVS+ GEI+V+H DG+YSYTAKYLES QT+L  PAQLN  L  +L+  AA IF+ LKCKGMARVDFFVND++  IYFNEIN+LPGFT ISMYPKLWQ +G+AYP LLDELINLA+ H  CRQ LVT+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966464435|ref|WP_058495796.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella drozanskii] &gt;gi|962202918|gb|KTC87887.1| D-alanine--D-alanine ligase [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058495796</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>570.081</Hsp_bit-score>
+      <Hsp_score>1468</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>313</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNY</Hsp_qseq>
+      <Hsp_hseq>MSK-IKLVLLYGGKSGEHEISLISAASVLAHLDANKYQIVPVGMDKEGRFYQNDYQELLAFKESLPVVTPRSRPLAGLLVDGHLAVDAEVVFPVVHGPLYEDGCLQGILELAGVSYVGCDVLSSAIGMDKDMARRLACSDGIRSARYRLLSWHSSAQEKQQFCQQVVAELGWPLFVKPCSLGSSVGIHKVKNNEELARAIEDALRYDETILVEEYISGREIELAVLEGTVPFSVPRVSLAGEICVNHADGFYSYTAKYLESNQTELHVPATLNEGMTKQLQEIAAEIFTRLKCRGMARVDFFVNEQTGNIYFNEINTLPGFTSISMYPKLWQASGLKYPELLDELISLAMTHQRCRQQLITSY</Hsp_hseq>
+      <Hsp_midline>MSK + LVLLYGGKSGEHE+SL+SAASVL HLD+ KY I+P+ MDK GRF+++DY +LLA  + LPVVT +S PL GLL++G LAVDA++VFPVVHGPLYEDGCLQG+LELAGV+YVGCDVLSSAIGMDKDMARRLAC +G++SARY+LLSWH++A E+QQFC +V +E GWPLFVKPCSLGSSVGIHK  N +EL  A+ DALRYDE ILVEE+I GREIELAVLE ++P   PRVS+ GEI VNH DG+YSYTAKYLES+QT+L +PA LN  + +QL++ AA IF+ LKC+GMARVDFFVN++T  IYFNEINTLPGFTSISMYPKLWQA+G+ YP+LLDELI+LAM H  CRQ L+T+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|654937927|ref|WP_028388175.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028388175</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>564.688</Hsp_bit-score>
+      <Hsp_score>1454</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNY</Hsp_qseq>
+      <Hsp_hseq>MSK-INLLLLYGGKSGEHEISLISAASVLAHLNADKYHIIPVGMDKEGRFYQNEYQDLLAFKESLPVVTPRSRSLPSLLVDGRLSVDAQIVFPVVHGPLYEDGCLQGLLKLAGVAYVGCDVLSSAIGMDKDMARRVACTDNIRSARYRVLSWHSTATEKQQFCQQVIAELGWPLFVKPCSLGSSVGIHKVKNIDELLHAIENALRYDEAILVEEFIAGREIELAVLEHPTPSSPPRVSIAGEICVNHADGFYSYTAKYLESGQTDLYIPAQLDDKLITQLQDIAGKVFTRLKCKGMARVDFFVNDQSGQIYFNEINTLPGFTSISMYPKLWQASGLSYSQLLDELLNLAMTHQRCREQLVTSY</Hsp_hseq>
+      <Hsp_midline>MSK +NL+LLYGGKSGEHE+SL+SAASVL HL+++KYHIIP+ MDK GRF++++Y DLLA  + LPVVT +S  L  LL++GRL+VDA+IVFPVVHGPLYEDGCLQGLL+LAGVAYVGCDVLSSAIGMDKDMARR+AC + ++SARY++LSWH+ A+E+QQFC +V +E GWPLFVKPCSLGSSVGIHK  N+DEL  A+ +ALRYDE ILVEEFI GREIELAVLE+  P   PRVS+ GEI VNH DG+YSYTAKYLES QTDL IPAQL++ L  QL+  A  +F+ LKCKGMARVDFFVND++ +IYFNEINTLPGFTSISMYPKLWQA+G++Y  LLDEL+NLAM H  CR+ LVT+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966475039|ref|WP_058505800.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella nautarum] &gt;gi|962248966|gb|KTD33188.1| D-alanine--D-alanine ligase [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505800</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.992</Hsp_bit-score>
+      <Hsp_score>1447</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>313</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNY</Hsp_qseq>
+      <Hsp_hseq>MSK-INLVLLYGGKSGEHEISLISAASVLAHLDANKYHIIPVGMDKEGRFYQNDYQELLAYKESLPVVTPRSRPLASLLVDGQLAVEAEVVFPVVHGPLYEDGCLQGLLKLAGVAYVGCDVLSSAISMDKDMARRLACNNEIRSARYRLLSWHSSAQEKQQFCQQVVAELGWPLFVKPCSLGSSVGIHKVKNNEELARAIEDALRYDETILVEEYISGKEIELAVLEATVPFTVPRVSLAGEICVNHADGFYSYTAKYLESNQTELHVPAKLDEGITKQLQGIAAEIFTRLKCRGMARVDFFVNEQTGGIYFNEINTLPGFTSISMYPKLWQASGLRYPELLDELVSLAMTHQRCRQQLVTSY</Hsp_hseq>
+      <Hsp_midline>MSK +NLVLLYGGKSGEHE+SL+SAASVL HLD+ KYHIIP+ MDK GRF+++DY +LLA  + LPVVT +S PL  LL++G+LAV+A++VFPVVHGPLYEDGCLQGLL+LAGVAYVGCDVLSSAI MDKDMARRLAC N ++SARY+LLSWH++A E+QQFC +V +E GWPLFVKPCSLGSSVGIHK  N +EL  A+ DALRYDE ILVEE+I G+EIELAVLE ++P   PRVS+ GEI VNH DG+YSYTAKYLES+QT+L +PA+L+  + +QL+  AA IF+ LKC+GMARVDFFVN++T  IYFNEINTLPGFTSISMYPKLWQA+G+ YP+LLDEL++LAM H  CRQ LVT+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966515299|ref|WP_058531816.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella rubrilucens] &gt;gi|962262726|gb|KTD46812.1| D-alanine--D-alanine ligase [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058531816</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.525</Hsp_bit-score>
+      <Hsp_score>1438</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNY</Hsp_qseq>
+      <Hsp_hseq>MSELVNLALLYGGKSGEHEVSLVSAASVLAQLDARKYRIIPIGMDKEGRCYLNDYQELLAHKNSLPVKTASSQALPSLLIDGRLAVDADVVFPVVHGPLHEDGCLQGLLELAGVAYVGSDVLSSAIGMDKDMARRLACDARIRSARYRLLSWHSNAAERQQFCQDVASDFGWPLFVKPCSLGSSVGIHKAKTMAELAHAVEDALRYDETILVEEFIQGREIELSVLENTNPSASPRVSIAGEICVHHADGFYSYAAKYIESAATDLHVPAQLDNSLLNELQAIAGEIFTRLKCKGMARVDFFVNDKTGDIYFNEINTLPGFTPISMYPKLWQASGLGYPELLEELISLARIHHRCREQLVTNY</Hsp_hseq>
+      <Hsp_midline>MS+ VNL LLYGGKSGEHEVSLVSAASVL  LD+ KY IIPI MDK GR + +DY +LLA  + LPV T  S  L  LLI+GRLAVDA +VFPVVHGPL+EDGCLQGLLELAGVAYVG DVLSSAIGMDKDMARRLAC   ++SARY+LLSWH+NA+ERQQFC +VAS+FGWPLFVKPCSLGSSVGIHKA  M EL  AV DALRYDE ILVEEFI GREIEL+VLEN+ P   PRVS+ GEI V+H DG+YSY AKY+ES+ TDL +PAQL+NSL  +L+  A  IF+ LKCKGMARVDFFVNDKT +IYFNEINTLPGFT ISMYPKLWQA+G+ YP+LL+ELI+LA +HH CR+ LVTNY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966400206|ref|WP_058443801.1|</Hit_id>
+  <Hit_def>D-alanine--D-alanine ligase A [Legionella feeleii] &gt;gi|962218247|gb|KTD02966.1| D-alanine--D-alanine ligase [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058443801</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>557.755</Hsp_bit-score>
+      <Hsp_score>1436</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNY</Hsp_qseq>
+      <Hsp_hseq>MSKPINLVLLYGGKSGEHEISLISAASVLAQLDASKYNIIPIGMDKEGRCYQNDYQELLAFKESLPVSTSRSRPLASLLIDGHFAVDADVVFPIVHGPLYEDGCLQGLLELAGVAYVGCDALSSAIGMDKDMARRLACNDEIRSARYRVLSWHSTALERQQFCQQTAAELSWPLFVKPCSLGSSVGIHKVKNHTELAAAIEDALRYDETILVEEFLPGREIELSVLENASLSGVPRVSIAGEIRVHHADGFYSYSAKYLESNQTELHVPAKLDPKILKRLQTISCEIFTRLKCKGMARVDFFVNDQTGDVFFNEINTLPGFTSISMYPKLWQASGLAYPQLLDELVNLAMTHHRCRQQLVTSY</Hsp_hseq>
+      <Hsp_midline>MSKP+NLVLLYGGKSGEHE+SL+SAASVL  LD+ KY+IIPI MDK GR +++DY +LLA  + LPV T +S PL  LLI+G  AVDA +VFP+VHGPLYEDGCLQGLLELAGVAYVGCD LSSAIGMDKDMARRLAC + ++SARY++LSWH+ A ERQQFC + A+E  WPLFVKPCSLGSSVGIHK  N  EL AA+ DALRYDE ILVEEF+ GREIEL+VLEN+   G PRVS+ GEI+V+H DG+YSY+AKYLES+QT+L +PA+L+  + ++L+  +  IF+ LKCKGMARVDFFVND+T +++FNEINTLPGFTSISMYPKLWQA+G+AYP LLDEL+NLAM HH CRQ LVT+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

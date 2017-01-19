@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_241613</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834211</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_241613</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834211</Iteration_query-def>
+  <Iteration_query-len>225</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250806|ref|WP_010948346.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella pneumophila] &gt;gi|52842852|ref|YP_096651.1| response regulator GacA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629963|gb|AAU28704.1| response regulator GacA [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509357|gb|AEW52881.1| response regulator GacA [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948346</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>1.15111e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119380398|ref|WP_072356495.1|</Hit_id>
+  <Hit_def>two-component system response regulator UvrY [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356495</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>8.20599e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQEPQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQE QDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119427046|ref|WP_072402346.1|</Hit_id>
+  <Hit_def>two-component system response regulator UvrY [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402346</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.988</Hsp_bit-score>
+      <Hsp_score>1177</Hsp_score>
+      <Hsp_evalue>4.54494e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKAIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQEPQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIK IAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQE QDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499535735|ref|WP_011216518.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella pneumophila] &gt;gi|22074635|gb|AAL79360.1| GacA regulatory protein [Legionella pneumophila] &gt;gi|53755316|emb|CAH16812.1| Legionella transmission activator LetA [Legionella pneumophila str. Lens] &gt;gi|395128647|emb|CCD06865.1| DNA-binding response regulator in two-component regulatory system with BarA [Legionella pneumophila subsp. pneumophila] &gt;gi|469490632|gb|AGH52477.1| BarA-associated response regulator UvrY (GacA SirA) [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083318|gb|AGN15566.1| response regulator GacA [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772828|emb|CZI17257.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998775723|emb|CZG60598.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998778309|emb|CZG75563.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998784548|emb|CZG86021.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998787500|emb|CZG59008.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998811905|emb|CZH78901.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998814296|emb|CZG62192.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998824298|emb|CZG45577.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998829447|emb|CZG78416.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998837853|emb|CZJ72727.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998865401|emb|CZJ41355.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998869858|emb|CZJ36089.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998871053|emb|CZM16428.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998874541|emb|CZK38118.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998877472|emb|CZL99792.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998880539|emb|CZI87321.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998888031|emb|CZL49976.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998889234|emb|CZK23168.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998906116|emb|CZK56379.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998909687|emb|CZL09003.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998936499|emb|CZM49858.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999000431|emb|CZG77450.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999057975|emb|CZM55923.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999067378|emb|CZJ18341.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999076898|emb|CZG59090.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999095270|emb|CZG87538.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999098715|emb|CZG60381.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999104154|emb|CZI05339.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999128765|emb|CZH02680.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999156861|emb|CZH74720.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999191285|emb|CZI17847.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999194408|emb|CZI43948.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999200273|emb|CZG60739.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999203719|emb|CZI43918.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999222400|emb|CZI35443.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999236339|emb|CZH06471.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999248084|emb|CZH51390.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999269706|emb|CZO24902.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999455537|emb|CZH45199.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999462208|emb|CZG05415.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999465412|emb|CZM26440.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999468332|emb|CZO07240.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999474562|emb|CZM55177.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999478163|emb|CZN24911.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999481358|emb|CZM62887.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999484388|emb|CZN96456.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999487540|emb|CZL95734.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999490731|emb|CZN58864.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999493961|emb|CZL96193.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999500359|emb|CZN57779.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999503581|emb|CZN87436.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999506777|emb|CZM93383.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999510016|emb|CZG25944.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999513169|emb|CZN17896.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999515190|emb|CZM27044.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999519788|emb|CZM49603.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999532656|emb|CZO31935.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999534736|emb|CZN68498.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999539049|emb|CZM53300.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999542297|emb|CZO08374.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999545443|emb|CZO45325.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999548595|emb|CZN74051.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999551831|emb|CZN98646.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999555208|emb|CZM96152.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999558221|emb|CZO44997.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999561373|emb|CZM27898.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999564614|emb|CZO45433.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999567761|emb|CZM41113.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999570960|emb|CZN39744.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999574150|emb|CZN77011.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999580641|emb|CZO01545.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999584153|emb|CZO14956.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999585927|emb|CZN10707.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999590538|emb|CZM23106.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999593413|emb|CZN32916.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999596611|emb|CZN95489.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999599847|emb|CZO23662.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999603297|emb|CZL64714.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999606242|emb|CZN38251.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999609708|emb|CZN42081.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999615884|emb|CZM32227.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999618967|emb|CZN75286.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999622357|emb|CZO52928.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999625599|emb|CZN52911.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999628984|emb|CZM42983.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999631862|emb|CZM47013.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999635098|emb|CZN39554.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999638250|emb|CZN36051.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999641446|emb|CZO63959.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999644617|emb|CZO29438.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999648154|emb|CZN77214.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999650965|emb|CZN93773.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999654271|emb|CZN91413.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999657649|emb|CZL99981.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999660620|emb|CZM49223.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999664134|emb|CZM83203.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999667055|emb|CZM24134.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999670249|emb|CZL73347.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999673636|emb|CZM18378.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999676600|emb|CZN62724.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999679635|emb|CZM63476.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999682830|emb|CZM70505.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999686056|emb|CZN93487.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999689604|emb|CZN09449.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999692587|emb|CZN82162.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999696015|emb|CZN00521.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999698179|emb|CZM31396.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999702508|emb|CZM44769.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999705622|emb|CZL58525.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999708646|emb|CZN40927.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999711898|emb|CZM85997.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999715419|emb|CZM89711.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999718490|emb|CZO26805.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999721436|emb|CZM68525.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999724776|emb|CZN18450.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999728143|emb|CZL88476.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999731669|emb|CZO22263.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999734918|emb|CZM00924.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999738180|emb|CZO46991.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999741120|emb|CZM26532.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999744578|emb|CZN06461.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999747947|emb|CZM01454.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999750842|emb|CZL80826.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999754080|emb|CZM70736.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999757423|emb|CZM82881.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999760430|emb|CZM16498.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999763855|emb|CZN09517.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999767052|emb|CZM55546.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999769859|emb|CZN41440.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999773563|emb|CZH74561.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999776525|emb|CZL88666.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999783389|emb|CZH49435.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999786565|emb|CZM17083.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999789844|emb|CZO49968.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999793209|emb|CZO50780.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999796456|emb|CZI07847.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999799593|emb|CZO59118.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1002075553|emb|CZQ94321.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1002085459|emb|CZQ99345.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1002088121|emb|CZQ79299.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1003035435|emb|CZR22691.1| response regulator GacA [Legionella pneumophila] &gt;gi|1005362930|gb|AMP88799.1| two-component system response regulator [Legionella pneumophila subsp. pascullei] &gt;gi|1005367806|gb|AMP93583.1| two-component system response regulator [Legionella pneumophila subsp. pascullei] &gt;gi|1005370725|gb|AMP96501.1| two-component system response regulator [Legionella pneumophila subsp. pascullei] &gt;gi|1073865687|gb|AOU05638.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073868656|gb|AOU08606.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073874518|gb|AOU14466.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073877576|gb|AOU17523.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073880539|gb|AOU20485.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073883536|gb|AOU23481.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073889497|gb|AOU29440.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073892481|gb|AOU32423.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073895449|gb|AOU35390.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073898407|gb|AOU38347.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073901373|gb|AOU41312.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073904282|gb|AOU44220.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073907235|gb|AOU47172.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073910253|gb|AOU50188.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073913265|gb|AOU53197.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073916225|gb|AOU56156.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073922091|gb|AOU62020.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073925174|gb|AOU65101.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073928137|gb|AOU68063.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073931123|gb|AOU71032.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073934492|gb|AOU74051.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073937457|gb|AOU84456.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073947723|gb|AOU87447.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073950651|gb|AOU90374.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1080003018|gb|AOW53590.1| two-component system response regulator UvrY [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005236|gb|AOW55516.1| two-component system response regulator UvrY [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015515|gb|AOW64388.1| two-component system response regulator UvrY [Legionella pneumophila subsp. pneumophila] &gt;gi|1129969309|gb|APT99668.1| two-component system response regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011216518</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.973</Hsp_bit-score>
+      <Hsp_score>1151</Hsp_score>
+      <Hsp_evalue>3.0866e-159</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|654928548|ref|WP_028378979.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella pneumophila] &gt;gi|985764656|gb|KXB25775.1| response regulator [Legionella pneumophila] &gt;gi|985767073|gb|KXB28168.1| response regulator [Legionella pneumophila] &gt;gi|999119107|emb|CZG86797.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999122232|emb|CZH20137.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1024339712|gb|KZX34051.1| two-component system response regulator [Legionella pneumophila] &gt;gi|1108608979|gb|APF07346.1| two-component system response regulator UvrY [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_028378979</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>2.20013e-158</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPSDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHP+DLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|500496210|ref|WP_011947563.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella pneumophila] &gt;gi|53752420|emb|CAH13852.1| Legionella transmission activator LetA [Legionella pneumophila str. Paris] &gt;gi|148280392|gb|ABQ54480.1| Legionella transmission activator LetA [Legionella pneumophila str. Corby] &gt;gi|295650193|gb|ADG26040.1| Legionella transmission activator LetA [Legionella pneumophila 2300/99 Alcoy] &gt;gi|395131731|emb|CCD10024.1| DNA-binding response regulator in two-component regulatory system with BarA [Legionella pneumophila subsp. pneumophila] &gt;gi|536611685|gb|ERB40203.1| response regulator [Legionella pneumophila str. 121004] &gt;gi|542000375|gb|ERH46362.1| response regulator [Legionella pneumophila str. Leg01/11] &gt;gi|542123164|gb|ERI49473.1| response regulator [Legionella pneumophila str. Leg01/20] &gt;gi|761987312|dbj|GAN24662.1| response regulator UvrY [Legionella pneumophila] &gt;gi|761990386|dbj|GAN18610.1| response regulator UvrY [Legionella pneumophila] &gt;gi|761993576|dbj|GAN21716.1| response regulator UvrY [Legionella pneumophila] &gt;gi|761996869|dbj|GAN31044.1| response regulator UvrY [Legionella pneumophila] &gt;gi|762000240|dbj|GAN27972.1| response regulator UvrY [Legionella pneumophila] &gt;gi|998781154|emb|CZJ42912.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998790031|emb|CZH03326.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998792841|emb|CZI69930.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998796513|emb|CZI00451.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998800316|emb|CZL04635.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998802639|emb|CZH89314.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998805801|emb|CZK07431.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998808365|emb|CZH88074.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998817721|emb|CZL59282.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998820823|emb|CZL60938.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998826785|emb|CZK08470.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998832577|emb|CZI07019.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998835758|emb|CZK88015.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998842297|emb|CZL13123.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998844715|emb|CZK28754.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998847666|emb|CZK66794.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998850247|emb|CZI38058.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998853770|emb|CZL26022.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998856466|emb|CZL33008.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998859789|emb|CZL73434.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998862675|emb|CZK19106.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998883311|emb|CZI76001.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998892911|emb|CZJ08544.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998895516|emb|CZJ99443.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998912310|emb|CZG96397.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998915842|emb|CZK62306.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998918311|emb|CZK83053.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998921282|emb|CZL38830.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998924301|emb|CZJ96232.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998927587|emb|CZL64065.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998930674|emb|CZK75674.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998933921|emb|CZL75824.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998939889|emb|CZK76622.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998942546|emb|CZK06274.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998945966|emb|CZK94874.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998949010|emb|CZK82617.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998954597|emb|CZK42052.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998958604|emb|CZM00968.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998961510|emb|CZK25351.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998964623|emb|CZK05489.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998966955|emb|CZM52620.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998970497|emb|CZK54140.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998973812|emb|CZK26862.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998976176|emb|CZJ65468.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998979517|emb|CZL59696.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998982038|emb|CZI89209.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998985866|emb|CZJ99622.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998988704|emb|CZL48110.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998991504|emb|CZK07375.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998993966|emb|CZI47117.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998998034|emb|CZJ88777.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999004471|emb|CZI43900.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999008006|emb|CZK27494.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999009839|emb|CZK03407.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999012939|emb|CZL44296.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999016861|emb|CZL68917.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999018909|emb|CZJ60780.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999022659|emb|CZL14833.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999025370|emb|CZK74461.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999027993|emb|CZJ91038.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999031553|emb|CZG68470.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999034039|emb|CZJ97165.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999037127|emb|CZL54520.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999040246|emb|CZJ67191.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999043087|emb|CZJ78006.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999046851|emb|CZL77176.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999048958|emb|CZJ85859.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999052215|emb|CZJ67672.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999055167|emb|CZJ97497.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999061658|emb|CZL15111.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999064325|emb|CZJ78001.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999070120|emb|CZJ75496.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999073421|emb|CZK04308.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999080242|emb|CZJ91830.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999082799|emb|CZK77998.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999085636|emb|CZJ98219.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999090491|emb|CZK41404.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999092485|emb|CZL40726.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999101143|emb|CZL67874.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999106936|emb|CZI84454.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999110414|emb|CZL15419.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999113807|emb|CZL51638.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999116412|emb|CZK48743.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999126324|emb|CZK79151.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999131590|emb|CZL95023.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999134809|emb|CZL17047.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999138089|emb|CZK27982.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999141796|emb|CZL44572.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999144559|emb|CZK69552.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999147649|emb|CZL49905.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999151585|emb|CZH55884.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999153843|emb|CZM16833.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999158618|emb|CZJ91024.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999162931|emb|CZM04786.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999166072|emb|CZG70275.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999168327|emb|CZI52253.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999173385|emb|CZH69640.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999175789|emb|CZL04953.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999177462|emb|CZJ86061.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999182555|emb|CZG27785.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999184512|emb|CZP93137.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999188720|emb|CZI77106.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999198320|emb|CZP07357.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999206425|emb|CZP58677.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999210013|emb|CZK75736.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999213652|emb|CZG43794.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999217058|emb|CZI72180.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999219305|emb|CZL30826.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999225902|emb|CZG32440.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999227840|emb|CZP39897.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999231210|emb|CZI62214.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999235061|emb|CZP52418.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999240557|emb|CZH76303.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999244226|emb|CZH71629.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999249436|emb|CZG79008.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999252903|emb|CZG92189.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999256164|emb|CZP74168.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999259211|emb|CZP39632.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999262141|emb|CZH06103.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999265445|emb|CZP03686.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999272087|emb|CZP52271.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999274356|emb|CZH09120.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999277794|emb|CZP29802.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999281500|emb|CZP22446.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999284148|emb|CZP49839.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999286774|emb|CZI75302.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999290849|emb|CZP27825.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999293103|emb|CZI62365.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999296751|emb|CZP49622.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999299990|emb|CZP27341.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999302249|emb|CZI55265.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999307167|emb|CZH65975.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999309553|emb|CZP20069.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999312062|emb|CZI87981.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999315961|emb|CZI02672.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999318954|emb|CZP56997.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999322206|emb|CZH92456.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999324920|emb|CZH13646.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999327601|emb|CZH28402.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999332878|emb|CZG03186.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999335274|emb|CZK72649.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999337989|emb|CZP43685.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999340745|emb|CZG99527.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999344153|emb|CZP91704.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999347441|emb|CZP60298.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999350129|emb|CZH28041.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999353740|emb|CZP52805.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999356849|emb|CZP75362.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999361071|emb|CZI00905.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999363215|emb|CZP71378.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999366978|emb|CZP71867.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999369604|emb|CZP86769.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999374029|emb|CZG03185.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999377368|emb|CZI91604.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999380667|emb|CZH52162.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999383389|emb|CZI15779.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999387482|emb|CZG11389.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999390289|emb|CZI11258.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999392492|emb|CZP95762.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999397046|emb|CZG15908.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999398740|emb|CZP99066.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999403260|emb|CZP47401.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999406441|emb|CZG43913.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999409387|emb|CZH71234.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999412599|emb|CZG28020.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999416669|emb|CZG15313.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999422590|emb|CZH44500.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999426503|emb|CZG25179.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999429095|emb|CZG29834.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999432684|emb|CZG05404.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999435758|emb|CZH66147.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999438329|emb|CZG44410.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999445310|emb|CZH55872.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999448572|emb|CZG03187.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999450809|emb|CZP30683.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999458378|emb|CZJ90629.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999469978|emb|CZG82219.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999497001|emb|CZI09803.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999521361|emb|CZP45251.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999526348|emb|CZI61952.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999529230|emb|CZI17671.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999577050|emb|CZI01707.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999612351|emb|CZI06195.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|999778493|emb|CZH01497.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1002079059|emb|CZQ94723.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1002082151|emb|CZQ96131.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1002091771|emb|CZR06260.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1003020150|emb|CZR21596.1| response regulator GacA [Legionella pneumophila] &gt;gi|1003023030|emb|CZR20432.1| response regulator GacA [Legionella pneumophila] &gt;gi|1003026872|emb|CZR18132.1| response regulator GacA [Legionella pneumophila] &gt;gi|1003031901|emb|CZR28581.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1005834315|gb|AMQ29041.1| response regulator [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434070|gb|AMV15697.1| Response regulator UvrY [Legionella pneumophila] &gt;gi|1032658725|gb|ANH13996.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1032661687|gb|ANH16957.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1032664665|gb|ANH19934.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1041016618|gb|ANN93679.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073886528|gb|AOU26472.1| two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1080008940|gb|AOW58928.1| two-component system response regulator UvrY [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011393|gb|AOW60884.1| two-component system response regulator UvrY [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017637|gb|AOW66282.1| two-component system response regulator UvrY [Legionella pneumophila subsp. pneumophila] &gt;gi|1103997810|emb|SFZ46929.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1104000950|emb|SFZ46946.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1104004049|emb|SFZ46931.1| Response regulator uvrY [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947563</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>3.12559e-158</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQEPQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQE QDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|647585341|ref|WP_025862552.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella pneumophila] &gt;gi|1073919188|gb|AOU59118.1| two-component system response regulator UvrY [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_025862552</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>5.65261e-158</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNTNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTN NIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1074846678|ref|WP_070065731.1|</Hit_id>
+  <Hit_def>two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1073871651|gb|AOU11600.1| two-component system response regulator UvrY [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_070065731</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>6.51921e-158</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRLLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTR LKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1005610291|ref|WP_061692755.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella pneumophila] &gt;gi|998898848|emb|CZJ46351.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|998952253|emb|CZJ34381.1| Response regulator uvrY [Legionella pneumophila] &gt;gi|1104007502|emb|SFZ47014.1| Response regulator uvrY [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061692755</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>1.63856e-157</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKAIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQEPQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIK IAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQE QDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|737925543|ref|WP_035890732.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella norrlandica] &gt;gi|701445256|gb|KGP62650.1| response regulator [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890732</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>2.89897e-157</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSIQEPQDSPFDLLSEREMQVMLMITSGMNVQEIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINS+QE QDSPFDLLSEREMQVMLMITSGMNVQ+IADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1006484247|ref|WP_061773381.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella pneumophila] &gt;gi|1003028382|emb|CZR23463.1| response regulator GacA [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061773381</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.58</Hsp_bit-score>
+      <Hsp_score>1137</Hsp_score>
+      <Hsp_evalue>4.49618e-157</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQEPQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIINDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQE QDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGI NDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|652976403|ref|WP_027229075.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027229075</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.58</Hsp_bit-score>
+      <Hsp_score>1137</Hsp_score>
+      <Hsp_evalue>4.96283e-157</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAICKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPSDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAI KVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHP+DLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1110760352|ref|WP_071984298.1|</Hit_id>
+  <Hit_def>two-component system response regulator UvrY [Legionella pneumophila] &gt;gi|1108605997|gb|APF04365.1| two-component system response regulator UvrY [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_071984298</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>7.36663e-157</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIYGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQEPQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGI GWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQE QDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|654932780|ref|WP_028383138.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383138</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>1.70526e-152</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMADVDVVADAESGEQALAFVKTHNPDVVLLDMKMPGIDGWEVTRRLKKSNPQIKVIAVTAICTDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQDAQDSPFDMLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRVIEHPNDIIQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDM+DVDVVADAESGEQALA+VKTH+PDVVLLDMKMPGIDGWEVTRRLKK+NP IKVIAVTAIC+DPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQ++QDSPFD+LSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHR+IEHPND+ QDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|963707704|ref|WP_058388980.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella moravica] &gt;gi|962253312|gb|KTD37493.1| response regulator GacA [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_058388980</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>5.2788e-152</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMADVDVVADAESGEQALAFVKTHNPDVVLLDMKMPGIDGWEVTRRFKKSNPQIKVIAVTAICTDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQDAQDSPFDMLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRVIEHPNDIIQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDM+DVDVVADAESGEQALA+VKTH+PDVVLLDMKMPGIDGWEVTRR KK+NP IKVIAVTAIC+DPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQ++QDSPFD+LSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHR+IEHPND+ QDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|966433929|ref|WP_058474362.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella quateirensis] &gt;gi|962263754|gb|KTD47834.1| response regulator GacA [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474362</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>3.19082e-151</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAFVKTHNPDVVLLDMKMPGIDGWEVTRRLKKSNPHIKVIAVTAMCTDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLLDAQDSPFDMLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRVIEHPNDIIQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALA+VKTH+PDVVLLDMKMPGIDGWEVTRRLKK+NP+IKVIAVTA+C+DPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL ++QDSPFD+LSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHR+IEHPND+ QDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|698843989|emb|CEG57958.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator in two-component regulatory system with BarA [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>CEG57958</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>4.59983e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHP--NDLSQDD</Hsp_qseq>
+      <Hsp_hseq>LVKEHHLIKVLIVDDHALVRMGIRRLLEDMSDVNVVADAENGEQALQLVKIHTPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAICSEPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQEAQESPFDMLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPSDSDITQDD</Hsp_hseq>
+      <Hsp_midline>+VKEH+LIKVLIVDDHALVRMGIRRLLEDMSDV+VVADAE+GEQAL  VK H+PDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTAICS+PLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQE+Q+SPFD+LSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHP  +D++QDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|966460485|ref|WP_058492914.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella worsleiensis] &gt;gi|962296559|gb|KTD80196.1| response regulator GacA [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492914</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>8.3785e-151</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAFVKTHNPDVVLLDMKMPGIDGWEVTRRLKKSNPHIKVIAVTAMCPDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQDAQGSPFDMLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRVIEHPNDIIQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALA+VKTH+PDVVLLDMKMPGIDGWEVTRRLKK+NP+IKVIAVTA+C DPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQ++Q SPFD+LSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHR+IEHPND+ QDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|517405378|ref|WP_018578079.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella shakespearei] &gt;gi|962276986|gb|KTD60875.1| response regulator GacA [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578079</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>9.04725e-151</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVNVVADAESGEQALAFVKTHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDPLPTRVLQLGAMGYLTKESGAAEMAAAIRKVAKGEKYLSAEIAQKMAINSLQDAQDSPFDMLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHKIIEHPNDIIQED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA+VKTHSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSDPLPTRVLQLGAMGYLTKESGA EMAAAIRKVAKGEKYLSAEIAQKMAINSLQ++QDSPFD+LSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKH+IIEHPND+ Q+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966439700|ref|WP_058480023.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella waltersii] &gt;gi|962295597|gb|KTD79242.1| response regulator GacA [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480023</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>2.4551e-150</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDLSDVTVVADAESGEQALAFVKTHNPDVILLDMKMPGIDGWEVTRRLKKSNPHIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSIQEPQNSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNNLIQEE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLED+SDV VVADAESGEQALA+VKTH+PDV+LLDMKMPGIDGWEVTRRLKK+NP+IKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINS+QE Q+SPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPN+L Q++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|769980380|ref|WP_045096365.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella fallonii]</Hit_def>
+  <Hit_accession>WP_045096365</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>3.12025e-147</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHP--NDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVNVVADAENGEQALQLVKIHTPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAICSEPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQEAQESPFDMLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPSDSDITQDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAE+GEQAL  VK H+PDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTAICS+PLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQE+Q+SPFD+LSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHP  +D++QDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|962232083|gb|KTD16631.1|</Hit_id>
+  <Hit_def>response regulator GacA [Legionella jordanis]</Hit_def>
+  <Hit_accession>KTD16631</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>1.29079e-144</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>VKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>VKEHRLIKVLIVDDHALVRMGIRRLLEDMPDVEVVADAESGEQALTLVKSHKPDVVLLDMKMPGIDGWEVTRRLKKTNPLVKVIAVTAVCAEPMPTRVLQLGAMGYLTKESGAEEMAAAIRKVARGEKYLSAEIAQKMAINSLEATQDSPFDSLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>VKEH LIKVLIVDDHALVRMGIRRLLEDM DV+VVADAESGEQAL  VK+H PDVVLLDMKMPGIDGWEVTRRLKKTNP +KVIAVTA+C++P+PTRVLQLGAMGYLTKESGAEEMAAAIRKVA+GEKYLSAEIAQKMAINSL+ +QDSPFD LSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|962211406|gb|KTC96298.1|</Hit_id>
+  <Hit_def>response regulator GacA [Legionella feeleii]</Hit_def>
+  <Hit_accession>KTC96298</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>2.78687e-144</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>VKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>VKEQRLIKVLIVDDHALVRMGIRRLLEDLPDVDVVADAESGEQALTLVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSNPQVKVIAVTAVCAEPMPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEAVQDSPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFDKLGIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>VKE  LIKVLIVDDHALVRMGIRRLLED+ DVDVVADAESGEQAL  VK+H PDVVLLDMKMPGIDGWEVTRRLKK+NP +KVIAVTA+C++P+PTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+  QDSPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMF+KLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|769989420|ref|WP_045105371.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella hackeliae] &gt;gi|731151364|emb|CEK09910.1| Response regulator gacA [Legionella hackeliae] &gt;gi|962225767|gb|KTD10411.1| response regulator GacA [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045105371</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.986</Hsp_bit-score>
+      <Hsp_score>1042</Hsp_score>
+      <Hsp_evalue>1.52648e-142</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDLSDVEVVADAESGEQALTLVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSNPLVKVIAVTAVCAEPMPTRVLQLGAMGYLTKESGAEEMAAAIRKVARGEKYLSAEIAQKMAINSLEATQDSPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLED+SDV+VVADAESGEQAL  VK+H PDVVLLDMKMPGIDGWEVTRRLKK+NP +KVIAVTA+C++P+PTRVLQLGAMGYLTKESGAEEMAAAIRKVA+GEKYLSAEIAQKMAINSL+ +QDSPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|683290339|emb|CEE12700.1|</Hit_id>
+  <Hit_def>Response regulator UvrY [Legionella massiliensis] &gt;gi|685072709|emb|CDZ76962.1| Response regulator UvrY [Legionella massiliensis]</Hit_def>
+  <Hit_accession>CEE12700</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>5.34303e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MVKEHYLIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>VVKEHRLIKVLIVDDHALVRMGIRRLLDDLPDMDVVADAESGEQALALVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSHPQVKVIAVTAMCAEPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEAVQDSPFDSLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFDKLGIKNDVELTFLAMKHRVIERPNDELHDE</Hsp_hseq>
+      <Hsp_midline>+VKEH LIKVLIVDDHALVRMGIRRLL+D+ D+DVVADAESGEQALA VK+H PDVVLLDMKMPGIDGWEVTRRLKK++P +KVIAVTA+C++PLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+  QDSPFD LSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMF+KLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966403242|ref|WP_058446837.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058446837</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>6.71023e-142</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDLPDVDVVADAESGEQALTLVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSNPQVKVIAVTAVCAEPMPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEAVQDSPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFDKLGIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLED+ DVDVVADAESGEQAL  VK+H PDVVLLDMKMPGIDGWEVTRRLKK+NP +KVIAVTA+C++P+PTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+  QDSPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMF+KLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966474686|ref|WP_058505447.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella nautarum] &gt;gi|962248581|gb|KTD32803.1| response regulator GacA [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505447</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>1.10247e-141</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLDDLSDMEVFADAESGEQALALVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSNPQVKVIAVTAMCTEPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEAVQDSPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLL+D+SD++V ADAESGEQALA VK+H PDVVLLDMKMPGIDGWEVTRRLKK+NP +KVIAVTA+C++PLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+  QDSPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966427974|ref|WP_058470470.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058470470</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>1.45026e-141</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMPDVEVVADAESGEQALTLVKSHKPDVVLLDMKMPGIDGWEVTRRLKKTNPLVKVIAVTAVCAEPMPTRVLQLGAMGYLTKESGAEEMAAAIRKVARGEKYLSAEIAQKMAINSLEATQDSPFDSLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDM DV+VVADAESGEQAL  VK+H PDVVLLDMKMPGIDGWEVTRRLKKTNP +KVIAVTA+C++P+PTRVLQLGAMGYLTKESGAEEMAAAIRKVA+GEKYLSAEIAQKMAINSL+ +QDSPFD LSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|654922108|ref|WP_028372664.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella lansingensis] &gt;gi|962237076|gb|KTD21525.1| response regulator GacA [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028372664</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>3.18503e-141</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDLPDVEVVADAESGEQALTLVKSHKPDVVLLDMKMPGIDGWEVTRRLKKTHPQIKVIAVTAVCSEPMPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAISSLEAPQESPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLED+ DV+VVADAESGEQAL  VK+H PDVVLLDMKMPGIDGWEVTRRLKKT+P IKVIAVTA+CS+P+PTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAI+SL+  Q+SPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966437540|ref|WP_058477908.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella steigerwaltii] &gt;gi|962292374|gb|KTD76068.1| Legionella transmission activator LetA [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477908</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>6.15039e-141</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGERYLSAEIAQKMAINSLEEVQGSPFDLLSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK HSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGE+YLSAEIAQKMAINSL+E Q SPFDLLSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1031425397|ref|WP_064088274.1|</Hit_id>
+  <Hit_def>two-component system response regulator UvrY [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_064088274</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>6.56873e-141</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDLPDVDVVADAESGEQALTLVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSNPQVKVIAVTAVCAEPMPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEAVQDSPFDLLSEREMQVMLMITSGMTEQDIADRLFLSSKTINGYRYRMFDKLGIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLED+ DVDVVADAESGEQAL  VK+H PDVVLLDMKMPGIDGWEVTRRLKK+NP +KVIAVTA+C++P+PTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+  QDSPFDLLSEREMQVMLMITSGM  QDIADRLFLSSKTINGYRYRMF+KLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966465137|ref|WP_058496498.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella drozanskii] &gt;gi|962200916|gb|KTC85905.1| response regulator GacA [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058496498</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>1.12757e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLDDLPDMEVVADAESGEQALALVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSNPQVKVIAVTAMCTEPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEAVQDSPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFEKLAIKNDVELTFLAMKHRVIEQPNDALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLL+D+ D++VVADAESGEQALA VK+H PDVVLLDMKMPGIDGWEVTRRLKK+NP +KVIAVTA+C++PLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+  QDSPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMFEKL IKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966407280|ref|WP_058450686.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella jamestowniensis] &gt;gi|962224040|gb|KTD08690.1| response regulator GacA [Legionella jamestowniensis] &gt;gi|1097331587|emb|SFL55039.1| two component transcriptional regulator, LuxR family [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058450686</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>1.54527e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDLPDVEVVADAESGELALALVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSNPQIKVIAVTAMCADPIPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQQMAINSLEAPQDSPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFDKLGIKNDVELTYLAMKHRVIEQPNNALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLED+ DV+VVADAESGE ALA VK+H PDVVLLDMKMPGIDGWEVTRRLKK+NP IKVIAVTA+C+DP+PTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQ+MAINSL+  QDSPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMF+KLGIKNDVELTYLAMKHR+IE PN+   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|498340423|ref|WP_010654579.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Fluoribacter dumoffii] &gt;gi|962205961|gb|KTC90898.1| Legionella transmission activator LetA [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654579</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>1.70558e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGERYLSAEIAQKMAINSLEEVQGSPFDLLSEREMQVMLMITTGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK HSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGE+YLSAEIAQKMAINSL+E Q SPFDLLSEREMQVMLMIT+GMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|671587533|ref|WP_031563740.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563740</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>2.00611e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKVAINSLEEVQGSPFDVLSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK HSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQK+AINSL+E Q SPFD+LSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966493867|ref|WP_058510655.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella steelei] &gt;gi|962284812|gb|KTD68578.1| Legionella transmission activator LetA [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058510655</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>2.12389e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGERYLSAEIAQKMAINSLEEVQGSPFDVLSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK HSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGE+YLSAEIAQKMAINSL+E Q SPFD+LSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966407826|ref|WP_058451218.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella maceachernii] &gt;gi|962246822|gb|KTD31088.1| response regulator GacA [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058451218</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.823</Hsp_bit-score>
+      <Hsp_score>1026</Hsp_score>
+      <Hsp_evalue>4.44139e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLDDLPDMEVVADAESGEQALTLVKTHKPDVVLLDMKMPGIDGWEVTRRLKKSHPQVKVIAVTAMCAEPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVARGEKYLSAEIAQKMAINSLEAVQDSPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTFLAMKHRVIEQPNDAMHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLL+D+ D++VVADAESGEQAL  VKTH PDVVLLDMKMPGIDGWEVTRRLKK++P +KVIAVTA+C++PLPTRVLQLGAMGYLTKESGAEEMAAAIRKVA+GEKYLSAEIAQKMAINSL+  QDSPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|654930683|ref|WP_028381052.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella cherrii] &gt;gi|962197451|gb|KTC82495.1| Legionella transmission activator LetA [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028381052</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>4.5267e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGERYLSAEIAQKMAINSLEEVQGSPFDVLSEREMQVMLMITTGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK HSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGE+YLSAEIAQKMAINSL+E Q SPFD+LSEREMQVMLMIT+GMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966394342|ref|WP_058440133.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella brunensis] &gt;gi|962202219|gb|KTC87190.1| response regulator GacA [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058440133</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>6.5007e-140</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDLPDVEVVADAESGEQALTLVKSHKPDVVLLAMKMPGIDGWEVTRRLKKSNPQVKVIAVTAMCTEPMPTRVLQLGAMGYLTKESGAEEMAAAIRKVARGEKYLSAEIAQKMAINSLEATQESPFDLLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTFLAMKHRVIEQPNNALHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLED+ DV+VVADAESGEQAL  VK+H PDVVLL MKMPGIDGWEVTRRLKK+NP +KVIAVTA+C++P+PTRVLQLGAMGYLTKESGAEEMAAAIRKVA+GEKYLSAEIAQKMAINSL+ +Q+SPFDLLSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELT+LAMKHR+IE PN+   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966498777|ref|WP_058515543.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella santicrucis] &gt;gi|962269212|gb|KTD53226.1| Legionella transmission activator LetA [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515543</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>1.37038e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKQYSPDVVLLDMKMPGIDGWEVTRRLKKSNPHIKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEEAQGSPFNILSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPTGLTSEE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK +SPDVVLLDMKMPGIDGWEVTRRLKK+NP+IKVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+E+Q SPF++LSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P  L+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1113341789|gb|OJW05672.1|</Hit_id>
+  <Hit_def>two-component system response regulator UvrY [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW05672</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>1.47973e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGERYLSAEIAQKMAINSLEEVQGSPFDVLSEREMQVMLMITRGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK HSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGE+YLSAEIAQKMAINSL+E Q SPFD+LSEREMQVMLMIT GMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966423391|ref|WP_058466537.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Fluoribacter gormanii] &gt;gi|962220858|gb|KTD05520.1| Legionella transmission activator LetA [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058466537</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>1.5978e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEEALALVKKHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDLLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKVAINSLEEVQGSPFDVLSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLTSED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGE+ALA VK HSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQK+AINSL+E Q SPFD+LSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|52138494|dbj|BAD46749.1|</Hit_id>
+  <Hit_def>transcriptional regulator falA [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>BAD46749</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>1.61542e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKHSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGERYLIAEIAQKMAINSLEEVQGSPFDLLSEREMQVMLMITTGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK HSPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGE+YL AEIAQKMAINSL+E Q SPFDLLSEREMQVMLMIT+GMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966468609|ref|WP_058499935.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella gratiana] &gt;gi|962221402|gb|KTD06062.1| Legionella transmission activator LetA [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499935</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>1.7253e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVNVVADAESGEQALALVKQYSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKVAINSLEEAQGSPFNVLSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPTDLASEE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK +SPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQK+AINSL+E+Q SPF++LSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|518063407|ref|WP_019233615.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella anisa] &gt;gi|962187495|gb|KTC72621.1| Legionella transmission activator LetA [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233615</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>2.50497e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKYSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKVAINSLEEVQGSPFDVLSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK +SPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQK+AINSL+E Q SPFD+LSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966504667|ref|WP_058521326.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella tucsonensis] &gt;gi|962290654|gb|KTD74362.1| Legionella transmission activator LetA [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521326</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>5.10965e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKYSPDVVLLDMKMPGIDGWEVTRRLKKSNPHIKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEEVQGLPFDVLSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK +SPDVVLLDMKMPGIDGWEVTRRLKK+NP+IKVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+E Q  PFD+LSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966500669|ref|WP_058517342.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella parisiensis] &gt;gi|962256012|gb|KTD40149.1| Legionella transmission activator LetA [Legionella parisiensis] &gt;gi|1069293274|gb|OEH48606.1| Response regulator UvrY [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517342</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.741</Hsp_bit-score>
+      <Hsp_score>1018</Hsp_score>
+      <Hsp_evalue>5.89261e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALALVKKYSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVRVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKVAINSLQEVQGSPFDVLSEREMQVMLMITTGMNVQEISNRLFLSSKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASED</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQALA VK +SPDVVLLDMKMPGIDGWEVTRRLKK+NP+++VIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQK+AINSLQE Q SPFD+LSEREMQVMLMIT+GMNVQ+I++RLFLSSKTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|493927758|ref|WP_006872493.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella drancourtii] &gt;gi|363536210|gb|EHL29656.1| hypothetical protein LDG_8621 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872493</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.741</Hsp_bit-score>
+      <Hsp_score>1018</Hsp_score>
+      <Hsp_evalue>6.2934e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDLSDVEVVADAESGEQALALVKLHAPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGERYLSAEIAQKVAINSLEEVHGSPFNILSEREMQVMLMITSGMNVQDISDRLFLSSKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPIDLASDD</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLED+SDV+VVADAESGEQALA VK H+PDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGE+YLSAEIAQK+AINSL+E   SPF++LSEREMQVMLMITSGMNVQDI+DRLFLSSKTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P DL+ DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|762037447|ref|WP_043873385.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_043873385</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>9.36689e-139</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLDDLPDMDVVADAESGEQALALVKSHKPDVVLLDMKMPGIDGWEVTRRLKKSHPQVKVIAVTAMCAEPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEAVQDSPFDSLSEREMQVMLMITSGMTVQDIADRLFLSSKTINGYRYRMFDKLGIKNDVELTFLAMKHRVIERPNDELHDE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLL+D+ D+DVVADAESGEQALA VK+H PDVVLLDMKMPGIDGWEVTRRLKK++P +KVIAVTA+C++PLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+  QDSPFD LSEREMQVMLMITSGM VQDIADRLFLSSKTINGYRYRMF+KLGIKNDVELT+LAMKHR+IE PND   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966420609|ref|WP_058463810.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Legionella cincinnatiensis] &gt;gi|962207730|gb|KTC92659.1| Legionella transmission activator LetA [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463810</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.971</Hsp_bit-score>
+      <Hsp_score>1016</Hsp_score>
+      <Hsp_evalue>1.40143e-138</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>LIKVLIVDDHALVRMGIRRLLEDMSDVDVVADAESGEQALAYVKTHSPDVVLLDMKMPGIDGWEVTRRLKKTNPNIKVIAVTAICSDPLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLQESQDSPFDLLSEREMQVMLMITSGMNVQDIADRLFLSSKTINGYRYRMFEKLGIKNDVELTYLAMKHRIIEHPNDLSQDD</Hsp_qseq>
+      <Hsp_hseq>MIKVLIVDDHALVRMGIRRLLEDMSDVEVVADAESGEQALVLVKQYSPDVVLLDMKMPGIDGWEVTRRLKKSNPHVKVIAVTAMCSDVLPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSLEEAQGSPFNVLSEREMQVMLMITSGMNVQEISDRLFLSTKTINGYRYRTFEKLGIKNDVELTYLALKHGIIENPTGLTSEE</Hsp_hseq>
+      <Hsp_midline>+IKVLIVDDHALVRMGIRRLLEDMSDV+VVADAESGEQAL  VK +SPDVVLLDMKMPGIDGWEVTRRLKK+NP++KVIAVTA+CSD LPTRVLQLGAMGYLTKESGAEEMAAAIRKVAKGEKYLSAEIAQKMAINSL+E+Q SPF++LSEREMQVMLMITSGMNVQ+I+DRLFLS+KTINGYRYR FEKLGIKNDVELTYLA+KH IIE+P  L+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

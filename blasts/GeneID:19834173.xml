@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_223155</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834173</BlastOutput_query-def>
+  <BlastOutput_query-len>304</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_223155</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834173</Iteration_query-def>
+  <Iteration_query-len>304</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250768|ref|WP_010948308.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|52842814|ref|YP_096613.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|81601668|sp|Q5X1T2.1|LPXC_LEGPA RecName: Full=UDP-3-O-acyl-N-acetylglucosamine deacetylase; Short=UDP-3-O-acyl-GlcNAc deacetylase; AltName: Full=UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase &gt;gi|81603199|sp|Q5ZSB1.1|LPXC_LEGPH RecName: Full=UDP-3-O-acyl-N-acetylglucosamine deacetylase; Short=UDP-3-O-acyl-GlcNAc deacetylase; AltName: Full=UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase &gt;gi|166232055|sp|A5IAW8.1|LPXC_LEGPC RecName: Full=UDP-3-O-acyl-N-acetylglucosamine deacetylase; Short=UDP-3-O-acyl-GlcNAc deacetylase; AltName: Full=UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase &gt;gi|52629925|gb|AAU28666.1| UDP-3-O-acyl-N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|53752382|emb|CAH13814.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila str. Paris] &gt;gi|148280430|gb|ABQ54518.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila str. Corby] &gt;gi|295650155|gb|ADG26002.1| UDP-3-O-acyl-N-acetylglucosamine deacetylase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|364509319|gb|AEW52843.1| UDP-3-O-acyl-N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|395128609|emb|CCD06827.1| UDP-3-O-acyl N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila] &gt;gi|395131692|emb|CCD09985.1| UDP-3-O-acyl N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila] &gt;gi|469490674|gb|AGH52519.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083280|gb|AGN15528.1| UDP-3-O-3-hydroxymyristoyl N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|536611652|gb|ERB40170.1| UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase [Legionella pneumophila str. 121004] &gt;gi|541998732|gb|ERH44748.1| UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase [Legionella pneumophila str. Leg01/53] &gt;gi|542000234|gb|ERH46225.1| UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase [Legionella pneumophila str. Leg01/11] &gt;gi|542123129|gb|ERI49438.1| UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase [Legionella pneumophila str. Leg01/20] &gt;gi|761987449|dbj|GAN24624.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|761990463|dbj|GAN18572.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|761993653|dbj|GAN21678.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|761996830|dbj|GAN31005.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|762000202|dbj|GAN27934.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998772866|emb|CZI18535.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998775685|emb|CZG59122.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998778271|emb|CZG74366.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998784510|emb|CZG84086.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998787462|emb|CZG57768.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998789993|emb|CZH01513.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998792803|emb|CZI68337.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998796474|emb|CZH98199.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998800355|emb|CZL05770.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998802601|emb|CZH88086.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998805762|emb|CZK06305.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998808404|emb|CZH89369.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998811867|emb|CZH77385.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998814334|emb|CZG63590.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998817682|emb|CZL57222.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998820784|emb|CZL59579.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998826746|emb|CZK07229.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998832616|emb|CZI09035.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998835719|emb|CZK85953.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998837891|emb|CZJ74561.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998842258|emb|CZL11309.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998844676|emb|CZK27032.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998847627|emb|CZK65656.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998850286|emb|CZI40440.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998853731|emb|CZL24292.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998856427|emb|CZL31622.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998859750|emb|CZL71559.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998862714|emb|CZK20015.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998865439|emb|CZJ42809.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998869820|emb|CZJ34779.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998871015|emb|CZM15056.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998874503|emb|CZK36331.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998877510|emb|CZM01051.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998880577|emb|CZI88575.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998887993|emb|CZL48122.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998889272|emb|CZK24319.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998892873|emb|CZJ06817.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998895555|emb|CZK00763.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998906078|emb|CZK54718.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998909649|emb|CZL07466.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998912348|emb|CZG98446.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998915881|emb|CZK63796.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998918350|emb|CZK84565.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998921321|emb|CZL39989.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998924263|emb|CZJ94455.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998927626|emb|CZL65160.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998930713|emb|CZK76770.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998933882|emb|CZL74369.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998939928|emb|CZK77794.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998942508|emb|CZK04966.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998946005|emb|CZK97027.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998949049|emb|CZK83710.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998954559|emb|CZK40410.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998958565|emb|CZL99111.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998961471|emb|CZK23767.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998964662|emb|CZK07235.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998966916|emb|CZM50814.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998970458|emb|CZK52268.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998973851|emb|CZK28085.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998976214|emb|CZJ66747.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998979556|emb|CZL61059.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998982000|emb|CZI87692.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998985905|emb|CZK01532.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998988665|emb|CZL46927.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998991542|emb|CZK09117.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998993928|emb|CZI45470.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998998073|emb|CZJ90258.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999004433|emb|CZI42278.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999008045|emb|CZK29251.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999009801|emb|CZK01691.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999012978|emb|CZL45431.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999016900|emb|CZL70523.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999018947|emb|CZJ62156.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999022698|emb|CZL16778.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999025331|emb|CZK73293.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999027955|emb|CZJ89001.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999031515|emb|CZG66508.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999034077|emb|CZJ98451.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999037088|emb|CZL53044.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999040284|emb|CZJ68569.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999043049|emb|CZJ76487.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999046812|emb|CZL75985.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999048996|emb|CZJ87324.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999052253|emb|CZJ69111.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999055129|emb|CZJ95632.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999061619|emb|CZL13233.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999064363|emb|CZJ79422.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999067416|emb|CZJ19556.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999070082|emb|CZJ74040.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999073459|emb|CZK06063.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999076860|emb|CZG57849.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999080203|emb|CZJ90400.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999082838|emb|CZK79153.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999085598|emb|CZJ96269.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999090452|emb|CZK40209.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999092446|emb|CZL39058.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999095232|emb|CZG85710.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999098753|emb|CZG62195.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999101182|emb|CZL69144.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999106974|emb|CZI85903.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999110375|emb|CZL14132.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999113846|emb|CZL52725.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999116373|emb|CZK46946.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999126285|emb|CZK77974.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999131551|emb|CZL93706.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999134770|emb|CZL15659.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999138128|emb|CZK29731.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999141757|emb|CZL42829.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999144598|emb|CZK71064.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999147610|emb|CZL47945.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999151547|emb|CZH54332.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999156899|emb|CZH75658.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999166034|emb|CZG68856.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999168289|emb|CZI50711.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999173423|emb|CZH70441.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999175750|emb|CZL03712.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999182517|emb|CZG26599.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999184474|emb|CZP92416.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999188682|emb|CZI75997.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999191323|emb|CZI19164.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999194446|emb|CZI45716.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999198282|emb|CZP05867.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999200311|emb|CZG62031.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999203757|emb|CZI45657.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999206463|emb|CZP60093.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999209974|emb|CZK74311.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999213614|emb|CZG41795.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999217096|emb|CZI73834.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999219344|emb|CZL32629.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999222438|emb|CZI37124.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999225940|emb|CZG34064.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999227878|emb|CZP41527.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999231248|emb|CZI63752.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999235023|emb|CZP50953.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999240519|emb|CZH75319.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999244188|emb|CZH70418.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999248122|emb|CZH52936.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999249396|emb|CZG77453.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999252863|emb|CZG90183.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999256126|emb|CZP72822.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999259173|emb|CZP38465.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999262181|emb|CZH07956.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999265483|emb|CZP04773.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999269668|emb|CZO23748.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999272049|emb|CZP50854.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999274316|emb|CZH07192.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999277756|emb|CZP28200.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999281538|emb|CZP24001.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999284186|emb|CZP50901.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999286812|emb|CZI76960.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999290811|emb|CZP26693.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999293065|emb|CZI61210.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999296789|emb|CZP50625.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999300028|emb|CZP28869.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999302287|emb|CZI56350.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999307129|emb|CZH64821.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999309515|emb|CZP18371.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999312024|emb|CZI86436.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999315999|emb|CZI04070.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999318916|emb|CZP55939.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999322168|emb|CZH91049.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999324961|emb|CZH15555.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999327563|emb|CZH27227.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999332916|emb|CZG05009.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999335235|emb|CZK71578.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999338027|emb|CZP44807.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999340705|emb|CZG98010.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999344191|emb|CZP92185.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999347479|emb|CZP61233.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999349550|emb|CZH47497.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999353702|emb|CZP51330.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999356811|emb|CZP74446.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999361109|emb|CZI02676.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999363177|emb|CZP70482.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999366940|emb|CZP70522.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999369642|emb|CZP87525.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999374067|emb|CZG04987.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999377330|emb|CZI90817.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999380629|emb|CZH51070.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999383427|emb|CZI18204.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999387444|emb|CZG09442.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999390251|emb|CZI09475.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999392454|emb|CZP95145.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999397084|emb|CZG17476.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999398702|emb|CZP98549.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999403298|emb|CZP49047.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999406403|emb|CZG41939.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999409425|emb|CZH72600.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999412561|emb|CZG26808.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999416631|emb|CZG13270.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999419260|emb|CZG42506.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999422628|emb|CZH45703.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999426465|emb|CZG23961.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999429134|emb|CZG31872.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999432722|emb|CZG07886.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999435720|emb|CZH64992.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999438367|emb|CZG45865.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999442228|emb|CZJ83645.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999445348|emb|CZH57004.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999448610|emb|CZG04992.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999450771|emb|CZP29456.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999455498|emb|CZH43472.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999458340|emb|CZJ88651.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999462247|emb|CZG07464.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999465374|emb|CZM24816.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999468370|emb|CZO08829.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999470018|emb|CZG83696.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999475007|emb|CZM45034.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999478201|emb|CZN26502.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999481396|emb|CZM64636.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999484426|emb|CZN97996.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999487502|emb|CZL94403.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999490693|emb|CZN57284.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999493999|emb|CZL97365.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999497039|emb|CZI11628.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999500321|emb|CZN56634.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999503543|emb|CZN85691.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999506739|emb|CZM91682.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999510054|emb|CZG27661.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999513131|emb|CZN16817.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999516602|emb|CZL81098.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999519826|emb|CZM50905.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999521323|emb|CZP43675.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999526310|emb|CZI60426.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999529192|emb|CZI15925.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999532694|emb|CZO33524.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999536025|emb|CZN19027.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999539087|emb|CZM54928.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999542259|emb|CZO07218.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999545481|emb|CZO46454.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999548557|emb|CZN73026.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999551869|emb|CZO00154.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999555246|emb|CZM97722.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999558259|emb|CZO46188.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999561335|emb|CZM26502.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999564652|emb|CZO47074.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999567723|emb|CZM39877.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999570922|emb|CZN38344.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999574112|emb|CZN75344.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999577088|emb|CZI02912.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999580603|emb|CZN99831.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999584115|emb|CZO13213.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999587238|emb|CZM48011.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999590500|emb|CZM21924.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999593375|emb|CZN31790.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999596573|emb|CZN94320.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999599885|emb|CZO25295.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999603259|emb|CZL63006.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999606280|emb|CZN40059.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999609670|emb|CZN40967.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999612389|emb|CZI08145.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999615846|emb|CZM30737.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999619005|emb|CZN76866.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999622319|emb|CZO51256.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999625637|emb|CZN54505.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999628946|emb|CZM41737.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999631824|emb|CZM45761.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999635136|emb|CZN41321.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999638212|emb|CZN34426.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999641408|emb|CZO62185.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999644579|emb|CZO27930.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999648116|emb|CZN76091.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999650927|emb|CZN92528.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999654309|emb|CZN92679.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999657687|emb|CZM01829.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999660582|emb|CZM47923.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999664096|emb|CZM81382.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999667093|emb|CZM25509.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999670287|emb|CZL74693.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999673674|emb|CZM19588.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999676562|emb|CZN61184.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999679597|emb|CZM61767.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999682792|emb|CZM69314.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999686018|emb|CZN91862.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999689642|emb|CZN10524.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999692549|emb|CZN80475.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999696053|emb|CZN02111.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999699252|emb|CZL98690.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999702470|emb|CZM42947.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999705660|emb|CZL60258.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999708684|emb|CZN42042.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999711936|emb|CZM87866.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999715381|emb|CZM88068.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999718528|emb|CZO28358.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999721398|emb|CZM66828.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999724738|emb|CZN16892.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999728181|emb|CZL89757.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999731631|emb|CZO21241.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999734880|emb|CZL99679.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999738218|emb|CZO48124.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999741082|emb|CZM25463.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999744616|emb|CZN07621.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999747909|emb|CZM00253.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999750804|emb|CZL79151.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999754118|emb|CZM72067.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999757461|emb|CZM84787.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999760392|emb|CZM14558.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999763893|emb|CZN10639.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999767090|emb|CZM57155.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999769821|emb|CZN39774.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999773525|emb|CZH73638.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999776563|emb|CZL89900.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999778453|emb|CZG99470.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999783427|emb|CZH50594.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999786603|emb|CZM18821.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999789806|emb|CZO48337.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999793247|emb|CZO51955.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999796494|emb|CZI09872.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999800222|emb|CZO39820.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1002075515|emb|CZQ94017.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1002079020|emb|CZQ94248.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1002082113|emb|CZQ95718.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1002091733|emb|CZR05929.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1003020112|emb|CZR21364.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1003022991|emb|CZR20262.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1003026833|emb|CZR17862.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1003028420|emb|CZR23649.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1003030297|emb|CZR34406.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1003034756|emb|CZR27563.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1005834277|gb|AMQ29003.1| UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434030|gb|AMV15657.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1032658687|gb|ANH13958.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1032661649|gb|ANH16919.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1032664627|gb|ANH19896.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1041016580|gb|ANN93641.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1041019579|gb|ANN96639.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073865649|gb|AOU05600.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073868618|gb|AOU08568.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073871613|gb|AOU11562.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073874482|gb|AOU14430.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073877538|gb|AOU17485.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073880501|gb|AOU20447.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073883498|gb|AOU23443.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073886491|gb|AOU26435.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073889459|gb|AOU29402.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073892443|gb|AOU32385.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073895411|gb|AOU35352.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073898369|gb|AOU38309.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073901335|gb|AOU41274.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073904244|gb|AOU44182.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073907197|gb|AOU47134.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073910215|gb|AOU50150.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073913227|gb|AOU53159.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073916187|gb|AOU56118.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073919150|gb|AOU59080.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073922053|gb|AOU61982.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073925136|gb|AOU65063.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073928099|gb|AOU68025.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073931085|gb|AOU70994.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073934454|gb|AOU74013.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073937419|gb|AOU84418.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073947685|gb|AOU87409.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1073950613|gb|AOU90336.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1103997772|emb|SFZ46738.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1104000910|emb|SFZ46770.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1104004010|emb|SFZ46768.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1129969271|gb|APT99630.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948308</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>627.476</Hsp_bit-score>
+      <Hsp_score>1617</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>304</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499535700|ref|WP_011216483.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|81601199|sp|Q5WTJ3.1|LPXC_LEGPL RecName: Full=UDP-3-O-acyl-N-acetylglucosamine deacetylase; Short=UDP-3-O-acyl-GlcNAc deacetylase; AltName: Full=UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase &gt;gi|53755277|emb|CAH16771.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila str. Lens] &gt;gi|998781192|emb|CZJ44274.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998824260|emb|CZG43602.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998829485|emb|CZG80468.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998883349|emb|CZI77579.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998898810|emb|CZJ44766.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998936460|emb|CZM47935.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|998952215|emb|CZJ32876.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999000392|emb|CZG76058.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999057936|emb|CZM54276.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999104193|emb|CZI06736.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999128804|emb|CZH04622.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999153881|emb|CZM18669.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999158580|emb|CZJ89572.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999162969|emb|CZM05922.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999177500|emb|CZJ87482.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999237158|emb|CZG77410.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1002085498|emb|CZQ99661.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1002088702|emb|CZQ78687.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1080003056|gb|AOW53628.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005199|gb|AOW55479.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008979|gb|AOW58967.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011354|gb|AOW60845.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015553|gb|AOW64426.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017598|gb|AOW66243.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pneumophila] &gt;gi|1104007464|emb|SFZ46847.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011216483</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>627.091</Hsp_bit-score>
+      <Hsp_score>1616</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>303</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMIRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELM+RQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|652969868|ref|WP_027222761.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|985764619|gb|KXB25738.1| UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase [Legionella pneumophila] &gt;gi|985767109|gb|KXB28204.1| UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase [Legionella pneumophila] &gt;gi|999119069|emb|CZG85417.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|999122194|emb|CZH18528.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1005362966|gb|AMP88835.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367770|gb|AMP93547.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370689|gb|AMP96465.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. pascullei] &gt;gi|1024339675|gb|KZX34014.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila] &gt;gi|1108605959|gb|APF04327.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. fraseri] &gt;gi|1108608942|gb|APF07309.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027222761</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>625.935</Hsp_bit-score>
+      <Hsp_score>1613</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>303</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEDNGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVE+NGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1004334823|ref|WP_061513748.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513748</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>623.239</Hsp_bit-score>
+      <Hsp_score>1606</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>302</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNASEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTESYLPAVHPEYYPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNA EIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTE+YLPAVHPEYYPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|654932825|ref|WP_028383183.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella moravica] &gt;gi|962253360|gb|KTD37541.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383183</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>603.979</Hsp_bit-score>
+      <Hsp_score>1556</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>299</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGNVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIKEQNAAKKYIRILKPIRVEDNGKYVQFLPHKGYKVSFTIDFDHPVFNDKPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDNYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDAENYLPSMQSEYYPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGI+EQNAAK+YIRILKPIRVE+NGKYVQFLPHKGYK++FTI F+HPVFND+PQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVD+YRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD ENYLP++  EYYPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|966434563|ref|WP_058474994.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella quateirensis] &gt;gi|962260588|gb|KTD44698.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474994</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>601.282</Hsp_bit-score>
+      <Hsp_score>1549</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGSVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIKEQNAAKKYIRILKPIRVEDNGKYVQFLPHKGYKVSFTIDFDHPVFNDKPQTVCFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDNYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDAENYLPSMQSEYYPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGI+EQNAAK+YIRILKPIRVE+NGKYVQFLPHKGYK++FTI F+HPVFND+PQTV FDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVD+YRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD ENYLP++  EYYPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|966439655|ref|WP_058479978.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella waltersii] &gt;gi|962295551|gb|KTD79196.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058479978</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>600.512</Hsp_bit-score>
+      <Hsp_score>1547</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHYETVKIATVEHLLSALAGLGIDNAYIDVNGPELPIMDGSAAPFVFLIQSAGIREQNAAKKYIRILKPIRVDDNGKYVQFLPHKGYKISFTIDFDHPVFNDRPQTVSFDFSNTSYVKQVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEEGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDSENYLPAAHPEYYPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLH+  VKIATVEHLLSALAGLGIDNAYIDVN PE+PIMDGSAAPFVFLIQSAGIREQNAAK+YIRILKPIRV++NGKYVQFLPHKGYKI+FTI F+HPVFNDRPQTVSFDFS TSYVK+VCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNE+GLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD+ENYLPA HPEYYPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|769980342|ref|WP_045096327.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella fallonii] &gt;gi|698843945|emb|CEG57914.1| UDP-3-O-acyl N-acetylglucosamine deacetylase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096327</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.882</Hsp_bit-score>
+      <Hsp_score>1522</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIRQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGTVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIKEQPAAKKYIRILKPIRVEDNGKYVQFKPHNGYKISFTIDFDHPVFNDKPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLREFDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDAENYLPVRQPEFYPVEA</Hsp_hseq>
+      <Hsp_midline>MI+QRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGI+EQ AAK+YIRILKPIRVE+NGKYVQF PH GYKI+FTI F+HPVFND+PQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD ENYLP   PE+YPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|517405801|ref|WP_018578470.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella shakespearei] &gt;gi|962281281|gb|KTD65094.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578470</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.571</Hsp_bit-score>
+      <Hsp_score>1516</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MMKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGNVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQSAAKKYIKILKPIRVEDNGKYVQFLPHNGYKVSFTIDFDHPVFNDKPQTVCFDFSATSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDAEDYLPVMHTSFEPVEA</Hsp_hseq>
+      <Hsp_midline>M+KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQ+AAK+YI+ILKPIRVE+NGKYVQFLPH GYK++FTI F+HPVFND+PQTV FDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD E+YLP +H  + PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|966461257|ref|WP_058493610.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella worsleiensis] &gt;gi|962294279|gb|KTD77946.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493610</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.186</Hsp_bit-score>
+      <Hsp_score>1515</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>296</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEHVGDTMLCTTLHHEDVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIKEQNAAKKFIRILKPIRVEDNGKYVQFLPHKGYKVSFTIDFDHPVFNDKPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDNYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTSFDEEDYLPLMQSDFYPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYE+VGDTMLCTTLHH  VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGI+EQNAAK++IRILKPIRVE+NGKYVQFLPHKGYK++FTI F+HPVFND+PQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVD+YRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYT FD E+YLP +  ++YPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|493927661|ref|WP_006872398.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella drancourtii] &gt;gi|363536115|gb|EHL29561.1| UDP-3-O-(3-hydroxymyristoyl) N-acetylglucosamine deacetylase [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872398</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>583.948</Hsp_bit-score>
+      <Hsp_score>1504</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEFVGDTMLCTTLHHGQVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAAKRYIRITKPIRVEDNGKYVQFYPYNGYKISFTIDFDHPAFNDKPQTVSFDFSTTSYVKQVCRARTFGFLSDYEKLRECELAKGGSLDNAIVVDDYRVLNDDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDAEDYLPVMHTEFCPAEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYE+VGDTMLCTTLHHG+VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNAAKRYIRI KPIRVE+NGKYVQF P+ GYKI+FTI F+HP FND+PQTVSFDFS TSYVK+VCRARTFGFLSDYEKLREC+LAKGGSLDNAIVVDDYRVLN+DGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD E+YLP +H E+ P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|966415379|ref|WP_058458664.1|</Hit_id>
+  <Hit_def>MULTISPECIES: UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionellaceae] &gt;gi|962189889|gb|KTC74991.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Fluoribacter bozemanae] &gt;gi|962290740|gb|KTD74448.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058458664</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>583.178</Hsp_bit-score>
+      <Hsp_score>1502</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTQQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYENVGDTMLCTTLHHGPVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNGKFVQFYPYNGYKITFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTEEYLPAMQTEFYPVEA</Hsp_hseq>
+      <Hsp_midline>M +QRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYE VGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+NGK+VQF P+ GYKITFTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTE YLPA+  E+YPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|966500564|ref|WP_058517237.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella parisiensis] &gt;gi|962255895|gb|KTD40032.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella parisiensis] &gt;gi|1069293460|gb|OEH48786.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517237</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>582.022</Hsp_bit-score>
+      <Hsp_score>1499</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTQQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVLEIPASYENVGDTMLCTTLHHGPVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNGKFVQFYPYNGYKITFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTEEYLPAMQTEFYPVEA</Hsp_hseq>
+      <Hsp_midline>M +QRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPV+EIPASYE VGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+NGK+VQF P+ GYKITFTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTE YLPA+  E+YPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|966468524|ref|WP_058499850.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella gratiana] &gt;gi|962221309|gb|KTD05969.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499850</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>580.867</Hsp_bit-score>
+      <Hsp_score>1496</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLEPVVEIPASYEYVGDTMLCTTLHHGSIKIATVEHLLSALAGLGIDNAYIDVNGPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNEKFVQFYPYNGYKITFTIGFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRKDAWEYTYFDTEGYLPAVQADFYPIEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDL PVVEIPASYEYVGDTMLCTTLHHG +KIATVEHLLSALAGLGIDNAYIDVN PE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+N K+VQF P+ GYKITFTIGF+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVR+DAWEYTYFDTE YLPAV  ++YP+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|966423481|ref|WP_058466627.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Fluoribacter gormanii] &gt;gi|962220957|gb|KTD05619.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058466627</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>579.711</Hsp_bit-score>
+      <Hsp_score>1493</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYENVGDTMLCTTLHHGPVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNGKYVQFYPYNGYKISFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDNEEYLPTMQTDFYPVEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYE VGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+NGKYVQF P+ GYKI+FTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD E YLP +  ++YPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|518063312|ref|WP_019233520.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella anisa] &gt;gi|962187588|gb|KTC72714.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233520</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>579.711</Hsp_bit-score>
+      <Hsp_score>1493</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYENVGDTMLCTTLHQGPVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNGKFVQFYPYNGYKISFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMARQDAWEYTYFDTEEYLPAMQTEFYPVEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYE VGDTMLCTTLH G VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+NGK+VQF P+ GYKI+FTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELM RQDAWEYTYFDTE YLPA+  E+YPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|671587328|ref|WP_031563586.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563586</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.63</Hsp_bit-score>
+      <Hsp_score>1485</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYENVGDTMLCTTLHRGSVKIATVEHLLSALAGLGIDNAYIDVNGPELPIMDGSAAPFVFLIQSAGIREQNAPKRYIRILKPIRVEDNGKFVQFYPYNGYKISFTIDFDHPAFNDKPQIVSFDFSTTSYVKQVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMARQDAWEYTYFDTEEYLPKMHTEFYPIEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYE VGDTMLCTTLH G VKIATVEHLLSALAGLGIDNAYIDVN PE+PIMDGSAAPFVFLIQSAGIREQNA KRYIRILKPIRVE+NGK+VQF P+ GYKI+FTI F+HP FND+PQ VSFDFS TSYVK+VCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELM RQDAWEYTYFDTE YLP +H E+YP+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|654930592|ref|WP_028380961.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella cherrii] &gt;gi|962197354|gb|KTC82398.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380961</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>576.244</Hsp_bit-score>
+      <Hsp_score>1484</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTNQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEILASYENVGDTMLCTTLHHGPVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNGKFVQFYPYNGYKISFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTEEYLPKMHTEFFPVEA</Hsp_hseq>
+      <Hsp_midline>M  QRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEI ASYE VGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+NGK+VQF P+ GYKI+FTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTE YLP +H E++PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|966494040|ref|WP_058510828.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella steelei] &gt;gi|962284998|gb|KTD68764.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella steelei] &gt;gi|1113342794|gb|OJW06655.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510828</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>575.859</Hsp_bit-score>
+      <Hsp_score>1483</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYENVGDTMLCTTLHHGPVKIATVEHLLSALAGLGIDNAYIDVNGPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNGKIVQFYPYNGYKISFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMARQDAWEYTYFDTEEYLPKMHAEFFPLEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYE VGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVN PE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+NGK VQF P+ GYKI+FTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELM RQDAWEYTYFDTE YLP +H E++P+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|498340523|ref|WP_010654679.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Fluoribacter dumoffii] &gt;gi|962206061|gb|KTC90998.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654679</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>575.474</Hsp_bit-score>
+      <Hsp_score>1482</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVE</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYGNVGDTMLCTTLHNGPVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNGKFVQFYPYNGYKISFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTEEYLPHMHTEFYPVE</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASY  VGDTMLCTTLH+G VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+NGK+VQF P+ GYKI+FTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTE YLP +H E+YPVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966516654|ref|WP_058533148.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533148</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>575.089</Hsp_bit-score>
+      <Hsp_score>1481</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEHVGDTMLCTTLHHGQVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRITKPIRVEDNGKYVQFYPYNGYKISFTIDFDHPAFNDKPQKVSFDFSTTSYVREVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGHKSGHELNNRLLRELMVRQDAWEYTTFDADDYLPVMHNEFCPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYE+VGDTMLCTTLHHG+VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRI KPIRVE+NGKYVQF P+ GYKI+FTI F+HP FND+PQ VSFDFS TSYV+EVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEG+KSGHELNNRLLRELMVRQDAWEYT FD ++YLP +H E+ PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|489731089|ref|WP_003635205.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella longbeachae] &gt;gi|269987429|gb|EEZ93684.1| UDP-3-O-(3-hydroxymyristoyl) N-acetylglucosamine deacetylase [Legionella longbeachae D-4968] &gt;gi|288859247|emb|CBJ13181.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635205</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>574.704</Hsp_bit-score>
+      <Hsp_score>1480</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLEPVVEIPASYEHVGDTMLCTTLHQGPIKIATVEHLLSALAGLGIDNAYIDVNGPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRIIKPIRVEDNGKFVQFYPYNGYKITFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRRDAWEYTYFDTEEYLPALQAEFYPIEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDL PVVEIPASYE+VGDTMLCTTLH G +KIATVEHLLSALAGLGIDNAYIDVN PE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRI+KPIRVE+NGK+VQF P+ GYKITFTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVR+DAWEYTYFDTE YLPA+  E+YP+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966436834|ref|WP_058477202.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella steigerwaltii] &gt;gi|962293607|gb|KTD77282.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477202</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>574.318</Hsp_bit-score>
+      <Hsp_score>1479</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>276</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTNQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEILASYENVGDTMLCTTLHHGPVKIATVEHLLSALAGLGIDNAYIDVNAPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNGKFVQFYPYNGYKISFTIDFDHPAFNDKPQTVSFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMARQDAWEYTYFDTEEYLPKMQTEFYPVEA</Hsp_hseq>
+      <Hsp_midline>M  QRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEI ASYE VGDTMLCTTLHHG VKIATVEHLLSALAGLGIDNAYIDVNAPE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+NGK+VQF P+ GYKI+FTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELM RQDAWEYTYFDTE YLP +  E+YPVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|653017660|ref|WP_027269624.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella sainthelensi] &gt;gi|962271008|gb|KTD55011.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027269624</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>573.933</Hsp_bit-score>
+      <Hsp_score>1478</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLEPVVEIPASFEHVGDTMLCTTLHQGPIKIATVEHLLSALAGLGIDNAYIDVNGPELPIMDGSAAPFVFLIQSAGIREQSAPKKYIRILKPIRVEDNGKFVQFYPYNGYKITFTIDFDHPAFNDKPQTVSFDFSATSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRKDAWEYTYFDTEEYLPALQAEFYPIEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDL PVVEIPAS+E+VGDTMLCTTLH G +KIATVEHLLSALAGLGIDNAYIDVN PE+PIMDGSAAPFVFLIQSAGIREQ+A K+YIRILKPIRVE+NGK+VQF P+ GYKITFTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVR+DAWEYTYFDTE YLPA+  E+YP+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966421936|ref|WP_058465137.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella cincinnatiensis] &gt;gi|962198882|gb|KTC83892.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058465137</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>573.548</Hsp_bit-score>
+      <Hsp_score>1477</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>274</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLEPVVEIPASYENVGDTMLCTTLHQGPIKIATVEHLLSALAGLGIDNAYIDVNGPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNEKFVQFYPYNGYKITFTIDFDHPAFNDKPQTVSFDFSATSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRKDAWEYTYFDTEEYLPAMQAEFYPIEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDL PVVEIPASYE VGDTMLCTTLH G +KIATVEHLLSALAGLGIDNAYIDVN PE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+N K+VQF P+ GYKITFTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVR+DAWEYTYFDTE YLPA+  E+YP+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966498878|ref|WP_058515644.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella santicrucis] &gt;gi|962269326|gb|KTD53340.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515644</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>572.778</Hsp_bit-score>
+      <Hsp_score>1475</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MTKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLEPVVEIPASYENVGDTMLCTTLHQGPIKIATVEHLLSALAGLGIDNAYIDVNGPELPIMDGSAAPFVFLIQSAGIREQNAPKKYIRILKPIRVEDNEKFVQFYPYNGYKITFTIDFDHPAFNDKPQTVSFDFSATSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNDDGLRFESEFVSHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRKDAWEYTYFDTEEYLPSMQAEFYPIEA</Hsp_hseq>
+      <Hsp_midline>M KQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDL PVVEIPASYE VGDTMLCTTLH G +KIATVEHLLSALAGLGIDNAYIDVN PE+PIMDGSAAPFVFLIQSAGIREQNA K+YIRILKPIRVE+N K+VQF P+ GYKITFTI F+HP FND+PQTVSFDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLN+DGLRFESEFV+HKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVR+DAWEYTYFDTE YLP++  E+YP+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966442486|ref|WP_058482748.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella spiritensis] &gt;gi|962280819|gb|KTD64634.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058482748</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>565.074</Hsp_bit-score>
+      <Hsp_score>1455</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPINTGIVFRRTDLNPVVEIPASYDHVGDTMLCTSLHRDGVKVATVEHLLSAFAGLGIDNAYVDVNAGEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDNGKYVQFLPYNGYKVSFTIEFDHPAFNDKPQTASFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSMDNAIVVDDYRVLNDDGLRFESEFVAHKVLDAIGDLYLLGSGLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDAENYQPSIAADFFPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAP+NTGIVFRR DL+PVVEIPASY++VGDTMLCT+LH   VK+ATVEHLLSA AGLGIDNAY+DVNA EIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+NGKYVQFLP+ GYK++FTI F+HP FND+PQT SFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGS+DNAIVVDDYRVLN+DGLRFESEFV HKVLDAIGDLYLLGS LIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD ENY P++  +++PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966475556|ref|WP_058506289.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella quinlivanii] &gt;gi|962268565|gb|KTD52585.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella quinlivanii] &gt;gi|1090728466|emb|SEF71347.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella quinlivanii DSM 21216]</Hit_def>
+  <Hit_accession>WP_058506289</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>556.214</Hsp_bit-score>
+      <Hsp_score>1432</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGDKVLLTLRPAPINTGIVFRRIDLNPVVEIPAVYDYVGDTMLCTSLLHQGVKVATVEHLLSALAGLGIDNAYVDINAPELPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDNGKYVQFLPYNGYKVSFTIDFDHPVFNDKPQTATFDFSNTSYVKEVCRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDEYRVLNEDGLRFDSEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHELNNRLLRELMLRQDAWEYTYFDAENYMPAM-PGFMPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSG+KVLLTLRPAP+NTGIVFRR+DL+PVVEIPA Y+YVGDTMLCT+L H  VK+ATVEHLLSALAGLGIDNAY+D+NAPE+PIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+NGKYVQFLP+ GYK++FTI F+HPVFND+PQT +FDFS TSYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVD+YRVLNEDGLRF+SEFVTHKVLDAIGDLYLLG  LIGAFEGYKSGHELNNRLLRELM+RQDAWEYTYFD ENY+PA+ P + PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966506703|ref|WP_058523349.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella birminghamensis] &gt;gi|962187367|gb|KTC72495.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella birminghamensis]</Hit_def>
+  <Hit_accession>WP_058523349</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.903</Hsp_bit-score>
+      <Hsp_score>1426</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGDKVLLTLRPAPINTGIVFRRIDLDPVVEIPAVYDYVGDTMLCTSLLHKGVKVATVEHLLSALAGLGIDNAYVDINAPEVPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDNGKYVQFLPYNGYKVSFTIDFDHPVFNDKPQAATFDFSNTSYVKEVCRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDEYRVLNEDGLRFDSEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHELNNRLLRELMLRQDAWEYTYFDAENYMPAM-PGFLPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSG+KVLLTLRPAP+NTGIVFRR+DL PVVEIPA Y+YVGDTMLCT+L H  VK+ATVEHLLSALAGLGIDNAY+D+NAPE+PIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+NGKYVQFLP+ GYK++FTI F+HPVFND+PQ  +FDFS TSYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVD+YRVLNEDGLRF+SEFVTHKVLDAIGDLYLLG  LIGAFEGYKSGHELNNRLLRELM+RQDAWEYTYFD ENY+PA+ P + PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966515302|ref|WP_058531819.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella rubrilucens] &gt;gi|962262730|gb|KTD46816.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058531819</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.436</Hsp_bit-score>
+      <Hsp_score>1417</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPINTGIVFRRTDLNPPVEIPASYDNVGDTMLCTSLHRNGVKVATVEHLLSALAGLGIDNAYVDVNAPEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDKDKYVQFLPYNGYKISFTIDFDHPAFNGRPQKASFDFSDTSYVKEVCRARTFGFLSDYEKLRENDLAKGGSMDNAIVVDDYRVLNDDGLRFEGEFVAHKVLDAIGDLYLLGCGLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDAENYQPAVVPDFFPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAP+NTGIVFRR DL+P VEIPASY+ VGDTMLCT+LH   VK+ATVEHLLSALAGLGIDNAY+DVNAPEIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+  KYVQFLP+ GYKI+FTI F+HP FN RPQ  SFDFS TSYVKEVCRARTFGFLSDYEKLRE DLAKGGS+DNAIVVDDYRVLN+DGLRFE EFV HKVLDAIGDLYLLG  LIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD ENY PAV P+++PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|644964260|ref|WP_025385015.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella oakridgensis] &gt;gi|570283964|gb|AHE66151.1| UDP-3-0-acyl N-acetylglucosamine deacetylase [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570703117|gb|ETO94016.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella oakridgensis RV-2-2007] &gt;gi|962259770|gb|KTD43894.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025385015</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.584</Hsp_bit-score>
+      <Hsp_score>1407</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGDKVLLTLRPAPINTGIVFRRTDLSPAVEIPASYEHVCDTMLCTSLQHKGVKVATVEHLLSAFAGLGIDNAYVDINAPEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRIEENGKYVQFLPYNGYKVSFTIDFEHPVFNDKPQSAIFDFSTTSYVKEVCRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDDYRVLNEDGLRFDDEFVKHKVLDAIGDLYLLGSGLIGAFEGYKSGHELNNKLLRALMARQDAWEYTYFDIENYQPSIQTGLIPLEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSG+KVLLTLRPAP+NTGIVFRR DLSP VEIPASYE+V DTMLCT+L H  VK+ATVEHLLSA AGLGIDNAY+D+NAPEIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIR+EENGKYVQFLP+ GYK++FTI FEHPVFND+PQ+  FDFS TSYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVDDYRVLNEDGLRF+ EFV HKVLDAIGDLYLLGS LIGAFEGYKSGHELNN+LLR LM RQDAWEYTYFD ENY P++     P+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966406103|ref|WP_058449509.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella jamestowniensis] &gt;gi|962222731|gb|KTD07381.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella jamestowniensis] &gt;gi|1045920910|gb|OCH97843.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella jamestowniensis] &gt;gi|1097327815|emb|SFL93800.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058449509</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAV--HPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPINTGIVFRRTDLNPVVEIPALYDHVGDTMLCTSLQRDGVKVATVEHLLSAFAGLGIDNAYVDINAPEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDDGKYVQFLPHNGYKVSFTIDFDHPVFNDKPQMATFDFSATSYVKEVCRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDDYRILNEDGLRFESEFVTHKVLDAIGDLYLLGCGLIGAFEGHKSGHGLNNRLLRELMVRQDAWEYTYFDAENYQPTVVTEADFLPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAP+NTGIVFRR DL+PVVEIPA Y++VGDTMLCT+L    VK+ATVEHLLSA AGLGIDNAY+D+NAPEIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE++GKYVQFLPH GYK++FTI F+HPVFND+PQ  +FDFS TSYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVDDYR+LNEDGLRFESEFVTHKVLDAIGDLYLLG  LIGAFEG+KSGH LNNRLLRELMVRQDAWEYTYFD ENY P V    ++ PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966399220|ref|WP_058442853.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella brunensis] &gt;gi|962191700|gb|KTC76776.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058442853</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPINTGIIFRRTDLNPVVEIPALYDQVGDTMLCTSLQCGGVKVATVEHLLSAFAGLGIDNAYVDINAPELPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDNGKYVQFLPYNGYRVSFTIDFDHPVFNDKPQTATFDFSSTSYVKGVCRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDDYRILNEDGLRFDSEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHGLNNRLLRELMVRQDAWEYTYFDAENYQPTVAADFLPAEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAP+NTGI+FRR DL+PVVEIPA Y+ VGDTMLCT+L  G VK+ATVEHLLSA AGLGIDNAY+D+NAPE+PIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+NGKYVQFLP+ GY+++FTI F+HPVFND+PQT +FDFS TSYVK VCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVDDYR+LNEDGLRF+SEFVTHKVLDAIGDLYLLG  LIGAFEGYKSGH LNNRLLRELMVRQDAWEYTYFD ENY P V  ++ P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|654922039|ref|WP_028372596.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella lansingensis] &gt;gi|962237746|gb|KTD22185.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028372596</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPINTGIVFRRIDLNPVVEIPALYDQVGDTMLCTSLQRDGVKVATVEHLLSAFAGLGIDNAYVDINAPEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDNGKYVQFLPYNGYRVSFTIDFDHPVFNDKPQTAIFDLSSTSYVKEICRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDDYRVINEDGLRFESEFVAHKVLDAIGDLYLLGCGLIGAFEGYKSGHGLNNRLLRELMIRQDAWEYTYFDAENYQPTVASDFLPIEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAP+NTGIVFRR+DL+PVVEIPA Y+ VGDTMLCT+L    VK+ATVEHLLSA AGLGIDNAY+D+NAPEIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+NGKYVQFLP+ GY+++FTI F+HPVFND+PQT  FD S TSYVKE+CRARTFGFLSDYEKLRE DLAKGGSLDNAIVVDDYRV+NEDGLRFESEFV HKVLDAIGDLYLLG  LIGAFEGYKSGH LNNRLLRELM+RQDAWEYTYFD ENY P V  ++ P+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966510998|ref|WP_058527589.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella erythra] &gt;gi|962209421|gb|KTC94328.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058527589</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.273</Hsp_bit-score>
+      <Hsp_score>1401</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLP-AVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPINTGIVFRRTDLNPPVEIPASYDNVGDTMLCTSLHRNGVKVATVEHLLSALAGLGIDNAYVDVNAPEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDKDKYVQFLPYNGYKIAFTIDFDHPAFNGRPQKASFDFSDTSYVKEVCRARTFGFLSDYEKLRENDLAKGGSMDNAIVVDDYRVLNDDGLRFEGEFVAHKVLDAIGDLYLLGCGLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDAENYQPSSVVPDFFPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAP+NTGIVFRR DL+P VEIPASY+ VGDTMLCT+LH   VK+ATVEHLLSALAGLGIDNAY+DVNAPEIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+  KYVQFLP+ GYKI FTI F+HP FN RPQ  SFDFS TSYVKEVCRARTFGFLSDYEKLRE DLAKGGS+DNAIVVDDYRVLN+DGLRFE EFV HKVLDAIGDLYLLG  LIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFD ENY P +V P+++PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|762036541|ref|WP_043872479.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella massiliensis] &gt;gi|683289219|emb|CEE11580.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella massiliensis] &gt;gi|685071589|emb|CDZ75842.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_043872479</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.273</Hsp_bit-score>
+      <Hsp_score>1401</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLHPAPINTGIVFRRTDLNPVVEIPALYDQVGDTMLCTSLQRNGAKVATVEHLLSAFAGLGIDNAYVDVNGPELPIMDGSSAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDNGKYVQFLPYNGYKVSFTIDFDHPVFNDKPQTATFDLSTTSYVKEVCRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHGLNNRLLRELMLRQDAWEYTYFDAENYQPTSAPDFFPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTL PAP+NTGIVFRR DL+PVVEIPA Y+ VGDTMLCT+L     K+ATVEHLLSA AGLGIDNAY+DVN PE+PIMDGS+APFVFLIQSAGIREQ+AAKR+IRILKPIRVE+NGKYVQFLP+ GYK++FTI F+HPVFND+PQT +FD S TSYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLG  LIGAFEGYKSGH LNNRLLRELM+RQDAWEYTYFD ENY P   P+++PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|769991122|ref|WP_045106994.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella hackeliae] &gt;gi|731153308|emb|CEK11891.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella hackeliae] &gt;gi|962227856|gb|KTD12478.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045106994</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.888</Hsp_bit-score>
+      <Hsp_score>1400</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLP--AVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGDKVLLTLRPAPINTGIVFRRTDLNPVVEIPALYDQVGDTMLCTSLQRDGVKVATVEHLLSAFAGLGIDNAYVDINAPEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRIEDNGKYVQFLPYNGYKVSFTIDFDHPVFNDKPQTATFDFSATSYVKEVCRARTFGFLSDYEKLRENDLARGGSLDNAIVVDDYRVLNEDGLRFDSEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHGLNNRLLRELMVRQDAWEYTYFDAENYQPTVAADADFLPAEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSG+KVLLTLRPAP+NTGIVFRR DL+PVVEIPA Y+ VGDTMLCT+L    VK+ATVEHLLSA AGLGIDNAY+D+NAPEIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIR+E+NGKYVQFLP+ GYK++FTI F+HPVFND+PQT +FDFS TSYVKEVCRARTFGFLSDYEKLRE DLA+GGSLDNAIVVDDYRVLNEDGLRF+SEFVTHKVLDAIGDLYLLG  LIGAFEGYKSGH LNNRLLRELMVRQDAWEYTYFD ENY P  A   ++ P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|518045055|ref|WP_019215263.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella tunisiensis]</Hit_def>
+  <Hit_accession>WP_019215263</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.732</Hsp_bit-score>
+      <Hsp_score>1397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MMQQRTIKKVIQATGVGLHSGEKILLTARPAPINTGIVFRRTDLESVVEIPALYNYVGDTMLCTSLQHQGAKVATVEHLLSAFAGLGIDNAYVDVNAPEIPIMDGSSAPFVFLIQSAGIREQSAAKRFIRILKPIRIEDHGKYVQFLPYDGYKVSFTIDFDHPVFNDKPQTVTFDLSGTSYVREICRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFSGEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHGLNNRLLRELMVRQDAWEYTYFDAENYRPAVEADFLPAEA</Hsp_hseq>
+      <Hsp_midline>M++QRT KKVIQATGVGLHSGEK+LLT RPAP+NTGIVFRR DL  VVEIPA Y YVGDTMLCT+L H   K+ATVEHLLSA AGLGIDNAY+DVNAPEIPIMDGS+APFVFLIQSAGIREQ+AAKR+IRILKPIR+E++GKYVQFLP+ GYK++FTI F+HPVFND+PQTV+FD SGTSYV+E+CRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRF  EFVTHKVLDAIGDLYLLG  LIGAFEGYKSGH LNNRLLRELMVRQDAWEYTYFD ENY PAV  ++ P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966400202|ref|WP_058443797.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella feeleii] &gt;gi|962218243|gb|KTD02962.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058443797</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.191</Hsp_bit-score>
+      <Hsp_score>1393</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>256</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MMQQRTIKKVIQATGVGLHSGEKILLTARPAPINTGIVFRRTDLESVVEIPALYNYVGDTMLCTSLQHQGVKVATVEHLLSAFAGLGIDNAYVDVNAPEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDNGKYVQFLPYDGYKVSFTIDFDHPVFNDKPQAVTFDLSGTSYVREICRARTFGFLSDYEKLRESDLAKGGSLDNAIVVDDYRVLNEDGLRFSGEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHGLNNRLLRELMVRQDAWEYTYFDAENYQPVVAADFLPAEA</Hsp_hseq>
+      <Hsp_midline>M++QRT KKVIQATGVGLHSGEK+LLT RPAP+NTGIVFRR DL  VVEIPA Y YVGDTMLCT+L H  VK+ATVEHLLSA AGLGIDNAY+DVNAPEIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+NGKYVQFLP+ GYK++FTI F+HPVFND+PQ V+FD SGTSYV+E+CRARTFGFLSDYEKLRE DLAKGGSLDNAIVVDDYRVLNEDGLRF  EFVTHKVLDAIGDLYLLG  LIGAFEGYKSGH LNNRLLRELMVRQDAWEYTYFD ENY P V  ++ P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966469206|ref|WP_058500480.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella israelensis] &gt;gi|962250340|gb|KTD34543.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058500480</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.806</Hsp_bit-score>
+      <Hsp_score>1392</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHTGEKVLLTLRPAPINTGIVFRRVDLSPVVEIPATYDNVSDTMLCTSLLHNGAKVATVEHLLSAFAGLGIDNAYVDINAPELPIMDGSSAPFVFLIQSAGIREQSAAKRFIRIIKPLRVEDDDKYVQFLPYNGYKVSFTIGFEHPVFNDKPQSVTFDFSGSSYVKEVCRARTFGFLSDYEKLRERDLAKGGSLDNTIVVDDYRVLNEDGLRFDGEFVAHKVLDAVGDLYLLGSSLIGAFEGYKSGHALNNKLLRTLMAREDAWEYTYFDAENYIPELQSSLQPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLH+GEKVLLTLRPAP+NTGIVFRRVDLSPVVEIPA+Y+ V DTMLCT+L H   K+ATVEHLLSA AGLGIDNAY+D+NAPE+PIMDGS+APFVFLIQSAGIREQ+AAKR+IRI+KP+RVE++ KYVQFLP+ GYK++FTIGFEHPVFND+PQ+V+FDFSG+SYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDN IVVDDYRVLNEDGLRF+ EFV HKVLDA+GDLYLLGSSLIGAFEGYKSGH LNN+LLR LM R+DAWEYTYFD ENY+P +     PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966408465|ref|WP_058451857.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella maceachernii] &gt;gi|962243690|gb|KTD28007.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058451857</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.265</Hsp_bit-score>
+      <Hsp_score>1388</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLHPAPINTGIVFRRTDLKPVVEIPALYDQVGDTMLCTSLQRDGVKVATVEHLLSAFAGLGIDNAYVDVNGPELPIMDGSAAPFVFLIQSAGIREQSAAKRFLRILKPIRIEDNGKYVQFLPYNGCRVSFTIDFDHPVFNDKPQTATFDFSTTSYVKEVCRARTFGFLSDYEKLRECELAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDIYLLGCGLIGAFEGYKSGHELNNRLLRELMVREEAWEYTYFDAETYQPTVAADLLPVEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTL PAP+NTGIVFRR DL PVVEIPA Y+ VGDTMLCT+L    VK+ATVEHLLSA AGLGIDNAY+DVN PE+PIMDGSAAPFVFLIQSAGIREQ+AAKR++RILKPIR+E+NGKYVQFLP+ G +++FTI F+HPVFND+PQT +FDFS TSYVKEVCRARTFGFLSDYEKLREC+LAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGD+YLLG  LIGAFEGYKSGHELNNRLLRELMVR++AWEYTYFD E Y P V  +  PVEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966511866|ref|WP_058528420.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella londiniensis] &gt;gi|962238103|gb|KTD22527.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058528420</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.724</Hsp_bit-score>
+      <Hsp_score>1384</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGDKVLLTLRPAPINTGIVFRRIDLSPAVEIPASYENVCDTTLCTSLQHNGVKVATVEHLLSAFAGLGIDNAYVDINSPEIPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRIEENGKYVQFLPFNGYRVSFTIDFEHPVFNDKPQTATFDFSTTSYVKEVCRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDNYRVLNEDGLRFEDEFVKHKVLDAIGDLYLLGSGLIGAFEGYKSGHELNNKLLRALMLHEDAWEYTYFDAENYHFLFQPDLLPMEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSG+KVLLTLRPAP+NTGIVFRR+DLSP VEIPASYE V DT LCT+L H  VK+ATVEHLLSA AGLGIDNAY+D+N+PEIPIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIR+EENGKYVQFLP  GY+++FTI FEHPVFND+PQT +FDFS TSYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVD+YRVLNEDGLRFE EFV HKVLDAIGDLYLLGS LIGAFEGYKSGHELNN+LLR LM+ +DAWEYTYFD ENY     P+  P+EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966464431|ref|WP_058495792.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella drozanskii] &gt;gi|962202914|gb|KTC87883.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058495792</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGDKVYLTLRPAPINTGIIFRRTDLDPVIEIPALYDQVGDTMLCTSLQKDGVKVATVEHLLSAFAGLGIDNAYVDVNAAELPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDNGKYVQFLPYNGCKVSFTIDFDHPVFNDKPQTATFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDEYRVLNEDGLRFESEFVTHKVLDAIGDIYLLGCGLIGAFEGHKSGHGLNNRLLRELMVRQDAWEYTYFDAENYQPTFFADMLPAEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSG+KV LTLRPAP+NTGI+FRR DL PV+EIPA Y+ VGDTMLCT+L    VK+ATVEHLLSA AGLGIDNAY+DVNA E+PIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+NGKYVQFLP+ G K++FTI F+HPVFND+PQT +FDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVD+YRVLNEDGLRFESEFVTHKVLDAIGD+YLLG  LIGAFEG+KSGH LNNRLLRELMVRQDAWEYTYFD ENY P    +  P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|769982255|ref|WP_045098237.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Tatlockia micdadei] &gt;gi|698845708|emb|CEG59686.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Tatlockia micdadei] &gt;gi|962245128|gb|KTD29432.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Tatlockia micdadei] &gt;gi|1081465896|emb|SCX97359.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045098237</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.028</Hsp_bit-score>
+      <Hsp_score>1377</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLHPAPINTGIVFRRTDLNPVVEIPALYDQVGDTMLCTSLQRDGVKVATVEHLLSAFAGLGIDNAYVDVNGPELPIMDGSAAPFVFLIQSAGIREQSAAKRFLRILKPIRIEDNEKYVQFLPYNGCRVSFTIDFDHPVFNDKPQTATFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDNYRVLNEDGLRFESEFVTHKVLDAIGDIYLLGCGLIGAFEGYKSGHELNNRLLRALMVREDAWEYTYFDAETYQPTLATELLPAEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTL PAP+NTGIVFRR DL+PVVEIPA Y+ VGDTMLCT+L    VK+ATVEHLLSA AGLGIDNAY+DVN PE+PIMDGSAAPFVFLIQSAGIREQ+AAKR++RILKPIR+E+N KYVQFLP+ G +++FTI F+HPVFND+PQT +FDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVD+YRVLNEDGLRFESEFVTHKVLDAIGD+YLLG  LIGAFEGYKSGHELNNRLLR LMVR+DAWEYTYFD E Y P +  E  P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|654937923|ref|WP_028388171.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028388171</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.102</Hsp_bit-score>
+      <Hsp_score>1372</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>256</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVE</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLHPAPINTGIIFRRTDLSPVVEIPALYDCVGDTMLCTSLQKNGVKVATVEHLLSAFAGLGIDNAYVDVNASELPIMDGSAAPFVFLIQSAGIREQGAAKRFIRILKPIRIEDEDKYVQFLPYDGYKVSFTIDFDHPVFNDKPQTATFDFSATSYVKEVCRARTFGFLSDYEKLREADLAKGGSLDNAIVVDDYRVLNEDGLRFDSEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHGLNNRLLRELMVRQDAWEYTYFDAENYQPTTAFCLAPVE</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSGEKVLLTL PAP+NTGI+FRR DLSPVVEIPA Y+ VGDTMLCT+L    VK+ATVEHLLSA AGLGIDNAY+DVNA E+PIMDGSAAPFVFLIQSAGIREQ AAKR+IRILKPIR+E+  KYVQFLP+ GYK++FTI F+HPVFND+PQT +FDFS TSYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVDDYRVLNEDGLRF+SEFVTHKVLDAIGDLYLLG  LIGAFEGYKSGH LNNRLLRELMVRQDAWEYTYFD ENY P       PVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966475043|ref|WP_058505804.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella nautarum] &gt;gi|962248970|gb|KTD33192.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505804</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.635</Hsp_bit-score>
+      <Hsp_score>1363</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHTGEMVYLTLHPAPINTGIIFRRTDLDPVVEIPALYDQVGDTMLCTSLQKDGVKVATVEHLLSAFAGLGIDNAYVDVNAAELPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIRVEDKGKYVQFLPYNGCKVSFTIDFDHPVFNDKPQTATFDFSTTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDNYRVLNEDGLRFESEFVTHKVLDAIGDIYLLGCGLIGAFEGYKSGHGLNNRLLRELMVRQDAWEYTYFDAENYQPNFVVDMLPAEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLH+GE V LTL PAP+NTGI+FRR DL PVVEIPA Y+ VGDTMLCT+L    VK+ATVEHLLSA AGLGIDNAY+DVNA E+PIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPIRVE+ GKYVQFLP+ G K++FTI F+HPVFND+PQT +FDFS TSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVD+YRVLNEDGLRFESEFVTHKVLDAIGD+YLLG  LIGAFEGYKSGH LNNRLLRELMVRQDAWEYTYFD ENY P    +  P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966431449|ref|WP_058471894.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella jordanis] &gt;gi|962233665|gb|KTD18213.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471894</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>526.168</Hsp_bit-score>
+      <Hsp_score>1354</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTLKRVIQTTGVGLHSGKKVLLTLRPAPINTGIVFRRVDLNPVIEILALYDQVGDTMLCTSLQRDGIKIATVEHLLSAFAGLGIDNAYVDLNSDEIPIMDGSSAPFVFLIQSAGIREQSAAKRFIRILKPTRVEDNGKYVQFLPYNGYKVSFTIDFDHPVFNDKPQTACFDFSNTSYVKEVCRARTFGFLSDYEQLRENDLAKGGSLDNAIVVDDYRVLNEDGLRFDAEFVTHKVLDAIGDLYLLGCGLIGAFEGYKSGHGLNNRLLRELMLRQDAWEYTYFDAENYQPTLASDLQPAEA</Hsp_hseq>
+      <Hsp_midline>MIKQRT K+VIQ TGVGLHSG+KVLLTLRPAP+NTGIVFRRVDL+PV+EI A Y+ VGDTMLCT+L    +KIATVEHLLSA AGLGIDNAY+D+N+ EIPIMDGS+APFVFLIQSAGIREQ+AAKR+IRILKP RVE+NGKYVQFLP+ GYK++FTI F+HPVFND+PQT  FDFS TSYVKEVCRARTFGFLSDYE+LRE DLAKGGSLDNAIVVDDYRVLNEDGLRF++EFVTHKVLDAIGDLYLLG  LIGAFEGYKSGH LNNRLLRELM+RQDAWEYTYFD ENY P +  +  P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1085372281|gb|OGV43353.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionellales bacterium RIFCSPHIGHO2_12_FULL_42_9]</Hit_def>
+  <Hit_accession>OGV43353</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.242</Hsp_bit-score>
+      <Hsp_score>1349</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPV</Hsp_qseq>
+      <Hsp_hseq>MIQQRTPKKVIQATGVGLHSGQKVLLTLRPAPINTGIVFRRTDLNPVMEIPASYEYVSETMLCTSLQRDDVKIATVEHLLSALAGLGVDNAYVDVNAPEIPIMDGSAAPFVFLIQSAGVREQNAAKRYIRILKPLRVEENDKYVQFLPYNGYKVTFTIDFDHPVFNNKPKKACFDFSHTSYVKQVCRARTFGFLADYERLRESDLIKGGSLDNAVVVDDYRVLNEDGLRFDGEFVAHKVLDAIGDLYLLGSGLIGAFEGYKSGHELNNRLLRALILNQDAWEYTYFDAEKYQSFVAAGFYSL</Hsp_hseq>
+      <Hsp_midline>MI+QRTPKKVIQATGVGLHSG+KVLLTLRPAP+NTGIVFRR DL+PV+EIPASYEYV +TMLCT+L    VKIATVEHLLSALAGLG+DNAY+DVNAPEIPIMDGSAAPFVFLIQSAG+REQNAAKRYIRILKP+RVEEN KYVQFLP+ GYK+TFTI F+HPVFN++P+   FDFS TSYVK+VCRARTFGFL+DYE+LRE DL KGGSLDNA+VVDDYRVLNEDGLRF+ EFV HKVLDAIGDLYLLGS LIGAFEGYKSGHELNNRLLR L++ QDAWEYTYFD E Y   V   +Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966418875|ref|WP_058462098.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella adelaidensis] &gt;gi|962181177|gb|KTC66425.1| UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionella adelaidensis]</Hit_def>
+  <Hit_accession>WP_058462098</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>524.242</Hsp_bit-score>
+      <Hsp_score>1349</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>304</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTENYLPAVHPEYYPVEA</Hsp_qseq>
+      <Hsp_hseq>MIKQRTPKKVIQATGVGLHSGDKVLLTLRPAPINTGVIFRRTDLSPAVEIPATYENVCDTMLCTSLRHQGVKVATVEHLLSAFAGLGIDNAYVDINGPELPIMDGSAAPFVFLIQSAGIREQSAAKRFIRILKPIKVEQNGKYAQFLPYDGYKISFTIDFDHPVFNDKPQTAVFDFSTISYVKEVCRARTFGFLSDYEKLRENDLAKGGSLDNAIVVDNYRVLNDDGLRFEDEFVKHKVLDAIGDLYLLSSGLIGAFEGYRSGHELNNLLLRKLMATQDAWEYTYFDAEDYQPSLQQVLIPAEA</Hsp_hseq>
+      <Hsp_midline>MIKQRTPKKVIQATGVGLHSG+KVLLTLRPAP+NTG++FRR DLSP VEIPA+YE V DTMLCT+L H  VK+ATVEHLLSA AGLGIDNAY+D+N PE+PIMDGSAAPFVFLIQSAGIREQ+AAKR+IRILKPI+VE+NGKY QFLP+ GYKI+FTI F+HPVFND+PQT  FDFS  SYVKEVCRARTFGFLSDYEKLRE DLAKGGSLDNAIVVD+YRVLN+DGLRFE EFV HKVLDAIGDLYLL S LIGAFEGY+SGHELNN LLR+LM  QDAWEYTYFD E+Y P++     P EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1085366152|gb|OGV37472.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [Legionellales bacterium RIFCSPHIGHO2_12_FULL_35_11]</Hit_def>
+  <Hit_accession>OGV37472</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.73</Hsp_bit-score>
+      <Hsp_score>1262</Hsp_score>
+      <Hsp_evalue>2.37814e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>MIKQRTPKKVIQATGVGLHSGEKVLLTLRPAPVNTGIVFRRVDLSPVVEIPASYEYVGDTMLCTTLHHGKVKIATVEHLLSALAGLGIDNAYIDVNAPEIPIMDGSAAPFVFLIQSAGIREQNAAKRYIRILKPIRVEENGKYVQFLPHKGYKITFTIGFEHPVFNDRPQTVSFDFSGTSYVKEVCRARTFGFLSDYEKLRECDLAKGGSLDNAIVVDDYRVLNEDGLRFESEFVTHKVLDAIGDLYLLGSSLIGAFEGYKSGHELNNRLLRELMVRQDAWEYTYFDTEN</Hsp_qseq>
+      <Hsp_hseq>MTQQQTPNKLIQATGVGLHSGEKVLLTLHPAPINTGIIFRRTDLDPVVEIKASYENVCDTKLCTSLQQNGVKVATVEHILSALAGLGIDNAYIDINAPEIPIMDGSAAPFVFLIQSAGIKEQTAKKRYIRILKPVLVEDGDKYVQFLPHDGYKVSFKIDFDHPVFNNKPQTAIFDFSATSYIKQVSRARTFGFLSDYEKLRTAGLASGGSLDNTIVVDDYRILNEDGLRFDDEFVKHKVLDAIGDLSLLGSNLIGAFEGYKSGHELNNKLLRQLMLQQDAWEYTYFDSED</Hsp_hseq>
+      <Hsp_midline>M +Q+TP K+IQATGVGLHSGEKVLLTL PAP+NTGI+FRR DL PVVEI ASYE V DT LCT+L    VK+ATVEH+LSALAGLGIDNAYID+NAPEIPIMDGSAAPFVFLIQSAGI+EQ A KRYIRILKP+ VE+  KYVQFLPH GYK++F I F+HPVFN++PQT  FDFS TSY+K+V RARTFGFLSDYEKLR   LA GGSLDN IVVDDYR+LNEDGLRF+ EFV HKVLDAIGDL LLGS+LIGAFEGYKSGHELNN+LLR+LM++QDAWEYTYFD+E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

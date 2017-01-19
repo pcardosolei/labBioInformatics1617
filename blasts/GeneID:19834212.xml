@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3921</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834212</BlastOutput_query-def>
+  <BlastOutput_query-len>272</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3921</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834212</Iteration_query-def>
+  <Iteration_query-len>272</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|364509358|gb|AEW52882.1|</Hit_id>
+  <Hit_def>phenylalanine-4-hydroxylase [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>AEW52882</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>563.533</Hsp_bit-score>
+      <Hsp_score>1451</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499250807|ref|WP_010948347.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|224458591|ref|YP_096652.2| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|223976076|gb|AAU28705.2| phenylalanine-4-hydroxylase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|469490631|gb|AGH52476.1| Phenylalanine-4-hydroxylase [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083319|gb|AGN15567.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772827|emb|CZI17203.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998775724|emb|CZG60625.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998778310|emb|CZG75588.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998784549|emb|CZG86057.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998787501|emb|CZG59043.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998811906|emb|CZH78952.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998814295|emb|CZG62150.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998837852|emb|CZJ72678.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998865400|emb|CZJ41324.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998869859|emb|CZJ36128.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998871054|emb|CZM16470.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998874542|emb|CZK38158.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998877471|emb|CZL99759.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998880538|emb|CZI87286.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998888032|emb|CZL50016.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998889233|emb|CZK23147.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998906117|emb|CZK56416.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998909688|emb|CZL09038.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999067377|emb|CZJ18307.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999076899|emb|CZG59141.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999095271|emb|CZG87599.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999098714|emb|CZG60331.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999156860|emb|CZH74697.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999191284|emb|CZI17810.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999194407|emb|CZI43902.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999200272|emb|CZG60707.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999203718|emb|CZI43875.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999222399|emb|CZI35395.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1002075554|emb|CZQ94328.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073865688|gb|AOU05639.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073868657|gb|AOU08607.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073871652|gb|AOU11601.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1073874519|gb|AOU14467.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1073877577|gb|AOU17524.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1073880540|gb|AOU20486.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1073883537|gb|AOU23482.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1073889498|gb|AOU29441.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073892482|gb|AOU32424.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073895450|gb|AOU35391.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073898408|gb|AOU38348.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073901374|gb|AOU41313.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073904283|gb|AOU44221.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073907236|gb|AOU47173.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073910254|gb|AOU50189.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073913266|gb|AOU53198.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073916226|gb|AOU56157.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073919189|gb|AOU59119.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073922092|gb|AOU62021.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073925175|gb|AOU65102.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073928138|gb|AOU68064.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073931124|gb|AOU71033.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073934493|gb|AOU74052.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073937458|gb|AOU84457.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073947724|gb|AOU87448.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073950652|gb|AOU90375.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1129969310|gb|APT99669.1| phenylalanine 4-monooxygenase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948347</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>562.762</Hsp_bit-score>
+      <Hsp_score>1449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>272</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|506459827|ref|WP_015961727.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|53752421|emb|CAH13853.1| hypothetical protein lpp2700 [Legionella pneumophila str. Paris] &gt;gi|536611686|gb|ERB40204.1| phenylalanine 4-monooxygenase [Legionella pneumophila str. 121004] &gt;gi|541998863|gb|ERH44876.1| phenylalanine 4-monooxygenase [Legionella pneumophila str. Leg01/53] &gt;gi|542000376|gb|ERH46363.1| phenylalanine 4-monooxygenase [Legionella pneumophila str. Leg01/11] &gt;gi|542123165|gb|ERI49474.1| phenylalanine 4-monooxygenase [Legionella pneumophila str. Leg01/20] &gt;gi|762000241|dbj|GAN27973.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998924302|emb|CZJ96278.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998942547|emb|CZK06300.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998954598|emb|CZK42112.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998976175|emb|CZJ65425.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998991503|emb|CZK07321.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999009840|emb|CZK03456.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999018908|emb|CZJ60751.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999027994|emb|CZJ91094.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999031554|emb|CZG68547.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999034038|emb|CZJ97126.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999040245|emb|CZJ67164.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999043088|emb|CZJ78049.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999048957|emb|CZJ85822.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999052214|emb|CZJ67636.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999055168|emb|CZJ97545.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999064324|emb|CZJ77959.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999070121|emb|CZJ75533.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999073420|emb|CZK04262.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999085637|emb|CZJ98270.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999173384|emb|CZH69614.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999182556|emb|CZG27824.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999184513|emb|CZP93159.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999188721|emb|CZI77141.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999198321|emb|CZP07391.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999206424|emb|CZP58635.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999213653|emb|CZG43841.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999217057|emb|CZI72145.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999225901|emb|CZG32409.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999227839|emb|CZP39859.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999235062|emb|CZP52459.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999240558|emb|CZH76324.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999244227|emb|CZH71663.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999249437|emb|CZG79076.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999252904|emb|CZG92249.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999256165|emb|CZP74221.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999259212|emb|CZP39661.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999262140|emb|CZH06060.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999265444|emb|CZP03655.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999272088|emb|CZP52312.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999274357|emb|CZH09162.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999277795|emb|CZP29840.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999281499|emb|CZP22395.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999284147|emb|CZP49802.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999290850|emb|CZP27851.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999296750|emb|CZP49598.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999299989|emb|CZP27299.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999307168|emb|CZH66008.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999309554|emb|CZP20090.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999315960|emb|CZI02631.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999318955|emb|CZP57027.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999322207|emb|CZH92490.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999324919|emb|CZH13593.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999327602|emb|CZH28442.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999332877|emb|CZG03130.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999337988|emb|CZP43652.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999340746|emb|CZG99568.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999344152|emb|CZP91691.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999347440|emb|CZP60262.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999350128|emb|CZH28013.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999353741|emb|CZP52852.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999356850|emb|CZP75383.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999361070|emb|CZI00856.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999363216|emb|CZP71396.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999366979|emb|CZP71915.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999369603|emb|CZP86749.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999374028|emb|CZG03135.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999377369|emb|CZI91638.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999380668|emb|CZH52197.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999383388|emb|CZI15727.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999387483|emb|CZG11422.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999390290|emb|CZI11302.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999392493|emb|CZP95776.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999397045|emb|CZG15877.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999398741|emb|CZP99078.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999403259|emb|CZP47351.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999406442|emb|CZG43971.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999409386|emb|CZH71203.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999412600|emb|CZG28054.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999416670|emb|CZG15370.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999419300|emb|CZG44013.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999422589|emb|CZH44468.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999426504|emb|CZG25210.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999429094|emb|CZG29777.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999432683|emb|CZG05372.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999435759|emb|CZH66178.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999438328|emb|CZG44360.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999442268|emb|CZJ85315.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999445309|emb|CZH55851.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999448571|emb|CZG03129.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999450810|emb|CZP30719.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999458379|emb|CZJ90683.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999469977|emb|CZG82175.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999497000|emb|CZI09743.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999521362|emb|CZP45286.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999526349|emb|CZI61992.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999529231|emb|CZI17713.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999577049|emb|CZI01684.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999612350|emb|CZI06142.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999778494|emb|CZH01554.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1003028381|emb|CZR23462.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1003031900|emb|CZR28575.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1005834316|gb|AMQ29042.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434071|gb|AMV15698.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1041016619|gb|ANN93680.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1041019616|gb|ANN96676.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1103997811|emb|SFZ46937.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1104000951|emb|SFZ46950.1| Phenylalanine-4-hydroxylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961727</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.222</Hsp_bit-score>
+      <Hsp_score>1445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPENPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|504657654|ref|WP_014844756.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|395131732|emb|CCD10025.1| Phenylalanine-4-hydroxylase (PAH) (Phe-4-monooxygenase) [Legionella pneumophila subsp. pneumophila] &gt;gi|761987313|dbj|GAN24663.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|761990387|dbj|GAN18611.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|761993577|dbj|GAN21717.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998781153|emb|CZJ42861.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998790032|emb|CZH03377.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998792842|emb|CZI69970.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998883310|emb|CZI75962.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998892912|emb|CZJ08589.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998898849|emb|CZJ46393.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998952254|emb|CZJ34422.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998982039|emb|CZI89249.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999106935|emb|CZI84407.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999153842|emb|CZM16787.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999162930|emb|CZM04754.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999231209|emb|CZI62166.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999286773|emb|CZI75258.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999293104|emb|CZI62393.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999312063|emb|CZI88025.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1002082152|emb|CZQ96140.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1002091772|emb|CZR06271.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1032658726|gb|ANH13997.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1032661688|gb|ANH16958.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1032664666|gb|ANH19935.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1104007503|emb|SFZ47016.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1108605998|gb|APF04366.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_014844756</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>561.222</Hsp_bit-score>
+      <Hsp_score>1445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDRLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRID+LQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|653014236|ref|WP_027266285.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|532137696|pdb|4BPT|A Chain A, Structural And Thermodynamic Insight Into Phenylalanine Hydroxylase From The Human Pathogen Legionella Pneumophila &gt;gi|532137697|pdb|4BPT|B Chain B, Structural And Thermodynamic Insight Into Phenylalanine Hydroxylase From The Human Pathogen Legionella Pneumophila &gt;gi|532137698|pdb|4BPT|C Chain C, Structural And Thermodynamic Insight Into Phenylalanine Hydroxylase From The Human Pathogen Legionella Pneumophila &gt;gi|532137699|pdb|4BPT|D Chain D, Structural And Thermodynamic Insight Into Phenylalanine Hydroxylase From The Human Pathogen Legionella Pneumophila &gt;gi|998829446|emb|CZG78356.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998936500|emb|CZM49923.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999000432|emb|CZG77490.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999057976|emb|CZM55969.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999104153|emb|CZI05305.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999128764|emb|CZH02626.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999236340|emb|CZH06505.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1002085458|emb|CZQ99336.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1002088120|emb|CZQ79298.1| Phenylalanine-4-hydroxylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266285</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>560.836</Hsp_bit-score>
+      <Hsp_score>1444</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGELPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGE PPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1004334792|ref|WP_061513717.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513717</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>560.066</Hsp_bit-score>
+      <Hsp_score>1442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFKRQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDRLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILF+RQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRID+LQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|500496213|ref|WP_011947564.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|148280391|gb|ABQ54479.1| phenylalanine-4-hydroxylase [Legionella pneumophila str. Corby] &gt;gi|761996870|dbj|GAN31045.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998796514|emb|CZI00504.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998800315|emb|CZL04604.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998802640|emb|CZH89354.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998805802|emb|CZK07475.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998808364|emb|CZH88041.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998817722|emb|CZL59337.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998820824|emb|CZL60972.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998826786|emb|CZK08506.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998832576|emb|CZI06933.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998835759|emb|CZK88065.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998842298|emb|CZL13174.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998844716|emb|CZK28801.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998847667|emb|CZK66822.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998850246|emb|CZI37997.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998853771|emb|CZL26064.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998856467|emb|CZL33050.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998859790|emb|CZL73493.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998862674|emb|CZK19083.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998895515|emb|CZJ99411.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998915841|emb|CZK62262.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998918310|emb|CZK83011.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998921281|emb|CZL38806.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998927586|emb|CZL64030.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998930673|emb|CZK75642.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998933922|emb|CZL75856.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998939888|emb|CZK76600.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998945965|emb|CZK94832.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998949009|emb|CZK82589.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998958605|emb|CZM01019.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998961511|emb|CZK25395.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998964622|emb|CZK05433.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998966956|emb|CZM52689.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998970498|emb|CZK54180.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998973811|emb|CZK26818.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998979516|emb|CZL59656.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998985865|emb|CZJ99575.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998988705|emb|CZL48148.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998998033|emb|CZJ88747.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999004472|emb|CZI43946.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999008005|emb|CZK27440.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999012938|emb|CZL44257.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999016860|emb|CZL68879.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999022658|emb|CZL14785.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999025371|emb|CZK74478.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999037128|emb|CZL54557.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999046852|emb|CZL77210.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999061659|emb|CZL15150.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999080243|emb|CZJ91855.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999082798|emb|CZK77962.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999090492|emb|CZK41437.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999092486|emb|CZL40781.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999101142|emb|CZL67835.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999110415|emb|CZL15455.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999113806|emb|CZL51605.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999116413|emb|CZK48800.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999126325|emb|CZK79190.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999131591|emb|CZL95052.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999134810|emb|CZL17084.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999138088|emb|CZK27931.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999141797|emb|CZL44626.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999144558|emb|CZK69504.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999147650|emb|CZL49950.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999158619|emb|CZJ91061.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999166073|emb|CZG70306.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999175790|emb|CZL04984.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999177461|emb|CZJ86026.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999210014|emb|CZK75762.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999219304|emb|CZL30756.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999335275|emb|CZK72678.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1002079060|emb|CZQ94735.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1003020151|emb|CZR21600.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1003023031|emb|CZR20436.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1003026873|emb|CZR18139.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1073886529|gb|AOU26473.1| phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1104004050|emb|SFZ46939.1| Phenylalanine-4-hydroxylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947564</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>560.066</Hsp_bit-score>
+      <Hsp_score>1442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNPSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLN STIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|502866937|ref|WP_013101913.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|295650194|gb|ADG26041.1| phenylalanine-4-hydroxylase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|998912309|emb|CZG96344.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|998993967|emb|CZI47163.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999151586|emb|CZH55923.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999168328|emb|CZI52313.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999302248|emb|CZI55233.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1080008939|gb|AOW58927.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011394|gb|AOW60885.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017638|gb|AOW66283.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_013101913</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>559.681</Hsp_bit-score>
+      <Hsp_score>1441</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNPSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRVLFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLN STIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVR+LFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1005609419|ref|WP_061691913.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|998824299|emb|CZG45623.1| Phenylalanine-4-hydroxylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061691913</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>559.296</Hsp_bit-score>
+      <Hsp_score>1440</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWSILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGELPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIW+ILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGE PPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|499535736|ref|WP_011216519.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|53755317|emb|CAH16813.1| hypothetical protein lpl2572 [Legionella pneumophila str. Lens] &gt;gi|1080003017|gb|AOW53589.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005237|gb|AOW55517.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015514|gb|AOW64387.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216519</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>559.296</Hsp_bit-score>
+      <Hsp_score>1440</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAKFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGELPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYA+FVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGE PPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|504655592|ref|WP_014842694.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|395128648|emb|CCD06866.1| Phenylalanine-4-hydroxylase (PAH) (Phe-4-monooxygenase) [Legionella pneumophila subsp. pneumophila] &gt;gi|999248083|emb|CZH51346.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999269707|emb|CZO24927.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999465413|emb|CZM26476.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999468331|emb|CZO07194.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999474563|emb|CZM55220.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999478162|emb|CZN24863.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999481357|emb|CZM62850.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999484387|emb|CZN96409.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999487541|emb|CZL95765.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999490732|emb|CZN58902.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999493960|emb|CZL96165.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999500360|emb|CZN57810.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999503582|emb|CZN87473.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999506778|emb|CZM93420.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999510015|emb|CZG25893.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999513170|emb|CZN17928.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999515191|emb|CZM27069.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999519787|emb|CZM49572.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999532655|emb|CZO31903.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999534735|emb|CZN68489.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999539048|emb|CZM53248.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999542298|emb|CZO08407.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999545442|emb|CZO45296.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999548596|emb|CZN74090.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999551830|emb|CZN98609.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999555207|emb|CZM96113.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999558220|emb|CZO44963.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999561374|emb|CZM27946.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999564613|emb|CZO45377.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999567762|emb|CZM41143.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999570961|emb|CZN39778.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999574151|emb|CZN77049.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999580642|emb|CZO01570.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999584154|emb|CZO14999.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999585928|emb|CZN10737.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999590539|emb|CZM23131.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999593414|emb|CZN32937.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999596612|emb|CZN95509.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999599846|emb|CZO23612.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999603298|emb|CZL64753.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999606241|emb|CZN38211.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999609709|emb|CZN42111.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999615885|emb|CZM32271.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999618966|emb|CZN75224.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999622358|emb|CZO52985.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999625598|emb|CZN52861.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999628985|emb|CZM43023.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999631863|emb|CZM47040.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999635097|emb|CZN39501.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999638251|emb|CZN36096.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999641447|emb|CZO63996.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999644618|emb|CZO29470.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999648155|emb|CZN77245.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999650966|emb|CZN93796.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999654270|emb|CZN91380.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999657648|emb|CZL99934.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999660621|emb|CZM49253.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999664135|emb|CZM83247.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999667054|emb|CZM24104.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999670248|emb|CZL73307.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999673635|emb|CZM18343.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999676601|emb|CZN62752.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999679636|emb|CZM63521.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999682831|emb|CZM70549.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999686057|emb|CZN93531.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999689603|emb|CZN09421.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999692588|emb|CZN82181.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999696014|emb|CZN00476.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999698180|emb|CZM31428.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999702509|emb|CZM44813.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999705621|emb|CZL58481.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999708645|emb|CZN40880.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999711897|emb|CZM85947.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999715420|emb|CZM89755.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999718489|emb|CZO26764.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999721437|emb|CZM68599.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999724777|emb|CZN18489.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999728142|emb|CZL88441.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999731670|emb|CZO22282.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999734919|emb|CZM00950.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999738179|emb|CZO46958.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999741121|emb|CZM26549.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999744577|emb|CZN06428.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999747948|emb|CZM01485.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999750843|emb|CZL80873.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999754079|emb|CZM70697.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999757422|emb|CZM82835.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999760431|emb|CZM16541.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999763854|emb|CZN09483.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999767051|emb|CZM55501.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999769860|emb|CZN41482.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999773564|emb|CZH74584.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999776524|emb|CZL88625.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999783388|emb|CZH49403.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999786564|emb|CZM17029.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999789845|emb|CZO50016.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999793208|emb|CZO50747.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999796455|emb|CZI07789.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999799594|emb|CZO59164.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1003035436|emb|CZR22696.1| phenylalanine-4-hydroxylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842694</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.525</Hsp_bit-score>
+      <Hsp_score>1438</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSIIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGELPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSS IPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGE PPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|764926962|ref|WP_044497800.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|999455538|emb|CZH45264.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999462207|emb|CZG05354.1| Phenylalanine-4-hydroxylase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_044497800</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.14</Hsp_bit-score>
+      <Hsp_score>1437</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSTIIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGELPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNS+ IPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGE PPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|756828853|ref|WP_042645971.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042645971</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>557.755</Hsp_bit-score>
+      <Hsp_score>1436</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>270</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLTGRACDEFLSGLQTLGLNPSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLL GRACDEFLSGLQTLGLN STIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|652969903|ref|WP_027222796.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1005367807|gb|AMP93584.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370726|gb|AMP96502.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222796</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>556.984</Hsp_bit-score>
+      <Hsp_score>1434</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>269</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDARGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSRTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWALLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDA+GLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNS TIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDW LLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1004014439|ref|WP_061483722.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483722</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.288</Hsp_bit-score>
+      <Hsp_score>1427</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLVEYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSWAIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDRLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGLV+YSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNS  IPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRID+LQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|652976402|ref|WP_027229074.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|985764657|gb|KXB25776.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|985767072|gb|KXB28167.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|999119108|emb|CZG86827.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|999122233|emb|CZH20190.1| Phenylalanine-4-hydroxylase [Legionella pneumophila] &gt;gi|1024339713|gb|KZX34052.1| phenylalanine 4-monooxygenase [Legionella pneumophila] &gt;gi|1108608980|gb|APF07347.1| phenylalanine 4-monooxygenase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229074</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>547.74</Hsp_bit-score>
+      <Hsp_score>1410</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDARGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSWTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEDELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYARKVLTFPEQDWALLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDRLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDA+GLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNS TIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSE+ELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYA KVLTFPEQDW LLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRID+LQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|737925544|ref|WP_035890733.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella norrlandica] &gt;gi|701445257|gb|KGP62651.1| phenylalanine 4-monooxygenase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890733</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>522.702</Hsp_bit-score>
+      <Hsp_score>1345</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFQSRYVAHVPDARGLVNYSTEENRIWSILFERQLKLLPARACDEFIVGLKTLGLNSQAIPQLPEVSQRLKAKTGWQVAPVAALISAREFFELLAKKYFPAATFIRSEEELDYVKEPDIFHELFGHCPMLTDRVYAEFVYDYACKVLTFPEQDWALLQRMFWFTVEFGLIKTSKGLRAYGGGILSSISETVYCVESDVPVRVLFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVRTDMGKYIDRARELGEFPPYFNVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYVAHVPDA+GLV+YS +ENRIW+ILFERQLKLLP RACDEF+ GL+TLGLNS  IPQLPEVS+RLKAKTGWQVAPVAALISAREFFELLA+KYFPAATFIRSEEELDYV+EPDIFHELFGHCPMLTDRVYAEFV+DYACKVLTFPEQDW LLQRMFWFTVEFGLIKT KGLRAYGGGILSSISETVYCVESD+PVR+LFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFV +DMGK++DRARELGEFPPYF+VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|654932779|ref|WP_028383137.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella moravica] &gt;gi|962253311|gb|KTD37492.1| phenylalanine-4-hydroxylase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383137</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.574</Hsp_bit-score>
+      <Hsp_score>1259</Hsp_score>
+      <Hsp_evalue>4.57858e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MGFESRYVAHIPDAQGIVNYSAEENRIWNILFERQMKLLPGRACDEFLAGLNTLGITGNAIPQLPEVSQKLKAKTGWQVAPVAALISAREFFELLSNKYFPAATFIRCEEELDYVQEPDIFHEIFGHCPMLTDKVYADFIHDYACKVLSFPETDWPLLQRMFWFTVEFGLINTAKGLRAYGGGILSSISETVYSVESDIPLRVLFEPVAAFRMPYRIDRLQPVYFVINDYQTLYNFVSSNINDFLERTRQLGEYPPFFDVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>M F SRYVAH+PDAQG+V+YSA+ENRIWNILFERQ+KLLPGRACDEFL+GL TLG+  + IPQLPEVS++LKAKTGWQVAPVAALISAREFFELL+ KYFPAATFIR EEELDYVQEPDIFHE+FGHCPMLTD+VYA+F+HDYACKVL+FPE DWPLLQRMFWFTVEFGLI T KGLRAYGGGILSSISETVY VESDIP+R+LF+PV AFRMPYRID+LQPVYFVI+ YQ LY+FV S++  F++R R+LGE+PP+FDVDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|517405377|ref|WP_018578078.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella shakespearei] &gt;gi|962276987|gb|KTD60876.1| phenylalanine-4-hydroxylase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578078</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.804</Hsp_bit-score>
+      <Hsp_score>1257</Hsp_score>
+      <Hsp_evalue>9.8649e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGLINYSAEENRIWNILFERQIKLLPGRACDEFLAGLETLGITSEAIPQLPEVSQRLKAKTGWEVVPVAALISAREFFELLAKRNFPAATFIRCEEELDYVQEPDIFHEIFGHCPMLTDPVYADFVHDYACKVLTFPETDWPLLQRMFWFTVEFGLIHTDKGLRAYGGGILSSISETVYCVESDVPARILFEPVVAFRTPYRIDMLQPVYFVIENYQTLYDFVLSDISDLLARTRQLGEFPPFFEVDFNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQGL++YSA+ENRIWNILFERQ+KLLPGRACDEFL+GL+TLG+ S  IPQLPEVS+RLKAKTGW+V PVAALISAREFFELLA++ FPAATFIR EEELDYVQEPDIFHE+FGHCPMLTD VYA+FVHDYACKVLTFPE DWPLLQRMFWFTVEFGLI T KGLRAYGGGILSSISETVYCVESD+P RILF+PVVAFR PYRID LQPVYFVI++YQ LYDFVLSD+   + R R+LGEFPP+F+VD +NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966433927|ref|WP_058474360.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella quateirensis] &gt;gi|962263753|gb|KTD47833.1| phenylalanine-4-hydroxylase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474360</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>481.871</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>4.94561e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFESRYVAHVPNAQGIVNYSAEENRIWNILFERQMKLLPGRACDEFLAGLTTLGITANAIPQLPEVSQKLKEQTGWQVAPVAALISAREFFELLSNKYFPAATFIRCQEELDYVQEPDIFHEIFGHCPMLTDKVYADFIHDYACKVLTFPEADWPLLQRMFWFTVEFGLIHTSKGLRAYGGGILSSISETVYSVESDIPLRVRFEPVAAFRMPYRIDMLQPVYFVIDDYQTLYTFVSSNINELLERTRQLGEYPPFFDVDTDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYVAHVP+AQG+V+YSA+ENRIWNILFERQ+KLLPGRACDEFL+GL TLG+ ++ IPQLPEVS++LK +TGWQVAPVAALISAREFFELL+ KYFPAATFIR +EELDYVQEPDIFHE+FGHCPMLTD+VYA+F+HDYACKVLTFPE DWPLLQRMFWFTVEFGLI T KGLRAYGGGILSSISETVY VESDIP+R+ F+PV AFRMPYRID LQPVYFVID YQ LY FV S++ + ++R R+LGE+PP+FDVD DNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|671587532|ref|WP_031563739.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563739</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.174</Hsp_bit-score>
+      <Hsp_score>1232</Hsp_score>
+      <Hsp_evalue>7.75271e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFASRYVAHIPDAQGFVDYSAEENKIWNILFERQIKLIPGRACDEFISGLKTLGINSKVIPQIPDLNQRLKAKTGWQVSAVAALISAREFFELLATKHFPVATFIRNEEELNYVKEPDLFHEVFGHCPMLTDKIYAEFVYDYARKVLTFPESDWPLLQRMFWYTVEFGLIQGDKGLRAYGGGILSSISETVYSVESDIPLRVIFDPIVAFRMPYRIDMLQPVYFVIHNYQVLYDFVLSDIGKLLARTRELGEFPPLFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEF+SRYVAH+PDAQG VDYSA+EN+IWNILFERQ+KL+PGRACDEF+SGL+TLG+NS  IPQ+P++++RLKAKTGWQV+ VAALISAREFFELLA K+FP ATFIR+EEEL+YV+EPD+FHE+FGHCPMLTD++YAEFV+DYA KVLTFPE DWPLLQRMFW+TVEFGLI+  KGLRAYGGGILSSISETVY VESDIP+R++FDP+VAFRMPYRID LQPVYFVI +YQ LYDFVLSD+GK + R RELGEFPP F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|963702384|ref|WP_058387414.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella cherrii] &gt;gi|962197450|gb|KTC82494.1| phenylalanine-4-hydroxylase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_058387414</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.248</Hsp_bit-score>
+      <Hsp_score>1227</Hsp_score>
+      <Hsp_evalue>4.19532e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYSKEEHSIWNILFERQIKLLPGRACDEFLAGLKTLGIQSEAIPQIPDLNQKLKAETGWQVSAVAALISAREFFELLATKHFPVATFIRNEEELDYVKEPDIFHEIFGHCPMLTDKVYAEFVYDYAQKVLTFPESDWPLLQRMFWFTVEFGLINSMKGLRAYGGGILSSISETVYSVESDIPLRVMFDPIAAFRMPYRIDMLQPVYFVINDYQVLYDFVLSDLGKLMARARELGEFPPLFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+YS +E+ IWNILFERQ+KLLPGRACDEFL+GL+TLG+ S  IPQ+P+++++LKA+TGWQV+ VAALISAREFFELLA K+FP ATFIR+EEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DWPLLQRMFWFTVEFGLI + KGLRAYGGGILSSISETVY VESDIP+R++FDP+ AFRMPYRID LQPVYFVI+ YQ LYDFVLSD+GK M RARELGEFPP F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966500668|ref|WP_058517341.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella parisiensis] &gt;gi|962256011|gb|KTD40148.1| phenylalanine-4-hydroxylase [Legionella parisiensis] &gt;gi|1069293275|gb|OEH48607.1| Phenylalanine-4-hydroxylase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517341</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>1.59842e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHDPDAQGFVNYSAEENRIWNILFQRQIKLIPGRACDEFILGLKTLGIKSEGIPQIPELNKKLEAETGWQVSAVAALISAREFFELLAKKHFPVATFIRNGEELDYVKEPDIFHEVFGHCPMLTDRVYAEFVYDYARKVLTFPESDWPLLQRMFWFTVEFGLIKSPKGLRAYGGGILSSISETVYSVESDIPLRVIFDPVAAFRMPYRIDMLQPVYFVISDYQVLYDFVLSDIGKLLARTRELGEFPPFFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAH PDAQG V+YSA+ENRIWNILF+RQ+KL+PGRACDEF+ GL+TLG+ S  IPQ+PE++++L+A+TGWQV+ VAALISAREFFELLA+K+FP ATFIR+ EELDYV+EPDIFHE+FGHCPMLTDRVYAEFV+DYA KVLTFPE DWPLLQRMFWFTVEFGLIK+PKGLRAYGGGILSSISETVY VESDIP+R++FDPV AFRMPYRID LQPVYFVI  YQ LYDFVLSD+GK + R RELGEFPP+F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|654930682|ref|WP_028381051.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028381051</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>1.67008e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYSKEEHSIWNILFERQIKLLPGRACDEFLAGLKTLGIQSEAIPQIPDLNQKLKAETGWQVSAVAALISAREFFELLATKHFPVATFIRNEEELDYVKEPDIFHEIFGHCPMLTDKVYAEFVYDYAQKVLTFPESDWPLLQRMFWFTVEFGLINSMKGLRAYGGGILSSISETVYSVESDIPLRVMFDPIAGFRMPYRIDMLQPVYFVINDYQVLYDFVLSDLGKLMARARELGEFPPLFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+YS +E+ IWNILFERQ+KLLPGRACDEFL+GL+TLG+ S  IPQ+P+++++LKA+TGWQV+ VAALISAREFFELLA K+FP ATFIR+EEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DWPLLQRMFWFTVEFGLI + KGLRAYGGGILSSISETVY VESDIP+R++FDP+  FRMPYRID LQPVYFVI+ YQ LYDFVLSD+GK M RARELGEFPP F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966516734|ref|WP_058533228.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533228</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>1.76419e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGYVNYSAEENKVWSILFERQIKLIPNRACESFITGLETLGITSQSIPQLPDLSQKLKTKTGWQVAPVAALISAREFFELLANKHFPVATFIRTEEELNYVKEPDIFHEIFGHCPMLTDSVYADFVHDYACKVLSFPEADWPLLQRMFWYTVEFGLIRSPEGLRAYGGGILSSISETVYSVESDVPLRVYFDPIVAFRTPYRIDRLQPIYFVIDDYQVLYDFVLSDIGKLLARTRELGEFPPLFEVDPGNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+YSA+EN++W+ILFERQ+KL+P RAC+ F++GL+TLG+ S +IPQLP++S++LK KTGWQVAPVAALISAREFFELLA K+FP ATFIR+EEEL+YV+EPDIFHE+FGHCPMLTD VYA+FVHDYACKVL+FPE DWPLLQRMFW+TVEFGLI++P+GLRAYGGGILSSISETVY VESD+P+R+ FDP+VAFR PYRID+LQP+YFVID YQ LYDFVLSD+GK + R RELGEFPP F+VDP NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966414652|ref|WP_058457937.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Fluoribacter bozemanae] &gt;gi|962192208|gb|KTC77282.1| phenylalanine-4-hydroxylase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058457937</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.552</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>4.28781e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYTAEENRIWNILFERQIKLIPGRACDEFILGLKTLGIKSERIPQIPDLNKKLKAETGWQVSAVAALISAREFFELLATKHFPVATFIRNEEELDYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWPLLQRMFWFTVEFGLIKSAKGLRAYGGGILSSISETVYSVESDIPLRVIFEPIAAFRMPYRIDMLQPVYYVISDYQVLYDFVLSDIGKLLARTRELGEFPPFFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+Y+A+ENRIWNILFERQ+KL+PGRACDEF+ GL+TLG+ S  IPQ+P+++++LKA+TGWQV+ VAALISAREFFELLA K+FP ATFIR+EEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DWPLLQRMFWFTVEFGLIK+ KGLRAYGGGILSSISETVY VESDIP+R++F+P+ AFRMPYRID LQPVY+VI  YQ LYDFVLSD+GK + R RELGEFPP+F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966437541|ref|WP_058477909.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella steigerwaltii] &gt;gi|962292375|gb|KTD76069.1| phenylalanine-4-hydroxylase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477909</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.626</Hsp_bit-score>
+      <Hsp_score>1215</Hsp_score>
+      <Hsp_evalue>3.0854e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYSEKENSIWNILFERQIKLLPGRACDEFLTGLKTLDLNSKAIPQIPDLNQKLKAKTGWQVSAVAALISAREFFELLATRHFPVATFIRNEEELNYVKEPDLFHEVFGHCPMLTNKVYAEFVYDYAQKVLTFPESDWPLLQRMFWFTVEFGLIKSANGLRAYGGGILSSISETAYSVESDIPLRVRFEPIAAFRMPYRIDMLQPVYFVIDDYQVLYDFVLSDIGKLLSRTRELGEFPPFFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+YS +EN IWNILFERQ+KLLPGRACDEFL+GL+TL LNS  IPQ+P+++++LKAKTGWQV+ VAALISAREFFELLA ++FP ATFIR+EEEL+YV+EPD+FHE+FGHCPMLT++VYAEFV+DYA KVLTFPE DWPLLQRMFWFTVEFGLIK+  GLRAYGGGILSSISET Y VESDIP+R+ F+P+ AFRMPYRID LQPVYFVID YQ LYDFVLSD+GK + R RELGEFPP+F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966439701|ref|WP_058480024.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella waltersii] &gt;gi|962295598|gb|KTD79243.1| phenylalanine-4-hydroxylase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480024</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>3.29519e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFKSRYVAHTPNAQGYVQYSPEEHKIWTILYERQQKLLPGRACDEFMSGLEILGLNSHEIPQLPEVNSRLKAKTGWQVAPVAALISAREFFELLATRFFPAATFIRCEEEIDYIQEPDIFHELFGHCPMLTNPVYADFVHDYACKVLSLPEKDWALLQRMFWFTVEFGLIKTKTGLRAYGGGILSSISETVYCVESEIPLRVMFEPVAAFRMPYRIDQLQPVYFVIDSYQDLYDFIGSDVTQYMQRAHELGEFPPYFKVDKNNPSIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYVAH P+AQG V YS +E++IW IL+ERQ KLLPGRACDEF+SGL+ LGLNS  IPQLPEV+ RLKAKTGWQVAPVAALISAREFFELLA ++FPAATFIR EEE+DY+QEPDIFHELFGHCPMLT+ VYA+FVHDYACKVL+ PE+DW LLQRMFWFTVEFGLIKT  GLRAYGGGILSSISETVYCVES+IP+R++F+PV AFRMPYRIDQLQPVYFVIDSYQ+LYDF+ SD+ ++M RA ELGEFPPYF VD +NP+IHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|769980381|ref|WP_045096366.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella fallonii] &gt;gi|698843990|emb|CEG57959.1| Phenylalanine-4-hydroxylase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096366</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>6.86907e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MQFFSSYVAHVPDAQGYVTYSAEENRVWNILFERQMNILPGRACDEFLSGLRTLGITAEAIPQLPELSGYLKKQTGWQVAPVDALISARAFFELLAEKRFPAATFIRREEELNYVKEPDIFHEIFGHCPMLTDPVYADFVHDYACKVLTFPESDWPLLQRMFWFTVEFGLINTSKGLRAYGGGILSSISETVYSVESDIPARILFEPVVTFRTPYRIDMLQPIYFVINNYQTLYDFVLSDIGVLLKRTRELGEFPPFFDVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>M+F S YVAHVPDAQG V YSA+ENR+WNILFERQ+ +LPGRACDEFLSGL+TLG+ +  IPQLPE+S  LK +TGWQVAPV ALISAR FFELLAEK FPAATFIR EEEL+YV+EPDIFHE+FGHCPMLTD VYA+FVHDYACKVLTFPE DWPLLQRMFWFTVEFGLI T KGLRAYGGGILSSISETVY VESDIP RILF+PVV FR PYRID LQP+YFVI++YQ LYDFVLSD+G  + R RELGEFPP+FDVDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|493927753|ref|WP_006872488.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella drancourtii] &gt;gi|363536205|gb|EHL29651.1| hypothetical protein LDG_8616 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872488</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>1.66944e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPNAQGYVSYSAEENKVWTILFERQMKLISGRACDEFITGLKTLGITSQSIPQLPDLSQRLSAETGWQAAPVAALISAREFFELLAKKQFPVAMFIRVEEELDYVKEPDIFHEIFGHCPMLTNSVYAEFVHDYACKVLSFPEADWPLLQRMFWYTVEFGLIRTPQGLRAYGGGILSSISETVYSVESDVPLRVIFDPIVAFRMPYRIDMLQPVYFVIDSYQVLYDFVLSNIDDLLARTRELGEFPPLFVVDPGNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVP+AQG V YSA+EN++W ILFERQ+KL+ GRACDEF++GL+TLG+ S +IPQLP++S+RL A+TGWQ APVAALISAREFFELLA+K FP A FIR EEELDYV+EPDIFHE+FGHCPMLT+ VYAEFVHDYACKVL+FPE DWPLLQRMFW+TVEFGLI+TP+GLRAYGGGILSSISETVY VESD+P+R++FDP+VAFRMPYRID LQPVYFVIDSYQ LYDFVLS++   + R RELGEFPP F VDP NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966493868|ref|WP_058510656.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella steelei] &gt;gi|962284813|gb|KTD68579.1| phenylalanine-4-hydroxylase [Legionella steelei] &gt;gi|1113341788|gb|OJW05671.1| phenylalanine 4-monooxygenase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510656</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>3.08466e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYSEKENSIWSILFERQIKLLPGRACDEFLTGLKTLDLNSQAIPQIPDLNQKLKAKTGWQVSAVAALISAREFFELLATKHFPVATFIRNEEELNYVKEPDLFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWPLLQRMFWFTVEFGLIKSVNGLRAYGGGILSSISETVYSVESDIPLRAMFEPIAAFRMPYRIDMLQPVYFVISDYQVLYDFVLSDIGKLLARTRELGEFPPLFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+YS +EN IW+ILFERQ+KLLPGRACDEFL+GL+TL LNS  IPQ+P+++++LKAKTGWQV+ VAALISAREFFELLA K+FP ATFIR+EEEL+YV+EPD+FHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DWPLLQRMFWFTVEFGLIK+  GLRAYGGGILSSISETVY VESDIP+R +F+P+ AFRMPYRID LQPVYFVI  YQ LYDFVLSD+GK + R RELGEFPP F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966504668|ref|WP_058521327.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella tucsonensis] &gt;gi|962290655|gb|KTD74363.1| phenylalanine-4-hydroxylase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521327</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>5.10774e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYTAEENRIWNILFERQIKLIPGRACDEFILGLKKLGIKSEGIPQIPDLNKKLKTETGWQVTAVAALISAREFFELLATKHFPVATFIRNEEELDYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYAKKVLTFPESDWPLLQRMFWFTVEFGLIKSVKGLRAYGGGILSSITETVYSVESDIPLRVIFEPVAAFRMPYRIDKLQPVYFVVSDYQVLYDFVLSDISKLLARTRELGEFPPFFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+Y+A+ENRIWNILFERQ+KL+PGRACDEF+ GL+ LG+ S  IPQ+P+++++LK +TGWQV  VAALISAREFFELLA K+FP ATFIR+EEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DWPLLQRMFWFTVEFGLIK+ KGLRAYGGGILSSI+ETVY VESDIP+R++F+PV AFRMPYRID+LQPVYFV+  YQ LYDFVLSD+ K + R RELGEFPP+F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|518063406|ref|WP_019233614.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella anisa] &gt;gi|962187496|gb|KTC72622.1| phenylalanine-4-hydroxylase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233614</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.003</Hsp_bit-score>
+      <Hsp_score>1203</Hsp_score>
+      <Hsp_evalue>1.82195e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYTEEENRIWNILFERQIKLIPGRACDEFILGLKTLGIKSEGIPQIPDLNKKLKAATGWQVSAVAALISAREFFELLATKHFPVATFIRNEEELDYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYARNVLTFPESDWPLLQRMFWFTVEFGLIKSAQGLRAYGGGILSSISETVYSVESDVPLRVNFEPVAAFRMPYRIDMLQPVYFVITDYQVLYDFVLSDIGKLLARTRELGEFPPFFKVDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+Y+ +ENRIWNILFERQ+KL+PGRACDEF+ GL+TLG+ S  IPQ+P+++++LKA TGWQV+ VAALISAREFFELLA K+FP ATFIR+EEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA  VLTFPE DWPLLQRMFWFTVEFGLIK+ +GLRAYGGGILSSISETVY VESD+P+R+ F+PV AFRMPYRID LQPVYFVI  YQ LYDFVLSD+GK + R RELGEFPP+F VDP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966423392|ref|WP_058466538.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Fluoribacter gormanii] &gt;gi|962220859|gb|KTD05521.1| phenylalanine-4-hydroxylase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058466538</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.233</Hsp_bit-score>
+      <Hsp_score>1201</Hsp_score>
+      <Hsp_evalue>4.05607e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYSAEEHKIWSILFERQIKLIPGRACDEFITGLKTLAIKPESIPQIPDINHRLKAETGWQVSAVEALISAREFFELLATKHFPVATFIRNEEELDYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWPLLQRLFWFTVEFGLIKSAKGLRAYGGGILSSISETVYSVESDIPLRVIFEPIAAFRMPYRIDMLQPVYFVINDYQVLYDFVLSDIGKLLARTRELGEFPPFFKLDPNNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+YSA+E++IW+ILFERQ+KL+PGRACDEF++GL+TL +   +IPQ+P+++ RLKA+TGWQV+ V ALISAREFFELLA K+FP ATFIR+EEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DWPLLQR+FWFTVEFGLIK+ KGLRAYGGGILSSISETVY VESDIP+R++F+P+ AFRMPYRID LQPVYFVI+ YQ LYDFVLSD+GK + R RELGEFPP+F +DP+NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|653020107|ref|WP_027272044.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella sainthelensi] &gt;gi|962274765|gb|KTD58696.1| phenylalanine-4-hydroxylase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027272044</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.848</Hsp_bit-score>
+      <Hsp_score>1200</Hsp_score>
+      <Hsp_evalue>5.69773e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHIPDAQGFVNYSAEESRIWKTLFERQVKLLPGRACDEFISGLKTLGINSDAIPQIPDLSRCLKAATGWQVSAVAALISAREFFELLATKHFPVATFIRSEEELDYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWALLQRMFWFTVEFGLIKTQKGLRAYGGGILSSISEIVYSVESDIPLRVVFEPIPAFRMPYRIDMLQPIYFVINDYQTLYDFVLSNIKQLLARTRELGEFPPFFAVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAH+PDAQG V+YSA+E+RIW  LFERQ+KLLPGRACDEF+SGL+TLG+NS  IPQ+P++S  LKA TGWQV+ VAALISAREFFELLA K+FP ATFIRSEEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DW LLQRMFWFTVEFGLIKT KGLRAYGGGILSSISE VY VESDIP+R++F+P+ AFRMPYRID LQP+YFVI+ YQ LYDFVLS++ + + R RELGEFPP+F VDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966468608|ref|WP_058499934.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella gratiana] &gt;gi|962221401|gb|KTD06061.1| phenylalanine-4-hydroxylase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499934</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.463</Hsp_bit-score>
+      <Hsp_score>1199</Hsp_score>
+      <Hsp_evalue>6.22001e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHIPDAHGFVNYSAEESRIWKTLFERQVKLLPGRACDEFISGLKTLGITSAAIPQIPDLNRQLKAATGWQVSAVAALISAREFFELLAKKYFPVATFIRSEEELDYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWALLQRMFWFTVEFGLIKTSKGLRVYGGGILSSISEIVYSVESDIPLRVIFEPIPAFRMPYRIDMLQPVYFVINDYQTLYDFVLSNISELLARTRELGEFPPFFTVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAH+PDA G V+YSA+E+RIW  LFERQ+KLLPGRACDEF+SGL+TLG+ S+ IPQ+P+++ +LKA TGWQV+ VAALISAREFFELLA+KYFP ATFIRSEEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DW LLQRMFWFTVEFGLIKT KGLR YGGGILSSISE VY VESDIP+R++F+P+ AFRMPYRID LQPVYFVI+ YQ LYDFVLS++ + + R RELGEFPP+F VDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|498340424|ref|WP_010654580.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Fluoribacter dumoffii] &gt;gi|962205962|gb|KTC90899.1| phenylalanine-4-hydroxylase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654580</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>466.077</Hsp_bit-score>
+      <Hsp_score>1198</Hsp_score>
+      <Hsp_evalue>1.16192e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHVPDAQGFVNYSEKENSVWSTLFERQIKLLPGRACDEFITGIKTLGITSREIPQIPDLNERLKAETGWQVSAVAALISAREFFELLATKHFPVATFIRNEEELNYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWPLLQRMFWFTVEFGLIKNANGLRAYGGGILSSISETVYSVESDIPIRIVFEPIAAFRMPYRIDMLQPVYFVINDYQVLYDFVLSDINKLLARTRELGEFPPFFKVDANNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAHVPDAQG V+YS +EN +W+ LFERQ+KLLPGRACDEF++G++TLG+ S  IPQ+P+++ERLKA+TGWQV+ VAALISAREFFELLA K+FP ATFIR+EEEL+YV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DWPLLQRMFWFTVEFGLIK   GLRAYGGGILSSISETVY VESDIP+RI+F+P+ AFRMPYRID LQPVYFVI+ YQ LYDFVLSD+ K + R RELGEFPP+F VD +NPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966460484|ref|WP_058492913.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella worsleiensis] &gt;gi|962296558|gb|KTD80195.1| phenylalanine-4-hydroxylase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492913</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>4.7271e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MGFESRYVAHVPNAQGIVSYSAEENRVWTALFERQMKLLPGRACDEFIAGLNTLGITAKEIPQLPEVSKKLKEQTGWQVAPVAALISAREFFELLSNKFFPAATFIRCAEELDYVQEPDIFHELFGHCPMLTDAVYAEFIHDYACKVLTFPEADWPLLQRMFWFTVEFGLINTAQGLRAYGGGILSSISETAYSVESDIPLRALFDPVAVFRMPYRIDRLQPVYFVINDYETLYRFVSSDISQYIVKARQLGEYPPFFDVDPDNPSIHILAC</Hsp_hseq>
+      <Hsp_midline>M F SRYVAHVP+AQG+V YSA+ENR+W  LFERQ+KLLPGRACDEF++GL TLG+ +  IPQLPEVS++LK +TGWQVAPVAALISAREFFELL+ K+FPAATFIR  EELDYVQEPDIFHELFGHCPMLTD VYAEF+HDYACKVLTFPE DWPLLQRMFWFTVEFGLI T +GLRAYGGGILSSISET Y VESDIP+R LFDPV  FRMPYRID+LQPVYFVI+ Y+ LY FV SD+ +++ +AR+LGE+PP+FDVDPDNP+IHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|489731331|ref|WP_003635447.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella longbeachae] &gt;gi|269987531|gb|EEZ93786.1| phenylalanine-4-hydroxylase [Legionella longbeachae D-4968] &gt;gi|288859153|emb|CBJ13082.1| putative phenylalanine-4-hydroxylase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635447</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>1.92311e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MGFSSRYVAHIPDAQGFVNYSAEENRIWKTLFERQVKLLPGRACDEFISGLKTLGINSDAIPQIPALSRCLKAETGWQVSAVAALISAREFFELLATKHFPVATFIRSEEELDYVKEPDVFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWALLQRMFWFTVEFGLIKTQKGLRAYGGGILSSISEIVYSVESDIPLRVIFEPIPAFRMPYRIDMLQPIYFVINDYQTLYDFVLSNIKGLLARTRELGEFPPLFAVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>M FSSRYVAH+PDAQG V+YSA+ENRIW  LFERQ+KLLPGRACDEF+SGL+TLG+NS  IPQ+P +S  LKA+TGWQV+ VAALISAREFFELLA K+FP ATFIRSEEELDYV+EPD+FHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DW LLQRMFWFTVEFGLIKT KGLRAYGGGILSSISE VY VESDIP+R++F+P+ AFRMPYRID LQP+YFVI+ YQ LYDFVLS++   + R RELGEFPP F VDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966420608|ref|WP_058463809.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella cincinnatiensis] &gt;gi|962207729|gb|KTC92658.1| phenylalanine-4-hydroxylase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463809</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>4.99119e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYIAHIPNAQGLVNYSAEERRIWKTLFERQVKLLPGRACDEFISGLKTLGITSDVIPQIPDLSRCLKAETGWQVSAVAALISAREFFELLATKHFPVATFIRTEEELDYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWALLQRMFWFTVEFGLIKTQKGLRAYGGGILSSISEIIYSVESDIPLRVIFEPIPAFRMPYRIDMLQPIYFVINDYQTLYDFVLSNISELLARTRELGEFPPLFTVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRY+AH+P+AQGLV+YSA+E RIW  LFERQ+KLLPGRACDEF+SGL+TLG+ S  IPQ+P++S  LKA+TGWQV+ VAALISAREFFELLA K+FP ATFIR+EEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DW LLQRMFWFTVEFGLIKT KGLRAYGGGILSSISE +Y VESDIP+R++F+P+ AFRMPYRID LQP+YFVI+ YQ LYDFVLS++ + + R RELGEFPP F VDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966498778|ref|WP_058515544.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella santicrucis] &gt;gi|962269213|gb|KTD53227.1| phenylalanine-4-hydroxylase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515544</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>8.35536e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFSSRYVAHIPDAQGFVNYSAEENKIWKTLFERQVKLLPGRACDEFISGLKTLGITSDVIPQIPDLSRCLKAETGWQVSAVAALISAREFFELLATKHFPVATFIRSEEELDYVKEPDIFHEVFGHCPMLTDKVYAEFVYDYARKVLTFPESDWALLQRMFWFTVEFGLIKTQTGLRAYGGGILSSISEIVYSVESDIPLRVIFEPIPAFRMPYRIDMLQPVYFVISDYQILYDFVLSNISELLARTRELGEFPPLFAVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEFSSRYVAH+PDAQG V+YSA+EN+IW  LFERQ+KLLPGRACDEF+SGL+TLG+ S  IPQ+P++S  LKA+TGWQV+ VAALISAREFFELLA K+FP ATFIRSEEELDYV+EPDIFHE+FGHCPMLTD+VYAEFV+DYA KVLTFPE DW LLQRMFWFTVEFGLIKT  GLRAYGGGILSSISE VY VESDIP+R++F+P+ AFRMPYRID LQPVYFVI  YQ LYDFVLS++ + + R RELGEFPP F VDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966471620|ref|WP_058502535.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella israelensis] &gt;gi|962231352|gb|KTD15922.1| phenylalanine-4-hydroxylase [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058502535</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>1.31831e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYVAHRPDEQGFVRYSKQENRVWQILFNRQMELLEGRACKEYMQGLKTLELSAEHIPQLPEVSKRLNAMTGWKVEPVEALISARAFFELLAKRSFPAATFIRSEEELDYVKEPDIFHEIFGHCPMLTDPVFADFVHNYAMKVLGFSEKDWPLLQRLFWFTVEFGLIKTSNGLRAYGGGILSSISETVYSVESEIPLRALFEPVAVFRMPYRIDRLQPVYFVIDDYQALYDFVLSDIASLMERARELGEFPPFFPVDPDNPNIHIRAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYVAH PD QG V YS QENR+W ILF RQ++LL GRAC E++ GL+TL L++  IPQLPEVS+RL A TGW+V PV ALISAR FFELLA++ FPAATFIRSEEELDYV+EPDIFHE+FGHCPMLTD V+A+FVH+YA KVL F E+DWPLLQR+FWFTVEFGLIKT  GLRAYGGGILSSISETVY VES+IP+R LF+PV  FRMPYRID+LQPVYFVID YQ LYDFVLSD+   M+RARELGEFPP+F VDPDNPNIHIRAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966417948|ref|WP_058461171.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella adelaidensis] &gt;gi|962180157|gb|KTC65405.1| phenylalanine-4-hydroxylase [Legionella adelaidensis]</Hit_def>
+  <Hit_accession>WP_058461171</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>2.43542e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYVSHQPDSQGMITYSPEEHRVWQILFERQQQLLPGRACNEFLKGLEILNLNAHTIPQLPEVSHHLKKATGWQVEPVAALISARSFFKLLSERKFPAATFIRAEEELDYVKEPDIFHELFGHCPMLTNPVYAEFIHNYACKVLTFPESDWALLQRLFWFTVEFGLISTKEGLRAYGGGILSSISETVYSVESEIPLRALFDPIVAFRMPYRIDMLQRVYFVIHSYQELYDFVESDIKKLLQRAHELGEYPPFFPVDENNPNIHIHAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYV+H PD+QG++ YS +E+R+W ILFERQ +LLPGRAC+EFL GL+ L LN+ TIPQLPEVS  LK  TGWQV PVAALISAR FF+LL+E+ FPAATFIR+EEELDYV+EPDIFHELFGHCPMLT+ VYAEF+H+YACKVLTFPE DW LLQR+FWFTVEFGLI T +GLRAYGGGILSSISETVY VES+IP+R LFDP+VAFRMPYRID LQ VYFVI SYQ LYDFV SD+ K + RA ELGE+PP+F VD +NPNIHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|654937825|ref|WP_028388074.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028388074</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>2.54456e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYISHQPDEQGMITYSDEEHRIWQLLYKRQMKLVPGRACDEFLQGLKSLGLSAERIPQLPELGQRLEKLTGWRVAPVAALISAREFFELLAQRQFPAATFIRSEEEIDYVKEPDIFHELFGHCPMLTNRVYADFVHHYACKVLSFPEKEWPLLQRLFWYTVEFGLIQTVQGLRAYGGGILSSISETAYSVESDVAMRVLFDPVVAFRMPYRIDRLQPVYFVIDDYQALYDFVESDIEHFIQRARELGEYPPLFPVDKNNPNIHILAC</Hsp_hseq>
+      <Hsp_midline>MEF SRY++H PD QG++ YS +E+RIW +L++RQ+KL+PGRACDEFL GL++LGL++  IPQLPE+ +RL+  TGW+VAPVAALISAREFFELLA++ FPAATFIRSEEE+DYV+EPDIFHELFGHCPMLT+RVYA+FVH YACKVL+FPE++WPLLQR+FW+TVEFGLI+T +GLRAYGGGILSSISET Y VESD+ +R+LFDPVVAFRMPYRID+LQPVYFVID YQ LYDFV SD+  F+ RARELGE+PP F VD +NPNIHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966515514|ref|WP_058532031.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella rubrilucens] &gt;gi|962263038|gb|KTD47124.1| phenylalanine-4-hydroxylase [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058532031</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>1.51868e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYVSHQPDFKGMVSYSDEEHRVWQLLYKRQMTILPGRACDEFLRGLESLGLAADRIPQLPEISERLRGLTGWEVAPVAALISAREFFELLAQRRFPAATFIRAEDELDYVQEPDIFHEIFGHCPMLTDPVYAEFVHNYACKVLEFPEDEWPLLQRLFWFTVEFGLIKTPKGLRAYGGGILSSISETPYSIESDIPMRVLFDPVVAFRTPYRIDMLQKVYFVIDTYQQLYDFVNQNIGSLIRRARELGEYPPFFPVDTNNPSIHILAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYV+H PD +G+V YS +E+R+W +L++RQ+ +LPGRACDEFL GL++LGL +  IPQLPE+SERL+  TGW+VAPVAALISAREFFELLA++ FPAATFIR+E+ELDYVQEPDIFHE+FGHCPMLTD VYAEFVH+YACKVL FPE +WPLLQR+FWFTVEFGLIKTPKGLRAYGGGILSSISET Y +ESDIP+R+LFDPVVAFR PYRID LQ VYFVID+YQ LYDFV  ++G  + RARELGE+PP+F VD +NP+IHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|518047898|ref|WP_019218106.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella tunisiensis]</Hit_def>
+  <Hit_accession>WP_019218106</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>6.89136e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYVSHQPDAQGLVSYPAEEHRIWQILYERQMKIIPGRACDEFIQGLQNLGLTAEQIPQLPDVSRRLQALTGWQVAPVAALISAREFFELLAERKFPAATFIRCEEEIDYVQEPDIFHEIFGHCPMLTHPVYADFVCNYARRVLELPEEEWPLLQRLFWFTVEFGLIKTPQGLRAYGGGILSSISETAYSVESDVAMRVLFDPVVAFRMPYRIDMLQPVYFVIDDYKILYKFVESDINKLIQRARELGEYPPLFPVDKDNPNIHILAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYV+H PDAQGLV Y A+E+RIW IL+ERQ+K++PGRACDEF+ GLQ LGL +  IPQLP+VS RL+A TGWQVAPVAALISAREFFELLAE+ FPAATFIR EEE+DYVQEPDIFHE+FGHCPMLT  VYA+FV +YA +VL  PE++WPLLQR+FWFTVEFGLIKTP+GLRAYGGGILSSISET Y VESD+ +R+LFDPVVAFRMPYRID LQPVYFVID Y+ LY FV SD+ K + RARELGE+PP F VD DNPNIHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|769983956|ref|WP_045099938.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Tatlockia micdadei] &gt;gi|698847751|emb|CEG61747.1| Phenylalanine-4-hydroxylase [Tatlockia micdadei] &gt;gi|962242192|gb|KTD26535.1| phenylalanine-4-hydroxylase [Tatlockia micdadei] &gt;gi|1081465012|emb|SCY22291.1| Phenylalanine 4-hydroxylase [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045099938</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>2.653e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYVAHQPDAEGMVEYSNEEHRIWQILYERQMRIIPGRACDEFLQGLESLGLSAGHIPQLPELSRRLNALTGWQVEPVEALISARAFFELLAKRRFPAATFIRCEEEIDYVKEPDIFHELFGHCPMLTDPVYADFVCNYARKVLSLPEEKWPLLQRLFWFTVEFGLIKTPKGLRAYGGGILSSISETAYSVESDEAMRILFDPVVAFRMPYRIDMLQPVYFVIDDYQQLYDFVESDIKRYIERAKELGEYPPLFPVDPNNPNIHILAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYVAH PDA+G+V+YS +E+RIW IL+ERQ++++PGRACDEFL GL++LGL++  IPQLPE+S RL A TGWQV PV ALISAR FFELLA++ FPAATFIR EEE+DYV+EPDIFHELFGHCPMLTD VYA+FV +YA KVL+ PE+ WPLLQR+FWFTVEFGLIKTPKGLRAYGGGILSSISET Y VESD  +RILFDPVVAFRMPYRID LQPVYFVID YQ LYDFV SD+ ++++RA+ELGE+PP F VDP+NPNIHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966509018|ref|WP_058525609.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella erythra] &gt;gi|962214731|gb|KTC99534.1| phenylalanine-4-hydroxylase [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058525609</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>1.60065e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYVSHQPDLKGMVSYSDEEHRVWQLLYKRQMTILPGRACDEFMQGLDSLGLTGSHIPQLPDVSERLRELTGWEVAPVAALISAREFFELLAKRRFPAATFIRTEEEMDYVQEPDIFHEIFGHCPMLTDPVYAEFVYNYACKVLEFPEDEWPLLQRLFWFTVEFGLIKTTKGLRAYGGGILSSISETPYSIESDIPMRVLFDPVVAFRTPYRIDMLQKVYFVIDAYQQLYEFVNQNIGRLIRRARELGEYPPFFPVDANNPSIHILAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYV+H PD +G+V YS +E+R+W +L++RQ+ +LPGRACDEF+ GL +LGL  S IPQLP+VSERL+  TGW+VAPVAALISAREFFELLA++ FPAATFIR+EEE+DYVQEPDIFHE+FGHCPMLTD VYAEFV++YACKVL FPE +WPLLQR+FWFTVEFGLIKT KGLRAYGGGILSSISET Y +ESDIP+R+LFDPVVAFR PYRID LQ VYFVID+YQ LY+FV  ++G+ + RARELGE+PP+F VD +NP+IHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966513099|ref|WP_058529653.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella londiniensis] &gt;gi|962235827|gb|KTD20309.1| phenylalanine-4-hydroxylase [Legionella londiniensis]</Hit_def>
+  <Hit_accession>WP_058529653</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>3.72194e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYVSHQPDEQGMVNYSNAEHRIWQILFERQRKLLPGRACDEFLQGLESLKLTADRIPQLPDISKRMKALTGWQVAPVPALISARAFFELLAEKRFPAATFIRSEEELDYVKEPDIFHELFGHCPMLTNPVYADFVHRYALKVLEFQEADWPLLQRLFWFTVEFGLLYTSKGLRAYGGGILSSISETVYSVESDRAMRVLFEPVAAFRMPYRIDMLQPVYFVIHEYQELYDFVTSDIAGFLKRARSLGEYPPYFPVDENNPNIHIYAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYV+H PD QG+V+YS  E+RIW ILFERQ KLLPGRACDEFL GL++L L +  IPQLP++S+R+KA TGWQVAPV ALISAR FFELLAEK FPAATFIRSEEELDYV+EPDIFHELFGHCPMLT+ VYA+FVH YA KVL F E DWPLLQR+FWFTVEFGL+ T KGLRAYGGGILSSISETVY VESD  +R+LF+PV AFRMPYRID LQPVYFVI  YQ LYDFV SD+  F+ RAR LGE+PPYF VD +NPNIHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966403244|ref|WP_058446839.1|</Hit_id>
+  <Hit_def>phenylalanine 4-monooxygenase [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058446839</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>2.10252e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MEFSSRYVAHVPDAQGLVDYSAQENRIWNILFERQLKLLPGRACDEFLSGLQTLGLNSSTIPQLPEVSERLKAKTGWQVAPVAALISAREFFELLAEKYFPAATFIRSEEELDYVQEPDIFHELFGHCPMLTDRVYAEFVHDYACKVLTFPEQDWPLLQRMFWFTVEFGLIKTPKGLRAYGGGILSSISETVYCVESDIPVRILFDPVVAFRMPYRIDQLQPVYFVIDSYQNLYDFVLSDMGKFMDRARELGEFPPYFDVDPDNPNIHIRAC</Hsp_qseq>
+      <Hsp_hseq>MEFVSRYVSHQPDAQGLVSYSTEEHRIWQTLYERQMKIIPGRACEEFIHGLQNLGLTAKQIPQLPDVSCRLQELTGWQVAPVAALISAREFFELLAERKFPAATFIRCEEEIDYVQEPDIFHEIFGHCPMLTHPVYADFVCTYARRVLELPEEEWPLLQRLFWFTVEFGLIKTPQGIRAYGGGILSSISETAYSVESDIAMRVLFDPVVAFRMPYRIDMLQPVYFVIDDYKILYKFVESDINKYIQRARELGEYPPLFPVDKDNPNIHILAC</Hsp_hseq>
+      <Hsp_midline>MEF SRYV+H PDAQGLV YS +E+RIW  L+ERQ+K++PGRAC+EF+ GLQ LGL +  IPQLP+VS RL+  TGWQVAPVAALISAREFFELLAE+ FPAATFIR EEE+DYVQEPDIFHE+FGHCPMLT  VYA+FV  YA +VL  PE++WPLLQR+FWFTVEFGLIKTP+G+RAYGGGILSSISET Y VESDI +R+LFDPVVAFRMPYRID LQPVYFVID Y+ LY FV SD+ K++ RARELGE+PP F VD DNPNIHI AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

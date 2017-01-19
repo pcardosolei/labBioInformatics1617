@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_207751</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834226</BlastOutput_query-def>
+  <BlastOutput_query-len>288</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_207751</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834226</Iteration_query-def>
+  <Iteration_query-len>288</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250821|ref|WP_010948361.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|52842867|ref|YP_096666.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629978|gb|AAU28719.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509372|gb|AEW52896.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948361</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>596.66</Hsp_bit-score>
+      <Hsp_score>1537</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MIHETGTCITIILIYSRRILLFRENGMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MIHETGTCITIILIYSRRILLFRENGMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MIHETGTCITIILIYSRRILLFRENGMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119427050|ref|WP_072402350.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402350</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.497</Hsp_bit-score>
+      <Hsp_score>1521</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MIHETGTCITIILIYSRRILLFRENGMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MIHETGTCITIILINSRRILLFRESGMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MIHETGTCITIILI SRRILLFRE+GMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119380403|ref|WP_072356500.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356500</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>589.341</Hsp_bit-score>
+      <Hsp_score>1518</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MIHETGTCITIILIYSRRILLFRENGMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MIHETGTCITIILIYSRRILLFREIGMKIHDFKMKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAAALEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MIHETGTCITIILIYSRRILLFRE GMKIHDFK+KKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAA LEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1119393027|ref|WP_072368857.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072368857</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.571</Hsp_bit-score>
+      <Hsp_score>1516</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MIHETGTCITIILIYSRRILLFRENGMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MIHETGTCITIILIYSRRILLFRENSMKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAAALEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMLFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MIHETGTCITIILIYSRRILLFREN MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAA LEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQM FPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|505256881|ref|WP_015443983.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|61213986|sp|Q5ZS58.2|PANB_LEGPH RecName: Full=3-methyl-2-oxobutanoate hydroxymethyltransferase; AltName: Full=Ketopantoate hydroxymethyltransferase; Short=KPHMT &gt;gi|469490615|gb|AGH52460.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083334|gb|AGN15582.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772812|emb|CZI16688.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998775739|emb|CZG61293.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998778325|emb|CZG76031.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998784564|emb|CZG86800.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998787516|emb|CZG59631.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998796529|emb|CZI01553.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998800300|emb|CZL04132.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998805817|emb|CZK07939.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998808349|emb|CZH87553.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998811921|emb|CZH79582.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998814280|emb|CZG61611.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998817737|emb|CZL60186.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998820839|emb|CZL61455.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998826801|emb|CZK08929.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998832561|emb|CZI06217.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998835774|emb|CZK88789.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998837837|emb|CZJ71938.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998842313|emb|CZL13906.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998844731|emb|CZK29495.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998847682|emb|CZK67231.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998850231|emb|CZI37195.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998853786|emb|CZL26728.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998856482|emb|CZL33557.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998859805|emb|CZL74268.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998862659|emb|CZK18675.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998865385|emb|CZJ40766.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998869874|emb|CZJ36499.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998871069|emb|CZM17040.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998874557|emb|CZK38896.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998877456|emb|CZL99268.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998880523|emb|CZI86710.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998888047|emb|CZL50775.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998889218|emb|CZK22682.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998895500|emb|CZJ98930.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998906132|emb|CZK57061.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998909703|emb|CZL09755.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998915826|emb|CZK61537.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998918295|emb|CZK82317.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998921266|emb|CZL38311.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998927571|emb|CZL63574.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998930658|emb|CZK75101.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998933937|emb|CZL76352.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998939873|emb|CZK76203.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998945950|emb|CZK94064.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998948994|emb|CZK82106.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998958620|emb|CZM01713.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998961526|emb|CZK26061.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998964607|emb|CZK04745.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998966971|emb|CZM53418.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998970513|emb|CZK54856.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998973796|emb|CZK26351.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998979501|emb|CZL59160.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998985850|emb|CZJ98943.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998988720|emb|CZL48662.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998998018|emb|CZJ88204.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999007990|emb|CZK26858.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999012923|emb|CZL43687.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999016845|emb|CZL68175.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999022643|emb|CZL14092.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999025386|emb|CZK74935.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999037143|emb|CZL55097.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999046867|emb|CZL77668.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999061674|emb|CZL15903.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999067362|emb|CZJ17805.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999076914|emb|CZG59723.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999080258|emb|CZJ92402.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999082783|emb|CZK77563.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999090507|emb|CZK41977.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999092501|emb|CZL41434.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999095286|emb|CZG88390.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999098699|emb|CZG59474.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999101127|emb|CZL67280.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999110430|emb|CZL15971.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999113791|emb|CZL51164.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999116428|emb|CZK49581.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999126340|emb|CZK79713.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999131606|emb|CZL95596.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999134825|emb|CZL17649.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999138073|emb|CZK27232.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999141812|emb|CZL45298.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999144543|emb|CZK68772.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999147665|emb|CZL50684.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999156845|emb|CZH74354.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999175805|emb|CZL05404.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999191269|emb|CZI17306.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999194392|emb|CZI43248.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999200257|emb|CZG60203.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999203703|emb|CZI43247.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999210029|emb|CZK76232.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999219289|emb|CZL29997.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999222384|emb|CZI34590.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999335290|emb|CZK73051.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1002075569|emb|CZQ94450.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1002079075|emb|CZQ94922.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1003020166|emb|CZR21684.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1003023046|emb|CZR20501.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1003026888|emb|CZR18250.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073865703|gb|AOU05654.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073868672|gb|AOU08622.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073871667|gb|AOU11616.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073874534|gb|AOU14482.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073877592|gb|AOU17539.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073880555|gb|AOU20501.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073883552|gb|AOU23497.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073886544|gb|AOU26488.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073889513|gb|AOU29456.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073892497|gb|AOU32439.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073895465|gb|AOU35406.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073898423|gb|AOU38363.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073901389|gb|AOU41328.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073904298|gb|AOU44236.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073907251|gb|AOU47188.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073910269|gb|AOU50204.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073913281|gb|AOU53213.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073916241|gb|AOU56172.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073919204|gb|AOU59134.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073922107|gb|AOU62036.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073925190|gb|AOU65117.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073928153|gb|AOU68079.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073931139|gb|AOU71048.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073934508|gb|AOU74067.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073937473|gb|AOU84472.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073947739|gb|AOU87463.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1104004065|emb|SFZ47008.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1129969325|gb|APT99684.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015443983</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.732</Hsp_bit-score>
+      <Hsp_score>1397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1074871004|ref|WP_070071168.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1073950667|gb|AOU90390.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_070071168</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTIENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHT+ENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|504655603|ref|WP_014842705.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|395128663|emb|CCD06881.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|998781137|emb|CZJ42235.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998824315|emb|CZG46489.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998829430|emb|CZG77502.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998883294|emb|CZI75275.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998898865|emb|CZJ47132.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998936515|emb|CZM50651.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998952270|emb|CZJ35059.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999000447|emb|CZG78069.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999057991|emb|CZM56605.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999104138|emb|CZI04860.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999128749|emb|CZH01898.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999153826|emb|CZM15911.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999162914|emb|CZM04208.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999236356|emb|CZH07004.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999248068|emb|CZH50615.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999269722|emb|CZO25349.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999465428|emb|CZM26974.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999468316|emb|CZO06544.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999474578|emb|CZM55891.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999478147|emb|CZN24132.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999481342|emb|CZM62157.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999484372|emb|CZN95763.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999487556|emb|CZL96255.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999490747|emb|CZN59417.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999493945|emb|CZL95673.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999500375|emb|CZN58292.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999503597|emb|CZN88204.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999506793|emb|CZM93989.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999510000|emb|CZG25100.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999513185|emb|CZN18393.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999515206|emb|CZM27499.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999519772|emb|CZM49055.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999532640|emb|CZO31304.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999534720|emb|CZN68027.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999539033|emb|CZM52540.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999542313|emb|CZO08792.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999545427|emb|CZO44841.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999548611|emb|CZN74484.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999551815|emb|CZN97956.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999555192|emb|CZM95451.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999558205|emb|CZO44516.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999561389|emb|CZM28561.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999564598|emb|CZO44650.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999567777|emb|CZM41655.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999570976|emb|CZN40271.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999574166|emb|CZN77645.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999580657|emb|CZO02180.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999584169|emb|CZO15681.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999585943|emb|CZN11363.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999590554|emb|CZM23588.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999593429|emb|CZN33435.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999596627|emb|CZN96014.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999599831|emb|CZO22982.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999603313|emb|CZL65414.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999606226|emb|CZN37614.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999609724|emb|CZN42567.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999615900|emb|CZM32863.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999618951|emb|CZN74603.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999622373|emb|CZO53812.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999625583|emb|CZN52151.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999629000|emb|CZM43472.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999631878|emb|CZM47504.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999635082|emb|CZN38812.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999638266|emb|CZN36689.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999641462|emb|CZO64725.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999644633|emb|CZO30083.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999648170|emb|CZN77684.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999650981|emb|CZN94242.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999654255|emb|CZN90916.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999657633|emb|CZL99181.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999660636|emb|CZM49739.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999664150|emb|CZM83894.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999667039|emb|CZM23550.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999670233|emb|CZL72762.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999673620|emb|CZM17803.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999676616|emb|CZN63289.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999679651|emb|CZM64221.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999682846|emb|CZM71143.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999686072|emb|CZN94134.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999689588|emb|CZN08993.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999692603|emb|CZN82812.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999695999|emb|CZM99828.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999698195|emb|CZM31846.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999702524|emb|CZM45456.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999705606|emb|CZL57795.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999708630|emb|CZN40377.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999711882|emb|CZM85234.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999715435|emb|CZM90401.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999718474|emb|CZO26164.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999721452|emb|CZM69297.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999724792|emb|CZN19149.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999728127|emb|CZL87984.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999731685|emb|CZO22735.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999734934|emb|CZM01412.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999738164|emb|CZO46506.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999741136|emb|CZM26988.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999744562|emb|CZN05997.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999747963|emb|CZM01949.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999750858|emb|CZL81437.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999754064|emb|CZM70163.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999757407|emb|CZM82072.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999760446|emb|CZM17306.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999763839|emb|CZN09041.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999767036|emb|CZM54864.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999769875|emb|CZN42085.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999773579|emb|CZH74945.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999776509|emb|CZL88088.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999783373|emb|CZH48905.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999786549|emb|CZM16241.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999789860|emb|CZO50726.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999793193|emb|CZO50248.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999796440|emb|CZI07010.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999799609|emb|CZO59900.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1002085443|emb|CZQ99207.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1002088104|emb|CZQ79282.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1003035451|emb|CZR22778.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1104007519|emb|SFZ47095.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842705</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>541.576</Hsp_bit-score>
+      <Hsp_score>1394</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>261</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|506459838|ref|WP_015961738.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|81369765|sp|Q5X1M8.1|PANB_LEGPA RecName: Full=3-methyl-2-oxobutanoate hydroxymethyltransferase; AltName: Full=Ketopantoate hydroxymethyltransferase; Short=KPHMT &gt;gi|53752436|emb|CAH13868.1| hypothetical protein lpp2715 [Legionella pneumophila str. Paris] &gt;gi|536611700|gb|ERB40218.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila str. 121004] &gt;gi|541998874|gb|ERH44887.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila str. Leg01/53] &gt;gi|542000389|gb|ERH46376.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila str. Leg01/11] &gt;gi|542123178|gb|ERI49487.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila str. Leg01/20] &gt;gi|762000256|dbj|GAN27988.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999173369|emb|CZH69305.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999182571|emb|CZG28335.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999188736|emb|CZI77565.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999213668|emb|CZG44631.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999217042|emb|CZI71463.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999225886|emb|CZG31671.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999361055|emb|CZI00161.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999374013|emb|CZG02444.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999377384|emb|CZI91963.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999380683|emb|CZH52645.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999383373|emb|CZI14496.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999387498|emb|CZG11983.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999390305|emb|CZI11966.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999397030|emb|CZG15321.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999406457|emb|CZG44776.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999409371|emb|CZH70671.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999412615|emb|CZG28544.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999416685|emb|CZG16170.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999419315|emb|CZG44605.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999422574|emb|CZH44027.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999426519|emb|CZG25722.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999429079|emb|CZG29039.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999432668|emb|CZG04146.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999435774|emb|CZH66656.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999438313|emb|CZG43844.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999442283|emb|CZJ85997.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999445294|emb|CZH55439.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999448556|emb|CZG02445.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999458394|emb|CZJ91418.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999496985|emb|CZI08986.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999526364|emb|CZI62636.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999529246|emb|CZI18442.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999577034|emb|CZI01213.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999612335|emb|CZI05258.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1041019631|gb|ANN96691.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961738</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.421</Hsp_bit-score>
+      <Hsp_score>1391</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKMKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK+KKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1005410825|ref|WP_061640057.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998792857|emb|CZI70587.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640057</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.65</Hsp_bit-score>
+      <Hsp_score>1389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAAALEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAA LEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|654928541|ref|WP_028378972.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378972</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQRHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQ HFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|652974031|ref|WP_027226745.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998924317|emb|CZJ96999.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998942562|emb|CZK06727.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998954613|emb|CZK42782.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998976160|emb|CZJ64924.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998991488|emb|CZK06722.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999009855|emb|CZK04196.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999018893|emb|CZJ60195.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999028009|emb|CZJ91834.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999034023|emb|CZJ96596.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999040230|emb|CZJ66671.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999043103|emb|CZJ78638.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999048942|emb|CZJ85298.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999052199|emb|CZJ67084.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999055183|emb|CZJ98391.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999064309|emb|CZJ77397.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999070136|emb|CZJ76101.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999073405|emb|CZK03579.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999085652|emb|CZJ99000.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999249452|emb|CZG79690.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999252919|emb|CZG92988.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999262125|emb|CZH05248.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999274372|emb|CZH09919.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999324904|emb|CZH12847.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999327617|emb|CZH28893.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999332862|emb|CZG02443.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999340761|emb|CZH00073.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999350113|emb|CZH27538.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999469962|emb|CZG81578.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999778509|emb|CZH02326.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1005834331|gb|AMQ29057.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1104000966|emb|SFZ47015.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226745</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.88</Hsp_bit-score>
+      <Hsp_score>1387</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKMKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAAALEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK+KKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAA LEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|764926967|ref|WP_044497805.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999455553|emb|CZH45953.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999462192|emb|CZG04561.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_044497805</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>538.495</Hsp_bit-score>
+      <Hsp_score>1386</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHSTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|499535748|ref|WP_011216531.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|81367721|sp|Q5WTD7.1|PANB_LEGPL RecName: Full=3-methyl-2-oxobutanoate hydroxymethyltransferase; AltName: Full=Ketopantoate hydroxymethyltransferase; Short=KPHMT &gt;gi|53755333|emb|CAH16829.1| hypothetical protein lpl2588 [Legionella pneumophila str. Lens] &gt;gi|1080003002|gb|AOW53574.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005252|gb|AOW55532.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008924|gb|AOW58912.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011409|gb|AOW60900.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015499|gb|AOW64372.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017653|gb|AOW66298.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216531</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGYPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKIQGKNSEQAETLLQQATTLEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHG+PTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYK+QGKNSEQAETLLQQA TLEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|504657663|ref|WP_014844765.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|395131747|emb|CCD10040.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|761987328|dbj|GAN24678.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|761990402|dbj|GAN18626.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|761993592|dbj|GAN21732.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998790047|emb|CZH04130.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998892927|emb|CZJ09348.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998982054|emb|CZI89813.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999106920|emb|CZI83908.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999231194|emb|CZI61555.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1002082167|emb|CZQ96324.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1032658739|gb|ANH14010.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1032661701|gb|ANH16971.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1032664679|gb|ANH19948.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844765</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKIQGKNSEQAETLLQQAAALEQAGCFAVVIECVPQGLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYK+QGKNSEQAETLLQQAA LEQAGCFAVVIECVPQ LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1004334783|ref|WP_061513708.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513708</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKSSEQAETLIQQAAALEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGK+SEQAETL+QQAA LEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1006990697|ref|WP_061832332.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999031569|emb|CZG69336.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061832332</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.184</Hsp_bit-score>
+      <Hsp_score>1380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKMKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQDHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAAALEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK+KKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQ HTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAA LEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|757480585|ref|WP_042754713.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999184528|emb|CZP93452.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999198336|emb|CZP08063.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999206409|emb|CZP58011.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999227824|emb|CZP39235.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999235077|emb|CZP53095.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999240573|emb|CZH76761.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999244242|emb|CZH72120.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999256180|emb|CZP74731.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999259227|emb|CZP40087.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999265429|emb|CZP03210.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999272103|emb|CZP52956.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999277810|emb|CZP30502.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999281484|emb|CZP21738.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999284132|emb|CZP49381.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999290865|emb|CZP28287.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999296735|emb|CZP49134.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999299974|emb|CZP26641.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999307183|emb|CZH66471.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999309569|emb|CZP20743.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999315945|emb|CZI02112.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999318970|emb|CZP57397.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999322222|emb|CZH93009.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999337973|emb|CZP43222.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999344137|emb|CZP91493.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999347425|emb|CZP59891.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999353756|emb|CZP53476.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999356865|emb|CZP75745.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999363231|emb|CZP71786.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999366994|emb|CZP72485.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999369588|emb|CZP86478.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999392508|emb|CZP95988.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999398756|emb|CZP99276.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999403244|emb|CZP46662.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999450825|emb|CZP31252.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999521377|emb|CZP45930.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1003028366|emb|CZR23400.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1015434086|gb|AMV15713.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1041016634|gb|ANN93695.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1103997826|emb|SFZ47009.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042754713</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.798</Hsp_bit-score>
+      <Hsp_score>1379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAAALEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMLFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAA LEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQM FPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|502866944|ref|WP_013101920.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|295650209|gb|ADG26056.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|761996885|dbj|GAN31060.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998802655|emb|CZH89917.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998912294|emb|CZG95630.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|998993982|emb|CZI47816.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999004487|emb|CZI44670.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999151601|emb|CZH56530.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999158634|emb|CZJ91607.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999166088|emb|CZG70901.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999168343|emb|CZI52923.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999177446|emb|CZJ85493.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999286758|emb|CZI74563.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999293119|emb|CZI62823.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999302233|emb|CZI54812.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999312078|emb|CZI88613.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1002091787|emb|CZR06425.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101920</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQADALEQAGCFAVVIECVPQGLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQA  LEQAGCFAVVIECVPQ LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1003777998|ref|WP_061466653.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061466653</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.717</Hsp_bit-score>
+      <Hsp_score>1371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQDHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQADALEQAGCFAVVIECVPQGLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQ HTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQA  LEQAGCFAVVIECVPQ LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1004014465|ref|WP_061483733.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483733</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.946</Hsp_bit-score>
+      <Hsp_score>1369</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>256</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNVDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQDHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNNEQAENLLQQAAALEQAGCFAVVIECVPQGLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESN+DCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQ HTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKN+EQAE LLQQAA LEQAGCFAVVIECVPQ LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|500496244|ref|WP_011947574.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|166216316|sp|A5IAR5.1|PANB_LEGPC RecName: Full=3-methyl-2-oxobutanoate hydroxymethyltransferase; AltName: Full=Ketopantoate hydroxymethyltransferase; Short=KPHMT &gt;gi|148280377|gb|ABQ54465.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>WP_011947574</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>526.554</Hsp_bit-score>
+      <Hsp_score>1355</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKNKKQEQKKISMLTCYDYPSACIIANSNIHCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQADALEQAGCFAVVIECVPQGLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KKQEQKKISMLTCYDYPSACI+A SNI CVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQA  LEQAGCFAVVIECVPQ LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652976390|ref|WP_027229062.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|985764672|gb|KXB25791.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|985767057|gb|KXB28152.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999119123|emb|CZG87270.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|999122248|emb|CZH20831.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1024339728|gb|KZX34067.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1108606013|gb|APF04381.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. fraseri] &gt;gi|1108608995|gb|APF07362.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229062</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.546</Hsp_bit-score>
+      <Hsp_score>1342</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKVHDFKLKKQEQSKISMLTCYDYPSACIIAESNIDCVLVGDSVAMAIHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLAHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNNEQAETLLRQASALEQAGCFALVIECVPQGLAKTITDSLTIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNTYVQQVQQRHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MK+HDFK+KKQEQ KISMLTCYDYPSACI+AESNIDCVLVGDSVAMA+HGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFL HKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKN+EQAETLL+QA+ LEQAGCFA+VIECVPQ LAKTITDSL IPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALN+YVQQVQQ HFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|652969916|ref|WP_027222809.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila] &gt;gi|1005362915|gb|AMP88784.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367822|gb|AMP93599.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370741|gb|AMP96517.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222809</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.776</Hsp_bit-score>
+      <Hsp_score>1340</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKVHDFKLKKQEQSKISMLTCYDYPSACIIAESNIDCVLVGDSVAMAIHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLAHKSSQGHTVENVKRLLQAGAQAIKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNNEQAETLLRQASALEQAGCFALVIECVPQGLAKTITDSLTIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNTYVQQVQQRHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>MK+HDFK+KKQEQ KISMLTCYDYPSACI+AESNIDCVLVGDSVAMA+HGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFL HKSSQGHTVENVKRLLQAGAQA+KIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKN+EQAETLL+QA+ LEQAGCFA+VIECVPQ LAKTITDSL IPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALN+YVQQVQQ HFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|737925561|ref|WP_035890749.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella norrlandica] &gt;gi|701445248|gb|KGP62643.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890749</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>481.1</Hsp_bit-score>
+      <Hsp_score>1237</Hsp_score>
+      <Hsp_evalue>1.82432e-170</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIQDFKRKKQEHSKISMVTCYDYPSSCIVAESNIDCVLVGDSVAMVIHGHSTTIMATIEMMELHTQAVARGLSKQFLVTDLPFLAHKLSQSHTVENVKRLLQAGAQAVKIEGADQETCQTISHLVNAGIPIMGHIGLTPQSIHQLGGYKVQGKNDEQAEILLNQALALEQAGCFAIVIECVPQNLAKIITNSLTIPTIGIGAGSGTDGQVLVWHDMLGLQTSFNPKFVKKFFRAKDHFVEALNTYAQQVQQMHFPTDEYAF</Hsp_hseq>
+      <Hsp_midline>MKI DFK KKQE  KISM+TCYDYPS+CIVAESNIDCVLVGDSVAM +HGH TTIMATIEMMELHTQAVARGL KQFL+TDLPFL HK SQ HTVENVKRLLQAGAQAVKIEGAD++TCQTISHLVNAGIP+MGHIGLTPQSIHQLGGYKVQGKN EQAE LL QA  LEQAGCFA+VIECVPQ LAK IT+SL IPTIGIGAG GTDGQVLVWHDMLGLQTSFNPKFVKK+FRAKDHF+EALN+Y QQVQQMHFP +E++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1003033092|emb|CZR19410.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>CZR19410</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>1.14399e-161</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>VGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQDLAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_hseq>
+      <Hsp_midline>+GDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQ+LAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|963702155|ref|WP_058387318.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella cherrii] &gt;gi|962197125|gb|KTC82169.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_058387318</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>3.85173e-156</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKISMITCYDYPSACIVAESNIDCVLVGDSVAMAVHGHETTIMATIEMMTLHTQAVARGLKQQFLISDLPFLSHKTSMAQTVEHVKRLLQAGAQAVKIEGGDTDTCNTISYLVNAGVPVIGHIGLTPQSIHQLGGYKVQGKNQEQAEKLIQQALDLEAAGCFALVIECVPQQLAHTITQSLAIPTIGIGAGSDTDGQVLVWHDMLGLQTDFNPKFVKRFIQGKDLLLNALNAYAQQVQQVSFPTTEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KISM+TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMATIEMM LHTQAVARGL +QFLI+DLPFL HK+S   TVE+VKRLLQAGAQAVKIEG D DTC TIS+LVNAG+PV+GHIGLTPQSIHQLGGYKVQGKN EQAE L+QQA  LE AGCFA+VIECVPQ+LA TIT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK++ + KD  + ALN+Y QQVQQ+ FP  EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|653018966|ref|WP_027270921.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella sainthelensi] &gt;gi|962274585|gb|KTD58516.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027270921</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>3.97565e-155</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKIVMVTCYDYPSACIVSESNIDCVLVGDSVAMAVHGHETTIMATIEMMVLHTQAVARGLTQQFLISDLPFLSHKTSLAQTVENVKSLLRSGAHAVKIEGADADTCQTISYLVNAGVPVMGHIGLTPQSIHQLGGYKIQGRNPEQAETLIQQALRLEEAGCFAVVIECVPQPLAQAITQSLRIPTIGIGAGSDTDGQVLVWHDMLGLQTDFNPKFVKRYIQGKEMLLNALNAYAQQVQQVSFPASEHAF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KI M+TCYDYPSACIV+ESNIDCVLVGDSVAMAVHGH TTIMATIEMM LHTQAVARGL +QFLI+DLPFL HK+S   TVENVK LL++GA AVKIEGAD DTCQTIS+LVNAG+PVMGHIGLTPQSIHQLGGYK+QG+N EQAETL+QQA  LE+AGCFAVVIECVPQ LA+ IT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+Y QQVQQ+ FPA+EH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|654930378|ref|WP_028380747.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380747</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>4.19957e-155</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKISMITCYDYPSACIVAESNIDCVLVGDSVAMAVHGHETTIMATIEMMTLHTQAVARGLKQQFLISDLPFLSHKTSMAQTVEHVKRLLQAGAQAVKIEGGDTDTCNTISYLVNAGVPVIGHIGLTPQSIHQLGGYKVQGKNQEQAEKLIQQALDLEAAGCFALVIECVPQQLAHIITQSLAIPTIGIGAGSDTDGQVLVWHDMLGLQTDFNPKFVKRFIQGKDILLNALNAYAQQVQQVSFPTTEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KISM+TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMATIEMM LHTQAVARGL +QFLI+DLPFL HK+S   TVE+VKRLLQAGAQAVKIEG D DTC TIS+LVNAG+PV+GHIGLTPQSIHQLGGYKVQGKN EQAE L+QQA  LE AGCFA+VIECVPQ+LA  IT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK++ + KD  + ALN+Y QQVQQ+ FP  EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|498338326|ref|WP_010652482.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Fluoribacter dumoffii] &gt;gi|962207568|gb|KTC92499.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652482</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>5.89853e-155</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKISMITCYDYPSACIVAESNIDCVLVGDSVAMAVHGHETTIMATMEMMILHTQAVARGLKQQFLISDLPFLCHKTSLAQTVENVKNLLQAGAHAVKIEGADADTCQTISYLVNSGVPVIGHIGLTPQSIHQLGGFRVQGKNQEQAEKLIQQALSLEAAGCFALVIECVPQQLAQTVTQSLTIPTIGIGAGSSTDGQVLVWHDMLGLQTDFNPKFVKRYAQGKEILLNALNAYAQQVQQMSFPTAEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KISM+TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMAT+EMM LHTQAVARGL +QFLI+DLPFL HK+S   TVENVK LLQAGA AVKIEGAD DTCQTIS+LVN+G+PV+GHIGLTPQSIHQLGG++VQGKN EQAE L+QQA +LE AGCFA+VIECVPQ+LA+T+T SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+Y QQVQQM FP  EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|518064364|ref|WP_019234572.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella anisa] &gt;gi|962187094|gb|KTC72227.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019234572</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>1.01092e-154</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKISMVTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHDTTIMATMEMMILHTQAVARGLKQQFLISDLPFLSHKNSLTQSVENVKRLLQAGAHAVKIEGADADTCQTISYLVNAGVPVIGHIGLTPQSIHQLGGYKIQGKNQEQAEKLIRQAYQLEAAGCFALVLECIPKQLALTITKSLSIPTIGIGAGSHTDGQVLVWHDMLGLQTDFNPKFVKRYLQGKEILLNALNTYVQQVQQVSFPATEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KISM+TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMAT+EMM LHTQAVARGL +QFLI+DLPFL HK+S   +VENVKRLLQAGA AVKIEGAD DTCQTIS+LVNAG+PV+GHIGLTPQSIHQLGGYK+QGKN EQAE L++QA  LE AGCFA+V+EC+P++LA TIT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+YVQQVQQ+ FPA EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966499564|ref|WP_058516237.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella parisiensis] &gt;gi|962260098|gb|KTD44213.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella parisiensis] &gt;gi|1069290693|gb|OEH46093.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516237</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>5.053e-154</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKISMITCYDYPSACIVAESNIDCVLVGDSVAMAVHGHDTTIMATMEMMILHTQAVARGLKQQFIISDLPFLSHKNSLTQSVENVKRLLQAGAHAVKIEGADTDTCQTISYLVNAGVPVIGHIGLTPQSIHQLGGYKVQGKNEEQAEKLIRQAYQLEAAGCFALVLECIPQQLALTITQSLNIPTIGIGAGSHTDGQVLVWHDMLGLQTDFNPKFVKRYIQGKEILLNALNTYVQQVQQVSFPTTEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KISM+TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMAT+EMM LHTQAVARGL +QF+I+DLPFL HK+S   +VENVKRLLQAGA AVKIEGAD DTCQTIS+LVNAG+PV+GHIGLTPQSIHQLGGYKVQGKN EQAE L++QA  LE AGCFA+V+EC+PQ+LA TIT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+YVQQVQQ+ FP  EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966414734|ref|WP_058458019.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Fluoribacter bozemanae] &gt;gi|962192295|gb|KTC77369.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458019</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>7.83274e-154</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKISMITCYDYPSACIVAESNIDCVLVGDSVAMAVHGHDTTIMATMEMMILHTQAVARGLKQQFLISDLPFLSHKNSLTQSVENVKRLLQAGAHAVKIEGADADTCQTISYLVNAGVPVIGHIGLTPQSIHQLGGYKVQGKNEEQAEKLIRQAYQLEAAGCFALVLECIPQQLALTITKSLNIPTIGIGAGSHTDGQVLVWHDLLGLQTDFNPKFVKRYIQGKEILLNALNTYVQQVQQVSFPTTEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KISM+TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMAT+EMM LHTQAVARGL +QFLI+DLPFL HK+S   +VENVKRLLQAGA AVKIEGAD DTCQTIS+LVNAG+PV+GHIGLTPQSIHQLGGYKVQGKN EQAE L++QA  LE AGCFA+V+EC+PQ+LA TIT SL IPTIGIGAG  TDGQVLVWHD+LGLQT FNPKFVK+Y + K+  + ALN+YVQQVQQ+ FP  EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|517403155|ref|WP_018576021.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella shakespearei] &gt;gi|962276110|gb|KTD60011.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576021</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.032</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>9.63222e-153</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKQEQSKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHETTIMASIEMMVLHTQAVARGLKTQFLIADLPFLSHKTSHTQTIDHVKALLQAGAHAVKIEGADADTCNTISYLVNAGIPVIGHIGLTPQSIHQLGGYRVQGKNQEQADSLLQQARALEQAGCFAVVIECVPQQLAKRITEALEIPTIGIGAGSDTDGQVLVWHDMLGLQTSFNPRFVKRYAQGKQVILDALNTYAQEVQQVNFPTTDYAF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KKQEQ KISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMA+IEMM LHTQAVARGL  QFLI DLPFL HK+S   T+++VK LLQAGA AVKIEGAD DTC TIS+LVNAGIPV+GHIGLTPQSIHQLGGY+VQGKN EQA++LLQQA  LEQAGCFAVVIECVPQ+LAK IT++L IPTIGIGAG  TDGQVLVWHDMLGLQTSFNP+FVK+Y + K   ++ALN+Y Q+VQQ++FP  +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|769978691|ref|WP_045094676.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella fallonii] &gt;gi|698841932|emb|CEG55879.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045094676</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.032</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>9.84565e-153</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIQDFKRKKQEHSKISMITCYDYPSARIVAESNIDCVLVGDSVAMAVHGHETTIMATIDMMVLHTQAVARGLNKQFLISDLPFLSHKISLTHTMKQVKSLLQAGAHAIKIEGADEDTCQTIAYLVKAGVPVMGHIGLTPQSIHQLGGYKVQGKNQEQAEALLQQAKDLQQAGCFALVIECVPQSLARTITQILNIPTIGIGAGSDTDGQVLVWHDMLGLQTSFNPKFVKKYAQGKDIFVDALNTYVQQVQQVNFPTEEYAF</Hsp_hseq>
+      <Hsp_midline>MKI DFK KKQE  KISM+TCYDYPSA IVAESNIDCVLVGDSVAMAVHGH TTIMATI+MM LHTQAVARGL KQFLI+DLPFL HK S  HT++ VK LLQAGA A+KIEGAD+DTCQTI++LV AG+PVMGHIGLTPQSIHQLGGYKVQGKN EQAE LLQQA  L+QAGCFA+VIECVPQ LA+TIT  L IPTIGIGAG  TDGQVLVWHDMLGLQTSFNPKFVKKY + KD F++ALN+YVQQVQQ++FP  E++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966466532|ref|WP_058497858.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella gratiana] &gt;gi|962230025|gb|KTD14621.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497858</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>1.25297e-152</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKVHDFKRKKEERQKIVMLTCYDYPSACIVAESNVDCVLVGDSVAMAVHGHETTIMATIEMMVLHTQAVARGLKQQFLISDLPFLSHKTSLAQTIEHVKSLLRAGAHAVKIEGADADTCQTISYLVHAGVPVMGHIGLTPQSIHQLGGYKVQGKNPEQAETLIQQALRLEKAGCFALVIECVPKLLAQTITQSLSIPTIGIGAGSDTDGQVLVWHDMLGLQTDFNPKFVKRYIQGKEIVLNALNAYAQQVQQVSFPASEHTF</Hsp_hseq>
+      <Hsp_midline>MK+HDFK KK+E++KI MLTCYDYPSACIVAESN+DCVLVGDSVAMAVHGH TTIMATIEMM LHTQAVARGL +QFLI+DLPFL HK+S   T+E+VK LL+AGA AVKIEGAD DTCQTIS+LV+AG+PVMGHIGLTPQSIHQLGGYKVQGKN EQAETL+QQA  LE+AGCFA+VIECVP+ LA+TIT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+Y QQVQQ+ FPA+EH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966496216|ref|WP_058512982.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella santicrucis] &gt;gi|962282799|gb|KTD66575.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058512982</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>3.35921e-152</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKIVMVTCYDYPSACIVSESNVDCVLVGDSVAMVVHGHDTTIMATIEMMVLHTQAVARGLKQQFLISDLPFLSHKTSLAQTVENVKSLLRSGAHAVKIEGADADTCQTISYLVNAGVPVMGHIGLTPQSIHQLGGYKVQGRNPDQAETLIQQALRLEAAGCFALVIECVPQPLAQEITQSLRIPTIGIGAGSDTDGQVLVWHDMLGLQTDFNPKFVKRYVQGKEMLLNALNAYAQQVRQVSFPASEHAF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KI M+TCYDYPSACIV+ESN+DCVLVGDSVAM VHGH TTIMATIEMM LHTQAVARGL +QFLI+DLPFL HK+S   TVENVK LL++GA AVKIEGAD DTCQTIS+LVNAG+PVMGHIGLTPQSIHQLGGYKVQG+N +QAETL+QQA  LE AGCFA+VIECVPQ LA+ IT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+Y QQV+Q+ FPA+EH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966493792|ref|WP_058510580.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella steelei] &gt;gi|962284728|gb|KTD68494.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella steelei] &gt;gi|1113342054|gb|OJW05931.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510580</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>4.18228e-152</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKISMITCYDYPSACIVAESNIDCVLVGDSVAMAVHGHETTVTATMEMMILHTQAVARGIKQQFLISDLPFLGHKTSLPQTVEHVKSLLQAGAHAVKIEGGDTDTCHTISYLVNAGVPVIGHIGLTPQSIHQLGGYKVQGKNQEQAEKLIQQALDLEAAGCFALVIECVPQQLAQAITQSLDIPTIGIGAGSNTDGQVLVWHDMLGLQTDFNPKFVKRYIQGKDILLNALNTYVQQVQQLSFPTAEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KISM+TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TT+ AT+EMM LHTQAVARG+ +QFLI+DLPFLGHK+S   TVE+VK LLQAGA AVKIEG D DTC TIS+LVNAG+PV+GHIGLTPQSIHQLGGYKVQGKN EQAE L+QQA  LE AGCFA+VIECVPQ+LA+ IT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + KD  + ALN+YVQQVQQ+ FP  EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966436330|ref|WP_058476698.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella steigerwaltii] &gt;gi|962295000|gb|KTD78654.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476698</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>4.41781e-152</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKINDFKRKKEEQQKISLVTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHETTVTATMEMMILHTQAVARGLKQQFLISDLPFLSHKISLTQTVENVKSLLQAGAHAVKIEGGDADTCHTISYLVNAGVPVIGHIGLTPQSIHQLGGYKVQGKNQEQAEKLIQQALDLEAAGCFALVIECIPQQLAETITQSLNIPTIGIGAGSGTDGQVLVWHDMLGLQTDFNPKFVKRFIQGKDIVLNALNAYVQQVQQVSFPAAEHSF</Hsp_hseq>
+      <Hsp_midline>MKI+DFK KK+EQ+KIS++TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TT+ AT+EMM LHTQAVARGL +QFLI+DLPFL HK S   TVENVK LLQAGA AVKIEG D DTC TIS+LVNAG+PV+GHIGLTPQSIHQLGGYKVQGKN EQAE L+QQA  LE AGCFA+VIEC+PQ+LA+TIT SL IPTIGIGAG GTDGQVLVWHDMLGLQT FNPKFVK++ + KD  + ALN+YVQQVQQ+ FPA EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|654932950|ref|WP_028383307.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella moravica] &gt;gi|962250709|gb|KTD34910.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383307</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>3.46614e-151</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKMNKQAGKKISMLTCYDYPSACIIAESNIDCVLVGDSVAMTVHGHDTTIMATIEMMELHTKAVARGLKQQFLVTDLPFLSHKLALSETIDQVKRLLQAGAHAIKIEGADEDTCKTISYLVKAGIPVMGHIGLTPQSIHQLGGYKIQGKNQEQADRLVQQAIALEQSGCFALVIECVPQNLAKTITNSLDIPTIGIGAGSDTDGQVLVWHDMLGLQSTFTPKFAKKYTQGKDIFLDAINAYVQQVQHVNFPTPEYAF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK+ KQ  KKISMLTCYDYPSACI+AESNIDCVLVGDSVAM VHGH TTIMATIEMMELHT+AVARGL +QFL+TDLPFL HK +   T++ VKRLLQAGA A+KIEGAD+DTC+TIS+LV AGIPVMGHIGLTPQSIHQLGGYK+QGKN EQA+ L+QQA  LEQ+GCFA+VIECVPQ LAKTIT+SL IPTIGIGAG  TDGQVLVWHDMLGLQ++F PKF KKY + KD F++A+N+YVQQVQ ++FP  E++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966420707|ref|WP_058463908.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella cincinnatiensis] &gt;gi|962206968|gb|KTC91901.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463908</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>4.86815e-151</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKIVMVTCYDYPSACIVSESNVDCVLVGDSVAMAVHGHETTIMATIEMMVLHTQAVARGLKQQFLISDLPFLSHKTSLAQTVEHVKNLLRSGAHAVKIEGADADTCQTISYLVSAGVPVMGHIGLTPQSIHQLGGYKVQGRKPEQAETLIQQALRLEAAGCFALVIECVPQPLAQEITQSLRIPTIGIGAGSDTDGQVLVWHDMLGLQTDFNPKFVKRYIQGKEILLNALNAYAQQVQQVSFPASEHAF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KI M+TCYDYPSACIV+ESN+DCVLVGDSVAMAVHGH TTIMATIEMM LHTQAVARGL +QFLI+DLPFL HK+S   TVE+VK LL++GA AVKIEGAD DTCQTIS+LV+AG+PVMGHIGLTPQSIHQLGGYKVQG+  EQAETL+QQA  LE AGCFA+VIECVPQ LA+ IT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+Y QQVQQ+ FPA+EH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966505257|ref|WP_058521916.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella tucsonensis] &gt;gi|962287630|gb|KTD71358.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521916</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>5.43188e-151</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKSKKEEQKKISMITCYDYPSARIVAESNIDCVLVGDSVAMVVHGYETTIMATMEMMILHTQAVARGLKQQFLITDLPFLSHKNSLTQTVENVKCLLQAGAHAVKIEGADADTCQTISYLVNAGVPVIGHIGLTPQSIHQLGGYRVQGKNQEQAEKLIQQAHQLEAAGCFALVLECIPQQLALTITKSLSIPTIGIGAGSCTDGQVIVWHDMLGLQTDFNPKFVKRYLQGKEILLNALNTYVQQVQHVSFPATEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQKKISM+TCYDYPSA IVAESNIDCVLVGDSVAM VHG+ TTIMAT+EMM LHTQAVARGL +QFLITDLPFL HK+S   TVENVK LLQAGA AVKIEGAD DTCQTIS+LVNAG+PV+GHIGLTPQSIHQLGGY+VQGKN EQAE L+QQA  LE AGCFA+V+EC+PQ+LA TIT SL IPTIGIGAG  TDGQV+VWHDMLGLQT FNPKFVK+Y + K+  + ALN+YVQQVQ + FPA EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966432343|ref|WP_058472776.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella quateirensis] &gt;gi|962268717|gb|KTD52733.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058472776</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.409</Hsp_bit-score>
+      <Hsp_score>1108</Hsp_score>
+      <Hsp_evalue>6.98872e-151</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKINKQARKKISMLTCYDYPSARIIAESNIDCVLVGDSVAMTVHGYDTTIMATIEMMELHTKAVARGLNQQFLITDLPFLSHKLSLSQTIEQVKRLLQAGAHAIKIEGADDDTCKTISYLVKAGIPVMGHIGLTPQSIHQLGGYKVQGKNQEQADRLLQQAFALEQCGCFALVIECVPQNLAKTITNSLDIPTIGIGAGSETDGQVLVWHDMLGLQSTFTPKFAKKYTQGKDIFLEAINAYAQQVQHANFPTPEYAF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKI KQ +KKISMLTCYDYPSA I+AESNIDCVLVGDSVAM VHG+ TTIMATIEMMELHT+AVARGL +QFLITDLPFL HK S   T+E VKRLLQAGA A+KIEGAD DTC+TIS+LV AGIPVMGHIGLTPQSIHQLGGYKVQGKN EQA+ LLQQA  LEQ GCFA+VIECVPQ LAKTIT+SL IPTIGIGAG  TDGQVLVWHDMLGLQ++F PKF KKY + KD F+EA+N+Y QQVQ  +FP  E++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966460888|ref|WP_058493317.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella worsleiensis] &gt;gi|962296380|gb|KTD80021.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493317</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>1.23344e-149</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKIKKQTGKKIAMLTCYDYPSARIIGESSIDCVLVGDSVAMTVHGYDTTVMATIEMMELHTKAVARGLNHQFLITDLPFLSHKRSISETVSEVHRLLQAGAHAIKIEGADEDTCNTISYLVKAGIPVMGHIGLTPQSIHQLGGFKVQGKNQEQAERLLQQAYALEQSGCFALVIECVPQTLAKTITDSLCIPTIGIGAGLDTDGQVLVWHDMLGLQSTFTPKFAKKYTQGKDLFLEAIDAYAQQVQQAHFPSPEYSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFKIKKQ  KKI+MLTCYDYPSA I+ ES+IDCVLVGDSVAM VHG+ TT+MATIEMMELHT+AVARGL  QFLITDLPFL HK S   TV  V RLLQAGA A+KIEGAD+DTC TIS+LV AGIPVMGHIGLTPQSIHQLGG+KVQGKN EQAE LLQQA  LEQ+GCFA+VIECVPQ LAKTITDSL IPTIGIGAG  TDGQVLVWHDMLGLQ++F PKF KKY + KD F+EA+++Y QQVQQ HFP+ E+SF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|489729104|ref|WP_003633220.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella longbeachae] &gt;gi|269990028|gb|EEZ96282.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella longbeachae D-4968] &gt;gi|288856903|emb|CBJ10717.1| putative 3-methyl-2-oxobutanoatehydroxymethyltransferase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003633220</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>1.69476e-149</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIQDFKRKKEEQQKIVMVTCYDYPSACIVSESNVDCVLVGDSVAMAVHGHETTIMATIEMMVLHTQAVARGLKQQFLISDLPFLSHKTSLAQTVENVKSLLRSGTHAVKIEGADADTCQTISYLVGAGVPVMGHIGLTPQSIHQLGGYKVQGRNPDQAEILIQQALSLEAAGCFALVIECVPQSLAQAITQSLRIPTIGIGAGSDTDGQVLVWHDMLGLQTDFNPKFVKRYLQGKEMMLSALNAYAQQVRQASFPTSEHAF</Hsp_hseq>
+      <Hsp_midline>MKI DFK KK+EQ+KI M+TCYDYPSACIV+ESN+DCVLVGDSVAMAVHGH TTIMATIEMM LHTQAVARGL +QFLI+DLPFL HK+S   TVENVK LL++G  AVKIEGAD DTCQTIS+LV AG+PVMGHIGLTPQSIHQLGGYKVQG+N +QAE L+QQA +LE AGCFA+VIECVPQ LA+ IT SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+Y QQV+Q  FP +EH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|493927307|ref|WP_006872056.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella drancourtii] &gt;gi|363536439|gb|EHL29881.1| hypothetical protein LDG_8173 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872056</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>1.82986e-149</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIQDFIRKKQEQKKIAMLTCYDYPSACTIAESNIDCVLVGDSVAMTVHGHENTIMATIDMMVLHTQAVARGLKQQFLITDLPFLSHKISIAQTITNVTSLLRAGAHAVKIEGGDADTCDTIAHLVNAGVPVMGHIGLTPQSIHQLGGFKVQGKSQEQAELLLQQALNLEQAGCFAVVIECVPQQLAQAITSALTIPTIGIGAGSHTDGQVLVWHDMLGLQTSFNPKFVKRYAQGKEVFLEAINHYAQQVQQVSFPAPEHSF</Hsp_hseq>
+      <Hsp_midline>MKI DF  KKQEQKKI+MLTCYDYPSAC +AESNIDCVLVGDSVAM VHGH  TIMATI+MM LHTQAVARGL +QFLITDLPFL HK S   T+ NV  LL+AGA AVKIEG D DTC TI+HLVNAG+PVMGHIGLTPQSIHQLGG+KVQGK+ EQAE LLQQA  LEQAGCFAVVIECVPQ+LA+ IT +L IPTIGIGAG  TDGQVLVWHDMLGLQTSFNPKFVK+Y + K+ F+EA+N Y QQVQQ+ FPA EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|671586714|ref|WP_031563107.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563107</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.172</Hsp_bit-score>
+      <Hsp_score>1097</Hsp_score>
+      <Hsp_evalue>3.41697e-149</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKEEQQKISVITCYDYPSACIVAESNIDCVLVGDSVAMAVHGHDTTIMATMEMMILHTQAVARGLKQQFLISDLPFLSHKNSVAQTVENVKCLLQAGAHAVKIEGADADTCQKISYLVSAGVPVVGHIGLTPQSIHQLGGYRVQGKNDAQAEKLIQQAKQLEAAGCFALVIECVPQQLALAITQSLNIPTIGIGAGSHTDGQVLVWHDLLGMQTDFNPKFVKKFLQGKDLILNAINAYAQQVQQASFPAAEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK+EQ+KIS++TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TTIMAT+EMM LHTQAVARGL +QFLI+DLPFL HK+S   TVENVK LLQAGA AVKIEGAD DTCQ IS+LV+AG+PV+GHIGLTPQSIHQLGGY+VQGKN  QAE L+QQA  LE AGCFA+VIECVPQ+LA  IT SL IPTIGIGAG  TDGQVLVWHD+LG+QT FNPKFVKK+ + KD  + A+N+Y QQVQQ  FPA EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966439722|ref|WP_058480045.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella waltersii] &gt;gi|962295618|gb|KTD79263.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480045</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>4.95931e-149</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKVHDFKQKKQNQKKITLLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTITATMEMMVLHTQAVARGLQGQFLISDLPFLAHKSSQSQTIDNVKALLQAGAHAVKIEGGDEDTLQTIAHLVNAGVPVMGHIGLTPQSLHQLGGYKVQGKSQAQADALIKQAMELEQAGCFAVVIECVPQALAKTITNSIGIPTIGIGAGPDTDGQVLVWHDMLGLQSSFNPKFVKKYAHGKEVFLDAINSYAQQVQQVSFPSQEHAF</Hsp_hseq>
+      <Hsp_midline>MK+HDFK KKQ QKKI++LTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTI AT+EMM LHTQAVARGL  QFLI+DLPFL HKSSQ  T++NVK LLQAGA AVKIEG D+DT QTI+HLVNAG+PVMGHIGLTPQS+HQLGGYKVQGK+  QA+ L++QA  LEQAGCFAVVIECVPQ LAKTIT+S+ IPTIGIGAGP TDGQVLVWHDMLGLQ+SFNPKFVKKY   K+ F++A+NSY QQVQQ+ FP+ EH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966426209|ref|WP_058468747.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Fluoribacter gormanii] &gt;gi|962216865|gb|KTD01619.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468747</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.861</Hsp_bit-score>
+      <Hsp_score>1091</Hsp_score>
+      <Hsp_evalue>2.73966e-148</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKDEQQKISMITCYDYPSACIVAESNIDCVLVGDSVAMAVHGHETTVTATMEMMILHTQAVARGLNQQFLISDLPFLCHKSSLSHTVENVKRLLQAGAQAVKIEGADADTCQTISHLVNAGVPVIGHIGLTPQSIHQLGGFKIQGKNQEQAEQLLQQAHQLEAAGCFALVIECVPQQLALTITESLSIPTIGIGAGFHTDGQVLVWHDMLGLQTEFNPKFVKRYLQGKELLLGALNAYAQQVQQVNFPTAEHSF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KK EQ+KISM+TCYDYPSACIVAESNIDCVLVGDSVAMAVHGH TT+ AT+EMM LHTQAVARGL +QFLI+DLPFL HKSS  HTVENVKRLLQAGAQAVKIEGAD DTCQTISHLVNAG+PV+GHIGLTPQSIHQLGG+K+QGKN EQAE LLQQA  LE AGCFA+VIECVPQ+LA TIT+SL IPTIGIGAG  TDGQVLVWHDMLGLQT FNPKFVK+Y + K+  + ALN+Y QQVQQ++FP  EHSF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966399273|ref|WP_058442906.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella brunensis] &gt;gi|962191761|gb|KTC76837.1| 3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058442906</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>2.94663e-146</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKQQQSKISMITCYDYPSARIVAESHVDCILVGDSVAMAVHGYETTVMATMEMMVLHTQAVARGLGQQFLISDLPFLGHRISKAETIQNVKQLIQAGAHAIKIEGSDADTCETIAYLVSAGIPIIGHIGLTPQSIHQLGGYKVQGKDEEQATQLLRQAADLEACGCFAIVIECVPQQLATTITQKLTIPTIGIGAGAGTDGQVLVWHDLLGLQTEFKPKFLKQYARGKEVILAAINSYAQQVQQAQFPTSEHAF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KKQ+Q KISM+TCYDYPSA IVAES++DC+LVGDSVAMAVHG+ TT+MAT+EMM LHTQAVARGLG+QFLI+DLPFLGH+ S+  T++NVK+L+QAGA A+KIEG+D DTC+TI++LV+AGIP++GHIGLTPQSIHQLGGYKVQGK+ EQA  LL+QAA LE  GCFA+VIECVPQ+LA TIT  L IPTIGIGAG GTDGQVLVWHD+LGLQT F PKF+K+Y R K+  + A+NSY QQVQQ  FP +EH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1113555040|gb|OJY15086.1|</Hit_id>
+  <Hit_def>3-methyl-2-oxobutanoate hydroxymethyltransferase [Legionella sp. 40-6]</Hit_def>
+  <Hit_accession>OJY15086</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>3.51115e-146</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MKIHDFKIKKQEQKKISMLTCYDYPSACIVAESNIDCVLVGDSVAMAVHGHPTTIMATIEMMELHTQAVARGLGKQFLITDLPFLGHKSSQGHTVENVKRLLQAGAQAVKIEGADKDTCQTISHLVNAGIPVMGHIGLTPQSIHQLGGYKVQGKNSEQAETLLQQAATLEQAGCFAVVIECVPQELAKTITDSLVIPTIGIGAGPGTDGQVLVWHDMLGLQTSFNPKFVKKYFRAKDHFIEALNSYVQQVQQMHFPANEHSF</Hsp_qseq>
+      <Hsp_hseq>MKIHDFKRKKQEQKKISMLTCYDYPSACTIAESQIDCVLVGDSVAMAVHGHQNTIMATMEMMTLHTQAVARGIKQQFLVTDLPFLSHKASREQTIHHVTTLLQAGAHGIKIEGGDDDTCKTITHLVHAGVPIMGHIGLTPQSIHQLGGFKVQGKSDEQAELLVQQACKLEAAGCFAIVIECVPQQVARQITEALTIPTIGIGAGNATDGQVLVWHDLLGLQTDFNPRFVKRYAQGKELFIEAINSYAQQVQQQSFPTAEYAF</Hsp_hseq>
+      <Hsp_midline>MKIHDFK KKQEQKKISMLTCYDYPSAC +AES IDCVLVGDSVAMAVHGH  TIMAT+EMM LHTQAVARG+ +QFL+TDLPFL HK+S+  T+ +V  LLQAGA  +KIEG D DTC+TI+HLV+AG+P+MGHIGLTPQSIHQLGG+KVQGK+ EQAE L+QQA  LE AGCFA+VIECVPQ++A+ IT++L IPTIGIGAG  TDGQVLVWHD+LGLQT FNP+FVK+Y + K+ FIEA+NSY QQVQQ  FP  E++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

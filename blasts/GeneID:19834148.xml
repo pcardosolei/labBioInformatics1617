@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_54659</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834148</BlastOutput_query-def>
+  <BlastOutput_query-len>112</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_54659</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834148</Iteration_query-def>
+  <Iteration_query-len>112</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250743|ref|WP_010948283.1|</Hit_id>
+  <Hit_def>flagellar protein FlhB [Legionella pneumophila] &gt;gi|52842789|ref|YP_096588.1| flagellar protein FlhB [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629900|gb|AAU28641.1| flagellar protein FlhB [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509294|gb|AEW52818.1| flagellar protein FlhB [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948283</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>1.97149e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MEAASWVGRKSYRCHKPSFIGYKNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MEAASWVGRKSYRCHKPSFIGYKNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_hseq>
+      <Hsp_midline>MEAASWVGRKSYRCHKPSFIGYKNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119427031|ref|WP_072402331.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402331</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.67721e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MEAASWVGRKSYRCHKPSFIGYKNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MEAASWVGRKSYRCHKPSFIGYKNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVHLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_hseq>
+      <Hsp_midline>MEAASWVGRKSYRCHKPSFIGYKNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQV LNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|500496062|ref|WP_011947507.1|</Hit_id>
+  <Hit_def>flagellar protein FlhB [Legionella pneumophila] &gt;gi|53752356|emb|CAH13788.1| hypothetical protein lpp2635 [Legionella pneumophila str. Paris] &gt;gi|148280459|gb|ABQ54547.1| flagellar protein FlhB [Legionella pneumophila str. Corby] &gt;gi|295650126|gb|ADG25973.1| flagellar biosynthesis protein [Legionella pneumophila 2300/99 Alcoy] &gt;gi|395131665|emb|CCD09958.1| FlhB domain protein (modular protein) [Legionella pneumophila subsp. pneumophila] &gt;gi|469490703|gb|AGH52548.1| Flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|536611630|gb|ERB40148.1| flagellar protein FlhB [Legionella pneumophila str. 121004] &gt;gi|541998719|gb|ERH44735.1| flagellar protein FlhB [Legionella pneumophila str. Leg01/53] &gt;gi|542000214|gb|ERH46205.1| flagellar protein FlhB [Legionella pneumophila str. Leg01/11] &gt;gi|542123109|gb|ERI49418.1| flagellar protein FlhB [Legionella pneumophila str. Leg01/20] &gt;gi|761987423|dbj|GAN24598.1| flagellar biosynthetic protein FlhB [Legionella pneumophila] &gt;gi|761996914|dbj|GAN30976.1| flagellar biosynthetic protein FlhB [Legionella pneumophila] &gt;gi|762000176|dbj|GAN27908.1| flagellar biosynthetic protein FlhB [Legionella pneumophila] &gt;gi|998772892|emb|CZI19309.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998775659|emb|CZG58300.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998778245|emb|CZG73480.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998784484|emb|CZG82894.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998787436|emb|CZG56962.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998789647|emb|CZH17829.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998792777|emb|CZI67181.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998796448|emb|CZH96779.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998800382|emb|CZL06460.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998802575|emb|CZH87197.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998805736|emb|CZK05430.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998808430|emb|CZH90241.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998811841|emb|CZH76345.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998814360|emb|CZG64531.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998817655|emb|CZL55765.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998820758|emb|CZL58743.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998826720|emb|CZK06461.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998832642|emb|CZI10328.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998835693|emb|CZK84810.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998837917|emb|CZJ75705.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998842232|emb|CZL10041.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998844650|emb|CZK25785.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998847601|emb|CZK64973.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998850312|emb|CZI41937.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998853705|emb|CZL23165.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998856401|emb|CZL30785.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998859724|emb|CZL70271.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998862740|emb|CZK20784.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998865465|emb|CZJ43725.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998869794|emb|CZJ33990.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998870989|emb|CZM14204.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998874477|emb|CZK35080.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998877536|emb|CZM01819.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998880603|emb|CZI89346.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998887967|emb|CZL47053.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998889298|emb|CZK25087.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998892847|emb|CZJ05740.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998895581|emb|CZK01754.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998906052|emb|CZK53653.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998909623|emb|CZL06330.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998912374|emb|CZG99907.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998915907|emb|CZK64949.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998918376|emb|CZK85618.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998921347|emb|CZL40743.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998925109|emb|CZJ38533.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998927652|emb|CZL66005.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998930739|emb|CZK77527.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998933856|emb|CZL73439.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998939954|emb|CZK78570.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998944136|emb|CZJ60834.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998946031|emb|CZK98223.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998949075|emb|CZK84487.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998955308|emb|CZJ96313.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998958539|emb|CZL97938.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998961445|emb|CZK22691.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998964688|emb|CZK08339.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998966890|emb|CZM49586.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998970432|emb|CZK50938.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998973877|emb|CZK28838.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998976880|emb|CZJ28413.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998979582|emb|CZL61886.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998985931|emb|CZK02668.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998988639|emb|CZL46139.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998992489|emb|CZJ34624.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998993902|emb|CZI44282.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998998099|emb|CZJ91172.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999004406|emb|CZI41061.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999008071|emb|CZK30369.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999010186|emb|CZJ72579.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999013004|emb|CZL46152.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999016926|emb|CZL71620.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999019755|emb|CZJ22006.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999022724|emb|CZL18237.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999025305|emb|CZK72603.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999029167|emb|CZJ44377.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999030919|emb|CZH10189.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999034459|emb|CZJ67219.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999037062|emb|CZL52218.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999041226|emb|CZJ39608.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999043979|emb|CZJ36803.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999046786|emb|CZL75017.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999049905|emb|CZJ56440.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999052636|emb|CZJ40503.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999056345|emb|CZJ26172.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999061593|emb|CZL11983.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999065453|emb|CZJ42000.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999067442|emb|CZJ20429.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999070822|emb|CZJ41491.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999074550|emb|CZJ54499.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999076834|emb|CZG56958.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999080177|emb|CZJ89380.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999082864|emb|CZK79984.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999086102|emb|CZJ58870.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999090426|emb|CZK39152.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999092420|emb|CZL37933.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999095206|emb|CZG84390.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999098779|emb|CZG63535.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999101208|emb|CZL69867.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999110349|emb|CZL13256.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999113872|emb|CZL53648.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999116347|emb|CZK45700.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999126259|emb|CZK77136.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999131525|emb|CZL92763.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999134744|emb|CZL14796.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999138154|emb|CZK30866.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999141731|emb|CZL41643.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999144624|emb|CZK72078.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999147584|emb|CZL46898.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999151520|emb|CZH53229.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999156925|emb|CZH76391.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999166008|emb|CZG67785.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999168262|emb|CZI49606.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999173449|emb|CZH71097.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999175724|emb|CZL02847.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999182491|emb|CZG25754.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999185015|emb|CZP72307.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999188656|emb|CZI75200.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999191349|emb|CZI20089.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999194472|emb|CZI46811.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999195598|emb|CZQ05781.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999200337|emb|CZG62985.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999203783|emb|CZI46808.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999207233|emb|CZP27749.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999209948|emb|CZK73279.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999213588|emb|CZG40558.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999217122|emb|CZI74956.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999219370|emb|CZL33797.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999222464|emb|CZI38300.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999225966|emb|CZG35319.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999226725|emb|CZP86690.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999232900|emb|CZQ08470.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999240826|emb|CZH74162.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999243945|emb|CZH84362.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999250350|emb|CZG51734.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999253587|emb|CZG66592.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999254649|emb|CZQ06479.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999257826|emb|CZP82024.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999263628|emb|CZG37805.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999266070|emb|CZO75743.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999270144|emb|CZQ06182.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999273559|emb|CZH44128.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999276421|emb|CZP89423.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999279541|emb|CZP93889.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999282735|emb|CZP87906.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999286838|emb|CZI77963.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999288999|emb|CZP88414.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999293039|emb|CZI60402.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999297145|emb|CZP27680.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999300599|emb|CZP05808.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999302313|emb|CZI57126.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999304799|emb|CZI92748.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999307939|emb|CZP89948.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999311998|emb|CZI85340.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999314265|emb|CZI66268.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999317418|emb|CZP95281.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999320571|emb|CZI57424.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999325955|emb|CZG59148.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999329624|emb|CZF98183.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999332438|emb|CZG39273.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999335209|emb|CZK70895.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999336412|emb|CZP87855.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999339756|emb|CZH36197.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999342811|emb|CZQ05072.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999346016|emb|CZP93453.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999351842|emb|CZG43656.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999354443|emb|CZP30943.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999355558|emb|CZP99605.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999361135|emb|CZI03802.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999361987|emb|CZP97258.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999365182|emb|CZQ08069.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999368403|emb|CZQ01836.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999374093|emb|CZG06164.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999377304|emb|CZI90263.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999380603|emb|CZH50257.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999383453|emb|CZI19851.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999387418|emb|CZG08409.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999390225|emb|CZI08221.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999390934|emb|CZQ09121.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999397110|emb|CZG18409.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999397365|emb|CZQ09188.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999400587|emb|CZQ07807.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999406377|emb|CZG40676.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999409451|emb|CZH73709.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999412535|emb|CZG26009.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999416605|emb|CZG11778.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999419234|emb|CZG41545.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999422654|emb|CZH46488.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999426438|emb|CZG23015.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999429160|emb|CZG32910.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999432748|emb|CZG09916.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999435694|emb|CZH64184.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999438394|emb|CZG46789.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999442202|emb|CZJ82558.1| flagellar biosynthesis protein [Legionella pneumophila] &gt;gi|999445374|emb|CZH57794.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999448637|emb|CZG06144.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999451379|emb|CZP19043.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999458314|emb|CZJ87265.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999470957|emb|CZG33241.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999497065|emb|CZI12815.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999520005|emb|CZP94977.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999526284|emb|CZI59394.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999529166|emb|CZI14632.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999577114|emb|CZI03693.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999612415|emb|CZI09429.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999779677|emb|CZG23240.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1002075489|emb|CZQ93841.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1002078994|emb|CZQ93950.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1002082087|emb|CZQ95399.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1002091707|emb|CZR05650.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1003020086|emb|CZR21218.1| flagellar biosynthesis protein [Legionella pneumophila] &gt;gi|1003022965|emb|CZR20151.1| flagellar biosynthesis protein [Legionella pneumophila] &gt;gi|1003026807|emb|CZR17691.1| flagellar biosynthesis protein [Legionella pneumophila] &gt;gi|1003026987|emb|CZR29920.1| flagellar biosynthesis protein [Legionella pneumophila] &gt;gi|1003030273|emb|CZR34371.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1005834250|gb|AMQ28976.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pneumophila] &gt;gi|1015433999|gb|AMV15626.1| Flagellar biosynthetic protein FlhB [Legionella pneumophila] &gt;gi|1041016551|gb|ANN93612.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1041019553|gb|ANN96613.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073865623|gb|AOU05574.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073868592|gb|AOU08542.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073871587|gb|AOU11536.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073874457|gb|AOU14405.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073877512|gb|AOU17459.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073880475|gb|AOU20421.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073883472|gb|AOU23417.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073886465|gb|AOU26409.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073889433|gb|AOU29376.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073892417|gb|AOU32359.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073895385|gb|AOU35326.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073898343|gb|AOU38283.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073901309|gb|AOU41248.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073904218|gb|AOU44156.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073907171|gb|AOU47108.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073910189|gb|AOU50124.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073913201|gb|AOU53133.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073916161|gb|AOU56092.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073919124|gb|AOU59054.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073922027|gb|AOU61956.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073925110|gb|AOU65037.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073928073|gb|AOU67999.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073931059|gb|AOU70968.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073934428|gb|AOU73987.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073937393|gb|AOU84392.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073947659|gb|AOU87383.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1073950587|gb|AOU90310.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1103997743|emb|SFZ46599.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1104000881|emb|SFZ46642.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1104003984|emb|SFZ46652.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1129969245|gb|APT99604.1| flagellar biosynthesis protein FlhB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947507</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>1.04442e-56</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_hseq>
+      <Hsp_midline>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|652971990|ref|WP_027224812.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|761990436|dbj|GAN18545.1| flagellar biosynthetic protein FlhB [Legionella pneumophila] &gt;gi|761993626|dbj|GAN21651.1| flagellar biosynthetic protein FlhB [Legionella pneumophila] &gt;gi|998981170|emb|CZJ29074.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999107001|emb|CZI86990.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999231275|emb|CZI64899.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1032658661|gb|ANH13932.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1032661623|gb|ANH16893.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1032664601|gb|ANH19870.1| flagellar biosynthesis protein FlhB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027224812</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>4.96307e-56</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKKHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_hseq>
+      <Hsp_midline>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAK+HGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504655539|ref|WP_014842641.1|</Hit_id>
+  <Hit_def>flagellar protein FlhB [Legionella pneumophila] &gt;gi|395128580|emb|CCD06796.1| FlhB domain protein (modular protein) [Legionella pneumophila subsp. pneumophila] &gt;gi|998781218|emb|CZJ45226.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998824233|emb|CZG42210.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998829511|emb|CZG81815.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998883375|emb|CZI78654.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998898784|emb|CZJ43815.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998935691|emb|CZM89725.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998952189|emb|CZJ31871.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|998999842|emb|CZH01523.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999057529|emb|CZM79264.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999103386|emb|CZI31547.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999127834|emb|CZH41763.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999153907|emb|CZM19822.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999158437|emb|CZJ99965.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999162995|emb|CZM06779.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999176988|emb|CZK03950.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999237132|emb|CZG76419.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999247393|emb|CZH73527.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999269025|emb|CZO51854.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999453743|emb|CZI37153.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999460260|emb|CZH18416.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999464055|emb|CZM85071.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999467181|emb|CZO55479.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999473749|emb|CZN11162.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999476787|emb|CZN90929.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999480257|emb|CZN26787.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999483483|emb|CZO36142.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999486690|emb|CZM31273.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999489753|emb|CZO02192.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999493053|emb|CZM30338.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999499426|emb|CZN94077.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999502650|emb|CZO31720.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999505794|emb|CZN36407.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999508997|emb|CZG75396.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999512219|emb|CZN48936.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999515598|emb|CZM20237.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999518426|emb|CZM99224.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999529895|emb|CZP61296.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999534937|emb|CZN55399.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999536317|emb|CZN84238.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999541254|emb|CZO42118.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999544532|emb|CZO78967.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999547643|emb|CZO05329.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999549093|emb|CZP27318.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999553990|emb|CZN54100.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999557342|emb|CZO78352.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999560442|emb|CZM71646.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999563563|emb|CZO88805.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999567035|emb|CZM74118.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999570011|emb|CZN69090.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999573235|emb|CZO18583.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999579800|emb|CZO47656.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999582808|emb|CZO74852.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999586226|emb|CZM96372.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999589413|emb|CZM64251.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999592687|emb|CZN62985.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999595650|emb|CZO29530.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999598857|emb|CZO63721.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999602131|emb|CZM28921.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999605043|emb|CZN88725.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999608549|emb|CZN81347.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999615161|emb|CZM75104.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999618092|emb|CZO11497.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999621268|emb|CZP11392.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999624514|emb|CZO06422.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999627612|emb|CZM86921.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999631135|emb|CZM79653.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999634088|emb|CZN79811.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999635542|emb|CZO71339.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999640605|emb|CZP12106.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999643744|emb|CZO69041.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999645126|emb|CZO83315.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999648312|emb|CZO84210.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999651520|emb|CZO84963.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999654709|emb|CZN53310.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999658422|emb|CZN27371.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999662814|emb|CZN38400.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999666180|emb|CZM60041.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999669371|emb|CZL99704.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999672461|emb|CZM59004.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999675874|emb|CZO03427.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999678783|emb|CZN11850.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999682105|emb|CZN01439.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999685360|emb|CZO29818.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999688446|emb|CZN49528.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999691752|emb|CZO19815.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999694965|emb|CZN60760.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999696269|emb|CZN03394.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999701217|emb|CZN01049.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999704454|emb|CZM18855.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999705872|emb|CZO33944.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999711127|emb|CZN25313.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999714112|emb|CZN42983.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999717373|emb|CZO72793.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999720669|emb|CZN12378.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999723988|emb|CZN55090.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999725356|emb|CZM86538.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999730477|emb|CZO66315.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999733858|emb|CZM38230.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999736867|emb|CZO89425.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999740330|emb|CZM52274.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999743636|emb|CZN44193.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999746668|emb|CZM39126.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999750147|emb|CZM12648.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999753088|emb|CZN01602.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999756364|emb|CZN37147.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999759756|emb|CZM46244.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999763059|emb|CZN43818.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999766257|emb|CZM99319.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999769184|emb|CZN70448.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999772638|emb|CZI06959.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999775899|emb|CZM13815.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999780483|emb|CZI50014.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999785874|emb|CZM43400.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999789121|emb|CZO92802.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999792468|emb|CZO78858.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999795655|emb|CZI53331.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999799023|emb|CZO89171.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1002084909|emb|CZR03783.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1002088676|emb|CZQ78661.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1003035860|emb|CZR19859.1| flagellar biosynthesis protein [Legionella pneumophila] &gt;gi|1104007438|emb|SFZ46725.1| Flagellar biosynthetic protein flhB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842641</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>9.38026e-56</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVHLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_hseq>
+      <Hsp_midline>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQV LNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|499535676|ref|WP_011216459.1|</Hit_id>
+  <Hit_def>flagellar protein FlhB [Legionella pneumophila] &gt;gi|53755251|emb|CAH16745.1| hypothetical protein lpl2505 [Legionella pneumophila str. Lens] &gt;gi|1080003082|gb|AOW53654.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005173|gb|AOW55453.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080009005|gb|AOW58993.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011328|gb|AOW60819.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015579|gb|AOW64452.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017572|gb|AOW66217.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216459</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>9.69425e-56</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVDLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_hseq>
+      <Hsp_midline>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQV LNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1004014332|ref|WP_061483673.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483673</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>2.57476e-55</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLVAQQIINTSKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_hseq>
+      <Hsp_midline>MKRKKPVAVALRYDGNSPPKVTAKGEGL AQQIINT+KEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|652976460|ref|WP_027229132.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|985764593|gb|KXB25712.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|985767135|gb|KXB28230.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|999119043|emb|CZG84357.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|999122168|emb|CZH17446.1| Flagellar biosynthetic protein flhB [Legionella pneumophila] &gt;gi|1024339649|gb|KZX33988.1| flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1108605933|gb|APF04301.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. fraseri] &gt;gi|1108608916|gb|APF07283.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229132</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>6.54465e-55</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYIDGKKSKE</Hsp_hseq>
+      <Hsp_midline>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYI+GK SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|652969841|ref|WP_027222734.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella pneumophila] &gt;gi|1005362992|gb|AMP88861.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pascullei] &gt;gi|1005367744|gb|AMP93521.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pascullei] &gt;gi|1005370663|gb|AMP96439.1| flagellar biosynthesis protein FlhB [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222734</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>4.08317e-49</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKRKKPVAIALRYDGNSPPKVTAKGEGSVAQQIIKTAKGHGIPLEQNAELTALLSQVRLNEEIPKALYLAVAQILAFLYYIDGKKSKE</Hsp_hseq>
+      <Hsp_midline>MKRKKPVA+ALRYDGNSPPKVTAKGEG  AQQII TAK HGIPLEQN ELTALLSQVRLNEEIPKALY+AVAQILAFLYYI+GK SKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|966441251|ref|WP_058481574.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella waltersii] &gt;gi|962291217|gb|KTD74924.1| flagellar protein FlhB [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058481574</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>1.11058e-38</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKKKKTRAIALRYDGTSAPRVTAKGEGNIAKQIIKTAKEHDIPIQQNEELTALLSKVRLNEEIPRALYTAVAQILAFIYYVEGKQPKK</Hsp_hseq>
+      <Hsp_midline>MK+KK  A+ALRYDG S P+VTAKGEG  A+QII TAKEH IP++QN ELTALLS+VRLNEEIP+ALY AVAQILAF+YY+ GK  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|517405854|ref|WP_018578517.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella shakespearei] &gt;gi|962281322|gb|KTD65135.1| flagellar protein FlhB [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578517</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>1.13421e-38</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MKKNKTQAVALRYDGTSAPRVTAKGEGYIAKQIIATAKEHGIPLEQNEELTALLSSVRINQEIPRELYTAVAQILAFLYYVDGK</Hsp_hseq>
+      <Hsp_midline>MK+ K  AVALRYDG S P+VTAKGEG  A+QII TAKEHGIPLEQN ELTALLS VR+N+EIP+ LY AVAQILAFLYY++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|966434536|ref|WP_058474967.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella quateirensis] &gt;gi|962260559|gb|KTD44669.1| flagellar protein FlhB [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474967</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>9.46921e-37</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSK</Hsp_qseq>
+      <Hsp_hseq>MKKNKTRAVALRYDGTSAPRVTAKGEGYIARQIIATAKEHGIPLEQNEELTSLLANVHINEEIPKDLYAAVAQILAFLYYVDEKKSE</Hsp_hseq>
+      <Hsp_midline>MK+ K  AVALRYDG S P+VTAKGEG  A+QII TAKEHGIPLEQN ELT+LL+ V +NEEIPK LY AVAQILAFLYY++ K S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|654932845|ref|WP_028383203.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella moravica] &gt;gi|962253384|gb|KTD37565.1| flagellar protein FlhB [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383203</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.14977e-36</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MKKKKTRAVALQYDGTSAPRVIARGEGYLARKIIATAKKHGIPLEQNEELTSLLASVRINEEIPKDLYVAVAQILAFLYYVDGK</Hsp_hseq>
+      <Hsp_midline>MK+KK  AVAL+YDG S P+V A+GEG  A++II TAK+HGIPLEQN ELT+LL+ VR+NEEIPK LY+AVAQILAFLYY++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|966442343|ref|WP_058482605.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella spiritensis] &gt;gi|962281538|gb|KTD65338.1| flagellar protein FlhB [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058482605</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.22033e-34</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MKKDNPQAIALHYDGKSAPRVTAKGEGAVAEQIIKAAREHGIPLEKDPELTALLAQVKLSDEIPPSLYVAVAQLLAFLYFLNNK</Hsp_hseq>
+      <Hsp_midline>MK+  P A+AL YDG S P+VTAKGEG  A+QII  A+EHGIPLE++PELTALL+QV+L++EIP +LY+AVAQ+LAFLY++N K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|966402468|ref|WP_058446063.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella feeleii] &gt;gi|962212057|gb|KTC96944.1| flagellar protein FlhB [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058446063</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>2.79588e-34</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MKKNKPQAVALHYDGKSAPKVTAKGEGLLAEQIVRIARERGIPLQQDQELTTLLAEVNLNEEIPPKLYLAVAQLLTFLYYVNGK</Hsp_hseq>
+      <Hsp_midline>MK+ KP AVAL YDG S PKVTAKGEGL A+QI+  A+E GIPL+Q+ ELT LL++V LNEEIP  LY+AVAQ+L FLYY+NGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|966406076|ref|WP_058449482.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella jamestowniensis] &gt;gi|962222704|gb|KTD07354.1| flagellar protein FlhB [Legionella jamestowniensis] &gt;gi|1045920937|gb|OCH97870.1| flagellar biosynthesis protein FlhB [Legionella jamestowniensis] &gt;gi|1097327842|emb|SFL94181.1| flagellar biosynthesis protein [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058449482</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>3.92658e-34</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MSKDKTKAVALHYDGKSAPKVTAKGEGFIAEQIIKVAKEHGIPLQQNEQLTELLAQVELNKEIPRSLYVAVAQLLTFLYYINEK</Hsp_hseq>
+      <Hsp_midline>M + K  AVAL YDG S PKVTAKGEG  A+QII  AKEHGIPL+QN +LT LL+QV LN+EIP++LY+AVAQ+L FLYYIN K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|769980310|ref|WP_045096295.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella fallonii] &gt;gi|698843909|emb|CEG57878.1| conserved protein of unknown function [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096295</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>4.08765e-34</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYIN</Hsp_qseq>
+      <Hsp_hseq>MKKEKPLAVALHYDGNNAPRIAAKGEGALARKIIATAREHGIPIEQNEELTALLSTVKLNDEIPSNLYVAVAQLLVFLYHVN</Hsp_hseq>
+      <Hsp_midline>MK++KP+AVAL YDGN+ P++ AKGEG  A++II TA+EHGIP+EQN ELTALLS V+LN+EIP  LY+AVAQ+L FLY++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|518045032|ref|WP_019215240.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella tunisiensis]</Hit_def>
+  <Hit_accession>WP_019215240</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>8.45389e-34</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MKKDKQQAIALRYDGKSAPKVTAKGEGLLAEHIVKIARERGIPLQQDKELTALLAEVHLNEEIPPKLYLAVAQLLTFLYYVNGK</Hsp_hseq>
+      <Hsp_midline>MK+ K  A+ALRYDG S PKVTAKGEGL A+ I+  A+E GIPL+Q+ ELTALL++V LNEEIP  LY+AVAQ+L FLYY+NGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|966510974|ref|WP_058527565.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella erythra] &gt;gi|962209395|gb|KTC94302.1| flagellar protein FlhB [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058527565</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.41539e-33</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSK</Hsp_qseq>
+      <Hsp_hseq>MNKTPPQAVALQYDGESAPRVVAKGEGFIAEQIIKVAQENGIPLEKDPELTAMLSKVKLNDEIPPSLYLAVAQLLAFLYYLNDKKPK</Hsp_hseq>
+      <Hsp_midline>M +  P AVAL+YDG S P+V AKGEG  A+QII  A+E+GIPLE++PELTA+LS+V+LN+EIP +LY+AVAQ+LAFLYY+N K  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|769991104|ref|WP_045106976.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella hackeliae] &gt;gi|731153285|emb|CEK11868.1| conserved protein of unknown function [Legionella hackeliae] &gt;gi|962227833|gb|KTD12455.1| flagellar protein FlhB [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045106976</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>2.31603e-33</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MKKDKTKAVALHYDGKSAPKVTAKGEGFIAEQIIKIAKEHGIPLQQDTKLTELLAQVELNKEIPRSLYVAVAQLLAFLCYINEK</Hsp_hseq>
+      <Hsp_midline>MK+ K  AVAL YDG S PKVTAKGEG  A+QII  AKEHGIPL+Q+ +LT LL+QV LN+EIP++LY+AVAQ+LAFL YIN K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966515327|ref|WP_058531844.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella rubrilucens] &gt;gi|962262756|gb|KTD46842.1| flagellar protein FlhB [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058531844</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>5.74975e-33</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MNKTPPQAVALQYDGESAPRVVAKGEGFIAEQIIKVAQENGIPLEKDPELTAMLSKVKLNDEIPPSLYLAVAQLLAFLYYLNDK</Hsp_hseq>
+      <Hsp_midline>M +  P AVAL+YDG S P+V AKGEG  A+QII  A+E+GIPLE++PELTA+LS+V+LN+EIP +LY+AVAQ+LAFLYY+N K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|966399198|ref|WP_058442831.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella brunensis] &gt;gi|962191673|gb|KTC76749.1| flagellar protein FlhB [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058442831</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>9.94113e-33</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MKKEKMQAVALRYDGKSAPKVTAKGDGIIAEQIIKIAKEHGIPLQHDGQLTGLLAQVELNKEIPPKLYVAVAQLLTFLYYHNGK</Hsp_hseq>
+      <Hsp_midline>MK++K  AVALRYDG S PKVTAKG+G+ A+QII  AKEHGIPL+ + +LT LL+QV LN+EIP  LY+AVAQ+L FLYY NGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|762036515|ref|WP_043872453.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella massiliensis] &gt;gi|683289187|emb|CEE11548.1| Flagellar biosynthetic protein FlhB [Legionella massiliensis] &gt;gi|685071557|emb|CDZ75810.1| Flagellar biosynthetic protein FlhB [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_043872453</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.2284e-32</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYIN</Hsp_qseq>
+      <Hsp_hseq>MKKDKKQAIALSYDGQSAPKVTAKGEGKLAEQIIKTAQKHGVPLQKDEELTALLSEVKLNEEIPPKLYLAVAQLLSFLYYLD</Hsp_hseq>
+      <Hsp_midline>MK+ K  A+AL YDG S PKVTAKGEG  A+QII TA++HG+PL+++ ELTALLS+V+LNEEIP  LY+AVAQ+L+FLYY++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966464405|ref|WP_058495766.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella drozanskii] &gt;gi|962202886|gb|KTC87855.1| flagellar protein FlhB [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058495766</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>1.2698e-32</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKKDKTQAIALHYNGKSAPRVTAKGEGMIAEQIISAAKKHGVPLQKNEELTALLSEVQLSAEIPPKLYLAVAQLLAFLYYLNNKPSSE</Hsp_hseq>
+      <Hsp_midline>MK+ K  A+AL Y+G S P+VTAKGEG+ A+QII+ AK+HG+PL++N ELTALLS+V+L+ EIP  LY+AVAQ+LAFLYY+N K S E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966475084|ref|WP_058505845.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella nautarum] &gt;gi|962249016|gb|KTD33238.1| flagellar protein FlhB [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505845</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.53561e-32</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MKKDKTQAIALHYNGKSAPRVTAKGEGMIAEQIINAAKKHGIPLQKNEELTALLSEVKLSAEIPPKLYLAVAQLLAFLYYLDTNRSSD</Hsp_hseq>
+      <Hsp_midline>MK+ K  A+AL Y+G S P+VTAKGEG+ A+QIIN AK+HGIPL++N ELTALLS+V+L+ EIP  LY+AVAQ+LAFLYY++   S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966475525|ref|WP_058506258.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella quinlivanii] &gt;gi|962268532|gb|KTD52552.1| flagellar protein FlhB [Legionella quinlivanii] &gt;gi|1090728432|emb|SEF70343.1| flagellar biosynthesis protein [Legionella quinlivanii DSM 21216]</Hit_def>
+  <Hit_accession>WP_058506258</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>5.27492e-31</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MIKKNRQAVALHYDGKKAPRVTAKGEGEIAERIIQVAKQHGIPLQENKELTALLAQVQLDSEIPPKLYVAVAQLLAFLYFLNGKTPKD</Hsp_hseq>
+      <Hsp_midline>M +K   AVAL YDG   P+VTAKGEG  A++II  AK+HGIPL++N ELTALL+QV+L+ EIP  LY+AVAQ+LAFLY++NGK  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966506727|ref|WP_058523373.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella birminghamensis] &gt;gi|962187393|gb|KTC72521.1| flagellar protein FlhB [Legionella birminghamensis]</Hit_def>
+  <Hit_accession>WP_058523373</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>8.53968e-31</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHSKE</Hsp_qseq>
+      <Hsp_hseq>MIKKNRQAVALHYDGKKAPRVTAKGEGEIAERIIQIAKQHGIPLQENKELTALLAQVQLNGEIPPKLYVAVAQMLAFLYFLNGKTPKD</Hsp_hseq>
+      <Hsp_midline>M +K   AVAL YDG   P+VTAKGEG  A++II  AK+HGIPL++N ELTALL+QV+LN EIP  LY+AVAQ+LAFLY++NGK  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966461280|ref|WP_058493633.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Legionella worsleiensis] &gt;gi|962294303|gb|KTD77970.1| flagellar protein FlhB [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493633</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>8.97732e-31</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MKKTKTRAVALRYDGTSAPRVVAKGEGYIAQKIIATAKEHGIPLQQNEELTTLLSKLKLNQEIPRSLYVAVAQILAFLYYVDGK</Hsp_hseq>
+      <Hsp_midline>MK+ K  AVALRYDG S P+V AKGEG  AQ+II TAKEHGIPL+QN ELT LLS+++LN+EIP++LY+AVAQILAFLYY++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|769982275|ref|WP_045098257.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Tatlockia micdadei] &gt;gi|698845734|emb|CEG59713.1| conserved protein of unknown function [Tatlockia micdadei] &gt;gi|962243563|gb|KTD27882.1| flagellar protein FlhB [Tatlockia micdadei] &gt;gi|1081463227|emb|SCY79949.1| flagellar biosynthesis protein [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045098257</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>2.58123e-29</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYING</Hsp_qseq>
+      <Hsp_hseq>MNKDKLQAIALHYDGTSAPKVTAKGEGIIAEQIISAAKKHGVPLQKNEELTALLAEVNLSSEIPPKLYLAVAQLLVFLYYLSA</Hsp_hseq>
+      <Hsp_midline>M + K  A+AL YDG S PKVTAKGEG+ A+QII+ AK+HG+PL++N ELTALL++V L+ EIP  LY+AVAQ+L FLYY++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966431466|ref|WP_058471911.1|</Hit_id>
+  <Hit_def>hypothetical protein [Legionella jordanis] &gt;gi|962233684|gb|KTD18232.1| flagellar protein FlhB [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471911</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>4.33947e-28</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>MTEKKQ-AVALHYDGHSAPIVTAKGEGGIAEQIIKTAKEHGIPLHHDKELTALLAKVELKKEIPPELYRAVAQILIFLYFLDGK</Hsp_hseq>
+      <Hsp_midline>M  KK  AVAL YDG+S P VTAKGEG  A+QII TAKEHGIPL  + ELTALL++V L +EIP  LY AVAQIL FLY+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|503914103|ref|WP_014148097.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar protein FhlB [Methylomicrobium] &gt;gi|351717639|emb|CCE23304.1| Type III secretion exporter [Methylomicrobium alcaliphilum 20Z]</Hit_def>
+  <Hit_accession>WP_014148097</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.80864e-27</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALKYDGKHAPKVTAKGEGLTAEQIMAIADQHGIPLQAEPELARILAQVPLGEEIPRELYIAVAQVIAFAYFLSGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG   PKVTAKGEGL A+QI+  A +HGIPL+  PEL  +L+QV L EEIP+ LYIAVAQ++AF Y+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1028827370|ref|WP_064007760.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylomonas methanica] &gt;gi|1028367851|gb|OAI06865.1| flagellar protein FhlB [Methylomonas methanica]</Hit_def>
+  <Hit_accession>WP_064007760</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>2.15806e-27</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALKYDGKNAPKVTAKGEGFTAQQILAIAEKHGVPLQNEPELARILAQVPLGEEIPQQLYIAVAEVIAFAYFISGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG  AQQI+  A++HG+PL+  PEL  +L+QV L EEIP+ LYIAVA+++AF Y+I+GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|917535733|ref|WP_052142150.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar protein FhlB [Methylomonas] &gt;gi|998901313|gb|AMK75731.1| flagellar protein FhlB [Methylomonas denitrificans] &gt;gi|1028359087|gb|OAH98275.1| flagellar protein FhlB [Methylomonas methanica]</Hit_def>
+  <Hit_accession>WP_052142150</Hit_accession>
+  <Hit_len>106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>2.2171e-27</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>CHKPSFIGYKNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>CLKPDVSGRTFYNSD--IAVALQYDGKNAPKVTAKGEGFTAQQILAIAEKHGVPLQNEPELARILAQVPLGEEIPQQLYIAVAEVIAFAYFISGK</Hsp_hseq>
+      <Hsp_midline>C KP   G         +AVAL+YDG + PKVTAKGEG  AQQI+  A++HG+PL+  PEL  +L+QV L EEIP+ LYIAVA+++AF Y+I+GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|651609759|ref|WP_026603899.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar protein FhlB [Methylomonas] &gt;gi|1028361202|gb|OAI00357.1| flagellar protein FhlB [Methylomonas methanica]</Hit_def>
+  <Hit_accession>WP_026603899</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>3.19956e-27</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALQYDGKNAPKVTAKGEGFTAQQILAIAEKHGVPLQNEPELARILAQVPLGEEIPQQLYIAVAEVIAFAYFISGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG  AQQI+  A++HG+PL+  PEL  +L+QV L EEIP+ LYIAVA+++AF Y+I+GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|521974010|ref|WP_020485281.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylomonas sp. MK1]</Hit_def>
+  <Hit_accession>WP_020485281</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>3.37943e-27</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALQYDGKNAPKVTAKGEGFTAQQILAIAEKHGVPLQNEPELARILAQVPLGEEIPQQLYIAVAEVIAFAYFISGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG  AQQI+  A++HG+PL+  PEL  +L+QV L EEIP+ LYIAVA+++AF Y+I+GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1028873869|ref|WP_064041394.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylomonas koyamae] &gt;gi|1028374984|gb|OAI13705.1| flagellar protein FhlB [Methylomonas koyamae]</Hit_def>
+  <Hit_accession>WP_064041394</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>4.7436e-27</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALKYDGKNAPKVTAKGEGFTAQQILAIAEEHGVPLQNQPELARILAQIPLGEEIPQQLYVAVAEVIAFAYFLSGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG  AQQI+  A+EHG+PL+  PEL  +L+Q+ L EEIP+ LY+AVA+++AF Y+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|503586430|ref|WP_013820506.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylomonas methanica] &gt;gi|333809620|gb|AEG02290.1| type III secretion exporter [Methylomonas methanica MC09]</Hit_def>
+  <Hit_accession>WP_013820506</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>5.40894e-27</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALKYDGKNAPKVTAKGEGFTAQQILAIAEKHGVPLQNEPELARILAQVPLGDEIPQQLYIAVAEVIAFAYFISGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG  AQQI+  A++HG+PL+  PEL  +L+QV L +EIP+ LYIAVA+++AF Y+I+GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1055318926|ref|WP_066984473.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylomonas lenta] &gt;gi|1028374492|gb|OAI13230.1| flagellar protein FhlB [Methylomonas lenta]</Hit_def>
+  <Hit_accession>WP_066984473</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>1.06567e-26</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALQYDGKNAPKVTAKGEGFTAQQILAIAEKHGVPLQNEPELARILAQVPLGDEIPQQLYIAVAEVIAFAYFISGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG  AQQI+  A++HG+PL+  PEL  +L+QV L +EIP+ LYIAVA+++AF Y+I+GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|938981952|ref|WP_054759759.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylomonas koyamae] &gt;gi|1028395851|gb|OAI29104.1| flagellar protein FhlB [Methylomonas koyamae]</Hit_def>
+  <Hit_accession>WP_054759759</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>2.34209e-26</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALKYDGKNAPKVTAKGEGFTAQQILAIAEKHGVPLQNQPELARILAQIPLGEEIPQQLYVAVAEVIAFAYFLSGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG  AQQI+  A++HG+PL+  PEL  +L+Q+ L EEIP+ LY+AVA+++AF Y+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|659888618|ref|WP_029935303.1|</Hit_id>
+  <Hit_def>hypothetical protein [Thiomicrospira pelophila]</Hit_def>
+  <Hit_accession>WP_029935303</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>3.93465e-26</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>KKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>KDTFAVSLEYSGDSAPRVTAKGAGHLAQQIVDLAKQHNIPITQNAELTELLSQVELNEQVPPALYEAVAQVLVFAYQLSGK</Hsp_hseq>
+      <Hsp_midline>K   AV+L Y G+S P+VTAKG G  AQQI++ AK+H IP+ QN ELT LLSQV LNE++P ALY AVAQ+L F Y ++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1028852304|ref|WP_064021047.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylomonas sp. DH-1] &gt;gi|1028472016|gb|ANE54934.1| flagellar protein FhlB [Methylomonas sp. DH-1]</Hit_def>
+  <Hit_accession>WP_064021047</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.20772e-25</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALKYDGKNAPKVTVKGEGFTAQQILAIAEKHGVPLQNQPELARILAQIPLGEEIPQQLYVAVAEVIAFAYFLSGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVT KGEG  AQQI+  A++HG+PL+  PEL  +L+Q+ L EEIP+ LY+AVA+++AF Y+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|519004715|ref|WP_020160590.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar protein FhlB [Methylobacter]</Hit_def>
+  <Hit_accession>WP_020160590</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>1.43861e-25</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAIALKYDGTNAPKVTAKGQGLTAEHILQIAEQHGIPLQTEPELARILAQIPLGEEIPNELYIAVAEVIAFAYFLSGK</Hsp_hseq>
+      <Hsp_midline>+A+AL+YDG + PKVTAKG+GL A+ I+  A++HGIPL+  PEL  +L+Q+ L EEIP  LYIAVA+++AF Y+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|670484031|ref|WP_031432283.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylomarinum vadi]</Hit_def>
+  <Hit_accession>WP_031432283</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>1.54611e-25</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>LAVALKYDGKNAPKVTAKGEGVTAQQILELAERHGVPLQNQPELARILAQVPLGDEIPRELYVAVAEIIAFAYLLSGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG+ AQQI+  A+ HG+PL+  PEL  +L+QV L +EIP+ LY+AVA+I+AF Y ++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|492768798|ref|WP_005958949.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar protein FhlB [sulfur-oxidizing symbionts] &gt;gi|344226166|gb|EGV52506.1| FlhB domain protein [endosymbiont of Riftia pachyptila (vent Ph05)] &gt;gi|345125616|gb|EGW55484.1| FlhB domain protein [endosymbiont of Tevnia jerichonana (vent Tica)]</Hit_def>
+  <Hit_accession>WP_005958949</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.04122e-25</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>KNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>DDKQRQADLAIALNYDGSNAPRLTAKGRGAVAEQILSIAKEHNIPLHQDTELSALLAQIPLGDEIPEALYRAVAEVIAFAYLLSGK</Hsp_hseq>
+      <Hsp_midline> + +R+  +A+AL YDG++ P++TAKG G  A+QI++ AKEH IPL Q+ EL+ALL+Q+ L +EIP+ALY AVA+++AF Y ++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|952997389|ref|WP_057956085.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [endosymbiont of Ridgeia piscesae] &gt;gi|952307559|gb|KRT55321.1| Type III secretion system substrate exporter, FlhB-like [endosymbiont of Ridgeia piscesae] &gt;gi|952309897|gb|KRT57117.1| flagellar biosynthesis protein [endosymbiont of Ridgeia piscesae]</Hit_def>
+  <Hit_accession>WP_057956085</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.53417e-25</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>KNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>DDKQRQADLAIALNYDGSNAPRLTAKGRGAVAEQIFSIAKEHNIPLHQDTELSALLAQIPLGDEIPEALYRAVAEVIAFAYLLSGK</Hsp_hseq>
+      <Hsp_midline> + +R+  +A+AL YDG++ P++TAKG G  A+QI + AKEH IPL Q+ EL+ALL+Q+ L +EIP+ALY AVA+++AF Y ++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|652891977|ref|WP_027150461.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylobacter tundripaludum]</Hit_def>
+  <Hit_accession>WP_027150461</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>5.16976e-25</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALKYDGKNAPKVTAKGSGLTAEQILQIAELHGIPLQTEPELARILAQIPLGDEIPNELYVAVAEIIAFAYFLSGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKG GL A+QI+  A+ HGIPL+  PEL  +L+Q+ L +EIP  LY+AVA+I+AF Y+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|493946063|ref|WP_006890015.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylobacter tundripaludum] &gt;gi|344261769|gb|EGW22040.1| type III secretion exporter [Methylobacter tundripaludum SV96]</Hit_def>
+  <Hit_accession>WP_006890015</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>9.12731e-25</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAIALKYDGKNAPKVTAKGSGLTAEQILQIAELHGIPLQTEPELARILAQIPLGDEIPNELYVAVAEIIAFAYFLSGK</Hsp_hseq>
+      <Hsp_midline>+A+AL+YDG + PKVTAKG GL A+QI+  A+ HGIPL+  PEL  +L+Q+ L +EIP  LY+AVA+I+AF Y+++GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1028857301|ref|WP_064026042.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar protein FhlB [Methylomonas] &gt;gi|1028389853|gb|OAI23276.1| flagellar protein FhlB [Methylomonas koyamae] &gt;gi|1093435037|gb|OHX35069.1| flagellar protein FhlB [Methylomonas sp. LWB]</Hit_def>
+  <Hit_accession>WP_064026042</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.02761e-24</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGK</Hsp_qseq>
+      <Hsp_hseq>IAVALKYDGKNAPKVTAKGEGFTAQQILAIAEKHDIPLQNQPELARILAQVPLGDEIPEQLYVAVAEVIAFAYLIAGK</Hsp_hseq>
+      <Hsp_midline>+AVAL+YDG + PKVTAKGEG  AQQI+  A++H IPL+  PEL  +L+QV L +EIP+ LY+AVA+++AF Y I GK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|551328455|ref|WP_022947898.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Methylohalobius crimeensis]</Hit_def>
+  <Hit_accession>WP_022947898</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.67989e-24</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>KNMKRKKPVAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKHS</Hsp_qseq>
+      <Hsp_hseq>KRLFNPRDIAVALRYDGTSAPRVVAKGRGETAERITETAEEHQVPLHADPRLASVLAQVPLGDEIPRELYLAVAEVIAFAYWLSGKET</Hsp_hseq>
+      <Hsp_midline>K +   + +AVALRYDG S P+V AKG G  A++I  TA+EH +PL  +P L ++L+QV L +EIP+ LY+AVA+++AF Y+++GK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|656110227|ref|WP_029133762.1|</Hit_id>
+  <Hit_def>flagellar protein FhlB [Sedimenticola selenatireducens]</Hit_def>
+  <Hit_accession>WP_029133762</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.72351e-24</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>VAVALRYDGNSPPKVTAKGEGLFAQQIINTAKEHGIPLEQNPELTALLSQVRLNEEIPKALYIAVAQILAFLYYINGKH</Hsp_qseq>
+      <Hsp_hseq>VAIALLYDGENTPRITAKGQGKLAEQIFLLAREHGIPLENDPQLAAILSQIPLGDEIPESLYRAIAEVIAFAYLVSGKR</Hsp_hseq>
+      <Hsp_midline>VA+AL YDG + P++TAKG+G  A+QI   A+EHGIPLE +P+L A+LSQ+ L +EIP++LY A+A+++AF Y ++GK </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

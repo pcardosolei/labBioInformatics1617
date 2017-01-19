@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_229787</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834224</BlastOutput_query-def>
+  <BlastOutput_query-len>363</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_229787</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834224</Iteration_query-def>
+  <Iteration_query-len>363</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250819|ref|WP_010948359.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|52842865|ref|YP_096664.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629976|gb|AAU28717.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509370|gb|AEW52894.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948359</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>753.436</Hsp_bit-score>
+      <Hsp_score>1944</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|505256882|ref|WP_015443984.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|469490617|gb|AGH52462.1| ATPase N2B [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083332|gb|AGN15580.1| hypothetical protein LP6_2691 [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772814|emb|CZI16754.1| DNA replication protein [Legionella pneumophila] &gt;gi|998775737|emb|CZG61236.1| DNA replication protein [Legionella pneumophila] &gt;gi|998778323|emb|CZG75973.1| DNA replication protein [Legionella pneumophila] &gt;gi|998784562|emb|CZG86715.1| DNA replication protein [Legionella pneumophila] &gt;gi|998787514|emb|CZG59565.1| DNA replication protein [Legionella pneumophila] &gt;gi|998796527|emb|CZI01387.1| DNA replication protein [Legionella pneumophila] &gt;gi|998800302|emb|CZL04206.1| DNA replication protein [Legionella pneumophila] &gt;gi|998805815|emb|CZK07882.1| DNA replication protein [Legionella pneumophila] &gt;gi|998808351|emb|CZH87616.1| DNA replication protein [Legionella pneumophila] &gt;gi|998811919|emb|CZH79501.1| DNA replication protein [Legionella pneumophila] &gt;gi|998814282|emb|CZG61683.1| DNA replication protein [Legionella pneumophila] &gt;gi|998817735|emb|CZL60049.1| DNA replication protein [Legionella pneumophila] &gt;gi|998820837|emb|CZL61396.1| DNA replication protein [Legionella pneumophila] &gt;gi|998826799|emb|CZK08880.1| DNA replication protein [Legionella pneumophila] &gt;gi|998832563|emb|CZI06295.1| DNA replication protein [Legionella pneumophila] &gt;gi|998835772|emb|CZK88715.1| DNA replication protein [Legionella pneumophila] &gt;gi|998837839|emb|CZJ72045.1| DNA replication protein [Legionella pneumophila] &gt;gi|998842311|emb|CZL13806.1| DNA replication protein [Legionella pneumophila] &gt;gi|998844729|emb|CZK29423.1| DNA replication protein [Legionella pneumophila] &gt;gi|998847680|emb|CZK67177.1| DNA replication protein [Legionella pneumophila] &gt;gi|998850233|emb|CZI37339.1| DNA replication protein [Legionella pneumophila] &gt;gi|998853784|emb|CZL26636.1| DNA replication protein [Legionella pneumophila] &gt;gi|998856480|emb|CZL33495.1| DNA replication protein [Legionella pneumophila] &gt;gi|998859803|emb|CZL74171.1| DNA replication protein [Legionella pneumophila] &gt;gi|998862661|emb|CZK18726.1| DNA replication protein [Legionella pneumophila] &gt;gi|998865387|emb|CZJ40823.1| DNA replication protein [Legionella pneumophila] &gt;gi|998869872|emb|CZJ36455.1| DNA replication protein [Legionella pneumophila] &gt;gi|998871067|emb|CZM16955.1| DNA replication protein [Legionella pneumophila] &gt;gi|998874555|emb|CZK38783.1| DNA replication protein [Legionella pneumophila] &gt;gi|998877458|emb|CZL99334.1| DNA replication protein [Legionella pneumophila] &gt;gi|998880525|emb|CZI86773.1| DNA replication protein [Legionella pneumophila] &gt;gi|998888045|emb|CZL50672.1| DNA replication protein [Legionella pneumophila] &gt;gi|998889220|emb|CZK22733.1| DNA replication protein [Legionella pneumophila] &gt;gi|998895502|emb|CZJ99008.1| DNA replication protein [Legionella pneumophila] &gt;gi|998906130|emb|CZK56997.1| DNA replication protein [Legionella pneumophila] &gt;gi|998909701|emb|CZL09666.1| DNA replication protein [Legionella pneumophila] &gt;gi|998915828|emb|CZK61621.1| DNA replication protein [Legionella pneumophila] &gt;gi|998918297|emb|CZK82396.1| DNA replication protein [Legionella pneumophila] &gt;gi|998921268|emb|CZL38388.1| DNA replication protein [Legionella pneumophila] &gt;gi|998927573|emb|CZL63634.1| DNA replication protein [Legionella pneumophila] &gt;gi|998930660|emb|CZK75175.1| DNA replication protein [Legionella pneumophila] &gt;gi|998933935|emb|CZL76291.1| DNA replication protein [Legionella pneumophila] &gt;gi|998939875|emb|CZK76256.1| DNA replication protein [Legionella pneumophila] &gt;gi|998945952|emb|CZK94189.1| DNA replication protein [Legionella pneumophila] &gt;gi|998948996|emb|CZK82152.1| DNA replication protein [Legionella pneumophila] &gt;gi|998958618|emb|CZM01622.1| DNA replication protein [Legionella pneumophila] &gt;gi|998961524|emb|CZK25969.1| DNA replication protein [Legionella pneumophila] &gt;gi|998964609|emb|CZK04821.1| DNA replication protein [Legionella pneumophila] &gt;gi|998966969|emb|CZM53341.1| DNA replication protein [Legionella pneumophila] &gt;gi|998970511|emb|CZK54773.1| DNA replication protein [Legionella pneumophila] &gt;gi|998973798|emb|CZK26418.1| DNA replication protein [Legionella pneumophila] &gt;gi|998979503|emb|CZL59234.1| DNA replication protein [Legionella pneumophila] &gt;gi|998985852|emb|CZJ99030.1| DNA replication protein [Legionella pneumophila] &gt;gi|998988718|emb|CZL48597.1| DNA replication protein [Legionella pneumophila] &gt;gi|998998020|emb|CZJ88276.1| DNA replication protein [Legionella pneumophila] &gt;gi|999007992|emb|CZK26949.1| DNA replication protein [Legionella pneumophila] &gt;gi|999012925|emb|CZL43747.1| DNA replication protein [Legionella pneumophila] &gt;gi|999016847|emb|CZL68269.1| DNA replication protein [Legionella pneumophila] &gt;gi|999022645|emb|CZL14170.1| DNA replication protein [Legionella pneumophila] &gt;gi|999025384|emb|CZK74875.1| DNA replication protein [Legionella pneumophila] &gt;gi|999037141|emb|CZL55033.1| DNA replication protein [Legionella pneumophila] &gt;gi|999046865|emb|CZL77611.1| DNA replication protein [Legionella pneumophila] &gt;gi|999061672|emb|CZL15813.1| DNA replication protein [Legionella pneumophila] &gt;gi|999067364|emb|CZJ17876.1| DNA replication protein [Legionella pneumophila] &gt;gi|999076912|emb|CZG59629.1| DNA replication protein [Legionella pneumophila] &gt;gi|999080256|emb|CZJ92335.1| DNA replication protein [Legionella pneumophila] &gt;gi|999082785|emb|CZK77615.1| DNA replication protein [Legionella pneumophila] &gt;gi|999090505|emb|CZK41914.1| DNA replication protein [Legionella pneumophila] &gt;gi|999092499|emb|CZL41342.1| DNA replication protein [Legionella pneumophila] &gt;gi|999095284|emb|CZG88297.1| DNA replication protein [Legionella pneumophila] &gt;gi|999098701|emb|CZG59576.1| DNA replication protein [Legionella pneumophila] &gt;gi|999101129|emb|CZL67347.1| DNA replication protein [Legionella pneumophila] &gt;gi|999110428|emb|CZL15901.1| DNA replication protein [Legionella pneumophila] &gt;gi|999113793|emb|CZL51222.1| DNA replication protein [Legionella pneumophila] &gt;gi|999116426|emb|CZK49484.1| DNA replication protein [Legionella pneumophila] &gt;gi|999126338|emb|CZK79647.1| DNA replication protein [Legionella pneumophila] &gt;gi|999131604|emb|CZL95532.1| DNA replication protein [Legionella pneumophila] &gt;gi|999134823|emb|CZL17581.1| DNA replication protein [Legionella pneumophila] &gt;gi|999138075|emb|CZK27308.1| DNA replication protein [Legionella pneumophila] &gt;gi|999141810|emb|CZL45217.1| DNA replication protein [Legionella pneumophila] &gt;gi|999144545|emb|CZK68845.1| DNA replication protein [Legionella pneumophila] &gt;gi|999147663|emb|CZL50596.1| DNA replication protein [Legionella pneumophila] &gt;gi|999156847|emb|CZH74403.1| DNA replication protein [Legionella pneumophila] &gt;gi|999175803|emb|CZL05357.1| DNA replication protein [Legionella pneumophila] &gt;gi|999191271|emb|CZI17387.1| DNA replication protein [Legionella pneumophila] &gt;gi|999194394|emb|CZI43341.1| DNA replication protein [Legionella pneumophila] &gt;gi|999200259|emb|CZG60274.1| DNA replication protein [Legionella pneumophila] &gt;gi|999203705|emb|CZI43331.1| DNA replication protein [Legionella pneumophila] &gt;gi|999210027|emb|CZK76172.1| DNA replication protein [Legionella pneumophila] &gt;gi|999219291|emb|CZL30107.1| DNA replication protein [Legionella pneumophila] &gt;gi|999222386|emb|CZI34692.1| DNA replication protein [Legionella pneumophila] &gt;gi|999335288|emb|CZK73010.1| DNA replication protein [Legionella pneumophila] &gt;gi|1002075567|emb|CZQ94434.1| DNA replication protein [Legionella pneumophila] &gt;gi|1002079073|emb|CZQ94896.1| DNA replication protein [Legionella pneumophila] &gt;gi|1003020164|emb|CZR21677.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila] &gt;gi|1003023044|emb|CZR20493.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila] &gt;gi|1003026886|emb|CZR18236.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila] &gt;gi|1073865701|gb|AOU05652.1| ATPase [Legionella pneumophila] &gt;gi|1073868670|gb|AOU08620.1| ATPase [Legionella pneumophila] &gt;gi|1073871665|gb|AOU11614.1| cell division protein ZapE [Legionella pneumophila] &gt;gi|1073874532|gb|AOU14480.1| cell division protein ZapE [Legionella pneumophila] &gt;gi|1073877590|gb|AOU17537.1| cell division protein ZapE [Legionella pneumophila] &gt;gi|1073880553|gb|AOU20499.1| cell division protein ZapE [Legionella pneumophila] &gt;gi|1073883550|gb|AOU23495.1| cell division protein ZapE [Legionella pneumophila] &gt;gi|1073886542|gb|AOU26486.1| ATPase [Legionella pneumophila] &gt;gi|1073889511|gb|AOU29454.1| ATPase [Legionella pneumophila] &gt;gi|1073892495|gb|AOU32437.1| ATPase [Legionella pneumophila] &gt;gi|1073895463|gb|AOU35404.1| ATPase [Legionella pneumophila] &gt;gi|1073898421|gb|AOU38361.1| ATPase [Legionella pneumophila] &gt;gi|1073901387|gb|AOU41326.1| ATPase [Legionella pneumophila] &gt;gi|1073904296|gb|AOU44234.1| ATPase [Legionella pneumophila] &gt;gi|1073907249|gb|AOU47186.1| ATPase [Legionella pneumophila] &gt;gi|1073910267|gb|AOU50202.1| ATPase [Legionella pneumophila] &gt;gi|1073913279|gb|AOU53211.1| ATPase [Legionella pneumophila] &gt;gi|1073916239|gb|AOU56170.1| ATPase [Legionella pneumophila] &gt;gi|1073919202|gb|AOU59132.1| ATPase [Legionella pneumophila] &gt;gi|1073922105|gb|AOU62034.1| ATPase [Legionella pneumophila] &gt;gi|1073925188|gb|AOU65115.1| ATPase [Legionella pneumophila] &gt;gi|1073928151|gb|AOU68077.1| ATPase [Legionella pneumophila] &gt;gi|1073931137|gb|AOU71046.1| ATPase [Legionella pneumophila] &gt;gi|1073934506|gb|AOU74065.1| ATPase [Legionella pneumophila] &gt;gi|1073937471|gb|AOU84470.1| ATPase [Legionella pneumophila] &gt;gi|1073947737|gb|AOU87461.1| ATPase [Legionella pneumophila] &gt;gi|1073950665|gb|AOU90388.1| ATPase [Legionella pneumophila] &gt;gi|1104004063|emb|SFZ46999.1| DNA replication protein [Legionella pneumophila] &gt;gi|1129969323|gb|APT99682.1| ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015443984</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.503</Hsp_bit-score>
+      <Hsp_score>1926</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>360</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119427048|ref|WP_072402348.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402348</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.117</Hsp_bit-score>
+      <Hsp_score>1925</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTHPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGAKSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSNVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG +SIWFAFDVICNFPRSQLDYLEIADRFDNVFLS+VYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|653015685|ref|WP_027267714.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267714</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>745.732</Hsp_bit-score>
+      <Hsp_score>1924</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>359</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYIKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELY+KGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504655601|ref|WP_014842703.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|395128661|emb|CCD06879.1| putative ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|999248070|emb|CZH50725.1| DNA replication protein [Legionella pneumophila] &gt;gi|999269720|emb|CZO25297.1| DNA replication protein [Legionella pneumophila] &gt;gi|999455551|emb|CZH45875.1| DNA replication protein [Legionella pneumophila] &gt;gi|999462194|emb|CZG04669.1| DNA replication protein [Legionella pneumophila] &gt;gi|999465426|emb|CZM26911.1| DNA replication protein [Legionella pneumophila] &gt;gi|999468318|emb|CZO06632.1| DNA replication protein [Legionella pneumophila] &gt;gi|999474576|emb|CZM55797.1| DNA replication protein [Legionella pneumophila] &gt;gi|999478149|emb|CZN24232.1| DNA replication protein [Legionella pneumophila] &gt;gi|999481344|emb|CZM62251.1| DNA replication protein [Legionella pneumophila] &gt;gi|999484374|emb|CZN95856.1| DNA replication protein [Legionella pneumophila] &gt;gi|999487554|emb|CZL96194.1| DNA replication protein [Legionella pneumophila] &gt;gi|999490745|emb|CZN59349.1| DNA replication protein [Legionella pneumophila] &gt;gi|999493947|emb|CZL95747.1| DNA replication protein [Legionella pneumophila] &gt;gi|999500373|emb|CZN58230.1| DNA replication protein [Legionella pneumophila] &gt;gi|999503595|emb|CZN88113.1| DNA replication protein [Legionella pneumophila] &gt;gi|999506791|emb|CZM93908.1| DNA replication protein [Legionella pneumophila] &gt;gi|999510002|emb|CZG25236.1| DNA replication protein [Legionella pneumophila] &gt;gi|999513183|emb|CZN18330.1| DNA replication protein [Legionella pneumophila] &gt;gi|999515204|emb|CZM27440.1| DNA replication protein [Legionella pneumophila] &gt;gi|999519774|emb|CZM49139.1| DNA replication protein [Legionella pneumophila] &gt;gi|999532642|emb|CZO31371.1| DNA replication protein [Legionella pneumophila] &gt;gi|999534722|emb|CZN68084.1| DNA replication protein [Legionella pneumophila] &gt;gi|999539035|emb|CZM52612.1| DNA replication protein [Legionella pneumophila] &gt;gi|999542311|emb|CZO08744.1| DNA replication protein [Legionella pneumophila] &gt;gi|999545429|emb|CZO44900.1| DNA replication protein [Legionella pneumophila] &gt;gi|999548609|emb|CZN74437.1| DNA replication protein [Legionella pneumophila] &gt;gi|999551817|emb|CZN98036.1| DNA replication protein [Legionella pneumophila] &gt;gi|999555194|emb|CZM95523.1| DNA replication protein [Legionella pneumophila] &gt;gi|999558207|emb|CZO44575.1| DNA replication protein [Legionella pneumophila] &gt;gi|999561387|emb|CZM28484.1| DNA replication protein [Legionella pneumophila] &gt;gi|999564600|emb|CZO44763.1| DNA replication protein [Legionella pneumophila] &gt;gi|999567775|emb|CZM41585.1| DNA replication protein [Legionella pneumophila] &gt;gi|999570974|emb|CZN40224.1| DNA replication protein [Legionella pneumophila] &gt;gi|999574164|emb|CZN77567.1| DNA replication protein [Legionella pneumophila] &gt;gi|999580655|emb|CZO02120.1| DNA replication protein [Legionella pneumophila] &gt;gi|999584167|emb|CZO15597.1| DNA replication protein [Legionella pneumophila] &gt;gi|999585941|emb|CZN11286.1| DNA replication protein [Legionella pneumophila] &gt;gi|999590552|emb|CZM23525.1| DNA replication protein [Legionella pneumophila] &gt;gi|999593427|emb|CZN33379.1| DNA replication protein [Legionella pneumophila] &gt;gi|999596625|emb|CZN95957.1| DNA replication protein [Legionella pneumophila] &gt;gi|999599833|emb|CZO23067.1| DNA replication protein [Legionella pneumophila] &gt;gi|999603311|emb|CZL65279.1| DNA replication protein [Legionella pneumophila] &gt;gi|999606228|emb|CZN37690.1| DNA replication protein [Legionella pneumophila] &gt;gi|999609722|emb|CZN42524.1| DNA replication protein [Legionella pneumophila] &gt;gi|999615898|emb|CZM32780.1| DNA replication protein [Legionella pneumophila] &gt;gi|999618953|emb|CZN74685.1| DNA replication protein [Legionella pneumophila] &gt;gi|999622371|emb|CZO53713.1| DNA replication protein [Legionella pneumophila] &gt;gi|999625585|emb|CZN52250.1| DNA replication protein [Legionella pneumophila] &gt;gi|999628998|emb|CZM43415.1| DNA replication protein [Legionella pneumophila] &gt;gi|999631876|emb|CZM47444.1| DNA replication protein [Legionella pneumophila] &gt;gi|999635084|emb|CZN38884.1| DNA replication protein [Legionella pneumophila] &gt;gi|999638264|emb|CZN36615.1| DNA replication protein [Legionella pneumophila] &gt;gi|999641460|emb|CZO64639.1| DNA replication protein [Legionella pneumophila] &gt;gi|999644631|emb|CZO29988.1| DNA replication protein [Legionella pneumophila] &gt;gi|999648168|emb|CZN77632.1| DNA replication protein [Legionella pneumophila] &gt;gi|999650979|emb|CZN94175.1| DNA replication protein [Legionella pneumophila] &gt;gi|999654257|emb|CZN90959.1| DNA replication protein [Legionella pneumophila] &gt;gi|999657635|emb|CZL99264.1| DNA replication protein [Legionella pneumophila] &gt;gi|999660634|emb|CZM49679.1| DNA replication protein [Legionella pneumophila] &gt;gi|999664148|emb|CZM83806.1| DNA replication protein [Legionella pneumophila] &gt;gi|999667041|emb|CZM23633.1| DNA replication protein [Legionella pneumophila] &gt;gi|999670235|emb|CZL72830.1| DNA replication protein [Legionella pneumophila] &gt;gi|999673622|emb|CZM17864.1| DNA replication protein [Legionella pneumophila] &gt;gi|999676614|emb|CZN63208.1| DNA replication protein [Legionella pneumophila] &gt;gi|999679649|emb|CZM64122.1| DNA replication protein [Legionella pneumophila] &gt;gi|999682844|emb|CZM71088.1| DNA replication protein [Legionella pneumophila] &gt;gi|999686070|emb|CZN94060.1| DNA replication protein [Legionella pneumophila] &gt;gi|999689590|emb|CZN09039.1| DNA replication protein [Legionella pneumophila] &gt;gi|999692601|emb|CZN82719.1| DNA replication protein [Legionella pneumophila] &gt;gi|999696001|emb|CZM99909.1| DNA replication protein [Legionella pneumophila] &gt;gi|999698193|emb|CZM31791.1| DNA replication protein [Legionella pneumophila] &gt;gi|999702522|emb|CZM45387.1| DNA replication protein [Legionella pneumophila] &gt;gi|999705608|emb|CZL57880.1| DNA replication protein [Legionella pneumophila] &gt;gi|999708632|emb|CZN40441.1| DNA replication protein [Legionella pneumophila] &gt;gi|999711884|emb|CZM85331.1| DNA replication protein [Legionella pneumophila] &gt;gi|999715433|emb|CZM90331.1| DNA replication protein [Legionella pneumophila] &gt;gi|999718476|emb|CZO26252.1| DNA replication protein [Legionella pneumophila] &gt;gi|999721450|emb|CZM69207.1| DNA replication protein [Legionella pneumophila] &gt;gi|999724790|emb|CZN19069.1| DNA replication protein [Legionella pneumophila] &gt;gi|999728129|emb|CZL88049.1| DNA replication protein [Legionella pneumophila] &gt;gi|999731683|emb|CZO22680.1| DNA replication protein [Legionella pneumophila] &gt;gi|999734932|emb|CZM01349.1| DNA replication protein [Legionella pneumophila] &gt;gi|999738166|emb|CZO46561.1| DNA replication protein [Legionella pneumophila] &gt;gi|999741134|emb|CZM26940.1| DNA replication protein [Legionella pneumophila] &gt;gi|999744564|emb|CZN06047.1| DNA replication protein [Legionella pneumophila] &gt;gi|999747961|emb|CZM01888.1| DNA replication protein [Legionella pneumophila] &gt;gi|999750856|emb|CZL81372.1| DNA replication protein [Legionella pneumophila] &gt;gi|999754066|emb|CZM70234.1| DNA replication protein [Legionella pneumophila] &gt;gi|999757409|emb|CZM82162.1| DNA replication protein [Legionella pneumophila] &gt;gi|999760444|emb|CZM17207.1| DNA replication protein [Legionella pneumophila] &gt;gi|999763841|emb|CZN09098.1| DNA replication protein [Legionella pneumophila] &gt;gi|999767038|emb|CZM54947.1| DNA replication protein [Legionella pneumophila] &gt;gi|999769873|emb|CZN42010.1| DNA replication protein [Legionella pneumophila] &gt;gi|999773577|emb|CZH74905.1| DNA replication protein [Legionella pneumophila] &gt;gi|999776511|emb|CZL88154.1| DNA replication protein [Legionella pneumophila] &gt;gi|999783375|emb|CZH48976.1| DNA replication protein [Legionella pneumophila] &gt;gi|999786551|emb|CZM16355.1| DNA replication protein [Legionella pneumophila] &gt;gi|999789858|emb|CZO50652.1| DNA replication protein [Legionella pneumophila] &gt;gi|999793195|emb|CZO50342.1| DNA replication protein [Legionella pneumophila] &gt;gi|999796442|emb|CZI07097.1| DNA replication protein [Legionella pneumophila] &gt;gi|999799607|emb|CZO59781.1| DNA replication protein [Legionella pneumophila] &gt;gi|1003035449|emb|CZR22769.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842703</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>741.88</Hsp_bit-score>
+      <Hsp_score>1914</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>358</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLHKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDL KKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|749507238|ref|WP_040147722.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|23305588|gb|AAN17183.1|AF492466_1 hypothetical protein [Legionella pneumophila 130b] &gt;gi|998781139|emb|CZJ42316.1| DNA replication protein [Legionella pneumophila] &gt;gi|998824313|emb|CZG46388.1| DNA replication protein [Legionella pneumophila] &gt;gi|998829432|emb|CZG77607.1| DNA replication protein [Legionella pneumophila] &gt;gi|998883296|emb|CZI75358.1| DNA replication protein [Legionella pneumophila] &gt;gi|998898863|emb|CZJ47034.1| DNA replication protein [Legionella pneumophila] &gt;gi|998936513|emb|CZM50559.1| DNA replication protein [Legionella pneumophila] &gt;gi|998952268|emb|CZJ34991.1| DNA replication protein [Legionella pneumophila] &gt;gi|999000445|emb|CZG78008.1| DNA replication protein [Legionella pneumophila] &gt;gi|999057989|emb|CZM56528.1| DNA replication protein [Legionella pneumophila] &gt;gi|999104140|emb|CZI04904.1| DNA replication protein [Legionella pneumophila] &gt;gi|999128751|emb|CZH01987.1| DNA replication protein [Legionella pneumophila] &gt;gi|999153828|emb|CZM16029.1| DNA replication protein [Legionella pneumophila] &gt;gi|999162916|emb|CZM04256.1| DNA replication protein [Legionella pneumophila] &gt;gi|999236354|emb|CZH06940.1| DNA replication protein [Legionella pneumophila] &gt;gi|1002085445|emb|CZQ99224.1| DNA replication protein [Legionella pneumophila] &gt;gi|1002088106|emb|CZQ79284.1| DNA replication protein [Legionella pneumophila] &gt;gi|1104007517|emb|SFZ47086.1| DNA replication protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_040147722</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>739.184</Hsp_bit-score>
+      <Hsp_score>1907</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTHPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGAKSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSNVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG +SIWFAFDVICNFPRSQLDYLEIADRFDNVFLS+VYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1119380401|ref|WP_072356498.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356498</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>738.028</Hsp_bit-score>
+      <Hsp_score>1904</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTPPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDRKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIAERFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLGRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MPVMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREED KGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIA+RFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYL RHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|506459836|ref|WP_015961736.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|53752434|emb|CAH13866.1| hypothetical protein lpp2713 [Legionella pneumophila str. Paris] &gt;gi|536611698|gb|ERB40216.1| ATPase [Legionella pneumophila str. 121004] &gt;gi|542000387|gb|ERH46374.1| ATPase [Legionella pneumophila str. Leg01/11] &gt;gi|542123176|gb|ERI49485.1| ATPase [Legionella pneumophila str. Leg01/20] &gt;gi|762000254|dbj|GAN27986.1| primosomal protein DnaI [Legionella pneumophila] &gt;gi|999173371|emb|CZH69340.1| DNA replication protein [Legionella pneumophila] &gt;gi|999182569|emb|CZG28265.1| DNA replication protein [Legionella pneumophila] &gt;gi|999188734|emb|CZI77504.1| DNA replication protein [Legionella pneumophila] &gt;gi|999213666|emb|CZG44547.1| DNA replication protein [Legionella pneumophila] &gt;gi|999217044|emb|CZI71539.1| DNA replication protein [Legionella pneumophila] &gt;gi|999225888|emb|CZG31764.1| DNA replication protein [Legionella pneumophila] &gt;gi|999361057|emb|CZI00239.1| DNA replication protein [Legionella pneumophila] &gt;gi|999374015|emb|CZG02537.1| DNA replication protein [Legionella pneumophila] &gt;gi|999377382|emb|CZI91912.1| DNA replication protein [Legionella pneumophila] &gt;gi|999380681|emb|CZH52592.1| DNA replication protein [Legionella pneumophila] &gt;gi|999383375|emb|CZI14598.1| DNA replication protein [Legionella pneumophila] &gt;gi|999387496|emb|CZG11896.1| DNA replication protein [Legionella pneumophila] &gt;gi|999390303|emb|CZI11878.1| DNA replication protein [Legionella pneumophila] &gt;gi|999397032|emb|CZG15389.1| DNA replication protein [Legionella pneumophila] &gt;gi|999406455|emb|CZG44676.1| DNA replication protein [Legionella pneumophila] &gt;gi|999409373|emb|CZH70732.1| DNA replication protein [Legionella pneumophila] &gt;gi|999412613|emb|CZG28480.1| DNA replication protein [Legionella pneumophila] &gt;gi|999416683|emb|CZG16066.1| DNA replication protein [Legionella pneumophila] &gt;gi|999419313|emb|CZG44528.1| DNA replication protein [Legionella pneumophila] &gt;gi|999422576|emb|CZH44098.1| DNA replication protein [Legionella pneumophila] &gt;gi|999426517|emb|CZG25662.1| DNA replication protein [Legionella pneumophila] &gt;gi|999429081|emb|CZG29132.1| DNA replication protein [Legionella pneumophila] &gt;gi|999432670|emb|CZG04260.1| DNA replication protein [Legionella pneumophila] &gt;gi|999435772|emb|CZH66593.1| DNA replication protein [Legionella pneumophila] &gt;gi|999438315|emb|CZG43915.1| DNA replication protein [Legionella pneumophila] &gt;gi|999442281|emb|CZJ85886.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila] &gt;gi|999445296|emb|CZH55497.1| DNA replication protein [Legionella pneumophila] &gt;gi|999448558|emb|CZG02535.1| DNA replication protein [Legionella pneumophila] &gt;gi|999458392|emb|CZJ91302.1| DNA replication protein [Legionella pneumophila] &gt;gi|999496987|emb|CZI09083.1| DNA replication protein [Legionella pneumophila] &gt;gi|999526362|emb|CZI62562.1| DNA replication protein [Legionella pneumophila] &gt;gi|999529244|emb|CZI18338.1| DNA replication protein [Legionella pneumophila] &gt;gi|999577036|emb|CZI01272.1| DNA replication protein [Legionella pneumophila] &gt;gi|999612337|emb|CZI05410.1| DNA replication protein [Legionella pneumophila] &gt;gi|1003031887|emb|CZR28501.1| DNA replication protein [Legionella pneumophila] &gt;gi|1041019629|gb|ANN96689.1| ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961736</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>737.643</Hsp_bit-score>
+      <Hsp_score>1903</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTPPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIAERFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIA+RFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|499535746|ref|WP_011216529.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|53755331|emb|CAH16827.1| hypothetical protein lpl2586 [Legionella pneumophila str. Lens] &gt;gi|1080003004|gb|AOW53576.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005250|gb|AOW55530.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008926|gb|AOW58914.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011407|gb|AOW60898.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015501|gb|AOW64374.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017651|gb|AOW66296.1| ATPase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216529</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>737.643</Hsp_bit-score>
+      <Hsp_score>1903</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKPPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGAKSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSNVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKK PIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG +SIWFAFDVICNFPRSQLDYLEIADRFDNVFLS+VYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1011910834|ref|WP_062725519.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062725519</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>737.258</Hsp_bit-score>
+      <Hsp_score>1902</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>355</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYHHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTHPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGAKSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSNVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFY HIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG +SIWFAFDVICNFPRSQLDYLEIADRFDNVFLS+VYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1003963883|ref|WP_061476813.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061476813</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>737.258</Hsp_bit-score>
+      <Hsp_score>1902</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTPPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYAARSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKY  RSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|653014230|ref|WP_027266279.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266279</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>735.717</Hsp_bit-score>
+      <Hsp_score>1898</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>355</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHLIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTHPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGAKSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSNVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKH IKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG +SIWFAFDVICNFPRSQLDYLEIADRFDNVFLS+VYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|500496237|ref|WP_011947572.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|148280379|gb|ABQ54467.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila str. Corby] &gt;gi|761996883|dbj|GAN31058.1| primosomal protein DnaI [Legionella pneumophila] &gt;gi|998802653|emb|CZH89843.1| DNA replication protein [Legionella pneumophila] &gt;gi|999004485|emb|CZI44574.1| DNA replication protein [Legionella pneumophila] &gt;gi|999151599|emb|CZH56453.1| DNA replication protein [Legionella pneumophila] &gt;gi|999158632|emb|CZJ91528.1| DNA replication protein [Legionella pneumophila] &gt;gi|999166086|emb|CZG70833.1| DNA replication protein [Legionella pneumophila] &gt;gi|999168341|emb|CZI52842.1| DNA replication protein [Legionella pneumophila] &gt;gi|999177448|emb|CZJ85568.1| DNA replication protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947572</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>734.947</Hsp_bit-score>
+      <Hsp_score>1896</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>354</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVISSNTHPDELYLNGVHRERFIPAIEIIKKDCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQIQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLV+SSNT PDELYLNGVHRERFIPAIEIIKK+CEVLNLNQKRDYRLGRQPLLEAYLYPLNEQ QEAMEKQFALITREEDCKGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|504657661|ref|WP_014844763.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|395131745|emb|CCD10038.1| putative ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|761987326|dbj|GAN24676.1| AFG1-like ATPase [Legionella pneumophila] &gt;gi|761990400|dbj|GAN18624.1| AFG1-like ATPase [Legionella pneumophila] &gt;gi|761993590|dbj|GAN21730.1| AFG1-like ATPase [Legionella pneumophila] &gt;gi|998790045|emb|CZH04027.1| DNA replication protein [Legionella pneumophila] &gt;gi|998892925|emb|CZJ09207.1| DNA replication protein [Legionella pneumophila] &gt;gi|998982052|emb|CZI89743.1| DNA replication protein [Legionella pneumophila] &gt;gi|999106922|emb|CZI83975.1| DNA replication protein [Legionella pneumophila] &gt;gi|999231196|emb|CZI61639.1| DNA replication protein [Legionella pneumophila] &gt;gi|1002082165|emb|CZQ96306.1| DNA replication protein [Legionella pneumophila] &gt;gi|1032658737|gb|ANH14008.1| ATPase [Legionella pneumophila] &gt;gi|1032661699|gb|ANH16969.1| ATPase [Legionella pneumophila] &gt;gi|1032664677|gb|ANH19946.1| ATPase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844763</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>733.021</Hsp_bit-score>
+      <Hsp_score>1891</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>354</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGQKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREADRKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLGRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQG+KNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITRE D KGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYL RHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|502866942|ref|WP_013101918.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|295650207|gb|ADG26054.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila 2300/99 Alcoy] &gt;gi|998912296|emb|CZG95713.1| DNA replication protein [Legionella pneumophila] &gt;gi|998993980|emb|CZI47744.1| DNA replication protein [Legionella pneumophila] &gt;gi|999286760|emb|CZI74668.1| DNA replication protein [Legionella pneumophila] &gt;gi|999293117|emb|CZI62774.1| DNA replication protein [Legionella pneumophila] &gt;gi|999302235|emb|CZI54865.1| DNA replication protein [Legionella pneumophila] &gt;gi|999312076|emb|CZI88550.1| DNA replication protein [Legionella pneumophila] &gt;gi|1002091785|emb|CZR06404.1| DNA replication protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101918</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>732.25</Hsp_bit-score>
+      <Hsp_score>1889</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHRYGVVLVISSNTHPDELYLNGVHRERFIPAIEIIKKDCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQIQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALH YGVVLV+SSNT PDELYLNGVHRERFIPAIEIIKK+CEVLNLNQKRDYRLGRQPLLEAYLYPLNEQ QEAMEKQFALITREEDCKGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|652974029|ref|WP_027226743.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|998924315|emb|CZJ96908.1| DNA replication protein [Legionella pneumophila] &gt;gi|998942560|emb|CZK06670.1| DNA replication protein [Legionella pneumophila] &gt;gi|998954611|emb|CZK42695.1| DNA replication protein [Legionella pneumophila] &gt;gi|998976162|emb|CZJ64992.1| DNA replication protein [Legionella pneumophila] &gt;gi|998991490|emb|CZK06808.1| DNA replication protein [Legionella pneumophila] &gt;gi|999009853|emb|CZK04111.1| DNA replication protein [Legionella pneumophila] &gt;gi|999018895|emb|CZJ60268.1| DNA replication protein [Legionella pneumophila] &gt;gi|999028007|emb|CZJ91745.1| DNA replication protein [Legionella pneumophila] &gt;gi|999031567|emb|CZG69235.1| DNA replication protein [Legionella pneumophila] &gt;gi|999034025|emb|CZJ96664.1| DNA replication protein [Legionella pneumophila] &gt;gi|999040232|emb|CZJ66729.1| DNA replication protein [Legionella pneumophila] &gt;gi|999043101|emb|CZJ78564.1| DNA replication protein [Legionella pneumophila] &gt;gi|999048944|emb|CZJ85364.1| DNA replication protein [Legionella pneumophila] &gt;gi|999052201|emb|CZJ67146.1| DNA replication protein [Legionella pneumophila] &gt;gi|999055181|emb|CZJ98295.1| DNA replication protein [Legionella pneumophila] &gt;gi|999064311|emb|CZJ77468.1| DNA replication protein [Legionella pneumophila] &gt;gi|999070134|emb|CZJ76034.1| DNA replication protein [Legionella pneumophila] &gt;gi|999073407|emb|CZK03672.1| DNA replication protein [Legionella pneumophila] &gt;gi|999085650|emb|CZJ98908.1| DNA replication protein [Legionella pneumophila] &gt;gi|999184526|emb|CZP93410.1| DNA replication protein [Legionella pneumophila] &gt;gi|999198334|emb|CZP07967.1| DNA replication protein [Legionella pneumophila] &gt;gi|999206411|emb|CZP58085.1| DNA replication protein [Legionella pneumophila] &gt;gi|999227826|emb|CZP39298.1| DNA replication protein [Legionella pneumophila] &gt;gi|999235075|emb|CZP53029.1| DNA replication protein [Legionella pneumophila] &gt;gi|999240571|emb|CZH76705.1| DNA replication protein [Legionella pneumophila] &gt;gi|999244240|emb|CZH72059.1| DNA replication protein [Legionella pneumophila] &gt;gi|999249450|emb|CZG79604.1| DNA replication protein [Legionella pneumophila] &gt;gi|999252917|emb|CZG92905.1| DNA replication protein [Legionella pneumophila] &gt;gi|999256178|emb|CZP74680.1| DNA replication protein [Legionella pneumophila] &gt;gi|999259225|emb|CZP40026.1| DNA replication protein [Legionella pneumophila] &gt;gi|999262127|emb|CZH05348.1| DNA replication protein [Legionella pneumophila] &gt;gi|999265431|emb|CZP03249.1| DNA replication protein [Legionella pneumophila] &gt;gi|999272101|emb|CZP52870.1| DNA replication protein [Legionella pneumophila] &gt;gi|999274370|emb|CZH09832.1| DNA replication protein [Legionella pneumophila] &gt;gi|999277808|emb|CZP30419.1| DNA replication protein [Legionella pneumophila] &gt;gi|999281486|emb|CZP21829.1| DNA replication protein [Legionella pneumophila] &gt;gi|999284134|emb|CZP49433.1| DNA replication protein [Legionella pneumophila] &gt;gi|999290863|emb|CZP28227.1| DNA replication protein [Legionella pneumophila] &gt;gi|999296737|emb|CZP49211.1| DNA replication protein [Legionella pneumophila] &gt;gi|999299976|emb|CZP26721.1| DNA replication protein [Legionella pneumophila] &gt;gi|999307181|emb|CZH66417.1| DNA replication protein [Legionella pneumophila] &gt;gi|999309567|emb|CZP20660.1| DNA replication protein [Legionella pneumophila] &gt;gi|999315947|emb|CZI02190.1| DNA replication protein [Legionella pneumophila] &gt;gi|999318968|emb|CZP57351.1| DNA replication protein [Legionella pneumophila] &gt;gi|999322220|emb|CZH92953.1| DNA replication protein [Legionella pneumophila] &gt;gi|999324906|emb|CZH12956.1| DNA replication protein [Legionella pneumophila] &gt;gi|999332864|emb|CZG02534.1| DNA replication protein [Legionella pneumophila] &gt;gi|999337975|emb|CZP43271.1| DNA replication protein [Legionella pneumophila] &gt;gi|999340759|emb|CZH00010.1| DNA replication protein [Legionella pneumophila] &gt;gi|999344139|emb|CZP91522.1| DNA replication protein [Legionella pneumophila] &gt;gi|999347427|emb|CZP59933.1| DNA replication protein [Legionella pneumophila] &gt;gi|999350115|emb|CZH27605.1| DNA replication protein [Legionella pneumophila] &gt;gi|999353754|emb|CZP53392.1| DNA replication protein [Legionella pneumophila] &gt;gi|999356863|emb|CZP75701.1| DNA replication protein [Legionella pneumophila] &gt;gi|999363229|emb|CZP71738.1| DNA replication protein [Legionella pneumophila] &gt;gi|999366992|emb|CZP72425.1| DNA replication protein [Legionella pneumophila] &gt;gi|999369590|emb|CZP86509.1| DNA replication protein [Legionella pneumophila] &gt;gi|999392506|emb|CZP95968.1| DNA replication protein [Legionella pneumophila] &gt;gi|999398754|emb|CZP99244.1| DNA replication protein [Legionella pneumophila] &gt;gi|999403246|emb|CZP46751.1| DNA replication protein [Legionella pneumophila] &gt;gi|999450823|emb|CZP31194.1| DNA replication protein [Legionella pneumophila] &gt;gi|999469964|emb|CZG81670.1| DNA replication protein [Legionella pneumophila] &gt;gi|999521375|emb|CZP45855.1| DNA replication protein [Legionella pneumophila] &gt;gi|999778507|emb|CZH02219.1| DNA replication protein [Legionella pneumophila] &gt;gi|1003028368|emb|CZR23409.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella pneumophila] &gt;gi|1005834329|gb|AMQ29055.1| ATPase [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434084|gb|AMV15711.1| AFG1-like ATPase [Legionella pneumophila] &gt;gi|1041016632|gb|ANN93693.1| ATPase [Legionella pneumophila] &gt;gi|1103997824|emb|SFZ47000.1| DNA replication protein [Legionella pneumophila] &gt;gi|1104000964|emb|SFZ47007.1| DNA replication protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226743</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>731.48</Hsp_bit-score>
+      <Hsp_score>1887</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>354</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTPPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDRKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIAERFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLGRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREED KGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIA+RFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYL RHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1004014460|ref|WP_061483731.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483731</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>729.554</Hsp_bit-score>
+      <Hsp_score>1882</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>350</Hsp_identity>
+      <Hsp_positive>357</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYDAAVHRGEIDSDPEQREILEHMQRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHINEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHRYGVVLVISSNTHPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYRLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQY+AA++RGEIDSDPEQREILEHMQRLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHI+EEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALH YGVVLV+SSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVY+LTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1005410823|ref|WP_061640055.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|998792855|emb|CZI70502.1| primosomal protein DnaI [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640055</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>728.398</Hsp_bit-score>
+      <Hsp_score>1879</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>354</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHSIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTPPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREADRKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIAERFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLGRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKH IKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITRE D KGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIA+RFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYL RHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1005404187|ref|WP_061637083.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|999327615|emb|CZH28831.1| DNA replication protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061637083</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>728.013</Hsp_bit-score>
+      <Hsp_score>1878</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>352</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMKRLAEDLQKKNDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTPPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDRKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIAERFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEKLYVKGEMKETFKRTLSRLIEMQSVDYLGRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAIYRGEIDSDPEQREILEHM+RLAEDLQKK+DSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREED KGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIA+RFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAE+LYVKGEMKETFKRTLSRLIEMQSVDYL RHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1004334785|ref|WP_061513710.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513710</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>725.702</Hsp_bit-score>
+      <Hsp_score>1872</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>355</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLIEQYEAAICRGEIDSDPEQREILEHMQRLADDLQKKNDSWFPWRKKHLIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDVQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDDLYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGARTIWFAFDVICNFPRSQLDYLEIADRFDNIFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLGRHPRRLLKEML</Hsp_hseq>
+      <Hsp_midline>MSLIEQYEAAI RGEIDSDPEQREILEHMQRLA+DLQKK+DSWFPWRKKH IKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQID QLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPD+LYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG R+IWFAFDVICNFPRSQLDYLEIADRFDN+FLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYL RHPRRL+KEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|654928543|ref|WP_028378974.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378974</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.924</Hsp_bit-score>
+      <Hsp_score>1857</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>353</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLIEQYKAAIQRGEIDSDPEQREILEHMQRLAEDLQK-NDSWFPWRKKRPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHRYGVVLVVSSNTHPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYFYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGARSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVREML</Hsp_hseq>
+      <Hsp_midline>M+LIEQY+AAI RGEIDSDPEQREILEHMQRLAEDLQK +DSWFPWRKK PIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALH YGVVLVVSSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAY YPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYG RSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLV+EML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652976392|ref|WP_027229064.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|985764670|gb|KXB25789.1| ATPase [Legionella pneumophila] &gt;gi|985767059|gb|KXB28154.1| ATPase [Legionella pneumophila] &gt;gi|999119121|emb|CZG87213.1| DNA replication protein [Legionella pneumophila] &gt;gi|999122246|emb|CZH20758.1| DNA replication protein [Legionella pneumophila] &gt;gi|1024339726|gb|KZX34065.1| ATPase [Legionella pneumophila] &gt;gi|1108606011|gb|APF04379.1| cell division protein ZapE [Legionella pneumophila subsp. fraseri] &gt;gi|1108608993|gb|APF07360.1| cell division protein ZapE [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229064</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>700.279</Hsp_bit-score>
+      <Hsp_score>1806</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>340</Hsp_identity>
+      <Hsp_positive>348</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLIEQYKAAIQRGEIDSDPGQREILEHMQRLAEDL-KKNVSWFPWGKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHRYGVVLVISSNTHPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYFYPLNEQTQEAMEKQFAAITQEEDRKGFITVQNRDIPYVKYGARSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSGVYKLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLIKEML</Hsp_hseq>
+      <Hsp_midline>M+LIEQY+AAI RGEIDSDP QREILEHMQRLAEDL KK+ SWFPW KKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALH YGVVLV+SSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAY YPLNEQTQEAMEKQFA IT+EED KGFITVQNRDIPY+KYG RSIWFAFDVICNFPRSQLDYLEIADRFDNVFLS VY+LTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRL+KEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|652969914|ref|WP_027222807.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella pneumophila] &gt;gi|1005362917|gb|AMP88786.1| ATPase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367820|gb|AMP93597.1| ATPase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370739|gb|AMP96515.1| ATPase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222807</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>696.041</Hsp_bit-score>
+      <Hsp_score>1795</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>338</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLIAQYEAAIQRGEIDRDPQQREILEHMQRLAEDLQKNV-SWFPWRKKHPTKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLLYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHRYGVVLVISSNTHPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYFYPLNERTQEAMEKQFAAISREEDRKGFITVQNRDIPYVKYGARSIWFAFDVICNFPRSQLDYLEIADRFDIVFLSDVYKLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_hseq>
+      <Hsp_midline>M+LI QYEAAI RGEID DP+QREILEHMQRLAEDLQK   SWFPWRKKHP KGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPL YIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALH YGVVLV+SSNT PDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAY YPLNE+TQEAMEKQFA I+REED KGFITVQNRDIPY+KYG RSIWFAFDVICNFPRSQLDYLEIADRFD VFLSDVY+LTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|737925559|ref|WP_035890747.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella norrlandica] &gt;gi|701445246|gb|KGP62641.1| ATPase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890747</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>628.246</Hsp_bit-score>
+      <Hsp_score>1619</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>326</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEM</Hsp_qseq>
+      <Hsp_hseq>MSLITYYEAAIRAGEINDESAQREILAHMQRLVEDLKKPESSWFRWKKKPPVSGLYIYGPVGVGKTYLVDLLYQYVEEENKARFHFHHFMQQIDSQLRRVQGKKNPLLYIAKEIAKSTRLLCFDEFLVHDVAYAMILAELLQALYKHGVVLVISSNTQPDDLYLNGVHRERFIPAIEIIKRNCEVLNLNLKRDYRLGRQPLLESYFYPLNEQTQEAMEKQFALTTQEEDRKGFITVQNRDIPYVKYGVRSIWFAFDVICNFPRSQLDYLEIADRFDNVFISGIHKLTENHTAQVIMFIHFIDIMYDRGIKVIVSADVSVEKLYTNGEMKETFKRTLSRLIEMQSVDYLSRHPHRLIKGM</Hsp_hseq>
+      <Hsp_midline>MSLI  YEAAI  GEI+ +  QREIL HMQRL EDL+K   SWF W+KK P+ GLYIYGPVGVGKTYLVDL YQ+++EE KARFHFHHFMQQID+QLRR+QGKKNPL YIAKE+AKS RLLCFDEFLVHDVAYAMILAELLQAL+ +GVVLV+SSNT+PD+LYLNGVHRERFIPAIEIIK+NCEVLNLN KRDYRLGRQPLLE+Y YPLNEQTQEAMEKQFAL T+EED KGFITVQNRDIPY+KYG RSIWFAFDVICNFPRSQLDYLEIADRFDNVF+S +++LTE+HTAQ IMFIHFID+MYDRGIK+I+SADV  E+LY  GEMKETFKRTLSRLIEMQSVDYLSRHP RL+K M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|769978694|ref|WP_045094679.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella fallonii] &gt;gi|698841936|emb|CEG55883.1| conserved protein of unknown function [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045094679</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>575.474</Hsp_bit-score>
+      <Hsp_score>1482</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MSLVNQYEAAISRGEIDNDPLQRELLVHMQRLNDELSQSESSWWRWWKNSSIKGLYVYGPVGVGKTYLVDLFFEHVAAQKKARFHFHHFMQQVDAQLRRLQGKKDPLQQVAKEIAKSIRLLCFDEFLVHDVAYAMILAELLQALNAQGVILVISSNTKPDELYLNGVQRARFMPAIELIKKNCDVFFLNEKRDYRLGREPLLEAYLYPLNELTEKKMQEQFLVLAKDVQKNGCITVQNRAIPYLQCDEKSIWFVFDVLCNLPRSQLDYLEIADKFDNIFISGIPRLTENHTAQTIMFIHFIDVMYDRGINVIISADVPAQELYVKGEMQETFKRTLSRLNEMQSVDYLRRHPRRIVKNML</Hsp_hseq>
+      <Hsp_midline>MSL+ QYEAAI RGEID+DP QRE+L HMQRL ++L +   SW+ W K   IKGLY+YGPVGVGKTYLVDLF++H+  +KKARFHFHHFMQQ+DAQLRRLQGKK+PLQ +AKE+AKSIRLLCFDEFLVHDVAYAMILAELLQAL+  GV+LV+SSNT+PDELYLNGV R RF+PAIE+IKKNC+V  LN+KRDYRLGR+PLLEAYLYPLNE T++ M++QF ++ ++    G ITVQNR IPY++   +SIWF FDV+CN PRSQLDYLEIAD+FDN+F+S + +LTE+HTAQ IMFIHFIDVMYDRGI +IISADVPA+ELYVKGEM+ETFKRTLSRL EMQSVDYL RHPRR+VK ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|962268710|gb|KTD52726.1|</Hit_id>
+  <Hit_def>ATPase N2B (nucleotide (GTP) binding protein) [Legionella quateirensis]</Hit_def>
+  <Hit_accession>KTD52726</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.525</Hsp_bit-score>
+      <Hsp_score>1438</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>TMNLMKQYDAAIQRGEIEDDLNQREILVHMQRLADELTQYSQSWFQWLHKKSIKGLYIYGPVGVGKTYLVDLFYQHIEEEKKARFHFHHFMQQIDYKLRQLQGRKDPLRQIAKEIAKSTRLLCFDEFLVHDVAYAMILAELFQALNTHGVILVISSNTRPDDLYLDGVHRERFLPAIDIIKNDCEVLKLPEKKDYRMGHQPLLDAYLYPLNDQTERDMEQQFQLLAKDFKSSGSIVIQSREIPYIKYSSQTIWFSFDVICNLPRSQLDYLELADRFNTIFVSGIPCLTVNHTLQAIMFIHFIDVMYDRGINIIISAEVPVDELYVQGEMKDTFKRTLSRLMEMQSVDYLGRHPRRIVQNMV</Hsp_hseq>
+      <Hsp_midline> M+L++QY+AAI RGEI+ D  QREIL HMQRLA++L + S SWF W  K  IKGLYIYGPVGVGKTYLVDLFYQHI+EEKKARFHFHHFMQQID +LR+LQG+K+PL+ IAKE+AKS RLLCFDEFLVHDVAYAMILAEL QAL+ +GV+LV+SSNTRPD+LYL+GVHRERF+PAI+IIK +CEVL L +K+DYR+G QPLL+AYLYPLN+QT+  ME+QF L+ ++    G I +Q+R+IPYIKY +++IWF+FDVICN PRSQLDYLE+ADRF+ +F+S +  LT +HT QAIMFIHFIDVMYDRGI +IISA+VP +ELYV+GEMK+TFKRTLSRL+EMQSVDYL RHPRR+V+ M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966432631|ref|WP_058473064.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058473064</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.14</Hsp_bit-score>
+      <Hsp_score>1437</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLMKQYDAAIQRGEIEDDLNQREILVHMQRLADELTQYSQSWFQWLHKKSIKGLYIYGPVGVGKTYLVDLFYQHIEEEKKARFHFHHFMQQIDYKLRQLQGRKDPLRQIAKEIAKSTRLLCFDEFLVHDVAYAMILAELFQALNTHGVILVISSNTRPDDLYLDGVHRERFLPAIDIIKNDCEVLKLPEKKDYRMGHQPLLDAYLYPLNDQTERDMEQQFQLLAKDFKSSGSIVIQSREIPYIKYSSQTIWFSFDVICNLPRSQLDYLELADRFNTIFVSGIPCLTVNHTLQAIMFIHFIDVMYDRGINIIISAEVPVDELYVQGEMKDTFKRTLSRLMEMQSVDYLGRHPRRIVQNMV</Hsp_hseq>
+      <Hsp_midline>M+L++QY+AAI RGEI+ D  QREIL HMQRLA++L + S SWF W  K  IKGLYIYGPVGVGKTYLVDLFYQHI+EEKKARFHFHHFMQQID +LR+LQG+K+PL+ IAKE+AKS RLLCFDEFLVHDVAYAMILAEL QAL+ +GV+LV+SSNTRPD+LYL+GVHRERF+PAI+IIK +CEVL L +K+DYR+G QPLL+AYLYPLN+QT+  ME+QF L+ ++    G I +Q+R+IPYIKY +++IWF+FDVICN PRSQLDYLE+ADRF+ +F+S +  LT +HT QAIMFIHFIDVMYDRGI +IISA+VP +ELYV+GEMK+TFKRTLSRL+EMQSVDYL RHPRR+V+ M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|654932945|ref|WP_028383302.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella moravica] &gt;gi|962250714|gb|KTD34915.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383302</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.288</Hsp_bit-score>
+      <Hsp_score>1427</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLMKQYEAAIQRGEIEDDLNQREILIHMQLLADELTQDSKSWFQWPRKRSIKGLYLYGPVGVGKTYLVDLFYQYIDEKKKARFHFHHFMQQIDYKLRQFQGRRDPLRHIAKEIAQSTRLLCFDEFLVHDVAYAMILAELFQALNTHGVILVISSNTSPDDLYLNGVHRERFLPAIEIIKNNCEVLKIPEKKDYRIGHQPLLDAYLYPLNDQTEHAMEQQFRLLVKEYTLNGSIVIQSRDIPYLKHGSQTIWFSFDVICNLPRSQLDYLELAEQFNTIFVSGIPCLTVNHTLQTIMFIHFIDVMYDRGINIIMSAEVPVEELYVQGEMKDTFKRTLSRLMEMQSVDYLARHPRRIVQNMI</Hsp_hseq>
+      <Hsp_midline>M+L++QYEAAI RGEI+ D  QREIL HMQ LA++L + S SWF W +K  IKGLY+YGPVGVGKTYLVDLFYQ+IDE+KKARFHFHHFMQQID +LR+ QG+++PL++IAKE+A+S RLLCFDEFLVHDVAYAMILAEL QAL+ +GV+LV+SSNT PD+LYLNGVHRERF+PAIEIIK NCEVL + +K+DYR+G QPLL+AYLYPLN+QT+ AME+QF L+ +E    G I +Q+RDIPY+K+G+++IWF+FDVICN PRSQLDYLE+A++F+ +F+S +  LT +HT Q IMFIHFIDVMYDRGI +I+SA+VP EELYV+GEMK+TFKRTLSRL+EMQSVDYL+RHPRR+V+ M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|493927301|ref|WP_006872050.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella drancourtii] &gt;gi|363536433|gb|EHL29875.1| hypothetical protein LDG_8167 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872050</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>542.347</Hsp_bit-score>
+      <Hsp_score>1396</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTLMTEYDAAIERGEINDDPLQRDILIHMERLADNLKKANSSWFSRIHKPHIKGLYIYGPVGAGKTYLVDLFYDHVAEPKKARFHFHHFMQQIDAQLRRLQGQKDPLRQIAKKLAKSIRVLCFDEFLVHDVAYAMILAELLQALIAQGVILVISSNMLPNDLYKNGVHRARFLPAIAAINQNCDVLNLNEQRDYRIGREPLVDAYLHPLNAQTKQTMAHQFAQLAGAFEEQGFIVIQNRDIPYLQCGKVSIWFAFDVLCNLPRSQLDYLEIADKYDNIFVSDVPVLTENHTLQTIMFIHFIDVMYDRGINIIISAAVPVAELYVKGELAETFKRTLSRLIEMQSVDYLNRHPKRQVQEMV</Hsp_hseq>
+      <Hsp_midline>M+L+ +Y+AAI RGEI+ DP QR+IL HM+RLA++L+K + SWF    K  IKGLYIYGPVG GKTYLVDLFY H+ E KKARFHFHHFMQQIDAQLRRLQG+K+PL+ IAK++AKSIR+LCFDEFLVHDVAYAMILAELLQAL   GV+LV+SSN  P++LY NGVHR RF+PAI  I +NC+VLNLN++RDYR+GR+PL++AYL+PLN QT++ M  QFA +    + +GFI +QNRDIPY++ G  SIWFAFDV+CN PRSQLDYLEIAD++DN+F+SDV  LTE+HT Q IMFIHFIDVMYDRGI +IISA VP  ELYVKGE+ ETFKRTLSRLIEMQSVDYL+RHP+R V+EM+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|962197129|gb|KTC82173.1|</Hit_id>
+  <Hit_def>ATPase [Legionella cherrii]</Hit_def>
+  <Hit_accession>KTC82173</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.421</Hsp_bit-score>
+      <Hsp_score>1391</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>312</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MMNLISQYEAAIHRCEIDDDPLQREILAQMQYVADEVKKSNSFWFYPLRKTRIKGVYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHHFMQQVDSQLRRVQGQKNPLRKIAKELAKTTRVLCFDEFMVHDVAYAMILAELLQALIANGVILVISSNIPPDELYRNGVHRKRFLPAITAIKEHCEVLHLNEQRDYRVGRAPLLDAYLFPLNEQTALTMEKQFTMLTKEFKENGFITIQNREIPYLKIAEQSIWFSFDVLCNLPRSQLDYLELADKFDTIFLSNIPSLTVNHTLQAIMFIHFIDVMYDRGINIIISAEVAVEELYVEGEMKETFKRTLSRLLEMQSVDYLARHPKRKLKELI</Hsp_hseq>
+      <Hsp_midline>+M+LI QYEAAI+R EID DP QREIL  MQ +A++++K +  WF   +K  IKG+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFHHFMQQ+D+QLRR+QG+KNPL+ IAKE+AK+ R+LCFDEF+VHDVAYAMILAELLQAL   GV+LV+SSN  PDELY NGVHR+RF+PAI  IK++CEVL+LN++RDYR+GR PLL+AYL+PLNEQT   MEKQF ++T+E    GFIT+QNR+IPY+K   +SIWF+FDV+CN PRSQLDYLE+AD+FD +FLS++  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  EELYV+GEMKETFKRTLSRL+EMQSVDYL+RHP+R +KE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|654930382|ref|WP_028380751.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380751</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.65</Hsp_bit-score>
+      <Hsp_score>1389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>311</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLISQYEAAIHRCEIDDDPLQREILAQMQYVADEVKKSNSFWFYPLRKTRIKGVYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHHFMQQVDSQLRRVQGQKNPLRKIAKELAKTTRVLCFDEFMVHDVAYAMILAELLQALIANGVILVISSNIPPDELYRNGVHRKRFLPAITAIKEHCEVLHLNEQRDYRVGRAPLLDAYLFPLNEQTALTMEKQFTMLTKEFKENGFITIQNREIPYLKIAEQSIWFSFDVLCNLPRSQLDYLELADKFDTIFLSNIPSLTVNHTLQAIMFIHFIDVMYDRGINIIISAEVAVEELYVEGEMKETFKRTLSRLLEMQSVDYLARHPKRKLKELI</Hsp_hseq>
+      <Hsp_midline>M+LI QYEAAI+R EID DP QREIL  MQ +A++++K +  WF   +K  IKG+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFHHFMQQ+D+QLRR+QG+KNPL+ IAKE+AK+ R+LCFDEF+VHDVAYAMILAELLQAL   GV+LV+SSN  PDELY NGVHR+RF+PAI  IK++CEVL+LN++RDYR+GR PLL+AYL+PLNEQT   MEKQF ++T+E    GFIT+QNR+IPY+K   +SIWF+FDV+CN PRSQLDYLE+AD+FD +FLS++  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  EELYV+GEMKETFKRTLSRL+EMQSVDYL+RHP+R +KE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966460890|ref|WP_058493319.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella worsleiensis] &gt;gi|962296382|gb|KTD80023.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493319</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>537.339</Hsp_bit-score>
+      <Hsp_score>1383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>259</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLIKQYEAAIQRSEIQDDENQREILISMQRLADELACDCKSWFRWPGQKKIKGLYIYGPVGVGKTYLVDLFFQFIAEEKKARFHFHHFMQQIDFQLRQLQGRKDPLRLIAKKMAKSIRLLCFDEFLVHDVAYAMILAELFQALHAHGVILVVSSNTSPDDLYRNGVHRERFLPAIEIIKNDCEVIKIPEKKDYRIGHQPLLDAYLYPLGEQTEQKMKQQFQFFTQEFSVHGTLVIQSRDIPYIQCGAQTIWFSFDVICNLPRSQLDYLELADRFDTIFVSGIPCLTENHTLQTIMFIHFIDVMYDRGINVIMSADVPVEELYIQGEMKDTFKRTLSRLMEMQSVDYLGRHPRRIVHNML</Hsp_hseq>
+      <Hsp_midline>M+LI+QYEAAI R EI  D  QREIL  MQRLA++L     SWF W  +  IKGLYIYGPVGVGKTYLVDLF+Q I EEKKARFHFHHFMQQID QLR+LQG+K+PL+ IAK+MAKSIRLLCFDEFLVHDVAYAMILAEL QALH +GV+LVVSSNT PD+LY NGVHRERF+PAIEIIK +CEV+ + +K+DYR+G QPLL+AYLYPL EQT++ M++QF   T+E    G + +Q+RDIPYI+ G ++IWF+FDVICN PRSQLDYLE+ADRFD +F+S +  LTE+HT Q IMFIHFIDVMYDRGI +I+SADVP EELY++GEMK+TFKRTLSRL+EMQSVDYL RHPRR+V  ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966516866|ref|WP_058533360.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533360</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.954</Hsp_bit-score>
+      <Hsp_score>1382</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEM</Hsp_qseq>
+      <Hsp_hseq>MTLTAYYDAAIERGEINDDPLQRDILAHMERLANDLEKANTSWFSWIRKPHIQGLYIYGPVGAGKTYLVDLFYDHIAESQKARFHFHHFMQQVDAQLRRLQGQKDPLQHVAKKLSKSIRVLCFDEFLVHDVAYAMILAELLQALIAHGVILVISSNTKPDDLYKNGVHRKRFLPAITAINKNCQVLNLNELRDYRVGREPLVDAYLFPLSPQTQEKMKQQFLSLATPTQGPGEILIQNRDIPYLERGDKSIWFDFNVVCNLPRSQLDYLELADKFDSIFISGVPELTENHTLQTIMFIHFIDVMYDRGVNIIISAAVPIEQLYLKGELLEMFKRTRSRLMEMQSVDYLSRHPKREVQEM</Hsp_hseq>
+      <Hsp_midline>M+L   Y+AAI RGEI+ DP QR+IL HM+RLA DL+K + SWF W +K  I+GLYIYGPVG GKTYLVDLFY HI E +KARFHFHHFMQQ+DAQLRRLQG+K+PLQ++AK+++KSIR+LCFDEFLVHDVAYAMILAELLQAL  +GV+LV+SSNT+PD+LY NGVHR+RF+PAI  I KNC+VLNLN+ RDYR+GR+PL++AYL+PL+ QTQE M++QF  +       G I +QNRDIPY++ G +SIWF F+V+CN PRSQLDYLE+AD+FD++F+S V +LTE+HT Q IMFIHFIDVMYDRG+ +IISA VP E+LY+KGE+ E FKRT SRL+EMQSVDYLSRHP+R V+EM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966426207|ref|WP_058468745.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Fluoribacter gormanii] &gt;gi|962216863|gb|KTD01617.1| ATPase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468745</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>536.569</Hsp_bit-score>
+      <Hsp_score>1381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLITQYEAAIHRGDIDDDPLQRIILTHLECLANSVKKSNSSWFYPLIKPRIKGIYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHHFMQQVDAQLRRLQGQKNPLRQIAKELAKKTRVLCFDEFMVHDVAYAMILAELLQSLIAYGVILVISSNIPPDDLYRNGVHRKRFLPAIAAIKEHCEVLHLNEQRDYRVGRAPLLDAYLFPLNEHTTSVMEQQFTLLTREFKENGTITIQNREIPYLKLAEQSIWFAFDILCNLPRSQLDYLEIADKFDTIFLSNIPALTANHTLQTIMFIHFIDVMYDRGINIIISAEVAVEELYVEGEMQETFKRTLSRLLEMQSVDYLARHPKRQLKELI</Hsp_hseq>
+      <Hsp_midline>M+LI QYEAAI+RG+ID DP QR IL H++ LA  ++K + SWF    K  IKG+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFHHFMQQ+DAQLRRLQG+KNPL+ IAKE+AK  R+LCFDEF+VHDVAYAMILAELLQ+L  YGV+LV+SSN  PD+LY NGVHR+RF+PAI  IK++CEVL+LN++RDYR+GR PLL+AYL+PLNE T   ME+QF L+TRE    G IT+QNR+IPY+K   +SIWFAFD++CN PRSQLDYLEIAD+FD +FLS++  LT +HT Q IMFIHFIDVMYDRGI +IISA+V  EELYV+GEM+ETFKRTLSRL+EMQSVDYL+RHP+R +KE++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1113342050|gb|OJW05927.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW05927</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTNVLTQYEAAIHRGEIDDDMLQREILARMQYLADEVKKSNSSWFYPFMKTRVKGVYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHHFMQQIDSQLRRLQGQKNPLRKIAKELAKTTRLLCFDEFMVHDVAYAMILAELLQALIAHGVILVISSNIPPDDLYRNGVHRKRFLPAIAAIKENCEVLHLNEQRDYRVGRAPLLDAYLFPLNEQTSLIMEKQFALLASEFRENGFITIQNRDIPYLKCAEKSIWFAFDILCNLPRSQLDYLELADKFDTIFLSNIPSLTVNHTLQAIMFIHFIDVMYDRGINIIISAEVALDELYVEGEMKETYMRTLSRLQEMQSVDYLARHPKRELKELL</Hsp_hseq>
+      <Hsp_midline>+ +++ QYEAAI+RGEID D  QREIL  MQ LA++++K + SWF    K  +KG+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFHHFMQQID+QLRRLQG+KNPL+ IAKE+AK+ RLLCFDEF+VHDVAYAMILAELLQAL  +GV+LV+SSN  PD+LY NGVHR+RF+PAI  IK+NCEVL+LN++RDYR+GR PLL+AYL+PLNEQT   MEKQFAL+  E    GFIT+QNRDIPY+K   +SIWFAFD++CN PRSQLDYLE+AD+FD +FLS++  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  +ELYV+GEMKET+ RTLSRL EMQSVDYL+RHP+R +KE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966439719|ref|WP_058480042.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella waltersii] &gt;gi|962295615|gb|KTD79260.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480042</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MNLLMVYEEAVKRGDIDKNPAQVLIIEHMQRVAADLENSQKSWIPWRRSASVKGLYLYGPVGVGKTYLVDLFYENVSEPKKGRFHFHHFMQQIDAQLRKFQGQKDPLRQIAKEISNSIRLLCFDEFLVHDVAYAMILAELLQALHLHGVTLVISSNTHPDDLYKNGVHRKRFLPAIKLIKKECEVLNLHLNKDYRLGREPLLETYLYPLNESTQATLDRQYKHLAKGDEFNGAITVQNREIPYLRCHSNVIWFDFNLICNSPRSQLDYLEIAERFDAVFVSGIPKLTENHTVQAIMFIHFIDVMYDRGIKVVLSAEVSVQELYLKGEMKETFKRTLSRLLEMQSVDYLARHPKRSVKAIV</Hsp_hseq>
+      <Hsp_midline>M+L+  YE A+ RG+ID +P Q  I+EHMQR+A DL+    SW PWR+   +KGLY+YGPVGVGKTYLVDLFY+++ E KK RFHFHHFMQQIDAQLR+ QG+K+PL+ IAKE++ SIRLLCFDEFLVHDVAYAMILAELLQALH +GV LV+SSNT PD+LY NGVHR+RF+PAI++IKK CEVLNL+  +DYRLGR+PLLE YLYPLNE TQ  +++Q+  + + ++  G ITVQNR+IPY++  +  IWF F++ICN PRSQLDYLEIA+RFD VF+S + +LTE+HT QAIMFIHFIDVMYDRGIK+++SA+V  +ELY+KGEMKETFKRTLSRL+EMQSVDYL+RHP+R VK ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966493788|ref|WP_058510576.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella steelei] &gt;gi|962284724|gb|KTD68490.1| ATPase [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058510576</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTNVLTQYEAAIHRGEIDDDMLQREILARMQYLADEVKKSNSSWFYPFMKTRVKGVYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHHFMQQIDSQLRRLQGQKNPLRKIAKELAKTTRLLCFDEFMVHDVAYAMILAELLQALIAHGVILVISSNIPPDDLYRNGVHRKRFLPAIAAIKENCEVLHLNEQRDYRVGRAPLLDAYLFPLNEQTSLIMEKQFALLASEFRENGFITIQNRDIPYLKCAEKSIWFAFDILCNLPRSQLDYLELADKFDTIFLSNIPSLTVNHTLQTIMFIHFIDVMYDRGINIIISAEVALDELYVEGEMKETYMRTLSRLQEMQSVDYLARHPKRELKELL</Hsp_hseq>
+      <Hsp_midline>+ +++ QYEAAI+RGEID D  QREIL  MQ LA++++K + SWF    K  +KG+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFHHFMQQID+QLRRLQG+KNPL+ IAKE+AK+ RLLCFDEF+VHDVAYAMILAELLQAL  +GV+LV+SSN  PD+LY NGVHR+RF+PAI  IK+NCEVL+LN++RDYR+GR PLL+AYL+PLNEQT   MEKQFAL+  E    GFIT+QNRDIPY+K   +SIWFAFD++CN PRSQLDYLE+AD+FD +FLS++  LT +HT Q IMFIHFIDVMYDRGI +IISA+V  +ELYV+GEMKET+ RTLSRL EMQSVDYL+RHP+R +KE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|671586708|ref|WP_031563102.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563102</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>532.332</Hsp_bit-score>
+      <Hsp_score>1370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTNLITHYEEAIQRRDIDDDPLQREILQSMQRLADEVKKSSSSWLNLFMKHRIKGVYLYGPVGVGKTYLIDLFYEGLEEKKKARFHFHHFMQQVDAQLRRLQGEKNPLRHIAKELAKKIRVLCFDEFMVHDVAYAMILAELLQALIEQGVILVISSNIAPDDLYRDGVHRKRFLPAIAAIKNNSEVLYLNEQRDYRIGRTPLFDAYLYPLNDKTTQTMEKQFSLLANEYQENGVLLIQNREIPYLKCGEKTIWFAFEILCNLPRSQLDYLELADKFDTIFLSNIPVLTANHTLQAIMFIHFIDVMYDRGINIIISAEVPVKELYTEGEMKETFKRTLSRLLEMQSVDYLARHPKRELKEFL</Hsp_hseq>
+      <Hsp_midline>+ +LI  YE AI R +ID DP QREIL+ MQRLA++++K S SW     KH IKG+Y+YGPVGVGKTYL+DLFY+ ++E+KKARFHFHHFMQQ+DAQLRRLQG+KNPL++IAKE+AK IR+LCFDEF+VHDVAYAMILAELLQAL   GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK N EVL LN++RDYR+GR PL +AYLYPLN++T + MEKQF+L+  E    G + +QNR+IPY+K G ++IWFAF+++CN PRSQLDYLE+AD+FD +FLS++  LT +HT QAIMFIHFIDVMYDRGI +IISA+VP +ELY +GEMKETFKRTLSRL+EMQSVDYL+RHP+R +KE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|653018968|ref|WP_027270923.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella sainthelensi] &gt;gi|962274587|gb|KTD58518.1| ATPase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027270923</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>531.176</Hsp_bit-score>
+      <Hsp_score>1367</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWF-PWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTLINQYETAVARGEIVDDPLQRDILQHFQRLTEEIKKSNSSWFYPWRKSR-VKGIYLYGPVGVGKTYLVDLFYEFLEEKKKARFHFHHFMQQVDAQLRLLQGQKNPLLQIAKKLAKNTRILCFDEFMVHDVAYAMILAELLKALVAHGVILVISSNIPPDDLYRDGVHRKRFLPAIAAIKENCEVLYLNEQRDYRIGRAPLLDAYLCPLNQHTSQAMEKQFVLLNSEFQEHGIITIQKRTIPYLKCGIKSIWFAFDILCNLPRSQLDYLELADKFDTIFVSDVPALTVNHTLQTIMFIHFIDVMYDRGINIILSAEVTAEQLYVEGEMVETFKRTLSRLLEMQSVDYLARHPKRELQELI</Hsp_hseq>
+      <Hsp_midline>M+LI QYE A+ RGEI  DP QR+IL+H QRL E+++K + SWF PWRK   +KG+Y+YGPVGVGKTYLVDLFY+ ++E+KKARFHFHHFMQQ+DAQLR LQG+KNPL  IAK++AK+ R+LCFDEF+VHDVAYAMILAELL+AL  +GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK+NCEVL LN++RDYR+GR PLL+AYL PLN+ T +AMEKQF L+  E    G IT+Q R IPY+K G +SIWFAFD++CN PRSQLDYLE+AD+FD +F+SDV  LT +HT Q IMFIHFIDVMYDRGI +I+SA+V AE+LYV+GEM ETFKRTLSRL+EMQSVDYL+RHP+R ++E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966466530|ref|WP_058497856.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella gratiana] &gt;gi|962230023|gb|KTD14619.1| ATPase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497856</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.02</Hsp_bit-score>
+      <Hsp_score>1364</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTLITQYEAAISRGEIDDDSVQRDMLQHFQRLADEVKTSNSSWLYPLIKTRIKGIYLYGPVGVGKTYLVDLFYEFLEEKKKARFHFHHFMQQVDAQLRVLQGQKNPLLQIAKKLAKQTRVLCFDEFMVHDVAYAMILAELLKALVARGVILVISSNIPPDDLYRDGVHRKRFLPAIAAIKENCEVLYLNEQRDYRVGRAPLLDAYLCPLNAQTSQAMEKQFMLLTHEFQDNGVITIQNRGIPYLKCGVKSIWFAFDILCNLPRSQLDYLELADKFDTIFLSDVPILTVNHTLQAIMFIHFIDVMYDRGINIIISAEVTAEKLYVEGEMQETFKRTLSRLLEMQSVDYLARHPKRELHELI</Hsp_hseq>
+      <Hsp_midline>M+LI QYEAAI RGEID D  QR++L+H QRLA++++  + SW     K  IKG+Y+YGPVGVGKTYLVDLFY+ ++E+KKARFHFHHFMQQ+DAQLR LQG+KNPL  IAK++AK  R+LCFDEF+VHDVAYAMILAELL+AL   GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK+NCEVL LN++RDYR+GR PLL+AYL PLN QT +AMEKQF L+T E    G IT+QNR IPY+K G +SIWFAFD++CN PRSQLDYLE+AD+FD +FLSDV  LT +HT QAIMFIHFIDVMYDRGI +IISA+V AE+LYV+GEM+ETFKRTLSRL+EMQSVDYL+RHP+R + E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966420705|ref|WP_058463906.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella cincinnatiensis] &gt;gi|962206966|gb|KTC91899.1| ATPase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463906</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.02</Hsp_bit-score>
+      <Hsp_score>1364</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTLITQYEAAVARGEIDDDSLQRGILQHFQRLAEEIKKSNSSWFYPLIKSRIKGIYLYGPVGVGKTYLVDLFYEFLEEKKKARFHFHHFMQQVDAQLRLLQGQKNPLLHIAKKLAKKTRILCFDEFMVHDVAYAMILAELLKALVAHGVILVISSNIPPDDLYRDGVHRKRFLPAITAIKENCEVLCLNEQRDYRVGRAPLLDAYLCPLNQQTSQAMEKQFVLLNSEFQEHGIITIQKRAIPYLKCGIKSIWFAFDILCNLPRSQLDYLELADKFDTIFLSDVPVLTVNHTLQTIMFIHLIDVMYDRGINIIISAEVTAEQLYVEGEMMETFKRTLSRLLEMQSVDYLARHPKRELQQLV</Hsp_hseq>
+      <Hsp_midline>M+LI QYEAA+ RGEID D  QR IL+H QRLAE+++K + SWF    K  IKG+Y+YGPVGVGKTYLVDLFY+ ++E+KKARFHFHHFMQQ+DAQLR LQG+KNPL +IAK++AK  R+LCFDEF+VHDVAYAMILAELL+AL  +GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK+NCEVL LN++RDYR+GR PLL+AYL PLN+QT +AMEKQF L+  E    G IT+Q R IPY+K G +SIWFAFD++CN PRSQLDYLE+AD+FD +FLSDV  LT +HT Q IMFIH IDVMYDRGI +IISA+V AE+LYV+GEM ETFKRTLSRL+EMQSVDYL+RHP+R +++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489729100|ref|WP_003633216.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella longbeachae] &gt;gi|269990026|gb|EEZ96280.1| AFG1 family ATPase [Legionella longbeachae D-4968] &gt;gi|288856905|emb|CBJ10719.1| putative predicted ATPase [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003633216</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.25</Hsp_bit-score>
+      <Hsp_score>1362</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWF-PWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTLLTQYESAVARGEIDDDSLQKQILLHFQRLAEEVKKSNSSWFYPWSKPR-IKGIYLYGPVGVGKTYLVDLFYEFLEEKKKARFHFHHFMQQVDAQLRLLQGQKNPLLQIAKKLARKTRVLCFDEFMVHDVAYAMILAELLKALVAHGVILVISSNIPPDDLYRDGVHRKRFLPAIAAIKENCEVLNLNEQRDYRIGREPLLDAYLCPLNQQTIQAMEKQFVLLNSEFQEHGIITIQKRAIPYLKCGIKSIWFAFDILCNLPRSQLDYLELADKFDTIFVSDVPVLTVNHTLQTIMFIHFIDVMYDRGINIIISAEVTAEQLYVEGEMIETFKRTLSRLLEMQSVDYLARHPKRELHELV</Hsp_hseq>
+      <Hsp_midline>M+L+ QYE+A+ RGEID D  Q++IL H QRLAE+++K + SWF PW K   IKG+Y+YGPVGVGKTYLVDLFY+ ++E+KKARFHFHHFMQQ+DAQLR LQG+KNPL  IAK++A+  R+LCFDEF+VHDVAYAMILAELL+AL  +GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK+NCEVLNLN++RDYR+GR+PLL+AYL PLN+QT +AMEKQF L+  E    G IT+Q R IPY+K G +SIWFAFD++CN PRSQLDYLE+AD+FD +F+SDV  LT +HT Q IMFIHFIDVMYDRGI +IISA+V AE+LYV+GEM ETFKRTLSRL+EMQSVDYL+RHP+R + E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966496218|ref|WP_058512984.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella santicrucis] &gt;gi|962282801|gb|KTD66577.1| ATPase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058512984</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.865</Hsp_bit-score>
+      <Hsp_score>1361</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MTLITQYEAAVARDEIDDDSLQRDILQHFQRLAEEIKKSNSSWFYPLIKSRIKGIYLYGPVGVGKTYLVDLFYEFLEEKRKARFHFHHFMQQVDAQLRLLQGQKNPLLQIAKKLAKKTRILCFDEFMVHDVAYAMILAELLKALVAHGVVLVISSNIPPDDLYRDGVHRKRFLPAIAAIKENCDVLCLNEQRDYRVGRAPLLDAYLCPLNQQTSEAMEKQFVLLNSEFQEHGIITIQKRAIPYLKCGVKSIWFAFDILCNLPRSQLDYLELADKFDTIFVSDVPVLTVNHTLQAIMFIHFIDVMYDRGINIIISAEVTAEQLYVEGEMIETFKRTLSRLLEMQSVDYLARHPKRELQELV</Hsp_hseq>
+      <Hsp_midline>M+LI QYEAA+ R EID D  QR+IL+H QRLAE+++K + SWF    K  IKG+Y+YGPVGVGKTYLVDLFY+ ++E++KARFHFHHFMQQ+DAQLR LQG+KNPL  IAK++AK  R+LCFDEF+VHDVAYAMILAELL+AL  +GVVLV+SSN  PD+LY +GVHR+RF+PAI  IK+NC+VL LN++RDYR+GR PLL+AYL PLN+QT EAMEKQF L+  E    G IT+Q R IPY+K G +SIWFAFD++CN PRSQLDYLE+AD+FD +F+SDV  LT +HT QAIMFIHFIDVMYDRGI +IISA+V AE+LYV+GEM ETFKRTLSRL+EMQSVDYL+RHP+R ++E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966436334|ref|WP_058476702.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella steigerwaltii] &gt;gi|962295004|gb|KTD78658.1| ATPase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476702</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>528.094</Hsp_bit-score>
+      <Hsp_score>1359</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKE</Hsp_qseq>
+      <Hsp_hseq>MTNLIAQYEAAIHRGDIDDDPLQRDILAQMQYLADEVKKSNSSWFYPLIKTRIRGVYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHHFMQQVDSQLRRLQGQKNPLRKIAKELAKTTRVLCFDEFMVHDVAYAMILAELLQALIANGVILVISSNIPPDDLYRNGVHRKRFLPAIAAIKENCDVLHLNEQKDYRVGRVPLLDAYLFPLNEHTALTMEKQFMLLAGEFKENGFITIQNREIPYLKLAEQSIWFAFDILCNLPRSQLDYLELADKFDTIFLSNIPSLTVNHTLQAIMFIHFIDVMYDRGINIIISAEVAVEKLYVEGEMKETFTRTLSRLLEMQSVDYLARHPKRELKE</Hsp_hseq>
+      <Hsp_midline>+ +LI QYEAAI+RG+ID DP QR+IL  MQ LA++++K + SWF    K  I+G+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFHHFMQQ+D+QLRRLQG+KNPL+ IAKE+AK+ R+LCFDEF+VHDVAYAMILAELLQAL   GV+LV+SSN  PD+LY NGVHR+RF+PAI  IK+NC+VL+LN+++DYR+GR PLL+AYL+PLNE T   MEKQF L+  E    GFIT+QNR+IPY+K   +SIWFAFD++CN PRSQLDYLE+AD+FD +FLS++  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  E+LYV+GEMKETF RTLSRL+EMQSVDYL+RHP+R +KE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|517403166|ref|WP_018576031.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella shakespearei] &gt;gi|962276119|gb|KTD60020.1| ATPase N2B (nucleotide (GTP) binding protein) [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576031</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>523.472</Hsp_bit-score>
+      <Hsp_score>1347</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEM</Hsp_qseq>
+      <Hsp_hseq>MTLLMAYEAAVQRGEINDDPSQKELLAQMQRLADELAEPT-SWFSWGKK-TIKGLYIYGPVGVGKTYLVDMFYHYVSEPKKARFHFHHFMQQIDFKLRQLQGQKDPLRLIAKEIAKSTRLLCFDEFLVHDVAYAMILAELFLALQSHGVILVISSNTKPDDLYLNGVQRDRFLPAIAFIKKDCDVIYLNINKDYRIGHTPLLDAYLYPLNAHTAEVMERQFNSLVTEVAIDGVITVQNREVAYLKCSDRTIWFAFDVLCNPPRSQLDYLEMAERFDTIFVSGLPCLTEKHTLQTIMFIHFIDVMYDRGIKIVISAAVPIDELYVKGEMKDTFKRTLSRLAEMQSVDYLSRHPRRVVHDM</Hsp_hseq>
+      <Hsp_midline>M+L+  YEAA+ RGEI+ DP Q+E+L  MQRLA++L + + SWF W KK  IKGLYIYGPVGVGKTYLVD+FY ++ E KKARFHFHHFMQQID +LR+LQG+K+PL+ IAKE+AKS RLLCFDEFLVHDVAYAMILAEL  AL  +GV+LV+SSNT+PD+LYLNGV R+RF+PAI  IKK+C+V+ LN  +DYR+G  PLL+AYLYPLN  T E ME+QF  +  E    G ITVQNR++ Y+K   R+IWFAFDV+CN PRSQLDYLE+A+RFD +F+S +  LTE HT Q IMFIHFIDVMYDRGIK++ISA VP +ELYVKGEMK+TFKRTLSRL EMQSVDYLSRHPRR+V +M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|962287627|gb|KTD71355.1|</Hit_id>
+  <Hit_def>ATPase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>KTD71355</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.161</Hsp_bit-score>
+      <Hsp_score>1341</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MMKLITQYEAAIHRGEIDDDPLQREILIRLQHLVDNVKKSNSSWLYPLIKSRVTGVYLYGPVGVGKTYLVDLFYDCLEEEKKARFHFHHFMQQVDARLRRLQGQKNPLRKIAKELAKTIRVLCFDEFMVHDVAYAMILAELLQALTANGVILVISSNIPPDDLYRDGVHRKRFLPAIAAIKAHCDVLYLNEQRDYRIGRTPLVDAYLFPLNEHTAQTMKKQFTLLASEFKENGVITIQNREIPYLKRAEKAIWFSFDILCNLPRSQLDYLELADKFDTIFLSRIPALTVNHTLQAIMFIHFIDVMYDRGINIIISAEVAVDELYTEGEMKETFKRTLSRLLEMQSVDYLARHPKRELKEFI</Hsp_hseq>
+      <Hsp_midline>+M LI QYEAAI+RGEID DP QREIL  +Q L ++++K + SW     K  + G+Y+YGPVGVGKTYLVDLFY  ++EEKKARFHFHHFMQQ+DA+LRRLQG+KNPL+ IAKE+AK+IR+LCFDEF+VHDVAYAMILAELLQAL   GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK +C+VL LN++RDYR+GR PL++AYL+PLNE T + M+KQF L+  E    G IT+QNR+IPY+K   ++IWF+FD++CN PRSQLDYLE+AD+FD +FLS +  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  +ELY +GEMKETFKRTLSRL+EMQSVDYL+RHP+R +KE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966505253|ref|WP_058521912.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521912</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.776</Hsp_bit-score>
+      <Hsp_score>1340</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MKLITQYEAAIHRGEIDDDPLQREILIRLQHLVDNVKKSNSSWLYPLIKSRVTGVYLYGPVGVGKTYLVDLFYDCLEEEKKARFHFHHFMQQVDARLRRLQGQKNPLRKIAKELAKTIRVLCFDEFMVHDVAYAMILAELLQALTANGVILVISSNIPPDDLYRDGVHRKRFLPAIAAIKAHCDVLYLNEQRDYRIGRTPLVDAYLFPLNEHTAQTMKKQFTLLASEFKENGVITIQNREIPYLKRAEKAIWFSFDILCNLPRSQLDYLELADKFDTIFLSRIPALTVNHTLQAIMFIHFIDVMYDRGINIIISAEVAVDELYTEGEMKETFKRTLSRLLEMQSVDYLARHPKRELKEFI</Hsp_hseq>
+      <Hsp_midline>M LI QYEAAI+RGEID DP QREIL  +Q L ++++K + SW     K  + G+Y+YGPVGVGKTYLVDLFY  ++EEKKARFHFHHFMQQ+DA+LRRLQG+KNPL+ IAKE+AK+IR+LCFDEF+VHDVAYAMILAELLQAL   GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK +C+VL LN++RDYR+GR PL++AYL+PLNE T + M+KQF L+  E    G IT+QNR+IPY+K   ++IWF+FD++CN PRSQLDYLE+AD+FD +FLS +  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  +ELY +GEMKETFKRTLSRL+EMQSVDYL+RHP+R +KE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|962260101|gb|KTD44216.1|</Hit_id>
+  <Hit_def>ATPase [Legionella parisiensis] &gt;gi|1069290690|gb|OEH46090.1| Cell division protein ZapE [Legionella parisiensis]</Hit_def>
+  <Hit_accession>KTD44216</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.39</Hsp_bit-score>
+      <Hsp_score>1339</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>357</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSW-FPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRR</Hsp_qseq>
+      <Hsp_hseq>MMNLITQYEAATHRGEIDDDPLQREILMRLQHLADSVRKSNSSWLYPFFKSQ-VKGVYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHQFMQQVDTRLRRLQGQKNPLRKIAKELAKTIRVLCFDEFMVHDVAYAMILAELLQALTAHGVILVISSNIPPDDLYRDGVHRKRFLPAIAAIKAHCDVLHLNEQRDYRVGRTPLLDAYLFPSNEQTAQTMEKQFALLAGEFKENGIITIQNREIPYLKRAEKVIWFSFDVLCNLPRSQLDYLELADRFDAIFLSNIPALTVNHTLQAIMFIHFIDVMYDRGINIIISAEVAVDELYTEGEMKETFKRTLSRLLEMQSVDYLARHPKR</Hsp_hseq>
+      <Hsp_midline>+M+LI QYEAA +RGEID DP QREIL  +Q LA+ ++K + SW +P+ K   +KG+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFH FMQQ+D +LRRLQG+KNPL+ IAKE+AK+IR+LCFDEF+VHDVAYAMILAELLQAL  +GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK +C+VL+LN++RDYR+GR PLL+AYL+P NEQT + MEKQFAL+  E    G IT+QNR+IPY+K   + IWF+FDV+CN PRSQLDYLE+ADRFD +FLS++  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  +ELY +GEMKETFKRTLSRL+EMQSVDYL+RHP+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966499761|ref|WP_058516434.1|</Hit_id>
+  <Hit_def>cell division protein ZapE [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516434</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.005</Hsp_bit-score>
+      <Hsp_score>1338</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>357</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>MSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSW-FPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRR</Hsp_qseq>
+      <Hsp_hseq>MNLITQYEAATHRGEIDDDPLQREILMRLQHLADSVRKSNSSWLYPFFKSQ-VKGVYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHQFMQQVDTRLRRLQGQKNPLRKIAKELAKTIRVLCFDEFMVHDVAYAMILAELLQALTAHGVILVISSNIPPDDLYRDGVHRKRFLPAIAAIKAHCDVLHLNEQRDYRVGRTPLLDAYLFPSNEQTAQTMEKQFALLAGEFKENGIITIQNREIPYLKRAEKVIWFSFDVLCNLPRSQLDYLELADRFDAIFLSNIPALTVNHTLQAIMFIHFIDVMYDRGINIIISAEVAVDELYTEGEMKETFKRTLSRLLEMQSVDYLARHPKR</Hsp_hseq>
+      <Hsp_midline>M+LI QYEAA +RGEID DP QREIL  +Q LA+ ++K + SW +P+ K   +KG+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFH FMQQ+D +LRRLQG+KNPL+ IAKE+AK+IR+LCFDEF+VHDVAYAMILAELLQAL  +GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK +C+VL+LN++RDYR+GR PLL+AYL+P NEQT + MEKQFAL+  E    G IT+QNR+IPY+K   + IWF+FDV+CN PRSQLDYLE+ADRFD +FLS++  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  +ELY +GEMKETFKRTLSRL+EMQSVDYL+RHP+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|962187097|gb|KTC72230.1|</Hit_id>
+  <Hit_def>ATPase [Legionella anisa]</Hit_def>
+  <Hit_accession>KTC72230</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.924</Hsp_bit-score>
+      <Hsp_score>1330</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>VMSLIEQYEAAIYRGEIDSDPEQREILEHMQRLAEDLQKKSDSWFPWRKKHPIKGLYIYGPVGVGKTYLVDLFYQHIDEEKKARFHFHHFMQQIDAQLRRLQGKKNPLQYIAKEMAKSIRLLCFDEFLVHDVAYAMILAELLQALHHYGVVLVVSSNTRPDELYLNGVHRERFIPAIEIIKKNCEVLNLNQKRDYRLGRQPLLEAYLYPLNEQTQEAMEKQFALITREEDCKGFITVQNRDIPYIKYGTRSIWFAFDVICNFPRSQLDYLEIADRFDNVFLSDVYQLTESHTAQAIMFIHFIDVMYDRGIKLIISADVPAEELYVKGEMKETFKRTLSRLIEMQSVDYLSRHPRRLVKEML</Hsp_qseq>
+      <Hsp_hseq>MMNVMTQYEAAVHRGEIDDDPLQRDILIRLQHLTNRVKKTNSSWLYPFIKSEVKGVYLYGPVGVGKTYLIDLFYDCLEEKKKARFHFHHFMQQVDTRLRRLQGQKNPLRKIAKELAKTIRVLCFDEFMVHDVAYAMILAELLQALTAHGVILVISSNMPPDDLYRDGVHRKRFLPAIAAIKAHCDVLYLNEQRDYRVGRTPLLDAYLFPLNEHTDQTMEKQFTLLAAEFKENGVITIQNREIPYLKLAEKAIWFSFDILCNLPRSQLDYLELADKFDTIFLSNIPVLTVNHTLQAIMFIHFIDVMYDRGINIIISAEVAVDALYTEGEMKETFKRTLSRLLEMQSVDYLARHPKRALQEFL</Hsp_hseq>
+      <Hsp_midline>+M+++ QYEAA++RGEID DP QR+IL  +Q L   ++K + SW     K  +KG+Y+YGPVGVGKTYL+DLFY  ++E+KKARFHFHHFMQQ+D +LRRLQG+KNPL+ IAKE+AK+IR+LCFDEF+VHDVAYAMILAELLQAL  +GV+LV+SSN  PD+LY +GVHR+RF+PAI  IK +C+VL LN++RDYR+GR PLL+AYL+PLNE T + MEKQF L+  E    G IT+QNR+IPY+K   ++IWF+FD++CN PRSQLDYLE+AD+FD +FLS++  LT +HT QAIMFIHFIDVMYDRGI +IISA+V  + LY +GEMKETFKRTLSRL+EMQSVDYL+RHP+R ++E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

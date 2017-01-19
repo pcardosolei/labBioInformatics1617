@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_11539</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834231</BlastOutput_query-def>
+  <BlastOutput_query-len>293</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_11539</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834231</Iteration_query-def>
+  <Iteration_query-len>293</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250826|ref|WP_010948366.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|52842872|ref|YP_096671.1| hydrolase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629983|gb|AAU28724.1| probable hydrolase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509377|gb|AEW52901.1| putative hydrolase [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948366</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>612.838</Hsp_bit-score>
+      <Hsp_score>1579</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>293</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_hseq>
+      <Hsp_midline>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119380405|ref|WP_072356502.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356502</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>608.986</Hsp_bit-score>
+      <Hsp_score>1569</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119427052|ref|WP_072402352.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402352</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>605.52</Hsp_bit-score>
+      <Hsp_score>1560</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLS</Hsp_hseq>
+      <Hsp_midline>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|505256880|ref|WP_015443982.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|469490610|gb|AGH52455.1| putative hydrolase [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083339|gb|AGN15587.1| hydrolase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772807|emb|CZI16530.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998775744|emb|CZG61508.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998778330|emb|CZG76182.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998784569|emb|CZG86992.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998787521|emb|CZG59825.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998796534|emb|CZI01891.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998800295|emb|CZL03967.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998805822|emb|CZK08116.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998808344|emb|CZH87366.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998811926|emb|CZH79810.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998814275|emb|CZG61457.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998817742|emb|CZL60404.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998820844|emb|CZL61618.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998826806|emb|CZK09073.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998832556|emb|CZI05983.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998835779|emb|CZK89043.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998837832|emb|CZJ71714.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998842318|emb|CZL14125.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998844736|emb|CZK29725.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998847687|emb|CZK67400.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998850226|emb|CZI36948.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998853791|emb|CZL26998.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998856487|emb|CZL33757.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998859810|emb|CZL74516.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998862654|emb|CZK18558.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998865380|emb|CZJ40590.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998869879|emb|CZJ36615.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998871074|emb|CZM17220.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998874562|emb|CZK39167.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998877451|emb|CZL99126.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998880518|emb|CZI86545.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998888052|emb|CZL51004.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998889213|emb|CZK22533.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998895495|emb|CZJ98762.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998906137|emb|CZK57241.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998909708|emb|CZL09995.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998915821|emb|CZK61317.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998918290|emb|CZK82109.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998921261|emb|CZL38152.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998927566|emb|CZL63409.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998930653|emb|CZK74940.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998933942|emb|CZL76498.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998939868|emb|CZK76065.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998945945|emb|CZK93810.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998948989|emb|CZK81942.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998958625|emb|CZM01937.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998961531|emb|CZK26291.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998964602|emb|CZK04500.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998966976|emb|CZM53645.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998970518|emb|CZK55068.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998973791|emb|CZK26192.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998979496|emb|CZL58979.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998985845|emb|CZJ98718.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998988725|emb|CZL48828.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998998013|emb|CZJ88047.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999007985|emb|CZK26671.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999012918|emb|CZL43541.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999016840|emb|CZL67980.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999022638|emb|CZL13848.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999025391|emb|CZK75083.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999037148|emb|CZL55287.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999046872|emb|CZL77822.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999061679|emb|CZL16177.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999067357|emb|CZJ17574.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999076919|emb|CZG59897.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999080263|emb|CZJ92592.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999082778|emb|CZK77398.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999090512|emb|CZK42130.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999092506|emb|CZL41638.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999095291|emb|CZG88625.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999098694|emb|CZG59208.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999101122|emb|CZL67110.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999110435|emb|CZL16183.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999113786|emb|CZL51016.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999116433|emb|CZK49842.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999126345|emb|CZK79875.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999131611|emb|CZL95750.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999134830|emb|CZL17902.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999138068|emb|CZK27008.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999141817|emb|CZL45471.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999144538|emb|CZK68552.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999147670|emb|CZL50889.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999175810|emb|CZL05514.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999191264|emb|CZI17102.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999194387|emb|CZI43031.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999200252|emb|CZG60019.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999203698|emb|CZI43030.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999210034|emb|CZK76381.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999219284|emb|CZL29751.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999222379|emb|CZI34346.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999335295|emb|CZK73174.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1002075574|emb|CZQ94491.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1002079080|emb|CZQ94978.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1003023051|emb|CZR20519.1| putative hydrolase [Legionella pneumophila] &gt;gi|1003026893|emb|CZR18281.1| putative hydrolase [Legionella pneumophila] &gt;gi|1073865708|gb|AOU05659.1| hydrolase [Legionella pneumophila] &gt;gi|1073868677|gb|AOU08627.1| hydrolase [Legionella pneumophila] &gt;gi|1073871672|gb|AOU11621.1| alpha/beta hydrolase [Legionella pneumophila] &gt;gi|1073874539|gb|AOU14487.1| alpha/beta hydrolase [Legionella pneumophila] &gt;gi|1073877597|gb|AOU17544.1| alpha/beta hydrolase [Legionella pneumophila] &gt;gi|1073880560|gb|AOU20506.1| alpha/beta hydrolase [Legionella pneumophila] &gt;gi|1073883557|gb|AOU23502.1| alpha/beta hydrolase [Legionella pneumophila] &gt;gi|1073886549|gb|AOU26493.1| hydrolase [Legionella pneumophila] &gt;gi|1073889518|gb|AOU29461.1| hydrolase [Legionella pneumophila] &gt;gi|1073892502|gb|AOU32444.1| hydrolase [Legionella pneumophila] &gt;gi|1073895470|gb|AOU35411.1| hydrolase [Legionella pneumophila] &gt;gi|1073898428|gb|AOU38368.1| hydrolase [Legionella pneumophila] &gt;gi|1073901394|gb|AOU41333.1| hydrolase [Legionella pneumophila] &gt;gi|1073904303|gb|AOU44241.1| hydrolase [Legionella pneumophila] &gt;gi|1073907256|gb|AOU47193.1| hydrolase [Legionella pneumophila] &gt;gi|1073910274|gb|AOU50209.1| hydrolase [Legionella pneumophila] &gt;gi|1073913286|gb|AOU53218.1| hydrolase [Legionella pneumophila] &gt;gi|1073916246|gb|AOU56177.1| hydrolase [Legionella pneumophila] &gt;gi|1073919209|gb|AOU59139.1| hydrolase [Legionella pneumophila] &gt;gi|1073922112|gb|AOU62041.1| hydrolase [Legionella pneumophila] &gt;gi|1073925195|gb|AOU65122.1| hydrolase [Legionella pneumophila] &gt;gi|1073928158|gb|AOU68084.1| hydrolase [Legionella pneumophila] &gt;gi|1073931144|gb|AOU71053.1| hydrolase [Legionella pneumophila] &gt;gi|1073934513|gb|AOU74072.1| hydrolase [Legionella pneumophila] &gt;gi|1073937478|gb|AOU84477.1| hydrolase [Legionella pneumophila] &gt;gi|1073947744|gb|AOU87468.1| hydrolase [Legionella pneumophila] &gt;gi|1073950672|gb|AOU90395.1| hydrolase [Legionella pneumophila] &gt;gi|1104004070|emb|SFZ47030.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1129969330|gb|APT99689.1| hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015443982</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>602.823</Hsp_bit-score>
+      <Hsp_score>1553</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1119393028|ref|WP_072368858.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072368858</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>602.438</Hsp_bit-score>
+      <Hsp_score>1552</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASVDPERIRLSHFISQTPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MRNVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQASVDPERIRLSHFISQ PDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1006671992|ref|WP_061820704.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|999156840|emb|CZH74252.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061820704</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>599.356</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLRIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHL IDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|504657666|ref|WP_014844768.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|395131752|emb|CCD10045.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|761987333|dbj|GAN24683.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|761990407|dbj|GAN18631.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|761993597|dbj|GAN21737.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|998790052|emb|CZH04400.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998892932|emb|CZJ09606.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998924322|emb|CZJ97232.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998942567|emb|CZK06877.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998954618|emb|CZK43008.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998976155|emb|CZJ64736.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998982059|emb|CZI89996.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998991483|emb|CZK06493.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999009860|emb|CZK04455.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999018888|emb|CZJ59993.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999028014|emb|CZJ92087.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999031574|emb|CZG69575.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999034018|emb|CZJ96411.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999040225|emb|CZJ66486.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999043108|emb|CZJ78831.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999048937|emb|CZJ85097.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999052194|emb|CZJ66913.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999055188|emb|CZJ98726.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999064304|emb|CZJ77156.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999070141|emb|CZJ76308.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999073400|emb|CZK03346.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999085657|emb|CZJ99222.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999106915|emb|CZI83711.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999231189|emb|CZI61350.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999249457|emb|CZG79882.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999252924|emb|CZG93236.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999262120|emb|CZH05005.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999274377|emb|CZH10183.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999327622|emb|CZH29046.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999332857|emb|CZG02187.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999340766|emb|CZH00237.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999350108|emb|CZH27368.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999469957|emb|CZG81387.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999778514|emb|CZH02628.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1002082172|emb|CZQ96382.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1005834335|gb|AMQ29061.1| hydrolase [Legionella pneumophila subsp. pneumophila] &gt;gi|1032658744|gb|ANH14015.1| hydrolase [Legionella pneumophila] &gt;gi|1032661706|gb|ANH16976.1| hydrolase [Legionella pneumophila] &gt;gi|1032664684|gb|ANH19953.1| hydrolase [Legionella pneumophila] &gt;gi|1104000971|emb|SFZ47039.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844768</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>598.586</Hsp_bit-score>
+      <Hsp_score>1542</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1005410827|ref|WP_061640059.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|998792862|emb|CZI70774.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640059</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>596.66</Hsp_bit-score>
+      <Hsp_score>1537</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|653015690|ref|WP_027267719.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267719</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>596.66</Hsp_bit-score>
+      <Hsp_score>1537</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKNYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCK YKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|504655608|ref|WP_014842710.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|395128668|emb|CCD06886.1| conserved protein of unknown function [Legionella pneumophila subsp. pneumophila] &gt;gi|999248063|emb|CZH50392.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999269727|emb|CZO25502.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999455558|emb|CZH46171.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999462187|emb|CZG04296.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999465433|emb|CZM27158.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999468311|emb|CZO06332.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999474583|emb|CZM56114.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999478142|emb|CZN23900.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999481337|emb|CZM61903.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999484367|emb|CZN95523.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999487561|emb|CZL96393.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999490752|emb|CZN59617.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999493940|emb|CZL95370.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999500380|emb|CZN58420.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999503602|emb|CZN88469.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999506798|emb|CZM94209.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999509995|emb|CZG24839.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999513190|emb|CZN18550.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999515211|emb|CZM27629.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999519767|emb|CZM48902.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999532635|emb|CZO31124.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999534715|emb|CZN67897.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999539028|emb|CZM52309.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999542318|emb|CZO08938.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999545422|emb|CZO44695.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999548616|emb|CZN74606.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999551810|emb|CZN97785.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999555187|emb|CZM95233.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999558200|emb|CZO44341.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999561394|emb|CZM28763.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999564593|emb|CZO44455.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999567782|emb|CZM41844.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999570981|emb|CZN40431.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999574171|emb|CZN77845.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999580662|emb|CZO02361.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999584174|emb|CZO15903.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999585948|emb|CZN11560.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999590559|emb|CZM23729.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999593434|emb|CZN33685.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999596632|emb|CZN96199.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999599826|emb|CZO22754.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999603318|emb|CZL65635.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999606221|emb|CZN37404.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999609729|emb|CZN42762.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999615905|emb|CZM33050.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999618946|emb|CZN74402.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999622378|emb|CZO54023.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999625578|emb|CZN51904.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999629005|emb|CZM43632.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999631883|emb|CZM47666.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999635077|emb|CZN38601.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999638271|emb|CZN36897.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999641467|emb|CZO64939.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999644638|emb|CZO30314.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999648175|emb|CZN77839.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999650986|emb|CZN94394.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999654250|emb|CZN90745.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999657628|emb|CZL98938.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999660641|emb|CZM49909.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999664155|emb|CZM84107.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999667034|emb|CZM23339.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999670228|emb|CZL72533.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999673615|emb|CZM17661.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999676621|emb|CZN63462.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999679656|emb|CZM64446.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999682851|emb|CZM71302.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999686077|emb|CZN94376.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999689583|emb|CZN08830.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999692608|emb|CZN83074.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999695994|emb|CZM99638.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999698200|emb|CZM31983.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999702529|emb|CZM45688.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999705601|emb|CZL57582.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999708625|emb|CZN40234.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999711877|emb|CZM85003.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999715440|emb|CZM90624.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999718469|emb|CZO25970.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999721457|emb|CZM69518.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999724797|emb|CZN19362.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999728122|emb|CZL87838.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999731690|emb|CZO22891.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999734939|emb|CZM01558.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999738159|emb|CZO46351.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999741141|emb|CZM27107.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999744557|emb|CZN05874.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999747968|emb|CZM02129.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999750863|emb|CZL81639.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999754059|emb|CZM70022.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999757402|emb|CZM81831.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999760451|emb|CZM17530.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999763834|emb|CZN08907.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999767031|emb|CZM54647.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999769880|emb|CZN42317.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999773584|emb|CZH75097.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999776504|emb|CZL87890.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999783368|emb|CZH48790.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999786544|emb|CZM15977.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999789865|emb|CZO50939.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999793188|emb|CZO50095.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999796435|emb|CZI06739.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999799614|emb|CZO60107.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1003035456|emb|CZR22807.1| putative hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842710</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>596.275</Hsp_bit-score>
+      <Hsp_score>1536</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATIHPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATI+PKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1005835983|ref|WP_061710307.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|998912289|emb|CZG95386.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998993987|emb|CZI48022.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061710307</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.504</Hsp_bit-score>
+      <Hsp_score>1534</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTSFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDT FLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|499535753|ref|WP_011216536.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|53755338|emb|CAH16834.1| hypothetical protein lpl2593 [Legionella pneumophila str. Lens] &gt;gi|998781132|emb|CZJ42051.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998824320|emb|CZG46695.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998829425|emb|CZG77210.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998883289|emb|CZI75069.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998898870|emb|CZJ47389.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998936520|emb|CZM50889.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|998952275|emb|CZJ35219.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999000452|emb|CZG78252.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999057996|emb|CZM56819.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999104133|emb|CZI04705.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999128744|emb|CZH01654.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999153821|emb|CZM15666.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999162909|emb|CZM04049.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999236361|emb|CZH07191.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1002085438|emb|CZQ99166.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1002088099|emb|CZQ79277.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1080002997|gb|AOW53569.1| hydrolase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005257|gb|AOW55537.1| hydrolase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008919|gb|AOW58907.1| hydrolase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011414|gb|AOW60905.1| hydrolase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015494|gb|AOW64367.1| hydrolase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017658|gb|AOW66303.1| hydrolase [Legionella pneumophila subsp. pneumophila] &gt;gi|1104007524|emb|SFZ47120.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011216536</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.119</Hsp_bit-score>
+      <Hsp_score>1533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLS</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1006042197|ref|WP_061722069.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|999324899|emb|CZH12567.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061722069</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>594.734</Hsp_bit-score>
+      <Hsp_score>1532</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLICQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLI QQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|652971131|ref|WP_027223995.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|761996890|dbj|GAN31065.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|998802660|emb|CZH90093.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999004492|emb|CZI44892.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999158639|emb|CZJ91761.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999166093|emb|CZG71090.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999177441|emb|CZJ85305.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027223995</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.578</Hsp_bit-score>
+      <Hsp_score>1529</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQIFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTSFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQ+FITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDT FLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|502866947|ref|WP_013101923.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|295650214|gb|ADG26061.1| probable hydrolase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|999286753|emb|CZI74338.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999293124|emb|CZI62935.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999302228|emb|CZI54682.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999312083|emb|CZI88792.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1002091792|emb|CZR06474.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101923</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.578</Hsp_bit-score>
+      <Hsp_score>1529</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWADAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTSFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPW DAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDT FLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1003783076|ref|WP_061467339.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061467339</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.193</Hsp_bit-score>
+      <Hsp_score>1528</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQIFITPIHLPIDKKYREFAKMACEFIEGKRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTSFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQ+FITPIHLPIDKKYREFAKMACEFIEG+RDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDT FLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|506459842|ref|WP_015961742.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|53752441|emb|CAH13873.1| hypothetical protein lpp2720 [Legionella pneumophila str. Paris] &gt;gi|536611704|gb|ERB40222.1| hydrolase [Legionella pneumophila str. 121004] &gt;gi|541999649|gb|ERH45647.1| hydrolase [Legionella pneumophila str. Leg01/53] &gt;gi|542000393|gb|ERH46380.1| hydrolase [Legionella pneumophila str. Leg01/11] &gt;gi|542123182|gb|ERI49491.1| hydrolase [Legionella pneumophila str. Leg01/20] &gt;gi|762000261|dbj|GAN27993.1| alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|999173364|emb|CZH69168.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999182576|emb|CZG28508.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999184533|emb|CZP93554.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999188741|emb|CZI77729.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999198341|emb|CZP08267.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999206404|emb|CZP57834.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999213673|emb|CZG44944.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999217037|emb|CZI71270.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999225881|emb|CZG31474.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999227819|emb|CZP39034.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999235082|emb|CZP53321.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999240578|emb|CZH76893.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999244247|emb|CZH72307.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999256185|emb|CZP74906.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999259232|emb|CZP40241.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999265424|emb|CZP03076.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999272108|emb|CZP53140.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999277815|emb|CZP30735.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999281479|emb|CZP21526.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999284127|emb|CZP49228.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999290870|emb|CZP28491.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999296730|emb|CZP48992.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999299969|emb|CZP26443.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999307188|emb|CZH66643.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999309574|emb|CZP20958.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999315940|emb|CZI01847.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999318975|emb|CZP57524.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999322227|emb|CZH93187.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999337968|emb|CZP43072.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999344132|emb|CZP91433.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999347420|emb|CZP59778.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999353761|emb|CZP53689.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999356870|emb|CZP75872.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999361050|emb|CZH99901.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999363236|emb|CZP71924.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999366999|emb|CZP72655.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999369583|emb|CZP86383.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999374008|emb|CZG02214.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999377389|emb|CZI92090.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999380688|emb|CZH52774.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999383368|emb|CZI14242.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999387503|emb|CZG12183.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999390310|emb|CZI12203.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999392513|emb|CZP96043.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999397025|emb|CZG15066.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999398761|emb|CZP99337.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999403239|emb|CZP46441.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999406462|emb|CZG45028.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999409366|emb|CZH70512.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999412620|emb|CZG28694.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999416690|emb|CZG16435.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999419320|emb|CZG44787.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999422569|emb|CZH43894.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999426524|emb|CZG25905.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999429074|emb|CZG28841.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999432663|emb|CZG03715.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999435779|emb|CZH66832.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999438308|emb|CZG43671.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999442288|emb|CZJ86236.1| putative hydrolase [Legionella pneumophila] &gt;gi|999445289|emb|CZH55315.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999448551|emb|CZG02207.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999450830|emb|CZP31400.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999458399|emb|CZJ91668.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999496980|emb|CZI08720.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999521382|emb|CZP46139.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999526369|emb|CZI62831.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999529251|emb|CZI18702.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999577029|emb|CZI01022.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999612330|emb|CZI05020.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1003028361|emb|CZR23382.1| putative hydrolase [Legionella pneumophila] &gt;gi|1015434091|gb|AMV15718.1| Alpha/beta hydrolase family protein [Legionella pneumophila] &gt;gi|1041016639|gb|ANN93700.1| hydrolase [Legionella pneumophila] &gt;gi|1041019636|gb|ANN96696.1| hydrolase [Legionella pneumophila] &gt;gi|1103997831|emb|SFZ47029.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961742</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.808</Hsp_bit-score>
+      <Hsp_score>1527</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASVDPERIRLSHFISQTPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQASVDPERIRLSHFISQ PDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1004334778|ref|WP_061513703.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513703</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.038</Hsp_bit-score>
+      <Hsp_score>1525</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPPNKPNEKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIREQASVDPERIRLSHFISQAPDTYFLCVHGELDATISPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTP +KPN KKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIR+QASVDPERIRLSHFISQAPDTYFLC+HGELDATI+PKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1004014472|ref|WP_061483736.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483736</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.956</Hsp_bit-score>
+      <Hsp_score>1517</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLIGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTCFLCIHGELDATVNPKESINFCKNYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGL+GHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDT FLCIHGELDAT+NPKESINFCK YKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1003778015|ref|WP_061466657.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061466657</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>587.415</Hsp_bit-score>
+      <Hsp_score>1513</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASVDPERIRLRHFISQTPDTSFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQASVDPERIRL HFISQ PDT FLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1006677921|ref|WP_061821142.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|999151606|emb|CZH56776.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999168348|emb|CZI53104.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061821142</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>585.874</Hsp_bit-score>
+      <Hsp_score>1509</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASVDPERIRLSHFISQTPDTSFLCIHGELDATINPKESIIFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQASVDPERIRLSHFISQ PDT FLCIHGELDATINPKESI FCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|652969921|ref|WP_027222814.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|1005362910|gb|AMP88779.1| hydrolase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367827|gb|AMP93604.1| hydrolase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370746|gb|AMP96522.1| hydrolase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222814</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>582.408</Hsp_bit-score>
+      <Hsp_score>1500</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKSNNKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGVIGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASIDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKNYKNASLSLLPEADHVSVLMDERVEQIALDFLNR</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+K N KKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYG++GHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQAS+DPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCK YKNA LSLLP+ADHVSVLMDERVEQIALDFLNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|654928537|ref|WP_028378968.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378968</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.637</Hsp_bit-score>
+      <Hsp_score>1498</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKSNNKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGVIGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASIDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKNYKNASLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+K N KKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYG++GHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQAS+DPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCK YKNA LSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|500496254|ref|WP_011947579.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|148280372|gb|ABQ54460.1| probable hydrolase [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>WP_011947579</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>581.252</Hsp_bit-score>
+      <Hsp_score>1497</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQIFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPANKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKRIQLSWTDAHAIIKETINQFGPFNGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKNYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQ+FITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPA+KPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAK IQL WTDA AIIKETINQFGPF GLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCK YKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|652976386|ref|WP_027229058.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella pneumophila] &gt;gi|985764676|gb|KXB25795.1| hydrolase [Legionella pneumophila] &gt;gi|985767053|gb|KXB28148.1| hydrolase [Legionella pneumophila] &gt;gi|999119129|emb|CZG87500.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|999122254|emb|CZH21083.1| acetoin dehydrogenase E2 subunit dihydrolipoyllysine-residue acetyltransferase [Legionella pneumophila] &gt;gi|1024339732|gb|KZX34071.1| hydrolase [Legionella pneumophila] &gt;gi|1108606017|gb|APF04385.1| hydrolase [Legionella pneumophila subsp. fraseri] &gt;gi|1108608999|gb|APF07366.1| alpha/beta hydrolase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229058</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.556</Hsp_bit-score>
+      <Hsp_score>1490</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGKRDEIIHREYPRHHVLHRFTPANKSNSKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGVIGHSFGGSMILNTLNLAGQLPEWQLNYKPERAILIASPTQMRTPVNKIARRFKLSGHAYLQLRQLIRQQASIDPERIRLSHFISQAPDTYFLCIHGELDATIHPKESINFCKNYKNASLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEG+RDEIIHREYPRHHVLHRFTPA+K N KKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYG++GHSFGGSMILNTLNLAGQLPEWQLN+KPERAILIASPTQMRTPVNKIARRFKLSG AYLQLRQLIRQQAS+DPERIRLSHFISQAPDTYFLCIHGELDATI+PKESINFCK YKNA LSLLPDADHVSVLMDERVEQIALDFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|737925359|ref|WP_035890569.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella norrlandica] &gt;gi|701445395|gb|KGP62780.1| hydrolase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890569</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>540.036</Hsp_bit-score>
+      <Hsp_score>1390</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MMTNSITYIRDLLHAQFCYQMFITPIHFPVDKKYREFARMACEFIEGRRDEVIHREQPRHHVLHRFTPVNKANTKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAVAIVKETINQFGPFYGVIGHSFGGSMLLNALNLAGQLPEWQLNFKPERAILIASPTQMRTPVNKIARRFKLSRHGYLQLCQLIRQQAPVDTNRIRLSHFISQTPDTSFLCIHGELDATINPKESIYFCKNYKNASLSLLPDADHVSVLIDERVEQIALDFLNR</Hsp_hseq>
+      <Hsp_midline>MMT+S+ +IRDLLHAQFCYQMFITPIH P+DKKYREFA+MACEFIEGRRDE+IHRE PRHHVLHRFTP +K N KKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDA+AI+KETINQFGPFYG++GHSFGGSM+LN LNLAGQLPEWQLN KPERAILIASPTQMRTPVNKIARRFKLS   YLQL QLIRQQA VD  RIRLSHFISQ PDT FLCIHGELDATINPKESI FCK YKNA LSLLPDADHVSVL+DERVEQIALDFLNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1006484410|ref|WP_061773462.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061773462</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.574</Hsp_bit-score>
+      <Hsp_score>1259</Hsp_score>
+      <Hsp_evalue>2.5558e-174</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFL</Hsp_qseq>
+      <Hsp_hseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFL</Hsp_hseq>
+      <Hsp_midline>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|962268724|gb|KTD52740.1|</Hit_id>
+  <Hit_def>putative hydrolase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>KTD52740</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.271</Hsp_bit-score>
+      <Hsp_score>1266</Hsp_score>
+      <Hsp_evalue>5.94812e-174</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>NVAMMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>NIIMMTNSLTYIRDFIHAQLCYQLFITPIHFPLEKKYRDFAKMACEYVEGKRSEVIHKETPRHHVIHRFAPAKNPNGKKILISHGWMSRAAYMVRLIRHLHLQGYDVYALDFPAHGEARGLQLPWTDAIAILKETINQYGPFHGVIGHSFGGSMLLSTLNLAGQLPEWQLNSKPDRVVLIASPTQMRSPVNTIARRLKLSGTGYLQLRQLIRQQAEIDPKLIRLKYFTSQTPDTPFLCIHGKNDITVKPKESIIFCREYKNAHLSLLPDADHVSVLMDERVEQLVCDFLN</Hsp_hseq>
+      <Hsp_midline>N+ MMT+SL +IRD +HAQ CYQ+FITPIH P++KKYR+FAKMACE++EG+R E+IH+E PRHHV+HRF PA  PNGKKILI+HGWMSRAAYMVRLIR LH +GY+VYA+DFPAHGEA+G+QLPWTDAIAI+KETINQ+GPF+G++GHSFGGSM+L+TLNLAGQLPEWQLN KP+R +LIASPTQMR+PVN IARR KLSG  YLQLRQLIRQQA +DP+ IRL +F SQ PDT FLCIHG+ D T+ PKESI FC+ YKNA LSLLPDADHVSVLMDERVEQ+  DFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966432633|ref|WP_058473066.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058473066</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.804</Hsp_bit-score>
+      <Hsp_score>1257</Hsp_score>
+      <Hsp_evalue>5.35951e-173</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTNSLTYIRDFIHAQLCYQLFITPIHFPLEKKYRDFAKMACEYVEGKRSEVIHKETPRHHVIHRFAPAKNPNGKKILISHGWMSRAAYMVRLIRHLHLQGYDVYALDFPAHGEARGLQLPWTDAIAILKETINQYGPFHGVIGHSFGGSMLLSTLNLAGQLPEWQLNSKPDRVVLIASPTQMRSPVNTIARRLKLSGTGYLQLRQLIRQQAEIDPKLIRLKYFTSQTPDTPFLCIHGKNDITVKPKESIIFCREYKNAHLSLLPDADHVSVLMDERVEQLVCDFLN</Hsp_hseq>
+      <Hsp_midline>MMT+SL +IRD +HAQ CYQ+FITPIH P++KKYR+FAKMACE++EG+R E+IH+E PRHHV+HRF PA  PNGKKILI+HGWMSRAAYMVRLIR LH +GY+VYA+DFPAHGEA+G+QLPWTDAIAI+KETINQ+GPF+G++GHSFGGSM+L+TLNLAGQLPEWQLN KP+R +LIASPTQMR+PVN IARR KLSG  YLQLRQLIRQQA +DP+ IRL +F SQ PDT FLCIHG+ D T+ PKESI FC+ YKNA LSLLPDADHVSVLMDERVEQ+  DFLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|654932958|ref|WP_028383315.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella moravica] &gt;gi|962250701|gb|KTD34902.1| putative hydrolase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383315</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.026</Hsp_bit-score>
+      <Hsp_score>1242</Hsp_score>
+      <Hsp_evalue>7.27692e-171</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTNSLTYIRDFLHAQLCYQLFITPLHFPLEKKYRDFAKMACEYIEVKRSEVIHKEQPRHHVIHRFAPAKTPNGKKILISHGWMSRAAYMVRLIRTLHLQGYEVYALDFPAHGEARGLQLPWTDAVAVLKETINQYGPFHAVIGHSFGGSMLLSTLNLAGQLPEWQLNSRPDRVVLIASPTQMRTPVNTIARRLKLSGHGYLQLRQLIRQQAEIDPKLIRLRYFTSQTPDTPFLCIHGKNDSTVRPRESIIFCREYKNANLSLLPDADHVSVLMDERVEQLVSDFLS</Hsp_hseq>
+      <Hsp_midline>MMT+SL +IRD LHAQ CYQ+FITP+H P++KKYR+FAKMACE+IE +R E+IH+E PRHHV+HRF PA  PNGKKILI+HGWMSRAAYMVRLIR LH +GYEVYA+DFPAHGEA+G+QLPWTDA+A++KETINQ+GPF+ ++GHSFGGSM+L+TLNLAGQLPEWQLN +P+R +LIASPTQMRTPVN IARR KLSG  YLQLRQLIRQQA +DP+ IRL +F SQ PDT FLCIHG+ D+T+ P+ESI FC+ YKNA LSLLPDADHVSVLMDERVEQ+  DFL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|517403149|ref|WP_018576015.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella shakespearei] &gt;gi|962276104|gb|KTD60005.1| putative hydrolase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576015</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.715</Hsp_bit-score>
+      <Hsp_score>1236</Hsp_score>
+      <Hsp_evalue>8.34358e-170</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MMSSSLAELRDFLHVQFCYQMFITPVHLPMEKKYRLFAKMACEFMEEKRSEVIHQEVPRHHVLHRFIPAHVENPKKILITHGWMSRAAYMIRLIRALHQQGYEVYALDFPAHGEAKGVQLPWTDAVAILKETINTHGPFYGVIGHSFGGSMLLNTLNVAGQLPEWQLNYKPERAVLIASPTQMRSPVNSIARRFKLSGHGYLQLRQVILQQTVIDLKCIRLRQFLSQKPDTQFLCIHGEQDETINPKESIKFCNQYSNARLSLLPEADHVSVLMDERVEQLISAFLNK</Hsp_hseq>
+      <Hsp_midline>MM+ SL  +RD LH QFCYQMFITP+HLP++KKYR FAKMACEF+E +R E+IH+E PRHHVLHRF PA   N KKILITHGWMSRAAYM+RLIR LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+KETIN  GPFYG++GHSFGGSM+LNTLN+AGQLPEWQLN+KPERA+LIASPTQMR+PVN IARRFKLSG  YLQLRQ+I QQ  +D + IRL  F+SQ PDT FLCIHGE D TINPKESI FC  Y NARLSLLP+ADHVSVLMDERVEQ+   FLN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966439727|ref|WP_058480050.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella waltersii] &gt;gi|962295624|gb|KTD79269.1| putative hydrolase [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480050</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.633</Hsp_bit-score>
+      <Hsp_score>1228</Hsp_score>
+      <Hsp_evalue>1.23342e-168</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MINNSLIYFRDLLHAQFCYQMFITPIHFPIDKKYREFAKMACDYIESRRDEVIHQESPRHYVLHRFIPSQQENTKKVLITHGWMSRAAYMVRLIRHLHHQGYDVYALDFPAHGEARGVQLPWADAITIIKDIINQHGPFHGLIGHSFGGSMILNTLNLAGQLPEWQLNSKPHKAVLIASPTQMRTPVSKIARKFKLSGHGYLQLRQLIKQQAPLDTNLIRLRHFTEQSPDTQFLCVHGELDCTIPPKESINFCNHYQNSNLFLLPDADHVTVLMDERVENKVYDFL</Hsp_hseq>
+      <Hsp_midline>M+ +SLI+ RDLLHAQFCYQMFITPIH PIDKKYREFAKMAC++IE RRDE+IH+E PRH+VLHRF P+ + N KK+LITHGWMSRAAYMVRLIR LH +GY+VYA+DFPAHGEA+G+QLPW DAI IIK+ INQ GPF+GL+GHSFGGSMILNTLNLAGQLPEWQLN KP +A+LIASPTQMRTPV+KIAR+FKLSG  YLQLRQLI+QQA +D   IRL HF  Q+PDT FLC+HGELD TI PKESINFC +Y+N+ L LLPDADHV+VLMDERVE    DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|769978686|ref|WP_045094671.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella fallonii] &gt;gi|698841926|emb|CEG55873.1| putative alpha/beta hydrolase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045094671</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.47</Hsp_bit-score>
+      <Hsp_score>1212</Hsp_score>
+      <Hsp_evalue>2.95746e-166</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MMTDSITYLRDFLHAQLCYQFFITPIHLPLEKKYRHFAKMACEFIEGKRSEVIHQEYPRHHVLHRFKPTTNPNAKKILIAHGWISRAAYMVKLIKALHQQGYDVYAIDFPAHGESKGLQLPWPDAVTILREIVNQHGPFYGVIGHSFGGSMLLNMLNLAGQCTEWQLNNRPERAVMIASPTHMRSPVNSIARKFKLSGHGYLQLRQLIRQQAEIDLNLIRLRHFTTQIPETHFLCIHGEQDSTVDPKESVVFCKQYKNAYLSLLPEADHVSVLMDERVEKLVCDFL</Hsp_hseq>
+      <Hsp_midline>MMTDS+ ++RD LHAQ CYQ FITPIHLP++KKYR FAKMACEFIEG+R E+IH+EYPRHHVLHRF P + PN KKILI HGW+SRAAYMV+LI+ LH++GY+VYAIDFPAHGE+KG+QLPW DA+ I++E +NQ GPFYG++GHSFGGSM+LN LNLAGQ  EWQLN++PERA++IASPT MR+PVN IAR+FKLSG  YLQLRQLIRQQA +D   IRL HF +Q P+T+FLCIHGE D+T++PKES+ FCK YKNA LSLLP+ADHVSVLMDERVE++  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966436326|ref|WP_058476694.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella steigerwaltii] &gt;gi|962294995|gb|KTD78649.1| putative hydrolase [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476694</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>1.15839e-164</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDILHAQLCYQAFITPIFLPLEKEYRDIAKLACEFIEGRRTEVIHNEFPRHHVLHRFAPQKNSKGKKILITHGWISRAAYMARLIRVLHQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKDTINQYGPFYGVIGHSFGGSMLLNTLNVAGQLPDWQLNQKPERAILIASPTQMRSPVNRIAKKFKLSGHGYLQLRQVMQQQARFDIKLVRLRHFISQSPNIPFLCIHGELDKTISTKESIEFCKKYPGAKLCLLPEANHVSVLFDERVERLVCDFL</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD+LHAQ CYQ FITPI LP++K+YR+ AK+ACEFIEGRR E+IH E+PRHHVLHRF P     GKKILITHGW+SRAAYM RLIR+LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K+TINQ+GPFYG++GHSFGGSM+LNTLN+AGQLP+WQLN KPERAILIASPTQMR+PVN+IA++FKLSG  YLQLRQ+++QQA  D + +RL HFISQ+P+  FLCIHGELD TI+ KESI FCK Y  A+L LLP+A+HVSVL DERVE++  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|654930374|ref|WP_028380743.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella cherrii] &gt;gi|962197121|gb|KTC82165.1| putative hydrolase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380743</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>6.54342e-164</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDILHAQLCYQAFITPIFLPLEKEYRDFAKLACEFIEGRRTEVIHNEFPRHHVLHRFAPQKNSKGKKVLITHGWISRAAYMARLIDVLHQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKDTINQYGPFYAVIGHSFGGSMLLNTLNVAGQLPEWQLKHKPERAILIASPTQMRSPVNHIAKKFKLSGHGYLYLRQVMKQQARFDIKLVRLQHFISQSPNIAFLCIHGELDKTISTKESIEFCKKYPDAKLCLLPEANHVSVLLDERVERLVSDFLE</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD+LHAQ CYQ FITPI LP++K+YR+FAK+ACEFIEGRR E+IH E+PRHHVLHRF P     GKK+LITHGW+SRAAYM RLI +LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K+TINQ+GPFY ++GHSFGGSM+LNTLN+AGQLPEWQL HKPERAILIASPTQMR+PVN IA++FKLSG  YL LRQ+++QQA  D + +RL HFISQ+P+  FLCIHGELD TI+ KESI FCK Y +A+L LLP+A+HVSVL+DERVE++  DFL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|498338321|ref|WP_010652477.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Fluoribacter dumoffii] &gt;gi|962207572|gb|KTC92503.1| putative hydrolase [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652477</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.537</Hsp_bit-score>
+      <Hsp_score>1194</Hsp_score>
+      <Hsp_evalue>1.95284e-163</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDILHAQLCYQAFITPIFLPLEKEYRDFAKLACEFIEGKRTEVIHKELPRHHVLHRFAPQKNSKGKKILITHGWISRAAYMARLIHALHQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKDTINEHGPFYAVIGHSFGGSMLLNTLNVAGQLPEWQLAHKPERAILIASPTQMRSPVNRIAKKFKLSGHGYLYLRQVMKQQARFDIKLVRLHHFISQSPDISFLCIHGELDKTISTKESIEFCKKYPNAKLCLLPEANHVSVLLDERVEHLVCDFLE</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD+LHAQ CYQ FITPI LP++K+YR+FAK+ACEFIEG+R E+IH+E PRHHVLHRF P     GKKILITHGW+SRAAYM RLI  LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K+TIN+ GPFY ++GHSFGGSM+LNTLN+AGQLPEWQL HKPERAILIASPTQMR+PVN+IA++FKLSG  YL LRQ+++QQA  D + +RL HFISQ+PD  FLCIHGELD TI+ KESI FCK Y NA+L LLP+A+HVSVL+DERVE +  DFL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966505261|ref|WP_058521920.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella tucsonensis] &gt;gi|962287634|gb|KTD71362.1| putative hydrolase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521920</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>3.27161e-162</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDFLHAQLCYQAFITPIFFPLEKEYRHFAKLACEFIEGKRTEVIHREFPRHHVLHRFAPQKNAQGRKILITHGWISRAAYMARIIQALYQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKDTINQHGPFYAVIGHSFGGSMLLNTMNVAGQLPEWQLNHKPERAILIASPTQMRNPINRIAKKFKLSGHGYLQLHQVMKQQAHFDIKLVRLHHFISQSPNISFLCIHGESDKTISTKESIEFCKKYPNSRLCLLPDANHVSVLMDERVEHLICDFL</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD LHAQ CYQ FITPI  P++K+YR FAK+ACEFIEG+R E+IHRE+PRHHVLHRF P     G+KILITHGW+SRAAYM R+I+ L+++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K+TINQ GPFY ++GHSFGGSM+LNT+N+AGQLPEWQLNHKPERAILIASPTQMR P+N+IA++FKLSG  YLQL Q+++QQA  D + +RL HFISQ+P+  FLCIHGE D TI+ KESI FCK Y N+RL LLPDA+HVSVLMDERVE +  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966499560|ref|WP_058516233.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella parisiensis] &gt;gi|962260094|gb|KTD44209.1| putative hydrolase [Legionella parisiensis] &gt;gi|1069291616|gb|OEH46997.1| 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516233</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>9.06421e-162</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDVLHAQLCYQAFITPIFFPLEKEYRHFAKLACEFIEARRTEVIHEEFPRHHVLHRFAPQKNARGKKVLITHGWISRAAYMARIIQALHQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKNTINQHGPFYAVIGHSFGGSMLLNTLNVAGQLPEWQLKHKPERAILIASPTQMRSPVNRIAKKFKLSGHGYLQLRHVLKQQAHFDINLVRLHHFISQSPNISFLCIHGELDKTISTKESIEFCEKYPDSRLCLLPDANHVSVLMDERVEHLVCDFL</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD+LHAQ CYQ FITPI  P++K+YR FAK+ACEFIE RR E+IH E+PRHHVLHRF P     GKK+LITHGW+SRAAYM R+I+ LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K TINQ GPFY ++GHSFGGSM+LNTLN+AGQLPEWQL HKPERAILIASPTQMR+PVN+IA++FKLSG  YLQLR +++QQA  D   +RL HFISQ+P+  FLCIHGELD TI+ KESI FC+ Y ++RL LLPDA+HVSVLMDERVE +  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|518064368|ref|WP_019234576.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019234576</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>1.01139e-161</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDVLHAQLCYQAFITPIFFPLEKEYRHFAKLACEFIEGRRTEVIHQEFPRHHVLHRFAPQKNAKGKKVLITHGWISRAAYMAHIIQALHQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKDTINQHGPFYAVIGHSFGGSMLLNTLNIAGQLPEWQLNHKPERAILIASPTHMRSPINRIAKKFKLSGHGYLQLRQVMKQQARFDINLIRLNHFLSQSPSIPFLCIHGELDKTISTKESIEFCKKYPDSRLCLLPDANHVSVLMDDRVDQLVCNFL</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD+LHAQ CYQ FITPI  P++K+YR FAK+ACEFIEGRR E+IH+E+PRHHVLHRF P     GKK+LITHGW+SRAAYM  +I+ LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K+TINQ GPFY ++GHSFGGSM+LNTLN+AGQLPEWQLNHKPERAILIASPT MR+P+N+IA++FKLSG  YLQLRQ+++QQA  D   IRL+HF+SQ+P   FLCIHGELD TI+ KESI FCK Y ++RL LLPDA+HVSVLMD+RV+Q+  +FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|963705509|ref|WP_058388478.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella anisa] &gt;gi|962187090|gb|KTC72223.1| putative hydrolase [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_058388478</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>1.63796e-161</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDVLHAQLCYQAFITPIFFPLEKEYRHFAKLACEFIEGRRTEVIHQEFPRHHVLHRFAPQKNAKGKKVLITHGWISRAAYMAHIIQALHQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKNTINQHGPFYAVIGHSFGGSMLLNTLNIAGQLPEWQLNHKPERAILIASPTHMRSPINRIAKKFKLSGHGYLQLRQVMKQQARFDINLIRLNHFLSQSPSIPFLCIHGELDKTISTKESIEFCKKYPDSRLCLLPDANHVSVLMDDRVDQLVCNFL</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD+LHAQ CYQ FITPI  P++K+YR FAK+ACEFIEGRR E+IH+E+PRHHVLHRF P     GKK+LITHGW+SRAAYM  +I+ LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K TINQ GPFY ++GHSFGGSM+LNTLN+AGQLPEWQLNHKPERAILIASPT MR+P+N+IA++FKLSG  YLQLRQ+++QQA  D   IRL+HF+SQ+P   FLCIHGELD TI+ KESI FCK Y ++RL LLPDA+HVSVLMD+RV+Q+  +FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|493927312|ref|WP_006872061.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella drancourtii] &gt;gi|363536444|gb|EHL29886.1| hypothetical protein LDG_8178 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872061</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>4.1118e-161</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITASLAHVKDMLHAQFCYQVFITPIHFPIEKEYRDFAKRACELLEIKRSEVIHAEHPRHHVLHHFTPQGNTNGKKILITHGWMSRAAYMVRLSDALHQQGYEVYAIDFPAHGEAKGLQLPWIDAVAVIKETLNQYGPFYGVIGHSFGGSMLLNTLNIAGQLPDWQLKHKPERAVLIASPTQMRGPVNHVAKKLKLSGQGYLYLRNLVQDQAKINLSRVRLHHFVSQNPNIPFLCIHGGLDETINPKESIRFCRTYQNADLRILPDANHVSVLMDERVEHLVCDFL</Hsp_hseq>
+      <Hsp_midline>M+T SL H++D+LHAQFCYQ+FITPIH PI+K+YR+FAK ACE +E +R E+IH E+PRHHVLH FTP    NGKKILITHGWMSRAAYMVRL   LH++GYEVYAIDFPAHGEAKG+QLPW DA+A+IKET+NQ+GPFYG++GHSFGGSM+LNTLN+AGQLP+WQL HKPERA+LIASPTQMR PVN +A++ KLSGQ YL LR L++ QA ++  R+RL HF+SQ P+  FLCIHG LD TINPKESI FC+ Y+NA L +LPDA+HVSVLMDERVE +  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966426213|ref|WP_058468751.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Fluoribacter gormanii] &gt;gi|962216869|gb|KTD01623.1| putative hydrolase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468751</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>5.17564e-161</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDILHAQLCYQAFITPIFLPLEKQYRDFAKLACEFIEGRRTEVIHQEFPRHHVLHRFVPQKNSKGKKILITHGWISRAAYMARIIEALYQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKDAINQHGPFYAVIGHSFGGSMLLNTLNVAGQLPEWQLNHKPERAILIASPTQMRSPVNRIAKKFKLSGHGYLQLRQVMKQQAQFDIKLIRLHHFIAQSPGISFLCIHGELDNTISTKESIVFCEKYPNSKLCLLPDANHVSVLLDERVGPLVCNFL</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD+LHAQ CYQ FITPI LP++K+YR+FAK+ACEFIEGRR E+IH+E+PRHHVLHRF P     GKKILITHGW+SRAAYM R+I  L+++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K+ INQ GPFY ++GHSFGGSM+LNTLN+AGQLPEWQLNHKPERAILIASPTQMR+PVN+IA++FKLSG  YLQLRQ+++QQA  D + IRL HFI+Q+P   FLCIHGELD TI+ KESI FC+ Y N++L LLPDA+HVSVL+DERV  +  +FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966414730|ref|WP_058458015.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Fluoribacter bozemanae] &gt;gi|962192290|gb|KTC77364.1| putative hydrolase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458015</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>8.56763e-161</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLIHVRDVLHAQLCYQAFITPIFFPLEKEYRHFAKLACEFIEARRTEVIHEEFPRHHVLHRFAPQKNARGKKVLITHGWISRAAYMARIIQALHQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKDAINQHGPFYAVIGHSFGGSMLLNTLNVAGQLPEWQLNHKPERAILIASPTQMRSPVNRIAKKFKLSGHGYLQLRHVMKQQARFDINLVRLHHFISQSPNISFLCIHGELDKTISTKESIEFCKKYPDSRLCLLPDANHVSVLIDERVGHLVCDFL</Hsp_hseq>
+      <Hsp_midline>M+T SLIH+RD+LHAQ CYQ FITPI  P++K+YR FAK+ACEFIE RR E+IH E+PRHHVLHRF P     GKK+LITHGW+SRAAYM R+I+ LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K+ INQ GPFY ++GHSFGGSM+LNTLN+AGQLPEWQLNHKPERAILIASPTQMR+PVN+IA++FKLSG  YLQLR +++QQA  D   +RL HFISQ+P+  FLCIHGELD TI+ KESI FCK Y ++RL LLPDA+HVSVL+DERV  +  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966460884|ref|WP_058493313.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella worsleiensis] &gt;gi|962296376|gb|KTD80017.1| putative hydrolase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493313</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.447</Hsp_bit-score>
+      <Hsp_score>1173</Hsp_score>
+      <Hsp_evalue>5.83615e-160</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MMTNSLTQIRDFLHAQLCYQLFITPLHFPLDKQYRDFARMACEYIEIKRSEAIHQDTPRHHVIHRFAPAKNANGKKVLIAHGWMSRAAYMVRLIRYLHLNGYEVYALDFPAHGEAKGIQLPWTDAVTVLKETINQHGPFHGLIGHSFGGSMLLSTLNLAGQFPQWQLHTKPERVILIASPTQMRSPVNTIARRMKLTGHGYLQLRHLIHQQADIDPKLIRLKYFTSQAADIPFLCIHGKNDITVKPKESIIFCKEYKKANLALLPDADHVSVLMDERVEQLVGEFLT</Hsp_hseq>
+      <Hsp_midline>MMT+SL  IRD LHAQ CYQ+FITP+H P+DK+YR+FA+MACE+IE +R E IH++ PRHHV+HRF PA   NGKK+LI HGWMSRAAYMVRLIR LH  GYEVYA+DFPAHGEAKGIQLPWTDA+ ++KETINQ GPF+GL+GHSFGGSM+L+TLNLAGQ P+WQL+ KPER ILIASPTQMR+PVN IARR KL+G  YLQLR LI QQA +DP+ IRL +F SQA D  FLCIHG+ D T+ PKESI FCK YK A L+LLPDADHVSVLMDERVEQ+  +FL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966493795|ref|WP_058510583.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella steelei] &gt;gi|962284732|gb|KTD68498.1| putative hydrolase [Legionella steelei] &gt;gi|1113342057|gb|OJW05934.1| alpha/beta hydrolase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510583</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.907</Hsp_bit-score>
+      <Hsp_score>1169</Hsp_score>
+      <Hsp_evalue>1.03049e-159</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLLHVRDILHAQLCYQAFITPIFFPVEKQYRDFAKLACEFVEGRRTEVIHNEFPRHHVLHRFAAQKNAKGKKILITHGWISRAAYMARLIHTLHQQGYEVYALDFPAHGEAKGLQLPWTDAVAILKNTINQYGPFYAVIGHSFGGSMLLNTLNVAGQLPEWQLKHKPERAILIASPTQMRSPVNQIAKKFKLSGHGYLHLRQVMKQQARFDITLVRLHNFISQYPHIPFLCIHGELDETISTKESIEFCKKYPDSKLCLLPDANHVSVLLDERVERLVCDFL</Hsp_hseq>
+      <Hsp_midline>M+T SL+H+RD+LHAQ CYQ FITPI  P++K+YR+FAK+ACEF+EGRR E+IH E+PRHHVLHRF       GKKILITHGW+SRAAYM RLI  LH++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+K TINQ+GPFY ++GHSFGGSM+LNTLN+AGQLPEWQL HKPERAILIASPTQMR+PVN+IA++FKLSG  YL LRQ+++QQA  D   +RL +FISQ P   FLCIHGELD TI+ KESI FCK Y +++L LLPDA+HVSVL+DERVE++  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966466545|ref|WP_058497871.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella gratiana] &gt;gi|962230040|gb|KTD14636.1| putative hydrolase [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497871</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>4.40137e-157</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSFTHVRDLLHAQLCYQAFITPIFLPLEKPYRDFAKLACEFMESIRTEVIHQEFPRHHVLHRFAPQKDSNNKKVLIAHGWISRAAYMARLIHPLHQLGYEVYALDFPAHGEAKGLQLPWTDAIAILRDTINQYGPFYAVIGHSFGGSMLLNTLNVSGQLPDWQLKYKPERAILIASPTQMRSPINRIAKKFRLSGHGYLQLRQVMRQQAQFDLKLIRLNHFISQAPHISFLCIHGELDKTISTKESIEFCEKYPDAKLCLLPEANHISVLVDERVEQLVCDFL</Hsp_hseq>
+      <Hsp_midline>M+T S  H+RDLLHAQ CYQ FITPI LP++K YR+FAK+ACEF+E  R E+IH+E+PRHHVLHRF P    N KK+LI HGW+SRAAYM RLI  LH+ GYEVYA+DFPAHGEAKG+QLPWTDAIAI+++TINQ+GPFY ++GHSFGGSM+LNTLN++GQLP+WQL +KPERAILIASPTQMR+P+N+IA++F+LSG  YLQLRQ++RQQA  D + IRL+HFISQAP   FLCIHGELD TI+ KESI FC+ Y +A+L LLP+A+H+SVL+DERVEQ+  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|489729117|ref|WP_003633233.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella longbeachae] &gt;gi|269990037|gb|EEZ96291.1| conserved hypothetical protein [Legionella longbeachae D-4968] &gt;gi|288856894|emb|CBJ10705.1| putative unknown protein [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003633233</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>5.4417e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MITSSLTHVRDLLHAQLCYQAFITPIFLPLEKPYRDFAKRACEFIEGKRTEVIHQEFPRHHVLHRFEPQRDTNNRKILIAHGWISRAAYMARLIDSLYQQGYEVYALDFPAHGEAKGLQLPWTDAVAILRDTINQYGPFYAVIGHSFGGSMLLNTLNISGQLPNWKLKYKPECAILIASPTQMRSPVNRIAKKFKLSGHGYLQLRQVMRQQAQFDLKLIRLNHFISQIPHIPFLCIHGELDKTVNIRESIEFCKKYPDAKLRLLPEANHISVLVDERVEQLVCDFLEK</Hsp_hseq>
+      <Hsp_midline>M+T SL H+RDLLHAQ CYQ FITPI LP++K YR+FAK ACEFIEG+R E+IH+E+PRHHVLHRF P    N +KILI HGW+SRAAYM RLI  L+++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+++TINQ+GPFY ++GHSFGGSM+LNTLN++GQLP W+L +KPE AILIASPTQMR+PVN+IA++FKLSG  YLQLRQ++RQQA  D + IRL+HFISQ P   FLCIHGELD T+N +ESI FCK Y +A+L LLP+A+H+SVL+DERVEQ+  DFL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|653018956|ref|WP_027270911.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella sainthelensi] &gt;gi|962274571|gb|KTD58502.1| putative hydrolase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027270911</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.03854e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLNR</Hsp_qseq>
+      <Hsp_hseq>MITSSLTHVRDLLHAQLCYQAFITPIFLPLEKPYRDFAKRACEFIEGKRTEVIHQEFPRHYVLHRFEPQRETNNRKVLIAHGWISRAAYMARLIDSLYQQGYEVYALDFPAHGEAKGLQLPWTDAVAILRDTINQYGPFYAVIGHSFGGSMLLNTLNVSGQLPDWQLKYKPECAILIASPTQMRSPVNRIAKKFKLSGHGYLQLRQVMRQQAQFDLKLIRLNHFISQKPHIPFLCIHGELDKTISIKESIEFCEKYPDAKLCLLPEANHISVLVDKRVEQLVCDFLER</Hsp_hseq>
+      <Hsp_midline>M+T SL H+RDLLHAQ CYQ FITPI LP++K YR+FAK ACEFIEG+R E+IH+E+PRH+VLHRF P  + N +K+LI HGW+SRAAYM RLI  L+++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+++TINQ+GPFY ++GHSFGGSM+LNTLN++GQLP+WQL +KPE AILIASPTQMR+PVN+IA++FKLSG  YLQLRQ++RQQA  D + IRL+HFISQ P   FLCIHGELD TI+ KESI FC+ Y +A+L LLP+A+H+SVL+D+RVEQ+  DFL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966420711|ref|WP_058463912.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella cincinnatiensis] &gt;gi|962206972|gb|KTC91905.1| putative hydrolase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463912</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>4.33533e-155</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFLN</Hsp_qseq>
+      <Hsp_hseq>MITSSLTHVRDLLHAQLCYQAFITPIFFPLEKPYRDFAKRACEFIEGIRTEVIHQELPRHYVLHRFAPQHDTNNKKVLIAHGWISRAAYMARLIDSLYQQGYEVYALDFPAHGEAKGLQLPWTDAITILRDTINQYGPFYAVIGHSFGGSMLLNTLNVSGQLPDWQLKYKPECAILIASPTQMRSPVNRIAKKFKLSGHGYLQLRQVMRQQAQFDLKLIRLNHFISQTPHVSFLCIHGELDKTISTKESIEFCKKYPDAKLCLLPEANHISVLMDERVERLVCDFLE</Hsp_hseq>
+      <Hsp_midline>M+T SL H+RDLLHAQ CYQ FITPI  P++K YR+FAK ACEFIEG R E+IH+E PRH+VLHRF P    N KK+LI HGW+SRAAYM RLI  L+++GYEVYA+DFPAHGEAKG+QLPWTDAI I+++TINQ+GPFY ++GHSFGGSM+LNTLN++GQLP+WQL +KPE AILIASPTQMR+PVN+IA++FKLSG  YLQLRQ++RQQA  D + IRL+HFISQ P   FLCIHGELD TI+ KESI FCK Y +A+L LLP+A+H+SVLMDERVE++  DFL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966496203|ref|WP_058512969.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Legionella santicrucis] &gt;gi|962282785|gb|KTD66561.1| putative hydrolase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058512969</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>6.00862e-154</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMTDSLIHIRDLLHAQFCYQMFITPIHLPIDKKYREFAKMACEFIEGRRDEIIHREYPRHHVLHRFTPASKPNGKKILITHGWMSRAAYMVRLIRLLHKEGYEVYAIDFPAHGEAKGIQLPWTDAIAIIKETINQFGPFYGLVGHSFGGSMILNTLNLAGQLPEWQLNHKPERAILIASPTQMRTPVNKIARRFKLSGQAYLQLRQLIRQQASVDPERIRLSHFISQAPDTYFLCIHGELDATINPKESINFCKYYKNARLSLLPDADHVSVLMDERVEQIALDFL</Hsp_qseq>
+      <Hsp_hseq>MITSSLTHVRDLLHAQLCYQAFITPIFFPLEKPYRDFAKRACEFIEGKRTEVIHQELPRHHVLHRFAPQNDTNNRKVLIAHGWISRAAYMARLIDSLYQQGYEVYALDFPAHGEAKGLQLPWTDAVAILRDTINQYGPFYAVIGHSFGGSMLLNTLNVSGQLSDWQLKYKPECAILIASPTQMRSPVNRIAKKFKLSGHGYLQLRQVMRQQAQFDLKLIRLNHFISQTPHIPFLCIHGELDKTISTKESIEFCKKYPDAKLCLLPEANHISVLVDTRVERLVCDFL</Hsp_hseq>
+      <Hsp_midline>M+T SL H+RDLLHAQ CYQ FITPI  P++K YR+FAK ACEFIEG+R E+IH+E PRHHVLHRF P +  N +K+LI HGW+SRAAYM RLI  L+++GYEVYA+DFPAHGEAKG+QLPWTDA+AI+++TINQ+GPFY ++GHSFGGSM+LNTLN++GQL +WQL +KPE AILIASPTQMR+PVN+IA++FKLSG  YLQLRQ++RQQA  D + IRL+HFISQ P   FLCIHGELD TI+ KESI FCK Y +A+L LLP+A+H+SVL+D RVE++  DFL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

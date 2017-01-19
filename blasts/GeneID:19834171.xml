@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_107833</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834171</BlastOutput_query-def>
+  <BlastOutput_query-len>288</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_107833</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834171</Iteration_query-def>
+  <Iteration_query-len>288</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250766|ref|WP_010948306.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|52842812|ref|YP_096611.1| glutamine amidotransferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629923|gb|AAU28664.1| glutamine amidotransferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509317|gb|AEW52841.1| glutamine amidotransferase [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948306</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>603.979</Hsp_bit-score>
+      <Hsp_score>1556</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1119427039|ref|WP_072402339.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072402339</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>602.053</Hsp_bit-score>
+      <Hsp_score>1551</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>287</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1119380388|ref|WP_072356485.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_072356485</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>600.897</Hsp_bit-score>
+      <Hsp_score>1548</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>286</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLLGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MREAVMCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYL+GYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|505256898|ref|WP_015444000.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|469490676|gb|AGH52521.1| Glutamine amidotransferase, class-II [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083278|gb|AGN15526.1| glutamine amidotransferase [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772868|emb|CZI18611.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998775683|emb|CZG59072.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998778269|emb|CZG74309.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998784508|emb|CZG83974.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998787460|emb|CZG57710.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998796472|emb|CZH98030.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998800357|emb|CZL05840.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998805760|emb|CZK06248.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998808406|emb|CZH89462.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998811865|emb|CZH77309.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998814336|emb|CZG63669.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998817680|emb|CZL57117.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998820782|emb|CZL59516.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998826744|emb|CZK07156.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998832618|emb|CZI09137.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998835717|emb|CZK85829.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998837893|emb|CZJ74664.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998842256|emb|CZL11213.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998844674|emb|CZK26946.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998847625|emb|CZK65586.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998850288|emb|CZI40553.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998853729|emb|CZL24190.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998856425|emb|CZL31552.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998859748|emb|CZL71422.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998862716|emb|CZK20068.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998865441|emb|CZJ42882.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998869818|emb|CZJ34712.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998871013|emb|CZM14963.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998874501|emb|CZK36235.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998877512|emb|CZM01118.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998880579|emb|CZI88638.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998887991|emb|CZL48049.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998889274|emb|CZK24376.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998895557|emb|CZK00849.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998906076|emb|CZK54610.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998909647|emb|CZL07394.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998915883|emb|CZK63881.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998918352|emb|CZK84653.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998921323|emb|CZL40051.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998927628|emb|CZL65222.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998930715|emb|CZK76829.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998933880|emb|CZL74296.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998939930|emb|CZK77845.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998946007|emb|CZK97152.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998949051|emb|CZK83770.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998958563|emb|CZL99013.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998961469|emb|CZK23684.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998964664|emb|CZK07303.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998966914|emb|CZM50707.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998970456|emb|CZK52144.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998973853|emb|CZK28159.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998979558|emb|CZL61146.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998985907|emb|CZK01622.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998988663|emb|CZL46870.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998998075|emb|CZJ90321.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999008047|emb|CZK29330.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999012980|emb|CZL45487.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999016902|emb|CZL70617.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999022700|emb|CZL16875.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999025329|emb|CZK73238.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999037086|emb|CZL52973.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999046810|emb|CZL75914.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999061617|emb|CZL13131.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999067418|emb|CZJ19632.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999076858|emb|CZG57781.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999080201|emb|CZJ90323.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999082840|emb|CZK79234.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999090450|emb|CZK40142.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999092444|emb|CZL38980.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999095230|emb|CZG85622.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999098755|emb|CZG62303.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999101184|emb|CZL69194.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999110373|emb|CZL14070.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999113848|emb|CZL52791.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999116371|emb|CZK46842.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999126283|emb|CZK77912.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999131549|emb|CZL93613.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999134768|emb|CZL15595.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999138130|emb|CZK29842.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999141755|emb|CZL42716.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999144600|emb|CZK71156.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999147608|emb|CZL47851.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999156901|emb|CZH75724.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999175748|emb|CZL03648.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999191325|emb|CZI19230.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999194448|emb|CZI45801.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999200313|emb|CZG62100.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999203759|emb|CZI45745.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999209972|emb|CZK74253.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999219346|emb|CZL32721.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999222440|emb|CZI37228.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999335233|emb|CZK71513.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1002075513|emb|CZQ94006.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1002079018|emb|CZQ94226.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1003020110|emb|CZR21352.1| glutamine amidotransferase [Legionella pneumophila] &gt;gi|1003022989|emb|CZR20254.1| glutamine amidotransferase [Legionella pneumophila] &gt;gi|1003026831|emb|CZR17846.1| glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073865647|gb|AOU05598.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073868616|gb|AOU08566.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073871611|gb|AOU11560.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073874480|gb|AOU14428.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073877536|gb|AOU17483.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073880499|gb|AOU20445.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073883496|gb|AOU23441.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073886489|gb|AOU26433.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073889457|gb|AOU29400.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073892441|gb|AOU32383.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073895409|gb|AOU35350.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073898367|gb|AOU38307.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073901333|gb|AOU41272.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073904242|gb|AOU44180.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073907195|gb|AOU47132.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073910213|gb|AOU50148.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073913225|gb|AOU53157.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073916185|gb|AOU56116.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073919148|gb|AOU59078.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073922051|gb|AOU61980.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073925134|gb|AOU65061.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073928097|gb|AOU68023.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073931083|gb|AOU70992.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073934452|gb|AOU74011.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073937417|gb|AOU84416.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073947683|gb|AOU87407.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1073950611|gb|AOU90334.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1104004008|emb|SFZ46761.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1129969269|gb|APT99628.1| class II glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015444000</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>593.964</Hsp_bit-score>
+      <Hsp_score>1530</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|499535698|ref|WP_011216481.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|53755275|emb|CAH16769.1| hypothetical protein lpl2529 [Legionella pneumophila str. Lens] &gt;gi|148280432|gb|ABQ54520.1| glutamine amidotransferase [Legionella pneumophila str. Corby] &gt;gi|295650153|gb|ADG26000.1| Predicted glutamine amidotransferase [Legionella pneumophila 2300/99 Alcoy] &gt;gi|761996828|dbj|GAN31003.1| amidohydrolase EgtC [Legionella pneumophila] &gt;gi|985764617|gb|KXB25736.1| glutamine amidotransferase [Legionella pneumophila] &gt;gi|985767111|gb|KXB28206.1| glutamine amidotransferase [Legionella pneumophila] &gt;gi|998781194|emb|CZJ44353.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998802599|emb|CZH88015.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998824258|emb|CZG43480.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998829487|emb|CZG80569.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998883351|emb|CZI77667.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998898808|emb|CZJ44687.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998912350|emb|CZG98560.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998936458|emb|CZM47823.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998952213|emb|CZJ32798.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998993926|emb|CZI45378.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999000390|emb|CZG75996.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999057934|emb|CZM54182.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999104195|emb|CZI06805.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999119067|emb|CZG85348.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999122192|emb|CZH18446.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999128806|emb|CZH04721.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999151545|emb|CZH54230.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999153883|emb|CZM18765.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999158578|emb|CZJ89458.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999162971|emb|CZM05999.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999166032|emb|CZG68754.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999168287|emb|CZI50621.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999177502|emb|CZJ87578.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999237156|emb|CZG77348.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999286814|emb|CZI77055.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999293063|emb|CZI61147.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999302289|emb|CZI56402.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999312022|emb|CZI86353.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1002085500|emb|CZQ99681.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1002088700|emb|CZQ78685.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1002091731|emb|CZR05906.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1024339673|gb|KZX34012.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1080003058|gb|AOW53630.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005197|gb|AOW55477.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008981|gb|AOW58969.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011352|gb|AOW60843.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015555|gb|AOW64428.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017596|gb|AOW66241.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1104007462|emb|SFZ46839.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1108605957|gb|APF04325.1| class II glutamine amidotransferase [Legionella pneumophila subsp. fraseri] &gt;gi|1108608940|gb|APF07307.1| class II glutamine amidotransferase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_011216481</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>592.038</Hsp_bit-score>
+      <Hsp_score>1525</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|504657623|ref|WP_014844725.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|53752380|emb|CAH13812.1| hypothetical protein lpp2659 [Legionella pneumophila str. Paris] &gt;gi|395131690|emb|CCD09983.1| glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|536611650|gb|ERB40168.1| glutamine amidotransferase [Legionella pneumophila str. 121004] &gt;gi|541998731|gb|ERH44747.1| glutamine amidotransferase [Legionella pneumophila str. Leg01/53] &gt;gi|542000233|gb|ERH46224.1| glutamine amidotransferase [Legionella pneumophila str. Leg01/11] &gt;gi|542123127|gb|ERI49436.1| glutamine amidotransferase [Legionella pneumophila str. Leg01/20] &gt;gi|761987447|dbj|GAN24622.1| amidohydrolase EgtC [Legionella pneumophila] &gt;gi|761990461|dbj|GAN18570.1| amidohydrolase EgtC [Legionella pneumophila] &gt;gi|761993651|dbj|GAN21676.1| amidohydrolase EgtC [Legionella pneumophila] &gt;gi|762000200|dbj|GAN27932.1| amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998789991|emb|CZH01388.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998792801|emb|CZI68240.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998892871|emb|CZJ06728.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998924261|emb|CZJ94363.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998942506|emb|CZK04892.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998954557|emb|CZK40318.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998976216|emb|CZJ66829.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998981998|emb|CZI87595.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|998991544|emb|CZK09201.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999004431|emb|CZI42186.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999009799|emb|CZK01602.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999018949|emb|CZJ62240.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999027953|emb|CZJ88892.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999031513|emb|CZG66397.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999034079|emb|CZJ98512.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999040286|emb|CZJ68638.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999043047|emb|CZJ76401.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999048998|emb|CZJ87403.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999052255|emb|CZJ69194.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999055127|emb|CZJ95535.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999064365|emb|CZJ79499.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999070080|emb|CZJ73978.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999073461|emb|CZK06156.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999085596|emb|CZJ96164.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999106976|emb|CZI85999.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999173425|emb|CZH70496.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999182515|emb|CZG26534.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999184472|emb|CZP92369.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999188680|emb|CZI75935.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999198280|emb|CZP05784.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999206465|emb|CZP60169.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999213612|emb|CZG41683.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999217098|emb|CZI73928.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999225942|emb|CZG34157.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999227880|emb|CZP41632.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999231250|emb|CZI63842.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999235021|emb|CZP50876.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999240517|emb|CZH75261.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999244186|emb|CZH70352.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999249394|emb|CZG77361.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999252861|emb|CZG90073.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999256124|emb|CZP72742.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999259171|emb|CZP38402.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999262183|emb|CZH08063.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999265485|emb|CZP04842.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999272047|emb|CZP50779.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999274314|emb|CZH07099.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999277754|emb|CZP28108.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999281540|emb|CZP24110.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999284188|emb|CZP50958.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999290809|emb|CZP26639.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999296791|emb|CZP50687.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999300030|emb|CZP28935.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999307127|emb|CZH64767.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999309513|emb|CZP18275.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999316001|emb|CZI04152.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999318914|emb|CZP55885.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999322166|emb|CZH90971.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999324963|emb|CZH15659.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999327561|emb|CZH27157.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999332918|emb|CZG05102.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999338029|emb|CZP44881.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999340703|emb|CZG97943.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999344193|emb|CZP92213.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999347481|emb|CZP61278.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999349548|emb|CZH47413.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999353700|emb|CZP51212.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999356809|emb|CZP74396.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999361111|emb|CZI02760.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999363175|emb|CZP70436.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999366938|emb|CZP70447.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999369644|emb|CZP87570.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999374069|emb|CZG05097.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999377328|emb|CZI90766.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999380627|emb|CZH51001.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999383429|emb|CZI18303.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999387442|emb|CZG09351.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999390249|emb|CZI09375.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999392452|emb|CZP95114.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999397086|emb|CZG17547.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999398700|emb|CZP98521.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999403300|emb|CZP49164.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999406401|emb|CZG41833.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999409427|emb|CZH72702.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999412559|emb|CZG26746.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999416629|emb|CZG13159.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999419258|emb|CZG42437.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999422630|emb|CZH45770.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999426463|emb|CZG23887.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999429136|emb|CZG31950.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999432724|emb|CZG07966.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999435718|emb|CZH64924.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999438369|emb|CZG45948.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999442226|emb|CZJ83557.1| glutamine amidotransferase [Legionella pneumophila] &gt;gi|999445350|emb|CZH57069.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999448612|emb|CZG05096.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999450769|emb|CZP29396.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999458338|emb|CZJ88556.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999470020|emb|CZG83766.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999497041|emb|CZI11726.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999521321|emb|CZP43593.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999526308|emb|CZI60353.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999529190|emb|CZI15821.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999577090|emb|CZI02977.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999612391|emb|CZI08250.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999778451|emb|CZG99322.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1002082111|emb|CZQ95687.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1003028422|emb|CZR23664.1| glutamine amidotransferase [Legionella pneumophila] &gt;gi|1003030295|emb|CZR34403.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1005834275|gb|AMQ29001.1| glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434028|gb|AMV15655.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1032658685|gb|ANH13956.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1032661647|gb|ANH16917.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1032664625|gb|ANH19894.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1041016578|gb|ANN93639.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1041019577|gb|ANN96637.1| class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1103997770|emb|SFZ46727.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1104000908|emb|SFZ46762.1| Amidohydrolase EgtC [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844725</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.882</Hsp_bit-score>
+      <Hsp_score>1522</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLLGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYL+GYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1003777985|ref|WP_061466650.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061466650</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.112</Hsp_bit-score>
+      <Hsp_score>1520</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLLGYVLSTQGLWLKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYL+GYVLSTQGLW+KEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|504655561|ref|WP_014842663.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|395128607|emb|CCD06825.1| glutamine amidotransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|999248124|emb|CZH53022.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999269666|emb|CZO23669.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999455496|emb|CZH43376.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999462249|emb|CZG07581.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999465372|emb|CZM24742.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999468372|emb|CZO08929.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999475009|emb|CZM45131.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999478203|emb|CZN26592.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999481398|emb|CZM64723.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999484428|emb|CZN98069.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999487500|emb|CZL94328.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999490691|emb|CZN57197.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999494001|emb|CZL97432.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999500319|emb|CZN56576.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999503541|emb|CZN85574.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999506737|emb|CZM91589.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999510056|emb|CZG27762.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999513129|emb|CZN16754.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999516604|emb|CZL81151.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999519828|emb|CZM50987.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999532696|emb|CZO33631.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999536023|emb|CZN18958.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999539089|emb|CZM55014.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999542257|emb|CZO07141.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999545483|emb|CZO46505.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999548555|emb|CZN72975.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999551871|emb|CZO00254.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999555248|emb|CZM97833.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999558261|emb|CZO46259.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999561333|emb|CZM26418.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999564654|emb|CZO47159.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999567721|emb|CZM39822.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999570920|emb|CZN38282.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999574110|emb|CZN75256.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999580601|emb|CZN99735.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999584113|emb|CZO13118.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999587236|emb|CZM47918.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999590498|emb|CZM21856.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999593373|emb|CZN31734.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999596571|emb|CZN94256.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999599887|emb|CZO25365.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999603257|emb|CZL62911.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999606282|emb|CZN40150.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999609668|emb|CZN40864.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999615844|emb|CZM30641.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999619007|emb|CZN76969.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999622317|emb|CZO51135.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999625639|emb|CZN54593.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999628944|emb|CZM41658.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999631822|emb|CZM45668.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999635138|emb|CZN41426.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999638210|emb|CZN34336.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999641406|emb|CZO62076.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999644577|emb|CZO27831.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999648114|emb|CZN76021.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999650925|emb|CZN92475.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999654311|emb|CZN92738.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999657689|emb|CZM01934.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999660580|emb|CZM47852.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999664094|emb|CZM81278.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999667095|emb|CZM25619.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999670289|emb|CZL74769.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999673676|emb|CZM19638.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999676560|emb|CZN61107.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999679595|emb|CZM61660.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999682790|emb|CZM69242.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999686016|emb|CZN91800.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999689644|emb|CZN10591.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999692547|emb|CZN80388.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999696055|emb|CZN02206.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999699254|emb|CZL98738.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999702468|emb|CZM42844.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999705662|emb|CZL60366.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999708686|emb|CZN42108.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999711938|emb|CZM87960.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999715379|emb|CZM87951.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999718530|emb|CZO28456.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999721396|emb|CZM66726.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999724736|emb|CZN16806.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999728183|emb|CZL89819.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999731629|emb|CZO21179.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999734878|emb|CZL99607.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999738220|emb|CZO48194.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999741080|emb|CZM25402.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999744618|emb|CZN07658.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999747907|emb|CZM00182.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999750802|emb|CZL79054.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999754120|emb|CZM72126.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999757463|emb|CZM84952.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999760390|emb|CZM14465.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999763895|emb|CZN10693.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999767092|emb|CZM57257.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999769819|emb|CZN39672.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999773523|emb|CZH73588.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999776565|emb|CZL89964.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999783429|emb|CZH50655.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999786605|emb|CZM18912.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999789804|emb|CZO48231.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999793249|emb|CZO52047.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999796496|emb|CZI09969.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|999800224|emb|CZO39914.1| Amidohydrolase EgtC [Legionella pneumophila] &gt;gi|1003034754|emb|CZR27551.1| glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842663</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.112</Hsp_bit-score>
+      <Hsp_score>1520</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>282</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENLLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLEN+LVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|756829720|ref|WP_042646797.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042646797</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>589.341</Hsp_bit-score>
+      <Hsp_score>1518</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLHPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQL PLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1004334825|ref|WP_061513750.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513750</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.571</Hsp_bit-score>
+      <Hsp_score>1516</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>281</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKRRDINQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAK RDI QLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|652969866|ref|WP_027222759.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila] &gt;gi|1005362968|gb|AMP88837.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367768|gb|AMP93545.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370687|gb|AMP96463.1| class II glutamine amidotransferase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222759</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>587.8</Hsp_bit-score>
+      <Hsp_score>1514</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>280</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIEQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMLLIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVI QFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHM+LIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1004014377|ref|WP_061483694.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483694</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.26</Hsp_bit-score>
+      <Hsp_score>1510</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHFFGLFLQLAKGRDINQLSVAADVLQETINKILEVIGEFGQSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEH FGLFLQLAKGRDI QLSVAADVLQETINKILEVIG+FG SGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1011914643|ref|WP_062727857.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727857</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>580.867</Hsp_bit-score>
+      <Hsp_score>1496</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDINQLSVAADVLQETINKILEVIEQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDI QLSVAADVLQETINKILEVI QFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|737921581|ref|WP_035886883.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella norrlandica] &gt;gi|701446872|gb|KGP64220.1| glutamine amidotransferase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886883</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>543.117</Hsp_bit-score>
+      <Hsp_score>1398</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGKPTLLENVLVKPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEISSDPALFTSVYPAWNDRNLLHLTAKIQSSCFFAHVRSASAGGVTNYNCHPFIFGDWMLMHNGEINDFIEVKRHIRHLLDDDIYHWVKGETDSEHLFGLFLQLAKGRDINQLSVAADVLEETIRKILDVIKQFGHSGPSYFNVCLTDGKKIIATRYCSHKKKKPLTLHYLNGYVLSTQHTGVKEEKKPAYIVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_hseq>
+      <Hsp_midline>MCR VAYLG+PTLLENVLV+PKNSIIMQSLHARETKYRTNGDGFGLGWYSPE+SSDPALFTSVYPAWNDRNLLHLTAKIQS CFFAHVRSASAGGVTNYNCHPFI+GDWMLMHNGEINDFI+VKRHIRHLLDDDIYHWVKG+TDSEHLFGLFLQLAKGRDI QLSVAADVL+ETI KIL+VI QFGHSGPSYFN+CLT+GKKIIATRYCSH+KKKPLTLHYL GYVLSTQ   +KEE  PAY+VVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|966434561|ref|WP_058474992.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella quateirensis] &gt;gi|962260586|gb|KTD44696.1| glutamine amidotransferase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474992</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.072</Hsp_bit-score>
+      <Hsp_score>1320</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>261</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGRSTLLENVLVTPKNSIIMQSLHARETNLRTNGDGFGVGWYAPEVSSDPALFTSVFPAWNDRNLLNLTAKIQSPCFFAHVRSASAGGVTNFNCHPFVYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGDTDSEHLFGLFLQLAKGRDLSQITVVADVLQETILRIEDVIREFGHTGVSYYNVCLTDGKRIVATRYTSHKKTKPLTLHYLVGYVLATHGLWIKEEGKPAYIVVSSEKLNDLADGWEDVPAQHMLLIDENKNIQLRPF</Hsp_hseq>
+      <Hsp_midline>MCR VAYLGR TLLENVLV PKNSIIMQSLHARET  RTNGDGFG+GWY+PEVSSDPALFTSV+PAWNDRNLL+LTAKIQSPCFFAHVRSASAGGVTN+NCHPF+YGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKG TDSEHLFGLFLQLAKGRD++Q++V ADVLQETI +I +VI +FGH+G SY+N+CLT+GK+I+ATRY SH+K KPLTLHYL+GYVL+T GLWIKEEG PAY+VVSSE+LNDL +GWEDVP QHM+LIDENKNIQLRP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|654932827|ref|WP_028383185.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella moravica] &gt;gi|962253362|gb|KTD37543.1| glutamine amidotransferase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383185</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>507.294</Hsp_bit-score>
+      <Hsp_score>1305</Hsp_score>
+      <Hsp_evalue>1.26621e-180</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGRPTLLENVLVTPKNSIIMQSLHARETNLRTNGDGFGVGWYAPEISSDPALFTSVFPAWNDRNLLNLTAKIQSPCFFAHVRSASAGGVTNYNCHPFVYGDWMLMHNGEIHDFINVKRHIRHLLDDDIYHWVKGETDSEHLFALFWQLAKGRDLSQMTVVADVLQETILRVEDVIREFGHPGVSYYNVCLTDGKRIIATRYTSHKKKKPLTMHYLVGYVLATHGLWIKEEGKPAYIVVSSEKLNDLAEGWEDVPEHHMLLIDENKNIQLRPF</Hsp_hseq>
+      <Hsp_midline>MCR VAYLGRPTLLENVLV PKNSIIMQSLHARET  RTNGDGFG+GWY+PE+SSDPALFTSV+PAWNDRNLL+LTAKIQSPCFFAHVRSASAGGVTNYNCHPF+YGDWMLMHNGEI+DFI+VKRHIRHLLDDDIYHWVKG+TDSEHLF LF QLAKGRD++Q++V ADVLQETI ++ +VI +FGH G SY+N+CLT+GK+IIATRY SH+KKKPLT+HYL+GYVL+T GLWIKEEG PAY+VVSSE+LNDL EGWEDVP  HM+LIDENKNIQLRP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|966461262|ref|WP_058493615.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella worsleiensis] &gt;gi|962294284|gb|KTD77951.1| glutamine amidotransferase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493615</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.819</Hsp_bit-score>
+      <Hsp_score>1283</Hsp_score>
+      <Hsp_evalue>3.60084e-177</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTLG</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGRPTLLKNVLVTPKNSIIMQSLHARETDLRTNGDGFGVGWYAPEISSDPALFTSVFPAWNDRNLLSLTSKIQSPCFFAHVRSASAGGVTNFNCHPFVHGDWMLMHNGEIHDFVQVKRHIRHLLDDDIYHWIKGETDSEHLFGLFLQLAKGRDLSQFMVVADVLQQTIFKIEEVIAEYGKPGTSYYNVCLTDGKRIIATRYTSNNKKKPLTLHYLAGYMLATNGLWVKEEGKPAYVVVSSEKLNDIAEGWENVPEQHMLLIDENRNIQLRPFKAVG</Hsp_hseq>
+      <Hsp_midline>MCR VAYLGRPTLL+NVLV PKNSIIMQSLHARET  RTNGDGFG+GWY+PE+SSDPALFTSV+PAWNDRNLL LT+KIQSPCFFAHVRSASAGGVTN+NCHPF++GDWMLMHNGEI+DF+ VKRHIRHLLDDDIYHW+KG+TDSEHLFGLFLQLAKGRD++Q  V ADVLQ+TI KI EVI ++G  G SY+N+CLT+GK+IIATRY S+ KKKPLTLHYL GY+L+T GLW+KEEG PAYVVVSSE+LND+ EGWE+VP QHM+LIDEN+NIQLRP + +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|769980340|ref|WP_045096325.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella fallonii] &gt;gi|698843943|emb|CEG57912.1| Glutamine amidotransferase [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096325</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.669</Hsp_bit-score>
+      <Hsp_score>1158</Hsp_score>
+      <Hsp_evalue>3.61512e-158</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRIVAYLGRPALLEDILVTPKNSIVMQSLHARETDLRVNGDGFGLGWYIPQISSSPALFTSIAPAWNDRNLLHLTAKTQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMFMHNGDINHFSLVKRHLRHLLDDDIYDWIQGETDSEHLFALFLQLAKGHDLTQLSVVGDVLEQTLHKVDEIITEFGKKGPSYYNLCMTDGRRIVATRYCTDRKKKNLSFHYLEGYVFSNEDEWPKKEEPPSYIVVSSERFNDLAEGWQDIPVGHMMLVDENKVIQLRPL</Hsp_hseq>
+      <Hsp_midline>MCR VAYLGRP LLE++LV PKNSI+MQSLHARET  R NGDGFGLGWY P++SS PALFTS+ PAWNDRNLLHLTAK QSPCFFAHVRSASAGGVTNYNCHPFIYGDWM MHNG+IN F  VKRH+RHLLDDDIY W++G+TDSEHLF LFLQLAKG D+TQLSV  DVL++T++K+ E+I +FG  GPSY+N+C+T+G++I+ATRYC+  KKK L+ HYL GYV S +  W K+E  P+Y+VVSSER NDL EGW+D+P  HM+L+DENK IQLRPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|769991265|ref|WP_045107137.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella hackeliae] &gt;gi|731153470|emb|CEK12056.1| Glutamine amidotransferase [Legionella hackeliae] &gt;gi|962228018|gb|KTD12640.1| glutamine amidotransferase [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045107137</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>1.24796e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYV----VVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQ</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGHEALLDDILVKPVNSIVMQSLHARETVVPTNGDGFGLGWYTPSISLEPALFTSISPAWNDRNLLNLTAKIKSPCFFAHVRAAGAGGVTNFNCHPFIHGRWMLMHNGDIADFIVVKRHIRHLLDDDIYHWIQGETDSEHIFALFLQLAKGKDLSELSVVADILEETFAQINELIKYFGASDASYFNVCLTDGERLIASRYTTHKKAKPESLHYFVGSCFATFNHCVDVSSQPEHVHQCCLIASERLTDFNTDWQDVPANHLLLVDREQNIQLRPLR</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   LL+++LV+P NSI+MQSLHARET   TNGDGFGLGWY+P +S +PALFTS+ PAWNDRNLL+LTAKI+SPCFFAHVR+A AGGVTN+NCHPFI+G WMLMHNG+I DFI VKRHIRHLLDDDIYHW++G+TDSEH+F LFLQLAKG+D+++LSV AD+L+ET  +I E+I  FG S  SYFN+CLT+G+++IA+RY +H+K KP +LHY +G   +T    +     P +V    +++SERL D +  W+DVP  H++L+D  +NIQLRPL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966399362|ref|WP_058442995.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella brunensis] &gt;gi|962191861|gb|KTC76937.1| glutamine amidotransferase [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058442995</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>1.02454e-138</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPA----YVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQ</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGHEALLDDILVKPVNSLVMQSLHARETVVPTNGDGFGLGWYSPSISSEPALFTSISPAWNDRNLLHLTAKIKSPCFFAHVRAAGAGGVTNYNCHPFIHGRWMLMHNGDIADFIVVKRHLRHLLDDDIYHWIQGETDSEHLFALFLQLAKGKDLSQLMVVADILEETFTQINELIKYFGVSDDSFFNVCLTDGERLVASRYTTHKKSKPESLHYFLGSCFTTLGHGSQPQNVPENPHQCVLISSEKLTDFNTDWQDVPANHLLLVDRNHEIQLRTLK</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   LL+++LV+P NS++MQSLHARET   TNGDGFGLGWYSP +SS+PALFTS+ PAWNDRNLLHLTAKI+SPCFFAHVR+A AGGVTNYNCHPFI+G WMLMHNG+I DFI VKRH+RHLLDDDIYHW++G+TDSEHLF LFLQLAKG+D++QL V AD+L+ET  +I E+I  FG S  S+FN+CLT+G++++A+RY +H+K KP +LHY +G   +T G   + +  P      V++SSE+L D +  W+DVP  H++L+D N  IQLR L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966404318|ref|WP_058447835.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella feeleii] &gt;gi|962210471|gb|KTC95376.1| glutamine amidotransferase [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058447835</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>9.45369e-137</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLW--IKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYRGHDVVLEDVLVKPVNSIIMQSLHARESTIPTNGDGFGLGWYVPSISTEPALFTSISPAWNDRNLLYLTAKIKSPCFFAHVRAASAGGVTNYNCHPFIHGRWMLMHNGGINDFIVVKRHLRHLLEDDIYHWIQGETDSEHLFGLFLQLAKGRDLSKLSVVADTLEDTLYEVNQLVQQFGTKGPSYFNICLTDGERIVASRYCTDKDDSPESLHYFNGACFAGRAHFHKLKENHKHECILVTSEKLTNISDQWGDVPANHLLLIDKDRRIELRPM</Hsp_hseq>
+      <Hsp_midline>MCRFVAY G   +LE+VLV+P NSIIMQSLHARE+   TNGDGFGLGWY P +S++PALFTS+ PAWNDRNLL+LTAKI+SPCFFAHVR+ASAGGVTNYNCHPFI+G WMLMHNG INDFI VKRH+RHLL+DDIYHW++G+TDSEHLFGLFLQLAKGRD+++LSV AD L++T+ ++ +++ QFG  GPSYFNICLT+G++I+A+RYC+ +   P +LHY  G   + +  +  +KE      ++V+SE+L ++ + W DVP  H++LID+++ I+LRP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|966431323|ref|WP_058471768.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella jordanis] &gt;gi|962233525|gb|KTD18073.1| glutamine amidotransferase [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471768</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>1.93069e-136</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAY--VVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQ</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGHEALLADVLVKPINSIVMQSLHARESSMPTNGDGFGLGWYNPSISSEPALFTSISPAWNDRNLLQLTAKIKSPCFFAHVRAAGAGGVTNYNCHPFTHGSWMLMHNGDIADFILVKRHLRHLLDDDIYHWIQGETDSEHLFALFLQLAKGKDLSQLSVVADVLEETFAQVNELVKYFGASDSSFFNICLTDGERLVASRYTTHKKIKPESLHYFLGDCFVTFGHQSSETTDQIHQCVLVASEKLTDFKTDWQDVPANHFLLVDKNHGISIRPIK</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   LL +VLV+P NSI+MQSLHARE+   TNGDGFGLGWY+P +SS+PALFTS+ PAWNDRNLL LTAKI+SPCFFAHVR+A AGGVTNYNCHPF +G WMLMHNG+I DFI VKRH+RHLLDDDIYHW++G+TDSEHLF LFLQLAKG+D++QLSV ADVL+ET  ++ E++  FG S  S+FNICLT+G++++A+RY +H+K KP +LHY +G    T G    E  +  +  V+V+SE+L D    W+DVP  H +L+D+N  I +RP++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966406253|ref|WP_058449659.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella jamestowniensis] &gt;gi|962222900|gb|KTD07550.1| glutamine amidotransferase [Legionella jamestowniensis] &gt;gi|1045920740|gb|OCH97681.1| class II glutamine amidotransferase [Legionella jamestowniensis] &gt;gi|1097327569|emb|SFM01637.1| glutamine amidotransferase [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058449659</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.889</Hsp_bit-score>
+      <Hsp_score>1008</Hsp_score>
+      <Hsp_evalue>2.37077e-135</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLST--QGLWIKE-EGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGHEALLDDILVKPANSIVMQSLHARETVVPTNGDGFGLGWYTPLISEEPALFTSISPAWNDRNLLHLTAKIKSPCFFAHVRAAGAGGVTNYNCHPFIHGRWMLMHNGDIADFIVVKRHLRHLLDDDIYHWIQGETDSEHLFALFLQLAKGKDLSQLAVVADVLEETFAQINELIKYFGTSEASYFNVCLTDGERLVASRYTTHKKAKPESLHYFVGGCFTTFDHTTTVKHPQHTYQCCLIASERLTNFNTDWQDVPANHLLLVDKTHEVQLRSL</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   LL+++LV+P NSI+MQSLHARET   TNGDGFGLGWY+P +S +PALFTS+ PAWNDRNLLHLTAKI+SPCFFAHVR+A AGGVTNYNCHPFI+G WMLMHNG+I DFI VKRH+RHLLDDDIYHW++G+TDSEHLF LFLQLAKG+D++QL+V ADVL+ET  +I E+I  FG S  SYFN+CLT+G++++A+RY +H+K KP +LHY +G   +T      +K  +      +++SERL + +  W+DVP  H++L+D+   +QLR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|654922225|ref|WP_028372780.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella lansingensis] &gt;gi|962231432|gb|KTD15982.1| glutamine amidotransferase [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028372780</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>8.94518e-134</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKE-EGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGHEAILADVLVKPANSIVMQSLHARESSMPTNGDGFGLGWYTPSISPEPALFTSISPAWNDRNLLHLTAKIKSPCFFAHVRAAGAGGVTSYNCHPFIHGSWMLMHNGDIADFVLVKRHLRHLLDDDIYYWIKGETDSEHLFALFLQLAKGKDLSQLTVVADILEETFAQILELVKYFGAHDASFFNVCLTDGERLVASRYTNHKKAKPESLHYYRGSCFMTPCHETATPEGVHECVLIASEKLTNPSTDWEDVPANHLLLVDRGWNLQLRPL</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   +L +VLV+P NSI+MQSLHARE+   TNGDGFGLGWY+P +S +PALFTS+ PAWNDRNLLHLTAKI+SPCFFAHVR+A AGGVT+YNCHPFI+G WMLMHNG+I DF+ VKRH+RHLLDDDIY+W+KG+TDSEHLF LFLQLAKG+D++QL+V AD+L+ET  +ILE++  FG    S+FN+CLT+G++++A+RY +H+K KP +LHY  G    T        EG    V+++SE+L +    WEDVP  H++L+D   N+QLRPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966463559|ref|WP_058494921.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella drozanskii] &gt;gi|962207642|gb|KTC92572.1| glutamine amidotransferase [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058494921</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>1.53842e-132</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYFGTGVLLNHILVKPTNSIIMQSLHARESSVPTNGDGFGLGWYAPEVSPEPALFTSVFPAWNDRNLLNLTAKIKSPCFFAHVRAAGTGGVTNYNCHPFINGKWMLMHNGDISDFLMVKRHLRHLLDDDIYDWIQGETDSEHLFALFLQLSKGRDLSQLSVVADTLKETIFQINDLVAYYSKENASYYNLCLTDGERIIATRYCTDVNSLPETLHFFSGQCIFEH----RHEDNHEAIVISSEILTDLKADWRDVPPNHILLIDKNRSIDTQPL</Hsp_hseq>
+      <Hsp_midline>MCRFVAY G   LL ++LV+P NSIIMQSLHARE+   TNGDGFGLGWY+PEVS +PALFTSV+PAWNDRNLL+LTAKI+SPCFFAHVR+A  GGVTNYNCHPFI G WMLMHNG+I+DF+ VKRH+RHLLDDDIY W++G+TDSEHLF LFLQL+KGRD++QLSV AD L+ETI +I +++  +     SY+N+CLT+G++IIATRYC+     P TLH+  G  +       + E N   +V+SSE L DL   W DVPP H++LID+N++I  +PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|737927843|ref|WP_035892893.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella oakridgensis] &gt;gi|570703413|gb|ETO94305.1| putative glutamine amidotransferase [Legionella oakridgensis RV-2-2007]</Hit_def>
+  <Hit_accession>WP_035892893</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>5.93099e-132</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGY-VLSTQGLW--IKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLIAYIGSEILLEDVLVKPVNSIIMQSLHARESEIPTNGDGFGLGWYAPHISAEPALFTSISPAWNDRNLLHLTAKIKSPALFAHVRAASAGGVTNYNCHPFVHDKWMFMHNGGIHDFITVKRHLRHLLEDDIYHWIQGETDSEHMFALFLQMAKGKDLSQLSVVADVLQAVFYQISELIRQFGKHGASYFNVCLTDGQRLLASRYCSYKSSRPSSMHYSIGSEFVARNGRYHMLQEKDKKRCILVTSEKLTRFNAEWQDVPENHLLMVDKDFSIQLRSL</Hsp_hseq>
+      <Hsp_midline>MCR +AY+G   LLE+VLV+P NSIIMQSLHARE++  TNGDGFGLGWY+P +S++PALFTS+ PAWNDRNLLHLTAKI+SP  FAHVR+ASAGGVTNYNCHPF++  WM MHNG I+DFI VKRH+RHLL+DDIYHW++G+TDSEH+F LFLQ+AKG+D++QLSV ADVLQ    +I E+I QFG  G SYFN+CLT+G++++A+RYCS++  +P ++HY IG   ++  G +  ++E+     ++V+SE+L   +  W+DVP  H++++D++ +IQLR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966441725|ref|WP_058481987.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella spiritensis] &gt;gi|962282500|gb|KTD66281.1| glutamine amidotransferase [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058481987</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>9.41355e-132</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLW--IKEEGNPAY--VVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGDKVLLEEVLVKPANSIIMQSLHARETDVPTNGDGFGLGWYAHHISKEPALFKSISPAWNDQNLLHLTAKVESTCFFAHVRAASEGGVTHYNCHPFIHREWMLIHNGGIADFMPVKRHLRHLLDDDIYNWIKGETDSEHFFALFLQLAKEKDLSQLSVAADVFQATIEKVNALVAQFGTQDDSYFNICITDGRRLLATRYCSGKKTSPDSLHYFSGHCFTPNPLRNDIKENHSESHHAVLIASEKLTRLDAQWEDVPVNHMLLVDDDRRIQLRPL</Hsp_hseq>
+      <Hsp_midline>MCR VAYLG   LLE VLV+P NSIIMQSLHARET   TNGDGFGLGWY+  +S +PALF S+ PAWND+NLLHLTAK++S CFFAHVR+AS GGVT+YNCHPFI+ +WML+HNG I DF+ VKRH+RHLLDDDIY+W+KG+TDSEH F LFLQLAK +D++QLSVAADV Q TI K+  ++ QFG    SYFNIC+T+G++++ATRYCS +K  P +LHY  G+  +   L   IKE  + ++  V+++SE+L  LD  WEDVP  HM+L+D+++ IQLRPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966474227|ref|WP_058504988.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella nautarum] &gt;gi|962250889|gb|KTD35088.1| glutamine amidotransferase [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058504988</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>2.01439e-131</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFIAYIGTGVLLDHILVKPTNSIIMQSLHARESSVPTNGDGFGLGWYAPEISPEPALFTSVSPAWNDRNLLHLTAKIKSPCFFAHVRAAGAGGVTKYNCHPFINGKWMLMHNGDISNFLLVKRHLRHLLDDDIYDWIQGETDSEHLFALFLQLSKGRDLSQLSVVADTLKETIFQINDLVAYYSKENASYYNLCLTDGEQIIATRYCTEVNSLPETLHFFSGQCIYDH----HHEENHDAIVISSEILTDLKTDWNDVPPNHILLIDKNRNIDTQPI</Hsp_hseq>
+      <Hsp_midline>MCRF+AY+G   LL+++LV+P NSIIMQSLHARE+   TNGDGFGLGWY+PE+S +PALFTSV PAWNDRNLLHLTAKI+SPCFFAHVR+A AGGVT YNCHPFI G WMLMHNG+I++F+ VKRH+RHLLDDDIY W++G+TDSEHLF LFLQL+KGRD++QLSV AD L+ETI +I +++  +     SY+N+CLT+G++IIATRYC+     P TLH+  G  +         E N   +V+SSE L DL   W DVPP H++LID+N+NI  +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|644964094|ref|WP_025384849.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella oakridgensis] &gt;gi|570283743|gb|AHE65930.1| putative glutamine amidotransferase [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|962259659|gb|KTD43783.1| glutamine amidotransferase [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025384849</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>2.0652e-131</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGY-VLSTQGLW--IKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLIAYIGSEILLEDVLVKPVNSIIMQSLHARESEIPTNGDGFGLGWYAPHISPEPALFTSISPAWNDRNLLHLTAKIKSPALFAHVRAASAGGVTNYNCHPFVHDKWMFMHNGGIHDFITVKRHLRHLLEDDIYHWIQGETDSEHMFALFLQMAKGKDLSQLSVVADVLQAVFYQISELIRQFGKHGASYFNVCLTDGQRLLASRYCSYKSSRPSSMHYSIGSEFVARNGRYHMLQEKDKKRCILVTSEKLTRFNAEWQDVPENHLLMVDKDFSIQLRSL</Hsp_hseq>
+      <Hsp_midline>MCR +AY+G   LLE+VLV+P NSIIMQSLHARE++  TNGDGFGLGWY+P +S +PALFTS+ PAWNDRNLLHLTAKI+SP  FAHVR+ASAGGVTNYNCHPF++  WM MHNG I+DFI VKRH+RHLL+DDIYHW++G+TDSEH+F LFLQ+AKG+D++QLSV ADVLQ    +I E+I QFG  G SYFN+CLT+G++++A+RYCS++  +P ++HY IG   ++  G +  ++E+     ++V+SE+L   +  W+DVP  H++++D++ +IQLR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966408773|ref|WP_058452165.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella maceachernii] &gt;gi|962242812|gb|KTD27147.1| glutamine amidotransferase [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058452165</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>3.36951e-129</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGTGVLLEHILVQPNNSIIMQSLHARESTIPTNGDGFGVGWYAPEINPEPALFTSVFPAWNDRNLLQLTAKIKSPCFFAHIRAAGAGGVTTYNCHPFVHEKWMLMHNGDISDFILVKRHLRHLLEDDIYHWIQGETDSEHLFALFLQFARGRDLTTLSVVADVLQETILQINELVEHYSKNHDSYYNLCLTDGKRIVASRYCTAKDEQPESLHYFSGKCLYRH---LHEEHHEA-VVVSSEILTDFKADWQTVPPNSFLLVDYDRSIKIRSF</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   LLE++LV+P NSIIMQSLHARE+   TNGDGFG+GWY+PE++ +PALFTSV+PAWNDRNLL LTAKI+SPCFFAH+R+A AGGVT YNCHPF++  WMLMHNG+I+DFI VKRH+RHLL+DDIYHW++G+TDSEHLF LFLQ A+GRD+T LSV ADVLQETI +I E++  +  +  SY+N+CLT+GK+I+A+RYC+ + ++P +LHY  G  L      + EE + A VVVSSE L D    W+ VPP   +L+D +++I++R  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|762038398|ref|WP_043874335.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella massiliensis] &gt;gi|683288748|emb|CEE13610.1| Amidohydrolase EgtC [Legionella massiliensis] &gt;gi|685071253|emb|CDZ77872.1| Amidohydrolase EgtC [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_043874335</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.17</Hsp_bit-score>
+      <Hsp_score>962</Hsp_score>
+      <Hsp_evalue>1.82571e-128</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAY--VVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGSEVLLEDILVKPINSIIMQSLHARESTIPTNGDGFGLGWYAPELSDEPALFTSVSPAWNDRNLLNLTAKIKSPCFFAHVRAASAGGVTNYNCHPFVFGKWMLMHNGNISDFITVKRHLRHLLDDDIYNWIQGETDSEHIFALFLQLAKGKDLNQLSVLTDIMQATLATINELVEHYGQENESYYNLCLTDGQRLIASRYCTEKNAMPESLHVFTGENLHE----YIDIPHPIYKAVLISSEKLTNFNTNWQDVPANHLLIIDNDYRIEFQAL</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   LLE++LV+P NSIIMQSLHARE+   TNGDGFGLGWY+PE+S +PALFTSV PAWNDRNLL+LTAKI+SPCFFAHVR+ASAGGVTNYNCHPF++G WMLMHNG I+DFI VKRH+RHLLDDDIY+W++G+TDSEH+F LFLQLAKG+D+ QLSV  D++Q T+  I E++  +G    SY+N+CLT+G+++IA+RYC+ +   P +LH   G  L        +  +P Y  V++SSE+L + +  W+DVP  H+++ID +  I+ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|769982481|ref|WP_045098463.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Tatlockia micdadei] &gt;gi|698845985|emb|CEG59965.1| conserved protein of unknown function [Tatlockia micdadei] &gt;gi|962242960|gb|KTD27294.1| glutamine amidotransferase [Tatlockia micdadei] &gt;gi|1081463947|emb|SCY60390.1| glutamine amidotransferase [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045098463</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.244</Hsp_bit-score>
+      <Hsp_score>957</Hsp_score>
+      <Hsp_evalue>1.04683e-127</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGSGVLLEHILVQPNNSIIMQSLHARESTIPTNGDGFGVGWYAPEISPEPALFTSISPAWNDRNLLQLTAKIKSPCFFAHIRAAGAGGVTTYNCHPFVHDKWMLMHNGDISDFILVKRHLRHLLEDDIYHWIQGETDSEHLFALFLQFAKGRDLNQLSVVADVLRETILQINELVEHYSKDHASYYNLCLTDGKRIVASRYCTVKGGLPESLHYFSGKCLNRH---LHKEHHEA-VVVSSEILTEFNADWQDVPANSFLLVDYDRSIKIRPF</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   LLE++LV+P NSIIMQSLHARE+   TNGDGFG+GWY+PE+S +PALFTS+ PAWNDRNLL LTAKI+SPCFFAH+R+A AGGVT YNCHPF++  WMLMHNG+I+DFI VKRH+RHLL+DDIYHW++G+TDSEHLF LFLQ AKGRD+ QLSV ADVL+ETI +I E++  +     SY+N+CLT+GK+I+A+RYC+ +   P +LHY  G  L+     + +E + A VVVSSE L + +  W+DVP    +L+D +++I++RP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966516008|ref|WP_058532525.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella rubrilucens] &gt;gi|962261671|gb|KTD45764.1| glutamine amidotransferase [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058532525</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>2.52301e-127</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAY--VVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGDDVLLEDVLVKPTNSIIMQSLHARESTIPTNGDGFGLGWYAHHLSPAPALFTSISPAWNDRNLLHLTAKIQSTCFFAHVRAASAGGVTNYNCHPFIHGNWMLMHNGGIDNFITVKRHLRHMLEDDIYNWIQGETDSEHFFALFLQLAKGKDLSQLSTVAEIFQVTVTEINRLVNDFGAKEASYFNICLTDGQRLLASRYCSDKKLKPESMHYFSGHCFTPHKHNHGKDATEDHHCVLVASEKLTKFKAEWQDVPPNHLLLVDFDREIRLHPL</Hsp_hseq>
+      <Hsp_midline>MCR VAYLG   LLE+VLV+P NSIIMQSLHARE+   TNGDGFGLGWY+  +S  PALFTS+ PAWNDRNLLHLTAKIQS CFFAHVR+ASAGGVTNYNCHPFI+G+WMLMHNG I++FI VKRH+RH+L+DDIY+W++G+TDSEH F LFLQLAKG+D++QLS  A++ Q T+ +I  ++  FG    SYFNICLT+G++++A+RYCS +K KP ++HY  G+  +       ++    +  V+V+SE+L      W+DVPP H++L+D ++ I+L PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966508813|ref|WP_058525404.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella erythra] &gt;gi|962214512|gb|KTC99315.1| glutamine amidotransferase [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058525404</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>2.66488e-127</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLS--TQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGDDILLEDVLVKPVNSIIMQSLHARESTIPTNGDGFGLGWYAHHLSPAPALFTSISPAWNDRNLLHLTAKIQSTCFFAHVRAASAGGVTHYNCHPFIHGNWMLMHNGGIDNFITVKRHLRHMLEDDIYNWIRGETDSEHFFALFLQLAKGKDLSQLSTVAEIFQATVTEINRLVHDFGAKEASYFNICLTDGQRLLASRYCSDKKLKPESMHYFSGHCFTPHKHNHFKGATGDHHCVLVASEKLTKFKAEWQDVPPNHLLLVDYDRDITLHPL</Hsp_hseq>
+      <Hsp_midline>MCR VAYLG   LLE+VLV+P NSIIMQSLHARE+   TNGDGFGLGWY+  +S  PALFTS+ PAWNDRNLLHLTAKIQS CFFAHVR+ASAGGVT+YNCHPFI+G+WMLMHNG I++FI VKRH+RH+L+DDIY+W++G+TDSEH F LFLQLAKG+D++QLS  A++ Q T+ +I  ++  FG    SYFNICLT+G++++A+RYCS +K KP ++HY  G+  +      +    G+   V+V+SE+L      W+DVPP H++L+D +++I L PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1085381153|gb|OGV51782.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionellales bacterium RIFCSPHIGHO2_12_FULL_42_9]</Hit_def>
+  <Hit_accession>OGV51782</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.599</Hsp_bit-score>
+      <Hsp_score>906</Hsp_score>
+      <Hsp_evalue>6.55574e-120</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYV------LSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGHDILMAEVLVKPSNSIIRQSLHARESHSPTNGDGFGLGWYTPAISEEPALFTSTSPAWNDRNLLHLTAKIKSNCFFAHVRAASTGGVNPYNCHPFILGRWMLMHNGSIADFIPVKRHLRHLLDDDIYNWIKGETDSEHFFALLIQLAQGRDLSQAHVVADTIREAINVVNELVKKHSKHQTSYFNFCFTDGKRLLATRYCSNKNTTPETLHYFSGPTFAPHRQLQNRDLQDKHQS----VLIASEKLTKFHTEWNDVPANHMLIVDEDLNIMVEAI</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG   L+  VLV+P NSII QSLHARE+   TNGDGFGLGWY+P +S +PALFTS  PAWNDRNLLHLTAKI+S CFFAHVR+AS GGV  YNCHPFI G WMLMHNG I DFI VKRH+RHLLDDDIY+W+KG+TDSEH F L +QLA+GRD++Q  V AD ++E IN + E++ +      SYFN C T+GK+++ATRYCS++   P TLHY  G        L  + L  K +     V+++SE+L      W DVP  HM+++DE+ NI +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|489730629|ref|WP_003634745.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella longbeachae] &gt;gi|269990895|gb|EEZ97149.1| glutamine amidotransferase [Legionella longbeachae D-4968] &gt;gi|288859517|emb|CBJ13478.1| hypothetical protein LLO_3029 [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003634745</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.821</Hsp_bit-score>
+      <Hsp_score>891</Hsp_score>
+      <Hsp_evalue>1.40954e-117</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGH-SGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLI--GYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLR</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYMGHKVLLEDVLVKPSNSLIMQSLHAKESHVRTNGDGFGLGWYVPHLEKIPGLFTSISPAWNDRNLLHLCRKIESPCFFAHVRAASAGGVTTYNCHPFTHGEWMFMHNGTIHDFISLKRHLRHLLDDDIYHWIQGETDSEHLFALFLQLARNRDLSQINEVAAVFMETLKIINDLSKRYSSDAGPSYFNVCLTNGTSMLVSRYCNSKRHKPESLHYLTESSLIRHVQRPGLKKIKDSPMFLVASERLSAFNSEWFDVPVNHIMLV-ENYETDFR</Hsp_hseq>
+      <Hsp_midline>MCR VAY+G   LLE+VLV+P NS+IMQSLHA+E+  RTNGDGFGLGWY P +   P LFTS+ PAWNDRNLLHL  KI+SPCFFAHVR+ASAGGVT YNCHPF +G+WM MHNG I+DFI +KRH+RHLLDDDIYHW++G+TDSEHLF LFLQLA+ RD++Q++  A V  ET+  I ++  ++   +GPSYFN+CLTNG  ++ +RYC+ ++ KP +LHYL     +   Q   +K+  +    +V+SERL+  +  W DVP  H++L+ EN     R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1085355181|gb|OGV27174.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionellales bacterium RIFCSPHIGHO2_12_FULL_37_14]</Hit_def>
+  <Hit_accession>OGV27174</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>9.13213e-117</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETK-YRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGDPILLDTILVKPDNSLVMQSLRARESKEVPTNGDGFGLGWYVPEISKEPAIFTSIFPAWSDKNLLHLTAKIKSPTFFGHVRAASVGGINPNNCHPFIYKNWLFMHNGGIGDFIEVKRHLRHLLDDELYQWIKGETDSEHVFALFLQKAKNKKLDTLHKIAKVLIATMHTVRKLINTYGNGSPSYFNICLTDGERIIATRYCSDKTLEPASMHYVIGY-------------SNEFVLVASERLAHLKENWQTVPANNLLLVHKNRTVELNPI</Hsp_hseq>
+      <Hsp_midline>MCR VAYLG P LL+ +LV+P NS++MQSL ARE+K   TNGDGFGLGWY PE+S +PA+FTS++PAW+D+NLLHLTAKI+SP FF HVR+AS GG+   NCHPFIY +W+ MHNG I DFI+VKRH+RHLLDD++Y W+KG+TDSEH+F LFLQ AK + +  L   A VL  T++ + ++I  +G+  PSYFNICLT+G++IIATRYCS +  +P ++HY+IGY             +  +V+V+SERL  L E W+ VP  +++L+ +N+ ++L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|654937028|ref|WP_028387288.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella geestiana] &gt;gi|962211605|gb|KTC96494.1| glutamine amidotransferase [Legionella geestiana]</Hit_def>
+  <Hit_accession>WP_028387288</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.502</Hsp_bit-score>
+      <Hsp_score>872</Hsp_score>
+      <Hsp_evalue>1.19424e-114</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAY-------VVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYLGEPLLLETALVKPENSLIAQSLKARETQFPTNGDGFGVGWYAPELNPEPGLFTSISPAWNDRNLLHLTARIKSPCFFGHVRAAETGNVNLDNCHPFARGRWMLMHNGDIGNFSSIKRHLRRMLDDDIYNWIQGSTDSEHFFALFLQLCRGRDVTDIHEAANVLRETVKTVNVLVEQYGQGGVSFLNICLTDGERMLATRYTTSSKEPSLSLHYFAGTRE------VPESGSNGTVMRDWRCVLLASEKLNCIESEWGDIPHNHMILVDRDLQIELQPL</Hsp_hseq>
+      <Hsp_midline>MCRFVAYLG P LLE  LV+P+NS+I QSL ARET++ TNGDGFG+GWY+PE++ +P LFTS+ PAWNDRNLLHLTA+I+SPCFF HVR+A  G V   NCHPF  G WMLMHNG+I +F  +KRH+R +LDDDIY+W++G TDSEH F LFLQL +GRD+T +  AA+VL+ET+  +  ++ Q+G  G S+ NICLT+G++++ATRY +  K+  L+LHY  G         + E G+          V+++SE+LN ++  W D+P  HMIL+D +  I+L+PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|653020217|ref|WP_027272151.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella sainthelensi] &gt;gi|962274145|gb|KTD58084.1| glutamine amidotransferase [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027272151</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.724</Hsp_bit-score>
+      <Hsp_score>857</Hsp_score>
+      <Hsp_evalue>1.95198e-112</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSG-PSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLI--GYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYMGHKVLLEDVLVKPSNSLIMQSLHAKESHVRTNGDGFGLGWYVPHLGKAPGLFTSIYPAWNDRNLLHLCCKIESPCFFAHVRAASAGGVTTYNCHPFTHGEWMFMHNGTIHDFILLKRHLRHLLDDDIYHWIQGETDSEHLFALFLQLAKNRDLSQIKEVAAVFMETLKIVNDLSKQYSSNAEPSYFNVCLTNGTSMLVSRYCNSKRHKPESLHYLTESSLIRHAQRPGLKKIKNSPMILVASERLSAFNSEWFDVPVNHCMLV-ENQEINF</Hsp_hseq>
+      <Hsp_midline>MCR VAY+G   LLE+VLV+P NS+IMQSLHA+E+  RTNGDGFGLGWY P +   P LFTS+YPAWNDRNLLHL  KI+SPCFFAHVR+ASAGGVT YNCHPF +G+WM MHNG I+DFI +KRH+RHLLDDDIYHW++G+TDSEHLF LFLQLAK RD++Q+   A V  ET+  + ++  Q+  +  PSYFN+CLTNG  ++ +RYC+ ++ KP +LHYL     +   Q   +K+  N   ++V+SERL+  +  W DVP  H +L+ EN+ I  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966495146|ref|WP_058511934.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella steelei] &gt;gi|962283109|gb|KTD66883.1| glutamine amidotransferase [Legionella steelei] &gt;gi|1113352813|gb|OJW16555.1| class II glutamine amidotransferase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058511934</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.798</Hsp_bit-score>
+      <Hsp_score>852</Hsp_score>
+      <Hsp_evalue>1.33977e-111</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIG-YVLSTQGLW--IKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPLQTL</Hsp_qseq>
+      <Hsp_hseq>MCRFIAYTGCELLLANVLIKPEDSLLRQSRLAKESTTLTNGDGFGVGWYVPKISPNPAVFLSIFPAWNDENLLHLTNKIESHLFFAHVRAASTGGVSHLNCHPFIHKNWMFMHNGQIHDFSSIKRHLRNLLGDEIYNWIRGETDSEHIFALFLELSKAKDLNKLSDVAQILLDTFKTIQNLINQFGTQGPSYYNICLTDGKRIVASRYCTEKVTEPESLHYLEGKYFWSEQEYLEKFKSKQRPS-VLIASERLTHFSHQWQTVPANHMILVDSDYSVQIQPIKSI</Hsp_hseq>
+      <Hsp_midline>MCRF+AY G   LL NVL++P++S++ QS  A+E+   TNGDGFG+GWY P++S +PA+F S++PAWND NLLHLT KI+S  FFAHVR+AS GGV++ NCHPFI+ +WM MHNG+I+DF  +KRH+R+LL D+IY+W++G+TDSEH+F LFL+L+K +D+ +LS  A +L +T   I  +I QFG  GPSY+NICLT+GK+I+A+RYC+ +  +P +LHYL G Y  S Q      K +  P+ V+++SERL      W+ VP  HMIL+D + ++Q++P++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966496902|ref|WP_058513668.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella santicrucis] &gt;gi|962280018|gb|KTD63841.1| glutamine amidotransferase [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058513668</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.798</Hsp_bit-score>
+      <Hsp_score>852</Hsp_score>
+      <Hsp_evalue>1.36549e-111</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQF-GHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLI--GYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENK</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYMGHKVLLEDVLVKPSNSLIMQSLHAKESHVRTNGDGFGLGWYVPHLGKIPGLFTSISPAWNDRNLLNLCRKIESPCFFAHVRSASAGGVTAYNCHPFIHGEWMFMHNGTIDDFILLKRHLRHLLDDDIYHWIQGETDSEHLFALFLQLAKNRDLSQIKEVADVFIETLKIINGLSKQYSSNAGPSYFNVCLTNGKSMLVSRYCNSKRHKPDSLHYLTESSLIRHAQRPGLKKIKNYPMILIASERLSAFNSEWFDVPVNHCMLVENHE</Hsp_hseq>
+      <Hsp_midline>MCR VAY+G   LLE+VLV+P NS+IMQSLHA+E+  RTNGDGFGLGWY P +   P LFTS+ PAWNDRNLL+L  KI+SPCFFAHVRSASAGGVT YNCHPFI+G+WM MHNG I+DFI +KRH+RHLLDDDIYHW++G+TDSEHLF LFLQLAK RD++Q+   ADV  ET+  I  +  Q+  ++GPSYFN+CLTNGK ++ +RYC+ ++ KP +LHYL     +   Q   +K+  N   ++++SERL+  +  W DVP  H +L++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966421739|ref|WP_058464940.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella cincinnatiensis] &gt;gi|962200269|gb|KTC85262.1| glutamine amidotransferase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058464940</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.028</Hsp_bit-score>
+      <Hsp_score>850</Hsp_score>
+      <Hsp_evalue>2.83964e-111</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQF-GHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLI--GYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILID</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYMGHKLLLEDVLVKPSNSLIMQSLHAKESHVRTNGDGFGLGWYVPHLGKTPGLFTSISPAWNDRNLLNLCRKIESPCFFAHVRSASAGGVTTYNCHPFVHGEWMFMHNGTIHDFILLKRHLRHLLDDDIYHWIQGETDSEHLFALFLQLAKNRDLSQIKEVAAVFMETLKIINGLSKQYSSNAGPSYFNVCLTNGKSMLVSRYCNSKRHKPDSLHYLTESSLIRHAQRPGLKKIKNYPMALVASERLSAFNSEWFDVPANHFMLVE</Hsp_hseq>
+      <Hsp_midline>MCR VAY+G   LLE+VLV+P NS+IMQSLHA+E+  RTNGDGFGLGWY P +   P LFTS+ PAWNDRNLL+L  KI+SPCFFAHVRSASAGGVT YNCHPF++G+WM MHNG I+DFI +KRH+RHLLDDDIYHW++G+TDSEHLF LFLQLAK RD++Q+   A V  ET+  I  +  Q+  ++GPSYFN+CLTNGK ++ +RYC+ ++ KP +LHYL     +   Q   +K+  N    +V+SERL+  +  W DVP  H +L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966426293|ref|WP_058468831.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Fluoribacter gormanii] &gt;gi|962216542|gb|KTD01302.1| glutamine amidotransferase [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468831</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>3.87671e-96</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRP-TLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYIGKEDILLANLLVKPNNSLIKQSLLARESRTLTNGDGFGLGWYTP-FDKTPALFTSLFPAWNDRNFSYLAKKTRAQLFFAHIRAASTGGISHFNCHPFIYKNWLFMHNGSIPYFKKIKRQMSNLLDEDIYSWVKGSTDSELIFALFLQLAKNLKIKNSYDIYNILLKTLNIINELVKKYHKKAVSYFNICITDGKRIVAFRYCTSSRTKPETMYFSLSEALAKSA---TEEGIYKYVIIASEKLSTNGFKWQIIPVNHCFMVESNLSISLQKL</Hsp_hseq>
+      <Hsp_midline>MCRFVAY+G+   LL N+LV+P NS+I QSL ARE++  TNGDGFGLGWY+P     PALFTS++PAWNDRN  +L  K ++  FFAH+R+AS GG++++NCHPFIY +W+ MHNG I  F  +KR + +LLD+DIY WVKG TDSE +F LFLQLAK   I       ++L +T+N I E++ ++     SYFNIC+T+GK+I+A RYC+  + KP T+++ +   L+       EEG   YV+++SE+L+     W+ +P  H  +++ N +I L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966477742|ref|WP_058508475.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella quinlivanii] &gt;gi|962263381|gb|KTD47463.1| glutamine amidotransferase [Legionella quinlivanii] &gt;gi|1090726764|emb|SEG39590.1| glutamine amidotransferase [Legionella quinlivanii DSM 21216]</Hit_def>
+  <Hit_accession>WP_058508475</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>4.31307e-92</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEG--NPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRLVAYLGKKILLSEILIKPKNSIIKQSLLARESTTLTNGDGFGLGWYIRQ-DETPALFTSLFPAWNDRNLSYLSTKIESSVFFAHVRAASTGGISQFNCHPFLFEHWMFMHNGWIPHFDKIKRQLQDLLDDDIFSWIKGSTDSELVFALFLQLAKKYESPNLVDIASTIQETFH-IINALVKKNTRKSSHLNICITDGKRLVATRYCSSKRVKPETMYLSLGKRVNPQKRQIILENKITPPYIVVASEKLSKSELEWQPIPANNCVIIESNLKLSFHAL</Hsp_hseq>
+      <Hsp_midline>MCR VAYLG+  LL  +L++PKNSII QSL ARE+   TNGDGFGLGWY  +    PALFTS++PAWNDRNL +L+ KI+S  FFAHVR+AS GG++ +NCHPF++  WM MHNG I  F  +KR ++ LLDDDI+ W+KG TDSE +F LFLQLAK  +   L   A  +QET + I+  + +      S+ NIC+T+GK+++ATRYCS ++ KP T++  +G  ++ Q   I  E    P Y+VV+SE+L+  +  W+ +P  + ++I+ N  +    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966503115|ref|WP_058519774.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella tucsonensis] &gt;gi|962288947|gb|KTD72655.1| glutamine amidotransferase [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058519774</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.95904e-92</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPT-LLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIG--YVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYIGKENILLADLLIKPNNSLIKQSLLARESRTLTNGDGFGLGWYT-SFDKMPALFTSLFPAWNDQNFSYLAKKTMAPLFFAHIRAASTGGVSHFNCHPFIYKNWLFMHNGWIPYFKKIKRQIHNLLDDDIYNWVKGSTDSELIFALFLQLAKNSKIKNSYDIYNILLKTLKIIDELVKKHHKKGVSYFNICATDGKRIVAFRYCTSSRSKPETMYFSLGENIVQSTT-----KETIYKYVIIASEKLSTNGFKWQIIPVNHCFMIESNLSISLKKL</Hsp_hseq>
+      <Hsp_midline>MCRFVAY+G+   LL ++L++P NS+I QSL ARE++  TNGDGFGLGWY+      PALFTS++PAWND+N  +L  K  +P FFAH+R+AS GGV+++NCHPFIY +W+ MHNG I  F  +KR I +LLDDDIY+WVKG TDSE +F LFLQLAK   I       ++L +T+  I E++ +    G SYFNIC T+GK+I+A RYC+  + KP T+++ +G   V ST      +E    YV+++SE+L+     W+ +P  H  +I+ N +I L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966416977|ref|WP_058460262.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Fluoribacter bozemanae] &gt;gi|962185928|gb|KTC71087.1| glutamine amidotransferase [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058460262</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>4.24463e-90</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPT-LLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDE-GWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYIGKENILLADLLIKPNNSLIKQSLLARESRTLTNGDGFGLGWYT-SFSRIPALFTSLYPAWNDQNLTYLAKKTKSHLFFGHIRAASTGGISQFNCHPFIYKNWLFMHNGWIPNFEKIKRQIHNLLDNDIYNWVKGSTDSELIFALFLQLAKNLKIKDAHDIHNTLLKTLNIIDELVKKHHEKGVSYFNICITDGKRIVAFRYCTSSKAKPETMYFSLRGNFAQKA---TTETVYQYVIIASEKLSTNNGFKWQIIPMNHCFMVESNLSISLQKL</Hsp_hseq>
+      <Hsp_midline>MCRFVAY+G+   LL ++L++P NS+I QSL ARE++  TNGDGFGLGWY+   S  PALFTS+YPAWND+NL +L  K +S  FF H+R+AS GG++ +NCHPFIY +W+ MHNG I +F  +KR I +LLD+DIY+WVKG TDSE +F LFLQLAK   I       + L +T+N I E++ +    G SYFNIC+T+GK+I+A RYC+  K KP T+++ +    + +      E    YV+++SE+L+  +   W+ +P  H  +++ N +I L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|671590071|ref|WP_031565791.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031565791</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>1.51935e-89</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRP-TLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYIGKKEILLADLLEKPTNSLIKQSLLARESRTPTNGDGFGLGWYTP-FNKTAALFTSLYPAWNDQNLAYLSKNTRAHLFFAHIRAASTGGISQYNCHPFIYKNWLFMHNGWIPYFTQIKRQIHNMLDDDIYNWLKGSTDSELIFGLFLQFSKNVKIKKATDIHDILYKTLSTIDRLVKTYHKKGISYFNICVTDGKRIVAFRYCTSPQCKPETMYYSLGDHLPKKN--TKEKGY-NHIIIASEKLSPTGFKWQIIPVNHSFMIESDLSILLKEI</Hsp_hseq>
+      <Hsp_midline>MCRFVAY+G+   LL ++L +P NS+I QSL ARE++  TNGDGFGLGWY+P  +   ALFTS+YPAWND+NL +L+   ++  FFAH+R+AS GG++ YNCHPFIY +W+ MHNG I  F  +KR I ++LDDDIY+W+KG TDSE +FGLFLQ +K   I + +   D+L +T++ I  ++  +   G SYFNIC+T+GK+I+A RYC+  + KP T++Y +G  L  +    KE+G   +++++SE+L+     W+ +P  H  +I+ + +I L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1113589332|gb|OJY48741.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella sp. 40-6]</Hit_def>
+  <Hit_accession>OJY48741</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>4.93515e-89</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLG-RPTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIG--YVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYKGSEEQRLADVLIKPSNSLIKQSLLSQESRTITNGDGFGLGWYTL-YDKEPALFTSLFPAWSDQNLQYLAKRTRAALFFAHVRAASTGGITQYNCHPFIFKQWMFMHNGYIPHFTKIKRKIFDLLDDDLYNWVKGSTDSELIFALFMQLAKNENLTSLANVAHILKKTLDIIQKLVQERYPKSSNYFNICLTDGRRIVAFRYCTSLKAKPDTMYLSIGENFWGSNQNLFAQKLKVP-HIVIASEKLSKSGFDWHPIPANHCLLVEADLQISFFPL</Hsp_hseq>
+      <Hsp_midline>MCRFVAY G     L +VL++P NS+I QSL ++E++  TNGDGFGLGWY+     +PALFTS++PAW+D+NL +L  + ++  FFAHVR+AS GG+T YNCHPFI+  WM MHNG I  F  +KR I  LLDDD+Y+WVKG TDSE +F LF+QLAK  ++T L+  A +L++T++ I +++ +      +YFNICLT+G++I+A RYC+  K KP T++  IG  +  S Q L+ ++   P ++V++SE+L+     W  +P  H +L++ +  I   PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966502392|ref|WP_058519065.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella parisiensis] &gt;gi|962258051|gb|KTD42188.1| glutamine amidotransferase [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058519065</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>3.45821e-87</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGR-PTLLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEG--WEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYIGKEKILLADLLIKPNNSLIKQSLLALESRTLTNGDGFGLGWYT-SFSRTPALFTSLYPAWNDQNLTYLAKKTKSHLFFGHIRAASTGGISQFNCHPFIYKNWLFMHNGWIPYFEKIKRQIHNLLDNDIYNWIKGTTDSELIFALFLQLAKNLKIKNAHDIYNTLLKTLNLIDELVKKHHEKAVSYFNICITDGKRVIAFRYCTSAKGKPETMYFSLKEDFTQKA---TKETVYQYVIIASEKLST-NNGFKWQIIPINHCFMVESDLSISLQKL</Hsp_hseq>
+      <Hsp_midline>MCRFVAY+G+   LL ++L++P NS+I QSL A E++  TNGDGFGLGWY+   S  PALFTS+YPAWND+NL +L  K +S  FF H+R+AS GG++ +NCHPFIY +W+ MHNG I  F  +KR I +LLD+DIY+W+KG TDSE +F LFLQLAK   I       + L +T+N I E++ +      SYFNIC+T+GK++IA RYC+  K KP T+++ +    + +     +E    YV+++SE+L+  + G  W+ +P  H  +++ + +I L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966422906|ref|WP_058466107.1|</Hit_id>
+  <Hit_def>class II glutamine amidotransferase [Legionella cincinnatiensis] &gt;gi|962196882|gb|KTC81928.1| glutamine amidotransferase [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058466107</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>1.81084e-86</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>MCRFVAYLGRPT-LLENVLVRPKNSIIMQSLHARETKYRTNGDGFGLGWYSPEVSSDPALFTSVYPAWNDRNLLHLTAKIQSPCFFAHVRSASAGGVTNYNCHPFIYGDWMLMHNGEINDFIDVKRHIRHLLDDDIYHWVKGQTDSEHLFGLFLQLAKGRDITQLSVAADVLQETINKILEVIGQFGHSGPSYFNICLTNGKKIIATRYCSHEKKKPLTLHYLIGYVLSTQGLWIKEEGNPAYVVVSSERLNDLDEGWEDVPPQHMILIDENKNIQLRPL</Hsp_qseq>
+      <Hsp_hseq>MCRFVAYIGKENILLSELLIKPKNSLVKQSLISQESHTVTNGDGFGVGWYTP-FDKNPALFTSLFPAWNDQNLSYLAKKTKSSLFFAHVRAASTGGISQFNCHPFIYKNWLFMHNGWIPYFEKIRRQIHHLLEDDIYNWIKGTTDSELIFALFLQLSKQIKIKSSQDIHTVLLETLTLINDLVKKNYQRAVCYFNICITNGKQVVAFRYCTSSQAKPETMYF-----------GRDKNSISEYVIIASEKLSTKGFEWKIIPRNHSLLIESDFNLSLNEL</Hsp_hseq>
+      <Hsp_midline>MCRFVAY+G+   LL  +L++PKNS++ QSL ++E+   TNGDGFG+GWY+P    +PALFTS++PAWND+NL +L  K +S  FFAHVR+AS GG++ +NCHPFIY +W+ MHNG I  F  ++R I HLL+DDIY+W+KG TDSE +F LFLQL+K   I        VL ET+  I +++ +       YFNIC+TNGK+++A RYC+  + KP T+++              +     YV+++SE+L+     W+ +P  H +LI+ + N+ L  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

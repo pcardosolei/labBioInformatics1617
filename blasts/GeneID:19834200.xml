@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_99437</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834200</BlastOutput_query-def>
+  <BlastOutput_query-len>523</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_99437</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834200</Iteration_query-def>
+  <Iteration_query-len>523</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250795|ref|WP_010948335.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|52842841|ref|YP_096640.1| virulence factor MviN [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629952|gb|AAU28693.1| integral membrane protein (putative virulence factor) MviN, possible role in motility [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509346|gb|AEW52870.1| integral membrane protein (putative virulence factor) MviN, possible role in motility [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|509083307|gb|AGN15555.1| virulence factor MviN [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772839|emb|CZI17625.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998775712|emb|CZG60220.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998778298|emb|CZG75202.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998784537|emb|CZG85484.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998787489|emb|CZG58690.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998811894|emb|CZH78438.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998814307|emb|CZG62582.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998837864|emb|CZJ73250.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998865412|emb|CZJ41775.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998869847|emb|CZJ35660.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998871042|emb|CZM16050.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998874530|emb|CZK37531.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998877483|emb|CZM00148.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998880550|emb|CZI87756.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998888020|emb|CZL49503.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998889245|emb|CZK23497.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998906105|emb|CZK55955.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998909676|emb|CZL08563.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999067389|emb|CZJ18661.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999076887|emb|CZG58755.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999095259|emb|CZG87029.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999098726|emb|CZG60909.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999156872|emb|CZH74970.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999191296|emb|CZI18195.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999194419|emb|CZI44461.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999200284|emb|CZG61154.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999203730|emb|CZI44392.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999222411|emb|CZI35937.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1002075542|emb|CZQ94235.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1073865676|gb|AOU05627.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073868645|gb|AOU08595.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073871640|gb|AOU11589.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073874508|gb|AOU14456.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073877565|gb|AOU17512.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073880528|gb|AOU20474.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073883525|gb|AOU23470.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073889486|gb|AOU29429.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073892470|gb|AOU32412.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073895438|gb|AOU35379.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073898396|gb|AOU38336.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073901362|gb|AOU41301.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073904271|gb|AOU44209.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073907224|gb|AOU47161.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073910242|gb|AOU50177.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073913254|gb|AOU53186.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073916214|gb|AOU56145.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073919177|gb|AOU59107.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073922080|gb|AOU62009.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073925163|gb|AOU65090.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073928126|gb|AOU68052.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073931112|gb|AOU71021.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073934481|gb|AOU74040.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073937446|gb|AOU84445.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073947712|gb|AOU87436.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1073950640|gb|AOU90363.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1129969298|gb|APT99657.1| murein biosynthesis protein MurJ [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948335</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1044.26</Hsp_bit-score>
+      <Hsp_score>2699</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>523</Hsp_identity>
+      <Hsp_positive>523</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|504655583|ref|WP_014842685.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|395128636|emb|CCD06854.1| Virulence factor mviN homolog [Legionella pneumophila subsp. pneumophila] &gt;gi|999248095|emb|CZH51852.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999269695|emb|CZO24604.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999455525|emb|CZH44672.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999462220|emb|CZG06022.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999465401|emb|CZM25932.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999468343|emb|CZO07693.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999474980|emb|CZM43777.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999478174|emb|CZN25374.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999481369|emb|CZM63381.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999484399|emb|CZN96889.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999487529|emb|CZL95382.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999490720|emb|CZN58409.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999493972|emb|CZL96537.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999500348|emb|CZN57442.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999503570|emb|CZN86949.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999506766|emb|CZM92854.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999510027|emb|CZG26468.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999513158|emb|CZN17599.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999516575|emb|CZL80330.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999519799|emb|CZM49988.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999532667|emb|CZO32347.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999536052|emb|CZN19874.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999539060|emb|CZM53763.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999542286|emb|CZO08077.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999545454|emb|CZO45658.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999548584|emb|CZN73735.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999551842|emb|CZN99076.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999555219|emb|CZM96587.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999558232|emb|CZO45348.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999561362|emb|CZM27481.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999564625|emb|CZO45909.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999567750|emb|CZM40789.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999570949|emb|CZN39388.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999574139|emb|CZN76588.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999580630|emb|CZO01077.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999584142|emb|CZO14454.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999587265|emb|CZM49337.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999590527|emb|CZM22782.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999593402|emb|CZN32584.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999596600|emb|CZN95162.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999599858|emb|CZO24185.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999603286|emb|CZL64270.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999606253|emb|CZN38756.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999609697|emb|CZN41801.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999615873|emb|CZM31757.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999618978|emb|CZN75673.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999622346|emb|CZO52447.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999625610|emb|CZN53366.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999628973|emb|CZM42631.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999631851|emb|CZM46681.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999635109|emb|CZN40054.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999638239|emb|CZN35601.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999641435|emb|CZO63444.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999644606|emb|CZO29012.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999648143|emb|CZN76918.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999650954|emb|CZN93338.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999654282|emb|CZN91786.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999657660|emb|CZM00518.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999660609|emb|CZM48856.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999664123|emb|CZM82755.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999667066|emb|CZM24496.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999670260|emb|CZL73723.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999673647|emb|CZM18719.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999676589|emb|CZN62336.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999679624|emb|CZM63026.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999682819|emb|CZM70182.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999686045|emb|CZN93025.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999689615|emb|CZN09767.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999692576|emb|CZN81702.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999696026|emb|CZN00969.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999699225|emb|CZL97839.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999702497|emb|CZM44302.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999705633|emb|CZL58957.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999708657|emb|CZN41269.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999711909|emb|CZM86580.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999715408|emb|CZM89321.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999718501|emb|CZO27231.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999721425|emb|CZM68036.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999724765|emb|CZN17922.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999728154|emb|CZL88851.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999731658|emb|CZO21940.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999734907|emb|CZM00616.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999738191|emb|CZO47305.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999741109|emb|CZM26233.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999744589|emb|CZN06808.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999747936|emb|CZM01133.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999750831|emb|CZL80422.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999754091|emb|CZM71159.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999757434|emb|CZM83327.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999760419|emb|CZM15934.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999763866|emb|CZN09858.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999767063|emb|CZM56006.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999769848|emb|CZN40959.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999773552|emb|CZH74304.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999776536|emb|CZL89018.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999783400|emb|CZH49802.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999786576|emb|CZM17592.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999789833|emb|CZO49540.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999793220|emb|CZO51059.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999796467|emb|CZI08418.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999800195|emb|CZO38671.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1003034783|emb|CZR27729.1| integral membrane protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842685</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1041.18</Hsp_bit-score>
+      <Hsp_score>2691</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>520</Hsp_identity>
+      <Hsp_positive>523</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLIFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|499535726|ref|WP_011216509.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|53755306|emb|CAH16800.1| hypothetical protein lpl2560 [Legionella pneumophila str. Lens] &gt;gi|1080003027|gb|AOW53599.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005227|gb|AOW55507.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015524|gb|AOW64397.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216509</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1040.41</Hsp_bit-score>
+      <Hsp_score>2689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>519</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCAILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNC ILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|653015674|ref|WP_027267704.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267704</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1040.41</Hsp_bit-score>
+      <Hsp_score>2689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>520</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVIGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYCMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPV+GLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLY MSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1003963938|ref|WP_061476835.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061476835</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1040.02</Hsp_bit-score>
+      <Hsp_score>2688</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>520</Hsp_identity>
+      <Hsp_positive>523</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|653014244|ref|WP_027266293.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|998824287|emb|CZG45027.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998829458|emb|CZG79022.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999237185|emb|CZG78516.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1002088729|emb|CZQ78714.1| integral membrane protein MviN [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266293</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1038.87</Hsp_bit-score>
+      <Hsp_score>2685</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCAILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNC ILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1005401547|ref|WP_061635488.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|998936487|emb|CZM49315.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999000419|emb|CZG77010.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999057963|emb|CZM55422.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999104166|emb|CZI05813.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999128777|emb|CZH03280.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1002085471|emb|CZQ99433.1| integral membrane protein MviN [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061635488</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1038.48</Hsp_bit-score>
+      <Hsp_score>2684</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCAILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNC ILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|749505473|ref|WP_040146318.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|998802628|emb|CZH88938.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999151574|emb|CZH55461.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999166061|emb|CZG69881.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999168316|emb|CZI51817.1| integral membrane protein MviN [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_040146318</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1037.71</Hsp_bit-score>
+      <Hsp_score>2682</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>523</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYYMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLY+MSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1006042213|ref|WP_061722073.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|999324932|emb|CZH14246.1| integral membrane protein MviN [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061722073</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1037.33</Hsp_bit-score>
+      <Hsp_score>2681</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>516</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSSEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGIPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFTIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRS+EDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFG+PAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANF IGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|504657645|ref|WP_014844747.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|395131719|emb|CCD10012.1| Virulence factor mviN homolog [Legionella pneumophila subsp. pneumophila] &gt;gi|761987301|dbj|GAN24651.1| putative peptidoglycan biosynthesis protein MurJ [Legionella pneumophila] &gt;gi|761990490|dbj|GAN18599.1| putative peptidoglycan biosynthesis protein MurJ [Legionella pneumophila] &gt;gi|761993680|dbj|GAN21705.1| putative peptidoglycan biosynthesis protein MurJ [Legionella pneumophila] &gt;gi|998781165|emb|CZJ43294.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998790020|emb|CZH02771.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998883322|emb|CZI76466.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998892900|emb|CZJ08098.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998898837|emb|CZJ45892.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998952242|emb|CZJ33920.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998982027|emb|CZI88782.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999106947|emb|CZI84836.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999153854|emb|CZM17348.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999162942|emb|CZM05098.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999231221|emb|CZI62658.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999286785|emb|CZI75831.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999293092|emb|CZI62059.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999312051|emb|CZI87556.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1002082140|emb|CZQ96026.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1002091760|emb|CZR06155.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1032658714|gb|ANH13985.1| lipid II flippase MurJ [Legionella pneumophila] &gt;gi|1032661676|gb|ANH16946.1| lipid II flippase MurJ [Legionella pneumophila] &gt;gi|1032664654|gb|ANH19923.1| lipid II flippase MurJ [Legionella pneumophila] &gt;gi|1104007491|emb|SFZ46963.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1108605986|gb|APF04354.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_014844747</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1037.33</Hsp_bit-score>
+      <Hsp_score>2681</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGHIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRG IKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1011910280|ref|WP_062724965.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062724965</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1036.17</Hsp_bit-score>
+      <Hsp_score>2678</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWYLAHAGLTLASALAGYVNCAILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVW+LAHAGLTLASALAGYVNC ILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|506459818|ref|WP_015961718.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|53752409|emb|CAH13841.1| hypothetical protein lpp2688 [Legionella pneumophila str. Paris] &gt;gi|541996916|gb|ERH42974.1| membrane protein [Legionella pneumophila str. Leg01/11] &gt;gi|541998754|gb|ERH44770.1| membrane protein [Legionella pneumophila str. Leg01/53] &gt;gi|542123154|gb|ERI49463.1| membrane protein [Legionella pneumophila str. Leg01/20] &gt;gi|762000229|dbj|GAN27961.1| putative peptidoglycan biosynthesis protein MurJ [Legionella pneumophila] &gt;gi|998924290|emb|CZJ95720.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998942535|emb|CZK05866.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998954586|emb|CZK41579.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998976187|emb|CZJ65854.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998991515|emb|CZK07906.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999009828|emb|CZK02972.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999018920|emb|CZJ61146.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999027982|emb|CZJ90509.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999031542|emb|CZG67864.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999034050|emb|CZJ97505.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999040257|emb|CZJ67575.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999043076|emb|CZJ77605.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999048969|emb|CZJ86227.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999052226|emb|CZJ68100.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999055156|emb|CZJ96975.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999064336|emb|CZJ78403.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999070109|emb|CZJ75059.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999073432|emb|CZK04833.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999085625|emb|CZJ97603.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999173396|emb|CZH69843.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999182544|emb|CZG27439.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999184501|emb|CZP92926.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999188709|emb|CZI76816.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999198309|emb|CZP06948.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999206436|emb|CZP59118.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999213641|emb|CZG43239.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999217069|emb|CZI72638.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999225913|emb|CZG32878.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999227851|emb|CZP40331.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999235050|emb|CZP51974.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999240546|emb|CZH75998.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999244215|emb|CZH71317.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999249425|emb|CZG78579.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999252892|emb|CZG91732.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999256153|emb|CZP73802.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999259200|emb|CZP39322.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999262152|emb|CZH06555.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999265456|emb|CZP03984.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999272076|emb|CZP51863.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999274345|emb|CZH08616.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999277783|emb|CZP29393.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999281511|emb|CZP22901.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999284159|emb|CZP50122.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999290838|emb|CZP27483.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999296762|emb|CZP49895.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999300001|emb|CZP27789.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999302260|emb|CZI55568.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999307156|emb|CZH65647.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999309542|emb|CZP19628.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999315972|emb|CZI03018.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999318943|emb|CZP56714.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999322195|emb|CZH92089.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999327590|emb|CZH28094.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999332889|emb|CZG03677.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999338000|emb|CZP43973.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999340734|emb|CZG99132.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999344164|emb|CZP91844.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999347452|emb|CZP60537.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999349577|emb|CZH48773.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999353729|emb|CZP52359.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999356838|emb|CZP75123.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999361082|emb|CZI01420.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999363204|emb|CZP71105.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999366967|emb|CZP71479.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999369615|emb|CZP86991.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999374040|emb|CZG03676.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999377357|emb|CZI91355.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999380656|emb|CZH51868.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999383400|emb|CZI16291.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999387471|emb|CZG11027.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999390278|emb|CZI10777.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999392481|emb|CZP95599.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999397057|emb|CZG16446.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999398729|emb|CZP98943.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999403271|emb|CZP47903.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999406430|emb|CZG43356.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999409398|emb|CZH71561.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999412588|emb|CZG27672.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999416658|emb|CZG14759.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999419287|emb|CZG43574.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999422601|emb|CZH44834.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999426492|emb|CZG24859.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999429107|emb|CZG30494.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999432695|emb|CZG05880.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999435747|emb|CZH65804.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999438340|emb|CZG44824.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999442255|emb|CZJ84818.1| integral membrane protein [Legionella pneumophila] &gt;gi|999445321|emb|CZH56191.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999448583|emb|CZG03669.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999450798|emb|CZP30359.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999458367|emb|CZJ90071.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999469989|emb|CZG82614.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999497012|emb|CZI10341.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999521350|emb|CZP44820.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999526337|emb|CZI61480.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999529219|emb|CZI17179.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999577061|emb|CZI02034.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999612362|emb|CZI06722.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999778482|emb|CZH00953.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1003028393|emb|CZR23503.1| integral membrane protein [Legionella pneumophila] &gt;gi|1015434059|gb|AMV15686.1| putative peptidoglycan biosynthesis protein MurJ [Legionella pneumophila] &gt;gi|1041016607|gb|ANN93668.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1041019606|gb|ANN96666.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1103997799|emb|SFZ46866.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1104000939|emb|SFZ46902.1| integral membrane protein MviN [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961718</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1035.79</Hsp_bit-score>
+      <Hsp_score>2677</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRRLFKPSPGWLKYSMQLLIANFTIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKR LFKPSPGWLKYSMQLLIANF IGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|652967017|ref|WP_027219994.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|761996857|dbj|GAN31032.1| putative peptidoglycan biosynthesis protein MurJ [Legionella pneumophila] &gt;gi|998796501|emb|CZH99935.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998800328|emb|CZL04980.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998805789|emb|CZK07079.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998808377|emb|CZH88453.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998817709|emb|CZL58658.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998820811|emb|CZL60546.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998826773|emb|CZK08121.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998832589|emb|CZI07607.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998835746|emb|CZK87427.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998842285|emb|CZL12559.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998844703|emb|CZK28213.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998847654|emb|CZK66470.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998850259|emb|CZI38867.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998853758|emb|CZL25414.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998856454|emb|CZL32618.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998859777|emb|CZL72839.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998862687|emb|CZK19404.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998895528|emb|CZJ99771.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998912321|emb|CZG96970.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998915854|emb|CZK62795.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998918323|emb|CZK83459.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998921294|emb|CZL39159.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998927599|emb|CZL64373.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998930686|emb|CZK75980.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998933909|emb|CZL75424.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998939901|emb|CZK77043.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998945978|emb|CZK95528.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998949022|emb|CZK82972.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998958592|emb|CZM00448.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998961498|emb|CZK24885.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998964635|emb|CZK06035.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998966943|emb|CZM52139.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998970485|emb|CZK53664.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998973824|emb|CZK27208.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998979529|emb|CZL60114.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998985878|emb|CZK00247.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998988692|emb|CZL47753.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998993955|emb|CZI46624.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|998998046|emb|CZJ89295.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999004460|emb|CZI43445.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999008018|emb|CZK28056.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999012951|emb|CZL44610.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999016873|emb|CZL69401.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999022671|emb|CZL15405.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999025358|emb|CZK74120.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999037115|emb|CZL54084.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999046839|emb|CZL76864.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999061646|emb|CZL14559.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999080230|emb|CZJ91426.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999082811|emb|CZK78321.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999090479|emb|CZK41050.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999092473|emb|CZL40231.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999101155|emb|CZL68289.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999110402|emb|CZL15035.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999113819|emb|CZL51947.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999116400|emb|CZK48198.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999126312|emb|CZK78796.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999131578|emb|CZL94601.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999134797|emb|CZL16605.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999138101|emb|CZK28482.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999141784|emb|CZL44096.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999144571|emb|CZK70050.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999147637|emb|CZL49342.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999158607|emb|CZJ90612.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999175777|emb|CZL04589.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999177473|emb|CZJ86435.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999210001|emb|CZK75245.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999219317|emb|CZL31376.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999335262|emb|CZK72329.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1002079047|emb|CZQ94575.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1003020138|emb|CZR21528.1| integral membrane protein [Legionella pneumophila] &gt;gi|1003023018|emb|CZR20381.1| integral membrane protein [Legionella pneumophila] &gt;gi|1003026860|emb|CZR18057.1| integral membrane protein [Legionella pneumophila] &gt;gi|1073886518|gb|AOU26462.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1080008952|gb|AOW58940.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011381|gb|AOW60872.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017625|gb|AOW66270.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila subsp. pneumophila] &gt;gi|1104004037|emb|SFZ46884.1| integral membrane protein MviN [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027219994</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1035.79</Hsp_bit-score>
+      <Hsp_score>2677</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYCMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLY MSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1005410811|ref|WP_061640043.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|998792830|emb|CZI69498.1| integral membrane protein MviN [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640043</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1034.63</Hsp_bit-score>
+      <Hsp_score>2674</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLATGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGHIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLA GVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRG IKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1004334802|ref|WP_061513727.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513727</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1033.09</Hsp_bit-score>
+      <Hsp_score>2670</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARIAGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGIPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDLGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQMKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARI+GYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFG+PAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDD GVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQ+KD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1004014417|ref|WP_061483713.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483713</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1033.09</Hsp_bit-score>
+      <Hsp_score>2670</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSPEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGIPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCAILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRS EDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFG+PAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNC ILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|469490645|gb|AGH52490.1|</Hit_id>
+  <Hit_def>putative peptidoglycan lipid II flippase MurJ [Legionella pneumophila subsp. pneumophila LPE509]</Hit_def>
+  <Hit_accession>AGH52490</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1032.71</Hsp_bit-score>
+      <Hsp_score>2669</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>517</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>517</Hsp_align-len>
+      <Hsp_qseq>MVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|652969894|ref|WP_027222787.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|1005362940|gb|AMP88809.1| murein biosynthesis protein MurJ [Legionella pneumophila subsp. pascullei] &gt;gi|1005367796|gb|AMP93573.1| murein biosynthesis protein MurJ [Legionella pneumophila subsp. pascullei] &gt;gi|1005370715|gb|AMP96491.1| murein biosynthesis protein MurJ [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222787</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1031.55</Hsp_bit-score>
+      <Hsp_score>2666</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>512</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSSEDVRIFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAMYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCAILLFLLIKRGLFKPSPGWLKYSMQLLVANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRS+EDVR FIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAA+YLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNC ILLFLLIKRGLFKPSPGWLKYSMQLL+ANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1006526284|ref|WP_061784471.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila] &gt;gi|1005834304|gb|AMQ29030.1| membrane protein [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061784471</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1028.08</Hsp_bit-score>
+      <Hsp_score>2657</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>511</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSIRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGIPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGFVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCAILLFLLIKRGLFIPSPGWLKYSLQLLVANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDS+RAELATQMLRITFPYLMLISLTAMAGAILNTYGYFG+PAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAG VQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNC ILLFLLIKRGLF PSPGWLKYS+QLL+ANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|754525605|ref|WP_041931983.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_041931983</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1026.93</Hsp_bit-score>
+      <Hsp_score>2654</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>514</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVPSPVIIFLFTPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILYTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYCMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIV SPVIIFLF PGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAIL TYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLY MSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|295650182|gb|ADG26029.1|</Hit_id>
+  <Hit_def>integral membrane protein (putative virulence factor) MviN, possible role in motility [Legionella pneumophila 2300/99 Alcoy]</Hit_def>
+  <Hit_accession>ADG26029</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1023.08</Hsp_bit-score>
+      <Hsp_score>2644</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>512</Hsp_identity>
+      <Hsp_positive>515</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>517</Hsp_align-len>
+      <Hsp_qseq>MVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRRLFKPSPGWLKYSMQLLIANFTIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKR LFKPSPGWLKYSMQLLIANF IGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1011914669|ref|WP_062727883.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727883</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1022.69</Hsp_bit-score>
+      <Hsp_score>2643</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>508</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLASFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSSEDVRIFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGIPAFTPVLLNISMILAAMYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRRLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHFAHAGLTLASALAGYVNCAILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLIRLSLLLAHVFVTVVIYLLVLGIIGLRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLA+FFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRS+EDVR FIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFG+PAFTPVLLNISMILAA+YLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQR LLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWH AHAGLTLASALAGYVNC ILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPL+RLSLLLAHVFVTVVIYLLVLGIIGLRP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|652976412|ref|WP_027229084.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella pneumophila] &gt;gi|985764645|gb|KXB25764.1| membrane protein [Legionella pneumophila] &gt;gi|985767083|gb|KXB28178.1| membrane protein [Legionella pneumophila] &gt;gi|999119096|emb|CZG86399.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|999122221|emb|CZH19665.1| integral membrane protein MviN [Legionella pneumophila] &gt;gi|1024339701|gb|KZX34040.1| murein biosynthesis protein MurJ [Legionella pneumophila] &gt;gi|1108608968|gb|APF07335.1| murein biosynthesis integral membrane protein MurJ [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229084</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1021.15</Hsp_bit-score>
+      <Hsp_score>2639</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>506</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSSEDVRIFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGIPAFTPVLLNISMILAAMYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRRLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHFAHAGLTLASALAGYVNCAILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLIRLSLLLTHVFVTVVIYLLVLGIMGVRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MLTTDIMVPKKQSLIRSTSLVSLMTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRS+EDVR FIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFG+PAFTPVLLNISMILAA+YLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQR LLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWH AHAGLTLASALAGYVNC ILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPL+RLSLLL HVFVTVVIYLLVLGI+G+RP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|148280403|gb|ABQ54491.1|</Hit_id>
+  <Hit_def>integral membrane protein (putative virulence factor) MviN, possible role in motility [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>ABQ54491</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>957.977</Hsp_bit-score>
+      <Hsp_score>2475</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>479</Hsp_identity>
+      <Hsp_positive>483</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>487</Hsp_align-len>
+      <Hsp_qseq>MVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVPSPVIIFLFTPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILYTYGYFGVPAFTPVLLNISMILAAVYLCPNLPQPVVGLAWGVLIAGIVQLVFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFVFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYCMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPNHFRGQIKD</Hsp_hseq>
+      <Hsp_midline>MVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIV SPVIIFLF PGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAIL TYGYFGVPAFTPVLLNISMILAAVYLCP+LPQPVVGLAWGVLIAGIVQL+FQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCF+FVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLY MSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRP+HFRGQIKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|737926513|ref|WP_035891644.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella norrlandica] &gt;gi|701444714|gb|KGP62164.1| membrane protein [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035891644</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>923.309</Hsp_bit-score>
+      <Hsp_score>2385</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>469</Hsp_identity>
+      <Hsp_positive>502</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MSTTDIMVPKKQSLMRSTTLVSVMTFLSRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLSEYQKTRSPEDIRIFIARISGYLSSILTLVTTIGIIASPIIIFLFAPGFSHDSTRAELATQMLRITFPYLMLVSLTAMAGAILNTYGYFGIPAFTPVLLNISMILSAMYLCPALPQPVVGLAWGVLIAGMLQLLFQLPFLYQRNLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHAEQSINQYSRALDWGLRSILLIGIPAGLGLSLFALPLIASCFAYGKFSTYDLLQTQKSLITLGMGVPAFMMVKVLASGFYARQDISTPVKVGAVAMIVNTLLCVVLVWHLAHAGLTLASALAGYVNCGILLFLLIRRGVFKPSPGWLKYSMQLLVANVVIGIYLYFMSGTADYWLGFPPLMRLSLLLTHVFATVIIYLLVLGIMGIRLNHFRGQMKD</Hsp_hseq>
+      <Hsp_midline>M TTDIMVPKKQSL+RST+LVS+MTF+SR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVL+EYQKTRS ED+R FIARISGYLSSILTLVT +GI+ASP+IIFLFAPGF HDS RAELATQMLRITFPYLML+SLTAMAGAILNTYGYFG+PAFTPVLLNISMIL+A+YLCP LPQPVVGLAWGVLIAG++QLLFQLPFLYQR+LLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKH EQ+INQYSRALDWGLRSILLIGIPAGLGLS FALPLIASCFAYGKF+ YDLLQTQKSLITL MGVPAFM+VKVLASGFYARQDISTPVKVGA+AM+VNTLLC + VWHLAHAGLTLASALAGYVNC ILLFLLI+RG+FKPSPGWLKYSMQLL+AN  IG+YLYFMSGTA YWLGF PLMRLSLLL HVF TV+IYLLVLGI+G+R +HFRGQ+KD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966437531|ref|WP_058477899.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella steigerwaltii] &gt;gi|962292365|gb|KTD76059.1| hypothetical protein Lstg_2347 [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058477899</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>909.442</Hsp_bit-score>
+      <Hsp_score>2349</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>439</Hsp_identity>
+      <Hsp_positive>489</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>TDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>TEIMVPKRQSLLRSTTLVSVMTFISRIVGFIRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKARSPDDVRVFIARIAGYLGSILSVVTLIGILAAPVIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMILAAIYLCPHLPRPVVGLAWGVLIAGIVQLLFQIPFLHQRNLLVRPSLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSMSQYSSALDWGLRTILLIGVPAGLGLCLFALPLIASCFAYGKFTAYDVIQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAISMVVNTLLCSVFVWHFAHAGLTLASALAGYVNCGTLLFLLVKRGVFKPSPGWLKYSMQLLLANAAISIYLILMSGTVSYWLGFSPVMRLSILSAHVLVAVVIYLLVLGLTGLRPSHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>T+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQK RS +DVR FIARI+GYL SIL++VT++GI+A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMILAA+YLCP LP+PVVGLAWGVLIAGIVQLLFQ+PFL+QR+LL+RP +VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+++QYS ALDWGLR+ILLIG+PAGLGL  FALPLIASCFAYGKFTAYD++QTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI+MVVNTLLC +FVWH AHAGLTLASALAGYVNC  LLFLL+KRG+FKPSPGWLKYSMQLL+AN AI +YL  MSGT +YWLGFSP+MRLS+L AHV V VVIYLLVLG+ GLRPSHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966493858|ref|WP_058510646.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella steelei] &gt;gi|962284803|gb|KTD68569.1| hypothetical protein Lste_1727 [Legionella steelei] &gt;gi|1113341798|gb|OJW05681.1| murein biosynthesis integral membrane protein MurJ [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510646</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>907.516</Hsp_bit-score>
+      <Hsp_score>2344</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>487</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>TTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>ETEIMVPKRQSLLRSTTLVSVMTFISRIVGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPDDVRVFIARIAGYLGSILSVVTLIGIFAAPVIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMILAALYLCPHLPSPVVGLAWGVLIAGIVQLLFQIPFLHQRNLLVKPRLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSLSQYSSALDWGLRSILLIGIPAGLGLCLFALPLIASCFAYGKFTAYDVIQTQKSLITLGAGVPAFMMIKVLASGFYARQDISTPVKVGAISMVVNTLLCSLFVWHFAHAGLTLASALAGYVNCGALLFLLIKRGVFKPSPGWLKYSMQLFLANVAISIYLILMSGTVSYWLGISPVMRLSILCGHVFIAVVIYLLVLGLTGLRPAHFRGQVKE</Hsp_hseq>
+      <Hsp_midline> T+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS +DVR FIARI+GYL SIL++VT++GI A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMILAA+YLCP LP PVVGLAWGVLIAGIVQLLFQ+PFL+QR+LL++PR+VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+++QYS ALDWGLRSILLIGIPAGLGL  FALPLIASCFAYGKFTAYD++QTQKSLITL  GVPAFM++KVLASGFYARQDISTPVKVGAI+MVVNTLLC +FVWH AHAGLTLASALAGYVNC  LLFLLIKRG+FKPSPGWLKYSMQL +AN AI +YL  MSGT +YWLG SP+MRLS+L  HVF+ VVIYLLVLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|962219331|gb|KTD04027.1|</Hit_id>
+  <Hit_def>hypothetical protein Lgor_1097 [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>KTD04027</Hit_accession>
+  <Hit_len>578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.508</Hsp_bit-score>
+      <Hsp_score>2331</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>483</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>TDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>TEIMVPKRQSLLRSTTLVSVMTFISRIVGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPSDVRVFIARISGYLGTILSVVTLIGIFAAPVIIFLFAPGFSHDSDRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMILVAIYLCPHLPKPVVGLAWGVLIAGIAQLLFQIPFLHQRSLLVKPQLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQYSSALDWGLRSILLIGIPAGLGLCLFAMPLIASCFAYGKFTAYDVIQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAISMIVNTLLCSIFVWHFAHAGLTLASALAGYVNCGSLLFLLIKRGVFKPSPGWLKYSMQLLFANVAISIYLILMSGTVSYWLGFSPVMRLILLSAHVTVAVTIYLLVLGLTGLRPAHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>T+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS  DVR FIARISGYL +IL++VT++GI A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMIL A+YLCP LP+PVVGLAWGVLIAGI QLLFQ+PFL+QR LL++P++VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+QYS ALDWGLRSILLIGIPAGLGL  FA+PLIASCFAYGKFTAYD++QTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI+M+VNTLLC IFVWH AHAGLTLASALAGYVNC  LLFLLIKRG+FKPSPGWLKYSMQLL AN AI +YL  MSGT +YWLGFSP+MRL LL AHV V V IYLLVLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|517405760|ref|WP_018578432.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella shakespearei] &gt;gi|962281245|gb|KTD65058.1| integral membrane protein [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578432</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.508</Hsp_bit-score>
+      <Hsp_score>2331</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MSATDIMVPKRQSLLRSTTLVSIMTFVSRMAGFVRDMVIANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPDDVRVFIARIAGYLSSILTLVTVVGIIASPVIIFLFAPGFSHDSMRADLATQMLRITFPFLMLVSLTAMAGAVLNTYGYFGVPAFTPVLLNISMILAALYLCPNLPVPVMGLAWSILIAGIAQLLFQLPFLYRHQLLVRPRVVRNDEGVSKVLKLMIPALFGVSIAQLNLMVDSIFASFLQVGSVSWLYYTDRLTDFPLGVFGVAVATVILPHLSRKHTERSVEQYSRALDWGLRSILLIGIPAGLGLCLFSMPLIASCFTYGKFHAIDLLQTQKSLITLASGVPAFMMVKVLASGFYAQQDIKTPVKVGAISMVINTILCSIFVWHFAHAGLTLASALAGYVNCGLLLYLLVKRGVFKPSPGWFKYSMQLLIANAAITVYLYFMTGTVEYWLSFTAVARLGLLMAHVMAVVVIYLLALGLTGLRLSHFRGQMKE</Hsp_hseq>
+      <Hsp_midline>M  TDIMVPK+QSL+RST+LVS+MTF+SRM GF RDMV+ANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS +DVR FIARI+GYLSSILTLVTVVGI+ASPVIIFLFAPGF HDS+RA+LATQMLRITFP+LML+SLTAMAGA+LNTYGYFGVPAFTPVLLNISMILAA+YLCP+LP PV+GLAW +LIAGI QLLFQLPFLY+  LL+RPRVVR+D GV+KVLKLMIPALFGVSIAQLNLM+DSIFASFL+VGSVSWLYYTDRLTDFPLGVFGVA+ATVILPHLSRKHTE+++ QYSRALDWGLRSILLIGIPAGLGL  F++PLIASCF YGKF A DLLQTQKSLITLA GVPAFM+VKVLASGFYA+QDI TPVKVGAI+MV+NT+LC IFVWH AHAGLTLASALAGYVNC +LL+LL+KRG+FKPSPGW KYSMQLLIAN AI VYLYFM+GT  YWL F+ + RL LL+AHV   VVIYLL LG+ GLR SHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|498340415|ref|WP_010654571.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Fluoribacter dumoffii] &gt;gi|962205953|gb|KTC90890.1| hypothetical protein Ldum_1958 [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010654571</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.123</Hsp_bit-score>
+      <Hsp_score>2330</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>482</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>TTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>ETEIMVPKRQSLLRSTTLVSLMTFISRIVGFMRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPGDVRIFIARIAGYLGSILSVVTLIGIFAAPVIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMIIAAIYLCPHLPRPVVGLAWGVLIAGIAQLLFQIPFLYQRNLLVKPRLVRNDAGVNKVMKLMIPALFGVSIAQLNLMVDSIFASFLKIGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQYSSALDWGLRSILLIGIPAGLGLCLFALPLIASCFAYGKFTAYDVIQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAISMVVNTLLCSVFVWHFAHAGLTLASALAGYVNCGTLLFLLIKRRVFKPSPGWLKYSMQLFLANAAISVYLILMSGTVSYWLAFSPVKRFSLLCVHVLVAVVIYLLVLGVAGLRPAHFRGQVKD</Hsp_hseq>
+      <Hsp_midline> T+IMVPK+QSL+RST+LVSLMTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS  DVR FIARI+GYL SIL++VT++GI A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMI+AA+YLCP LP+PVVGLAWGVLIAGI QLLFQ+PFLYQR+LL++PR+VR+D GVNKV+KLMIPALFGVSIAQLNLM+DSIFASFLK+GSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+QYS ALDWGLRSILLIGIPAGLGL  FALPLIASCFAYGKFTAYD++QTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI+MVVNTLLC +FVWH AHAGLTLASALAGYVNC  LLFLLIKR +FKPSPGWLKYSMQL +AN AI VYL  MSGT +YWL FSP+ R SLL  HV V VVIYLLVLG+ GLRP+HFRGQ+KD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966425075|ref|WP_058467613.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058467613</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>901.738</Hsp_bit-score>
+      <Hsp_score>2329</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>483</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>TDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>TEIMVPKRQSLLRSTTLVSVMTFISRIVGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPSDVRVFIARISGYLGTILSVVTLIGIFAAPVIIFLFAPGFSHDSDRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMILVAIYLCPHLPKPVVGLAWGVLIAGIAQLLFQIPFLHQRSLLVKPQLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQYSSALDWGLRSILLIGIPAGLGLCLFAMPLIASCFAYGKFTAYDVIQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAISMIVNTLLCSIFVWHFAHAGLTLASALAGYVNCGSLLFLLIKRGVFKPSPGWLKYSMQLLFANVAISIYLILMSGTVSYWLGFSPVMRLILLSAHVTVAVTIYLLVLGLTGLRPAHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>T+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS  DVR FIARISGYL +IL++VT++GI A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMIL A+YLCP LP+PVVGLAWGVLIAGI QLLFQ+PFL+QR LL++P++VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+QYS ALDWGLRSILLIGIPAGLGL  FA+PLIASCFAYGKFTAYD++QTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI+M+VNTLLC IFVWH AHAGLTLASALAGYVNC  LLFLLIKRG+FKPSPGWLKYSMQLL AN AI +YL  MSGT +YWLGFSP+MRL LL AHV V V IYLLVLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|750235154|ref|WP_040536274.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella drancourtii]</Hit_def>
+  <Hit_accession>WP_040536274</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>901.353</Hsp_bit-score>
+      <Hsp_score>2328</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>436</Hsp_identity>
+      <Hsp_positive>482</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>TDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>TDMMIPKRQSLLRSTTLVSLMTFISRMLGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSADDVRVFIARIAGYLGSILTVVTVIGMVASPVIIFLFAPGFSHDSSRSLLATEMLRITFPFLMLVSLTAMSGAVLNTYGYFAVPAFTPVLLNISMILAALYLCPHLPQPVTGLAWGVLIAGIVQLLFQIPFLYQRHLLVRPQVVRNDPGVNRVLKLMVPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSITQYSQALDWGLRSILLIGIPAGLGLCLFSMPLIVSCFAYGKFTLNDVLQTQKSLITLASGVPAFMMVKVLASGFYARQDISTPVKVGAISMIVNTLLCSILVWHFAHAGLTLASALAGYVNCGALLFLLVKRRVFQPSPGWLKYSIQLICANAAISIYLILMNGTVEYWLSFPPVMRLCLLLAHVLAVVVIYLLVLGLTGLRPIHFRGQMKE</Hsp_hseq>
+      <Hsp_midline>TD+M+PK+QSL+RST+LVSLMTFISRM+GF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRSA+DVR FIARI+GYL SILT+VTV+G+VASPVIIFLFAPGF HDS R+ LAT+MLRITFP+LML+SLTAM+GA+LNTYGYF VPAFTPVLLNISMILAA+YLCP LPQPV GLAWGVLIAGIVQLLFQ+PFLYQRHLL+RP+VVR+DPGVN+VLKLM+PALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I QYS+ALDWGLRSILLIGIPAGLGL  F++PLI SCFAYGKFT  D+LQTQKSLITLA GVPAFM+VKVLASGFYARQDISTPVKVGAI+M+VNTLLC I VWH AHAGLTLASALAGYVNC  LLFLL+KR +F+PSPGWLKYS+QL+ AN AI +YL  M+GT  YWL F P+MRL LLLAHV   VVIYLLVLG+ GLRP HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966439688|ref|WP_058480011.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella waltersii] &gt;gi|962295585|gb|KTD79230.1| integral membrane protein [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480011</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>900.968</Hsp_bit-score>
+      <Hsp_score>2327</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>436</Hsp_identity>
+      <Hsp_positive>482</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>517</Hsp_align-len>
+      <Hsp_qseq>MVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MIPKKQSLLRSTSLVSLMTFISRMMGFIRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPEDVRTFIARISGYLSTVLSIVTVIGIVAAPVIVFLFAPGFSHDSHRAELATQMLRITFPFLMLVSLTAMAGAVLNTYGYFGVPAFTPVLLNISMILAAMYLCPVLPQPVIGLAWGVLIAGIVQLLFQVPFLHQRKLLIRPRLVRDDQGVNKVLKLMIPALFGVSIAQLNLMVDSIFASYLKIGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHVEQNSDQYSRALDWGLRLILLIGIPAGIGLSVFSLPLIASCFAYGKFSAYDAIQTQKSLIMLGSGVPAFMMVKVLASGFYARQDISTPVKVGAISMIVNTILCFIFVWHLAHAGLTLASALAGYVNCGILMVLLIKRDLFKPSSGWIKFIGQLLVANLAVAVYLFFMSGSVDYWMSFHPLSRLTLLMSHVFAAIVIYFLALVIMGLRPKQFRGQMRD</Hsp_hseq>
+      <Hsp_midline>M+PKKQSL+RSTSLVSLMTFISRM+GF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS EDVRTFIARISGYLS++L++VTV+GIVA+PVI+FLFAPGF HDS RAELATQMLRITFP+LML+SLTAMAGA+LNTYGYFGVPAFTPVLLNISMILAA+YLCP LPQPV+GLAWGVLIAGIVQLLFQ+PFL+QR LLIRPR+VRDD GVNKVLKLMIPALFGVSIAQLNLM+DSIFAS+LK+GSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKH EQN +QYSRALDWGLR ILLIGIPAG+GLS F+LPLIASCFAYGKF+AYD +QTQKSLI L  GVPAFM+VKVLASGFYARQDISTPVKVGAI+M+VNT+LCFIFVWHLAHAGLTLASALAGYVNC IL+ LLIKR LFKPS GW+K+  QLL+AN A+ VYL+FMSG+  YW+ F PL RL+LL++HVF  +VIY L L I+GLRP  FRGQ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|769980373|ref|WP_045096358.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella fallonii] &gt;gi|698843982|emb|CEG57951.1| Protein MurJ homolog [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096358</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>900.968</Hsp_bit-score>
+      <Hsp_score>2327</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MSATDVMVPKRQSLLRSTTLVSVMTFISRMAGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPEDVRTFISRISGYLSSILTLVTLLGIVAAPLIIYLFAPGFH-DSARSELATLMLRITFPFLMLVSLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAIYLCPTMPQPVIGLAWGVFVAGIAQLLFQLPFLYSKNLLIRPRFVRNDQGVNRVLKLMVPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHAEQSNAQYSRALDWGLRSILLIGIPAGLGLALFAMPLIASCFAYGKFHVYDLLQTQKSLITLASGVPAFMMVKVLASGFYARQDISTPVKVGAISMVVNTILCSVLVWHLAHAGLTLASALAGYVNCGLLLFLLVKKGIFQPSSGWFKYSMQLLIANGVIAVYLYLMNGSVHYWLSFPPVMRLSLLLAHVLAVVVIYLLVLGLTGLRFSHFRGQMKE</Hsp_hseq>
+      <Hsp_midline>M  TD+MVPK+QSL+RST+LVS+MTFISRM GF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS EDVRTFI+RISGYLSSILTLVT++GIVA+P+II+LFAPGFH DS R+ELAT MLRITFP+LML+SLTAMAGAILNTYGYFGVPAFTPVLLNISMILAA+YLCP +PQPV+GLAWGV +AGI QLLFQLPFLY ++LLIRPR VR+D GVN+VLKLM+PALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKH EQ+  QYSRALDWGLRSILLIGIPAGLGL+ FA+PLIASCFAYGKF  YDLLQTQKSLITLA GVPAFM+VKVLASGFYARQDISTPVKVGAI+MVVNT+LC + VWHLAHAGLTLASALAGYVNC +LLFLL+K+G+F+PS GW KYSMQLLIAN  I VYLY M+G+  YWL F P+MRLSLLLAHV   VVIYLLVLG+ GLR SHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|654930694|ref|WP_028381063.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella cherrii] &gt;gi|962197463|gb|KTC82507.1| hypothetical protein Lche_0771 [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028381063</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>895.19</Hsp_bit-score>
+      <Hsp_score>2312</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>485</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>TTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>ETEIMVPKRQSLLRSTTLVSVMTFISRIVGFIRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPNDVRVFIARIAGYLGSILSVVTLIGIFAAPVIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNICMILAAVYLCPHLPRPVVGLAWGVLIAGIAQLLFQIPFLHQRNLLVKPRLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQFSSALDWGLRSILLIGVPAGLGLCLFALPLISSCFAYGKFTAYDVIQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAISMVVNTLLCSVFVWYFAHAGLTLASALAGYVNCGTLLFILIKRGVFKPSPGWLKYCMQLFLANAAISLYLILMSGTVSYWLGFSPVMRLAILAAHVGVAVVIYVLVLGLAGLRPAHFRGQVKE</Hsp_hseq>
+      <Hsp_midline> T+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS  DVR FIARI+GYL SIL++VT++GI A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNI MILAAVYLCP LP+PVVGLAWGVLIAGI QLLFQ+PFL+QR+LL++PR+VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+Q+S ALDWGLRSILLIG+PAGLGL  FALPLI+SCFAYGKFTAYD++QTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI+MVVNTLLC +FVW+ AHAGLTLASALAGYVNC  LLF+LIKRG+FKPSPGWLKY MQL +AN AI +YL  MSGT +YWLGFSP+MRL++L AHV V VVIY+LVLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|671587543|ref|WP_031563747.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563747</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>892.108</Hsp_bit-score>
+      <Hsp_score>2304</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>TDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>SEIMIPKKQSLLRSTSLVSVMTFISRIVGFIRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSASDVRIFIARISGYLGSILSIVTLIGIFAAPVIIFLFAPGFSQDSSRALLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMIVAAIYLCPHLPRPVVGLAWGVLIAGIAQLLFQIPFLHQRNLLVKPQIVRNDAGVNKVLKLMVPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQYSSALDWGLRSILLLGIPAGLGLCFFSLPLIASCFAYGKFTSYDVIQTQKSLITLGAGVPAFMMIKVLASGFYARQDISTPVKVGAISMVVNTILCSLFVWHFAHAGLTLASAIAGYVNCGTLLFLLIRRGVFKPSPGWLKYSIQLLFANGAISVYLILMSGTVSYWLSFSPVSRLSLLSFHVLVVIIIYFIVLGITGLRPAHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>++IM+PKKQSL+RSTSLVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRSA DVR FIARISGYL SIL++VT++GI A+PVIIFLFAPGF  DS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMI+AA+YLCP LP+PVVGLAWGVLIAGI QLLFQ+PFL+QR+LL++P++VR+D GVNKVLKLM+PALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+QYS ALDWGLRSILL+GIPAGLGL FF+LPLIASCFAYGKFT+YD++QTQKSLITL  GVPAFM++KVLASGFYARQDISTPVKVGAI+MVVNT+LC +FVWH AHAGLTLASA+AGYVNC  LLFLLI+RG+FKPSPGWLKYS+QLL AN AI VYL  MSGT +YWL FSP+ RLSLL  HV V ++IY +VLGI GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966414663|ref|WP_058457948.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Fluoribacter bozemanae] &gt;gi|962192219|gb|KTC77293.1| hypothetical protein Lboz_0246 [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058457948</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>891.723</Hsp_bit-score>
+      <Hsp_score>2303</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>482</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>TDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>SEIMVPKRQSLLRSTTLVSVMTFISRIVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRTPNDVRIFIARIAGYLGSILSVVTLIGMFAAPIIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMILAAIYLCPHLPKPVVGLAWGVLIAGIVQLFFQIPFLHHRNLLVKPQLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKIGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQYSSALDWGLRSILLIGIPASLGLCLFAMPLIASCFAYGKFTVYDVLQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAISMVVNTLLCFLFVWHFAHAGLTLASALAGYVNCGTLLFLLIKRGVFKPSPGWIKYSIQLLFANAAISIYLMLISGTVDYWLSFSPVMRLGLLSVHVLVAVMIYLLVLGLAGLRPAHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>++IMVPK+QSL+RST+LVS+MTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTR+  DVR FIARI+GYL SIL++VT++G+ A+P+IIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMILAA+YLCP LP+PVVGLAWGVLIAGIVQL FQ+PFL+ R+LL++P++VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLK+GSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+QYS ALDWGLRSILLIGIPA LGL  FA+PLIASCFAYGKFT YD+LQTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI+MVVNTLLCF+FVWH AHAGLTLASALAGYVNC  LLFLLIKRG+FKPSPGW+KYS+QLL AN AI +YL  +SGT  YWL FSP+MRL LL  HV V V+IYLLVLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|518063417|ref|WP_019233625.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella anisa] &gt;gi|962187485|gb|KTC72611.1| hypothetical protein Lani_0835 [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019233625</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>890.182</Hsp_bit-score>
+      <Hsp_score>2299</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>484</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>525</Hsp_align-len>
+      <Hsp_qseq>MLTTD--IMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MSTTDSEIMVPKRQSLLRSTTLVSVMTFISRIVGFLRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPNDVRVFIARIAGYLGSILSVVTLIGMFAAPVIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMILAAIYLCPHLPKPVVGLAWGVLIAGIVQLLFQIPFLHQRNLLVKPQLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKIGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQYSSALDWGLRSILLIGVPAGLGLCLFAMPLIASCFAYGKFTVDDVIQTQKSLITLAAGVPAFMMVKVLASGFYARQDISTPVKVGAISMVVNTLLCFLFVGHFAHAGLTLASALAGYVNCCALLFLLIKRGVFKPSPGWLKYSIQLLFANAAISIYLIFMRGTVSYWLSFPPGMRLGLLSVHVLVAVIIYLLVLGLAGLRPAHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>M TTD  IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS  DVR FIARI+GYL SIL++VT++G+ A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMILAA+YLCP LP+PVVGLAWGVLIAGIVQLLFQ+PFL+QR+LL++P++VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLK+GSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+QYS ALDWGLRSILLIG+PAGLGL  FA+PLIASCFAYGKFT  D++QTQKSLITLA GVPAFM+VKVLASGFYARQDISTPVKVGAI+MVVNTLLCF+FV H AHAGLTLASALAGYVNC  LLFLLIKRG+FKPSPGWLKYS+QLL AN AI +YL FM GT +YWL F P MRL LL  HV V V+IYLLVLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|653020093|ref|WP_027272030.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella sainthelensi] &gt;gi|962274750|gb|KTD58681.1| hypothetical protein Lsai_1288 [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027272030</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>889.026</Hsp_bit-score>
+      <Hsp_score>2296</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>481</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>519</Hsp_align-len>
+      <Hsp_qseq>DIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>EIMVPKRQSLLRSTTLVSVMTFISRVVGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRTPEDVRLFIARIAGYLGSILSVVTLIGIVAAPVIIFLFAPGFNHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNICMILAAIYLCPHLPTPVVGLAWGVLIAGIIQLIFQIPFLHQRSLLVRPRVVRDDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAVATVILPHLSRRYSEQSINQYSSALDWGLRLILLIGIPAGLGLCLFAMPLIASCFAYGKFTAYDVLQTQKSLITLGAGVPAFMMVKVLASGFYAQQDISTPVKVGAVCMIMNTLLCFLFIRHFAHAGLTLASALAGYINCGSLLFLLIKRGVFKPSPGWLKYSIQLICANIAISVYLIFTTETVSYWLSFSPIKRLSVLSLHVLVAVVIYLLVLGLTGLRASHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTR+ EDVR FIARI+GYL SIL++VT++GIVA+PVIIFLFAPGF+HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNI MILAA+YLCP LP PVVGLAWGVLIAGI+QL+FQ+PFL+QR LL+RPRVVRDD GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVA+ATVILPHLSR+++EQ+INQYS ALDWGLR ILLIGIPAGLGL  FA+PLIASCFAYGKFTAYD+LQTQKSLITL  GVPAFM+VKVLASGFYA+QDISTPVKVGA+ M++NTLLCF+F+ H AHAGLTLASALAGY+NC  LLFLLIKRG+FKPSPGWLKYS+QL+ AN AI VYL F + T +YWL FSP+ RLS+L  HV V VVIYLLVLG+ GLR SHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|654932791|ref|WP_028383149.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella moravica] &gt;gi|962253325|gb|KTD37506.1| integral membrane protein [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383149</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>887.1</Hsp_bit-score>
+      <Hsp_score>2291</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>454</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MSATDIMVPKKQSLLRSTTLVSVMTFVSRMAGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPEDVRAFIARISGYLSAILTLVTMVGIIAAPVIIFLFAPGFSHDSVRADLATEMLRITFPFLMLVSLTAMAGAILNTYGYFGVPAFTPVLLNISMIVAAIYLCPNLPQPVVGLAWGVLIAGILQLLFQLPFLYQRNLLIKPQIVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHAEQSLTQYSRALDWGLRSILLIGIPAGLGLALFAMPLIASCFAYGKFNVHDLIQTQKSLITLAMGVPAFMMVKVLASGFYAQQDIKTPVKIGAISMVVNTLLCCIFVWHFAHAGLTLASALAGYVNCGLLLFLLIKRDVFQPSPGWLKYSMQLVIANLAIAVYLYCMSGTVSYWLSFPPIPRLSLLLAHVLATVVLYLLVLGLSGLRPSHFRGQMKE</Hsp_hseq>
+      <Hsp_midline>M  TDIMVPKKQSL+RST+LVS+MTF+SRM GF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS EDVR FIARISGYLS+ILTLVT+VGI+A+PVIIFLFAPGF HDSVRA+LAT+MLRITFP+LML+SLTAMAGAILNTYGYFGVPAFTPVLLNISMI+AA+YLCP+LPQPVVGLAWGVLIAGI+QLLFQLPFLYQR+LLI+P++VRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKH EQ++ QYSRALDWGLRSILLIGIPAGLGL+ FA+PLIASCFAYGKF  +DL+QTQKSLITLAMGVPAFM+VKVLASGFYA+QDI TPVK+GAI+MVVNTLLC IFVWH AHAGLTLASALAGYVNC +LLFLLIKR +F+PSPGWLKYSMQL+IAN AI VYLY MSGT +YWL F P+ RLSLLLAHV  TVV+YLLVLG+ GLRPSHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966468620|ref|WP_058499946.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella gratiana] &gt;gi|962221414|gb|KTD06074.1| hypothetical protein Lgra_2851 [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058499946</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>883.634</Hsp_bit-score>
+      <Hsp_score>2282</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>519</Hsp_align-len>
+      <Hsp_qseq>DIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>EIMVPKRQSLLRSTTLVSVMTFISRIVGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRTPEDVRIFIARIAGYLGSILSVVTLIGMFAAPVIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNICMILAAIYLCPHLPTPVVGLAWGVLIAGIIQLLFQIPFLHQRNLLVRPRVVRNDAGVNQVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAVATVILPHLSRRHSEQSMSQYSSALDWGLRLIILIGIPASLGLCLFAMPLIASCFAYGKFTINDVLQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAICMVVNTLLCSLFIWHFAHAGLTLASALAGYVNCGTLLFLLIKRGVFKPSPGWLKFSMQLICANIAISIYLVYMSGTVSYWLNFSPVKRLSVLSLHVLVAIVIYILVLGLTGLRASHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTR+ EDVR FIARI+GYL SIL++VT++G+ A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNI MILAA+YLCP LP PVVGLAWGVLIAGI+QLLFQ+PFL+QR+LL+RPRVVR+D GVN+VLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVA+ATVILPHLSR+H+EQ+++QYS ALDWGLR I+LIGIPA LGL  FA+PLIASCFAYGKFT  D+LQTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI MVVNTLLC +F+WH AHAGLTLASALAGYVNC  LLFLLIKRG+FKPSPGWLK+SMQL+ AN AI +YL +MSGT +YWL FSP+ RLS+L  HV V +VIY+LVLG+ GLR SHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966500679|ref|WP_058517352.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella parisiensis] &gt;gi|962256022|gb|KTD40159.1| hypothetical protein Lpar_1476 [Legionella parisiensis] &gt;gi|1069293264|gb|OEH48596.1| putative lipid II flippase MurJ [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058517352</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>882.093</Hsp_bit-score>
+      <Hsp_score>2278</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>TDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>SEIMVPKRQSLLRSTTLVSVMTFISRIVGFLRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRTPNDVRVFIARIAGYLGSILSVVTLIGMFAAPVIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMILAAIYLCPQLPKPVVGLAWGVLIAGIVQLLFQIPFLHQRKLLVKPQLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKIGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQYSTALDWGLRSILLIGVPAGLGLCLFAMPLIASCFAYGKFTVYDVIQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAISMVINTLLCFLFVGHFAHAGLTLASALAGYVNCGTLLFLLIKRGVFKPSPGWIKYSIQLFFANSAISIYLILMNDTISYWLSFSPGMRLGLLSIHVSAAVIIYLLVLGLTGLRPTHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>++IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTR+  DVR FIARI+GYL SIL++VT++G+ A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMILAA+YLCP LP+PVVGLAWGVLIAGIVQLLFQ+PFL+QR LL++P++VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLK+GSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+QYS ALDWGLRSILLIG+PAGLGL  FA+PLIASCFAYGKFT YD++QTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI+MV+NTLLCF+FV H AHAGLTLASALAGYVNC  LLFLLIKRG+FKPSPGW+KYS+QL  AN AI +YL  M+ T +YWL FSP MRL LL  HV   V+IYLLVLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|962296570|gb|KTD80207.1|</Hit_id>
+  <Hit_def>integral membrane protein [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>KTD80207</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>878.626</Hsp_bit-score>
+      <Hsp_score>2269</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>527</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>487</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MSATDIMIPKRQSLLRSTTLVSVMTFVSRMAGFARDMVLAHFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPEDVRVFIARISGYLSAILSVVTVVGIIAAPVIIFLFAPGFIHDGVRAELATEMLRITFPFLMLVSLTAMAGAVLNTYGYFGVPAFTPVFLNISMILAAFYLCPNLPQPVVGLAWGVLIAGIVQLLFQMPFLYQRNLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLQVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHAENSTVQYSRALDWGLRSILLIGIPAGLGLALFAIPLIASCFGYGKFNVNDIMQTQKSLFTLALGIPAFMMVKVLASGFYAQQDIKTPVKIGALSMLVNTLLCAVLVWHFAHAGLTLASALAGYVNCGLLLFILLKRKVFQPSPGWLKYSIQLVIANLVVAFYLYFMCGDVNYWMGFTPFSRLSLLLAHVVLTVLLYVLVLGLLGLRPSHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>M  TDIM+PK+QSL+RST+LVS+MTF+SRM GFARDMVLA+FFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS EDVR FIARISGYLS+IL++VTVVGI+A+PVIIFLFAPGF HD VRAELAT+MLRITFP+LML+SLTAMAGA+LNTYGYFGVPAFTPV LNISMILAA YLCP+LPQPVVGLAWGVLIAGIVQLLFQ+PFLYQR+LLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFL+VGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKH E +  QYSRALDWGLRSILLIGIPAGLGL+ FA+PLIASCF YGKF   D++QTQKSL TLA+G+PAFM+VKVLASGFYA+QDI TPVK+GA++M+VNTLLC + VWH AHAGLTLASALAGYVNC +LLF+L+KR +F+PSPGWLKYS+QL+IAN  +  YLYFM G   YW+GF+P  RLSLLLAHV +TV++Y+LVLG++GLRPSHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966460495|ref|WP_058492924.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492924</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>877.856</Hsp_bit-score>
+      <Hsp_score>2267</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>487</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MSATDIMIPKRQSLLRSTTLVSVMTFVSRMAGFARDMVLAHFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPEDVRVFIARISGYLSAILSVVTVVGIIAAPVIIFLFAPGFIHDGVRAELATEMLRITFPFLMLVSLTAMAGAVLNTYGYFGVPAFTPVFLNISMILAAFYLCPNLPQPVVGLAWGVLIAGIVQLLFQMPFLYQRNLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLQVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHAENSTVQYSRALDWGLRSILLIGIPAGLGLALFAIPLIASCFGYGKFNVNDIMQTQKSLFTLALGIPAFMMVKVLASGFYAQQDIKTPVKIGALSMLVNTLLCAVLVWHFAHAGLTLASALAGYVNCGLLLFILLKRKVFQPSPGWLKYSIQLVIANLVVAFYLYFMCGDVNYWMGFTPFSRLSLLLAHVVLTVLLYVLVLGLLGLRPSHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>M  TDIM+PK+QSL+RST+LVS+MTF+SRM GFARDMVLA+FFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS EDVR FIARISGYLS+IL++VTVVGI+A+PVIIFLFAPGF HD VRAELAT+MLRITFP+LML+SLTAMAGA+LNTYGYFGVPAFTPV LNISMILAA YLCP+LPQPVVGLAWGVLIAGIVQLLFQ+PFLYQR+LLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFL+VGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKH E +  QYSRALDWGLRSILLIGIPAGLGL+ FA+PLIASCF YGKF   D++QTQKSL TLA+G+PAFM+VKVLASGFYA+QDI TPVK+GA++M+VNTLLC + VWH AHAGLTLASALAGYVNC +LLF+L+KR +F+PSPGWLKYS+QL+IAN  +  YLYFM G   YW+GF+P  RLSLLLAHV +TV++Y+LVLG++GLRPSHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966504657|ref|WP_058521316.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella tucsonensis] &gt;gi|962290644|gb|KTD74352.1| hypothetical protein Ltuc_2199 [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521316</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>877.085</Hsp_bit-score>
+      <Hsp_score>2265</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>480</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>519</Hsp_align-len>
+      <Hsp_qseq>DIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>EIMVPKRQSLLRSTTLVSVMTFISRIVGFLRDMVLASFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPNDVRVFIARIAGYLGSILSVVTIIGMFAAPVIIFLFAPGFSHDSSRAALATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNISMILAAIYLCPHLPRPVVGLAWGVLIAGIVQLLFQIPFLHQRNLLVKPQLVRNDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKIGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSISQYSSALDWGLRSILLIGIPASLGLCLFAMPLIASCFAYGKFTVYDVIQTQKSLITLGAGVPAFMMVKVLASGFYARQDISTPVKVGAISMVVNTLLCFLFVWHFAHAGLTLASALAGYVNCGTLLFLLIKRGVFKPSPGWLKYCMQLLFANAAISIYLIFMNDTVSYWLSFSPGMRLGLLSVHVLVAVIIYLLALGLAGLRPTHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLA+FFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS  DVR FIARI+GYL SIL++VT++G+ A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNISMILAA+YLCP LP+PVVGLAWGVLIAGIVQLLFQ+PFL+QR+LL++P++VR+D GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLK+GSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+I+QYS ALDWGLRSILLIGIPA LGL  FA+PLIASCFAYGKFT YD++QTQKSLITL  GVPAFM+VKVLASGFYARQDISTPVKVGAI+MVVNTLLCF+FVWH AHAGLTLASALAGYVNC  LLFLLIKRG+FKPSPGWLKY MQLL AN AI +YL FM+ T +YWL FSP MRL LL  HV V V+IYLL LG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|489731365|ref|WP_003635481.1|</Hit_id>
+  <Hit_def>lipid II flippase MurJ [Legionella longbeachae] &gt;gi|269987548|gb|EEZ93803.1| integral membrane protein MviN [Legionella longbeachae D-4968] &gt;gi|288859139|emb|CBJ13068.1| Virulence factor mviN homolog [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003635481</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>875.159</Hsp_bit-score>
+      <Hsp_score>2260</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>517</Hsp_align-len>
+      <Hsp_qseq>MVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MVPKRQSLLRSTTLVSVMTFISRVVGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRTPEDVRVFIARIAGYLGSILSVVTLIGIFAAPVIIFLFAPGFNHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNICMILAAIYLCPHLPTPVVGLAWGVLIAGIIQLLFQIPFLHQRSLLVRPRVVRDDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAVATVILPHLSRRYSEQSISQYSSALDWGLRLILLIGIPAGLGLCLFAMPLIASCFAYGKFSAYDVLQTQKSLITLGAGVPAFMMVKVLASGFYAQQDISTPVKVGAISMIMNTLLCFLFIRYFAHAGLTLASALAGYINCGSLLYLLIKRGVFKHSSGWLKYSIQLICANIAISVYLIFTTGTVSYWLSFSPIKRLSVLSLHVLVAVVIYLLVLGLTGLRASHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>MVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTR+ EDVR FIARI+GYL SIL++VT++GI A+PVIIFLFAPGF+HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNI MILAA+YLCP LP PVVGLAWGVLIAGI+QLLFQ+PFL+QR LL+RPRVVRDD GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVA+ATVILPHLSR+++EQ+I+QYS ALDWGLR ILLIGIPAGLGL  FA+PLIASCFAYGKF+AYD+LQTQKSLITL  GVPAFM+VKVLASGFYA+QDISTPVKVGAI+M++NTLLCF+F+ + AHAGLTLASALAGY+NC  LL+LLIKRG+FK S GWLKYS+QL+ AN AI VYL F +GT +YWL FSP+ RLS+L  HV V VVIYLLVLG+ GLR SHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966516753|ref|WP_058533247.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533247</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>874.774</Hsp_bit-score>
+      <Hsp_score>2259</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>422</Hsp_identity>
+      <Hsp_positive>473</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>TDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>TDIMIPKRQSLLRSTTLVSLMTFISRMMGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPDDVRVFIARIAGYLGSILTVVTVIGMFAAPIIVFLFAPGFSHDGGRAQLTTEMLRITFPFLMLVSLTAMSGAVLNTYGYFAVPAITPVLLNISMILAAFYLCPYLPQPVVGLAWGVLIAGIIQLLFQLPFLYRRNLLVRPRVVRNDPGVNRVLKLMVPALFGVSIAQLNLMVDSVFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRRHAEQSTTHYSQALDWGLRSILLIGIPAGLGLCLFSMPLIVSCFAYGKFVANDVIQTQKSLITLASGVPAFMMIKVLASGFYARQDISTPVKVGALAMGVNTLLCALFVWHFAHAGLTLASALAGYVNCGVLLFLLIKRKVYLPSPGWLKYSIQLICANAAISIYLILMGGTLNYWLNLEPVARLGLLGAHVLAVVVIYLFVLGLTGLRPNHFRGQMKE</Hsp_hseq>
+      <Hsp_midline>TDIM+PK+QSL+RST+LVSLMTFISRM+GFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS +DVR FIARI+GYL SILT+VTV+G+ A+P+I+FLFAPGF HD  RA+L T+MLRITFP+LML+SLTAM+GA+LNTYGYF VPA TPVLLNISMILAA YLCP LPQPVVGLAWGVLIAGI+QLLFQLPFLY+R+LL+RPRVVR+DPGVN+VLKLM+PALFGVSIAQLNLM+DS+FASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSR+H EQ+   YS+ALDWGLRSILLIGIPAGLGL  F++PLI SCFAYGKF A D++QTQKSLITLA GVPAFM++KVLASGFYARQDISTPVKVGA+AM VNTLLC +FVWH AHAGLTLASALAGYVNC +LLFLLIKR ++ PSPGWLKYS+QL+ AN AI +YL  M GT  YWL   P+ RL LL AHV   VVIYL VLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966420620|ref|WP_058463821.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella cincinnatiensis] &gt;gi|962207742|gb|KTC92671.1| hypothetical protein Lcin_0581 [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463821</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>865.914</Hsp_bit-score>
+      <Hsp_score>2236</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>481</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>519</Hsp_align-len>
+      <Hsp_qseq>DIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>EIMVPKRQSLLRSTTLVSVMTFISRVVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRTPEDVRVFIARIAGYLGSILSVVTLIGIFAAPVIIFLFAPGFSHDSSRAVLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNICMILAAIYLCPHLPTPVVGLAWGVLVAGIIQLIFQIPFLHQRNLLVRPRVVRDDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAVATVILPHLSRRYSEQSINQYSSALDWGLRLILLIGIPAGLGLCLFAMPLIASCFAYGKFTAYDVLQTQKSLITLGAGVPAFMMVKVLASGFYAQQDISTPVKVGAICMIVNTLLCFLFIRHFAHAGLTLASALAGYINCGSLLFLLIKRGVFKPSPGWLKYSIQLICANIAISIYLIFTTESVSYWLSFSPIKRLSVLSLHILVVVVIYLLVLGLTGLRASHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>+IMVPK+QSL+RST+LVS+MTFISR+VGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTR+ EDVR FIARI+GYL SIL++VT++GI A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNI MILAA+YLCP LP PVVGLAWGVL+AGI+QL+FQ+PFL+QR+LL+RPRVVRDD GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVA+ATVILPHLSR+++EQ+INQYS ALDWGLR ILLIGIPAGLGL  FA+PLIASCFAYGKFTAYD+LQTQKSLITL  GVPAFM+VKVLASGFYA+QDISTPVKVGAI M+VNTLLCF+F+ H AHAGLTLASALAGY+NC  LLFLLIKRG+FKPSPGWLKYS+QL+ AN AI +YL F + + +YWL FSP+ RLS+L  H+ V VVIYLLVLG+ GLR SHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966433943|ref|WP_058474374.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella quateirensis] &gt;gi|962263766|gb|KTD47846.1| integral membrane protein [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474374</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>854.358</Hsp_bit-score>
+      <Hsp_score>2206</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>445</Hsp_identity>
+      <Hsp_positive>494</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>MLTTDIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>MSATEIMVPKRQSLLRSTTLVSVMTFVSRMAGFVRDMVIANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRSPEDVRTFIARISGYLSAILTMVTLVGIIAAPVIIFLFAPGFSHDSMRADLATEMLRITFPFLMLVSLTAMAGAILNTYGYFGVPAFTPVLLNISMIVAAIYLCPNMPQPVVGLAWGVLIAGILQLLFQLPFLYQRNLLIKPRIVRDDPGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHAEQSTTQYSRALDWGLRSILLIGIPAGLGLALFAMPLIASCFAYGKFNVYDLIQTQKSLVTLALGVPAFMLVKVLASGFYAQQDIKTPVKVGAISMVVNTLLCSIFVWHFAHAGLTLASALAGYVNCGLLLFLLFKRRVFQPSPGWLKYSAQLFIANLAVAAYLYYMNGTVSYWLSFPPLLRLSLLLAHVLATVVLYLLVLGLAGLRPNHFRGQMKE</Hsp_hseq>
+      <Hsp_midline>M  T+IMVPK+QSL+RST+LVS+MTF+SRM GF RDMV+ANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTRS EDVRTFIARISGYLS+ILT+VT+VGI+A+PVIIFLFAPGF HDS+RA+LAT+MLRITFP+LML+SLTAMAGAILNTYGYFGVPAFTPVLLNISMI+AA+YLCP++PQPVVGLAWGVLIAGI+QLLFQLPFLYQR+LLI+PR+VRDDPGVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKH EQ+  QYSRALDWGLRSILLIGIPAGLGL+ FA+PLIASCFAYGKF  YDL+QTQKSL+TLA+GVPAFM+VKVLASGFYA+QDI TPVKVGAI+MVVNTLLC IFVWH AHAGLTLASALAGYVNC +LLFLL KR +F+PSPGWLKYS QL IAN A+  YLY+M+GT +YWL F PL+RLSLLLAHV  TVV+YLLVLG+ GLRP+HFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966498764|ref|WP_058515530.1|</Hit_id>
+  <Hit_def>murein biosynthesis integral membrane protein MurJ [Legionella santicrucis] &gt;gi|962269199|gb|KTD53213.1| hypothetical protein Lsan_3623 [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058515530</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>851.662</Hsp_bit-score>
+      <Hsp_score>2199</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>478</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>519</Hsp_align-len>
+      <Hsp_qseq>DIMVPKKQSLIRSTSLVSLMTFISRMVGFARDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFSQAFVPVLAEYQKTRSAEDVRTFIARISGYLSSILTLVTVVGIVASPVIIFLFAPGFHHDSVRAELATQMLRITFPYLMLISLTAMAGAILNTYGYFGVPAFTPVLLNISMILAAVYLCPDLPQPVVGLAWGVLIAGIVQLLFQLPFLYQRHLLIRPRVVRDDPGVNKVLKLMIPALFGVSIAQLNLMIDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAIATVILPHLSRKHTEQNINQYSRALDWGLRSILLIGIPAGLGLSFFALPLIASCFAYGKFTAYDLLQTQKSLITLAMGVPAFMVVKVLASGFYARQDISTPVKVGAIAMVVNTLLCFIFVWHLAHAGLTLASALAGYVNCVILLFLLIKRGLFKPSPGWLKYSMQLLIANFAIGVYLYFMSGTATYWLGFSPLMRLSLLLAHVFVTVVIYLLVLGIIGLRPSHFRGQIKD</Hsp_qseq>
+      <Hsp_hseq>EIMVPKRQSLLRSTTLVSVMTFISRVVGFVRDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAFAQAFVPVLAEYQKTRTPEDVRVFIARIAGYLGSILSVVTLIGIFAAPVIIFLFAPGFSHDSSRALLATEMLRITFPFLMLVSLTAMAGAVLNTYGYFAIPAFTPVLLNICMILAAIYLCPHLPTPVVGLAWGVLIAGIIQLIFQIPFLYQRNLLVRPRVVRDDAGVNKVLKLMIPALFGVSIAQLNLMVDSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVAVATVILPHLSRRYSEQSISQYSSALDWGLRLILLIGIPAGLGLCLFAMPLITSCFAYGKFTVYDVLQTQKSLITLGAGVPAFMMVKVLASGFYAQQDISTPVKVGAICMVMNTLLCFLFIRHFAHAGLTLASALAGYINCGSLLFLLIKRGVFKPSPGWLKYSIQLICANIAISVYLIFTTETVSYWLSFSPIKRLSVLSLHVLVVVVIYLLVLGLTGLRASHFRGQVKE</Hsp_hseq>
+      <Hsp_midline>+IMVPK+QSL+RST+LVS+MTFISR+VGF RDMVLANFFGAQAGMDAFFVAFRIPNFMRRLFAEGAF+QAFVPVLAEYQKTR+ EDVR FIARI+GYL SIL++VT++GI A+PVIIFLFAPGF HDS RA LAT+MLRITFP+LML+SLTAMAGA+LNTYGYF +PAFTPVLLNI MILAA+YLCP LP PVVGLAWGVLIAGI+QL+FQ+PFLYQR+LL+RPRVVRDD GVNKVLKLMIPALFGVSIAQLNLM+DSIFASFLKVGSVSWLYYTDRLTDFPLGVFGVA+ATVILPHLSR+++EQ+I+QYS ALDWGLR ILLIGIPAGLGL  FA+PLI SCFAYGKFT YD+LQTQKSLITL  GVPAFM+VKVLASGFYA+QDISTPVKVGAI MV+NTLLCF+F+ H AHAGLTLASALAGY+NC  LLFLLIKRG+FKPSPGWLKYS+QL+ AN AI VYL F + T +YWL FSP+ RLS+L  HV V VVIYLLVLG+ GLR SHFRGQ+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

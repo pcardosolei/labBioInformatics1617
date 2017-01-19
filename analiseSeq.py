@@ -5,9 +5,14 @@
 from Bio import Entrez
 from Bio import SeqIO
 from Bio.Blast import NCBIWWW
+from Bio.Blast import NCBIXML
 from Bio import ExPASy
 from Bio import SwissProt
-
+from Bio.ExPASy import ScanProsite
+from Bio.ExPASy import Prosite
+from Bio.Align.Applications import ClustalOmegaCommandline
+from Bio.ExPASy import Enzyme
+from Bio.KEGG import REST
 
 """
   Imports genericos
@@ -17,7 +22,9 @@ import re
 import time
 import xml.etree.ElementTree as ET
 
-
+"""
+  class da feature
+"""
 class Feature:
   def __init__(self,ref):
     self.ref = ref
@@ -45,17 +52,33 @@ class Feature:
 
   def addRefSeq(self,ref):
     self.ref = ref
-""" ###########
 
-  Aspetos gerais na analise da sequencia e features presentes na NCBI
-""" ###########
+  def addReview(self,rev):
+    self.rev = rev
 
+  def addDescpt(self,desc):
+    self.desc = desc
 
-"""
-  Funcao trabalha com a sequencia.
-  Le as features e guarda as informacoes que sao consideradas importantes - db_ref , function e locus_tag
-"""
+  def geneName(self,genName):
+    self.genName = genName
+
+  def addKeyWords(self,keywords):
+    self.keywords = keywords
+
+  def addFeatures(self,features):
+    self.features = features
+
+  def addComments(self,comments):
+    self.comments = comments
+
+  def tamanhoSeq(self,tam):
+    self.tam = tam
+
 def locateFeatures():
+  """
+    Funcao trabalha com a sequencia.
+    Le as features e guarda as informacoes que sao consideradas importantes - db_ref , function e locus_tag
+  """
   records = SeqIO.read(open("example.gb"),"genbank")
   dic = {}
   flag = False
@@ -89,18 +112,12 @@ def locateFeatures():
       pass
   return dic
 
-"""
-  read XML from blast
-"""
-def readXMLBlast(file):
-  root = xml.etree.ElementTree.parse('blasts/GeneID:19834107.xml').getroot()
-  print(root.findall("./BlastOutput_iterations"))
 
-
-"""
-  Funcao para obter valores adicionais de cada um dos genes -- ja nao me lembro onde xD
-"""
 def getInfoFeature(feature,tag):
+  """
+    Funcao para obter valores adicionais de cada um dos genes -- ja nao me lembro onde xD
+    esta funcao ja nao e necessaria
+  """
   user  = "history.a61043@alunos.uminho.pt"
   if hasattr(feature,"id"):
     pass
@@ -111,51 +128,80 @@ def getInfoFeature(feature,tag):
     genID = re.split(r':',feature.db_xref)
     writeProteinTag(user,genID,tag)
 
-
+######################################################################################################################
 
 """
   UNIPROT Functions
 """
-def getUniProt():
-  """
-    obter informacao uniprot de uma unica prot
-  """
-  pass
 
+def getUniProt(dic,tag):
+  """
+    obter informacao uniprot de uma unica prot - ver com as meninas
+  """
+  d = dic[tag]
+  ref = d.ref
+  handle = ExPASy.get_sprot_raw(ref)
+  record = SwissProt.read(handle)
+
+  d.addReview(record.data_class)
+  d.addDescpt(record.description)
+  d.geneName(record.gene_name)
+  d.addKeyWords(record.keywords)
+  d.addFeatures(record.features)
+  d.addComments(record.comments)
+  d.tamanhoSeq(record.sequence_length)
+
+  """
+  ['__doc__', '__init__', '__module__', 'accessions', 'annotation_update',
+  'comments', 'created', 'cross_references', 'data_class', 'description',
+  'entry_name', 'features', 'gene_name', 'host_organism', 'keywords',
+  'molecule_type', 'organelle', 'organism', 'organism_classification',
+  'references', 'seqinfo', 'sequence', 'sequence_length',
+  'sequence_update', 'taxonomy_id']
+  """
 
 def getUniProtLegionella(dic):
   """
     Procurar tdas as proteinas da legionella na uniprot
   """
   for tag in dic:
-    getUniProt(dic[tag].db_xref)
+    if hasattr(dic[tag],"ref"):
+      if dic[tag].ref == "null":
+        pass
+    else:
+      getUniProt(dic,tag)
+      time.sleep(10)
+
+######################################################################################################################
+
+"""
+  PDB Functions
+"""
 
 
+######################################################################################################################
+
+"""
+  BLAST FUNCTIONS
+"""
 
 """
   funcao para realizar os blasts as sequencias dos locustag
 """
 def blastAllSeq(folder):
-  soma = 0
   fastas = []
   fastas += [each for each in os.listdir(folder) if each.endswith('.fasta')]
 
   for fasta in fastas:
-
     fastaToBlastFile(fasta)
-    soma += 1
-    print("a Descansar")
-    time.sleep(180) #pausar a funcao por 5 minutos para nao estourar
-    print("Proteina {}".format(soma))
-  print("Foram tratadas {} sequencias".format(soma))
+    time.sleep(300) #pausar a funcao por 3 minutos para nao estourar
 
 
 
-
-"""
-  Passagem de informacao das features
-"""
 def stringInfo(feature):
+  """
+    Passagem de informacao das features para
+  """
   text = ""
   if hasattr(feature,"db_xref"):
     text += "db_xref: "+ feature.db_xref + "\n"
@@ -170,38 +216,8 @@ def stringInfo(feature):
   text += " \n"
   return text
 
-"""
-  Comparar a ProteinTable da legionella com os resultados de todas as proteinas
-  PODE
-"""
-def listProteinTable(dicto):
-  with open("ProteinTable416_0.txt") as fp:
-    flag = 0
-    ofile = open("teste.txt","w")
-    for line in fp:
-      if flag > 0:
-        text = line.split()
-        aux = text[11:]
-        genID = "GeneID:"+text[5]
-        if genID in dicto:
-          ofile.write(genID+"\n")
-          ofile.write(' '.join(aux)+"\n")
-          if hasattr(dicto[genID],'product'):
-            func = ''.join(dicto[genID].product)
-            ofile.write(func+"\n\n")
-          else:
-            ofile.write("\n")
-      flag += 1
-
-
-
-def test(user):
-  entrezQuery = "refseq[filter] AND txid%s"%(ncbiTaxId)
-  searchResultHandle = Entrez.esearch(db="protein", term=entrezQuery)
-  searchResult = Entrez.read(searchResultHandle)
-  searchResultHandle.close()
-
 ######################################################################################################################
+
 """
   ITERATORS
 """
@@ -222,6 +238,7 @@ def getProteinFeatures(dic):
     getInfoFeature(dic[feature],feature)
 
 ######################################################################################################################
+
 """
   LEITURAS
 """
@@ -261,6 +278,9 @@ def readProteinTag(user, genID):
 """
 
 def readXMLGene(folder,dic):
+  """
+    xml do gene
+  """
   xmls = []
   xmls += [each for each in os.listdir(folder) if each.endswith('.xml')]
   for xml in xmls:
@@ -269,17 +289,50 @@ def readXMLGene(folder,dic):
     root = tree.getroot()
     place = root.findall("./Entrezgene/Entrezgene_comments/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_source/Other-source/Other-source_src/Dbtag/Dbtag_tag/Object-id/Object-id_str")
     locustag = re.split(r'\.',xml)[0]
-    for pl in place:
+    if not place:
+      dic[locustag].addRefSeq("null")
+    else:
+     for pl in place:
       dic[locustag].addRefSeq(pl.text)
 
 
+def readXMLBlast(file):
+  ### esta e so um teste
+  result_handle = open("blasts/GeneID:19834107.xml")
+  blast_record = NCBIXML.read(result_handle)
+  E_VALUE_THRESH = 0.04 ##ThreshHold
+  for alignment in blast_record.alignments:
+     for hsp in alignment.hsps:
+         if hsp.expect < E_VALUE_THRESH:
+             print("****Alignment****")
+             print("sequence:", alignment.title)
+             print("length:", alignment.length)
+             print("e value:", hsp.expect)
+             print(hsp.query[0:75] + "...")
+             print(hsp.match[0:75] + "...")
+             print(hsp.sbjct[0:75] + "...")
 
-
-
-
+def prepFichClustalW(dic,tag):
+  genID = dic[tag].db_xref
+  lista = []
+  ofile = open("teste.fasta","w")
+  result_handle = open("blasts/"+genID+".xml")
+  blast_record = NCBIXML.read(result_handle)
+  E_VALUE_THRESH = 0.04 ##ThreshHold
+  for alignment in blast_record.alignments:
+     for hsp in alignment.hsps:
+         if hsp.expect < E_VALUE_THRESH:
+            s = re.split(r'>',alignment.title)[0]
+            filo = s[s.find("[")+1:s.find("]")]
+            if filo not in lista:
+              lista.append(filo)
+              subject = filo.replace(' ','_')
+              ofile.write(">"+subject+":\n")
+              ofile.write(hsp.sbjct[0:])
+              ofile.write("\n\n")
+  ofile.close()
 
 ######################################################################################################################
-
 
 """
   ESCRITAS
@@ -342,9 +395,9 @@ def fastaToBlastFile(fasta):
 
 
 
-def saveGenes(dictionary):
+def makeGenText(dictionary):
   """
-    Guardar informacao genes
+    Criar tabela
   """
   ofile = open("genes.txt","w")
   for gene in dictionary:
@@ -355,7 +408,6 @@ def saveGenes(dictionary):
 
 
 ######################################################################################################################
-
 
 """
   MISC
@@ -374,31 +426,228 @@ def createFolders(directories):
 
 ######################################################################################################################
 
+"""
+  Random testes
+"""
+def abc(dic):
+  for i in dic:
+      print("{} -> {}".format(i,dic[i].ref))
+
+def readDominios(user):
+  """
+  Ler a sequencia do NCBI da legionella
+
+  parametros - utilizador , posicao inicial da sequencia , posicao final da sequencia
+  """
+  Entrez.email = user
+  handle = Entrez.esearch(db="cdd",id="YP_096627",rettype="xml",retmode="xml")
+  print(handle.read())
+
+def get_ECnumber():
+    handle = open("enzyme.dat")
+    records = Enzyme.parse(handle)
+    ecnumbers = [record["DE"] for record in records]
+    print(ecnumbers)
+
+#####################################################################################################################
+
+"""
+  PROSITE
+"""
+def scanProsite():
+  handle = ScanProsite.scan(seq="MKVKRNIIKELRVSRGWTQEHLAHLCDCSVRTIARAEKDGVNSMETITALAAVFGVEASQLMGMDKIEQLQQKTDEGERYLIRLHSGKMIVESFIESLAYKIDYEIPRNSKDADLISSVIQEIKDWGEIWGDLDVGEQIRASYRLNEIISEIEENGLVLFGLRTREKLNIFSQEIEGFLCNLFISYKDNERIVILGSDSTEE",lowscore=1)
+  result = ScanProsite.read(handle)
+  for i in range(len(result)):
+    print(result[i])
+
+def testProsite():
+  handle = ExPASy.get_prosite_entry('PS50943')
+  ofile = open("test.html","wb")
+  ofile.write(handle.read())
+  ofile.close()
+
+"""
+  CLUSTAL - testar pc da ana / daniela
+"""
+def clustalW():
+  clustalomega_cline = ClustalOmegaCommandline(infile="teste.fasta", outfile="out.txt", verbose=True, auto=True, force=True)
+  clustalomega_cline()
+
+##########################################
+
+def getEC():
+  handle = open("enzyme.dat")
+  records = Enzyme.parse(handle)
+  ecnumbers = [record["ID"] for record in records]
+  print(ecnumbers)
+
+def Entrezparsing():
+  ### FALTA O STRAND
+  ofile = open("geneXML/lpg2549.xml")
+  tree = ET.parse(ofile)
+  root = tree.getroot()
+  place = root.findall("./Entrezgene/Entrezgene_comments/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_source/Other-source/Other-source_src/Dbtag/Dbtag_db")
+  dbID = root.findall("./Entrezgene/Entrezgene_comments/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_source/Other-source/Other-source_src/Dbtag/Dbtag_tag/Object-id/Object-id_id")
+  lens = len(place)
+  for i in range(lens):
+    if place[i].text == "CDD":
+      print("{} --> {}".format(place[i].text,dbID[i].text))
+
+
+def cddTest(user,idC):
+  Entrez.email = user
+  handle = Entrez.esummary(db="cdd",id=idC)
+  print(handle.read())
+######################################################################################################################
+
+"""
+  ZONA DA ANA - KEEP OUT
+"""
+
+def infoFile(feature):
+  """
+  Passagem de informaçao da função das proteínas
+  """
+  txt=''
+  if hasattr(feature,"function"):
+        txt += "Function: "+ ''.join(feature.function) + "\n"
+  return txt
+
+
+def creatFile(dictionary, start, stop):
+  """
+  Cria um ficheiro com o gene e a sua função, se esta existir
+  """
+  file = open("gene_func.txt","w")
+  #for gene in dictionary:
+  for i in range(start,stop):
+    try:
+      txt = infoFile(dictionary["lpg"+str(i)])
+      if txt!='':
+          file.write("lpg"+str(i)+",")
+          file.write(txt)
+      else:
+          file.write("lpg"+str(i)+"\n")
+    except KeyError as e:
+      print("nao tem o lpg{}".format(i))
+  file.close()
+
+def creatTable():
+    """
+    Cria uma tabela colorida no excel com as funções das proteínas
+    """
+    workbook = xls.Workbook('gene_func.xlsx')
+    worksheet = workbook.add_worksheet()
+    worksheet.set_column('A:A', 20)
+    bold=workbook.add_format({'bold':True})
+    i=0
+    j=0
+    for line in open("gene_func.txt","r"):
+        if 'Function' in line:
+            if 'Transport' in line:
+                c='red'
+            elif 'Metabolism' in line:
+                c='yellow'
+            elif 'Toxin production' in line:
+                c='blue'
+            elif 'Viral functions' in line:
+                c='pink'
+            elif 'cell division' in line:
+                c='brown'
+            elif 'secretion' in line:
+                c='orange'
+            elif 'DNA/RNA degradation' in line:
+                c='green'
+            elif 'Signal transduction' in line:
+                c='purple'
+            elif 'Translation' in line:
+                c='navy'
+            elif 'Transcription factors' in line:
+                c='gray'
+            elif 'Replication' in line:
+                c='lime'
+            elif 'Transcription' in line:
+                c='cyan'
+            elif 'Biodegradation' in line:
+                c='magenta'
+            elif 'Biosynthesis' in line:
+                c='silver'
+        else:
+            c='white'
+        color=workbook.add_format({'bg_color': c})
+        worksheet.write(j, i, line[0:7], color)
+        i+=1
+        if i>15:
+            i=0
+            j+=1
+    workbook.close()
+
+#########################################
+
+def swiss():
+  handle = open("uniprot_sprot.dat")
+  for record in SwissProt.parse(handle):
+    print(record.description)
+    time.sleep(5)
+
+def get_genes():
+    genes_met=[]
+    genes_trans=[]
+    genes_fact=[]
+    for line in open("gene_func.txt","r"):
+        if 'Metabolism' in line:
+            genes_met.append(line[0:7])
+        elif 'Transport' in line:
+            genes_trans.append(line[0:7])
+        elif 'Transcription factors' in line:
+            genes_fact.append(line[0:7])
+    return genes_met, genes_trans, genes_fact
+
+
+def kegg():
+  request = REST.kegg_get("lpn:lpg2547")
+  print(request.read())
+
+  #records = Enzyme.parse(request)
+  #print(records.entry)
 
 """
   MAIN
 """
-def main():
-  #readXMLBlast("1")
 
-  #folders = ["fastas","blasts","locTags"]
-  #createFolders(folders)
-  #writeSequence("history.a61043@alunos.uminho.pt","2873801","3124550")
-  dic = locateFeatures()
+def main():
+
+  #dic = locateFeatures()
+  """
+  readXMLGene("geneXML",dic)
+  getUniProtLegionella(dic)
+  makeGenText(dic)
+  """
+
+  #blastAllSeq("fastas")
+  #prepFichClustalW(dic,"lpg2549")
+
   #writeGeneXML("history.a61043@alunos.uminho.pt",dic)
   #getProteinFeatures(dic)
   #saveGenes(dic)
-  #fastaToBlastFile("fastas/GeneID:19834107.fasta")
-  #blastAllSeq("fastas")
-  #getSwissProtInfo("19834166")
+
   #readBlastProtein()
-  #getUniProt()
   #test("history.a61043@alunos.uminho.pt")
 
-  readXMLGene("geneXML",dic)
+  #swiss()
+  kegg()
 
-"""
-  TODO - read protein locus genbanks
-       - read BLAST FILES
-"""
+  #scanProsite()
+  #testProsite()
+
+  #get_ECnumber()
+  #clustalW()
+  #Entrezparsing()
+
+  #cddTest("history.a61043@alunos.uminho.pt",278590)
+
+
+  """
+
+  """
 main()

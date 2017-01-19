@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_214937</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834232</BlastOutput_query-def>
+  <BlastOutput_query-len>292</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_214937</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834232</Iteration_query-def>
+  <Iteration_query-len>292</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250827|ref|WP_010948367.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|52842873|ref|YP_096672.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629984|gb|AAU28725.1| RNA polymerase sigma-32 factor RpoH [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509378|gb|AEW52902.1| RNA polymerase sigma-32 factor RpoH [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948367</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>597.816</Hsp_bit-score>
+      <Hsp_score>1540</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MLMTGGSSMSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MLMTGGSSMSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_hseq>
+      <Hsp_midline>MLMTGGSSMSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|502866948|ref|WP_013101924.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|53752442|emb|CAH13874.1| RNA polymerase sigma-32 factor [Legionella pneumophila str. Paris] &gt;gi|295650215|gb|ADG26062.1| RNA polymerase sigma-32 factor [Legionella pneumophila 2300/99 Alcoy] &gt;gi|395128669|emb|CCD06887.1| RNA polymerase, sigma 32 (sigma H) factor [Legionella pneumophila subsp. pneumophila] &gt;gi|395131753|emb|CCD10046.1| RNA polymerase, sigma 32 (sigma H) factor [Legionella pneumophila subsp. pneumophila] &gt;gi|469490609|gb|AGH52454.1| RNA polymerase sigma factor RpoH [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083340|gb|AGN15588.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|536611705|gb|ERB40223.1| RNA polymerase sigma 70 [Legionella pneumophila str. 121004] &gt;gi|541999650|gb|ERH45648.1| RNA polymerase sigma 70 [Legionella pneumophila str. Leg01/53] &gt;gi|542000394|gb|ERH46381.1| RNA polymerase sigma 70 [Legionella pneumophila str. Leg01/11] &gt;gi|542123183|gb|ERI49492.1| RNA polymerase sigma 70 [Legionella pneumophila str. Leg01/20] &gt;gi|761987334|dbj|GAN24684.1| RNA polymerase sigma factor RpoH [Legionella pneumophila] &gt;gi|761990408|dbj|GAN18632.1| RNA polymerase sigma factor RpoH [Legionella pneumophila] &gt;gi|761993598|dbj|GAN21738.1| RNA polymerase sigma factor RpoH [Legionella pneumophila] &gt;gi|761996891|dbj|GAN31066.1| RNA polymerase sigma factor RpoH [Legionella pneumophila] &gt;gi|762000262|dbj|GAN27994.1| RNA polymerase sigma factor RpoH [Legionella pneumophila] &gt;gi|998772806|emb|CZI16499.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998775745|emb|CZG61538.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998778331|emb|CZG76200.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998784570|emb|CZG87034.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998787522|emb|CZG59864.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998790053|emb|CZH04446.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998792863|emb|CZI70809.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998796535|emb|CZI01917.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998800294|emb|CZL03932.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998802661|emb|CZH90126.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998805823|emb|CZK08151.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998808343|emb|CZH87329.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998811927|emb|CZH79855.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998814274|emb|CZG61430.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998817743|emb|CZL60448.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998820845|emb|CZL61650.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998826807|emb|CZK09095.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998832555|emb|CZI05943.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998835780|emb|CZK89085.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998837831|emb|CZJ71667.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998842319|emb|CZL14166.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998844737|emb|CZK29763.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998847688|emb|CZK67431.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998850225|emb|CZI36907.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998853792|emb|CZL27038.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998856488|emb|CZL33781.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998859811|emb|CZL74561.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998862653|emb|CZK18525.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998865379|emb|CZJ40558.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998869880|emb|CZJ36636.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998871075|emb|CZM17252.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998874563|emb|CZK39287.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998877450|emb|CZL99097.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998880517|emb|CZI86504.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998888053|emb|CZL51026.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998889212|emb|CZK22504.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998892933|emb|CZJ09639.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998895494|emb|CZJ98737.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998906138|emb|CZK57276.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998909709|emb|CZL10042.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998912288|emb|CZG95252.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998915820|emb|CZK61269.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998918289|emb|CZK82077.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998921260|emb|CZL38115.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998924323|emb|CZJ97260.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998927565|emb|CZL63376.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998930652|emb|CZK74907.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998933943|emb|CZL76524.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998939867|emb|CZK76036.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998942568|emb|CZK06909.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998945944|emb|CZK93765.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998948988|emb|CZK81905.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998954619|emb|CZK43050.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998958626|emb|CZM01976.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998961532|emb|CZK26336.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998964601|emb|CZK04453.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998966977|emb|CZM53688.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998970519|emb|CZK55102.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998973790|emb|CZK26153.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998976154|emb|CZJ64715.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998979495|emb|CZL58946.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998982060|emb|CZI90032.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998985844|emb|CZJ98672.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998988726|emb|CZL48864.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998991482|emb|CZK06453.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998993988|emb|CZI48061.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998998012|emb|CZJ88023.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999004493|emb|CZI44934.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999007984|emb|CZK26626.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999009861|emb|CZK04491.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999012917|emb|CZL43502.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999016839|emb|CZL67939.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999018887|emb|CZJ59956.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999022637|emb|CZL13802.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999025392|emb|CZK75110.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999028015|emb|CZJ92140.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999031575|emb|CZG69618.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999034017|emb|CZJ96368.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999037149|emb|CZL55314.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999040224|emb|CZJ66471.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999043109|emb|CZJ78862.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999046873|emb|CZL77843.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999048936|emb|CZJ85058.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999052193|emb|CZJ66878.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999055189|emb|CZJ98778.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999061680|emb|CZL16215.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999064303|emb|CZJ77121.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999067356|emb|CZJ17545.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999070142|emb|CZJ76348.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999073399|emb|CZK03290.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999076920|emb|CZG59930.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999080264|emb|CZJ92631.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999082777|emb|CZK77368.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999085658|emb|CZJ99260.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999090513|emb|CZK42165.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999092507|emb|CZL41680.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999095292|emb|CZG88674.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999098693|emb|CZG59150.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999101121|emb|CZL67087.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999106914|emb|CZI83676.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999110436|emb|CZL16220.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999113785|emb|CZL50980.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999116434|emb|CZK49886.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999126346|emb|CZK79895.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999131612|emb|CZL95775.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999134831|emb|CZL17937.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999138067|emb|CZK26972.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999141818|emb|CZL45513.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999144537|emb|CZK68503.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999147671|emb|CZL50930.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999151607|emb|CZH56819.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999156839|emb|CZH74225.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999158640|emb|CZJ91793.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999166094|emb|CZG71125.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999168349|emb|CZI53130.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999173363|emb|CZH69148.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999175811|emb|CZL05537.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999177440|emb|CZJ85257.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999182577|emb|CZG28540.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999184534|emb|CZP93569.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999188742|emb|CZI77745.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999191263|emb|CZI17059.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999194386|emb|CZI42989.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999198342|emb|CZP08301.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999200251|emb|CZG59981.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999203697|emb|CZI42986.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999206403|emb|CZP57799.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999210035|emb|CZK76410.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999213674|emb|CZG45000.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999217036|emb|CZI71234.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999222378|emb|CZI34305.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999225880|emb|CZG31429.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999227818|emb|CZP38988.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999231188|emb|CZI61313.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999235083|emb|CZP53360.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999240579|emb|CZH76912.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999244248|emb|CZH72337.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999248062|emb|CZH50350.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999249458|emb|CZG79923.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999252925|emb|CZG93311.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999256186|emb|CZP74938.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999259233|emb|CZP40276.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999262119|emb|CZH04946.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999265423|emb|CZP03041.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999269728|emb|CZO25525.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999272109|emb|CZP53180.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999274378|emb|CZH10224.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999277816|emb|CZP30780.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999281478|emb|CZP21488.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999284126|emb|CZP49171.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999286752|emb|CZI74302.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999290871|emb|CZP28518.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999293125|emb|CZI62962.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999296729|emb|CZP48964.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999299968|emb|CZP26397.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999302227|emb|CZI54662.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999307189|emb|CZH66680.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999309575|emb|CZP20998.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999312084|emb|CZI88832.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999315939|emb|CZI01818.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999318976|emb|CZP57540.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999322228|emb|CZH93221.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999324898|emb|CZH12522.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999327623|emb|CZH29074.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999332856|emb|CZG02152.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999335296|emb|CZK73198.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999337967|emb|CZP43041.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999340767|emb|CZH00264.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999344131|emb|CZP91422.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999347419|emb|CZP59743.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999350107|emb|CZH27338.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999353762|emb|CZP53728.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999356871|emb|CZP75886.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999361049|emb|CZH99844.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999363237|emb|CZP71944.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999367000|emb|CZP72695.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999369582|emb|CZP86361.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999374007|emb|CZG02172.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999377390|emb|CZI92117.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999380689|emb|CZH52806.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999383367|emb|CZI14184.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999387504|emb|CZG12224.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999390311|emb|CZI12252.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999392514|emb|CZP96054.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999397024|emb|CZG15028.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999398762|emb|CZP99351.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999403238|emb|CZP46395.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999406463|emb|CZG45075.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999409365|emb|CZH70480.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999412621|emb|CZG28716.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999416691|emb|CZG16477.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999419321|emb|CZG44821.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999422568|emb|CZH43854.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999426525|emb|CZG25929.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999429073|emb|CZG28801.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999432662|emb|CZG03670.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999435780|emb|CZH66865.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999438307|emb|CZG43630.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999442289|emb|CZJ86281.1| RNA polymerase sigma-32 factor RpoH [Legionella pneumophila] &gt;gi|999445288|emb|CZH55278.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999448550|emb|CZG02170.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999450831|emb|CZP31421.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999455559|emb|CZH46203.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999458400|emb|CZJ91717.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999462186|emb|CZG04252.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999465434|emb|CZM27194.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999468310|emb|CZO06288.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999469956|emb|CZG81346.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999474584|emb|CZM56158.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999478141|emb|CZN23858.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999481336|emb|CZM61850.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999484366|emb|CZN95486.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999487562|emb|CZL96429.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999490753|emb|CZN59654.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999493939|emb|CZL95333.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999496979|emb|CZI08670.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999500381|emb|CZN58448.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999503603|emb|CZN88520.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999506799|emb|CZM94244.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999509994|emb|CZG24791.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999513191|emb|CZN18572.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999515212|emb|CZM27649.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999519766|emb|CZM48864.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999521383|emb|CZP46179.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999526370|emb|CZI62864.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999529252|emb|CZI18741.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999532634|emb|CZO31086.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999534714|emb|CZN67875.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999539027|emb|CZM52261.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999542319|emb|CZO08965.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999545421|emb|CZO44679.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999548617|emb|CZN74628.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999551809|emb|CZN97732.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999555186|emb|CZM95177.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999558199|emb|CZO44306.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999561395|emb|CZM28796.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999564592|emb|CZO44404.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999567783|emb|CZM41876.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999570982|emb|CZN40463.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999574172|emb|CZN77885.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999577028|emb|CZI00989.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999580663|emb|CZO02399.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999584175|emb|CZO15965.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999585949|emb|CZN11589.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999590560|emb|CZM23768.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999593435|emb|CZN33700.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999596633|emb|CZN96229.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999599825|emb|CZO22706.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999603319|emb|CZL65685.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999606220|emb|CZN37361.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999609730|emb|CZN42778.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999612329|emb|CZI04977.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999615906|emb|CZM33082.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999618945|emb|CZN74366.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999622379|emb|CZO54062.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999625577|emb|CZN51867.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999629006|emb|CZM43671.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999631884|emb|CZM47686.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999635076|emb|CZN38557.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999638272|emb|CZN36941.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999641468|emb|CZO64977.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999644639|emb|CZO30355.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999648176|emb|CZN77864.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999650987|emb|CZN94435.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999654249|emb|CZN90703.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999657627|emb|CZL98902.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999660642|emb|CZM49947.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999664156|emb|CZM84137.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999667033|emb|CZM23299.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999670227|emb|CZL72490.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999673614|emb|CZM17639.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999676622|emb|CZN63496.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999679657|emb|CZM64485.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999682852|emb|CZM71331.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999686078|emb|CZN94411.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999689582|emb|CZN08805.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999692609|emb|CZN83118.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999695993|emb|CZM99594.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999698201|emb|CZM32016.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999702530|emb|CZM45739.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999705600|emb|CZL57534.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999708624|emb|CZN40210.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999711876|emb|CZM84950.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999715441|emb|CZM90654.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999718468|emb|CZO25925.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999721458|emb|CZM69554.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999724798|emb|CZN19399.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999728121|emb|CZL87818.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999731691|emb|CZO22918.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999734940|emb|CZM01583.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999738158|emb|CZO46319.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999741142|emb|CZM27136.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999744556|emb|CZN05855.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999747969|emb|CZM02162.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999750864|emb|CZL81663.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999754058|emb|CZM69996.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999757401|emb|CZM81785.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999760452|emb|CZM17582.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999763833|emb|CZN08872.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999767030|emb|CZM54607.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999769881|emb|CZN42362.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999773585|emb|CZH75124.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999776503|emb|CZL87864.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999778515|emb|CZH02679.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999783367|emb|CZH48748.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999786543|emb|CZM15939.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999789866|emb|CZO51008.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999793187|emb|CZO50057.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999796434|emb|CZI06690.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999799615|emb|CZO60150.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1002075575|emb|CZQ94498.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1002079081|emb|CZQ94990.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1002082173|emb|CZQ96394.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1002091793|emb|CZR06480.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1003020171|emb|CZR21716.1| RNA polymerase sigma-32 factor RpoH [Legionella pneumophila] &gt;gi|1003023052|emb|CZR20524.1| RNA polymerase sigma-32 factor RpoH [Legionella pneumophila] &gt;gi|1003026894|emb|CZR18288.1| RNA polymerase sigma-32 factor RpoH [Legionella pneumophila] &gt;gi|1003028360|emb|CZR23379.1| RNA polymerase sigma-32 factor RpoH [Legionella pneumophila] &gt;gi|1003033097|emb|CZR19452.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1003035457|emb|CZR22812.1| RNA polymerase sigma-32 factor RpoH [Legionella pneumophila] &gt;gi|1005834336|gb|AMQ29062.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila] &gt;gi|1015434092|gb|AMV15719.1| RNA polymerase sigma factor RpoH [Legionella pneumophila] &gt;gi|1032658745|gb|ANH14016.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1032661707|gb|ANH16977.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1032664685|gb|ANH19954.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1041016640|gb|ANN93701.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1041019637|gb|ANN96697.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073865709|gb|AOU05660.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073868678|gb|AOU08628.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073871673|gb|AOU11622.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073874540|gb|AOU14488.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073877598|gb|AOU17545.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073880561|gb|AOU20507.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073883558|gb|AOU23503.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073886550|gb|AOU26494.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073889519|gb|AOU29462.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073892503|gb|AOU32445.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073895471|gb|AOU35412.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073898429|gb|AOU38369.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073901395|gb|AOU41334.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073904304|gb|AOU44242.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073907257|gb|AOU47194.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073910275|gb|AOU50210.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073913287|gb|AOU53219.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073916247|gb|AOU56178.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073919210|gb|AOU59140.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073922113|gb|AOU62042.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073925196|gb|AOU65123.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073928159|gb|AOU68085.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073931145|gb|AOU71054.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073934514|gb|AOU74073.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073937479|gb|AOU84478.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073947745|gb|AOU87469.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1073950673|gb|AOU90396.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1103997832|emb|SFZ47034.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1104000972|emb|SFZ47043.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1104004071|emb|SFZ47035.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1129969331|gb|APT99690.1| RNA polymerase factor sigma-32 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101924</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>580.867</Hsp_bit-score>
+      <Hsp_score>1496</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1006061649|ref|WP_061724498.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|999219283|emb|CZL29711.1| Heat shock regulatory protein F33.4 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061724498</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>580.482</Hsp_bit-score>
+      <Hsp_score>1495</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAIAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDA+AKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|652969922|ref|WP_027222815.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1005362909|gb|AMP88778.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pascullei] &gt;gi|1005367828|gb|AMP93605.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pascullei] &gt;gi|1005370747|gb|AMP96523.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222815</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>580.482</Hsp_bit-score>
+      <Hsp_score>1495</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLIMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVL+MEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1004014475|ref|WP_061483737.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483737</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>579.326</Hsp_bit-score>
+      <Hsp_score>1492</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNANDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFN NDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|500496257|ref|WP_011947580.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|148280371|gb|ABQ54459.1| hypothetical protein LPC_0471 [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>WP_011947580</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>579.326</Hsp_bit-score>
+      <Hsp_score>1492</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMES</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|653014224|ref|WP_027266273.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|998781131|emb|CZJ42005.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998824321|emb|CZG46731.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998829424|emb|CZG77143.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998883288|emb|CZI75024.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998898871|emb|CZJ47423.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998936521|emb|CZM50934.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|998952276|emb|CZJ35259.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999000453|emb|CZG78288.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999057997|emb|CZM56854.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999104132|emb|CZI04682.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999128743|emb|CZH01604.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999153820|emb|CZM15572.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999162908|emb|CZM04021.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999236362|emb|CZH07223.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1002085437|emb|CZQ99157.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1002088098|emb|CZQ79276.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1104007525|emb|SFZ47123.1| Heat shock regulatory protein F33.4 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266273</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.941</Hsp_bit-score>
+      <Hsp_score>1491</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEA</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|654928536|ref|WP_028378967.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378967</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>578.556</Hsp_bit-score>
+      <Hsp_score>1490</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLCAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLL AMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|499535754|ref|WP_011216537.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|53755339|emb|CAH16835.1| RNA polymerase sigma-32 factor [Legionella pneumophila str. Lens] &gt;gi|1080002996|gb|AOW53568.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005258|gb|AOW55538.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008918|gb|AOW58906.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011415|gb|AOW60906.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015493|gb|AOW64366.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017659|gb|AOW66304.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216537</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>577.785</Hsp_bit-score>
+      <Hsp_score>1488</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMSLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEA</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAM+LPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|653015691|ref|WP_027267720.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267720</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>577.785</Hsp_bit-score>
+      <Hsp_score>1488</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDMEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMES</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGD+EAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|652976385|ref|WP_027229057.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|985764677|gb|KXB25796.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|985767052|gb|KXB28147.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|999119130|emb|CZG87532.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|999122255|emb|CZH21119.1| Heat shock regulatory protein F33.4 [Legionella pneumophila] &gt;gi|1024339733|gb|KZX34072.1| RNA polymerase factor sigma-32 [Legionella pneumophila] &gt;gi|1108606018|gb|APF04386.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. fraseri] &gt;gi|1108609000|gb|APF07367.1| RNA polymerase factor sigma-32 [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229057</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>577.015</Hsp_bit-score>
+      <Hsp_score>1486</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEMAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLCAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEE+AYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLL AMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|966432350|ref|WP_058472783.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella quateirensis] &gt;gi|962268725|gb|KTD52741.1| RNA polymerase sigma-32 factor RpoH [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058472783</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.903</Hsp_bit-score>
+      <Hsp_score>1426</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIACAERFHAEGDIEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLVMEQRLNVMDSPYDAPEADDNDDAYKAPERYLFNVNDDPALMLEKEDTGDQGREQLMCAMEQLDARSQDILQQRWLAEEKLTLHDLADKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIA AERFH+EGDIEAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVL+MEQRLNVMDS YDAP+ DDNDDAYKAPERYLFNVNDDPA++LE EDTGDQGRE+L+ AMEQLD RSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|966460883|ref|WP_058493312.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella worsleiensis] &gt;gi|962296375|gb|KTD80016.1| RNA polymerase sigma-32 factor RpoH [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493312</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>552.362</Hsp_bit-score>
+      <Hsp_score>1422</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>266</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLSLEEEIACAERFHSEGDIEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLVMEQRLNVMDSSYDAPEVDDNDDAYKAPERYLFDVNDDPALMLEKEDTGDQSRERLMCAMEQLDERSQDILQQRWLAEDKLTLHDLADKYGVSAERVRQLEKNAMKKIRQYMES</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPML+LEEEIA AERFHSEGDIEAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVL+MEQRLNVMDSSYDAP+VDDNDDAYKAPERYLF+VNDDPA++LE EDTGDQ RE+L+ AMEQLDERSQDILQQRWLAE+KLTLHDLA+KYGVSAERVRQLEKNAMKKIRQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|654932959|ref|WP_028383316.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella moravica] &gt;gi|962250700|gb|KTD34901.1| RNA polymerase sigma-32 factor RpoH [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383316</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>550.821</Hsp_bit-score>
+      <Hsp_score>1418</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLSLEEEIACAERFHAEGDIEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLVMEQRLNVMDSPYDAPEADEHDDAYKAPERYLFNVNDDPALMLEKEDTGDQGREQLMCAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQFMEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPML+LEEEIA AERFH+EGDIEAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVL+MEQRLNVMDS YDAP+ D++DDAYKAPERYLFNVNDDPA++LE EDTGDQGRE+L+ AMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQ+MEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|737925361|ref|WP_035890571.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella norrlandica] &gt;gi|701445396|gb|KGP62781.1| RNA polymerase factor sigma-32 [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890571</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.798</Hsp_bit-score>
+      <Hsp_score>1379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWLSSEEVDAVAKDLGVSREDVLLMEERLNVMDSPYDAPDSDDSDDAYKAPERYLFNVSDDPAVLLENEDSGDQGREKLMFALERLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEVDAVAKDLGVSREDVLLME+RLNVMDS YDAPD DD+DDAYKAPERYLFNV+DDPAVLLENED+GDQGREKL+FA+E+LDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|518064369|ref|WP_019234577.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella anisa] &gt;gi|962187089|gb|KTC72222.1| RNA polymerase sigma-32 factor [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019234577</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>522.702</Hsp_bit-score>
+      <Hsp_score>1345</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDAYIHRVNQIPMLSLEEEIAYAERFHAEGDLEAARCLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVTAVANDLGVSREDVLVMEQRLNAMDSPYDAPHASDNDDFYTAPEDYLFNVNDDPSVLLEKESAGDRGREKLMFALEQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYMES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLD+YIHRVNQIPML+LEEEIAYAERFH+EGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVSREDVL+MEQRLN MDS YDAP   DNDD Y APE YLFNVNDDP+VLLE E  GD+GREKL+FA+EQLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|671586724|ref|WP_031563115.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563115</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.39</Hsp_bit-score>
+      <Hsp_score>1339</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDSYIQRVNQIPMLSLEEEIACAERFHAEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVSAVANDLGVSREDVLIMEQRLNAMDTPYDAPDADDHDEFYTAPERYLFNANDDPSVLLEKENSGDQGREKLMCALEQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYMES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLDSYI RVNQIPML+LEEEIA AERFH+EGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVSREDVL+MEQRLN MD+ YDAPD DD+D+ Y APERYLFN NDDP+VLLE E++GDQGREKL+ A+EQLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|517403148|ref|WP_018576014.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella shakespearei] &gt;gi|962276103|gb|KTD60004.1| RNA polymerase sigma-32 factor RpoH [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576014</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.39</Hsp_bit-score>
+      <Hsp_score>1339</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIACAENFHEKGDIEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREEVLVMEQRLNVMDSPYDAPDADDNDDAYKAPERYLFNINDDPAIMLEKEDTGDQGREKLFAALEQLDERSQDILQQRWLAEKKLTLHDLAEKYGVSAERVRQLEKNAMKKLRQFIEG</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIA AE FH +GDIEAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSRE+VL+MEQRLNVMDS YDAPD DDNDDAYKAPERYLFN+NDDPA++LE EDTGDQGREKL  A+EQLDERSQDILQQRWLAE+KLTLHDLAEKYGVSAERVRQLEKNAMKK+RQ++EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1113342058|gb|OJW05935.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW05935</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.005</Hsp_bit-score>
+      <Hsp_score>1338</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDLEAARHLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSREEVSAVAQDLGVTCEDVLLMEQRLNAMDTPYDAPDADEHDEFYTAPERYLFNANDDPSVMLEKESAGEQGREKLMLALEQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S EEV AVA+DLGV+ EDVLLMEQRLN MD+ YDAPD D++D+ Y APERYLFN NDDP+V+LE E  G+QGREKL+ A+EQLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966493796|ref|WP_058510584.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella steelei] &gt;gi|962284733|gb|KTD68499.1| RNA polymerase sigma-32 factor [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058510584</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.005</Hsp_bit-score>
+      <Hsp_score>1338</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDLEAARHLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSREEVTAVAQDLGVTCEDVLLMEQRLNAMDTPYDAPDADEHDEFYTAPERYLFNANDDPSVMLEKESAGEQGREKLMLALEQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S EEV AVA+DLGV+ EDVLLMEQRLN MD+ YDAPD D++D+ Y APERYLFN NDDP+V+LE E  G+QGREKL+ A+EQLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|966499559|ref|WP_058516232.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella parisiensis] &gt;gi|962260093|gb|KTD44208.1| RNA polymerase sigma-32 factor [Legionella parisiensis] &gt;gi|1069291617|gb|OEH46998.1| RNA polymerase sigma factor RpoH [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516232</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.005</Hsp_bit-score>
+      <Hsp_score>1338</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDAYIHRVNQIPMLSLEEEIACAERFHAEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVTAVANDLGVSREDVLVMEQRLNAMDTPYDAPDADEHDEFYTAPERYLFNANDDPSVLLEKESTGDRGREKLMFALEQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLD+YIHRVNQIPML+LEEEIA AERFH+EGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVSREDVL+MEQRLN MD+ YDAPD D++D+ Y APERYLFN NDDP+VLLE E TGD+GREKL+FA+EQLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|654930373|ref|WP_028380742.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella cherrii] &gt;gi|962197120|gb|KTC82164.1| RNA polymerase sigma-32 factor [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380742</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.85</Hsp_bit-score>
+      <Hsp_score>1335</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDSYIHRVNQIPMLSLEEEIAYAERFHSEGDLEAARCLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSREEVSAVANDLGVSCEDVLVMEQRLNAMDTPYDAPDADDHDEFYTAPERYLFNANDDPSVMLEKENAGDQGREKLMLALEQLDERSQDILQQRWLAEDKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIEN</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLDSYIHRVNQIPML+LEEEIAYAERFHSEGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S EEV AVA DLGVS EDVL+MEQRLN MD+ YDAPD DD+D+ Y APERYLFN NDDP+V+LE E+ GDQGREKL+ A+EQLDERSQDILQQRWLAE+KLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966426214|ref|WP_058468752.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Fluoribacter gormanii] &gt;gi|962216870|gb|KTD01624.1| RNA polymerase sigma-32 factor [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468752</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.464</Hsp_bit-score>
+      <Hsp_score>1334</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDSYIHRVNQIPMLSLEEEIAYAERFHTEGDLEAARLLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSNEEVNAVANDLGVSREDVLVMEQRLNAMDTPYDAPDADEHDEFYTAPERYLFNANDDPSVLLEKENAGDHGRERLMLALDQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLDSYIHRVNQIPML+LEEEIAYAERFH+EGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW SNEEV+AVA DLGVSREDVL+MEQRLN MD+ YDAPD D++D+ Y APERYLFN NDDP+VLLE E+ GD GRE+L+ A++QLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|489729118|ref|WP_003633234.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella longbeachae] &gt;gi|269990038|gb|EEZ96292.1| RNA polymerase sigma-32 factor RpoH [Legionella longbeachae D-4968] &gt;gi|288856893|emb|CBJ10704.1| RNA polymerase sigma-32 factor [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003633234</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.694</Hsp_bit-score>
+      <Hsp_score>1332</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAGINLPVGSIDAYIHRVNQIPMLSLEEEIACAERFHSEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVSAVANDLGVSREDVLVMEQRLNAMDTPYDAPDADDHDEFYTAPERYLFNTNDDPSVMLENDSASDQGREKLMFALEQLDERSQDILQQRWLSEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLKQYIES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA +NLPVGS+D+YIHRVNQIPML+LEEEIA AERFHSEGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVSREDVL+MEQRLN MD+ YDAPD DD+D+ Y APERYLFN NDDP+V+LEN+   DQGREKL+FA+EQLDERSQDILQQRWL+EEKLTLHDLA+KYGVSAERVRQLEKNAMKK++QY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|966436325|ref|WP_058476693.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella steigerwaltii] &gt;gi|962294994|gb|KTD78648.1| RNA polymerase sigma-32 factor [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476693</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.924</Hsp_bit-score>
+      <Hsp_score>1330</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDSYIHRVNQIPMLSLEEEIAYAERFHSEGDLEAARHLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVTAVANDLGVSCEDVLVMEQRLNAMDTPYDAPDADDHDEFFTAPERYLFNANDDPSIVLEKESAGEQGREKLMLALEQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLDSYIHRVNQIPML+LEEEIAYAERFHSEGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVS EDVL+MEQRLN MD+ YDAPD DD+D+ + APERYLFN NDDP+++LE E  G+QGREKL+ A+EQLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966505262|ref|WP_058521921.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella tucsonensis] &gt;gi|962287635|gb|KTD71363.1| RNA polymerase sigma-32 factor [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521921</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>516.538</Hsp_bit-score>
+      <Hsp_score>1329</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDAYIHRVNQIPMLSLEEEIACAERFHAEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVTAIANDLGVSREDVLVMEQRLNAMDTPYDAPDADEHDEFYTAPERYLFNANDDPSALLEKESTGEHGREKLMFALEQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIEN</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLD+YIHRVNQIPML+LEEEIA AERFH+EGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV A+A DLGVSREDVL+MEQRLN MD+ YDAPD D++D+ Y APERYLFN NDDP+ LLE E TG+ GREKL+FA+EQLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|966414729|ref|WP_058458014.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Fluoribacter bozemanae] &gt;gi|962192289|gb|KTC77363.1| RNA polymerase sigma-32 factor [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458014</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>515.383</Hsp_bit-score>
+      <Hsp_score>1326</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDAYIHRVNQIPMLSLEEEIACAERFHAEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVTAVANDLGVSREDVLVMEQRLNAMDTPYDAPDADEHDEFYTAPERYLFNANDDPSVLLEKESVGDRGREKLMVALEQLDERSQDILQQRWLAEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLD+YIHRVNQIPML+LEEEIA AERFH+EGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVSREDVL+MEQRLN MD+ YDAPD D++D+ Y APERYLFN NDDP+VLLE E  GD+GREKL+ A+EQLDERSQDILQQRWLAEEKLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|769978685|ref|WP_045094670.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella fallonii] &gt;gi|698841925|emb|CEG55872.1| RNA polymerase, sigma 32 (sigma H) factor [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045094670</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.998</Hsp_bit-score>
+      <Hsp_score>1325</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLTAMNLPVGSLDSYIHRVNQIPLLTLEEEIAYAERFHSEGDLEAARHLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKSRLGWLSNEEVSAVALDLGVSREDVLLMEQRLNALDSPYDAPDIDDHDDAFKAPERYLFNSNDDPALLLEQEDSGDQGREKLFFAMEQLDERSQDILQQRWLADDKLTLHDLAEKYGISAERVRQLEKNAMKKIRQYMEN</Hsp_hseq>
+      <Hsp_midline>M+QQLQL AMNLPVGSLDSYIHRVNQIP+LTLEEEIAYAERFHSEGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMK+RLGW SNEEV AVA DLGVSREDVLLMEQRLN +DS YDAPD+DD+DDA+KAPERYLFN NDDPA+LLE ED+GDQGREKL FAMEQLDERSQDILQQRWLA++KLTLHDLAEKYG+SAERVRQLEKNAMKKIRQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966439728|ref|WP_058480051.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella waltersii] &gt;gi|962295625|gb|KTD79270.1| RNA polymerase sigma-32 factor [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480051</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.834</Hsp_bit-score>
+      <Hsp_score>1309</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLIAMSLPVGSLDSYIHRVNQIPMLTLEEEIACAERFHAEGDIEAARRLVLAHLRYVVRVARGYMGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWSSSEEVEKIAEDLGVSPEEVLVMEARLNAHDTPYDAPDVDDYDEVHKAPERYLFNPNDDPAVMLEKEDSGDQGREKLMLAFEQLDERSQDILQHRWLAENKLTLHELAEKYGVSAERIRQLEKNAMKKLRQYIEA</Hsp_hseq>
+      <Hsp_midline>M+QQLQL AM+LPVGSLDSYIHRVNQIPMLTLEEEIA AERFH+EGDIEAAR+LVLAHLRYVVRVARGY+GYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGW S+EEV+ +A+DLGVS E+VL+ME RLN  D+ YDAPDVDD D+ +KAPERYLFN NDDPAV+LE ED+GDQGREKL+ A EQLDERSQDILQ RWLAE KLTLH+LAEKYGVSAER+RQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|498338320|ref|WP_010652476.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Fluoribacter dumoffii] &gt;gi|962207573|gb|KTC92504.1| RNA polymerase sigma-32 factor [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652476</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>507.679</Hsp_bit-score>
+      <Hsp_score>1306</Hsp_score>
+      <Hsp_evalue>1.18071e-180</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAEMNLPVGSLDSYIHRVNQIPMLSLEEEIAYAERFHTEGDLDAARCLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEYVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSPEEVSAVANDLGVSCEDVLVMEQRLNAMDTPYDAPDADDHDEFYTAPERYLFNANDDPSVLLEKENAGEHGHEKLMLALEQLDARSQDILQQRWLAEDKLTLHDLAKKYGVSAERVRQLEKNAMKKLRQYIE</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA MNLPVGSLDSYIHRVNQIPML+LEEEIAYAERFH+EGD++AAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHE+VLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S EEV AVA DLGVS EDVL+MEQRLN MD+ YDAPD DD+D+ Y APERYLFN NDDP+VLLE E+ G+ G EKL+ A+EQLD RSQDILQQRWLAE+KLTLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966516858|ref|WP_058533352.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533352</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>505.753</Hsp_bit-score>
+      <Hsp_score>1301</Hsp_score>
+      <Hsp_evalue>8.46499e-180</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPIGSLDAYIHRVNQIPMLTLEEELAYAERFHSEGDLEAARHLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKSQRKLFFNLRQMKSRLGWFSNEEVEAVARDLGVSTKDVLLMEQRLNAMDSPYESSSDGDDGDDFHAPERYLFNAEDDPALALEKEDSGDQGREKLMLALEQLDERSQDILQQRWLADDKLTLHDLAEKYGVSAERVRQLEKNAMKKLRQYIEA</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLP+GSLD+YIHRVNQIPMLTLEEE+AYAERFHSEGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTK+QRKLFFNLRQMK+RLGWFSNEEV+AVA+DLGVS +DVLLMEQRLN MDS Y++    D+ D + APERYLFN  DDPA+ LE ED+GDQGREKL+ A+EQLDERSQDILQQRWLA++KLTLHDLAEKYGVSAERVRQLEKNAMKK+RQY+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966496202|ref|WP_058512968.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella santicrucis] &gt;gi|962282784|gb|KTD66560.1| RNA polymerase sigma-32 factor [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058512968</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>497.278</Hsp_bit-score>
+      <Hsp_score>1279</Hsp_score>
+      <Hsp_evalue>1.61508e-176</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAGINLPVGSIDAYIHRVNQIPMLSLEEEIACAERFHSEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVTAVANDLGVSREDVLVMEQRLNAMDTPYDAPDADDHDDFYTAPERYLFNTNDDPSVLLEKDSTSDQGREQLMFALEQLDERSQDILQQRWLSEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLKQYMEN</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA +NLPVGS+D+YIHRVNQIPML+LEEEIA AERFHSEGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVSREDVL+MEQRLN MD+ YDAPD DD+DD Y APERYLFN NDDP+VLLE + T DQGRE+L+FA+EQLDERSQDILQQRWL+EEKLTLHDLA+KYGVSAERVRQLEKNAMKK++QYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966466546|ref|WP_058497872.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella gratiana] &gt;gi|962230041|gb|KTD14637.1| RNA polymerase sigma-32 factor [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497872</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.123</Hsp_bit-score>
+      <Hsp_score>1276</Hsp_score>
+      <Hsp_evalue>4.1919e-176</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSHYLQLAGINLPVGSIDAYIHRVNQIPMLSLEEEIACAERFHSEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWMSHEEVAAVANDLGVSREDVLVMEQRLNAMDTPYDAPDADDHDDFYTAPERYLFNTNDDPSVLLEKNSAGDQGREKLMFALEQLDERSQDILQQRWLSEEKLTLHDLAKKYGVSAERVRQLEKNAMKKLKQYMES</Hsp_hseq>
+      <Hsp_midline>MS  LQLA +NLPVGS+D+YIHRVNQIPML+LEEEIA AERFHSEGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVSREDVL+MEQRLN MD+ YDAPD DD+DD Y APERYLFN NDDP+VLLE    GDQGREKL+FA+EQLDERSQDILQQRWL+EEKLTLHDLA+KYGVSAERVRQLEKNAMKK++QYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966403928|ref|WP_058447512.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella feeleii] &gt;gi|962210109|gb|KTC95014.1| RNA polymerase sigma-32 factor [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058447512</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.271</Hsp_bit-score>
+      <Hsp_score>1266</Hsp_score>
+      <Hsp_evalue>1.66123e-174</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLASLNLPIGSLDAYIHRVNQIPMLSAEEEYECAERLHTEGDLESARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKTRLGWFNSEEVDAVANDLGVSREDVLVMEQRLNAMDASYDAPLCDDEDDAFKAPAHYLHDANSDPAHLIEKEVSGEQGREQLFVALERLDERSQDILQQRWLADNKATLHDLADKYGVSAERVRQLEKNAMKKLRQYME</Hsp_hseq>
+      <Hsp_midline>MSQQLQLA++NLP+GSLD+YIHRVNQIPML+ EEE   AER H+EGD+E+AR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMK RLGWF++EEVDAVA DLGVSREDVL+MEQRLN MD+SYDAP  DD DDA+KAP  YL + N DPA L+E E +G+QGRE+L  A+E+LDERSQDILQQRWLA+ K TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966404916|ref|WP_058448322.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella jamestowniensis] &gt;gi|962228360|gb|KTD12980.1| RNA polymerase sigma-32 factor [Legionella jamestowniensis] &gt;gi|1045921303|gb|OCH98234.1| RNA polymerase factor sigma-32 [Legionella jamestowniensis] &gt;gi|1097328783|emb|SFL78995.1| RNA polymerase, sigma 32 subunit, RpoH [Legionella jamestowniensis DSM 19215]</Hit_def>
+  <Hit_accession>WP_058448322</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.886</Hsp_bit-score>
+      <Hsp_score>1265</Hsp_score>
+      <Hsp_evalue>2.7809e-174</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLASLNFPIGSLDAYIHRVNQIPMLSAEEEYDCAERFQVEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRHMKNRLGWFSREEVDAVAKDLGVSREDVLLMEQRLNAMDTSYDSPISDDEDEAFKSPANYLHDDNSDPAQLIEQETSGERGREQLFFALEQLDERSQDILQQRWLAEDKATLHDLADKYGVSAERVRQLEKNAMKKLRQYMEA</Hsp_hseq>
+      <Hsp_midline>M+QQLQLA++N P+GSLD+YIHRVNQIPML+ EEE   AERF  EGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLR MKNRLGWFS EEVDAVAKDLGVSREDVLLMEQRLN MD+SYD+P  DD D+A+K+P  YL + N DPA L+E E +G++GRE+L FA+EQLDERSQDILQQRWLAE+K TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966420712|ref|WP_058463913.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella cincinnatiensis] &gt;gi|962206973|gb|KTC91906.1| RNA polymerase sigma-32 factor [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463913</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.115</Hsp_bit-score>
+      <Hsp_score>1263</Hsp_score>
+      <Hsp_evalue>4.2342e-174</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLAGINLPVGSIDAYIHRVNQIPMLSLEEEIACAERFHSEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWMSHEDVTAVANDLGVSREDVLVMEQRLNAMDTPYDAPDADDHDDFHTAPERYLFNPNDDPSVLLENDSTSDQGREKLMLALEQLDERSQDILQQRWLSEEKLTLHDLAKKYDVSAERVRQLEKNAMKKLKQYMES</Hsp_hseq>
+      <Hsp_midline>MSQ LQLA +NLPVGS+D+YIHRVNQIPML+LEEEIA AERFHSEGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGW S+E+V AVA DLGVSREDVL+MEQRLN MD+ YDAPD DD+DD + APERYLFN NDDP+VLLEN+ T DQGREKL+ A+EQLDERSQDILQQRWL+EEKLTLHDLA+KY VSAERVRQLEKNAMKK++QYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|653018955|ref|WP_027270910.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella sainthelensi] &gt;gi|962274570|gb|KTD58501.1| RNA polymerase sigma-32 factor [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027270910</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.73</Hsp_bit-score>
+      <Hsp_score>1262</Hsp_score>
+      <Hsp_evalue>5.63057e-174</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQYLQLTGINLPVGSIDAYIHRVNQIPMLSLEEEIACAERFHSEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWMSHEEVTAVANDLGVSREDVLVMEQRLNAMDTPYDAPDADDHDDFYTAPERYLFNANEDPSVLLENDSVSDLGREKLMFALEQLDERSQDILQQRWLSEDKLTLHDLAKKYGVSAERVRQLEKNAMKKLKQYMEN</Hsp_hseq>
+      <Hsp_midline>MSQ LQL  +NLPVGS+D+YIHRVNQIPML+LEEEIA AERFHSEGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW S+EEV AVA DLGVSREDVL+MEQRLN MD+ YDAPD DD+DD Y APERYLFN N+DP+VLLEN+   D GREKL+FA+EQLDERSQDILQQRWL+E+KLTLHDLA+KYGVSAERVRQLEKNAMKK++QYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|654922605|ref|WP_028373155.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella lansingensis] &gt;gi|962237564|gb|KTD22003.1| RNA polymerase sigma-32 factor [Legionella lansingensis]</Hit_def>
+  <Hit_accession>WP_028373155</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.345</Hsp_bit-score>
+      <Hsp_score>1261</Hsp_score>
+      <Hsp_evalue>1.14775e-173</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLASLTLPIGSLDAYIHRVNQIPVLSAEEEYDYAERFQNEGDLEAARQLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRHMKNRLGWLSHEEVDAVARDLGVSREDVLVMEQRLSAMDASYDAPASNDEDDAYKAPENYLHDANNDPAYLIEQEVSGEHGREQLFLALEQLDERSQDILQQRWLTDDKATLHDLAAKYGVSAERVRQLEKNAMKKLRQYME</Hsp_hseq>
+      <Hsp_midline>M+QQLQLA++ LP+GSLD+YIHRVNQIP+L+ EEE  YAERF +EGD+EAARQLVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLR MKNRLGW S+EEVDAVA+DLGVSREDVL+MEQRL+ MD+SYDAP  +D DDAYKAPE YL + N+DPA L+E E +G+ GRE+L  A+EQLDERSQDILQQRWL ++K TLHDLA KYGVSAERVRQLEKNAMKK+RQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966428756|ref|WP_058471252.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella jordanis] &gt;gi|962232958|gb|KTD17506.1| RNA polymerase sigma-32 factor RpoH [Legionella jordanis]</Hit_def>
+  <Hit_accession>WP_058471252</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>486.493</Hsp_bit-score>
+      <Hsp_score>1251</Hsp_score>
+      <Hsp_evalue>2.90191e-172</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLASLNLPIGSLDAYIHRVNQIPILSAEEEHSFAERFQNEGDLEAARQLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKLGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSREEVDAVAKDLGVSREDVLVMEQRLNAMDASYDAPLSDDDDEGFKAPIHFLHDNMSDPAYLIEQEVSGERGREQLFLALEQLDERSQDILQQRWLADEKATLHDLAAKYGVSAERVRQLEKNAMKKIRQFME</Hsp_hseq>
+      <Hsp_midline>M+QQLQLA++NLP+GSLD+YIHRVNQIP+L+ EEE ++AERF +EGD+EAARQLVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPK+GVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFS EEVDAVAKDLGVSREDVL+MEQRLN MD+SYDAP  DD+D+ +KAP  +L +   DPA L+E E +G++GRE+L  A+EQLDERSQDILQQRWLA+EK TLHDLA KYGVSAERVRQLEKNAMKKIRQ+ME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|769990965|ref|WP_045106837.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella hackeliae] &gt;gi|731153117|emb|CEK11696.1| RNA polymerase sigma-32 factor [Legionella hackeliae] &gt;gi|962225357|gb|KTD10001.1| RNA polymerase sigma-32 factor [Legionella hackeliae]</Hit_def>
+  <Hit_accession>WP_045106837</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.952</Hsp_bit-score>
+      <Hsp_score>1247</Hsp_score>
+      <Hsp_evalue>1.28855e-171</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLASLNFPIGSLDAYIHRVNQVPMLSAEEEYDCAERFQTEGDLEAARCLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRHMKNRLGWFSKEEVDAVAKDLGVSREDVLIMEQRLNAMDASYDGPVSDDDDESFKSPSNYLYDAHSDPAQLIEKETSNEHGREQLFLALERLDERSQDILQQRWLAEDKATLHDLADKYGVSAERVRQLEKNAMKKLRQYMEA</Hsp_hseq>
+      <Hsp_midline>M+QQLQLA++N P+GSLD+YIHRVNQ+PML+ EEE   AERF +EGD+EAAR LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLR MKNRLGWFS EEVDAVAKDLGVSREDVL+MEQRLN MD+SYD P  DD+D+++K+P  YL++ + DPA L+E E + + GRE+L  A+E+LDERSQDILQQRWLAE+K TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966396124|ref|WP_058441091.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella brunensis] &gt;gi|962200210|gb|KTC85204.1| RNA polymerase sigma-32 factor [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058441091</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.182</Hsp_bit-score>
+      <Hsp_score>1245</Hsp_score>
+      <Hsp_evalue>2.74515e-171</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLGSLNLPIGSLDAYIHRANQIPMLSAEEEYDCAERFQTEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRHMKNRLGWFSREEVDAVAKDLGVSREDVLIMEQRLNAMDAPYDAPVSDDDEDAFKSPSHYLHDSNSDPAQLIEQEMSGEHGREQLFLALEQLDERSQDILQQRWLSDDKATLHDLADKYGVSAERVRQLEKNAMKKLRQYME</Hsp_hseq>
+      <Hsp_midline>M+QQLQL ++NLP+GSLD+YIHR NQIPML+ EEE   AERF +EGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLR MKNRLGWFS EEVDAVAKDLGVSREDVL+MEQRLN MD+ YDAP  DD++DA+K+P  YL + N DPA L+E E +G+ GRE+L  A+EQLDERSQDILQQRWL+++K TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966472054|ref|WP_058502969.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella israelensis] &gt;gi|962229879|gb|KTD14476.1| RNA polymerase sigma-32 factor RpoH [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058502969</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.411</Hsp_bit-score>
+      <Hsp_score>1243</Hsp_score>
+      <Hsp_evalue>5.41634e-171</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPIGNLDAYIHRVNQIPLLSAEEEIDFAQRFHAQGDIEAARRLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNIGLMKAVKRFDPTMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRNMKKRLGWFSAEEVDAVARDLGVSREDVLQMEQRLNVMDSPYDAPDA-GMEEAFKAPEHYLHDASHDPAVLLEKENSGEEGREQLMQAFERLDERSQDILQQRWLIENKTTLHSLAEKYGVSAERIRQLEKNAMKKLRTYME</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLP+G+LD+YIHRVNQIP+L+ EEEI +A+RFH++GDIEAAR+LVLAHLRYVVRVARGYLGYGLPLSDLIQEGN+GLMKAVKRFDP MGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLR MK RLGWFS EEVDAVA+DLGVSREDVL MEQRLNVMDS YDAPD    ++A+KAPE YL + + DPAVLLE E++G++GRE+L+ A E+LDERSQDILQQRWL E K TLH LAEKYGVSAER+RQLEKNAMKK+R YME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966475211|ref|WP_058505972.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella nautarum] &gt;gi|962249159|gb|KTD33381.1| RNA polymerase sigma-32 factor [Legionella nautarum]</Hit_def>
+  <Hit_accession>WP_058505972</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.026</Hsp_bit-score>
+      <Hsp_score>1242</Hsp_score>
+      <Hsp_evalue>6.67039e-171</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLASFNLPIGSLDAYIHRVNQIPMLSAEEEQACAERFHNEGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWLNGEEVNAVARDLGVSPEDVLIMEQRLNAMDASYDSPVSDDDDEDFKAPVHYLHDANSDPAHLIEQETSGEHGREQLFLALERLDERSQDILQQRWLAENKSTLHDLADKYGVSAERVRQLEKNAMKKLRQYME</Hsp_hseq>
+      <Hsp_midline>M+QQLQLA+ NLP+GSLD+YIHRVNQIPML+ EEE A AERFH+EGD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW + EEV+AVA+DLGVS EDVL+MEQRLN MD+SYD+P  DD+D+ +KAP  YL + N DPA L+E E +G+ GRE+L  A+E+LDERSQDILQQRWLAE K TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|493927316|ref|WP_006872065.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella drancourtii] &gt;gi|363536448|gb|EHL29890.1| hypothetical protein LDG_8182 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872065</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>481.871</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>1.85613e-170</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>250</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLAAMNLPVGSLDAYIHRVNQIPMLTMEEEIACAERFHSEGDIEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWFSNEEVAAVAKDLGVSTDEVLVMEQRLNAMDAPYDAPDADDNDDFHMAPERYLFNVNDDPALVLEKESTGDRGREQLLLALEQLDERSQDILQQRWLADDKLTLHDLAEKYAISAERVRQLEKNAMKKLRQFIEA</Hsp_hseq>
+      <Hsp_midline>MSQQLQLAAMNLPVGSLD+YIHRVNQIPMLT+EEEIA AERFHSEGDIEAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGWFSNEEV AVAKDLGVS ++VL+MEQRLN MD+ YDAPD DDNDD + APERYLFNVNDDPA++LE E TGD+GRE+LL A+EQLDERSQDILQQRWLA++KLTLHDLAEKY +SAERVRQLEKNAMKK+RQ++E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966509191|ref|WP_058525782.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella erythra] &gt;gi|962214308|gb|KTC99127.1| RNA polymerase sigma-32 factor RpoH [Legionella erythra]</Hit_def>
+  <Hit_accession>WP_058525782</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>481.871</Hsp_bit-score>
+      <Hsp_score>1239</Hsp_score>
+      <Hsp_evalue>2.06993e-170</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>263</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLASLNLPIGSIDAYIHRVNQIPMLSAEEELNYAEKYHSEGDIESARQLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEYVLRNWRIVKIATTKAQRKLFFNLRQMKKRLGWFNSEEIDAVANDLGVSREDVVLMEQRLNAMDASFDASANDDEDEAFKAPVHYLHDSSNDPALLIEQERSDVQGRDQLFQALECLDERSQDILQQRWLADDKVTLHDLADKYGVSAERVRQLEKNAMKKLRQYME</Hsp_hseq>
+      <Hsp_midline>MSQQLQLA++NLP+GS+D+YIHRVNQIPML+ EEE+ YAE++HSEGDIE+ARQLVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHE+VLRNWRIVK+ATTKAQRKLFFNLRQMK RLGWF++EE+DAVA DLGVSREDV+LMEQRLN MD+S+DA   DD D+A+KAP  YL + ++DPA+L+E E +  QGR++L  A+E LDERSQDILQQRWLA++K+TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966513906|ref|WP_058530425.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella rubrilucens] &gt;gi|962265805|gb|KTD49843.1| RNA polymerase sigma-32 factor RpoH [Legionella rubrilucens]</Hit_def>
+  <Hit_accession>WP_058530425</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.33</Hsp_bit-score>
+      <Hsp_score>1235</Hsp_score>
+      <Hsp_evalue>7.88297e-170</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLASLNLPIGSIDAYIYRVNQIPMLSAEEELNYAEKYHSEGDIESARQLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEYVLRNWRIVKIATTKAQRKLFFNLRQMKKRLGWFNSEEIDAVANDLGVSREDVVMMEQRLNAMDASYDASANDEDDEAFKAPVHYLHDSSNDPALLIEQERSGVQGRDQLFQALDCLDERSQDILQQRWLADDKVTLHDLADKYGVSAERVRQLEKNAMKKLRQYME</Hsp_hseq>
+      <Hsp_midline>MSQQLQLA++NLP+GS+D+YI+RVNQIPML+ EEE+ YAE++HSEGDIE+ARQLVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHE+VLRNWRIVK+ATTKAQRKLFFNLRQMK RLGWF++EE+DAVA DLGVSREDV++MEQRLN MD+SYDA   D++D+A+KAP  YL + ++DPA+L+E E +G QGR++L  A++ LDERSQDILQQRWLA++K+TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|966409304|ref|WP_058452696.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella maceachernii] &gt;gi|962241221|gb|KTD25586.1| RNA polymerase sigma-32 factor [Legionella maceachernii]</Hit_def>
+  <Hit_accession>WP_058452696</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.789</Hsp_bit-score>
+      <Hsp_score>1231</Hsp_score>
+      <Hsp_evalue>3.09177e-169</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYMEG</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLASLNLPIGSLDAYIHRVNQIPMLSAEEEYECAERFHNQGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPTMGVRLVSFAVHWIKAEIHEFVLKNWRIVKVATTKTQRKLFFNLRQMKNRLGWFNTEEVNAVARDLGVSPEDVLIMEQRLNAMDTSFDAPVSDDEDESFKAPVHYLHDTNSDPAHLIEQETSDEHGREQLFSALERLDERSQDILQQRWLADEKATLHDLADKYGVSAERVRQLEKNAMKKLRQYMEA</Hsp_hseq>
+      <Hsp_midline>M+QQLQLA++NLP+GSLD+YIHRVNQIPML+ EEE   AERFH++GD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDP MGVRLVSFAVHWIKAEIHEFVL+NWRIVKVATTK QRKLFFNLRQMKNRLGWF+ EEV+AVA+DLGVS EDVL+MEQRLN MD+S+DAP  DD D+++KAP  YL + N DPA L+E E + + GRE+L  A+E+LDERSQDILQQRWLA+EK TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|769984171|ref|WP_045100153.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Tatlockia micdadei] &gt;gi|698848017|emb|CEG62014.1| RNA polymerase sigma-32 factor [Tatlockia micdadei] &gt;gi|962245051|gb|KTD29359.1| RNA polymerase sigma-32 factor [Tatlockia micdadei] &gt;gi|1081463358|emb|SCY77223.1| RNA polymerase, sigma 32 subunit, RpoH [Tatlockia micdadei]</Hit_def>
+  <Hit_accession>WP_045100153</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>4.4837e-168</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MNQQLQLASLNLPIGSLDAYIHRVNQIPMLSAEEEHEFAERFQNQGDLEAARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKSQRKLFFNLRQMKNRLGWFNTEEVNAVARDLGVSPEDVLIMEQRLNAMDTSFDSPVSDDEDENFKAPAHYLHDANNDPAHLIEQETSDEYGREQLFSALERLDERSQDILQQRWLSDEKATLHDLADKYGVSAERVRQLEKNAMKKLRQYME</Hsp_hseq>
+      <Hsp_midline>M+QQLQLA++NLP+GSLD+YIHRVNQIPML+ EEE  +AERF ++GD+EAAR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGN+GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTK+QRKLFFNLRQMKNRLGWF+ EEV+AVA+DLGVS EDVL+MEQRLN MD+S+D+P  DD D+ +KAP  YL + N+DPA L+E E + + GRE+L  A+E+LDERSQDILQQRWL++EK TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966464003|ref|WP_058495365.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella drozanskii] &gt;gi|962202457|gb|KTC87426.1| RNA polymerase sigma-32 factor [Legionella drozanskii LLAP-1]</Hit_def>
+  <Hit_accession>WP_058495365</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.167</Hsp_bit-score>
+      <Hsp_score>1219</Hsp_score>
+      <Hsp_evalue>2.61798e-167</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLNVMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MNQQFQLASLNLPIGSLDAYIHRVNQIPMLTAEEEQDCAERFRNEGDIEGARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGSIGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRQMKNRLGWLNGEEVNAVARDLGVSPEDVLIMEQRLNAMDASYDSPVSDDDDEDFKAPVHYLHDPNSDPAHLIEQETSGEHGREQLFMALECLDERSQDILQQRWLAEDKATLHDLADKYGVSAERVRQLEKNAMKKLRQYME</Hsp_hseq>
+      <Hsp_midline>M+QQ QLA++NLP+GSLD+YIHRVNQIPMLT EEE   AERF +EGDIE AR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEG++GLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLRQMKNRLGW + EEV+AVA+DLGVS EDVL+MEQRLN MD+SYD+P  DD+D+ +KAP  YL + N DPA L+E E +G+ GRE+L  A+E LDERSQDILQQRWLAE+K TLHDLA+KYGVSAERVRQLEKNAMKK+RQYME</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|966442877|ref|WP_058483139.1|</Hit_id>
+  <Hit_def>RNA polymerase factor sigma-32 [Legionella spiritensis] &gt;gi|962280579|gb|KTD64398.1| RNA polymerase sigma-32 factor [Legionella spiritensis]</Hit_def>
+  <Hit_accession>WP_058483139</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.855</Hsp_bit-score>
+      <Hsp_score>1213</Hsp_score>
+      <Hsp_evalue>2.10747e-166</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>MSQQLQLAAMNLPVGSLDSYIHRVNQIPMLTLEEEIAYAERFHSEGDIEAARQLVLAHLRYVVRVARGYLGYGLPLSDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKVATTKAQRKLFFNLRQMKNRLGWFSNEEVDAVAKDLGVSREDVLLMEQRLN-VMDSSYDAPDVDDNDDAYKAPERYLFNVNDDPAVLLENEDTGDQGREKLLFAMEQLDERSQDILQQRWLAEEKLTLHDLAEKYGVSAERVRQLEKNAMKKIRQYME</Hsp_qseq>
+      <Hsp_hseq>MSQQLQLASLNLPVGSLDAYIHRVNQIPMLTEEEEFDCAERYHREGDLDGARRLVLAHLRYVVRVARGYLGYGLPLNDLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVKIATTKAQRKLFFNLRRMKTRLGWMNNEEVDAVANDLGVSREEVLLMEQRMNAAMDTSYDASGSDDDEDAFKAPAHYLHDANSDPAHLIEQERGDEQGRDQLFHAMERLDERSQDILRQRWLADDKMTLHDLADKYGVSAERVRQLEKNAMKKLRQYIE</Hsp_hseq>
+      <Hsp_midline>MSQQLQLA++NLPVGSLD+YIHRVNQIPMLT EEE   AER+H EGD++ AR+LVLAHLRYVVRVARGYLGYGLPL+DLIQEGNVGLMKAVKRFDPKMGVRLVSFAVHWIKAEIHEFVLRNWRIVK+ATTKAQRKLFFNLR+MK RLGW +NEEVDAVA DLGVSRE+VLLMEQR+N  MD+SYDA   DD++DA+KAP  YL + N DPA L+E E   +QGR++L  AME+LDERSQDIL+QRWLA++K+TLHDLA+KYGVSAERVRQLEKNAMKK+RQY+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

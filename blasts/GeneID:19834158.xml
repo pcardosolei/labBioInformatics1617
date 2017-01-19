@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_189433</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834158</BlastOutput_query-def>
+  <BlastOutput_query-len>427</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_189433</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834158</Iteration_query-def>
+  <Iteration_query-len>427</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250753|ref|WP_010948293.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|52842799|ref|YP_096598.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629910|gb|AAU28651.1| rRNA methyltransferase (SUN protein) [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509304|gb|AEW52828.1| rRNA methyltransferase (SUN protein) [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490691|gb|AGH52536.1| hypothetical protein LPE509_00445 [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083265|gb|AGN15513.1| ribosomal RNA small subunit methyltransferase B [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772881|emb|CZI18988.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998775670|emb|CZG58679.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998778256|emb|CZG73865.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998784495|emb|CZG83415.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998787447|emb|CZG57296.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998796459|emb|CZH97335.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998800371|emb|CZL06165.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998805747|emb|CZK05787.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998808419|emb|CZH89886.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998811852|emb|CZH76749.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998814349|emb|CZG64143.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998817666|emb|CZL56329.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998820769|emb|CZL59064.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998826731|emb|CZK06786.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998832631|emb|CZI09764.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998835704|emb|CZK85238.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998837906|emb|CZJ75239.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998842243|emb|CZL10593.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998844661|emb|CZK26362.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998847612|emb|CZK65248.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998850301|emb|CZI41338.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998853716|emb|CZL23586.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998856412|emb|CZL31126.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998859735|emb|CZL70752.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998862729|emb|CZK20446.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998865454|emb|CZJ43358.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998869805|emb|CZJ34313.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998871000|emb|CZM14532.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998874488|emb|CZK35583.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998877525|emb|CZM01495.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998880592|emb|CZI89018.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998887978|emb|CZL47487.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998889287|emb|CZK24794.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998895570|emb|CZK01317.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998906063|emb|CZK54061.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998909634|emb|CZL06814.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998915896|emb|CZK64462.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998918365|emb|CZK85153.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998921336|emb|CZL40425.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998927641|emb|CZL65668.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998930728|emb|CZK77268.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998933867|emb|CZL73817.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998939943|emb|CZK78208.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998946020|emb|CZK97726.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998949064|emb|CZK84167.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998958550|emb|CZL98451.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998961456|emb|CZK23138.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998964677|emb|CZK07868.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998966901|emb|CZM50108.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998970443|emb|CZK51509.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998973866|emb|CZK28541.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998979571|emb|CZL61534.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998985920|emb|CZK02240.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998988650|emb|CZL46439.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998998088|emb|CZJ90800.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999008060|emb|CZK29910.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999012993|emb|CZL45802.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999016915|emb|CZL71116.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999022713|emb|CZL17614.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999025316|emb|CZK72886.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999037073|emb|CZL52598.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999046797|emb|CZL75470.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999061604|emb|CZL12496.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999067431|emb|CZJ20071.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999076845|emb|CZG57360.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999080188|emb|CZJ89849.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999082853|emb|CZK79648.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999090437|emb|CZK39703.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999092431|emb|CZL38431.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999095217|emb|CZG84989.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999098768|emb|CZG62978.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999101197|emb|CZL69561.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999110360|emb|CZL13621.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999113861|emb|CZL53243.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999116358|emb|CZK46219.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999126270|emb|CZK77460.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999131536|emb|CZL93156.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999134755|emb|CZL15143.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999138143|emb|CZK30398.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999141742|emb|CZL42163.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999144613|emb|CZK71663.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999147595|emb|CZL47331.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999156914|emb|CZH76065.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999175735|emb|CZL03253.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999191338|emb|CZI19664.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999194461|emb|CZI46335.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999200326|emb|CZG62598.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999203772|emb|CZI46282.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999209959|emb|CZK73750.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999219359|emb|CZL33325.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999222453|emb|CZI37803.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999335220|emb|CZK71176.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1002075500|emb|CZQ93917.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1002079005|emb|CZQ94059.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1003020097|emb|CZR21279.1| Sun protein [Legionella pneumophila] &gt;gi|1003022976|emb|CZR20200.1| Sun protein [Legionella pneumophila] &gt;gi|1003026818|emb|CZR17759.1| Sun protein [Legionella pneumophila] &gt;gi|1073865634|gb|AOU05585.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073871598|gb|AOU11547.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073874468|gb|AOU14416.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073877523|gb|AOU17470.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073880486|gb|AOU20432.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073883483|gb|AOU23428.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073886476|gb|AOU26420.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073889444|gb|AOU29387.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073892428|gb|AOU32370.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073895396|gb|AOU35337.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073898354|gb|AOU38294.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073901320|gb|AOU41259.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073904229|gb|AOU44167.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073907182|gb|AOU47119.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073910200|gb|AOU50135.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073913212|gb|AOU53144.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073916172|gb|AOU56103.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073919135|gb|AOU59065.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073922038|gb|AOU61967.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073925121|gb|AOU65048.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073928084|gb|AOU68010.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073931070|gb|AOU70979.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073934439|gb|AOU73998.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073937404|gb|AOU84403.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073947670|gb|AOU87394.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073950598|gb|AOU90321.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1104003995|emb|SFZ46698.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1129969256|gb|APT99615.1| 16S rRNA methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948293</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>885.56</Hsp_bit-score>
+      <Hsp_score>2287</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1074840161|ref|WP_070065658.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1073868603|gb|AOU08553.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_070065658</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>876.315</Hsp_bit-score>
+      <Hsp_score>2263</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>421</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALMESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQISRFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL+ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQI++FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1005836357|ref|WP_061710478.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|999158565|emb|CZJ88963.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999177515|emb|CZJ88049.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061710478</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>875.159</Hsp_bit-score>
+      <Hsp_score>2260</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>422</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKSGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQFSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLK GQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQ SMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|653015659|ref|WP_027267689.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267689</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>874.774</Hsp_bit-score>
+      <Hsp_score>2259</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>421</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQAMVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQA VVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|499535687|ref|WP_011216470.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|53755262|emb|CAH16756.1| hypothetical protein lpl2516 [Legionella pneumophila str. Lens] &gt;gi|1080003071|gb|AOW53643.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005184|gb|AOW55464.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015568|gb|AOW64441.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216470</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>872.463</Hsp_bit-score>
+      <Hsp_score>2253</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>419</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKNWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQK+WPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1080123610|ref|WP_070322316.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1080008994|gb|AOW58982.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011339|gb|AOW60830.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017583|gb|AOW66228.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_070322316</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>871.307</Hsp_bit-score>
+      <Hsp_score>2250</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>419</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNNWQFIAEANDRHPPMTLRVNVLKNSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPN+WQFIA ANDRHPPMTLRVNVLK+SVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1005609397|ref|WP_061691891.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|998824245|emb|CZG42789.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061691891</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>871.307</Hsp_bit-score>
+      <Hsp_score>2250</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>418</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEQLAAEPVFIYGQPNWLLQRLQKNWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILE+LAAEPVFIYGQPNWLLQRLQK+WPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|749508097|ref|WP_040148373.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|998781207|emb|CZJ44820.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998829500|emb|CZG81271.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998883364|emb|CZI78229.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998898795|emb|CZJ44185.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998935680|emb|CZM89279.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998952200|emb|CZJ32302.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998999831|emb|CZH01094.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999057518|emb|CZM78729.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999103375|emb|CZI31130.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999127823|emb|CZH41368.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999153896|emb|CZM19362.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999162984|emb|CZM06408.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999237143|emb|CZG76853.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1002084898|emb|CZR03685.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1002088687|emb|CZQ78672.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1104007449|emb|SFZ46786.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_040148373</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>870.922</Hsp_bit-score>
+      <Hsp_score>2249</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>418</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKNWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCFALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKK+WAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASC ALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|652974006|ref|WP_027226720.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|999332931|emb|CZG05698.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999349535|emb|CZH46809.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226720</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>870.537</Hsp_bit-score>
+      <Hsp_score>2248</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>418</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALMESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL+ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1006526252|ref|WP_061784457.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1005834262|gb|AMQ28988.1| 16S rRNA methyltransferase [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061784457</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>870.152</Hsp_bit-score>
+      <Hsp_score>2247</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>418</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIENRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIE+RKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|500496096|ref|WP_011947518.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|148280446|gb|ABQ54534.1| rRNA methyltransferase (SUN protein) [Legionella pneumophila str. Corby] &gt;gi|295650139|gb|ADG25986.1| Sun protein [Legionella pneumophila 2300/99 Alcoy] &gt;gi|761996926|dbj|GAN30988.1| ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998912363|emb|CZG99226.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998993913|emb|CZI44790.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999004418|emb|CZI41619.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999151532|emb|CZH53679.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999168274|emb|CZI50146.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999286827|emb|CZI77519.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999293050|emb|CZI60710.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999302302|emb|CZI56762.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999312009|emb|CZI85796.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1002091718|emb|CZR05761.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947518</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>869.766</Hsp_bit-score>
+      <Hsp_score>2246</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>418</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNNWQFIAEANDRHPPMTLRVNVLKNSVDEYLDLLKKSGIEAFKHPVVPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPN+WQFIA ANDRHPPMTLRVNVLK+SVDEYLDLLKKSGIEAFKHPV PDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|506459797|ref|WP_015961697.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|53752367|emb|CAH13799.1| hypothetical protein lpp2646 [Legionella pneumophila str. Paris] &gt;gi|536611639|gb|ERB40157.1| 16S rRNA methyltransferase [Legionella pneumophila str. 121004] &gt;gi|541998724|gb|ERH44740.1| 16S rRNA methyltransferase [Legionella pneumophila str. Leg01/53] &gt;gi|542000223|gb|ERH46214.1| 16S rRNA methyltransferase [Legionella pneumophila str. Leg01/11] &gt;gi|542123118|gb|ERI49427.1| 16S rRNA methyltransferase [Legionella pneumophila str. Leg01/20] &gt;gi|762000187|dbj|GAN27919.1| ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999173438|emb|CZH70806.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999182502|emb|CZG26118.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999188667|emb|CZI75527.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999213599|emb|CZG41030.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999217111|emb|CZI74470.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999225955|emb|CZG34778.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999324976|emb|CZH16219.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999361124|emb|CZI03333.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999374082|emb|CZG05697.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999377315|emb|CZI90478.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999380614|emb|CZH50593.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999383442|emb|CZI19176.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999387429|emb|CZG08882.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999390236|emb|CZI08728.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999397099|emb|CZG18012.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999406388|emb|CZG41193.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999409440|emb|CZH73204.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999412546|emb|CZG26358.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999416616|emb|CZG12425.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999419245|emb|CZG41942.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999422643|emb|CZH46154.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999426449|emb|CZG23407.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999429149|emb|CZG32482.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999432737|emb|CZG08823.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999435705|emb|CZH64561.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999438383|emb|CZG46457.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999442213|emb|CZJ83010.1| Sun protein [Legionella pneumophila] &gt;gi|999445363|emb|CZH57458.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999448626|emb|CZG05696.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999458325|emb|CZJ87883.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999497054|emb|CZI12337.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999526295|emb|CZI59888.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999529177|emb|CZI15190.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999577103|emb|CZI03348.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999612404|emb|CZI08880.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1003030285|emb|CZR34390.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1041019564|gb|ANN96624.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961697</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>868.996</Hsp_bit-score>
+      <Hsp_score>2244</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALMESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQISRFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL+ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQI++FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|749505499|ref|WP_040146342.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|998802586|emb|CZH87577.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999166019|emb|CZG68234.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_040146342</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>868.611</Hsp_bit-score>
+      <Hsp_score>2243</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALMESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNNWQFIAEANDRHPPMTLRVNVLKNSVDEYLDLLKKSGIEAFKHPVVPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL+ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPN+WQFIA ANDRHPPMTLRVNVLK+SVDEYLDLLKKSGIEAFKHPV PDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1011974032|ref|WP_062779955.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062779955</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>867.07</Hsp_bit-score>
+      <Hsp_score>2239</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>416</Hsp_identity>
+      <Hsp_positive>422</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALMESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKEAVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQISRFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL+ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKE VSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQI++FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1005404172|ref|WP_061637074.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|999327548|emb|CZH26714.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999340690|emb|CZG97474.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061637074</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>867.07</Hsp_bit-score>
+      <Hsp_score>2239</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>422</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALMESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENVLQIARFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL+ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDEN LQIA+FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|653014270|ref|WP_027266319.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266319</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>866.685</Hsp_bit-score>
+      <Hsp_score>2238</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>422</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFIALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKNWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCFALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRF ALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKK+WAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASC ALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1004014361|ref|WP_061483684.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483684</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>866.3</Hsp_bit-score>
+      <Hsp_score>2237</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>421</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKNSVDEYLDLLKKSGIEAFKHPVVPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLESRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLK+SVDEYLDLLKKSGIEAFKHPV PDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLE RSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|757480566|ref|WP_042754694.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|998924248|emb|CZJ93756.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998942493|emb|CZK04494.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998954544|emb|CZK39692.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998976229|emb|CZJ67231.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998991557|emb|CZK09689.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999009786|emb|CZK01008.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999018962|emb|CZJ62645.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999027940|emb|CZJ88303.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999031500|emb|CZG65754.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999034092|emb|CZJ98931.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999040299|emb|CZJ69197.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999043034|emb|CZJ75898.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999049011|emb|CZJ87907.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999052268|emb|CZJ69695.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999055114|emb|CZJ94890.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999064378|emb|CZJ79992.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999070067|emb|CZJ73468.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999073474|emb|CZK06676.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999085583|emb|CZJ95507.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999184459|emb|CZP92128.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999198267|emb|CZP05258.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999206478|emb|CZP60672.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999227893|emb|CZP42233.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999235008|emb|CZP50328.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999240504|emb|CZH74952.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999244173|emb|CZH69915.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999249381|emb|CZG76896.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999252848|emb|CZG89440.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999256111|emb|CZP72351.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999259158|emb|CZP38014.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999262196|emb|CZH08715.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999265498|emb|CZP05207.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999272034|emb|CZP50267.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999274301|emb|CZH06503.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999277741|emb|CZP27527.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999281553|emb|CZP24656.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999284201|emb|CZP51290.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999290796|emb|CZP26243.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999296804|emb|CZP51048.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999300043|emb|CZP29454.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999307114|emb|CZH64375.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999309500|emb|CZP17787.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999316014|emb|CZI04570.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999318901|emb|CZP55542.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999322153|emb|CZH90405.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999338042|emb|CZP45247.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999344206|emb|CZP92398.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999347494|emb|CZP61592.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999353687|emb|CZP50762.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999356796|emb|CZP74061.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999363162|emb|CZP70177.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999366925|emb|CZP70078.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999369657|emb|CZP87802.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999392439|emb|CZP94903.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999398687|emb|CZP98331.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999403313|emb|CZP49672.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999450756|emb|CZP29029.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999470033|emb|CZG84239.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999521308|emb|CZP43098.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999778438|emb|CZG98639.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1003028435|emb|CZR23724.1| Sun protein [Legionella pneumophila] &gt;gi|1015434015|gb|AMV15642.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1041016565|gb|ANN93626.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1103997757|emb|SFZ46658.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1104000895|emb|SFZ46701.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042754694</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>866.3</Hsp_bit-score>
+      <Hsp_score>2237</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>421</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALMESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLESRSWWDGHSFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL+ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLE RSWWDGH FDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|504655551|ref|WP_014842653.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|395128594|emb|CCD06812.1| 16S rRNA m5C967 methyltransferase, S-adenosyl-L-methionine-dependent [Legionella pneumophila subsp. pneumophila] &gt;gi|999248137|emb|CZH53581.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999269653|emb|CZO23283.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999465210|emb|CZM38990.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999468385|emb|CZO09489.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999475022|emb|CZM45743.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999478216|emb|CZN27185.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999481411|emb|CZM65302.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999484441|emb|CZN98587.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999487487|emb|CZL93896.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999490678|emb|CZN56704.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999494014|emb|CZL97862.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999500306|emb|CZN56143.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999503528|emb|CZN84951.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999506724|emb|CZM91044.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999510069|emb|CZG28350.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999513116|emb|CZN16380.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999516617|emb|CZL81501.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999516871|emb|CZN57377.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999532709|emb|CZO34253.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999536010|emb|CZN18595.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999539102|emb|CZM55562.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999542244|emb|CZO06776.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999545496|emb|CZO46927.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999548542|emb|CZN72654.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999551884|emb|CZO00806.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999554932|emb|CZN06054.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999558274|emb|CZO46691.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999561320|emb|CZM25880.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999564667|emb|CZO47628.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999567708|emb|CZM39343.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999570907|emb|CZN37875.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999574097|emb|CZN74738.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999580588|emb|CZN99241.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999584042|emb|CZO27727.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999587223|emb|CZM47323.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999590337|emb|CZM32230.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999593360|emb|CZN31399.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999596558|emb|CZN93802.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999599900|emb|CZO25900.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999603186|emb|CZL79683.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999606295|emb|CZN40790.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999606684|emb|CZO42092.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999615831|emb|CZM30127.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999619020|emb|CZN77507.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999622304|emb|CZO50636.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999625652|emb|CZN55105.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999628931|emb|CZM41216.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999631809|emb|CZM45264.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999635151|emb|CZN41959.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999638197|emb|CZN33823.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999641393|emb|CZO61501.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999644564|emb|CZO27297.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999648101|emb|CZN75650.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999650912|emb|CZN91856.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999654324|emb|CZN93141.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999657373|emb|CZM11019.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999660567|emb|CZM47434.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999663766|emb|CZM89990.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999667108|emb|CZM26171.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999670302|emb|CZL75288.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999673525|emb|CZM30393.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999676547|emb|CZN60566.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999679582|emb|CZM61056.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999682777|emb|CZM68834.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999686003|emb|CZN91183.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999689657|emb|CZN11004.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999692534|emb|CZN79800.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999693086|emb|CZO47120.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999696301|emb|CZN02264.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999699484|emb|CZN90907.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999702701|emb|CZN14067.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999708699|emb|CZN42492.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999711951|emb|CZM88576.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999715366|emb|CZM87324.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999718543|emb|CZO28934.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999721383|emb|CZM66110.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999724723|emb|CZN16238.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999728196|emb|CZL90191.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999731557|emb|CZO30937.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999731878|emb|CZN07890.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999735154|emb|CZP98237.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999741067|emb|CZM25003.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999744631|emb|CZN08050.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999747894|emb|CZL99750.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999750789|emb|CZL78438.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999754133|emb|CZM72558.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999757476|emb|CZM85531.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999760377|emb|CZM13874.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999760930|emb|CZO15007.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999764138|emb|CZN98426.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999769806|emb|CZN39013.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999773510|emb|CZH73252.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999776578|emb|CZL90399.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999783442|emb|CZH51053.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999786618|emb|CZM19531.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999789791|emb|CZO47680.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999793262|emb|CZO52439.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999796509|emb|CZI10630.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999800237|emb|CZO40436.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1003034741|emb|CZR27486.1| Sun protein [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842653</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>864.759</Hsp_bit-score>
+      <Hsp_score>2233</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>415</Hsp_identity>
+      <Hsp_positive>421</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILMALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDASPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQIQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDGKWSWGRWAGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKIL ALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDA+PQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQ+QSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSDGKWSWGRW GHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|764926665|ref|WP_044497513.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|999455483|emb|CZH42885.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999462262|emb|CZG08313.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_044497513</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>863.988</Hsp_bit-score>
+      <Hsp_score>2231</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>420</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILMALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLTGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDASPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQIQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDGKWSWGRWAGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKIL ALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLL GIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDA+PQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQ+QSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSDGKWSWGRW GHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|504657615|ref|WP_014844717.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|395131677|emb|CCD09970.1| 16S rRNA m5C967 methyltransferase, S-adenosyl-L-methionine-dependent [Legionella pneumophila subsp. pneumophila] &gt;gi|761987434|dbj|GAN24609.1| ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998789978|emb|CZH00723.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998892858|emb|CZJ06186.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1002082098|emb|CZQ95531.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844717</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>862.833</Hsp_bit-score>
+      <Hsp_score>2228</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>417</Hsp_identity>
+      <Hsp_positive>421</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALMESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLA-CVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLESRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL+ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLA CVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLE RSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1005410795|ref|WP_061640027.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|998792788|emb|CZI67664.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061640027</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>861.677</Hsp_bit-score>
+      <Hsp_score>2225</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>415</Hsp_identity>
+      <Hsp_positive>420</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALTESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEIWIVLLIGIYQLQYMNKPAYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKNSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKKSGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLESRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTAL ESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKP YAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLK+SVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEK+ GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLE RSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|652971982|ref|WP_027224804.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|761990448|dbj|GAN18557.1| ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|761993638|dbj|GAN21663.1| ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|998981985|emb|CZI87059.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999106989|emb|CZI86531.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999231263|emb|CZI64394.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1032658672|gb|ANH13943.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1032661634|gb|ANH16904.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1032664612|gb|ANH19881.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027224804</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>860.136</Hsp_bit-score>
+      <Hsp_score>2221</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>420</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPAYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMILRVNVLKNSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAKGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLESRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQISRFVAEHPDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKP YAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPM LRVNVLK+SVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFA+GSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLE RSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQI++FVAEH DCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1004334837|ref|WP_061513762.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513762</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>856.284</Hsp_bit-score>
+      <Hsp_score>2211</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>412</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKTNDRFNALKILTALTECRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPAYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDKHPPMTLRVNVLKNSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLESRSWWDGHSFDRILLDAPCSATGVIRRHSDIKLLRMDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MK NDRFNALKILTAL E RKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKP YAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA AND+HPPMTLRVNVLK+SVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLE RSWWDGH FDRILLDAPCSATGVIRRHSDIKLLR DEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1004335875|ref|WP_061514739.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061514739</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>829.321</Hsp_bit-score>
+      <Hsp_score>2141</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>400</Hsp_identity>
+      <Hsp_positive>410</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKANDRFQALKILTALMESRKNLSHLMSLQDISPLTKEICYGFCRHYFRLQSIADTLITKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVQETVSLLGQVKKIWAKGLVNAVLRNFCRRQDPILEKLSGEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKNSVDEYLDLLKKSGIEAFKHSVAPDGITLAIPCDVTTLPGFAQGFVSVQDAAPQLAAYLLSLKSGQRVLDACCAPGGKTCHILEKESGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLESRSWWDGHSFDRILLDAPCSATGVIRRHSDIKLLRMDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MK NDRF ALKILTAL+ESRKNLS+LMS Q+ISP+TKEICYGFCRHYFRLQSIADTLI KRPKDNE+WIVLLIGIYQLQYMNKPDYAVV+ETVSLLGQVKK WAKGLVNAVLRNFCRR+D ILEKL+ EPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLK+SVDEYLDLLKKSGIEAFKH VAPDGITLAIPCDV TLPGFAQG VSVQDAAPQLAAYLLSLK GQRVLDACCAPGGKTCHILEKE GLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLE RSWWDGH FDRILLDAPCSATGVIRRHSDIKLLR DEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FVAEHSDCQVSDGKWSWGRWTGHGQQILPGEH MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|652969853|ref|WP_027222746.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|1005362980|gb|AMP88849.1| 16S rRNA methyltransferase [Legionella pneumophila subsp. pascullei] &gt;gi|1005367756|gb|AMP93533.1| 16S rRNA methyltransferase [Legionella pneumophila subsp. pascullei] &gt;gi|1005370675|gb|AMP96451.1| 16S rRNA methyltransferase [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222746</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>816.609</Hsp_bit-score>
+      <Hsp_score>2108</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>389</Hsp_identity>
+      <Hsp_positive>410</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKVNDRLQALKILTALIENRKNLSHLMSLQETSPLTKEICYGFCRHYFRLQSMADTLMNKRPKDNEVWIVLLMGIYQLQYMNKPDYAVVKETVSLLGQVKKIWAKGLVNAVLRNFCRRQDLILEKLSAEPVFIYGQPNWLLQRLQKDWPNDWQLIAEANDRHPPMSLRVNVLKNSVDEYLDLLKKSGIEAFKHPAAPDGITLAIPCDVTTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEREPGLASCVALDLDPQRLQRVKDNLNRLGLKATIVQGDVLEPKSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEILAITRIQYSMLNSLWPLLAPGGLMVYATCSIMSDENELQIARFVSEHPDCQVSDDKWSWGRWTGHGQQILPGEQGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MKVNDR  ALKILTALIE+RKNLS+LMS QE SP+TKEICYGFCRHYFRLQS+ADTL+NKRPKDNE+WIVLL+GIYQLQYMNKPDYAVVKETVSLLGQVKK WAKGLVNAVLRNFCRR+D ILEKL+AEPVFIYGQPNWLLQRLQKDWPNDWQ IA ANDRHPPM+LRVNVLK+SVDEYLDLLKKSGIEAFKHP APDGITLAIPCDV TLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILE+EPGLASCVALDLDPQRLQRV+DNLNRL L+AT+VQGDVLEP+SWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEI AI+++Q SMLNSLWPLLAPGGLMVYATCSIMSDENELQIA+FV+EH DCQVSD KWSWGRWTGHGQQILPGE  MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1011914632|ref|WP_062727846.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727846</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>808.905</Hsp_bit-score>
+      <Hsp_score>2088</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>388</Hsp_identity>
+      <Hsp_positive>405</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKANDRLQALKILTALMESRKNLSHLMSLQDISPLTKEICYGFCRHYFRLQSIADTLITKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKIWAKGLVNAVLRNFCRRQDPILEKLSGEPVFIYGQPNWLLQRLQKDWPNDWQFIADANDRHPPMTLRVNVLKSSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVTTLPGFAQGFVSVQDAAPQLAAYLLSLKSGQRVLDACCAPGGKTCHIMEREPGLASCVALDLDPQRLQRVRDNLNRLGLKATIVQGDVSEPKSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEVLAITRIQYSMLNSLWLLLAPGGLMVYATCSIMSDENELQIARFVAEHPDCQVSDDKWSWGRWTGHGQQILPGEQGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MK NDR  ALKILTAL+ESRKNLS+LMS Q+ISP+TKEICYGFCRHYFRLQSIADTLI KRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKK WAKGLVNAVLRNFCRR+D ILEKL+ EPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLK SVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDV TLPGFAQG VSVQDAAPQLAAYLLSLK GQRVLDACCAPGGKTCHI+E+EPGLASCVALDLDPQRLQRVRDNLNRL L+AT+VQGDV EP+SWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEE+ AI+++Q SMLNSLW LLAPGGLMVYATCSIMSDENELQIA+FVAEH DCQVSD KWSWGRWTGHGQQILPGE  MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|652976449|ref|WP_027229121.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila] &gt;gi|985764604|gb|KXB25723.1| 16S rRNA methyltransferase [Legionella pneumophila] &gt;gi|985767124|gb|KXB28219.1| 16S rRNA methyltransferase [Legionella pneumophila] &gt;gi|999119054|emb|CZG84756.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|999122179|emb|CZH17913.1| Ribosomal RNA small subunit methyltransferase B [Legionella pneumophila] &gt;gi|1024339660|gb|KZX33999.1| 16S rRNA methyltransferase [Legionella pneumophila] &gt;gi|1108605944|gb|APF04312.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. fraseri] &gt;gi|1108608927|gb|APF07294.1| 16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229121</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>806.979</Hsp_bit-score>
+      <Hsp_score>2083</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>386</Hsp_identity>
+      <Hsp_positive>405</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MKANDRFQALKILTALMESRKNLSHLMSLQDISPLTKEICYGFCRHYFRLQSIADTLITKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVQETVSLLGQVKKIWAKGLVNAVLRNFCRRQDPILEKLSGEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKNSVDEYLDLLKKSGIEAFKHSVAPDGITLAIPCDVTTLPGFAQGFVSVQDAAPQLAAYLLSLKSGQRVLDACCAPGGKTCHILEREPGLASCVALDLDSQRLQRVRDNLNRLGLKATIVQGDVSEPKRWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEVLAITRIQYSMLNSLWPLLAPGGLMVYATCSIMSNENELQIARFVAEHPDCQVSDDKWSWGRWTGHGQQILPGEQGMDGFFYSVLRKDEK</Hsp_hseq>
+      <Hsp_midline>MK NDRF ALKILTAL+ESRKNLS+LMS Q+ISP+TKEICYGFCRHYFRLQSIADTLI KRPKDNE+WIVLLIGIYQLQYMNKPDYAVV+ETVSLLGQVKK WAKGLVNAVLRNFCRR+D ILEKL+ EPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLK+SVDEYLDLLKKSGIEAFKH VAPDGITLAIPCDV TLPGFAQG VSVQDAAPQLAAYLLSLK GQRVLDACCAPGGKTCHILE+EPGLASCVALDLD QRLQRVRDNLNRL L+AT+VQGDV EP+ WWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEE+ AI+++Q SMLNSLWPLLAPGGLMVYATCSIMS+ENELQIA+FVAEH DCQVSD KWSWGRWTGHGQQILPGE  MDGFFYSVLRKDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|742357375|ref|WP_038839600.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase, partial [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839600</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>688.723</Hsp_bit-score>
+      <Hsp_score>1776</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEIS</Hsp_qseq>
+      <Hsp_hseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNEVWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKNWAKGLVNAVLRNFCRRQDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAEANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKESGLASCFALDLDPQRLQRVRDNLNRLDLQATVVEGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEIS</Hsp_hseq>
+      <Hsp_midline>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNE+WIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKK+WAKGLVNAVLRNFCRR+DHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIA ANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKE GLASC ALDLDPQRLQRVRDNLNRLDLQATVV+GDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEIS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|737921607|ref|WP_035886909.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella norrlandica] &gt;gi|701446884|gb|KGP64232.1| 16S rRNA methyltransferase [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886909</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.871</Hsp_bit-score>
+      <Hsp_score>1766</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>369</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRK</Hsp_qseq>
+      <Hsp_hseq>MKINDRLQALKILTALLQNKKSLSHLMSNEGISPMSKEICYGFCRHYFRLQAIADSLLNKRPKDNAVWIVLLIGIYQLQYMRKPDYAVVKETVSLLEQIKKVWAKGLINAVLRNFCRQQNDILTKLEKDPVVLYGQPDWLLQRLQKDWPNDWQCIAAANDSHPPMTLRVNVRKNSVEDYLTLLETSGIDAFKHLMASDGITLVNPCDVKELPGFAEGCVSVQDGAAQLAAQLLSLESGQRVLDACCAPGGKTCHILEREPNLDLCVALDLESKRLQRVRENLNRLGLQATVVQGDALSPKDWWDGSLFDRILLDAPCSATGVIRRHADIKLLRTREEILTITNLQTTMLESLWPLLATGGVMVYATCSIIHEENELQIARFVTRHADCKVLNDHWPWGRWTGHGQQILPGEQGMDGFFYSVLTK</Hsp_hseq>
+      <Hsp_midline>MK+NDR  ALKILTAL++++K+LS+LMS + ISPM+KEICYGFCRHYFRLQ+IAD+L+NKRPKDN +WIVLLIGIYQLQYM KPDYAVVKETVSLL Q+KK WAKGL+NAVLRNFCR+++ IL KL  +PV +YGQP+WLLQRLQKDWPNDWQ IAAAND HPPMTLRVNV K+SV++YL LL+ SGI+AFKH +A DGITL  PCDV  LPGFA+G VSVQD A QLAA LLSL+ GQRVLDACCAPGGKTCHILE+EP L  CVALDL+ +RLQRVR+NLNRL LQATVVQGD L P+ WWDG  FDRILLDAPCSATGVIRRH+DIKLLRT EEI  I+ +Q++ML SLWPLLA GG+MVYATCSI+ +ENELQIA+FV  H+DC+V +  W WGRWTGHGQQILPGE  MDGFFYSVL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966434546|ref|WP_058474977.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella quateirensis] &gt;gi|962260571|gb|KTD44681.1| 16S rRNA methyltransferase [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474977</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>649.432</Hsp_bit-score>
+      <Hsp_score>1674</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>354</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDE</Hsp_qseq>
+      <Hsp_hseq>MKNNERLHALKILTALLEEKSSLSQLMPASAEVSPMTKELCFGFCRHYFRLEVIADYLVDKRPKSIEVWIALLIGLYQLHYMNKPDYAVVKETVALLEKIKKVWAKGLVNAVLRNFCRQQHEILAKLASHPAFVYGQPQWLLQRLKADWPDEWQAVAQANDAHPPMTLRVNIRKTSVEDYLRKLADAGIEAYAHPVAAQGITLVSPCDVRQLPGFADGLVSVQDGAAQLAVSLLSLKTGLRLLDACCAPGGKTCHILESEPELAQCVALDVDANRLKRVQENLDRLKLKATLLQGDASAPRNWWDGTPFDRILLDAPCSATGVIRRHSDIKLLRTSEEVSTVSQIQQSMLNALWPLLAPGGIMVYATCSVIAAENEQQIAAFVATHPDCQVTQCNWSWGRKTGHGQQILPGEQGMDGFFYSVLVKSE</Hsp_hseq>
+      <Hsp_midline>MK N+R +ALKILTAL+E + +LS LM +  E+SPMTKE+C+GFCRHYFRL+ IAD L++KRPK  E+WI LLIG+YQL YMNKPDYAVVKETV+LL ++KK WAKGLVNAVLRNFCR++  IL KLA+ P F+YGQP WLLQRL+ DWP++WQ +A AND HPPMTLRVN+ K SV++YL  L  +GIEA+ HPVA  GITL  PCDV  LPGFA G VSVQD A QLA  LLSLK G R+LDACCAPGGKTCHILE EP LA CVALD+D  RL+RV++NL+RL L+AT++QGD   PR+WWDG PFDRILLDAPCSATGVIRRHSDIKLLRT EE+S +SQ+Q SMLN+LWPLLAPGG+MVYATCS+++ ENE QIA FVA H DCQV+   WSWGR TGHGQQILPGE  MDGFFYSVL K E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|654932839|ref|WP_028383197.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella moravica] &gt;gi|962253374|gb|KTD37555.1| rRNA methyltransferase [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383197</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>638.647</Hsp_bit-score>
+      <Hsp_score>1646</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>354</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDE</Hsp_qseq>
+      <Hsp_hseq>MKNNERLQALKILTALMEEKSSLSQLMPASADLSPMTKELCYGFCRHYFRLEAIADYLVDKRPKSKEVWIALLMGLYQLHYMNKPDYAVVKETVALLEKIKKVWAKGLLNAVLRNFCRQHQEIIAKLGSHPGFVYGQPQWLLQRLKADWPSEWQAIAQANDEHPPMTLRVNTSKISVEEYLNECAKIGIEAYAHPVAAQGITLIAPCDVHQLPGFADGLVSVQDAAAQLAVSLLLLKPDQRVLDACCAPGGKTCHILEAEPELAQCVALDVDVKRLKRVQENLDRLKLKATLVQGDASMPQTWWDGALFDRILLDAPCSATGVIRRHSDIKLLRTNEEVRAVSQTQHALLHALWPLLAPGGIMVYATCSVIAAENELNVAEFVAAHPDCQVAPGNWSWGRKTGHGQQILPGEQGMDGFFYSVLVKSD</Hsp_hseq>
+      <Hsp_midline>MK N+R  ALKILTAL+E + +LS LM +  ++SPMTKE+CYGFCRHYFRL++IAD L++KRPK  E+WI LL+G+YQL YMNKPDYAVVKETV+LL ++KK WAKGL+NAVLRNFCR+   I+ KL + P F+YGQP WLLQRL+ DWP++WQ IA AND HPPMTLRVN  K SV+EYL+   K GIEA+ HPVA  GITL  PCDV  LPGFA G VSVQDAA QLA  LL LKP QRVLDACCAPGGKTCHILE EP LA CVALD+D +RL+RV++NL+RL L+AT+VQGD   P++WWDG  FDRILLDAPCSATGVIRRHSDIKLLRT+EE+ A+SQ Q ++L++LWPLLAPGG+MVYATCS+++ ENEL +A+FVA H DCQV+ G WSWGR TGHGQQILPGE  MDGFFYSVL K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|750233264|ref|WP_040534870.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella drancourtii]</Hit_def>
+  <Hit_accession>WP_040534870</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.95</Hsp_bit-score>
+      <Hsp_score>1639</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>425</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTTLLADKSSLSQLMPSSADVSPMTKEICFGFCRHYFRLQAIADCLLKKRPKEAEIWIALLIGLYQLHYMNQPDYAVVKETVALLEKTKKAWAKGLVNAVLRNFCRQKEELLAKLSQDPLFVYGQPQWLLKRLKTDWPNDWQAIAQANDAHPPMTLRVNIRKNSVADYLQALNQAGVEAHAHPVAPDGITLVSPCDVRQLPGFAEGCISVQDAAAQLAVSLLALKPGLRLLDACCAPGGKTCHILETEPNLSACVALDVDPKRLIRVQENLTRLNLQATLLQGDASTPTTWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRTNDEIVTVTKIQHTILNSLWPLLAKDGLMVYATCSVISAENEQQIARFVAENPDCKVLSGNWPWGCATGHGQQILPGDQGMDGFFYTVLLK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LM S  ++SPMTKEIC+GFCRHYFRLQ+IAD L+ KRPK+ E+WI LLIG+YQL YMN+PDYAVVKETV+LL + KK+WAKGLVNAVLRNFCR+K+ +L KL+ +P+F+YGQP WLL+RL+ DWPNDWQ IA AND HPPMTLRVN+ K+SV +YL  L ++G+EA  HPVAPDGITL  PCDV  LPGFA+G +SVQDAA QLA  LL+LKPG R+LDACCAPGGKTCHILE EP L++CVALD+DP+RL RV++NL RL+LQAT++QGD   P +WWDG  FDRILLDAPCSATGVIRRHSDIKLLRT++EI  ++++Q ++LNSLWPLLA  GLMVYATCS++S ENE QIA+FVAE+ DC+V  G W WG  TGHGQQILPG+  MDGFFY+VL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|654930773|ref|WP_028381141.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028381141</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.869</Hsp_bit-score>
+      <Hsp_score>1631</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTRLLAEKSSLSQLMSATEVSPMTKEICFGFCRHYLRLQAIAECLLQKRPKELEIWVALLIGLYQLHFMQQPDYAVVKETVALLEKIKKPWAKGLVNAVLRNFCRQQKEIISRLSKDPLFQHGQPQWLVERLQVDWPNDWQAIAQANDAHPPMTLRVNLQKNSVQEYLQILNRAGIAAEPHPVAPEGITLNTPCDVHQLPAFAEGSVSVQDGAAQLAASLLSLKPGLRLLDACCAPGGKTCHILEKEPNLAACIALDVDSKRLKRVQENLNRLNLQATLVQGDALTPSSWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRNNEEIVTITNLQRDMLNCLWPLLAKGGLLVYATCSVMSVENEQQIANFVAAHPDCIQLKEPRTWGHATGHGQQILPGEQGMDGFFYSVLFKDEK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LMS  E+SPMTKEIC+GFCRHY RLQ+IA+ L+ KRPK+ E+W+ LLIG+YQL +M +PDYAVVKETV+LL ++KK WAKGLVNAVLRNFCR++  I+ +L+ +P+F +GQP WL++RLQ DWPNDWQ IA AND HPPMTLRVN+ K+SV EYL +L ++GI A  HPVAP+GITL  PCDV  LP FA+GSVSVQD A QLAA LLSLKPG R+LDACCAPGGKTCHILEKEP LA+C+ALD+D +RL+RV++NLNRL+LQAT+VQGD L P SWWDG  FDRILLDAPCSATGVIRRHSDIKLLR +EEI  I+ +Q  MLN LWPLLA GGL+VYATCS+MS ENE QIA FVA H DC       +WG  TGHGQQILPGE  MDGFFYSVL KDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1113352834|gb|OJW16576.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW16576</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>632.484</Hsp_bit-score>
+      <Hsp_score>1630</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQ-EISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTNLLTEKSSLSQQISAAAEVSPMTKEICFGFCRHYFRLQAIAECLLQKKPKELEVWVALLIGLYQLHYMQQPDYAVVKETVALLEKIKKPWAKGLVNAVLRNFCRQQKEILARLHKNPLFLHGQPQWLVERLQADWPNDWQSIAQANDAHPPMTLRVNIQKNSLAEYVQILNREGIAAETHPVAPAGITLNTPCDVRQLPGFAEGSVSVQDGAAQLAASLLSLKPGLRLLDACCAPGGKTCHILEQEPNLAACVALDVDARRLKRVQENLNRLNLQATLVQGDALTPSTWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRNNEEIVTITNIQHDMLNCLWPLLAKGGLLVYATCSVMSVENEQQIANFVATHPDCTIIKEPWTWGHATGHGQQILPGEQGMDGFFYAVLFKDEK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS  +S   E+SPMTKEIC+GFCRHYFRLQ+IA+ L+ K+PK+ E+W+ LLIG+YQL YM +PDYAVVKETV+LL ++KK WAKGLVNAVLRNFCR++  IL +L   P+F++GQP WL++RLQ DWPNDWQ IA AND HPPMTLRVN+ K+S+ EY+ +L + GI A  HPVAP GITL  PCDV  LPGFA+GSVSVQD A QLAA LLSLKPG R+LDACCAPGGKTCHILE+EP LA+CVALD+D +RL+RV++NLNRL+LQAT+VQGD L P +WWDG  FDRILLDAPCSATGVIRRHSDIKLLR +EEI  I+ +Q  MLN LWPLLA GGL+VYATCS+MS ENE QIA FVA H DC +    W+WG  TGHGQQILPGE  MDGFFY+VL KDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966437967|ref|WP_058478335.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella steigerwaltii] &gt;gi|962288239|gb|KTD71955.1| ribosomal RNA small subunit methyltransferase B [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058478335</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.713</Hsp_bit-score>
+      <Hsp_score>1628</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>426</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQ-EISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKD</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTRLLAEKSSLSQLMSAAAEVSPMTKEICFGFCRHYFRLQAIAECLLQKRPKELEIWVALLIGLYQLHYMQQPDYAVVQETVALLEKIKKPWAKGLVNAVLRNFCRQQKEILARLNKNPLFLHGQPQWLIERLQADWPNDWQSIAQANDAHPPMTLRVNVKKNSVSEYLQILNREGIAAKLHPAAPEGITLNTPCDVRQLPGFAEGNVSVQDGAAQLAASLLSLKPGLRLLDACCAPGGKTCHILEKEPNLAACIALDVDARRLKRVQENLSRLNLQATLVQGDALDPASWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRNNEEIVTITNIQHNMLNCLWPLLAKGGLLVYATCSVMSVENEQQIANFVAIHPDCTIIKEPWTWGHATGHGQQILPGEQGMDGFFYAVLLKN</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LMS   E+SPMTKEIC+GFCRHYFRLQ+IA+ L+ KRPK+ E+W+ LLIG+YQL YM +PDYAVV+ETV+LL ++KK WAKGLVNAVLRNFCR++  IL +L   P+F++GQP WL++RLQ DWPNDWQ IA AND HPPMTLRVNV K+SV EYL +L + GI A  HP AP+GITL  PCDV  LPGFA+G+VSVQD A QLAA LLSLKPG R+LDACCAPGGKTCHILEKEP LA+C+ALD+D +RL+RV++NL+RL+LQAT+VQGD L+P SWWDG  FDRILLDAPCSATGVIRRHSDIKLLR +EEI  I+ +Q +MLN LWPLLA GGL+VYATCS+MS ENE QIA FVA H DC +    W+WG  TGHGQQILPGE  MDGFFY+VL K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966495133|ref|WP_058511921.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella steelei] &gt;gi|962283096|gb|KTD66870.1| ribosomal RNA small subunit methyltransferase B [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058511921</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>631.328</Hsp_bit-score>
+      <Hsp_score>1627</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQ-EISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTNLLTEKSSLSQQISAAAEVSPMTKEICFGFCRHYFRLQAIAECLLQKKPKELEVWVALLIGLYQLHYMQQPDYAVVKETVALLEKIKKPWAKGLVNAVLRNFCRQQKEILARLHKNPLFLHGQPQWLVERLQADWPNDWQSIAQANDAHPPMTLRVNIQKNSLAEYVQILNREGIAAETHPVAPAGITLNTPCDVRQLPGFAEGSVSVQDGAAQLAASLLSLKPGLRLLDACCAPGGKTCHILEQEPNLAACVALDVDARRLKRVQENLNRLNLQATLVQGDALTPSTWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRNNEEIVTITNIQHDMLNCLWPLLAKGGLLIYATCSVMSVENEQQIANFVATHPDCTIIKEPWTWGHATGHGQQILPGEQGMDGFFYAVLFKDEK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS  +S   E+SPMTKEIC+GFCRHYFRLQ+IA+ L+ K+PK+ E+W+ LLIG+YQL YM +PDYAVVKETV+LL ++KK WAKGLVNAVLRNFCR++  IL +L   P+F++GQP WL++RLQ DWPNDWQ IA AND HPPMTLRVN+ K+S+ EY+ +L + GI A  HPVAP GITL  PCDV  LPGFA+GSVSVQD A QLAA LLSLKPG R+LDACCAPGGKTCHILE+EP LA+CVALD+D +RL+RV++NLNRL+LQAT+VQGD L P +WWDG  FDRILLDAPCSATGVIRRHSDIKLLR +EEI  I+ +Q  MLN LWPLLA GGL++YATCS+MS ENE QIA FVA H DC +    W+WG  TGHGQQILPGE  MDGFFY+VL KDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|963702119|ref|WP_058387304.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella cherrii] &gt;gi|962197655|gb|KTC82695.1| ribosomal RNA small subunit methyltransferase B [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_058387304</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.943</Hsp_bit-score>
+      <Hsp_score>1626</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTRLLAEKSSLSQLMSATEVSPMTKEICFGFCRHYLRLQAIAECLLQKRPKELEIWVALLIGLYQLHFMQQPDYAVVKETVALLEKIKKPWAKGLVNAVLRNFCRQQKEIISRLSKDPLFQHGQPQWLVERLQVDWPNDWQAIAQANDAHPPMTLRVNLQKNSVQEYLQILNRAGIAAEPHPVAPEGITLNTPCDVHQLPAFAEGSVSVQDGAAQLAASLLSLKPGLRLLDACCAPGGKTCHILEKEPNLAACIALDVDSKRLKRVQENLNRLNLHATLVQGDALTPSSWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRNNEEIVTITNLQRDMLNCLWPLLAKGGLLVYATCSVMSVENEQQIANFVAAHPDCIQLKEPRTWGHATGHGQQILPGEQGMDGFFYSVLFKDEK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LMS  E+SPMTKEIC+GFCRHY RLQ+IA+ L+ KRPK+ E+W+ LLIG+YQL +M +PDYAVVKETV+LL ++KK WAKGLVNAVLRNFCR++  I+ +L+ +P+F +GQP WL++RLQ DWPNDWQ IA AND HPPMTLRVN+ K+SV EYL +L ++GI A  HPVAP+GITL  PCDV  LP FA+GSVSVQD A QLAA LLSLKPG R+LDACCAPGGKTCHILEKEP LA+C+ALD+D +RL+RV++NLNRL+L AT+VQGD L P SWWDG  FDRILLDAPCSATGVIRRHSDIKLLR +EEI  I+ +Q  MLN LWPLLA GGL+VYATCS+MS ENE QIA FVA H DC       +WG  TGHGQQILPGE  MDGFFYSVL KDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|518179702|ref|WP_019349910.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Fluoribacter dumoffii] &gt;gi|962204530|gb|KTC89467.1| ribosomal RNA small subunit methyltransferase B [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_019349910</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.172</Hsp_bit-score>
+      <Hsp_score>1624</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQ-EISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTCLLTEKSSLSQLMTPTAEVSPMTKEICFGVCRHYFRLQAIAGYLVQKKPKEIEVWVALLIGIYQLHYMQQPDYAVVQETVALLGKIKKTWAKGLVNAVLRNFCRQHEEILQRLNQDPQFVYGQPQWLLNRLQKNWPRDWQAIAHANDERPPMVLRVNIQKNSLAEYLNILKAQGIAAEAHPVAPEGIILATPCDVHQLPGFAEGWVSVQDGAAQLAASLLSLKPGLRLLDACCAPGGKTCHILEQEPNLATCIALDVDERRLQRVQDNLNRLGLHATLKQGDALTPSVWWDGQPFDRILLDAPCSATGVIRRHSDIKLLRNDEEIDKIIHIQQEMLECLWALLAKGGLLVYATCSVMSEENEQQIAHFVANHPDCTIIKEPWAWGRATEHGQQILPGEQSMDGFFYAVLLKDRK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LM+P  E+SPMTKEIC+G CRHYFRLQ+IA  L+ K+PK+ E+W+ LLIGIYQL YM +PDYAVV+ETV+LLG++KK+WAKGLVNAVLRNFCR+ + IL++L  +P F+YGQP WLL RLQK+WP DWQ IA AND  PPM LRVN+ K+S+ EYL++LK  GI A  HPVAP+GI LA PCDV  LPGFA+G VSVQD A QLAA LLSLKPG R+LDACCAPGGKTCHILE+EP LA+C+ALD+D +RLQRV+DNLNRL L AT+ QGD L P  WWDG PFDRILLDAPCSATGVIRRHSDIKLLR DEEI  I  +Q  ML  LW LLA GGL+VYATCS+MS+ENE QIA FVA H DC +    W+WGR T HGQQILPGE SMDGFFY+VL KD K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|498338626|ref|WP_010652782.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Fluoribacter dumoffii]</Hit_def>
+  <Hit_accession>WP_010652782</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>629.402</Hsp_bit-score>
+      <Hsp_score>1622</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>346</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQ-EISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTCLLTEKSSLSQLMTPTAEVSPMTKEICFGVCRHYFRLQAIAGYLVQKKPKEIEVWVALLIGIYQLHYMQQPDYAVVQETVALLGKIKKTWAKGLVNAVLRNFCRQHEEILQRLNQDPQFVYGQPQWLVNRLQKNWPRDWQAIAHANDERPPMVLRVNIQKNSLAEYLNILKAQGIAAEAHPVAPEGIILATPCDVHQLPGFAEGWVSVQDGAAQLAASLLSLKPGLRLLDACCAPGGKTCHILEQEPNLATCIALDVDERRLQRVQDNLNRLGLHATLKQGDALTPSVWWDGQPFDRILLDAPCSATGVIRRHSDIKLLRNDEEIDKIIHIQQEMLECLWALLAKGGLLVYATCSVMSEENEQQIAHFVANHPDCTIIKEPWAWGRATEHGQQILPGEQSMDGFFYAVLLKDRK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LM+P  E+SPMTKEIC+G CRHYFRLQ+IA  L+ K+PK+ E+W+ LLIGIYQL YM +PDYAVV+ETV+LLG++KK+WAKGLVNAVLRNFCR+ + IL++L  +P F+YGQP WL+ RLQK+WP DWQ IA AND  PPM LRVN+ K+S+ EYL++LK  GI A  HPVAP+GI LA PCDV  LPGFA+G VSVQD A QLAA LLSLKPG R+LDACCAPGGKTCHILE+EP LA+C+ALD+D +RLQRV+DNLNRL L AT+ QGD L P  WWDG PFDRILLDAPCSATGVIRRHSDIKLLR DEEI  I  +Q  ML  LW LLA GGL+VYATCS+MS+ENE QIA FVA H DC +    W+WGR T HGQQILPGE SMDGFFY+VL KD K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|769980327|ref|WP_045096312.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella fallonii] &gt;gi|698843927|emb|CEG57896.1| 16S rRNA m5C967 methyltransferase, S-adenosyl-L-methionine-dependent [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045096312</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>628.246</Hsp_bit-score>
+      <Hsp_score>1619</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>358</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>KVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>KPNERLQALKILTSLLVDKASLSQLMPASAELSPMTKELCFGFCRHYFRLEAMAGHLVKKKPKEIEIWIILLMGFYQLHYMHIPDYAVVKETVALLEKIKKIWAKGLINAVLRNFCRQQNEIIATLANDAAFLYGQPNYLLKHLQADWPNDWQSIAASNDAHPPMTLRVNLRKKSVDEYLKILQEAGMEAVTHCAAPEGVTLKVPCDVHSLPGFAEGWISVQDGAAQLAASLLSLEPGLRVLDACCAPGGKTCHMLEREPNLKECVAIDVEPKRLKRVGENLTRLRLQATLLEGNALSPQQWWDGQRFDRILLDAPCSATGVIRRHADIKLLRTEEEIIAVTQVQYAMLRSLWPLLAPGGLMVYATCSVISEENEKQIAKFVATHSDCTIVKINGAWGRATGHGQQILPGEQGMDGFFYSVLLKDEK</Hsp_hseq>
+      <Hsp_midline>K N+R  ALKILT+L+  + +LS LM +  E+SPMTKE+C+GFCRHYFRL+++A  L+ K+PK+ E+WI+LL+G YQL YM+ PDYAVVKETV+LL ++KK WAKGL+NAVLRNFCR+++ I+  LA +  F+YGQPN+LL+ LQ DWPNDWQ IAA+ND HPPMTLRVN+ K SVDEYL +L+++G+EA  H  AP+G+TL +PCDV +LPGFA+G +SVQD A QLAA LLSL+PG RVLDACCAPGGKTCH+LE+EP L  CVA+D++P+RL+RV +NL RL LQAT+++G+ L P+ WWDG  FDRILLDAPCSATGVIRRH+DIKLLRT+EEI A++QVQ +ML SLWPLLAPGGLMVYATCS++S+ENE QIA+FVA HSDC +     +WGR TGHGQQILPGE  MDGFFYSVL KDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966466683|ref|WP_058498009.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella gratiana] &gt;gi|962229066|gb|KTD13671.1| ribosomal RNA small subunit methyltransferase B [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058498009</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>624.009</Hsp_bit-score>
+      <Hsp_score>1608</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>KVNDRFNALKILTALIESRKNLSYLMSPQ-EISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>KANERLHALKIITHLLVEKKPLSQLMSSSAEISPMTKEICFGFCRHYFRLQALANSLIQKKPKEVEVWIALLIGIYQLHYMKLPDYAVVQETVALLEKIKKGWAKGLLNAVLRNFCRQQNEILNRLNNDPLFLYGHPEWLLKRLQKDWPNDWQTIAKANDTHPPMSLRVNLQKISVSEYLNILKRADIAADSHPIAPEAIVLKTPCDVHQLPGFTEGLVSVQDSAAQLAASLLSLKPGLRVLDACCAPGGKTCHILEKEPHLAACVAVEIDSKRLDRVRENLNRLNLHATLVQGDALVPSQWWDGQFFDRILLDAPCSATGVIRRHSDIKLLRNDEEIVAITKIQHAMLQALWPLLAKGGILVYATCSVMIAENEQQIANFIKNNPDCKIISKSWPWGHTTKYGQQILPGEQGMDGFFYAVLSKDEK</Hsp_hseq>
+      <Hsp_midline>K N+R +ALKI+T L+  +K LS LMS   EISPMTKEIC+GFCRHYFRLQ++A++LI K+PK+ E+WI LLIGIYQL YM  PDYAVV+ETV+LL ++KK WAKGL+NAVLRNFCR+++ IL +L  +P+F+YG P WLL+RLQKDWPNDWQ IA AND HPPM+LRVN+ K SV EYL++LK++ I A  HP+AP+ I L  PCDV  LPGF +G VSVQD+A QLAA LLSLKPG RVLDACCAPGGKTCHILEKEP LA+CVA+++D +RL RVR+NLNRL+L AT+VQGD L P  WWDG  FDRILLDAPCSATGVIRRHSDIKLLR DEEI AI+++Q +ML +LWPLLA GG++VYATCS+M  ENE QIA F+  + DC++    W WG  T +GQQILPGE  MDGFFY+VL KDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966461272|ref|WP_058493625.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella worsleiensis] &gt;gi|962294294|gb|KTD77961.1| rRNA methyltransferase [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493625</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>622.083</Hsp_bit-score>
+      <Hsp_score>1603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>347</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>425</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMS-PQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRK</Hsp_qseq>
+      <Hsp_hseq>MKNNERLQALKILTALMEERSSLSQLMPVSAEISPMTKELCFGFCRHYFRLEAIADFLVDKRPKSPEVWVALLMGLYQLHYMNKPDYAVVKETVALLDKVKKIWAKGLVNAVLRHFCRKQNEILAQLESDPGFMYGQPSWLLHRLKEDWPDEWQFIAQSNDAHPPMTLRVNVGLISVDEYLIKLAKAGIEAHAHPVAAQGITLVSPCDVRELPGFADGLVSVQDGAAQLAVSLLDLQPNQRVLDACCAPGGKTCHILETEPKLSQCVALDVDAKRLKRVQDNLNRLKLNATVLQGDASTPQLWWDGPLFDRILLDAPCSATGVIRRHSDIKLLRTEDEVRAISQIQQSVLNALWPLLASGGRMVYATCSVLAAENEHNIAAFVASHPDCQVEHINVSWGRNTGHGRQILPGEQGMDGFFYSVFIK</Hsp_hseq>
+      <Hsp_midline>MK N+R  ALKILTAL+E R +LS LM    EISPMTKE+C+GFCRHYFRL++IAD L++KRPK  E+W+ LL+G+YQL YMNKPDYAVVKETV+LL +VKK WAKGLVNAVLR+FCR+++ IL +L ++P F+YGQP+WLL RL++DWP++WQFIA +ND HPPMTLRVNV   SVDEYL  L K+GIEA  HPVA  GITL  PCDV  LPGFA G VSVQD A QLA  LL L+P QRVLDACCAPGGKTCHILE EP L+ CVALD+D +RL+RV+DNLNRL L ATV+QGD   P+ WWDG  FDRILLDAPCSATGVIRRHSDIKLLRT++E+ AISQ+Q S+LN+LWPLLA GG MVYATCS+++ ENE  IA FVA H DCQV     SWGR TGHG+QILPGE  MDGFFYSV  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966425119|ref|WP_058467657.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Fluoribacter gormanii] &gt;gi|962219029|gb|KTD03734.1| ribosomal RNA small subunit methyltransferase B [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058467657</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>619.387</Hsp_bit-score>
+      <Hsp_score>1596</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>349</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTQLLTEKSSLSQLMPATAEATPMTKEICFGFCRHYFRLQALAECLLQKKPKELEIWVALLIGLYQLHYMQVPDYAVVKETVSLLEKIKKPWAKGLVNAVLRNFCRQQNEILERLSNDPRFIHGQPQWLLERLQADWPDDWQAIAQANDMHPPMTLRVNVQKNSVAEYLQILNQEGIAAEPHPIAAAGITLTKPCDVRQLPGFAEGRVSVQDGAAQLAASLLSLKPGLRLLDACCAPGGKTCHILEKEPNLSACIALDVDRKRLKRVQENLDRLNLHANLVEGDALNPATWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRNNEEIVTITKIQHNMLNCLWPLLAKGGLLVYATCSVMSAENEQQIANFVATHPDCTIIKESRTWGHATGHGQQILPGEQGMDGFFYAVLFKDKK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LM +  E +PMTKEIC+GFCRHYFRLQ++A+ L+ K+PK+ E+W+ LLIG+YQL YM  PDYAVVKETVSLL ++KK WAKGLVNAVLRNFCR+++ ILE+L+ +P FI+GQP WLL+RLQ DWP+DWQ IA AND HPPMTLRVNV K+SV EYL +L + GI A  HP+A  GITL  PCDV  LPGFA+G VSVQD A QLAA LLSLKPG R+LDACCAPGGKTCHILEKEP L++C+ALD+D +RL+RV++NL+RL+L A +V+GD L P +WWDG  FDRILLDAPCSATGVIRRHSDIKLLR +EEI  I+++Q +MLN LWPLLA GGL+VYATCS+MS ENE QIA FVA H DC +     +WG  TGHGQQILPGE  MDGFFY+VL KD+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966517147|ref|WP_058533641.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533641</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>617.461</Hsp_bit-score>
+      <Hsp_score>1591</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>425</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTALLLDKSSLSQLMPSAAEVSPMTKEICFGFCRHYYRLQAIANCLVAKKPKEIEVWIALLMGLYQLHYMNQPDYAVVKETVALLEKIKKPWAKGLVNAVLRNFCRQQQELLERLKQDPLFVYGQPQWLLKRLKADWPNHWQAIAQANDAHPPMTLRVNVQKNSREEYLSVLNKAGIEAQAHSVAPEGITLNIPCDVRHLPGFAEGCISVQDGAAQLATSLLSLQPGLRVLDACCAPGGKTCHILETEPHLAACVALDVDAKRLERVKDNLSRLKLDATLLQGDASTPESWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRTPEEITAVSKTQQNLLHALWPLLNKGGLLVYATCSIMTIENEQQVANFIAITPDCKAIRSDWSWGHPTGNGQQILPGEQGMDGFFYTVLLK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILTAL+  + +LS LM S  E+SPMTKEIC+GFCRHY+RLQ+IA+ L+ K+PK+ E+WI LL+G+YQL YMN+PDYAVVKETV+LL ++KK WAKGLVNAVLRNFCR++  +LE+L  +P+F+YGQP WLL+RL+ DWPN WQ IA AND HPPMTLRVNV K+S +EYL +L K+GIEA  H VAP+GITL IPCDV  LPGFA+G +SVQD A QLA  LLSL+PG RVLDACCAPGGKTCHILE EP LA+CVALD+D +RL+RV+DNL+RL L AT++QGD   P SWWDG  FDRILLDAPCSATGVIRRHSDIKLLRT EEI+A+S+ Q ++L++LWPLL  GGL+VYATCSIM+ ENE Q+A F+A   DC+     WSWG  TG+GQQILPGE  MDGFFY+VL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966497153|ref|WP_058513919.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella santicrucis] &gt;gi|962279108|gb|KTD62957.1| ribosomal RNA small subunit methyltransferase B [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058513919</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.372</Hsp_bit-score>
+      <Hsp_score>1570</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>KVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>KPNERLHALNILTHLLVEKTPLSQLMPSSAEISPMTKEICFGFCRHYFRLQAMANCLMQKKPKEIEIWVALLIGIYQLHYMKLPDYAVVKETVALLEKIKKGWAKGLLNAVLRNFCRQHNEILTRLNKDPLFLYGHPQWLLKRLQKDWPNDWQAITKANEAHPPMTLRVNLRKISVVDYLHVLKQADIVAAPHPIAPEAIVLETPCDVYQLPGFAQGLVSVQDGAAQLAASLLSLKPGLHVLDACCAPGGKTCHILEKEPLLAECVAVDIDSKRLGRVRENLNRLDLHATLLQGDALDPSQWWDGRFFDRILLDAPCSATGVIRRHSDIKLLRNDEEIAAITKIQHTMLHALWPLLAKGGVLVYATCSIMIAENEQQIANFIKNNPDCNLITKSWPWGHATEYGQQILPGEQGMDGFFYSVLFKDEK</Hsp_hseq>
+      <Hsp_midline>K N+R +AL ILT L+  +  LS LM S  EISPMTKEIC+GFCRHYFRLQ++A+ L+ K+PK+ E+W+ LLIGIYQL YM  PDYAVVKETV+LL ++KK WAKGL+NAVLRNFCR+ + IL +L  +P+F+YG P WLL+RLQKDWPNDWQ I  AN+ HPPMTLRVN+ K SV +YL +LK++ I A  HP+AP+ I L  PCDV  LPGFAQG VSVQD A QLAA LLSLKPG  VLDACCAPGGKTCHILEKEP LA CVA+D+D +RL RVR+NLNRLDL AT++QGD L+P  WWDG  FDRILLDAPCSATGVIRRHSDIKLLR DEEI+AI+++Q +ML++LWPLLA GG++VYATCSIM  ENE QIA F+  + DC +    W WG  T +GQQILPGE  MDGFFYSVL KDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|517405840|ref|WP_018578505.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella shakespearei] &gt;gi|962281310|gb|KTD65123.1| 16S rRNA methyltransferase [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018578505</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>608.986</Hsp_bit-score>
+      <Hsp_score>1569</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>426</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>350</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLMSPQ-EISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDE</Hsp_qseq>
+      <Hsp_hseq>MKNNERLQALKILTSLLEEKSSLSQLMPPSADVTPMTKEICFGFCRHYFRLQAIADCLVDKRPKAIEVWIALLMGIYQLHYMNKPDYAVVKETVALLEKIKKVWAKGLVNAVLRNFCRQQSDILARLESNPAFHFGQPQWLLKRLKADWPEDWGAIALANDAHPPMTLRVNKQKHSTADYLDILHKAGIAAALHPIASDAIILTIPCDVHSLPGFSEGCVSVQDAAAQLALPLLSLEPGLRVLDACCAPGGKTCHILESQPDLSACIAMDVDPKRLKRVKENMDRLQLNATLVQGDALAPALWWDGIPFDRILLDAPCSATGVIRRHSDIKLLRTEDEVKAVVEVQQSMLEAMWPLLAPGGRMVYATCSIMADENEKQIKRFVTNHPDCQIWKDNWGWGRATPYGQQILPGEYEMDGFFYSVLIKSQ</Hsp_hseq>
+      <Hsp_midline>MK N+R  ALKILT+L+E + +LS LM P  +++PMTKEIC+GFCRHYFRLQ+IAD L++KRPK  E+WI LL+GIYQL YMNKPDYAVVKETV+LL ++KK WAKGLVNAVLRNFCR++  IL +L + P F +GQP WLL+RL+ DWP DW  IA AND HPPMTLRVN  KHS  +YLD+L K+GI A  HP+A D I L IPCDV +LPGF++G VSVQDAA QLA  LLSL+PG RVLDACCAPGGKTCHILE +P L++C+A+D+DP+RL+RV++N++RL L AT+VQGD L P  WWDG PFDRILLDAPCSATGVIRRHSDIKLLRT++E+ A+ +VQ SML ++WPLLAPGG MVYATCSIM+DENE QI +FV  H DCQ+    W WGR T +GQQILPGE+ MDGFFYSVL K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|966420242|ref|WP_058463443.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella cincinnatiensis] &gt;gi|962208692|gb|KTC93615.1| ribosomal RNA small subunit methyltransferase B [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463443</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>607.446</Hsp_bit-score>
+      <Hsp_score>1565</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>288</Hsp_identity>
+      <Hsp_positive>342</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>425</Hsp_align-len>
+      <Hsp_qseq>NDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRKDEK</Hsp_qseq>
+      <Hsp_hseq>NERLHALNILTHLLVEKTSLSQLMPSSAEVSPMTKEICFGFCRHYFRLQAIANCLMQKKPKEIEIWVALLIGIYQLHYMKLPDYAVVKETVALLEKIKKGWAKGLLNAVLRNFCRQQNEILTRLNKDPLFLYGHPQWLLKRLQTDWPNDWQAITKANEAHPPMTLRVNLRKISVVDYLHLLKQADIAAAPHPIAPEAIVLETPSDVHQLPGFAQGLVSVQDGAAQLAASLLSLKPGLRVLDACCAPGGKTCHILEKEPHLAECVAVDIDSKRLGRVRENLNRLNLHATLLQGDALAPSQWWDGRFFDRILLDAPCSATGVIRRHSDIKLLRNDEEITAITKIQHTMLHALWPLLAKGGVLVYATCSIMIAENEQQIANFIKNNPDCNLIKKSWPWGHTTEYGQQILPGEQGMDGFFYAVLLKDEK</Hsp_hseq>
+      <Hsp_midline>N+R +AL ILT L+  + +LS LM S  E+SPMTKEIC+GFCRHYFRLQ+IA+ L+ K+PK+ E+W+ LLIGIYQL YM  PDYAVVKETV+LL ++KK WAKGL+NAVLRNFCR+++ IL +L  +P+F+YG P WLL+RLQ DWPNDWQ I  AN+ HPPMTLRVN+ K SV +YL LLK++ I A  HP+AP+ I L  P DV  LPGFAQG VSVQD A QLAA LLSLKPG RVLDACCAPGGKTCHILEKEP LA CVA+D+D +RL RVR+NLNRL+L AT++QGD L P  WWDG  FDRILLDAPCSATGVIRRHSDIKLLR DEEI+AI+++Q +ML++LWPLLA GG++VYATCSIM  ENE QIA F+  + DC +    W WG  T +GQQILPGE  MDGFFY+VL KDEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966504201|ref|WP_058520860.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella tucsonensis] &gt;gi|962290159|gb|KTD73867.1| ribosomal RNA small subunit methyltransferase B [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058520860</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.29</Hsp_bit-score>
+      <Hsp_score>1562</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>285</Hsp_identity>
+      <Hsp_positive>342</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>425</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTHLLTDKSSLSQLMPATAEVTPMTKEICFGFCRHYFRLQALAECLLQKKPKELEVWVALLIGLYQLYYMQLPDYAVVKETVALLEKIKKPWAKALVNAVLRNFCRQQKEIVTRLSADPLFIHGQPQWLLERLQADWPDDWQFIAQANDMHPPMTLRVNVQKNSVAEYLQILKREGIGAKPHPVAPEGINLIMPCDVRQLPGFAEGCISVQDGAAQLAVSLLSLKPGLRLLDACCAPGGKTCHILEKEPNLSACIALDVDPKRLKRVRENLDRLSLHATLMEGDALTPTKWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRNNEEIVTISSIQHKMLDCLWPLLAKGGLLVYATCSVMPAENEQQIANFVATHPDCTIIKEPGISGHATKHGLQILPGEQGMDGFFYAVLFK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LM +  E++PMTKEIC+GFCRHYFRLQ++A+ L+ K+PK+ E+W+ LLIG+YQL YM  PDYAVVKETV+LL ++KK WAK LVNAVLRNFCR++  I+ +L+A+P+FI+GQP WLL+RLQ DWP+DWQFIA AND HPPMTLRVNV K+SV EYL +LK+ GI A  HPVAP+GI L +PCDV  LPGFA+G +SVQD A QLA  LLSLKPG R+LDACCAPGGKTCHILEKEP L++C+ALD+DP+RL+RVR+NL+RL L AT+++GD L P  WWDG  FDRILLDAPCSATGVIRRHSDIKLLR +EEI  IS +Q  ML+ LWPLLA GGL+VYATCS+M  ENE QIA FVA H DC +       G  T HG QILPGE  MDGFFY+VL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|518064615|ref|WP_019234823.1|</Hit_id>
+  <Hit_def>16S rRNA (cytosine(967)-C(5))-methyltransferase [Legionella anisa] &gt;gi|962185322|gb|KTC70482.1| ribosomal RNA small subunit methyltransferase B [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_019234823</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>606.29</Hsp_bit-score>
+      <Hsp_score>1562</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>284</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>425</Hsp_align-len>
+      <Hsp_qseq>MKVNDRFNALKILTALIESRKNLSYLM-SPQEISPMTKEICYGFCRHYFRLQSIADTLINKRPKDNELWIVLLIGIYQLQYMNKPDYAVVKETVSLLGQVKKSWAKGLVNAVLRNFCRRKDHILEKLAAEPVFIYGQPNWLLQRLQKDWPNDWQFIAAANDRHPPMTLRVNVLKHSVDEYLDLLKKSGIEAFKHPVAPDGITLAIPCDVMTLPGFAQGSVSVQDAAPQLAAYLLSLKPGQRVLDACCAPGGKTCHILEKEPGLASCVALDLDPQRLQRVRDNLNRLDLQATVVQGDVLEPRSWWDGHPFDRILLDAPCSATGVIRRHSDIKLLRTDEEISAISQVQSSMLNSLWPLLAPGGLMVYATCSIMSDENELQIAQFVAEHSDCQVSDGKWSWGRWTGHGQQILPGEHSMDGFFYSVLRK</Hsp_qseq>
+      <Hsp_hseq>MNKNERLHALKILTRLLTEKSSLSQLMPATAEVTPMTKEICFGFCRHYFRLHALAECLLQKKPKELEIWVALLIGLYQLHYMQLPDYAVVKETVALLEKIKKPWAKGLVNAVLRNFCRQQEEILARLSTDPLFIHGQPQWLLERLQADWPDDWQSIAHANDMHPPMTLRVNLQKNSVAEYLQILKREGIAAEPHPVAPEGINLITPCDVRQLPGFAQGCISVQDGAAQLAVSLLSLKPGLRLLDACCAPGGKTCHILEKEPNLSACIALDVDPKRLKRVRENLDRLNLHATLMEGDALTPAKWWDGQLFDRILLDAPCSATGVIRRHSDIKLLRNKEEIDTITKIQHNMLDCLWPLLAKGGLLVYATCSVMPAENEQQIANFVATHPDCTIIKEYGISGHATKHGLQILPGEHGMDGFFYAVLFK</Hsp_hseq>
+      <Hsp_midline>M  N+R +ALKILT L+  + +LS LM +  E++PMTKEIC+GFCRHYFRL ++A+ L+ K+PK+ E+W+ LLIG+YQL YM  PDYAVVKETV+LL ++KK WAKGLVNAVLRNFCR+++ IL +L+ +P+FI+GQP WLL+RLQ DWP+DWQ IA AND HPPMTLRVN+ K+SV EYL +LK+ GI A  HPVAP+GI L  PCDV  LPGFAQG +SVQD A QLA  LLSLKPG R+LDACCAPGGKTCHILEKEP L++C+ALD+DP+RL+RVR+NL+RL+L AT+++GD L P  WWDG  FDRILLDAPCSATGVIRRHSDIKLLR  EEI  I+++Q +ML+ LWPLLA GGL+VYATCS+M  ENE QIA FVA H DC +       G  T HG QILPGEH MDGFFY+VL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

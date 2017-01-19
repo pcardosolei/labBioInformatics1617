@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_45371</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834195</BlastOutput_query-def>
+  <BlastOutput_query-len>333</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_45371</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834195</Iteration_query-def>
+  <Iteration_query-len>333</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1073875029|gb|AOU14977.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>AOU14977</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>685.641</Hsp_bit-score>
+      <Hsp_score>1768</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|505256890|ref|WP_015443992.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|469490650|gb|AGH52495.1| putative permease [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083302|gb|AGN15550.1| lipopolysaccharide export system permease protein [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772844|emb|CZI17813.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998775707|emb|CZG60025.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998778293|emb|CZG75051.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998784532|emb|CZG85246.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998787484|emb|CZG58512.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998811889|emb|CZH78216.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998814312|emb|CZG62782.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998837869|emb|CZJ73497.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998865417|emb|CZJ41970.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998869842|emb|CZJ35533.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998871037|emb|CZM15860.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998874525|emb|CZK37326.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998877488|emb|CZM00322.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998880555|emb|CZI87896.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998888015|emb|CZL49226.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998889250|emb|CZK23665.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998906100|emb|CZK55745.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998909671|emb|CZL08368.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999067394|emb|CZJ18817.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999076882|emb|CZG58582.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999095254|emb|CZG86812.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999098731|emb|CZG61128.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999156877|emb|CZH75091.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999191301|emb|CZI18362.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999194424|emb|CZI44721.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999200289|emb|CZG61325.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999203735|emb|CZI44652.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999222416|emb|CZI36177.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1002075537|emb|CZQ94196.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1073865671|gb|AOU05622.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073868640|gb|AOU08590.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073871635|gb|AOU11584.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073877560|gb|AOU17507.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073880523|gb|AOU20469.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073883520|gb|AOU23465.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073889481|gb|AOU29424.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073892465|gb|AOU32407.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073895433|gb|AOU35374.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073898391|gb|AOU38331.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073901357|gb|AOU41296.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073904266|gb|AOU44204.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073907219|gb|AOU47156.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073910237|gb|AOU50172.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073913249|gb|AOU53181.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073916209|gb|AOU56140.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073919172|gb|AOU59102.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073922075|gb|AOU62004.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073925158|gb|AOU65085.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073928121|gb|AOU68047.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073931107|gb|AOU71016.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073934476|gb|AOU74035.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073937441|gb|AOU84440.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073947707|gb|AOU87431.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1073950635|gb|AOU90358.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1129969293|gb|APT99652.1| LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015443992</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>685.641</Hsp_bit-score>
+      <Hsp_score>1768</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1004335872|ref|WP_061514736.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|998924285|emb|CZJ95457.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998942530|emb|CZK05687.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998954581|emb|CZK41360.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998976192|emb|CZJ66040.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998991520|emb|CZK08158.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999009823|emb|CZK02703.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999018925|emb|CZJ61320.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999027977|emb|CZJ90237.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999034055|emb|CZJ97695.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999040262|emb|CZJ67750.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999043071|emb|CZJ77410.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999048974|emb|CZJ86443.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999052231|emb|CZJ68284.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999055151|emb|CZJ96712.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999064341|emb|CZJ78607.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999070104|emb|CZJ74856.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999073437|emb|CZK05034.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999085620|emb|CZJ97376.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061514736</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.715</Hsp_bit-score>
+      <Hsp_score>1763</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>332</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499250790|ref|WP_010948330.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|52842836|ref|YP_096635.1| permease [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629947|gb|AAU28688.1| permease [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509341|gb|AEW52865.1| permease [Legionella pneumophila subsp. pneumophila ATCC 43290]</Hit_def>
+  <Hit_accession>WP_010948330</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.715</Hsp_bit-score>
+      <Hsp_score>1763</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>333</Hsp_identity>
+      <Hsp_positive>333</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1005404174|ref|WP_061637075.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|998792825|emb|CZI69283.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999327585|emb|CZH27949.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061637075</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.945</Hsp_bit-score>
+      <Hsp_score>1761</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPKQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGP+QLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|653014249|ref|WP_027266298.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|998824282|emb|CZG44774.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266298</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.945</Hsp_bit-score>
+      <Hsp_score>1761</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|742357440|ref|WP_038839634.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|998781170|emb|CZJ43482.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998829463|emb|CZG79304.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998883327|emb|CZI76700.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998898832|emb|CZJ45681.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998952237|emb|CZJ33730.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999153859|emb|CZM17590.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999162947|emb|CZM05255.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999237180|emb|CZG78283.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1002088724|emb|CZQ78709.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1104007486|emb|SFZ46941.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_038839634</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.559</Hsp_bit-score>
+      <Hsp_score>1760</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>330</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYIALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFY+ALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|653015670|ref|WP_027267700.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027267700</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.559</Hsp_bit-score>
+      <Hsp_score>1760</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSEAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHS+AEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1006526278|ref|WP_061784468.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1005834299|gb|AMQ29025.1| permease [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061784468</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>330</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPKQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGP+QLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1004334807|ref|WP_061513732.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513732</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYIALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEINPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAMLGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFY+ALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAE+NPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVA+LGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1005607292|ref|WP_061690778.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|999249420|emb|CZG78396.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999252887|emb|CZG91482.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999262157|emb|CZH06768.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999274340|emb|CZH08346.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999469994|emb|CZG82822.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999778477|emb|CZH00702.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1104000934|emb|SFZ46871.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061690778</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>330</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPKQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHAAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGP+QLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVH AVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1004014407|ref|WP_061483708.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061483708</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>680.633</Hsp_bit-score>
+      <Hsp_score>1755</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>330</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLMKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMNDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQL+KHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVM+DDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|499535722|ref|WP_011216505.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|53755301|emb|CAH16795.1| hypothetical protein lpl2555 [Legionella pneumophila str. Lens] &gt;gi|1080003032|gb|AOW53604.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pneumophila] &gt;gi|1080005222|gb|AOW55502.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015529|gb|AOW64402.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216505</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>680.633</Hsp_bit-score>
+      <Hsp_score>1755</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYIALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVVIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFY+ALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIV+IWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|757480574|ref|WP_042754702.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|999184496|emb|CZP92824.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999198304|emb|CZP06741.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999206441|emb|CZP59316.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999227856|emb|CZP40540.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999235045|emb|CZP51783.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999240541|emb|CZH75875.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999244210|emb|CZH71154.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999256148|emb|CZP73627.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999259195|emb|CZP39141.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999265461|emb|CZP04139.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999272071|emb|CZP51683.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999277778|emb|CZP29175.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999281516|emb|CZP23108.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999284164|emb|CZP50260.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999290833|emb|CZP27333.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999296767|emb|CZP50021.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999300006|emb|CZP27994.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999307151|emb|CZH65486.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999309537|emb|CZP19403.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999315977|emb|CZI03270.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999318938|emb|CZP56580.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999322190|emb|CZH91888.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999332894|emb|CZG03942.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999338005|emb|CZP44113.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999344169|emb|CZP91898.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999347457|emb|CZP60673.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999349572|emb|CZH48513.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999353724|emb|CZP52152.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999356833|emb|CZP75005.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999363199|emb|CZP70996.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999366962|emb|CZP71291.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999369620|emb|CZP87083.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999392476|emb|CZP95516.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999398724|emb|CZP98866.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999403276|emb|CZP48124.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999450793|emb|CZP30197.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999521345|emb|CZP44606.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1003028398|emb|CZR23531.1| permease [Legionella pneumophila] &gt;gi|1015434054|gb|AMV15681.1| Lipopolysaccharide export system permease protein LptF [Legionella pneumophila] &gt;gi|1041016602|gb|ANN93663.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1103997794|emb|SFZ46836.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_042754702</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>680.633</Hsp_bit-score>
+      <Hsp_score>1755</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPKQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLVQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHAAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGP+QLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTL+QTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVH AVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|500496172|ref|WP_011947548.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|148280408|gb|ABQ54496.1| permease [Legionella pneumophila str. Corby] &gt;gi|295650177|gb|ADG26024.1| Predicted permease [Legionella pneumophila 2300/99 Alcoy] &gt;gi|761996852|dbj|GAN31027.1| lipopolysaccharide export system permease protein LptF [Legionella pneumophila] &gt;gi|998796496|emb|CZH99476.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998800333|emb|CZL05179.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998802623|emb|CZH88768.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998805784|emb|CZK06926.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998808382|emb|CZH88624.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998817704|emb|CZL58449.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998820806|emb|CZL60376.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998826768|emb|CZK07963.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998832594|emb|CZI07873.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998835741|emb|CZK87134.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998842280|emb|CZL12308.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998844698|emb|CZK27981.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998847649|emb|CZK66302.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998850264|emb|CZI39097.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998853753|emb|CZL25196.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998856449|emb|CZL32463.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998859772|emb|CZL72603.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998862692|emb|CZK19526.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998895533|emb|CZJ99939.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998912326|emb|CZG97234.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998915859|emb|CZK62984.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998918328|emb|CZK83649.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998921299|emb|CZL39284.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998927604|emb|CZL64539.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998930691|emb|CZK76145.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998933904|emb|CZL75226.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998936482|emb|CZM49090.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998939906|emb|CZK77196.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998945983|emb|CZK95854.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998949027|emb|CZK83117.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998958587|emb|CZM00167.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998961493|emb|CZK24661.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998964640|emb|CZK06289.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998966938|emb|CZM51904.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998970480|emb|CZK53428.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998973829|emb|CZK27369.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998979534|emb|CZL60294.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998985883|emb|CZK00449.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998988687|emb|CZL47591.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998993950|emb|CZI46426.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998998051|emb|CZJ89494.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999000414|emb|CZG76827.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999004455|emb|CZI43230.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999008023|emb|CZK28281.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999012956|emb|CZL44764.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999016878|emb|CZL69616.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999022676|emb|CZL15681.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999025353|emb|CZK73970.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999037110|emb|CZL53870.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999046834|emb|CZL76722.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999057958|emb|CZM55212.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999061641|emb|CZL14307.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999080225|emb|CZJ91244.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999082816|emb|CZK78495.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999090474|emb|CZK40881.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999092468|emb|CZL40032.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999101160|emb|CZL68455.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999104171|emb|CZI05980.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999110397|emb|CZL14860.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999113824|emb|CZL52090.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999116395|emb|CZK47978.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999126307|emb|CZK78639.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999128782|emb|CZH03516.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999131573|emb|CZL94442.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999134792|emb|CZL16399.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999138106|emb|CZK28705.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999141779|emb|CZL43860.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999144576|emb|CZK70247.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999147632|emb|CZL49058.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999151569|emb|CZH55266.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999158602|emb|CZJ90409.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999166056|emb|CZG69689.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999168311|emb|CZI51571.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999175772|emb|CZL04375.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999177478|emb|CZJ86649.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999209996|emb|CZK75085.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999219322|emb|CZL31623.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999302265|emb|CZI55717.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999335257|emb|CZK72195.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1002079042|emb|CZQ94511.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1002085476|emb|CZQ99473.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1003020133|emb|CZR21498.1| permease [Legionella pneumophila] &gt;gi|1003023013|emb|CZR20356.1| permease [Legionella pneumophila] &gt;gi|1003026855|emb|CZR18021.1| permease [Legionella pneumophila] &gt;gi|1073886513|gb|AOU26457.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1080008957|gb|AOW58945.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011376|gb|AOW60867.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017620|gb|AOW66265.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pneumophila] &gt;gi|1104004032|emb|SFZ46860.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_011947548</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>680.248</Hsp_bit-score>
+      <Hsp_score>1754</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>330</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMNDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVM+DDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|652976417|ref|WP_027229089.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|985764641|gb|KXB25760.1| permease [Legionella pneumophila] &gt;gi|985767087|gb|KXB28182.1| permease [Legionella pneumophila] &gt;gi|999119091|emb|CZG86226.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999122216|emb|CZH19439.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1024339697|gb|KZX34036.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1108608964|gb|APF07331.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229089</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>680.248</Hsp_bit-score>
+      <Hsp_score>1754</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>330</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNQDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNN DLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|652974017|ref|WP_027226731.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226731</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>679.863</Hsp_bit-score>
+      <Hsp_score>1753</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAVVMIWASPVIAVERTKLIRSTGIKTLVQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHAAVAILGILFIWRNQVRLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVA+VMIWASPVIAVER KLIRSTGIKTL+QTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVH AVAILGILFIWRNQV+LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1003963962|ref|WP_061476844.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061476844</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>679.478</Hsp_bit-score>
+      <Hsp_score>1752</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPKQLLKHSFAMATVVLVVVAVVMIWASPVIAVERTKLIRSTGIKTLVQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHAAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGP+QLLKHSFAMATVVLVVVA+VMIWASPVIAVER KLIRSTGIKTL+QTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVH AVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|654928549|ref|WP_028378980.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378980</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>678.322</Hsp_bit-score>
+      <Hsp_score>1749</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>330</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYSPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNQDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGY PRQLLKHSFAMATVVLVVVAIVMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNN DLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|506459814|ref|WP_015961714.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|53752404|emb|CAH13836.1| hypothetical protein lpp2683 [Legionella pneumophila str. Paris] &gt;gi|536611671|gb|ERB40189.1| permease [Legionella pneumophila str. 121004] &gt;gi|541998749|gb|ERH44765.1| permease [Legionella pneumophila str. Leg01/53] &gt;gi|542000255|gb|ERH46246.1| permease [Legionella pneumophila str. Leg01/11] &gt;gi|542123149|gb|ERI49458.1| permease [Legionella pneumophila str. Leg01/20] &gt;gi|762000224|dbj|GAN27956.1| lipopolysaccharide export system permease protein LptF [Legionella pneumophila] &gt;gi|999031537|emb|CZG67614.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999173401|emb|CZH69949.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999182539|emb|CZG27262.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999188704|emb|CZI76670.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999213636|emb|CZG42950.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999217074|emb|CZI72850.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999225918|emb|CZG33090.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999340729|emb|CZG98938.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999361087|emb|CZI01620.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999374045|emb|CZG03914.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999377352|emb|CZI91226.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999380651|emb|CZH51729.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999383405|emb|CZI16788.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999387466|emb|CZG10365.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999390273|emb|CZI10547.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999397062|emb|CZG16635.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999406425|emb|CZG43104.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999409403|emb|CZH71777.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999412583|emb|CZG27507.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999416653|emb|CZG14491.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999419282|emb|CZG43370.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999422606|emb|CZH44991.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999426487|emb|CZG24709.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999429112|emb|CZG30755.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999432700|emb|CZG06405.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999435742|emb|CZH65664.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999438345|emb|CZG45040.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999442250|emb|CZJ84605.1| permease [Legionella pneumophila] &gt;gi|999445326|emb|CZH56338.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999448588|emb|CZG03910.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999458362|emb|CZJ89802.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999497017|emb|CZI10632.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999526332|emb|CZI61289.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999529214|emb|CZI16934.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999577066|emb|CZI02195.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999612367|emb|CZI07014.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1003030319|emb|CZR34339.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1041019601|gb|ANN96661.1| LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961714</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.937</Hsp_bit-score>
+      <Hsp_score>1748</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPKQLLKHSFAMATVVLVVVAVVMIWASPVIAVERTKLIRSTGIKTLVQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHNLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHAAVAILGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGP+QLLKHSFAMATVVLVVVA+VMIWASPVIAVER KLIRSTGIKTL+QTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNH+LKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVH AVAILGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|504657640|ref|WP_014844742.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|395131714|emb|CCD10007.1| permease [Legionella pneumophila subsp. pneumophila] &gt;gi|761990485|dbj|GAN18594.1| lipopolysaccharide export system permease protein LptF [Legionella pneumophila] &gt;gi|761993675|dbj|GAN21700.1| lipopolysaccharide export system permease protein LptF [Legionella pneumophila] &gt;gi|998982022|emb|CZI88587.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999106952|emb|CZI85017.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999231226|emb|CZI62842.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1032658709|gb|ANH13980.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1032661671|gb|ANH16941.1| LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1032664649|gb|ANH19918.1| LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844742</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.552</Hsp_bit-score>
+      <Hsp_score>1747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>327</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPKQLLKHSFAMATVVLVVVAIVMIWASPLIAVERTKLIRSTGIKTLVQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMNDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAMLGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGP+QLLKHSFAMATVVLVVVAIVMIWASP+IAVER KLIRSTGIKTL+QTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVM+DDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVA+LGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|653016606|ref|WP_027268578.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|761987471|dbj|GAN24646.1| lipopolysaccharide export system permease protein LptF [Legionella pneumophila] &gt;gi|998790015|emb|CZH02470.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|998892895|emb|CZJ07816.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999286790|emb|CZI76037.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999293087|emb|CZI61911.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999312046|emb|CZI87343.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1002082135|emb|CZQ95982.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1002091755|emb|CZR06111.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1108605981|gb|APF04349.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027268578</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>675.626</Hsp_bit-score>
+      <Hsp_score>1742</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>326</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPKQLLKHSFAMATVVLLVVAIVMIWASPLIAVERTKLIRSTGIKTLVQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMNDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAMLGILFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGP+QLLKHSFAMATVVL+VVAIVMIWASP+IAVER KLIRSTGIKTL+QTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVM+DDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVA+LGILFIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1011914665|ref|WP_062727879.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_062727879</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>671.003</Hsp_bit-score>
+      <Hsp_score>1730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>329</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFVMATLVLVVVAVVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMSRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHLLVAILGIILIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSF MAT+VLVVVA+VMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSM+RDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVH+ VAILGI+ IWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|652969890|ref|WP_027222783.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|1005362945|gb|AMP88814.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pascullei] &gt;gi|1005367791|gb|AMP93568.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pascullei] &gt;gi|1005370710|gb|AMP96486.1| LPS export ABC transporter permease LptF [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222783</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.307</Hsp_bit-score>
+      <Hsp_score>1723</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>328</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFVMATLVLVVVAVVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMNDDARTAKTRDLWPLNNQDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHLLVAILGILLIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSF MAT+VLVVVA+VMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVM+DDARTAKTRDLWPLNN DLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVH+ VAILGIL IWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|504655578|ref|WP_014842680.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|395128631|emb|CCD06849.1| permease [Legionella pneumophila subsp. pneumophila] &gt;gi|999248100|emb|CZH52060.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999269690|emb|CZO24448.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999455520|emb|CZH44461.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999462225|emb|CZG06292.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999465396|emb|CZM25712.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999468348|emb|CZO07919.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999474985|emb|CZM44031.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999478179|emb|CZN25583.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999481374|emb|CZM63625.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999484404|emb|CZN97109.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999487524|emb|CZL95183.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999490715|emb|CZN58203.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999493977|emb|CZL96696.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999500343|emb|CZN57309.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999503565|emb|CZN86729.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999506761|emb|CZM92629.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999510032|emb|CZG26688.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999513153|emb|CZN17454.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999516580|emb|CZL80503.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999519804|emb|CZM50170.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999532672|emb|CZO32582.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999536047|emb|CZN19709.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999539065|emb|CZM53997.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999542281|emb|CZO07924.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999545459|emb|CZO45799.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999548579|emb|CZN73583.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999551847|emb|CZN99270.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999555224|emb|CZM96807.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999558237|emb|CZO45520.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999561357|emb|CZM27272.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999564630|emb|CZO46125.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999567745|emb|CZM40616.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999570944|emb|CZN39148.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999574134|emb|CZN76364.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999580625|emb|CZO00826.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999584137|emb|CZO14209.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999587260|emb|CZM49087.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999590522|emb|CZM22631.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999593397|emb|CZN32433.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999596595|emb|CZN95005.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999599863|emb|CZO24413.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999603281|emb|CZL64045.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999606258|emb|CZN38974.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999609692|emb|CZN41654.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999615868|emb|CZM31581.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999618983|emb|CZN75862.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999622341|emb|CZO52242.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999625615|emb|CZN53589.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999628968|emb|CZM42476.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999631846|emb|CZM46502.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999635114|emb|CZN40282.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999638234|emb|CZN35386.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999641430|emb|CZO63202.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999644601|emb|CZO28805.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999648138|emb|CZN76778.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999650949|emb|CZN93158.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999654287|emb|CZN92006.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999657665|emb|CZM00753.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999660604|emb|CZM48673.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999664118|emb|CZM82527.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999667071|emb|CZM24672.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999670265|emb|CZL73887.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999673652|emb|CZM18881.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999676584|emb|CZN62121.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999679619|emb|CZM62796.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999682814|emb|CZM69990.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999686040|emb|CZN92829.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999689620|emb|CZN09920.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999692571|emb|CZN81482.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999696031|emb|CZN01179.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999699230|emb|CZL98011.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999702492|emb|CZM44074.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999705638|emb|CZL59187.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999708662|emb|CZN41413.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999711914|emb|CZM86867.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999715403|emb|CZM89119.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999718506|emb|CZO27448.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999721420|emb|CZM67790.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999724760|emb|CZN17703.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999728159|emb|CZL89009.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999731653|emb|CZO21798.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999734902|emb|CZM00425.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999738196|emb|CZO47472.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999741104|emb|CZM26068.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999744594|emb|CZN06979.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999747931|emb|CZM00976.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999750826|emb|CZL80167.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999754096|emb|CZM71336.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999757439|emb|CZM83622.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999760414|emb|CZM15731.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999763871|emb|CZN10012.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999767068|emb|CZM56236.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999769843|emb|CZN40756.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999773547|emb|CZH74186.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999776541|emb|CZL89191.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999783405|emb|CZH49941.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999786581|emb|CZM17851.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999789828|emb|CZO49337.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999793225|emb|CZO51217.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999796472|emb|CZI08659.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|999800200|emb|CZO38895.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila] &gt;gi|1003034778|emb|CZR27699.1| permease [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842680</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>668.307</Hsp_bit-score>
+      <Hsp_score>1723</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>329</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAVVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMSRDHSQAEQIFMAKHSVQDNKLLWDVLWADKAFAEINPQTGEEYIVLQNGKEYQGVPGQADYQIAEFASYKSKLPNPTVVMNNDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVVVAILGIILIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVA+VMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSM+RDHSQAEQIFMAKHSVQDN+LLWDVLWADKAFAE+NPQTGEEYIVLQNGKEYQGVPG ADYQIAEFASYKSKLPNPTVVM++DARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHV VAILGI+ IWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1006042217|ref|WP_061722074.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella pneumophila] &gt;gi|999324937|emb|CZH14508.1| Lipopolysaccharide export system permease protein lptF [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061722074</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>637.491</Hsp_bit-score>
+      <Hsp_score>1643</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>328</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRELLKHSFAMATVVLVVVAAVIIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMSRDHSQAEQIFMAKHSVQGNKLLWDVLWADKAFAEINPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMNNDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHLVVAILGIILIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPR+LLKHSFAMATVVLVVVA V+IWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSM+RDHSQAEQIFMAKHSVQ N+LLWDVLWADKAFAE+NPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVM++DARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVH+ VAILGI+ IWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|737921546|ref|WP_035886849.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella norrlandica] &gt;gi|701446852|gb|KGP64200.1| permease [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035886849</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.172</Hsp_bit-score>
+      <Hsp_score>1624</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>321</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGSIPGFIIMKLMMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTILRACGYGPKQLLMHSFIMASIVLVIVGAVMIWASPVIAVERTKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQAMNRDHSQAEQIFMAKHTVQGNQLLWDILWADKAFAKANPKTGEEYIVLENGKEYQGIPGHADYQIAEFASYQSKLPHPTVVMNDDARTAKTSTLWPFNNPDLKKAAELQWRVSIPLMVLTLTLVAVPLSRVNPRSGKYSKLLPAIIIYIFYANFIFVSRDAIATGKIPWWIGMWWVHLVIAILGIVFIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASGSIPGF+IMKL+MLELPNLMGLLLPLGFYVALLLAYGRLYAESEMT+LRACGYGP+QLL HSF MA++VLV+V  VMIWASPVIAVER KLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQ+MNRDHSQAEQIFMAKH+VQ N+LLWD+LWADKAFA+ NP+TGEEYIVL+NGKEYQG+PGHADYQIAEFASY+SKLP+PTVVM+DDARTAKT  LWP NN DLKKAAELQWR+SIPLMVLTLTLVAVPLSRV+PRSGKYSKLLPAIIIYIFYANF+FVSRDAIATGKIPWWIGMWWVH+ +AILGI+FIWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|966433947|ref|WP_058474378.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella quateirensis] &gt;gi|962263771|gb|KTD47851.1| permease [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058474378</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>568.926</Hsp_bit-score>
+      <Hsp_score>1465</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFVQYLNRAASGNIPGVIIMKLMMLEMPNLMGLLLPLGFYIALLLAYGRLYAESEMTVMVACGYGPNQLLKHSFIMAIVVAIIVAGIMIWASPLIATERAKLLRSTGIKTLIQTIMPGRFHAINGGQQVFYVQSMSRDHTKAEQVFLAKNTVQENRIQWDVLWADKAFAEVDPETGEEYIVLQNGKEYQGIPGHADYQVAQFADYKSRLPHPIVRINEDIRTAKTFSLLPLNNPNLEKAAELQWRLSIPLMVLTLTLVAVPLSRVSPRTGKYAKLLPAIVVYILYANFMFVARDAIASGTIPLWIGMGWIHLAVVFLGLFLIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQF+QYLNRAASG+IPG +IMKL+MLE+PNLMGLLLPLGFY+ALLLAYGRLYAESEMTV+ ACGYGP QLLKHSF MA VV ++VA +MIWASP+IA ER KL+RSTGIKTLIQTIMPGRFHAIN GQQ+FYVQSM+RDH++AEQ+F+AK++VQ+NR+ WDVLWADKAFAEV+P+TGEEYIVLQNGKEYQG+PGHADYQ+A+FA YKS+LP+P V +++D RTAKT  L PLNN +L+KAAELQWR+SIPLMVLTLTLVAVPLSRVSPR+GKY+KLLPAI++YI YANFMFV+RDAIA+G IP WIGM W+H+AV  LG+  IWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|654932797|ref|WP_028383155.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella moravica] &gt;gi|962253331|gb|KTD37512.1| permease [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383155</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.592</Hsp_bit-score>
+      <Hsp_score>1420</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>297</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFVQYLNRAASGNIPGVIIMKLMMLEMPNLMGLLLPLGFYIAVLLAYGRLYAESEMTVMVACGYGPNQLLKHSFIMALVVAIIVAGVMVFASPLIATERAKLLRSTGIKTLIQTIMPGRFHAINGGQQVFYVQSMNREHTKAEQVFLAKNSVKDGRIQWDILWADKAFAEMDPDTGEEYIVLQNGKEYQGIPGHADYQVARFADYKSRLPHPIVRINEDIRTAKTASLLPFNNPDREKAAELQWRLSIPVMVLALTFVAVPLSRVSPRSGKYAKLLPAIVIYILYANFMFVARDAIVSGTIPLWIGMSWIHLAVVFLGLFLIWRNQVNLA</Hsp_hseq>
+      <Hsp_midline>MSNQF+QYLNRAASG+IPG +IMKL+MLE+PNLMGLLLPLGFY+A+LLAYGRLYAESEMTV+ ACGYGP QLLKHSF MA VV ++VA VM++ASP+IA ER KL+RSTGIKTLIQTIMPGRFHAIN GQQ+FYVQSMNR+H++AEQ+F+AK+SV+D R+ WD+LWADKAFAE++P TGEEYIVLQNGKEYQG+PGHADYQ+A FA YKS+LP+P V +++D RTAKT  L P NN D +KAAELQWR+SIP+MVL LT VAVPLSRVSPRSGKY+KLLPAI+IYI YANFMFV+RDAI +G IP WIGM W+H+AV  LG+  IWRNQV LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|966460499|ref|WP_058492928.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella worsleiensis] &gt;gi|962296575|gb|KTD80212.1| permease [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058492928</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>547.354</Hsp_bit-score>
+      <Hsp_score>1409</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFVQYLNRAASGTIPGVIIMKLMMLEMPNLMGLLLPLGFYIALLLAYGRLYAESEMTVMVACGYGPNQLLKHSFIMATAVAVVVAGIMIWASPLIATERAKLLKSTGLKTLIQTIMPGRFHGVNGGQQVFYVQSMNREHTKAEQVFLAKTSVQNNRIQWDILWADKAFAEMDPATGEEYLVLQHGKEYQGIPGHADYQVAQFAEYKSRLPQPVVHINQDIRTAKTFSLLPFNNPDLDKAAELQWRLSIPIMVLTLTLVAVPLSRVSPRTGKYAKLLPAIVVYILYANFMFVARDAIASGKIPLWIGMSWIHLAVALLGLFLIWRNRVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQF+QYLNRAASG+IPG +IMKL+MLE+PNLMGLLLPLGFY+ALLLAYGRLYAESEMTV+ ACGYGP QLLKHSF MAT V VVVA +MIWASP+IA ER KL++STG+KTLIQTIMPGRFH +N GQQ+FYVQSMNR+H++AEQ+F+AK SVQ+NR+ WD+LWADKAFAE++P TGEEY+VLQ+GKEYQG+PGHADYQ+A+FA YKS+LP P V ++ D RTAKT  L P NN DL KAAELQWR+SIP+MVLTLTLVAVPLSRVSPR+GKY+KLLPAI++YI YANFMFV+RDAIA+GKIP WIGM W+H+AVA+LG+  IWRN+VKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966439683|ref|WP_058480006.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella waltersii] &gt;gi|962295580|gb|KTD79225.1| hypothetical protein Lwal_1297 [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480006</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>546.969</Hsp_bit-score>
+      <Hsp_score>1408</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>300</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFIQYLNRAASGTIPGVVIMKLMLLEMPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRASGYSPNQLLKHSLIMGSVVVVLVAAVMIWASPIIAAERYKLLRSTGLKTLIQTIMPGRFHAINGGQQVFYVQSMSRDHTQGEQVFMARQSIRDNRVIWDVLWANKALAKTNPKTNEDYLILQDGKEYQGVPGQADYQVAQFETYQSKLPQPTANYKNEAKTIKTADLWPFNNPDLAKAAELQWRISVPLMVLSLTLIAVPLSRVSPRSGKFAKLLPAILIYILYANFMFVARDAVATGKIPWWIGMWWIHLLVIALGVYFIWRNKVKLA</Hsp_hseq>
+      <Hsp_midline>MSNQFIQYLNRAASG+IPG VIMKL++LE+PNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRA GY P QLLKHS  M +VV+V+VA VMIWASP+IA ER KL+RSTG+KTLIQTIMPGRFHAIN GQQ+FYVQSM+RDH+Q EQ+FMA+ S++DNR++WDVLWA+KA A+ NP+T E+Y++LQ+GKEYQGVPG ADYQ+A+F +Y+SKLP PT    ++A+T KT DLWP NN DL KAAELQWRIS+PLMVL+LTL+AVPLSRVSPRSGK++KLLPAI+IYI YANFMFV+RDA+ATGKIPWWIGMWW+H+ V  LG+ FIWRN+VKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|966414813|ref|WP_058458098.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458098</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>507.679</Hsp_bit-score>
+      <Hsp_score>1306</Hsp_score>
+      <Hsp_evalue>8.2352e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGVIIMKLMILELPTLLSFLVPLGFYIAMLLAYGRLYAESEMTVLGACGYGPNQLLKHSFIMATGVAIIVAVIMIWGSPLIYIERAKLLRSTGIQTLVQTIMPGRFHSINDGQEVFYVQSMSRDHTKAEQIFLAKKSSVNEQTRWDILWADQAFAETDAKTGEDYIILQNGKEYQGIPGQADYQVAEFGQYKARLPHPVIKISDDLRTMSTASLLPYNNENVAKAAELQWRLSVPIMVFTLTLIAVPLSRINPRSGKYAKLLPAIIIYIVYANLLFIARDVMISGKTPQWIGLWWVHLIVICFGLVLNWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL++LELP L+  L+PLGFY+A+LLAYGRLYAESEMTVL ACGYGP QLLKHSF MAT V ++VA++MIW SP+I +ER KL+RSTGI+TL+QTIMPGRFH+IN GQ++FYVQSM+RDH++AEQIF+AK S  + +  WD+LWAD+AFAE + +TGE+YI+LQNGKEYQG+PG ADYQ+AEF  YK++LP+P + + DD RT  T  L P NN ++ KAAELQWR+S+P+MV TLTL+AVPLSR++PRSGKY+KLLPAIIIYI YAN +F++RD + +GK P WIG+WWVH+ V   G++  WRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966469691|ref|WP_058500700.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella israelensis] &gt;gi|962249564|gb|KTD33776.1| hypothetical protein Lisr_0309 [Legionella israelensis]</Hit_def>
+  <Hit_accession>WP_058500700</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.908</Hsp_bit-score>
+      <Hsp_score>1304</Hsp_score>
+      <Hsp_evalue>1.7151e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFVRYLNRAASGNIPGVIIMKLMMLELPTLIGLLLPLGFYVALLIAYGRLYAESEMTVLRACGYSSGQLLKHSFIMATVVAVIVALIMIWASPGIAVERAKLLRSSGVQTLIQTIVPGRFQAVSGGKHVFYVESMSRDHTKAKHIFLAGLQAKNTGLQWDVLWADKAYAETDPQTSEDYIVLHDGKEYEGVPGQASYQVAEFKQYKARLPHPVIAVNKDIRTVKTSELWPLNNSDKVKAAELQWRFSVPIMVLTLTLIAVPLSRVNPRAGKFAKLLPAIVIYIIYANFMFIGRDAMMDGKIPVWVGMWWLHLSVLALGFFLVWRNRIKMA</Hsp_hseq>
+      <Hsp_midline>MSNQF++YLNRAASG+IPG +IMKL+MLELP L+GLLLPLGFYVALL+AYGRLYAESEMTVLRACGY   QLLKHSF MATVV V+VA++MIWASP IAVER KL+RS+G++TLIQTI+PGRF A++ G+ +FYV+SM+RDH++A+ IF+A    ++  L WDVLWADKA+AE +PQT E+YIVL +GKEY+GVPG A YQ+AEF  YK++LP+P + ++ D RT KT +LWPLNN D  KAAELQWR S+P+MVLTLTL+AVPLSRV+PR+GK++KLLPAI+IYI YANFMF+ RDA+  GKIP W+GMWW+H++V  LG   +WRN++K+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966466499|ref|WP_058497825.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella gratiana] &gt;gi|962229991|gb|KTD14587.1| hypothetical protein Lgra_0618 [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497825</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.138</Hsp_bit-score>
+      <Hsp_score>1302</Hsp_score>
+      <Hsp_evalue>3.34479e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGIIIMKLMMLELPTLLCLLIPLGFYIAMLLAYGRLYAESEMTVLRACGYGPNKLLQHSFIMATVVAFIVAVVMIWGSPLIYIERAKLLRSTGIQTLVQTIMPGRFHAINEGKEVFYVQSMSRDHTKAEQVFLAKRTTVEDKTRWDVLWADQAFAETDPQTGEDYIILQNGKEYQGVPGHADYQIAEFGQYKARLPHPVVKISEDFRTLSTANLLPFNNPDRAKAAELQWRFSVPIMVFTLTLIAVPLSRINPRSGKFAKLLPAIIIYIVYANLLFIARDAMVSGKMPYWLGLWWVHLSIIAFGLLLLWRNQAKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL+MLELP L+ LL+PLGFY+A+LLAYGRLYAESEMTVLRACGYGP +LL+HSF MATVV  +VA+VMIW SP+I +ER KL+RSTGI+TL+QTIMPGRFHAIN G+++FYVQSM+RDH++AEQ+F+AK +  +++  WDVLWAD+AFAE +PQTGE+YI+LQNGKEYQGVPGHADYQIAEF  YK++LP+P V + +D RT  T +L P NN D  KAAELQWR S+P+MV TLTL+AVPLSR++PRSGK++KLLPAIIIYI YAN +F++RDA+ +GK+P+W+G+WWVH+++   G+L +WRNQ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|962192336|gb|KTC77410.1|</Hit_id>
+  <Hit_def>hypothetical protein Lboz_0363 [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>KTC77410</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>505.753</Hsp_bit-score>
+      <Hsp_score>1301</Hsp_score>
+      <Hsp_evalue>7.48077e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGVIIMKLMILELPTLLSFLVPLGFYIAMLLAYGRLYAESEMTVLGACGYGPNQLLKHSFIMATGVAIIVAVIMIWGSPLIYIERAKLLRSTGIQTLVQTIMPGRFHSINDGQEVFYVQSMSRDHTKAEQIFLAKKSSVNEQTRWDILWADQAFAETDAKTGEDYIILQNGKEYQGIPGQADYQVAEFGQYKARLPHPVIKISDDLRTMSTASLLPYNNENVAKAAELQWRLSVPIMVFTLTLIAVPLSRINPRSGKYAKLLPAIIIYIVYANLLFIARDVMISGKTPQWIGLWWVHLIVICFGLVLNWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL++LELP L+  L+PLGFY+A+LLAYGRLYAESEMTVL ACGYGP QLLKHSF MAT V ++VA++MIW SP+I +ER KL+RSTGI+TL+QTIMPGRFH+IN GQ++FYVQSM+RDH++AEQIF+AK S  + +  WD+LWAD+AFAE + +TGE+YI+LQNGKEYQG+PG ADYQ+AEF  YK++LP+P + + DD RT  T  L P NN ++ KAAELQWR+S+P+MV TLTL+AVPLSR++PRSGKY+KLLPAIIIYI YAN +F++RD + +GK P WIG+WWVH+ V   G++  WRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966499763|ref|WP_058516436.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516436</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.982</Hsp_bit-score>
+      <Hsp_score>1299</Hsp_score>
+      <Hsp_evalue>1.1912e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGVIIMKLMILELPTLLSFLVPLGFYIAMLLAYGRLYAESEMTVLGACGYGPNQLLKHSFIMATGVAIIVAVIMIWGSPLIYIERAKLLRSTGIQTLVQTIMPGRFHAINDGQEVFYVQSMSRDHTKAKQIFLAKKSSVNERTRWDILWADQAFAETDAKTGEDYIILENGKEYQGTPGQADYQVAEFGQYKARLPHPVIKISDDLRTISTASLLPYNNENVAKAAELQWRLSVPIMVFTLTLIAVPLSRINPRSGKYAKLLPAIIVYIVYANLLFIARDVMISGKTPQWIGLWWVHLIVISFGLFLNWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL++LELP L+  L+PLGFY+A+LLAYGRLYAESEMTVL ACGYGP QLLKHSF MAT V ++VA++MIW SP+I +ER KL+RSTGI+TL+QTIMPGRFHAIN GQ++FYVQSM+RDH++A+QIF+AK S  + R  WD+LWAD+AFAE + +TGE+YI+L+NGKEYQG PG ADYQ+AEF  YK++LP+P + + DD RT  T  L P NN ++ KAAELQWR+S+P+MV TLTL+AVPLSR++PRSGKY+KLLPAII+YI YAN +F++RD + +GK P WIG+WWVH+ V   G+   WRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966402950|ref|WP_058446545.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella feeleii] &gt;gi|962211394|gb|KTC96286.1| hypothetical protein Lfee_2084 [Legionella feeleii]</Hit_def>
+  <Hit_accession>WP_058446545</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.982</Hsp_bit-score>
+      <Hsp_score>1299</Hsp_score>
+      <Hsp_evalue>1.32904e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>284</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFVRYLNRAASGQIPGMIIMKLMMLELPNLMGLLLPLGFYVALLIAYGRLYAESEMTVLQACGYGPSQLLRHSFVMAAVVSVLVGIIMIWASPVIATERAKLLRTTGIQTAIQMIVPGRFRALSEGRQIFYVESMNREHSKAQQVFLARQVVKDNHLQWDILLAERAFAETDPTTLENYIVLQQGSEYEGMPGKADFQVSEFDQYKARLPHPVVEIEKDIRTTDTASLLPFNNPDKRKAAELQWRLSVPIMVLTLTLVAVPLSRVNPRAGKYAKLLPAIVLYIVYANFIFVSRDWLIAGKVPLWFGMWWLHFAVAGIGLLLIWRNQVKLS</Hsp_hseq>
+      <Hsp_midline>MSNQF++YLNRAASG IPG +IMKL+MLELPNLMGLLLPLGFYVALL+AYGRLYAESEMTVL+ACGYGP QLL+HSF MA VV V+V I+MIWASPVIA ER KL+R+TGI+T IQ I+PGRF A++ G+QIFYV+SMNR+HS+A+Q+F+A+  V+DN L WD+L A++AFAE +P T E YIVLQ G EY+G+PG AD+Q++EF  YK++LP+P V +  D RT  T  L P NN D +KAAELQWR+S+P+MVLTLTLVAVPLSRV+PR+GKY+KLLPAI++YI YANF+FVSRD +  GK+P W GMWW+H AVA +G+L IWRNQVKL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966496248|ref|WP_058513014.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella santicrucis] &gt;gi|962282832|gb|KTD66608.1| hypothetical protein Lsan_0553 [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058513014</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.597</Hsp_bit-score>
+      <Hsp_score>1298</Hsp_score>
+      <Hsp_evalue>1.65441e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGVIIMKLMMLELPTLLCLLIPLGFYIAMLLAYGRLYAESEMTVLRACGYGPNKLLKHSIIMATVVAFIVAIVMIWGSPLIYIERAKLLRSTGIQTLVQTIMPGRFHAINEGKEVFYVQSMSRDHSKAEQVFLAKRTKVDDKTRWDVLWADQAFAETDPKTGEDYIILQNGKEYQGVPGHADYQIAEFGQYKARLPHPVVKISEDFRTISTANLFPFNNTDRAKAAELQWRFSVPIMVFALTLIAVPLSRINPRSGKFAKLLPAIIIYIVYANLLFIARDAMVSGKMPQWLGLWWVHLCIIAFGLLLIWRNQAKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL+MLELP L+ LL+PLGFY+A+LLAYGRLYAESEMTVLRACGYGP +LLKHS  MATVV  +VAIVMIW SP+I +ER KL+RSTGI+TL+QTIMPGRFHAIN G+++FYVQSM+RDHS+AEQ+F+AK +  D++  WDVLWAD+AFAE +P+TGE+YI+LQNGKEYQGVPGHADYQIAEF  YK++LP+P V + +D RT  T +L+P NN D  KAAELQWR S+P+MV  LTL+AVPLSR++PRSGK++KLLPAIIIYI YAN +F++RDA+ +GK+P W+G+WWVH+ +   G+L IWRNQ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966426898|ref|WP_058469436.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Fluoribacter gormanii] &gt;gi|962215449|gb|KTD00231.1| hypothetical protein Lgor_3126 [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058469436</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.212</Hsp_bit-score>
+      <Hsp_score>1297</Hsp_score>
+      <Hsp_evalue>2.05944e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQFIQYLNRAASGNIPGVIIMKLMMLELPTLLSLLIPLGFYIALLLAYGRLYAESEMTVLRACGYGPNQLLKHSFIMATAVAIIVAIVMIWVSPLIYIERAKLLRTTGIQTLVQTIMPGRFHAVNSGQEVFYVQSMSRDHAKAEQVFLAKRSVVNRQMRWDILWADQAFAETDAKTGEDYIILQKGKEYQGIPGHADYQVAEFGQYKTRLPHPVMQVSEDLRTMSTASLLPYNNKSSAKAAELQWRISVPIMVFTLTLIAVPLSRINPRSGKYAKLLPAIIIYILYANFLFIGRDAMISGKTPQWMGLWWVHLIIVIFGLLLIWRDRTKLA</Hsp_hseq>
+      <Hsp_midline>+SNQFIQYLNRAASG+IPG +IMKL+MLELP L+ LL+PLGFY+ALLLAYGRLYAESEMTVLRACGYGP QLLKHSF MAT V ++VAIVMIW SP+I +ER KL+R+TGI+TL+QTIMPGRFHA+NSGQ++FYVQSM+RDH++AEQ+F+AK SV + ++ WD+LWAD+AFAE + +TGE+YI+LQ GKEYQG+PGHADYQ+AEF  YK++LP+P + + +D RT  T  L P NN    KAAELQWRIS+P+MV TLTL+AVPLSR++PRSGKY+KLLPAIIIYI YANF+F+ RDA+ +GK P W+G+WWVH+ + I G+L IWR++ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|644964458|ref|WP_025385213.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella oakridgensis] &gt;gi|570284230|gb|AHE66417.1| putative permease [Legionella oakridgensis ATCC 33761 = DSM 21215] &gt;gi|570702910|gb|ETO93821.1| putative permease [Legionella oakridgensis RV-2-2007] &gt;gi|962252671|gb|KTD36857.1| hypothetical protein Loak_1993 [Legionella oakridgensis]</Hit_def>
+  <Hit_accession>WP_025385213</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.827</Hsp_bit-score>
+      <Hsp_score>1296</Hsp_score>
+      <Hsp_evalue>3.33409e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFMRYLSRAASGQIPAMFIMKLMMLELPNLMGLLLPLGFYVAILIAYGRLYAESEMTVLQACGYGPRQLLKHSMIMASIVTIIVTVIMIWVSPVIAIERAKLLRTSGVQTLIQTIVPGRFREIRNGEQVFYVEKMNPSHTVAQNVFMARLTEKEGKQQWDILWADKAFAKMDEKTAEDYVIFQDGKAYQGVPGQADYQVAEFEHYQTRLPHPIIALKDDARTAKTASLWPFNNSDLRKAAELQWRLSVPIMVLTLTLVAVPLSRVNPRAGKYAKLLPAIVLYIIYANFMFVARDWLTAGKIPVWLGMWWLHLLVAVVGGLLIWRNQVKFS</Hsp_hseq>
+      <Hsp_midline>MSNQF++YL+RAASG IP   IMKL+MLELPNLMGLLLPLGFYVA+L+AYGRLYAESEMTVL+ACGYGPRQLLKHS  MA++V ++V ++MIW SPVIA+ER KL+R++G++TLIQTI+PGRF  I +G+Q+FYV+ MN  H+ A+ +FMA+ + ++ +  WD+LWADKAFA+++ +T E+Y++ Q+GK YQGVPG ADYQ+AEF  Y+++LP+P + + DDARTAKT  LWP NN DL+KAAELQWR+S+P+MVLTLTLVAVPLSRV+PR+GKY+KLLPAI++YI YANFMFV+RD +  GKIP W+GMWW+H+ VA++G L IWRNQVK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966493758|ref|WP_058510546.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella steelei] &gt;gi|962284690|gb|KTD68456.1| hypothetical protein Lste_1614 [Legionella steelei] &gt;gi|1113342019|gb|OJW05896.1| LPS export ABC transporter permease LptF [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>WP_058510546</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.056</Hsp_bit-score>
+      <Hsp_score>1294</Hsp_score>
+      <Hsp_evalue>7.01985e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGNIPGVIIMKLMMLELPTLLSLLVPLGFYTAMLLAYGRLYAESEMTVLRACGYGPNQLLKHSFIMATVVAIIVAVIMIWGSPLIYIERAKLLRTTGIKTLVQTIMPGRFHAINEGQEVFYVQSMSRDHTKAEQVFLAKRSTVNEQIRWDVLWADQAFAETDAKTGEDYIILQNGKEYQGVPGHADYQVAEFGQYKARLPHPVIKISEDLRTMSTASLLPLINDDPAKAAELQWRLSVPLMVFTLTLIAVPLSRINPRSGKYAKLLPAIIIYILYANLLFIARDAVVSGKIPQWIGLWWVHLVVVAFGLFLIKRNQAKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASG+IPG +IMKL+MLELP L+ LL+PLGFY A+LLAYGRLYAESEMTVLRACGYGP QLLKHSF MATVV ++VA++MIW SP+I +ER KL+R+TGIKTL+QTIMPGRFHAIN GQ++FYVQSM+RDH++AEQ+F+AK S  + ++ WDVLWAD+AFAE + +TGE+YI+LQNGKEYQGVPGHADYQ+AEF  YK++LP+P + + +D RT  T  L PL N D  KAAELQWR+S+PLMV TLTL+AVPLSR++PRSGKY+KLLPAIIIYI YAN +F++RDA+ +GKIP WIG+WWVH+ V   G+  I RNQ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966420676|ref|WP_058463877.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella cincinnatiensis] &gt;gi|962206935|gb|KTC91868.1| hypothetical protein Lcin_0647 [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463877</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.056</Hsp_bit-score>
+      <Hsp_score>1294</Hsp_score>
+      <Hsp_evalue>7.17527e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGVIIMKLMMLELPTLLCLLIPLGFYIAMLLAYGRLYAESEMTVLRACGYGPNKLLKHSIIMATVVAFIVAIVMIWGSPLIYIERAKLLRSTGIQTLVQTIMPGRFHAINEGKEVFYVQSMSRDHTKAEQVFLAKRTKVDDKTRWDVLWADQAFAETDPKTGEDYIILQNGKEYQGVPGHADYQIAEFGQYKARLPHPVVKISEDFRTISTANLFPFNNTDRAKAAELQWRFSVPIMVFALTLIAVPLSRINPRSGKFAKLLPAIIIYIVYANLLFIARDAMVSGKMPQWLGLWWVHLCIIAFGLLLLWRNQAKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL+MLELP L+ LL+PLGFY+A+LLAYGRLYAESEMTVLRACGYGP +LLKHS  MATVV  +VAIVMIW SP+I +ER KL+RSTGI+TL+QTIMPGRFHAIN G+++FYVQSM+RDH++AEQ+F+AK +  D++  WDVLWAD+AFAE +P+TGE+YI+LQNGKEYQGVPGHADYQIAEF  YK++LP+P V + +D RT  T +L+P NN D  KAAELQWR S+P+MV  LTL+AVPLSR++PRSGK++KLLPAIIIYI YAN +F++RDA+ +GK+P W+G+WWVH+ +   G+L +WRNQ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|962260136|gb|KTD44251.1|</Hit_id>
+  <Hit_def>permease [Legionella parisiensis] &gt;gi|1069290651|gb|OEH46051.1| Lipopolysaccharide export system permease protein LptF [Legionella parisiensis]</Hit_def>
+  <Hit_accession>KTD44251</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.056</Hsp_bit-score>
+      <Hsp_score>1294</Hsp_score>
+      <Hsp_evalue>7.61969e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGVIIMKLMILELPTLLSFLVPLGFYIAMLLAYGRLYAESEMTVLGACGYGPNQLLKHSFIMATGVAIIVAVIMIWGSPLIYIERAKLLRSTGIQTLVQTIMPGRFHAINDGQEVFYVQSMSRDHTKAKQIFLAKKSSVNERTRWDILWADQAFAETDAKTGEDYIILENGKEYQGTPGQADYQVAEFGQYKARLPHPVIKISDDLRTISTASLLPYNNENVAKAAELQWRLSVPIMVFTLTLIAVPLSRINPRSGKYAKLLPAIIVYIVYANLLFIARDVMISGKTPQWIGLWWVHLIVISFGLFLNWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL++LELP L+  L+PLGFY+A+LLAYGRLYAESEMTVL ACGYGP QLLKHSF MAT V ++VA++MIW SP+I +ER KL+RSTGI+TL+QTIMPGRFHAIN GQ++FYVQSM+RDH++A+QIF+AK S  + R  WD+LWAD+AFAE + +TGE+YI+L+NGKEYQG PG ADYQ+AEF  YK++LP+P + + DD RT  T  L P NN ++ KAAELQWR+S+P+MV TLTL+AVPLSR++PRSGKY+KLLPAII+YI YAN +F++RD + +GK P WIG+WWVH+ V   G+   WRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|966436367|ref|WP_058476735.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella steigerwaltii] &gt;gi|962295038|gb|KTD78692.1| hypothetical protein Lstg_1161 [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476735</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.901</Hsp_bit-score>
+      <Hsp_score>1291</Hsp_score>
+      <Hsp_evalue>1.78037e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGNIPGVIIMKLMMLELPTLLSLLVPLGFYIAMLLAYGRLYAESEMTVLRACGYGPNQLLKHSFIMATVVAIIVAVIMIWGSPLIYIERAKLLRTTGIKTLVQTIMPGRFHAINEGQEVFYVQSMSRDHTKAEQVFLAKRSTVNDQIRWDILWADQAFAETDAKTGEDYIILQKGKEYQGIPGHADYQVAEFGQYKARLPHPVIEISEDLRTMSTASLLPFNNEDAAKAAELQWRLSVPIMVFTLTLVAVPLSRINPRSGKYAKLLPAIIIYILYANLLFIARDAMVSGKMPQWIGLWWIHLIVVAFGLFLIRRNQAKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASG+IPG +IMKL+MLELP L+ LL+PLGFY+A+LLAYGRLYAESEMTVLRACGYGP QLLKHSF MATVV ++VA++MIW SP+I +ER KL+R+TGIKTL+QTIMPGRFHAIN GQ++FYVQSM+RDH++AEQ+F+AK S  ++++ WD+LWAD+AFAE + +TGE+YI+LQ GKEYQG+PGHADYQ+AEF  YK++LP+P + + +D RT  T  L P NN D  KAAELQWR+S+P+MV TLTLVAVPLSR++PRSGKY+KLLPAIIIYI YAN +F++RDA+ +GK+P WIG+WW+H+ V   G+  I RNQ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|489729051|ref|WP_003633167.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella longbeachae] &gt;gi|269989992|gb|EEZ96246.1| putative permease [Legionella longbeachae D-4968] &gt;gi|288856939|emb|CBJ10753.1| Predicted membrane protein [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003633167</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.745</Hsp_bit-score>
+      <Hsp_score>1288</Hsp_score>
+      <Hsp_evalue>5.0932e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGVIIMKLMMLELPTLLCLLIPLGFYIAMLLAYGRLYAESEMTVLRACGYGPNKLLKHSLIMATVVGFIVAIVMIWGSPLIYIERAKLLRSTGIQTLVQTIMPGRFHAINEGKEVFYVQSMSRDHTKAEQVFLAKRTTVDDKTRWDVLWADQAFAETDPKTGEDYIILQNGKEYQGVPGHADYQIAEFGEYKARLPHPVVKISEDFRTISTANLFPFNNTDRAKAAELQWRFSVPIMVFALTLIAVPLSRINPRSGKFAKLLPAIIIYIVYANLLFIARDAMVSGKMPQWLGLWWVHLCIIAFGLWLIWRNQAKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL+MLELP L+ LL+PLGFY+A+LLAYGRLYAESEMTVLRACGYGP +LLKHS  MATVV  +VAIVMIW SP+I +ER KL+RSTGI+TL+QTIMPGRFHAIN G+++FYVQSM+RDH++AEQ+F+AK +  D++  WDVLWAD+AFAE +P+TGE+YI+LQNGKEYQGVPGHADYQIAEF  YK++LP+P V + +D RT  T +L+P NN D  KAAELQWR S+P+MV  LTL+AVPLSR++PRSGK++KLLPAIIIYI YAN +F++RDA+ +GK+P W+G+WWVH+ +   G+  IWRNQ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|493927258|ref|WP_006872008.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella drancourtii] &gt;gi|363536391|gb|EHL29833.1| hypothetical protein LDG_8125 [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>WP_006872008</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.745</Hsp_bit-score>
+      <Hsp_score>1288</Hsp_score>
+      <Hsp_evalue>5.74507e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGTIPGVIIMKLMMLELPTLLSLLVPLGFYIAMLVAYGRLYAESEMTVLRACGYGPNQLLQHSFIMAIGVALIVAAVMIWASPYIYIERAKLLRTTGIQTLVQTIMPGRFHAAHNGQEVFYVQSMSRDHSKAEHVFLAKRSKEKNKMRWDVLWADKAFAETDAKTGEDYIILQDGKEYQGTPGHADYQISEFGEYKARLPHPIVKINDDLRTFSTASLWPLNNADPGKAAELQWRLSVPIMVLTLTLVAVPLSRINSRSGKYAKLFPAIIIYILYANLMFIGRDAIVSGKIPQWLGLWWIHFLVVALGLFLIWRNQVKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASG+IPG +IMKL+MLELP L+ LL+PLGFY+A+L+AYGRLYAESEMTVLRACGYGP QLL+HSF MA  V ++VA VMIWASP I +ER KL+R+TGI+TL+QTIMPGRFHA ++GQ++FYVQSM+RDHS+AE +F+AK S + N++ WDVLWADKAFAE + +TGE+YI+LQ+GKEYQG PGHADYQI+EF  YK++LP+P V ++DD RT  T  LWPLNN D  KAAELQWR+S+P+MVLTLTLVAVPLSR++ RSGKY+KL PAIIIYI YAN MF+ RDAI +GKIP W+G+WW+H  V  LG+  IWRNQVKLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|518047909|ref|WP_019218117.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella tunisiensis]</Hit_def>
+  <Hit_accession>WP_019218117</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.36</Hsp_bit-score>
+      <Hsp_score>1287</Hsp_score>
+      <Hsp_evalue>6.62384e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFVRYLNRAASGQIPGMIIMKLMMLELPNLMGLLLPLGFYVALLIAYGRLYAESEMTVLQACGYGPSQLLRHSFIMAAVVSVLVGIIMIWASPVIATERAKLLRTTGIQTAIQMIVPGRFRALSEGKQIFYVESMNREHSKAQHVFLARQVVKNNQLQWDILLAERAFAETDPKTLENYIVLQRGSEYEGMPGKADFQVAEFDQYKARLPHPVIEIEKDIRTTDTASLLPFNNPDRRKAAELQWRLSVPIMVLTLTLVAVPLSRVNPRAGKYAKLLPAIVLYIVYANFMFVSRDWLIAGKVPLWVGVWWLHLTVVGIGLLLIWRNQVKLS</Hsp_hseq>
+      <Hsp_midline>MSNQF++YLNRAASG IPG +IMKL+MLELPNLMGLLLPLGFYVALL+AYGRLYAESEMTVL+ACGYGP QLL+HSF MA VV V+V I+MIWASPVIA ER KL+R+TGI+T IQ I+PGRF A++ G+QIFYV+SMNR+HS+A+ +F+A+  V++N+L WD+L A++AFAE +P+T E YIVLQ G EY+G+PG AD+Q+AEF  YK++LP+P + +  D RT  T  L P NN D +KAAELQWR+S+P+MVLTLTLVAVPLSRV+PR+GKY+KLLPAI++YI YANFMFVSRD +  GK+P W+G+WW+H+ V  +G+L IWRNQVKL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|498338362|ref|WP_010652518.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Fluoribacter dumoffii] &gt;gi|962207531|gb|KTC92462.1| hypothetical protein Ldum_0268 [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652518</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.975</Hsp_bit-score>
+      <Hsp_score>1286</Hsp_score>
+      <Hsp_evalue>9.61118e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGSIPGVIIMKLMMLELPTLLSLLVPLGFYIAMLLAYGRLYAESEMTVLRACGYGPSQLLKHSFIMATVVAVVVAVVMIWGSPLIYVERAKLLRTTGIKTLVQTIMPGRFHAINEGQEVFYVQSMSRDHTKAEQVFLAKRSSINEQIRWDILWADQAFAETDPATGEDYIILQKGKEYQGIPGHADYQIAEFDQYKARLPHPVVKVSSDLRTASTASLLPLNNKDPAKAAELQWRLSVPLMVLTLTLVAVPLSRINPRSGKYAKLFPAIIIYILYANFLFIARDAMVSGKTPQWIGLWWVHLIVIAFGLFLIWRNQAKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASGSIPG +IMKL+MLELP L+ LL+PLGFY+A+LLAYGRLYAESEMTVLRACGYGP QLLKHSF MATVV VVVA+VMIW SP+I VER KL+R+TGIKTL+QTIMPGRFHAIN GQ++FYVQSM+RDH++AEQ+F+AK S  + ++ WD+LWAD+AFAE +P TGE+YI+LQ GKEYQG+PGHADYQIAEF  YK++LP+P V +  D RTA T  L PLNN D  KAAELQWR+S+PLMVLTLTLVAVPLSR++PRSGKY+KL PAIIIYI YANF+F++RDA+ +GK P WIG+WWVH+ V   G+  IWRNQ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|966395930|ref|WP_058440981.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella brunensis] &gt;gi|962200527|gb|KTC85518.1| hypothetical protein Lbru_0883 [Legionella brunensis]</Hit_def>
+  <Hit_accession>WP_058440981</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.352</Hsp_bit-score>
+      <Hsp_score>1274</Hsp_score>
+      <Hsp_evalue>7.10206e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>MSNQFVQYLNRAAAGNIPAVIIMKLMMLELPNLMGLLLPLGFYTSLLIAYGRLYAESEMIVLQACGYGPSQLIKHSFIMATVVAALVTVIMLWVSPVIATERTKLMKTTGVQTLIQTIVPGRFRQIANGKQVFYVESMTRNHTKAQHVFLARQVTKDQVPQWDILWAERAYAETDPKTYEDYIVLQQGKEYEGLPGHANYQVAQFEEYKIRLPHPTLTAHDDIRTATTASLFPFANSDLRKAAELQWRLSLPIMVFVLTLVAIPLSRVNPRSGKYAKLLPAIVLFIIYANFMFVSRDWIIAGRIPLWIGIWWLHLSVALIGLFLIWRNRVKLS</Hsp_hseq>
+      <Hsp_midline>MSNQF+QYLNRAA+G+IP  +IMKL+MLELPNLMGLLLPLGFY +LL+AYGRLYAESEM VL+ACGYGP QL+KHSF MATVV  +V ++M+W SPVIA ER KL+++TG++TLIQTI+PGRF  I +G+Q+FYV+SM R+H++A+ +F+A+   +D    WD+LWA++A+AE +P+T E+YIVLQ GKEY+G+PGHA+YQ+A+F  YK +LP+PT+  HDD RTA T  L+P  N DL+KAAELQWR+S+P+MV  LTLVA+PLSRV+PRSGKY+KLLPAI+++I YANFMFVSRD I  G+IP WIG+WW+H++VA++G+  IWRN+VKL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|654930413|ref|WP_028380782.1|</Hit_id>
+  <Hit_def>LPS export ABC transporter permease LptF [Legionella cherrii] &gt;gi|962197161|gb|KTC82205.1| hypothetical protein Lche_0469 [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380782</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.582</Hsp_bit-score>
+      <Hsp_score>1272</Hsp_score>
+      <Hsp_evalue>1.38487e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MSNQFIQYLNRAASGSIPGFVIMKLLMLELPNLMGLLLPLGFYVALLLAYGRLYAESEMTVLRACGYGPRQLLKHSFAMATVVLVVVAIVMIWASPVIAVERIKLIRSTGIKTLIQTIMPGRFHAINSGQQIFYVQSMNRDHSQAEQIFMAKHSVQDNRLLWDVLWADKAFAEVNPQTGEEYIVLQNGKEYQGVPGHADYQIAEFASYKSKLPNPTVVMHDDARTAKTRDLWPLNNHDLKKAAELQWRISIPLMVLTLTLVAVPLSRVSPRSGKYSKLLPAIIIYIFYANFMFVSRDAIATGKIPWWIGMWWVHVAVAILGILFIWRNQVKLA</Hsp_qseq>
+      <Hsp_hseq>LSNQLIQYLNRAASGNIPGVIIMKLMMLELPTLLSLLVPLGFYIAMLLAYGRLYAESEMTVLRACGYGPNQLLKHSFIMATVVAIIVAVIMIWGSPLIYIERAKLLRTTGIKTLVQTIMPGRFHAINEGQEVFYVQSMSRDHTKAEQVFLAKRSSVNDQIRWDILWADQAFAETDAKTGEDYIILQKGKEYQGIPGQADYQVAEFGQYKARLPHPVVNISQDLRTMSTASLLPFNNEDPAKAAELQWRLSVPIMVFTLTLIAVPLSRINPRSGKYAKLFPAIIIYILYANLLFIARDAMVSGKTPQWIGLWWVHLIVVAFGLFLIRRNQAKLA</Hsp_hseq>
+      <Hsp_midline>+SNQ IQYLNRAASG+IPG +IMKL+MLELP L+ LL+PLGFY+A+LLAYGRLYAESEMTVLRACGYGP QLLKHSF MATVV ++VA++MIW SP+I +ER KL+R+TGIKTL+QTIMPGRFHAIN GQ++FYVQSM+RDH++AEQ+F+AK S  ++++ WD+LWAD+AFAE + +TGE+YI+LQ GKEYQG+PG ADYQ+AEF  YK++LP+P V +  D RT  T  L P NN D  KAAELQWR+S+P+MV TLTL+AVPLSR++PRSGKY+KL PAIIIYI YAN +F++RDA+ +GK P WIG+WWVH+ V   G+  I RNQ KLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
