@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_228271</BlastOutput_query-ID>
+  <BlastOutput_query-def>GeneID:19834236</BlastOutput_query-def>
+  <BlastOutput_query-len>441</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_228271</Iteration_query-ID>
+  <Iteration_query-def>GeneID:19834236</Iteration_query-def>
+  <Iteration_query-len>441</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499250831|ref|WP_010948371.1|</Hit_id>
+  <Hit_def>zinc protease [Legionella pneumophila] &gt;gi|52842877|ref|YP_096676.1| zinc protease [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|52629988|gb|AAU28729.1| zinc protease (peptidase, M16 family) [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|364509382|gb|AEW52906.1| zinc protease (peptidase, M16 family) [Legionella pneumophila subsp. pneumophila ATCC 43290] &gt;gi|469490605|gb|AGH52450.1| peptidase, M16 family [Legionella pneumophila subsp. pneumophila LPE509] &gt;gi|509083344|gb|AGN15592.1| zinc protease [Legionella pneumophila subsp. pneumophila str. Thunder Bay] &gt;gi|998772802|emb|CZI16373.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998775749|emb|CZG61685.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998778335|emb|CZG76363.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998784574|emb|CZG87192.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998787526|emb|CZG60007.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998796539|emb|CZI02146.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998800290|emb|CZL03760.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998805827|emb|CZK08280.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998808339|emb|CZH87182.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998811931|emb|CZH80119.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998814270|emb|CZG61228.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998817747|emb|CZL60727.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998820849|emb|CZL61771.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998826811|emb|CZK09213.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998832551|emb|CZI05757.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998835784|emb|CZK89244.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998837827|emb|CZJ71478.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998842323|emb|CZL14449.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998844741|emb|CZK29950.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998847692|emb|CZK67510.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998850221|emb|CZI36739.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998853796|emb|CZL27255.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998856492|emb|CZL33931.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998859815|emb|CZL74773.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998862649|emb|CZK18425.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998865375|emb|CZJ40398.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998869884|emb|CZJ36746.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998871079|emb|CZM17533.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998874567|emb|CZK39552.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998877446|emb|CZL98952.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998880513|emb|CZI86398.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998888057|emb|CZL51233.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998889208|emb|CZK22389.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998895490|emb|CZJ98590.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998906142|emb|CZK57437.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998909713|emb|CZL10233.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998915816|emb|CZK61123.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998918285|emb|CZK81888.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998921256|emb|CZL37991.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998927561|emb|CZL63245.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998930648|emb|CZK74778.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998933947|emb|CZL76632.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998939863|emb|CZK75854.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998945940|emb|CZK93583.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998948984|emb|CZK81782.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998958630|emb|CZM02177.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998961536|emb|CZK26526.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998964597|emb|CZK04264.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998966981|emb|CZM53861.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998970523|emb|CZK55271.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998973786|emb|CZK26020.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998979491|emb|CZL58817.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998985840|emb|CZJ98491.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998988730|emb|CZL49029.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998998008|emb|CZJ87856.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999007980|emb|CZK26451.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999012913|emb|CZL43316.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999016835|emb|CZL67744.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999022633|emb|CZL13599.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999025396|emb|CZK75246.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999037153|emb|CZL55476.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999046877|emb|CZL77963.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999061684|emb|CZL16420.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999067352|emb|CZJ17347.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999076924|emb|CZG60091.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999080268|emb|CZJ92784.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999082773|emb|CZK77248.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999090517|emb|CZK42279.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999092511|emb|CZL41862.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999095296|emb|CZG88837.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999098689|emb|CZG58853.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999101117|emb|CZL66948.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999110440|emb|CZL16381.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999113781|emb|CZL50869.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999116438|emb|CZK50075.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999126350|emb|CZK80017.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999131616|emb|CZL95896.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999134835|emb|CZL18071.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999138063|emb|CZK26787.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999141822|emb|CZL45653.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999144533|emb|CZK68314.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999147675|emb|CZL51153.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999156835|emb|CZH74134.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999175815|emb|CZL05648.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999191259|emb|CZI16913.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999194382|emb|CZI42817.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999200247|emb|CZG59830.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999203693|emb|CZI42834.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999210039|emb|CZK76667.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999219279|emb|CZL29499.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999222374|emb|CZI34117.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999335300|emb|CZK73326.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1002075579|emb|CZQ94531.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1002079085|emb|CZQ95036.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1003020175|emb|CZR21743.1| zinc protease (peptidase%2C M16 family) [Legionella pneumophila] &gt;gi|1003023056|emb|CZR20539.1| zinc protease (peptidase%2C M16 family) [Legionella pneumophila] &gt;gi|1003026898|emb|CZR18321.1| zinc protease (peptidase%2C M16 family) [Legionella pneumophila] &gt;gi|1073865712|gb|AOU05663.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073868681|gb|AOU08631.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073871676|gb|AOU11625.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073877601|gb|AOU17548.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073880564|gb|AOU20510.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073883561|gb|AOU23506.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073886553|gb|AOU26497.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073889522|gb|AOU29465.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073892506|gb|AOU32448.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073895474|gb|AOU35415.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073898432|gb|AOU38372.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073901398|gb|AOU41337.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073904307|gb|AOU44245.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073907260|gb|AOU47197.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073910278|gb|AOU50213.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073913290|gb|AOU53222.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073916250|gb|AOU56181.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073919213|gb|AOU59143.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073922116|gb|AOU62045.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073925199|gb|AOU65126.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073928162|gb|AOU68088.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073931148|gb|AOU71057.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073934517|gb|AOU74076.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073937482|gb|AOU84481.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073947748|gb|AOU87472.1| peptidase M16 [Legionella pneumophila] &gt;gi|1073950676|gb|AOU90399.1| peptidase M16 [Legionella pneumophila] &gt;gi|1104004075|emb|SFZ47058.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1129969334|gb|APT99693.1| peptidase M16 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_010948371</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>911.368</Hsp_bit-score>
+      <Hsp_score>2354</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>441</Hsp_identity>
+      <Hsp_positive>441</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|500496265|ref|WP_011947584.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|148280367|gb|ABQ54455.1| zinc protease (peptidase, M16 family) [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>WP_011947584</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>908.672</Hsp_bit-score>
+      <Hsp_score>2347</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKPLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHK LISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|502866952|ref|WP_013101928.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|295650219|gb|ADG26066.1| zinc protease (peptidase, M16 family) [Legionella pneumophila 2300/99 Alcoy] &gt;gi|761996895|dbj|GAN31070.1| protease 3 precursor [Legionella pneumophila] &gt;gi|998802665|emb|CZH90293.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998912284|emb|CZG95046.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998993992|emb|CZI48232.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999004497|emb|CZI45128.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999151611|emb|CZH57014.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999158644|emb|CZJ91943.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999166098|emb|CZG71271.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999168353|emb|CZI53289.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999177436|emb|CZJ85102.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999286748|emb|CZI74127.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999293129|emb|CZI63077.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999302223|emb|CZI54541.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999312088|emb|CZI88982.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1002091797|emb|CZR06511.1| Protease 3 precursor [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_013101928</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>908.672</Hsp_bit-score>
+      <Hsp_score>2347</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>440</Hsp_identity>
+      <Hsp_positive>440</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1003783084|ref|WP_061467341.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061467341</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>907.131</Hsp_bit-score>
+      <Hsp_score>2343</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>439</Hsp_identity>
+      <Hsp_positive>439</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEVLKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELE LKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1003996637|ref|WP_061481515.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|999119134|emb|CZG87674.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999122259|emb|CZH21290.1| Protease 3 precursor [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061481515</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>906.746</Hsp_bit-score>
+      <Hsp_score>2342</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>439</Hsp_identity>
+      <Hsp_positive>439</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAAHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|652967025|ref|WP_027220002.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|761990412|dbj|GAN18636.1| protease 3 precursor [Legionella pneumophila] &gt;gi|761993602|dbj|GAN21742.1| protease 3 precursor [Legionella pneumophila] &gt;gi|998982064|emb|CZI90188.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999106910|emb|CZI83527.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999231184|emb|CZI61146.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1032658748|gb|ANH14019.1| peptidase M16 [Legionella pneumophila] &gt;gi|1032661710|gb|ANH16980.1| peptidase M16 [Legionella pneumophila] &gt;gi|1032664688|gb|ANH19957.1| peptidase M16 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027220002</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>905.205</Hsp_bit-score>
+      <Hsp_score>2338</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>439</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMVWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSM+WYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1003963876|ref|WP_061476810.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061476810</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>904.434</Hsp_bit-score>
+      <Hsp_score>2336</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>439</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVGDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRIKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKV DLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQR+KNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1006936067|ref|WP_061828086.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|998790057|emb|CZH04673.1| Protease 3 precursor [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061828086</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>904.434</Hsp_bit-score>
+      <Hsp_score>2336</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKAHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEK HALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|504655611|ref|WP_014842713.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|395128673|emb|CCD06891.1| putative Peptidase M16 [Legionella pneumophila subsp. pneumophila] &gt;gi|999248058|emb|CZH50182.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999269732|emb|CZO25651.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999455563|emb|CZH46361.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999462182|emb|CZG04056.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999465438|emb|CZM27346.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999468306|emb|CZO06085.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999474588|emb|CZM56321.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999478137|emb|CZN23688.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999481332|emb|CZM61674.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999484362|emb|CZN95298.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999487566|emb|CZL96538.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999490757|emb|CZN59798.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999493935|emb|CZL95185.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999500385|emb|CZN58577.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999503607|emb|CZN88718.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999506803|emb|CZM94394.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999509990|emb|CZG24610.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999513195|emb|CZN18688.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999515216|emb|CZM27767.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999519762|emb|CZM48723.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999532630|emb|CZO30918.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999534710|emb|CZN67759.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999539023|emb|CZM52081.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999542323|emb|CZO09100.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999545417|emb|CZO44506.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999548621|emb|CZN74788.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999551805|emb|CZN97553.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999555182|emb|CZM94990.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999558195|emb|CZO44201.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999561399|emb|CZM28981.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999564588|emb|CZO44239.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999567787|emb|CZM42003.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999570986|emb|CZN40583.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999574176|emb|CZN78050.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999580667|emb|CZO02574.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999584179|emb|CZO16135.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999585953|emb|CZN11752.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999590564|emb|CZM23892.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999593439|emb|CZN33831.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999596637|emb|CZN96349.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999599821|emb|CZO22537.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999603323|emb|CZL65888.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999606216|emb|CZN37201.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999609734|emb|CZN42914.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999615910|emb|CZM33263.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999618941|emb|CZN74220.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999622383|emb|CZO54255.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999625573|emb|CZN51689.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999629010|emb|CZM43803.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999631888|emb|CZM47812.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999635072|emb|CZN38357.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999638276|emb|CZN37131.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999641472|emb|CZO65155.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999644643|emb|CZO30530.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999648180|emb|CZN78025.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999650991|emb|CZN94568.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999654245|emb|CZN90562.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999657623|emb|CZL98729.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999660646|emb|CZM50088.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999664160|emb|CZM84348.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999667029|emb|CZM23139.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999670223|emb|CZL72384.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999673610|emb|CZM17486.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999676626|emb|CZN63649.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999679661|emb|CZM64660.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999682856|emb|CZM71452.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999686082|emb|CZN94596.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999689578|emb|CZN08689.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999692613|emb|CZN83285.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999695989|emb|CZM99416.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999698205|emb|CZM32158.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999702534|emb|CZM45875.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999705596|emb|CZL57359.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999708620|emb|CZN40069.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999711872|emb|CZM84757.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999715445|emb|CZM90831.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999718464|emb|CZO25757.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999721462|emb|CZM69760.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999724802|emb|CZN19577.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999728117|emb|CZL87620.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999731695|emb|CZO23051.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999734944|emb|CZM01689.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999738154|emb|CZO46213.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999741146|emb|CZM27298.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999744552|emb|CZN05736.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999747973|emb|CZM02296.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999750868|emb|CZL81847.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999754054|emb|CZM69864.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999757397|emb|CZM81596.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999760456|emb|CZM17791.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999763829|emb|CZN08751.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999767026|emb|CZM54441.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999769885|emb|CZN42560.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999773589|emb|CZH75217.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999776499|emb|CZL87756.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999783363|emb|CZH48591.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999786539|emb|CZM15745.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999789870|emb|CZO51194.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999793183|emb|CZO49908.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999796430|emb|CZI06482.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999799619|emb|CZO60349.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1003035461|emb|CZR22837.1| zinc protease (peptidase%2C M16 family) [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014842713</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>904.049</Hsp_bit-score>
+      <Hsp_score>2335</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>439</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSDQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVS+QELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1006042192|ref|WP_061722068.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|999324894|emb|CZH12346.1| Protease 3 precursor [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061722068</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.894</Hsp_bit-score>
+      <Hsp_score>2332</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLIFLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLI LMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|506459844|ref|WP_015961744.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|53752446|emb|CAH13878.1| hypothetical protein lpp2725 [Legionella pneumophila str. Paris] &gt;gi|536611709|gb|ERB40227.1| peptidase M16 [Legionella pneumophila str. 121004] &gt;gi|542000398|gb|ERH46385.1| peptidase M16 [Legionella pneumophila str. Leg01/11] &gt;gi|542123187|gb|ERI49496.1| peptidase M16 [Legionella pneumophila str. Leg01/20] &gt;gi|762000266|dbj|GAN27998.1| protease 3 precursor [Legionella pneumophila] &gt;gi|998781127|emb|CZJ41847.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998792867|emb|CZI70950.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998824325|emb|CZG46930.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998829420|emb|CZG76920.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998883284|emb|CZI74856.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998898875|emb|CZJ47590.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998936525|emb|CZM51133.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998952280|emb|CZJ35394.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999000457|emb|CZG78425.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999058001|emb|CZM57032.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999104128|emb|CZI04553.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999128739|emb|CZH01390.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999153816|emb|CZM15364.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999162904|emb|CZM03912.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999173359|emb|CZH69046.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999182581|emb|CZG28666.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999184538|emb|CZP93640.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999188746|emb|CZI77875.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999198346|emb|CZP08457.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999206399|emb|CZP57637.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999213678|emb|CZG45231.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999217032|emb|CZI71097.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999225876|emb|CZG31177.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999227814|emb|CZP38805.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999235087|emb|CZP53565.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999236366|emb|CZH07369.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999240583|emb|CZH77019.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999244252|emb|CZH72473.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999256190|emb|CZP75073.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999259237|emb|CZP40363.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999265419|emb|CZP02915.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999272113|emb|CZP53351.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999277820|emb|CZP30953.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999281474|emb|CZP21331.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999284122|emb|CZP49073.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999290875|emb|CZP28640.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999296725|emb|CZP48851.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999299964|emb|CZP26229.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999307193|emb|CZH66797.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999309579|emb|CZP21167.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999315935|emb|CZI01695.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999318980|emb|CZP57649.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999322232|emb|CZH93352.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999337963|emb|CZP42906.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999344127|emb|CZP91381.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999347415|emb|CZP59642.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999353766|emb|CZP53894.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999356875|emb|CZP75983.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999361045|emb|CZH99648.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999363241|emb|CZP72047.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999367004|emb|CZP72833.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999369578|emb|CZP86282.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999374003|emb|CZG02025.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999377394|emb|CZI92213.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999380693|emb|CZH52920.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999383363|emb|CZI13801.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999387508|emb|CZG12413.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999390315|emb|CZI12437.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999392518|emb|CZP96110.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999397020|emb|CZG14877.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999398766|emb|CZP99397.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999403234|emb|CZP46225.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999406467|emb|CZG45281.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999409361|emb|CZH70350.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999412625|emb|CZG28846.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999416695|emb|CZG16701.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999419325|emb|CZG44992.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999422564|emb|CZH43741.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999426529|emb|CZG26072.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999429069|emb|CZG28571.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999432658|emb|CZG03492.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999435784|emb|CZH66987.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999438303|emb|CZG43473.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999442293|emb|CZJ86476.1| zinc protease (peptidase%2C M16 family) [Legionella pneumophila] &gt;gi|999445284|emb|CZH55177.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999448546|emb|CZG01964.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999450835|emb|CZP31554.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999458404|emb|CZJ91925.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999496975|emb|CZI08459.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999521387|emb|CZP46357.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999526374|emb|CZI63067.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999529256|emb|CZI18908.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999577024|emb|CZI00861.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999612325|emb|CZI04786.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1002085433|emb|CZQ99122.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1002088094|emb|CZQ79272.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1003028356|emb|CZR23366.1| zinc protease (peptidase%2C M16 family) [Legionella pneumophila] &gt;gi|1015434096|gb|AMV15723.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1041016643|gb|ANN93704.1| peptidase M16 [Legionella pneumophila] &gt;gi|1041019640|gb|ANN96700.1| peptidase M16 [Legionella pneumophila] &gt;gi|1103997836|emb|SFZ47057.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1104007529|emb|SFZ47149.1| Protease 3 precursor [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_015961744</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.894</Hsp_bit-score>
+      <Hsp_score>2332</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLQLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNL LNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|504657668|ref|WP_014844770.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|395131757|emb|CCD10050.1| putative Peptidase M16 [Legionella pneumophila subsp. pneumophila] &gt;gi|761987338|dbj|GAN24688.1| protease 3 precursor [Legionella pneumophila] &gt;gi|998892937|emb|CZJ09828.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999249462|emb|CZG80074.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999252929|emb|CZG93523.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999262115|emb|CZH04713.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999274382|emb|CZH10448.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999327627|emb|CZH29199.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999332852|emb|CZG01918.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999340771|emb|CZH00389.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999350103|emb|CZH27210.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999469952|emb|CZG81196.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999778519|emb|CZH02891.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1002082177|emb|CZQ96438.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|1104000976|emb|SFZ47059.1| Protease 3 precursor [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_014844770</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.508</Hsp_bit-score>
+      <Hsp_score>2331</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVGDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKV DLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1006526295|ref|WP_061784477.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|1005834339|gb|AMQ29065.1| peptidase M16 [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_061784477</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.123</Hsp_bit-score>
+      <Hsp_score>2330</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPIVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVGDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAP+VVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKV DLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|499535758|ref|WP_011216541.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|53755343|emb|CAH16839.1| hypothetical protein lpl2598 [Legionella pneumophila str. Lens] &gt;gi|1080002993|gb|AOW53565.1| peptidase M16 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080008915|gb|AOW58903.1| peptidase M16 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080011418|gb|AOW60909.1| peptidase M16 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080015490|gb|AOW64363.1| peptidase M16 [Legionella pneumophila subsp. pneumophila] &gt;gi|1080017662|gb|AOW66307.1| peptidase M16 [Legionella pneumophila subsp. pneumophila]</Hit_def>
+  <Hit_accession>WP_011216541</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>901.738</Hsp_bit-score>
+      <Hsp_score>2329</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLQLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLQTIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNL LNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLL+TIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|653014222|ref|WP_027266271.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027266271</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>901.353</Hsp_bit-score>
+      <Hsp_score>2328</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>437</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAELGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLQLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIA LGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNL LNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|654928533|ref|WP_028378964.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_028378964</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>900.968</Hsp_bit-score>
+      <Hsp_score>2327</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>437</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADESVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLQLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADE VGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNL LNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|652974033|ref|WP_027226747.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|998924327|emb|CZJ97459.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998942572|emb|CZK07027.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998954623|emb|CZK43232.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998976150|emb|CZJ64576.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|998991478|emb|CZK06292.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999009865|emb|CZK04677.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999018883|emb|CZJ59777.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999028019|emb|CZJ92350.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999031579|emb|CZG69832.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999034013|emb|CZJ96234.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999040220|emb|CZJ66331.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999043113|emb|CZJ79013.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999048932|emb|CZJ84925.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999052189|emb|CZJ66701.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999055193|emb|CZJ98955.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999064299|emb|CZJ76909.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999070146|emb|CZJ76539.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999073395|emb|CZK03132.1| Protease 3 precursor [Legionella pneumophila] &gt;gi|999085662|emb|CZJ99437.1| Protease 3 precursor [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_027226747</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>900.582</Hsp_bit-score>
+      <Hsp_score>2326</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>437</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVGDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAITEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKV DLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAI EITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1004334775|ref|WP_061513700.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>WP_061513700</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>899.427</Hsp_bit-score>
+      <Hsp_score>2323</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>437</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPIGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDADHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAERYFSSIAKRPIASRKPQQEPLALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVFGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEP+GITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAE YF SIAKRPIASRKPQQEP ALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIV+GAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1073875033|gb|AOU14981.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila]</Hit_def>
+  <Hit_accession>AOU14981</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>895.19</Hsp_bit-score>
+      <Hsp_score>2312</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|652976381|ref|WP_027229053.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|985764679|gb|KXB25798.1| peptidase M16 [Legionella pneumophila] &gt;gi|985767049|gb|KXB28144.1| peptidase M16 [Legionella pneumophila] &gt;gi|1024339735|gb|KZX34074.1| peptidase M16 [Legionella pneumophila] &gt;gi|1108606021|gb|APF04389.1| peptidase M16 [Legionella pneumophila subsp. fraseri] &gt;gi|1108609003|gb|APF07370.1| peptidase M16 [Legionella pneumophila subsp. fraseri]</Hit_def>
+  <Hit_accession>WP_027229053</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>891.723</Hsp_bit-score>
+      <Hsp_score>2303</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>436</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAAHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYQNYYAPNNATLVVVGDVNPEKVHALAERYFGSIAKRPVAARKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPGVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGKQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALIAELDSLKKAPVSNKELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWY++YYAPNNATLVVVGDVNPEKVHALAE YFGSIAKRP+A+RKPQQEPSALGKKMVYINAPAKLPLLLIGYTVP VKTAKNNWEPYALEIIAGILDAGESARFAKHLVRG QVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALI EL++LKKAPVSN+ELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|652969926|ref|WP_027222819.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella pneumophila] &gt;gi|1005362906|gb|AMP88775.1| peptidase M16 [Legionella pneumophila subsp. pascullei] &gt;gi|1005367831|gb|AMP93608.1| peptidase M16 [Legionella pneumophila subsp. pascullei] &gt;gi|1005370750|gb|AMP96526.1| peptidase M16 [Legionella pneumophila subsp. pascullei]</Hit_def>
+  <Hit_accession>WP_027222819</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>889.797</Hsp_bit-score>
+      <Hsp_score>2298</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAAHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYENYYAPNNATLVVVGDVNPEKVHALAQRYFGSIAKRPIAARKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPGVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGKQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALIAELDSLKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINGITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYE+YYAPNNATLVVVGDVNPEKVHALA+ YFGSIAKRPIA+RKPQQEPSALGKKMVYINAPAKLPLLLIGYTVP VKTAKNNWEPYALEIIAGILDAGESARFAKHLVRG QVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALI EL++LKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAIN ITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|737925365|ref|WP_035890574.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella norrlandica] &gt;gi|701445400|gb|KGP62785.1| peptidase M16 [Legionella norrlandica]</Hit_def>
+  <Hit_accession>WP_035890574</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>827.009</Hsp_bit-score>
+      <Hsp_score>2135</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>392</Hsp_identity>
+      <Hsp_positive>417</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MHKLLISFMMLFAFQAFSQVQEFTLNNGLKVLVKEDHRAPIAVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTPKHPVGVFSKTIATLGGQENAFTNNDYTAYYEKLDAAHLATSFELEADRMNNLLLDSDEFAKEIKVIQEERRMRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMSANDLKKWYRNYYAPNNATLVVVGDVNPEKVHALAVQYFGSIPRHPIAARKPQQEPPALGKKIVHIKAPAKLPLLLIGYTVPSVKTAKNKWEPYALEIIGGILDAGESARFAKNLVRGNQVATGAEVYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALIAELDSLKKVPVSDKELKRIKNQIIAQKIFEQDSIFGQAMELGLLETIGIGWQNTDEYTKAINDITPQQIQQVAQRYFQENNMTVAELKPTRQEEVRP</Hsp_hseq>
+      <Hsp_midline>MHKLLIS MML +FQAFSQVQE+TLNNGLKVLVKEDHRAP+ VSMIWYNVGSADEPVGITGVSHAIEHMMFKGT K+PVGVFSKTIA LGGQENAFTNNDYTAYYEKLDA HLATSFELEADRMNNLLL+S+EFAKEIKVIQEERR+RTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQM   DLKKWY +YYAPNNATLVVVGDVNPEKVHALA  YFGSI + PIA+RKPQQEP ALGKK+V+I APAKLPLLLIGYTVPSVKTAKN WEPYALEII GILDAGESARFAK+LVRGNQVATGAE YYNLYSRYQSQFIVYGAPSQDHQIKDLEKALI EL++LKK PVS++EL+R+KNQIIAQK FE+DSIFGQAMELGLLETIG+GW+NT+ YTKAIN+ITP+QIQQVAQRYFQENNMTVAELKP RQEEVRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|517403143|ref|WP_018576010.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella shakespearei] &gt;gi|962276099|gb|KTD60000.1| zinc protease [Legionella shakespearei DSM 23087]</Hit_def>
+  <Hit_accession>WP_018576010</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>753.051</Hsp_bit-score>
+      <Hsp_score>1943</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>352</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEE</Hsp_qseq>
+      <Hsp_hseq>MRKTLVILFMLLSCQTFSQVQEYTLNNGLKVLVKEDHRAPIAVSMIWYNIGSADEPVGITGVSHAIEHMMFKGTKKFPLGVFSKTIAAQGGQENAFTNNDYTAYFEKIDASRLATSFELEADRMNNLLLDADEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLTAPYNHPVIGWMNDLQQMKVEDLKTWYQSYYAPNNATLVVVGDVNPEKVHALAEQYFGAIPGKAVVSRKPQQEPPALGKKSIVVEAPAKLPMLMIGYTVPGVKTAKNAWEPYALELIAGILDAGESSRFAKNLIRGSHVATGADVHYNLYARYQTQFIVYGAPSKNVSMPALQKSLLAELDALKAKPVEAQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETVGIGWKNIDNYPQAINSITPEQIQQTAQRYFQDKNRTEAELKPVQQDE</Hsp_hseq>
+      <Hsp_midline>M K L+ L MLLS Q FSQVQEYTLNNGLKVLVKEDHRAP+ VSMIWYN+GSADEPVGITGVSHAIEHMMFKGT K+P+GVFSKTIAA GGQENAFTNNDYTAY+EK+DA  LATSFELEADRMNNLLL+++EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHLTAPYNHPVIGWMNDL+QMKVEDLK WY+SYYAPNNATLVVVGDVNPEKVHALAE YFG+I  + + SRKPQQEP ALGKK + + APAKLP+L+IGYTVP VKTAKN WEPYALE+IAGILDAGES+RFAK+L+RG+ VATGA+ +YNLY+RYQ+QFIVYGAPS++  +  L+K+L+ EL+ALK  PV  QELQRVKNQIIAQKTFEKDSIFGQAMELGLLET+G+GWKN + Y +AIN ITPEQIQQ AQRYFQ+ N T AELKP++Q+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966439890|ref|WP_058480213.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella waltersii]</Hit_def>
+  <Hit_accession>WP_058480213</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>752.281</Hsp_bit-score>
+      <Hsp_score>1941</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>349</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEV</Hsp_qseq>
+      <Hsp_hseq>MRKLIMTMMMLLSLKAFSQVQEYTLSNGLKVLVKEDHRAPIAVSMIWYNVGSADEPTGLTGVSHAIEHMMFKGTPKYPLGVFSKTIAGLGGQENAFTNNDYTAYFEKIDAAHIATSFELEADRMNNLLLDSEEFSKEIKVIQEERRMRTDNNPQALTFERYLAAAHLSTPYQHPVIGWMTDLQQMQVSDLKKWYKKYYAPNNATLVVVGDVNPEKIHQLAEQYFGSIAKQTIQERKPQKEPKGLGKKTVTIQAPAKLPMLMLGYTVPSVKTAKKAWEPYALELIAGLLDAGESARFTKNLIRKNNVAAGAETYYNLYARYQTQFIVYGTPSQKHSMHDLEKALMAELNALKAKKVSNKELQRIKNQIIAQKTFEKDSIFGQAMEMGLLETTGLGWKKSDDYTNAINAVTPEQIQQTAQHYFQEQNSTVAELKPISQEEV</Hsp_hseq>
+      <Hsp_midline>M KL++++MMLLS +AFSQVQEYTL+NGLKVLVKEDHRAP+ VSMIWYNVGSADEP G+TGVSHAIEHMMFKGT KYP+GVFSKTIA LGGQENAFTNNDYTAY+EK+DA H+ATSFELEADRMNNLLL+SEEF+KEIKVIQEERR+RTDNNPQAL FER+LA AHL+ PY HPVIGWM DL+QM+V DLKKWY+ YYAPNNATLVVVGDVNPEK+H LAE YFGSIAK+ I  RKPQ+EP  LGKK V I APAKLP+L++GYTVPSVKTAK  WEPYALE+IAG+LDAGESARF K+L+R N VA GAE YYNLY+RYQ+QFIVYG PSQ H + DLEKAL+ EL ALK   VSN+ELQR+KNQIIAQKTFEKDSIFGQAME+GLLET GLGWK ++ YT AIN +TPEQIQQ AQ YFQE N TVAELKPI QEEV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|962295629|gb|KTD79274.1|</Hit_id>
+  <Hit_def>zinc protease [Legionella waltersii]</Hit_def>
+  <Hit_accession>KTD79274</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.355</Hsp_bit-score>
+      <Hsp_score>1936</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEV</Hsp_qseq>
+      <Hsp_hseq>VRKLIMTMMMLLSLKAFSQVQEYTLSNGLKVLVKEDHRAPIAVSMIWYNVGSADEPTGLTGVSHAIEHMMFKGTPKYPLGVFSKTIAGLGGQENAFTNNDYTAYFEKIDAAHIATSFELEADRMNNLLLDSEEFSKEIKVIQEERRMRTDNNPQALTFERYLAAAHLSTPYQHPVIGWMTDLQQMQVSDLKKWYKKYYAPNNATLVVVGDVNPEKIHQLAEQYFGSIAKQTIQERKPQKEPKGLGKKTVTIQAPAKLPMLMLGYTVPSVKTAKKAWEPYALELIAGLLDAGESARFTKNLIRKNNVAAGAETYYNLYARYQTQFIVYGTPSQKHSMHDLEKALMAELNALKAKKVSNKELQRIKNQIIAQKTFEKDSIFGQAMEMGLLETTGLGWKKSDDYTNAINAVTPEQIQQTAQHYFQEQNSTVAELKPISQEEV</Hsp_hseq>
+      <Hsp_midline>+ KL++++MMLLS +AFSQVQEYTL+NGLKVLVKEDHRAP+ VSMIWYNVGSADEP G+TGVSHAIEHMMFKGT KYP+GVFSKTIA LGGQENAFTNNDYTAY+EK+DA H+ATSFELEADRMNNLLL+SEEF+KEIKVIQEERR+RTDNNPQAL FER+LA AHL+ PY HPVIGWM DL+QM+V DLKKWY+ YYAPNNATLVVVGDVNPEK+H LAE YFGSIAK+ I  RKPQ+EP  LGKK V I APAKLP+L++GYTVPSVKTAK  WEPYALE+IAG+LDAGESARF K+L+R N VA GAE YYNLY+RYQ+QFIVYG PSQ H + DLEKAL+ EL ALK   VSN+ELQR+KNQIIAQKTFEKDSIFGQAME+GLLET GLGWK ++ YT AIN +TPEQIQQ AQ YFQE N TVAELKPI QEEV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|966432353|ref|WP_058472786.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella quateirensis] &gt;gi|962268729|gb|KTD52745.1| zinc protease [Legionella quateirensis]</Hit_def>
+  <Hit_accession>WP_058472786</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>748.429</Hsp_bit-score>
+      <Hsp_score>1931</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>347</Hsp_identity>
+      <Hsp_positive>397</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVR</Hsp_qseq>
+      <Hsp_hseq>MRKILITLFMLLSCQTFSQVQEYILNNGLKVLVKEDHRAPIAVSMIWYNIGSADEPGELTGVSHAIEHMMFKGTKKFPLGVFSKTIAAQGGQENAFTNNDFTAYFEKIDASRLATSFELEADRMNNLLLDADEFAKEIKVIQEERRMRTDNNPQALAFERFLATAHLSAPYNHPVIGWMNILQQMKVEDLKKWYQNYYAPNNATLVVVGDVNPEKVHALAQQYFGSIAKKAVVERKPQIEPPALGKKSIIIEAPAKLPLFMIGYTVPSVKTAQNSWEPYALELIAGILDSGESARFAKNLIRGSHVATGADVYYNLYARYQTQFIMYGAPSQNAQVADLKKGLLAELNSLKTTPVGEKELKRIKNQIIAQKTFEKDSIFGQAMELGLLESVGIGWRNTNNYAQAINSITPEQIQQTAQRYFQESNMTEAELKPTKNNEVK</Hsp_hseq>
+      <Hsp_midline>M K+LI+L MLLS Q FSQVQEY LNNGLKVLVKEDHRAP+ VSMIWYN+GSADEP  +TGVSHAIEHMMFKGT K+P+GVFSKTIAA GGQENAFTNND+TAY+EK+DA  LATSFELEADRMNNLLL+++EFAKEIKVIQEERR+RTDNNPQALAFERFLATAHL+APYNHPVIGWMN L+QMKVEDLKKWY++YYAPNNATLVVVGDVNPEKVHALA+ YFGSIAK+ +  RKPQ EP ALGKK + I APAKLPL +IGYTVPSVKTA+N+WEPYALE+IAGILD+GESARFAK+L+RG+ VATGA+ YYNLY+RYQ+QFI+YGAPSQ+ Q+ DL+K L+ EL +LK  PV  +EL+R+KNQIIAQKTFEKDSIFGQAMELGLLE++G+GW+NT  Y +AIN ITPEQIQQ AQRYFQE+NMT AELKP +  EV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|654932963|ref|WP_028383320.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella moravica] &gt;gi|962250696|gb|KTD34897.1| zinc protease [Legionella moravica]</Hit_def>
+  <Hit_accession>WP_028383320</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>739.184</Hsp_bit-score>
+      <Hsp_score>1907</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>344</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVR</Hsp_qseq>
+      <Hsp_hseq>MRKILIALLMVLSCQTFSQVQEYILNNGLKVLVKEDHRAPIAVSMIWYNVGSADEPGELTGVSHAIEHMMFKGTKKFPQGVFSKTIAAQGGQENAFTNNDFTAYFEKIDASRLATSFELEADRMNNLLLDANEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLSAPYNHPVIGWMNILQQMSVEDLKKWYQAYYAPNNATLVVVGDVNPEKVHALAEHYFGAIAKKPVIERKPQIEPPALGKKSIIIEAPAKLPLFMMGFTVPSVKTAQNAWEPYALELIAGILDSGESARFAKNLIRGSRVATGADVYYNLYARYQTQFIMYGAPSQNAQVADLKKGLLAELNSLKTTLVSEKELKRIKNQIIAQKTFEKDSIFGQAMELGMLETVGIGWRNTNNYAEAIDNITPEQIQKTAQRYFQEPNMTEAELKPTNKNEVK</Hsp_hseq>
+      <Hsp_midline>M K+LI+L+M+LS Q FSQVQEY LNNGLKVLVKEDHRAP+ VSMIWYNVGSADEP  +TGVSHAIEHMMFKGT K+P GVFSKTIAA GGQENAFTNND+TAY+EK+DA  LATSFELEADRMNNLLL++ EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHL+APYNHPVIGWMN L+QM VEDLKKWY++YYAPNNATLVVVGDVNPEKVHALAEHYFG+IAK+P+  RKPQ EP ALGKK + I APAKLPL ++G+TVPSVKTA+N WEPYALE+IAGILD+GESARFAK+L+RG++VATGA+ YYNLY+RYQ+QFI+YGAPSQ+ Q+ DL+K L+ EL +LK   VS +EL+R+KNQIIAQKTFEKDSIFGQAMELG+LET+G+GW+NT  Y +AI+ ITPEQIQ+ AQRYFQE NMT AELKP  + EV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|769978682|ref|WP_045094667.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella fallonii] &gt;gi|698841921|emb|CEG55868.1| Zinc protease (Peptidase, M16 family) [Legionella fallonii LLAP-10]</Hit_def>
+  <Hit_accession>WP_045094667</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>725.317</Hsp_bit-score>
+      <Hsp_score>1871</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>341</Hsp_identity>
+      <Hsp_positive>393</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISL-MMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVR</Hsp_qseq>
+      <Hsp_hseq>MRKILITIFMIVLSCQTFGQVQEFTLNNGLKVLVKEDHRAPIAVSMVWYNVGSADEPGGITGVSHAIEHMMFKGTPQYPLGVFSKTIAAQGGQENAFTNNDYTAYFEKIAASRLATSFELEADRMKNLLLNADEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLSAPYNHPVIGWMSDLKQMSVEDLKKWYQTYYAPNNATLVVVGDVNPQEVHSLAERYFGDIPRKFVAERKLIKEPPTLGKKSVTIHAAAKLPLLMMGYTVPSVKTAQNAWEPYALEIIAGILDAGEGARFAQNLIRGSHVATGVDAYYNLYARYQTQFIVYGTPNQNHQIKDFRKAVLNELDDLKKTPIKNEELQRVKNQIIAQKTFEKDSIFGQAMELGLLETVGIGWQQTNNYTQAINGVTAEQIQQTAQRYFQENNRTEAELIPLSNDKVK</Hsp_hseq>
+      <Hsp_midline>M K+LI++ M++LS Q F QVQE+TLNNGLKVLVKEDHRAP+ VSM+WYNVGSADEP GITGVSHAIEHMMFKGT +YP+GVFSKTIAA GGQENAFTNNDYTAY+EK+ A  LATSFELEADRM NLLLN++EFAKEIKVIQEERRLRTDNNPQALAFERFLATAHL+APYNHPVIGWM+DLKQM VEDLKKWY++YYAPNNATLVVVGDVNP++VH+LAE YFG I ++ +A RK  +EP  LGKK V I+A AKLPLL++GYTVPSVKTA+N WEPYALEIIAGILDAGE ARFA++L+RG+ VATG +AYYNLY+RYQ+QFIVYG P+Q+HQIKD  KA++ EL+ LKK P+ N+ELQRVKNQIIAQKTFEKDSIFGQAMELGLLET+G+GW+ T  YT+AIN +T EQIQQ AQRYFQENN T AEL P+  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|966460880|ref|WP_058493309.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella worsleiensis] &gt;gi|962296371|gb|KTD80012.1| zinc protease [Legionella worsleiensis]</Hit_def>
+  <Hit_accession>WP_058493309</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>714.146</Hsp_bit-score>
+      <Hsp_score>1842</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>328</Hsp_identity>
+      <Hsp_positive>389</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVR</Hsp_qseq>
+      <Hsp_hseq>MRKILITLLMVLSCQTFSQVQEYILNNGLKVLVKEDHRAPIAVSMIWYNVGSADEPGELTGVSHAIEHMMFKGTKKFPQGVFSQTIAAQGGQENAFTNNDFTAYFEKIDASRLAISFELEADRMTHLLLDANEFAKEIKVIQEERRLRTDDNPQALTFERFLATAHLTAPYNHPVIGWMNILQQMQVDDLKKWYEAYYAPNNAVLVVVGDVNPEQVHALAKQYFGPITKKAIAERKPQKEPPALGKKSIVIEAPAQLPLYMMGFTVPSVKTARTTWEPYALELIAGILDAGDSARFTKNLIKGSRIATGADVYYNLYARYETQFIMYGAPSQNSQITDVKKGLLAEVNSLKNTPISEKELKRIKNQIIAQKTFEKDSIFGQAMELGLLESVGIGWRSANNYTQAINSITPEQIQQTAKRYFNESNMTEAELKPTTNNEVK</Hsp_hseq>
+      <Hsp_midline>M K+LI+L+M+LS Q FSQVQEY LNNGLKVLVKEDHRAP+ VSMIWYNVGSADEP  +TGVSHAIEHMMFKGT K+P GVFS+TIAA GGQENAFTNND+TAY+EK+DA  LA SFELEADRM +LLL++ EFAKEIKVIQEERRLRTD+NPQAL FERFLATAHLTAPYNHPVIGWMN L+QM+V+DLKKWYE+YYAPNNA LVVVGDVNPE+VHALA+ YFG I K+ IA RKPQ+EP ALGKK + I APA+LPL ++G+TVPSVKTA+  WEPYALE+IAGILDAG+SARF K+L++G+++ATGA+ YYNLY+RY++QFI+YGAPSQ+ QI D++K L+ E+ +LK  P+S +EL+R+KNQIIAQKTFEKDSIFGQAMELGLLE++G+GW++   YT+AIN ITPEQIQQ A+RYF E+NMT AELKP    EV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|750234755|ref|WP_040535998.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella drancourtii]</Hit_def>
+  <Hit_accession>WP_040535998</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>713.761</Hsp_bit-score>
+      <Hsp_score>1841</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>384</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MRKILITLLMVLSCQTFSQVQEYTLNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGISGVSHAIEHLMFKGTPKYPLGVFSKKIAAIGGQSNAFTNNDYTAFFEKTAAAQLATSFELEADRMNNLLLNADEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLAAPYNHPVIGWMSDLQQMTVNDLKKWYETYYAPNNATLVVVGDVNAEQVHTLAEHYFGALEKRIIPQRKQQEEPPTLGKKSVHVKSRAKLPIVMLGYSVPGVTMAKNAFEPYALEIIAGILDAGESARFAKNLIRGKHIATGASTYYNLYTRYQTQFIVYGAPTQNEQISILQNGLIAELEDLKKTVVSAKELQRIKNQIIAQKTYEKDSIFGQANELGLLETVGLGWKKADDYTQAINAVTAEQIQQTAQRYFQENNMTVATLEPETQPKVNP</Hsp_hseq>
+      <Hsp_midline>M K+LI+L+M+LS Q FSQVQEYTLNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GI+GVSHAIEH+MFKGT KYP+GVFSK IAA+GGQ NAFTNNDYTA++EK  A  LATSFELEADRMNNLLLN++EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHL APYNHPVIGWM+DL+QM V DLKKWYE+YYAPNNATLVVVGDVN E+VH LAEHYFG++ KR I  RK Q+EP  LGKK V++ + AKLP++++GY+VP V  AKN +EPYALEIIAGILDAGESARFAK+L+RG  +ATGA  YYNLY+RYQ+QFIVYGAP+Q+ QI  L+  LI ELE LKK  VS +ELQR+KNQIIAQKT+EKDSIFGQA ELGLLET+GLGWK  + YT+AIN +T EQIQQ AQRYFQENNMTVA L+P  Q +V P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|966516854|ref|WP_058533348.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella sp. LH-SWC]</Hit_def>
+  <Hit_accession>WP_058533348</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>712.605</Hsp_bit-score>
+      <Hsp_score>1838</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>329</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKILITLLMVLSCQTFSQVQEYTLNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGVSHAIEHMMFKGTEKYPLGVFSKTIAEIGGQSNAFTNNDYTAFFEKTDASRLATSFELEADRMNNLLLSADEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLAAPYNHPVIGWMSDLKQMSIEDIRKWYKRYYAPNNATLVVVGDVNAQQVYALAQQYFAALPQRKIPARKPQQEPPALGKKAIQVTSTAKLPLVMIGYSVPGVKTAKAAYEPYALEIIAGIMDAGEGARFAKNLIRGQHIATGASTYYNLYTRYQTQFIVYGAPSQNQNVDALEKGLITQLADLKKNRVSEKELQRIKNQIVAQKTYEKDSIFSQAMELGLLETVGLGWKKADEYTQAINAVTAEQIQQTAQRYFQDNNMTVAKLEP</Hsp_hseq>
+      <Hsp_midline>M K+LI+L+M+LS Q FSQVQEYTLNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITGVSHAIEHMMFKGT KYP+GVFSKTIA +GGQ NAFTNNDYTA++EK DA  LATSFELEADRMNNLLL+++EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHL APYNHPVIGWM+DLKQM +ED++KWY+ YYAPNNATLVVVGDVN ++V+ALA+ YF ++ +R I +RKPQQEP ALGKK + + + AKLPL++IGY+VP VKTAK  +EPYALEIIAGI+DAGE ARFAK+L+RG  +ATGA  YYNLY+RYQ+QFIVYGAPSQ+  +  LEK LIT+L  LKK  VS +ELQR+KNQI+AQKT+EKDSIF QAMELGLLET+GLGWK  + YT+AIN +T EQIQQ AQRYFQ+NNMTVA+L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|498338316|ref|WP_010652472.1|</Hit_id>
+  <Hit_def>peptidase M16 [Fluoribacter dumoffii] &gt;gi|962207577|gb|KTC92508.1| hypothetical protein Ldum_0314 [Fluoribacter dumoffii NY 23]</Hit_def>
+  <Hit_accession>WP_010652472</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>701.434</Hsp_bit-score>
+      <Hsp_score>1809</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>388</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQE</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFILNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGVSHAIEHMMFKGTEKFPLGVFSKTIAEMGAQANAFTNNDYTAFFEKIDASKLATSFELEADRMNHLLLDANEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLSAPYHHPVIGWMNDLKQMKVEDVREWYKKYYAPNNATLVVVGDVNPEQVRALAENYFGALPKQPVPERKLKREPPELGEKIVHIQAAAKLPLLMIGYSVPSVNTAKESYEPYALEVISGILDAGDSARFSKNLIRGKHIANDADAYYNPYTRYQTQFIVYGSPNQSHTINDLQSSLLNQLEELKNNPVSDIELQRIKNQIIAQKTFEKDSIFGQASELGLLETIGVGWKKSEDYTRAINAITPQQIQQTAQRYFQKNNMTTAILEPQTQK</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+ LNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITGVSHAIEHMMFKGT K+P+GVFSKTIA +G Q NAFTNNDYTA++EK+DA  LATSFELEADRMN+LLL++ EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHL+APY+HPVIGWMNDLKQMKVED+++WY+ YYAPNNATLVVVGDVNPE+V ALAE+YFG++ K+P+  RK ++EP  LG+K+V+I A AKLPLL+IGY+VPSV TAK ++EPYALE+I+GILDAG+SARF+K+L+RG  +A  A+AYYN Y+RYQ+QFIVYG+P+Q H I DL+ +L+ +LE LK  PVS+ ELQR+KNQIIAQKTFEKDSIFGQA ELGLLETIG+GWK +E YT+AIN ITP+QIQQ AQRYFQ+NNMT A L+P  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|966426218|ref|WP_058468756.1|</Hit_id>
+  <Hit_def>peptidase M16 [Fluoribacter gormanii] &gt;gi|962216874|gb|KTD01628.1| hypothetical protein Lgor_2285 [Fluoribacter gormanii]</Hit_def>
+  <Hit_accession>WP_058468756</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>696.041</Hsp_bit-score>
+      <Hsp_score>1795</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQE</Hsp_qseq>
+      <Hsp_hseq>MRKILFSLFMLLSCQSFSQVQEFTLNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGVSHAMEHMMFKGTKKFPLGVFSKTIASIGGQANAFTNNDYTAFFEKTDASKLASSFELEADRMHHLLFDSNEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLNAPYHHPVIGWMSDLKNMKVEDLQEWYKKYYAPNNATLVVVGDVNSEKVRILAEKYFGDLPKYPIPERRLQKEPPSLGQKIVRIQAPAKLPLLMIGYSAPSVSTTKESYEPYALEIIAGILDAGESARFSKNLIRGKHIATGADTYYNPYTRYQTQFIIYGSPSQNHTLNDLQDGLLSELDDLKNHPVSEIELQRIKNQIIAQKTFEKDSIFGQASELGLLQTIGIGWQKADEYTKAINAITPQQVQQTAQRYFQEKNMTTAILEPQTQK</Hsp_hseq>
+      <Hsp_midline>M K+L SL MLLS Q+FSQVQE+TLNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITGVSHA+EHMMFKGT K+P+GVFSKTIA++GGQ NAFTNNDYTA++EK DA  LA+SFELEADRM++LL +S EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHL APY+HPVIGWM+DLK MKVEDL++WY+ YYAPNNATLVVVGDVN EKV  LAE YFG + K PI  R+ Q+EP +LG+K+V I APAKLPLL+IGY+ PSV T K ++EPYALEIIAGILDAGESARF+K+L+RG  +ATGA+ YYN Y+RYQ+QFI+YG+PSQ+H + DL+  L++EL+ LK  PVS  ELQR+KNQIIAQKTFEKDSIFGQA ELGLL+TIG+GW+  + YTKAIN ITP+Q+QQ AQRYFQE NMT A L+P  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|750218916|ref|WP_040522989.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella anisa] &gt;gi|962187085|gb|KTC72218.1| hypothetical protein Lani_1352 [Legionella anisa]</Hit_def>
+  <Hit_accession>WP_040522989</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>696.041</Hsp_bit-score>
+      <Hsp_score>1795</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>381</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFTLNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGVSHAMEHMMFKGTEKFPLGAFSKTIAAIGGQANAFTNNDYTAFFEKTAASKLATSFELEADRMNHLLLDANEFAKEIKVIQEERRLRTEDNPQALAFERFLATAHLSAPYHHPVIGWMSDLKHMSVEDLRKWYKKYYAPNNATLVVVGDVNPEQVRTLAEHYFGALPKHPTPVRRIQKEPPALGQKIVHIQAAAKLPLLMVGYTVPSVNTAKKDYEPYALEIIAGILDAGESARFSKNLIRGKHIATDANSYYNPYTRFQTQFIVYGSPSQNHTISALQNGLINEIDNLKKNQVTDQELQRVKHQIIAQKTFEKDSIFGQASELGLLETIGLGWQKADEYTQAINAITPQQIQQTAQRYFQENNMTTAILEP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+TLNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITGVSHA+EHMMFKGT K+P+G FSKTIAA+GGQ NAFTNNDYTA++EK  A  LATSFELEADRMN+LLL++ EFAKEIKVIQEERRLRT++NPQALAFERFLATAHL+APY+HPVIGWM+DLK M VEDL+KWY+ YYAPNNATLVVVGDVNPE+V  LAEHYFG++ K P   R+ Q+EP ALG+K+V+I A AKLPLL++GYTVPSV TAK ++EPYALEIIAGILDAGESARF+K+L+RG  +AT A +YYN Y+R+Q+QFIVYG+PSQ+H I  L+  LI E++ LKK  V++QELQRVK+QIIAQKTFEKDSIFGQA ELGLLETIGLGW+  + YT+AIN ITP+QIQQ AQRYFQENNMT A L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|966505266|ref|WP_058521925.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella tucsonensis] &gt;gi|962287639|gb|KTD71367.1| hypothetical protein Ltuc_2726 [Legionella tucsonensis]</Hit_def>
+  <Hit_accession>WP_058521925</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>695.271</Hsp_bit-score>
+      <Hsp_score>1793</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>322</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFTLNNGLKILVKEDHRAPIAISMIWYNVGSADEPGGITGVSHAMEHMMFKGTEKFPLGVFSKTIAAIGGQANAFTHNDYTAFFEKTAASKLATSFELEADRMNHLLLDANEFAKEIKVIQEERRLRTEDNPQALAFERFLATAHLSAPYHHPVIGWMSDLKHMSVEDLREWYKKYYAPNNATLVIVGDVNPENVRTLAENYFGALPKHPIPARRLQKEPPALGQKIVHIQASAKLPLLMMGYTVPSVNTAKKDYEPYALEIIAGILDAGESARFSKNLIRGKHIATGADTYYNPYTRYQTQFIIYGSPSQNHTISDLQNELFNEINDLKKNQVTDQELQRVKHQIIAQKTFEKDSIFGQASELGLLETIGVGWQKADEYTKAINVITPQQVQQTAQRYFQENNMTTALLEP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+TLNNGLK+LVKEDHRAP+ +SMIWYNVGSADEP GITGVSHA+EHMMFKGT K+P+GVFSKTIAA+GGQ NAFT+NDYTA++EK  A  LATSFELEADRMN+LLL++ EFAKEIKVIQEERRLRT++NPQALAFERFLATAHL+APY+HPVIGWM+DLK M VEDL++WY+ YYAPNNATLV+VGDVNPE V  LAE+YFG++ K PI +R+ Q+EP ALG+K+V+I A AKLPLL++GYTVPSV TAK ++EPYALEIIAGILDAGESARF+K+L+RG  +ATGA+ YYN Y+RYQ+QFI+YG+PSQ+H I DL+  L  E+  LKK  V++QELQRVK+QIIAQKTFEKDSIFGQA ELGLLETIG+GW+  + YTKAIN ITP+Q+QQ AQRYFQENNMT A L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|654930369|ref|WP_028380738.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella cherrii] &gt;gi|962197116|gb|KTC82160.1| hypothetical protein Lche_0424 [Legionella cherrii]</Hit_def>
+  <Hit_accession>WP_028380738</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>694.115</Hsp_bit-score>
+      <Hsp_score>1790</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>387</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFILNNGLKILIKEDHRAPIAVSMIWYNVGSADEPGGITGISHAMEHMMFKGTEKYPLGVFSKTIAEIGAQANAFTNNDYTAFFEKTDASKLATSFELEADRMNHLLLDANEFAKEIKVIQEERRLRTDDNPQALAFERFLAAAHLSAPYHHPVIGWMSDLKQMTVEDLREWYKKYYAPNNATLVVVGDVNPEQVHALAENYFGALPKQPIPERKLKKEPPELGQKIVHIQAAAKLPLLMIGYSVPSVATAKEAYEPYALEIIAGILDAGDSARFSKNLIRGKHVANGADTYYNPYTRYQTQFIVYGSPNQNHTINDLQNGLLNELDDLKKNPVSVIELQRIKNQIIAQKTFEKDSIFGQASELGLLETIGVGWEKSKDYSQAINAITPQQIQQTAQRYFQEKNMTTAILEP-KTQKVAP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+ LNNGLK+L+KEDHRAP+ VSMIWYNVGSADEP GITG+SHA+EHMMFKGT KYP+GVFSKTIA +G Q NAFTNNDYTA++EK DA  LATSFELEADRMN+LLL++ EFAKEIKVIQEERRLRTD+NPQALAFERFLA AHL+APY+HPVIGWM+DLKQM VEDL++WY+ YYAPNNATLVVVGDVNPE+VHALAE+YFG++ K+PI  RK ++EP  LG+K+V+I A AKLPLL+IGY+VPSV TAK  +EPYALEIIAGILDAG+SARF+K+L+RG  VA GA+ YYN Y+RYQ+QFIVYG+P+Q+H I DL+  L+ EL+ LKK PVS  ELQR+KNQIIAQKTFEKDSIFGQA ELGLLETIG+GW+ ++ Y++AIN ITP+QIQQ AQRYFQE NMT A L+P + ++V P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|966420716|ref|WP_058463917.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella cincinnatiensis] &gt;gi|962206977|gb|KTC91910.1| hypothetical protein Lcin_0689 [Legionella cincinnatiensis]</Hit_def>
+  <Hit_accession>WP_058463917</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>690.649</Hsp_bit-score>
+      <Hsp_score>1781</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEYILNNGLKILVKEDHRAPIVVSMIWYKVGSADEPGGITGVSHAIEHMMFKGTEKFPLGVFSKTIASIGGQANAFTNNDYTAFFEKIDASKLATSFELEADRMNHLTLDTNEFAKEIKVIQEERRMRTDDNPQALAFERFLATAHFSAPYHHPVIGWMSDLKQMNIEDLREWYKKYYAPNNATLVVVGDVNPEQVRVLAENYFGALPQKAIPERKVQKEPPMLGKKSVHVQASAKLPLLMLGYSVPSTRTAHKAYEPYALEIIAGILDAGESSRFAKNLIRGNHIAAGADTYYNPYTRYQTQFIIYGTPSQNYKLSNLQKAFIKELDDLKKKPVSQEELQRIKNQIIAQKTFEKDSIFGQASEIGLLETIGLGWQKAGEYTKAIEAVTPEQIQQTAQRYFQEKNKTIAILEP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQEY LNNGLK+LVKEDHRAP+VVSMIWY VGSADEP GITGVSHAIEHMMFKGT K+P+GVFSKTIA++GGQ NAFTNNDYTA++EK+DA  LATSFELEADRMN+L L++ EFAKEIKVIQEERR+RTD+NPQALAFERFLATAH +APY+HPVIGWM+DLKQM +EDL++WY+ YYAPNNATLVVVGDVNPE+V  LAE+YFG++ ++ I  RK Q+EP  LGKK V++ A AKLPLL++GY+VPS +TA   +EPYALEIIAGILDAGES+RFAK+L+RGN +A GA+ YYN Y+RYQ+QFI+YG PSQ++++ +L+KA I EL+ LKK PVS +ELQR+KNQIIAQKTFEKDSIFGQA E+GLLETIGLGW+    YTKAI  +TPEQIQQ AQRYFQE N T+A L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|489729125|ref|WP_003633241.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella longbeachae] &gt;gi|269990042|gb|EEZ96296.1| conserved hypothetical protein [Legionella longbeachae D-4968] &gt;gi|288856889|emb|CBJ10700.1| putative zinc protease [Legionella longbeachae NSW150]</Hit_def>
+  <Hit_accession>WP_003633241</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>690.649</Hsp_bit-score>
+      <Hsp_score>1781</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFILNNGLKILVKEDHRAPIVVSMIWYKVGSADEPGGITGVSHAIEHMMFKGTDKYPLGVFSKTIASIGGQANAFTNNDYTAFFEKIDASKLATSFELEADRMNDLTLDANEFAKEIKVIQEERRMRTDDNPQALAFERFLATAHFSAPYHHPVIGWMSDLKQMNVEDIRDWYKKYYAPNNATLVVVGDVNPEQVHVLAENYFGSLPRKAIAERKVQKEPPMLGKKSVHVQASAKLPLLMLGYSVPSARTSNKAYEPYALEIIAGILDAGESSRFAKNLIRGNHIAAGADTYYNPYTRYQTQFIIYGTPSQNYKLSDLQKAFLHELDDLKAKPVNQEELQRIKNQIIAQKTFEKDSIFGQASEIGLLETIGLGWQKAGEYTKAIEAVTPEQIQQTAQHYFQEKNKTIAILEP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+ LNNGLK+LVKEDHRAP+VVSMIWY VGSADEP GITGVSHAIEHMMFKGT KYP+GVFSKTIA++GGQ NAFTNNDYTA++EK+DA  LATSFELEADRMN+L L++ EFAKEIKVIQEERR+RTD+NPQALAFERFLATAH +APY+HPVIGWM+DLKQM VED++ WY+ YYAPNNATLVVVGDVNPE+VH LAE+YFGS+ ++ IA RK Q+EP  LGKK V++ A AKLPLL++GY+VPS +T+   +EPYALEIIAGILDAGES+RFAK+L+RGN +A GA+ YYN Y+RYQ+QFI+YG PSQ++++ DL+KA + EL+ LK  PV+ +ELQR+KNQIIAQKTFEKDSIFGQA E+GLLETIGLGW+    YTKAI  +TPEQIQQ AQ YFQE N T+A L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|966466550|ref|WP_058497876.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella gratiana] &gt;gi|962230045|gb|KTD14641.1| hypothetical protein Lgra_0672 [Legionella gratiana]</Hit_def>
+  <Hit_accession>WP_058497876</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>687.567</Hsp_bit-score>
+      <Hsp_score>1773</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQE</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFILNNGLKILVKEDHRAPIAVSMIWYKVGSADEPGGITGVSHAIEHMMFKGTEKFPLGVFSKTIAAIGGQANAFTNNDYTAFFEKIDASKLATSFELEADRMNHLILDTNEFTKEIKVIQEERRMRTDDNPQALAFERFLATAHFSAPYHHPVIGWMSDLKQMNVEDVKEWYKKYYAPNNATLVVVGDVNPEQVRVLAERYFGTLPQKTLPERKSQKEPPMLGKKSVHVHASAKLPLLMLGYSVPSVRTTQKAYEPYALELIAGILDAGEGSRFAKNLIRGNHIAAGADTYYNPYTRYQTQFILYGTPSQNHKVSDLQKAFLTELDDLKKNLVSDKELQRIKNQIIAQKTFEQDSIYGQASELGLLETIGLGWQKAGEYTKAIEAVTPEQIQQTAQHYFQEKNRTIALLEPLKQK</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+ LNNGLK+LVKEDHRAP+ VSMIWY VGSADEP GITGVSHAIEHMMFKGT K+P+GVFSKTIAA+GGQ NAFTNNDYTA++EK+DA  LATSFELEADRMN+L+L++ EF KEIKVIQEERR+RTD+NPQALAFERFLATAH +APY+HPVIGWM+DLKQM VED+K+WY+ YYAPNNATLVVVGDVNPE+V  LAE YFG++ ++ +  RK Q+EP  LGKK V+++A AKLPLL++GY+VPSV+T +  +EPYALE+IAGILDAGE +RFAK+L+RGN +A GA+ YYN Y+RYQ+QFI+YG PSQ+H++ DL+KA +TEL+ LKK  VS++ELQR+KNQIIAQKTFE+DSI+GQA ELGLLETIGLGW+    YTKAI  +TPEQIQQ AQ YFQE N T+A L+P++Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|966496198|ref|WP_058512964.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella santicrucis] &gt;gi|962282780|gb|KTD66556.1| hypothetical protein Lsan_0501 [Legionella santicrucis]</Hit_def>
+  <Hit_accession>WP_058512964</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>686.797</Hsp_bit-score>
+      <Hsp_score>1771</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKLLFTLLMVLSCQTFSQVQEFILNNGLKILVKEDHRAPIAVSMIWYKVGSADEPGGITGVSHAIEHMMFKGTEKFPLGIFSKTIASIGGQANAFTNNDYTAFFEKIDASKLATSFELEADRMNHLSLDTNEFAKEIKVIQEERRMRTDDNPQALAFERFLATAHFSAPYHHPVIGWMSDLKQMNIEDLREWYKKYYAPNNATLVVVGDVNPEQVRILAENYFGALPRKAIPERKVQKEPPMLGKKSVHVQASAQLPLLMLGYSVPSVSTTHNTYEPYALEIIAGILDAGESSRFAKNLIRGNHIAAGADTYYNPYTRYQTQFIIYGTPSQNYKVSDLQKAFLSELDDLKKKPVNQEELQRIKNQIIAQKTFEKDSIFGQASEIGLLETIGLGWQKAGEYTKAIEAVTPEQIQQTAQHYFQEKNKTIAILEP</Hsp_hseq>
+      <Hsp_midline>M KLL +L+M+LS Q FSQVQE+ LNNGLK+LVKEDHRAP+ VSMIWY VGSADEP GITGVSHAIEHMMFKGT K+P+G+FSKTIA++GGQ NAFTNNDYTA++EK+DA  LATSFELEADRMN+L L++ EFAKEIKVIQEERR+RTD+NPQALAFERFLATAH +APY+HPVIGWM+DLKQM +EDL++WY+ YYAPNNATLVVVGDVNPE+V  LAE+YFG++ ++ I  RK Q+EP  LGKK V++ A A+LPLL++GY+VPSV T  N +EPYALEIIAGILDAGES+RFAK+L+RGN +A GA+ YYN Y+RYQ+QFI+YG PSQ++++ DL+KA ++EL+ LKK PV+ +ELQR+KNQIIAQKTFEKDSIFGQA E+GLLETIGLGW+    YTKAI  +TPEQIQQ AQ YFQE N T+A L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|966414725|ref|WP_058458010.1|</Hit_id>
+  <Hit_def>peptidase M16 [Fluoribacter bozemanae] &gt;gi|962192285|gb|KTC77359.1| hypothetical protein Lboz_0312 [Fluoribacter bozemanae]</Hit_def>
+  <Hit_accession>WP_058458010</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>685.641</Hsp_bit-score>
+      <Hsp_score>1768</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFTLNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGVSHAMEHMMFKGTEKFPLGVFSKTIAAIGGQANAFTNNDYTAFFEKTAASKLATSFELEADRMNHLLLDANEFAKEIKVIQEERRLRTEDNPQALAFERFLATAHLSAPYHHPVIGWMSDLKHMSVEDLREWYKKYYAPNNATLVVVGDVNPEQVRTLAENYFGALPKHPIPTRRLQKEPPALGQKIVHIQASAKLPLLMMGYTVPSANTSKKEYEPYALEIIAGILDAGESARFSKNLIRSKHIATDANTYYNPYTRFQTQFIVYGSPSQNHTINDLQSGLLNEIDDLKKNQVTEQELQRIKHQIIAQKTFEKDSIFGQASELGLLETIGLGWQKADEYTAAINAVTPQQVLQTAQRYFQENNMTTAILEP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+TLNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITGVSHA+EHMMFKGT K+P+GVFSKTIAA+GGQ NAFTNNDYTA++EK  A  LATSFELEADRMN+LLL++ EFAKEIKVIQEERRLRT++NPQALAFERFLATAHL+APY+HPVIGWM+DLK M VEDL++WY+ YYAPNNATLVVVGDVNPE+V  LAE+YFG++ K PI +R+ Q+EP ALG+K+V+I A AKLPLL++GYTVPS  T+K  +EPYALEIIAGILDAGESARF+K+L+R   +AT A  YYN Y+R+Q+QFIVYG+PSQ+H I DL+  L+ E++ LKK  V+ QELQR+K+QIIAQKTFEKDSIFGQA ELGLLETIGLGW+  + YT AIN +TP+Q+ Q AQRYFQENNMT A L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|653018951|ref|WP_027270906.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella sainthelensi] &gt;gi|962274566|gb|KTD58497.1| hypothetical protein Lsai_1104 [Legionella sainthelensi]</Hit_def>
+  <Hit_accession>WP_027270906</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>315</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFILNNGLKILVKEDHRAPIAVSMIWYKVGSADEPGGITGVSHAIEHMMFKGTEKYPLGIFSKTIASIGGQANAFTNNDYTAFFEKVDASKLATSFELEADRMNHLTLDTNEFAKEIKVIQEERRMRTDDNPQALAFERFLATAHFSAPYHHPVIGWMSDLKQMNVEDVREWYKKYYAPNNATLVVVGDVNPEQVRVLAENYFGALPRKAIPERKVQKEPPMLGKKSVHVQASAKLPLLMLGYSVPSTSTAHKAYEPYALEIIAGILDAGESSRFAKNLIRGNHIAAGADTYYNPYTRYQTQFIIYGTPSQNYKVSDLQKAFLNELDDLKKKPVNQEELQRIKNQIIAQKTFEKDSIFGQASEIGLLETIGLGWQKAGEYTNAIEAVTPEQIQQTAQHYFQEKNKTIAILEP-QKHKVTP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+ LNNGLK+LVKEDHRAP+ VSMIWY VGSADEP GITGVSHAIEHMMFKGT KYP+G+FSKTIA++GGQ NAFTNNDYTA++EK+DA  LATSFELEADRMN+L L++ EFAKEIKVIQEERR+RTD+NPQALAFERFLATAH +APY+HPVIGWM+DLKQM VED+++WY+ YYAPNNATLVVVGDVNPE+V  LAE+YFG++ ++ I  RK Q+EP  LGKK V++ A AKLPLL++GY+VPS  TA   +EPYALEIIAGILDAGES+RFAK+L+RGN +A GA+ YYN Y+RYQ+QFI+YG PSQ++++ DL+KA + EL+ LKK PV+ +ELQR+KNQIIAQKTFEKDSIFGQA E+GLLETIGLGW+    YT AI  +TPEQIQQ AQ YFQE N T+A L+P ++ +V P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|966436321|ref|WP_058476689.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella steigerwaltii] &gt;gi|962294990|gb|KTD78644.1| hypothetical protein Lstg_1113 [Legionella steigerwaltii]</Hit_def>
+  <Hit_accession>WP_058476689</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>677.552</Hsp_bit-score>
+      <Hsp_score>1747</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQE</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFILNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGISHAMEHMMFKGTEKFPLGVFSKTIAEMGAQANAFTSNDYTAFFEKTDASKLATSFELEADRMNHLLLDANEFNKEIKVIQEERRLRTDDNPQALAFERFLAAAHLSAPYHHPVIGWMSDLKQMQVEDLREWYKKYYAPNNATLVVVGDVNPEQVRALAENYFGALPKQPIPERKLKKEPPELGQKIVHIHTAAKLPLLMIGYSVPSVNTAKEAYEPYALELIAGILDAGESARFSKNLVRSKHIANDADTYYNPYTRYQTQFIVYGSPNQNHTIGDLQSGLLKELDDLKKNLVGDAELQRIKNQIIAQKTFEKDSIYGQASELGLLETIGVGWKKSVGYTQAINAITPQQIQQTAQRYFQEKNMTTAILEPQTQK</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+ LNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITG+SHA+EHMMFKGT K+P+GVFSKTIA +G Q NAFT+NDYTA++EK DA  LATSFELEADRMN+LLL++ EF KEIKVIQEERRLRTD+NPQALAFERFLA AHL+APY+HPVIGWM+DLKQM+VEDL++WY+ YYAPNNATLVVVGDVNPE+V ALAE+YFG++ K+PI  RK ++EP  LG+K+V+I+  AKLPLL+IGY+VPSV TAK  +EPYALE+IAGILDAGESARF+K+LVR   +A  A+ YYN Y+RYQ+QFIVYG+P+Q+H I DL+  L+ EL+ LKK  V + ELQR+KNQIIAQKTFEKDSI+GQA ELGLLETIG+GWK +  YT+AIN ITP+QIQQ AQRYFQE NMT A L+P  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|363536452|gb|EHL29894.1|</Hit_id>
+  <Hit_def>zinc protease [Legionella drancourtii LLAP12]</Hit_def>
+  <Hit_accession>EHL29894</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>676.396</Hsp_bit-score>
+      <Hsp_score>1744</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>441</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>417</Hsp_align-len>
+      <Hsp_qseq>LNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQEEVRP</Hsp_qseq>
+      <Hsp_hseq>MNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGISGVSHAIEHLMFKGTPKYPLGVFSKKIAAIGGQSNAFTNNDYTAFFEKTAAAQLATSFELEADRMNNLLLNADEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLAAPYNHPVIGWMSDLQQMTVNDLKKWYETYYAPNNATLVVVGDVNAEQVHTLAEHYFGALEKRIIPQRKQQEEPPTLGKKSVHVKSRAKLPIVMLGYSVPGVTMAKNAFEPYALEIIAGILDAGESARFAKNLIRGKHIATGASTYYNLYTRYQTQFIVYGAPTQNEQISILQNGLIAELEDLKKTVVSAKELQRIKNQIIAQKTYEKDSIFGQANELGLLETVGLGWKKADDYTQAINAVTAEQIQQTAQRYFQENNMTVATLEPETQPKVNP</Hsp_hseq>
+      <Hsp_midline>+NNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GI+GVSHAIEH+MFKGT KYP+GVFSK IAA+GGQ NAFTNNDYTA++EK  A  LATSFELEADRMNNLLLN++EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHL APYNHPVIGWM+DL+QM V DLKKWYE+YYAPNNATLVVVGDVN E+VH LAEHYFG++ KR I  RK Q+EP  LGKK V++ + AKLP++++GY+VP V  AKN +EPYALEIIAGILDAGESARFAK+L+RG  +ATGA  YYNLY+RYQ+QFIVYGAP+Q+ QI  L+  LI ELE LKK  VS +ELQR+KNQIIAQKT+EKDSIFGQA ELGLLET+GLGWK  + YT+AIN +T EQIQQ AQRYFQENNMTVA L+P  Q +V P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|966499555|ref|WP_058516228.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella parisiensis] &gt;gi|962260089|gb|KTD44204.1| hypothetical protein Lpar_0290 [Legionella parisiensis] &gt;gi|1069291621|gb|OEH47002.1| putative zinc protease [Legionella parisiensis]</Hit_def>
+  <Hit_accession>WP_058516228</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>674.085</Hsp_bit-score>
+      <Hsp_score>1738</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLIVLSCQTFGQVQEFTLNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGVSHAMEHMMFKGTEKFPLGVFSKTIAAIGGQANAFTNNDYTAFFEKTAASKLATSFELEADRMSHLLLDANEFAKEIKVIQEERRLRTEDNPQALAFERFLATAHLSAPYHHPVIGWMSDLKHMSVADLREWYKKYYAPNNATLVVVGDVNPEQVRTLAENYFGALPKHPIPARRLQKEPPALGQKIVHIQASAKLPLLMMGYTVPSANTSKKEYEPYALELISGILDAGESARFSKNLIRSKNIATDANTYYNPYTRFQTQFIVYGSPSKNHTISDLQNGLLKEIDDLKKNQVTEQELQRIKHQIIAQKTFEKDSIFGQASELGLLETIGIGWQKADKYTAAINAITPQQVLQTAQRYFQENNMTTAILEP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+++LS Q F QVQE+TLNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITGVSHA+EHMMFKGT K+P+GVFSKTIAA+GGQ NAFTNNDYTA++EK  A  LATSFELEADRM++LLL++ EFAKEIKVIQEERRLRT++NPQALAFERFLATAHL+APY+HPVIGWM+DLK M V DL++WY+ YYAPNNATLVVVGDVNPE+V  LAE+YFG++ K PI +R+ Q+EP ALG+K+V+I A AKLPLL++GYTVPS  T+K  +EPYALE+I+GILDAGESARF+K+L+R   +AT A  YYN Y+R+Q+QFIVYG+PS++H I DL+  L+ E++ LKK  V+ QELQR+K+QIIAQKTFEKDSIFGQA ELGLLETIG+GW+  + YT AIN ITP+Q+ Q AQRYFQENNMT A L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966493800|ref|WP_058510588.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella steelei] &gt;gi|962284737|gb|KTD68503.1| hypothetical protein Lste_1661 [Legionella steelei]</Hit_def>
+  <Hit_accession>WP_058510588</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>673.315</Hsp_bit-score>
+      <Hsp_score>1736</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYI-NAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQE</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMILSCQTFSQVQEFILNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGLSHAMEHMMFKGTEKFPLGVFSKTIAEIGAQANAFTSNDYTAFFEKTDASKLATSFELEADRMNHLLLDTNEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLSAPYHHPVIGWMSDLRQMNVEDLRAWYKKYYAPNNATLVVVGDVNPEQVRTLAEQYFGALPKQPIPERKLKKEPPELGLKIVHIQTTAAKLPLLMMGYSVPSVNTAKKAYEPYALEIITGILNAGESARFSKNLVRIKHIANDANSYYNPYTRYQTQFIVYGSPNQNHTIGDLQSGLLTELDDLKKNLVSETELQRIKNQIIAQKTFEKDSIYGQASELGLLETIGIGWKKSEEYTQAINAITPQQIQQTAQRYFQEKNMTTAILEPQTQK</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+ LNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITG+SHA+EHMMFKGT K+P+GVFSKTIA +G Q NAFT+NDYTA++EK DA  LATSFELEADRMN+LLL++ EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHL+APY+HPVIGWM+DL+QM VEDL+ WY+ YYAPNNATLVVVGDVNPE+V  LAE YFG++ K+PI  RK ++EP  LG K+V+I    AKLPLL++GY+VPSV TAK  +EPYALEII GIL+AGESARF+K+LVR   +A  A +YYN Y+RYQ+QFIVYG+P+Q+H I DL+  L+TEL+ LKK  VS  ELQR+KNQIIAQKTFEKDSI+GQA ELGLLETIG+GWK +E YT+AIN ITP+QIQQ AQRYFQE NMT A L+P  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1113342062|gb|OJW05939.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella sp. 39-23]</Hit_def>
+  <Hit_accession>OJW05939</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>672.544</Hsp_bit-score>
+      <Hsp_score>1734</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYI-NAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQE</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFILNNGLKILVKEDHRAPIAVSMIWYNVGSADEPGGITGLSHAMEHMMFKGTEKFPLGVFSKTIAEIGAQANAFTSNDYTAFFEKTDASKLATSFELEADRMNHLLLDTNEFAKEIKVIQEERRLRTDDNPQALAFERFLATAHLSAPYHHPVIGWMSDLRQMNVEDLRAWYKKYYAPNNATLVVVGDVNPEQVRTLAEQYFGALPKQPIPERKLKKEPPELGLKIVHIQTTAAKLPLLMMGYSVPSVNTAKKVYEPYALEIITGILNAGESARFSKNLVRIKHIANDANSYYNPYTRYQTQFIVYGSPNQNHTIGDLQSGLLTELDDLKKNLVSETELQRIKNQIIAQKTFEKDSIYGQASELGLLETIGIGWKKSEEYTQAINAITPQQIQQTAQRYFQEKNMTTAILEPQTQK</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+ LNNGLK+LVKEDHRAP+ VSMIWYNVGSADEP GITG+SHA+EHMMFKGT K+P+GVFSKTIA +G Q NAFT+NDYTA++EK DA  LATSFELEADRMN+LLL++ EFAKEIKVIQEERRLRTD+NPQALAFERFLATAHL+APY+HPVIGWM+DL+QM VEDL+ WY+ YYAPNNATLVVVGDVNPE+V  LAE YFG++ K+PI  RK ++EP  LG K+V+I    AKLPLL++GY+VPSV TAK  +EPYALEII GIL+AGESARF+K+LVR   +A  A +YYN Y+RYQ+QFIVYG+P+Q+H I DL+  L+TEL+ LKK  VS  ELQR+KNQIIAQKTFEKDSI+GQA ELGLLETIG+GWK +E YT+AIN ITP+QIQQ AQRYFQE NMT A L+P  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|671586734|ref|WP_031563124.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella wadsworthii]</Hit_def>
+  <Hit_accession>WP_031563124</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>666.766</Hsp_bit-score>
+      <Hsp_score>1719</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>373</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKP</Hsp_qseq>
+      <Hsp_hseq>MRKILFTLLMVLSCQTFSQVQEFTLNNGLKIIVKEDHRAPIAVSMIWYHVGSADEPGGITGVSHAIEHMMFKGTEKFPLGVFSKTIADIGGQTNAFTSNDYTAFYEKTDASKLATSFELEADRMNHLLLDANEFAKEIKVIQEERRLRTEDNPQALAFERFLATAHLSAPYHHPVIGWMNDLKHMSVDDIRVWYKKYYAPNNATLVVVGDVNPDQVKALAEKYFGALSSHPIPERKYQKEPPQLGEKIVHVQAIAKLPLIMMGYAVPSVNTAMNQYEPYALEVIAGILDAGDSARFTKNLIRNKNIAAGVDTNYNPYTRYQTQFIIYGSPSQNHTVGELQNGILAELDELKKTLVSEKELQRIKNQIIAQKTFEKDSIFGQATELGLLETVGIGWQKADEYTKAINAITPQQVQQTAQHYFQEKSRTIAILEP</Hsp_hseq>
+      <Hsp_midline>M K+L +L+M+LS Q FSQVQE+TLNNGLK++VKEDHRAP+ VSMIWY+VGSADEP GITGVSHAIEHMMFKGT K+P+GVFSKTIA +GGQ NAFT+NDYTA+YEK DA  LATSFELEADRMN+LLL++ EFAKEIKVIQEERRLRT++NPQALAFERFLATAHL+APY+HPVIGWMNDLK M V+D++ WY+ YYAPNNATLVVVGDVNP++V ALAE YFG+++  PI  RK Q+EP  LG+K+V++ A AKLPL+++GY VPSV TA N +EPYALE+IAGILDAG+SARF K+L+R   +A G +  YN Y+RYQ+QFI+YG+PSQ+H + +L+  ++ EL+ LKK  VS +ELQR+KNQIIAQKTFEKDSIFGQA ELGLLET+G+GW+  + YTKAIN ITP+Q+QQ AQ YFQE + T+A L+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|654938663|ref|WP_028388900.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella fairfieldensis]</Hit_def>
+  <Hit_accession>WP_028388900</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.522</Hsp_bit-score>
+      <Hsp_score>1695</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>367</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPIRQE</Hsp_qseq>
+      <Hsp_hseq>MHIIFMILFLILSQQSFSEVQEFTLDNGLKVLVKEDHRAPIVVSMVWYNVGSADEPGGITGISHALEHIMFKGTSKYPLGIFSQTIASVGGQENAFTNYDYTAYFEKIAATQLPISFELEADRMQNLLLDKEEFLKELKVIREERRLRTDDNPQALAFERYLATAHLSTPYHHPVIGWMSDLRQITIDDLKTWYQRFYAPNNATLVVVGDVKIEKVRELANQYFGKIGKQTDYHREPQAEPPALGKKSVQIHAPAQLPLLMFGYPVPSVKTAKRNWEPYALEIIASILDAGESARFAKNLVRGAYIASGANAYYNLYTRYPTQFILLGVPSKAHTITELRAAMLNELKRLQTTPVSADELKRVKTQIIAQKTYEKDSIFGQAMELGLLETVGLGWKTADRYTDQINSITAEQIQNVATRYFQENSMTEAQLIPSEQE</Hsp_hseq>
+      <Hsp_midline>MH + + L ++LS Q+FS+VQE+TL+NGLKVLVKEDHRAP+VVSM+WYNVGSADEP GITG+SHA+EH+MFKGTSKYP+G+FS+TIA++GGQENAFTN DYTAY+EK+ A  L  SFELEADRM NLLL+ EEF KE+KVI+EERRLRTD+NPQALAFER+LATAHL+ PY+HPVIGWM+DL+Q+ ++DLK WY+ +YAPNNATLVVVGDV  EKV  LA  YFG I K+    R+PQ EP ALGKK V I+APA+LPLL+ GY VPSVKTAK NWEPYALEIIA ILDAGESARFAK+LVRG  +A+GA AYYNLY+RY +QFI+ G PS+ H I +L  A++ EL+ L+  PVS  EL+RVK QIIAQKT+EKDSIFGQAMELGLLET+GLGWK  + YT  IN IT EQIQ VA RYFQEN+MT A+L P  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|762038383|ref|WP_043874320.1|</Hit_id>
+  <Hit_def>peptidase M16 [Legionella massiliensis] &gt;gi|683288731|emb|CEE13593.1| Protease 3 precursor [Legionella massiliensis] &gt;gi|685071236|emb|CDZ77855.1| Protease 3 precursor [Legionella massiliensis]</Hit_def>
+  <Hit_accession>WP_043874320</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>652.129</Hsp_bit-score>
+      <Hsp_score>1681</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>359</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>MHKLLISLMMLLSFQAFSQVQEYTLNNGLKVLVKEDHRAPVVVSMIWYNVGSADEPVGITGVSHAIEHMMFKGTSKYPVGVFSKTIAALGGQENAFTNNDYTAYYEKLDAGHLATSFELEADRMNNLLLNSEEFAKEIKVIQEERRLRTDNNPQALAFERFLATAHLTAPYNHPVIGWMNDLKQMKVEDLKKWYESYYAPNNATLVVVGDVNPEKVHALAEHYFGSIAKRPIASRKPQQEPSALGKKMVYINAPAKLPLLLIGYTVPSVKTAKNNWEPYALEIIAGILDAGESARFAKHLVRGNQVATGAEAYYNLYSRYQSQFIVYGAPSQDHQIKDLEKALITELEALKKAPVSNQELQRVKNQIIAQKTFEKDSIFGQAMELGLLETIGLGWKNTETYTKAINEITPEQIQQVAQRYFQENNMTVAELKPI</Hsp_qseq>
+      <Hsp_hseq>MRAALLLLFSVLSCQSFSQVYEYKLNNGLKVLVKEDHRAPVVVSMIWYNVGSSDEPGGITGISHALEHIMFKGTAKYPLGVFSRTIAAVGGQENAFTNYDYTAYFEKVAANQLPISFELEADRMQNLLLDENEFAKEIKVIREERRLRTDDNPQALAFERYLATAHLSAPYHHPIIGWMSDIYQMSIKDLRAWYERFYAPDNATLIVIGDVNPEEVHNLAEQYFGKITKKASYERKPQAEPPNLGPKFTQIYAPAQLPLLMFGYPAPSVKTAKTAWEPYALEVIAAILDAGESARFAKDLIRGSHVASGANAYYNIYTRYPTQFILFGIPSQSHTIDQVKAALLKEIKRLKTEPISPAELQRVKTQIIAQKTYEKDSIFGQAMELGLLETVGLGWKTAETYVDNINAITAEQIQQAANRYFQDNAITEARLIPV</Hsp_hseq>
+      <Hsp_midline>M   L+ L  +LS Q+FSQV EY LNNGLKVLVKEDHRAPVVVSMIWYNVGS+DEP GITG+SHA+EH+MFKGT+KYP+GVFS+TIAA+GGQENAFTN DYTAY+EK+ A  L  SFELEADRM NLLL+  EFAKEIKVI+EERRLRTD+NPQALAFER+LATAHL+APY+HP+IGWM+D+ QM ++DL+ WYE +YAP+NATL+V+GDVNPE+VH LAE YFG I K+    RKPQ EP  LG K   I APA+LPLL+ GY  PSVKTAK  WEPYALE+IA ILDAGESARFAK L+RG+ VA+GA AYYN+Y+RY +QFI++G PSQ H I  ++ AL+ E++ LK  P+S  ELQRVK QIIAQKT+EKDSIFGQAMELGLLET+GLGWK  ETY   IN IT EQIQQ A RYFQ+N +T A L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112247608</Statistics_db-num>
+      <Statistics_db-len>41144954208</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
