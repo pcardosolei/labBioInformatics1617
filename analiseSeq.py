@@ -644,6 +644,15 @@ def keggMet(tag):
     if "NAME" in line:
       name = re.split(r' ',line)
       owrite.write("GENE NAME: "+ name[-1])
+    if "REACTIONS" in line or flagReactions == 0:
+      if flagReactions == 1:
+        flagReactions = 0
+        owrite.write(line)
+      elif "COMPOUND" in line:
+        flagReactions = 1
+      else:
+        owrite.write(line)
+
 
 def keggTrans(tag):
   request = REST.kegg_get("lpn:"+tag)
@@ -790,10 +799,11 @@ def makeGenText(dictionary):
 
 def main():
 
-  dic = locateFeatures()
-  readXMLGene("geneXML",dic)
-  getUniProtLegionella(dic)
-  makeGenText(dic)
+  #dic = locateFeatures()
+  #readXMLGene("geneXML",dic)
+  #getUniProtLegionella(dic)
+  #makeGenText(dic)
+  cddTest("history.a61043@alunos.uminho.pt",215020)
   """
 
   #blastAllSeq("fastas")
@@ -812,7 +822,6 @@ def main():
   #clustalW()
   #Entrezparsing()
 
-  #cddTest("history.a61043@alunos.uminho.pt",215020)
   makeGenText(dic)
 
   """
