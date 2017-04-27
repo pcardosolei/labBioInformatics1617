@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grupo 12 - BioInformática 2016/2017</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">BioInformática 2016/2017</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Legionella</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Passos Iniciais</a>
+                    </li>
+                    <li>
+                        <a href="arvores.html">Dominios/Arvores</a>
+                    </li>
+                    <li>
+                        <a href="analise.html">Redes metabólica/regulatória</a>
+                    </li>
+                    <li>
+                        <a href="conclusion.html">Conclusão</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Equipa</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>Legionella pneumophila</h1>
+                        <hr class="small">
+                        <span class="subheading"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <h2>Análise aos genes com função metabólica:</h2>
+                <p>
+Em relação ao genoma em estudo, foram encontrados 18 genes com funções, possivelmente, metabólicas. Assim, aprofundando a pesquisa sobre as vias metabólicas destes genes, pesquisou-se a nível do NCBI e da base de dados KEGG.
+Gene Identification (Name, Locus tag, NCBI GeneID, NCBI Acession (GI))
+EC number
+KEGG reactions ID's
+KEGG pathways</p>
+<pre><code>
+def keggMet(tag):
+  request = REST.kegg_get("lpn:"+tag)
+  open("lpn:"+tag,"w").write(request.read())
+  records = Enzyme.parse(open("lpn:"+tag))
+  record = list(records)[0]
+  ofile = open("lpn:"+tag,"r")
+  owrite = open("kegg/lpn:"+tag,"w")
+  flagPath=flagMotifs=flagOrtho=1
+  for line in ofile:
+    if "ORTHOLOGY" in line or flagPath == 0:
+      if flagOrtho == 1:
+        flagOrtho = 0
+        owrite.write(line)
+      elif "ORGANISM" in line:
+        flagOrtho = 1
+      else:
+        owrite.write(line)
+    if "PATHWAY" in line or flagPath == 0:
+      if flagPath == 1:
+        flagPath = 0
+        owrite.write(line)
+      elif "BRITE" in line or "MODULE" in line:
+        flagPath = 1
+      else:
+        owrite.write(line)
+    if "MOTIF" in line or flagMotifs == 0:
+      if flagMotifs == 1:
+        flagMotifs = 0
+        owrite.write(line)
+      elif "DBLINKS" in line:
+        flagMotifs = 1
+      else:
+        owrite.write(line)
+    if "NAME" in line:
+      name = re.split(r' ',line)
+      owrite.write("GENE NAME: "+ name[-1])
+    if "REACTIONS" in line or flagReactions == 0:
+      if flagReactions == 1:
+        flagReactions = 0
+        owrite.write(line)
+      elif "COMPOUND" in line:
+        flagReactions = 1
+      else:
+        owrite.write(line)
+</code></pre>
+
+            <h2>Análise aos genes com função reguladora: fatores de transcrição</h2>
+<p>
+Os factores de transcrição são proteínas que se ligam ao DNA de células eucarióticas para permitir que haja uma ligação entre a enzima RNA-polimerase e o DNA, permitindo, assim, a transcrição e, futuramente a tradução.
+Em relação ao genoma em estudo, foram encontrados 10 genes com função reguladora, assim, para aprofundar a pesquisa em termos de fatores de transcrição, realizou-se um estudo relativamente aos fatores de transcrição codificados pela zona do genoma de interesse. Deste modo, utilizaram-se as bases de dados DBD: Trancription factor prediction database e EMBL-EBI.
+Gene Identification (Name, Locus tag, NCBI GeneID, NCBI Acession (GI), Strand)
+Transcription Identification (Name, Properties-Transcription ID, Sequence ID -, Domain Architecture)
+</p>
+                <a href="http://www.transcriptionfactor.org/index.cgi?Genome+gn:x7+id:+page:1+limit:50">
+                    <img class="img-responsive" src="img/transporte.png" alt="">
+                </a>
+
+        <h2>Análise dos genes com função patogénica e de resistência</h2>
+        <p>No ponto de vista da interação da Legionella pneumophila com o hospedeiro humano, a infeção e interação por parte desta bactéria, bem como a sua propagação e fármacos a utilizar, são pontos de interesse neste trabalho. Assim sendo, e com base na base de dados PATRIC, identificou-se um aglomerado de genes envolvidos em processos patogénicos e de resistência a antibióticos. Foi possível recolher ainda a função biológica de cada gene e os processos em que estão envolvidos.
+Identificação dos genes (Nome; Locus tag; PATRIC ID);
+Propriedades (Virulência ou Resistência);
+Source;
+Product (proteína codificada pelo gene);
+Function.</p>
+        <a href="http://www.transcriptionfactor.org/index.cgi?Genome+gn:x7+id:+page:1+limit:50">
+            <img class="img-responsive" src="img/patric.png" alt="">
+        </a>
+        <h2>Análise dos genes com função de transporte</h2>
+        <p>
+Um transportador pode atuar por diferentes mecanismos, transportando compostos do interior/exterior da célula para o exterior/interior. Cada transportador é caracterizado pelo tipo de compostos que movimenta e pelo local onde se encontra na célula.
+Em relação ao genoma em estudo, foram encontrados 44 genes com função de transporte e no sentido de aprofundar a pesquisa em termos de transportadores, realizou-se um estudo às proteínas transportadoras codificadas pela zona do genoma de interesse. Assim, utilizou-se a base de dados TCDB e transportDB, e obtiveram-se os resultados organizados por:
+Identificação do gene (Nome; Locus tag;  GeneID; GI; KEGG ID);
+Family ID;
+Family TC;
+Tipo de transportador;
+Substrato transportado.</p>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                            <a href="https://github.com/pcardosolei/labBioInformatics1617">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>

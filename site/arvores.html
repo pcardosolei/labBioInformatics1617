@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grupo 12 - BioInformática 2016/2017</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">BioInformática 2016/2017</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Legionella</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Passos Iniciais</a>
+                    </li>
+                    <li>
+                        <a href="arvores.html">Domínios/Árvores</a>
+                    </li>
+                    <li>
+                        <a href="analise.html">Redes metabólica/regulatória</a>
+                    </li>
+                    <li>
+                        <a href="conclusion.html">Conclusão</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Equipa</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>Legionella pneumophila</h1>
+                        <hr class="small">
+                        <span class="subheading"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    <h2>Bases de dados de domínios de proteínas</h2>
+
+                    <p>Quando realizamos análises bioinformáticas de sequências protéicas identificamos domínios como blocos de motivos estruturais ou de sequências que são recorrentes em proteínas estudadas.</p>
+
+                    <p>Contudo, mesmo utilizando várias ferramentas bioinformáticas, houve proteínas cuja função é desconhecida. Assim, utilizamos a NCBI CDD (“conserved domain database”), esta permite-nos determinar o domínio destas proteínas sem função e consequentemente aumentar a precisão da previsão das funções destas.</p>
+
+                    <p>Para isso, foi criado um script que procura na base de dados NCBI CDD os domínios das proteinas em estudo e, ao mesmo tempo, podemos aceder a mais informações sobre estas sem necessitar de outras ferramentas/bases de dados. A ferramenta não resolve todos os problemas relativos à anotação funcional de proteínas mas dá para observar, que dá uma ajuda valiosa.</p>
+
+<pre><code>def Entrezparsing():
+  owrite = open("cddGenes.txt","w")
+  owrite.write("CDD GENES \n")
+  for l in range(2542,2772):
+    owrite.write("lps"+str(l)+"---->")
+    try:
+      ofile = open("geneXML/lpg"+str(l)+".xml")
+      tree = ET.parse(ofile)
+      root = tree.getroot()
+      place = root.findall("./Entrezgene/Entrezgene_comments/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_source/Other-source/Other-source_src/Dbtag/Dbtag_db")
+      dbID = root.findall("./Entrezgene/Entrezgene_comments/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_products/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_comment/Gene-commentary/Gene-commentary_source/Other-source/Other-source_src/Dbtag/Dbtag_tag/Object-id/Object-id_id")
+      lens = len(place)
+      for i in range(lens):
+        if place[i].text == "CDD":
+          owrite.write(dbID[i].text+",")
+      owrite.write("\n")
+      ofile.close()
+    except IOError:
+      owrite.write("\n")
+
+
+
+def cddTest(user,idC):
+  Entrez.email = user
+  handle = Entrez.esummary(db="cdd",id=idC)
+  ofile = open("cdd_"+str(idC)+".html","w")
+  records = Entrez.parse(handle)
+  for record in records:
+    ofile.write("ID: "+record["Id"]+"\n")
+    ofile.write("Title: "+record["Title"]+"\n")
+    ofile.write("SubTitle: "+record["Subtitle"]+"\n")
+    ofile.write("Accession: "+record["Accession"]+"\n\n")
+    ofile.write("Abstract: "+record["Abstract"]+"\n")
+  ofile.close()
+</code></pre>
+<p>Código relativo à procura de ids para a base de dados CDD em relação a uma locusTag</p>
+<pre><code>
+"""
+  PROSITE
+"""
+def scanProsite(dic,tag):
+  handle = ScanProsite.scan(seq=dic[tag].seq,lowscore=1)
+  result = ScanProsite.read(handle)
+  for i in range(len(result)):
+    print(result[i])
+
+def testProsite():
+  handle = ExPASy.get_prosite_entry('PS50943') #está como exemplo
+  ofile = open("test.html","wb")
+  ofile.write(handle.read())
+  ofile.close()
+</code></pre>
+<p> Procura com uma sequencia fasta de hits na base de dados prosite. Depois com os id's guardavamos o html respectivo do que foi encontrado neste caso PS50943.</p>
+
+<h2>Alinhamento múltiplo e filogenia</h2>
+    <p>Numa última fase de análise sobre os genes, destacam-se os que têm função indefinida e para tal, procede-se a uma análise filogenética entre este conjunto de genes com função desconhecida e um conjunto de genes com função bem definida através das análises anteriormente efectuadas.
+As árvores filogenéticas respetivas encontram-se representadas seguidamente, sendo que apenas se definiram de acordo com 3 genes de função desconhecida, escolhidos previamente, uma vez que eram em grande número na ordem dos 250 genes e todos eles, seguem o mesmo conceito definido anteriormente.</p>
+                <a href="#">
+                    <img class="img-responsive" src="img/lpg2560.png" alt="">
+                </a>
+                <p>Árvore filogenética do blast relativo ao locusTag 2560</p>
+                <a href="#">
+                    <img class="img-responsive" src="img/lpg2643.png" alt="">
+                </a>
+                <p>Árvore filogenética do blast relativo ao locusTag 2643</p>
+                <a href="#">
+                    <img class="img-responsive" src="img/lpg2758.png" alt="">
+                </a>
+                <p>Árvore filogenética do blast relativo ao locusTag 2748</p>
+            <pre><code>def prepFichClustalW(dic,tag):
+  genID = dic[tag].db_xref
+  lista = []
+  ofile = open("clustaLW"+tag+".fasta","w")
+  result_handle = open("blasts/"+genID+".xml")
+  blast_record = NCBIXML.read(result_handle)
+  E_VALUE_THRESH = 0.04 ##ThreshHold
+  for alignment in blast_record.alignments:
+     for hsp in alignment.hsps:
+         if hsp.expect < E_VALUE_THRESH:
+            s = re.split(r'>',alignment.title)[0]
+            if "hypothetical" not in s:
+              pass
+            else:
+              filo = s[s.find("[")+1:s.find("]")]
+              if filo not in lista:
+                lista.append(filo)
+                subject = filo.replace(' ','_')
+                ofile.write(">"+subject+":\n")
+                ofile.write(hsp.sbjct[0:])
+                ofile.write("\n\n")
+  ofile.close()
+            </code></pre>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                            <a href="https://github.com/pcardosolei/labBioInformatics1617">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
